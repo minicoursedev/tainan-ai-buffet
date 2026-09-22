@@ -30,7 +30,10 @@ for (const [label, content, expected] of [
 }
 
 const homeNav = home.match(/<nav aria-label="主要導覽">[\s\S]*?<\/nav>/)?.[0] ?? '';
-if (homeNav.includes('friends.html') || homeNav.includes('串門子')) throw new Error('Friends navigation link must remain hidden');
+const friendsNav = friends.match(/<nav aria-label="主要導覽">[\s\S]*?<\/nav>/)?.[0] ?? '';
+for (const [label, nav] of [['home', homeNav], ['friends', friendsNav]]) {
+  if (!nav.includes('<a href="/friends.html">串門子</a>')) throw new Error(`Missing friends navigation link in ${label}`);
+}
 if (readDist('CNAME').trim() !== 'minicourse.dev') throw new Error('CNAME must remain minicourse.dev');
 
 for (const url of ['https://minicourse.dev/', 'https://minicourse.dev/friends.html', 'https://minicourse.dev/event/20260909/']) {
