@@ -47,6 +47,7 @@ const description = '台南AI爽是在台南舉辦的 AI 小型聚會，聊 AI �
           <p class="featured-meta"><time datetime={nextEvent.date}>{nextEventDate}</time>{nextEvent.startTime && <> · {nextEvent.startTime}{nextEvent.endTime && `–${nextEvent.endTime}`}</>}<br />{nextEvent.location}</p>
           <div class="hero-actions">
             {nextEvent.registration && <a class="button" href={nextEvent.registration}>{nextEvent.registrationLabel || '活動報名'} <span aria-hidden="true">↗</span></a>}
+            {nextEvent.slides && <a class="button" href={`/${nextEvent.slides}`} aria-label={`閱讀 ${nextEvent.title} 簡報`}>閱讀簡報 <span aria-hidden="true">↗</span></a>}
             <a class="text-link" href="#event-details">這場聊什麼 <span aria-hidden="true">↓</span></a>
           </div>
         </header>
