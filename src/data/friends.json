@@ -6,16 +6,15 @@
     "location": "台南市中西區",
     "locationNote": "確切地點報名後通知",
     "url": "https://mii-lab.tw/meetup",
-    "hours": "19:00–21:00",
+    "hours": "",
     "title": "新手村零基礎場",
-    "description": "用 AI，把一句話變成你的旅遊行程網站",
+    "description": "零基礎、免費參加，請自備電腦",
     "dates": [
-      "2026/09/30（三）",
-      "或 2026/10/02（五）"
+      "下一場日期未定"
     ],
     "sortDate": "2026-10-02T19:00:00+08:00",
     "endsAt": null,
-    "note": "暫定・日期投票中"
+    "note": "10/2 場已額滿；下一場可先留資料，日期確定後通知"
   },
   {
     "organizer": "Mii Lab",
@@ -24,15 +23,15 @@
     "location": "台南市中西區",
     "locationNote": "確切地點報名後通知",
     "url": "https://mii-lab.tw/meetup",
-    "hours": "19:00–21:00",
+    "hours": "平日 19:00–21:00",
     "title": "台南 AI 實體小聚",
-    "description": "",
+    "description": "需有 AI 實作基礎，可帶作品交流；免費參加",
     "dates": [
-      "2026/09/23（三）"
+      "2026/10（日期規劃中）"
     ],
-    "sortDate": "2026-09-23T19:00:00+08:00",
-    "endsAt": "2026-09-23T21:00:00+08:00",
-    "note": ""
+    "sortDate": "2026-10-01T00:00:00+08:00",
+    "endsAt": null,
+    "note": "開放登記，日期確定後通知"
   },
   {
     "organizer": "臺南市政府經濟發展局",
