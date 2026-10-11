@@ -8,7 +8,10 @@ const prefix = home ? '' : '/';
 ---
 <a class="skip-link" href="#main">跳到主要內容</a>
 <header class="site-header wrap">
+  <div class="header-brands">
+    <span class="parent-brand"><img src="/assets/minicourse-logo.svg" alt="迷你課 MiniCourse，台南 AI 爽的主品牌" width="1168" height="358" /></span>
   <a class="brand" href="/" aria-label="台南AI爽首頁"><span class="brand-mark" aria-hidden="true">爽</span><span>台南AI爽<small>TAINAN AI BUFFET</small></span></a>
+  </div>
   <nav aria-label="主要導覽">
     {hasUpcoming && <a href={`${prefix}#upcoming`}>近期活動</a>}
     <a href={`${prefix}#about`}>關於聚會</a>
