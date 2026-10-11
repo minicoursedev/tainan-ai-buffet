@@ -2,7 +2,7 @@ import type { APIRoute } from 'astro';
 import { events } from '../lib/data';
 
 const base = 'https://minicourse.dev/';
-const urls = [base, `${base}friends.html`, ...new Set(events.filter(event => event.slides).map(event => `${base}${event.slides}`))];
+const urls = [`${base}youtube-uploader/`, `${base}youtube-uploader/privacy/`, `${base}youtube-uploader/terms/`, base, `${base}friends.html`, ...new Set(events.filter(event => event.slides).map(event => `${base}${event.slides}`))];
 const escape = (value: string) => value.replace(/[&<>'"]/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character]!);
 
 export const GET = (() => new Response(
