@@ -8,5 +8,5 @@ const { skill } = Astro.props;
   <h3>{skill.title}</h3>
   <p>{skill.summary}</p>
   <div class="skill-example"><span>你可以這樣說</span><q>{skill.example}</q></div>
-  <div class="skill-actions"><a class="button" href={skill.url} target="_blank" rel="noopener noreferrer">查看使用方式 <span aria-hidden="true">↗</span></a><span>{skill.origin}</span></div>
+  <div class="skill-actions"><a class="button" data-ga-event="skill_click" data-content-id={skill.name} data-placement="skills" href={skill.url} target="_blank" rel="noopener noreferrer">查看使用方式 <span aria-hidden="true">↗</span></a><span>{skill.origin}</span></div>
 </article>
