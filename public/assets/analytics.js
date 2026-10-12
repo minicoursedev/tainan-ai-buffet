@@ -4,10 +4,10 @@
   window.dataLayer = window.dataLayer || [];
   window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
   window.gtag('js', new Date());
-  window.gtag('config', 'G-MMZT76WB4W');
+  window.gtag('config', 'G-0NYJ6BX1XJ');
   const script = document.createElement('script');
   script.async = true;
-  script.src = 'https://www.googletagmanager.com/gtag/js?id=G-MMZT76WB4W';
+  script.src = 'https://www.googletagmanager.com/gtag/js?id=G-0NYJ6BX1XJ';
   document.head.appendChild(script);
 
   // Delegation also covers archive cards replaced after fetching current events.
