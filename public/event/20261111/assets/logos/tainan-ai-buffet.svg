@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="180" viewBox="0 0 620 180" role="img" aria-labelledby="title desc">
+  <title id="title">台南AI爽</title>
+  <desc id="desc">台南AI爽 TAINAN AI BUFFET 品牌識別，透明背景</desc>
+  <rect x="28" y="32" width="112" height="112" fill="#7b4f9e"/>
+  <rect x="16" y="20" width="112" height="112" fill="#f2cc5d" stroke="#eef4df" stroke-width="8"/>
+  <text x="72" y="103" fill="#24322e" font-family="PingFang TC, Noto Sans TC, sans-serif" font-size="68" font-weight="900" text-anchor="middle">爽</text>
+  <text x="168" y="79" fill="#24322e" font-family="PingFang TC, Noto Sans TC, sans-serif" font-size="50" font-weight="900">台南AI爽</text>
+  <text x="170" y="128" fill="#24322e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="23" font-weight="800" letter-spacing="5">TAINAN AI BUFFET</text>
+</svg>
