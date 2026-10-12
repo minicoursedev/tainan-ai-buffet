@@ -33,5 +33,16 @@
     "registration": "https://lman-37f33d.kktix.cc/events/26107",
     "registrationLabel": "前往 KKTIX 免費報名",
     "topics": []
+  },
+  {
+    "date": "2026-11-11",
+    "datePending": true,
+    "title": "AI 的進度，由你掌握",
+    "summary": "論企業與團隊的 AI 協作",
+    "location": "待通知",
+    "slides": "event/20261111/",
+    "registration": null,
+    "status": "upcoming",
+    "topics": []
   }
 ]

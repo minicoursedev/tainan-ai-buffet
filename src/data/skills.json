@@ -7,5 +7,14 @@
     "example": "幫我把目前進度整理成可直接交接的摘要",
     "url": "https://github.com/minicoursedev/tainan-ai-buffet/tree/main/skills/task-handoff",
     "origin": "來自「AI 怎麼模組化？」"
+  },
+  {
+    "name": "talk-to-presentation",
+    "category": "簡報製作",
+    "title": "說說變簡報",
+    "summary": "從你與 AI 的對話整理內容，製作 HTML 簡報，也能進一步產生配音與影片。",
+    "example": "幫我把剛才討論的內容整理成一份簡報",
+    "url": "https://github.com/minicoursedev/talk-to-presentation",
+    "origin": "來自「AI 怎麼模組化？」"
   }
 ]

@@ -14,6 +14,7 @@ const dateTime = z.iso.datetime({ offset: true });
 
 const eventSchema = z.object({
   date,
+  datePending: z.boolean().optional(),
   title: z.string().trim().min(1),
   summary: z.string().trim().min(1),
   slides: z.string().regex(/^event\/\d{8}\/$/).nullable(),

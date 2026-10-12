@@ -41,10 +41,10 @@ const description = '台南AI爽是在台南舉辦的 AI 小型聚會，聊 AI �
     {nextEvent ? <section class="featured-event wrap" id="upcoming" aria-labelledby="hero-title">
       <article id={`event-${nextEvent.date}`}>
         <header class="featured-event-header">
-          <p class="eyebrow">台南 AI 小型聚會 · 現在接受報名</p>
+          <p class="eyebrow">台南 AI 小型聚會 · {nextEvent.registration ? '現在接受報名' : '活動預告'}</p>
           <h1 id="hero-title">{nextEvent.title}</h1>
           <p class="featured-summary">{nextEvent.summary}</p>
-          <p class="featured-meta"><time datetime={nextEvent.date}>{nextEventDate}</time>{nextEvent.startTime && <> · {nextEvent.startTime}{nextEvent.endTime && `–${nextEvent.endTime}`}</>}<br />{nextEvent.location}</p>
+          <p class="featured-meta">{nextEvent.datePending ? <span>活動日期：待通知</span> : <time datetime={nextEvent.date}>{nextEventDate}</time>}{nextEvent.startTime && <> · {nextEvent.startTime}{nextEvent.endTime && `–${nextEvent.endTime}`}</>}<br />活動地點：{nextEvent.location}</p>
           <div class="hero-actions">
             {nextEvent.registration && <a class="button" href={nextEvent.registration}>{nextEvent.registrationLabel || '活動報名'} <span aria-hidden="true">↗</span></a>}
             {nextEvent.slides && <a class="button" href={`/${nextEvent.slides}`} aria-label={`閱讀 ${nextEvent.title} 簡報`}>閱讀簡報 <span aria-hidden="true">↗</span></a>}
