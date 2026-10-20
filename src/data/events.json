@@ -36,12 +36,13 @@
   },
   {
     "date": "2026-11-11",
-    "datePending": true,
-    "title": "AI 的進度，由你掌握",
+    "datePending": false,
+    "title": "洋流地圖怎麼做？我教你啊",
     "summary": "論企業與團隊的 AI 協作",
-    "location": "待通知",
+    "location": "台南新芽",
     "slides": "event/20261111/",
-    "registration": null,
+    "registration": "https://lman-37f33d.kktix.cc/events/pumamap",
+    "registrationLabel": "報名",
     "status": "upcoming",
     "topics": []
   }
