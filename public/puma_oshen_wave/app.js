@@ -51,6 +51,10 @@ function restoreLinkedShop() {
 function locateMe() {
   const button = byId('home-map'), status = byId('map-status');
   const report = text => { status.hidden = false; status.textContent = text; };
+  if (!shopMap.active) {
+    report('地圖尚未載入完成，請稍後再點「我的位置」。');
+    return;
+  }
   if (!navigator.geolocation) {
     report('此瀏覽器不支援定位，請使用手機瀏覽器開啟 HTTPS 網站。');
     return;
@@ -58,20 +62,36 @@ function locateMe() {
   button.disabled = true;
   button.textContent = '定位中…';
   report('正在取得你的位置…');
-  const finish = () => { button.disabled = false; button.textContent = '我的位置'; };
+  let finished = false;
+  const finish = () => {
+    finished = true;
+    clearTimeout(watchdog);
+    button.disabled = false;
+    button.textContent = '我的位置';
+  };
+  const watchdog = setTimeout(() => {
+    report('定位等待逾時，請確認已允許位置存取，再點「我的位置」重試。');
+    finish();
+  }, 20000);
+  try {
   navigator.geolocation.getCurrentPosition(async ({coords}) => {
+    if (finished) return;
     try {
       if (!await shopMap.load(shops)) {
         report('地圖暫時無法載入，請重新整理後再試。');
         return;
       }
+      if (finished) return;
       resetMap();
       setView(true);
       shopMap.locate({lat:coords.latitude, lng:coords.longitude});
       byId('location-name').textContent = '我的位置';
       report(`已定位，精確度約 ${Math.round(coords.accuracy)} 公尺`);
+    } catch {
+      if (!finished) report('定位結果無法顯示，請再試一次。');
     } finally { finish(); }
   }, error => {
+    if (finished) return;
     const messages = {
       1:'尚未允許定位，請在瀏覽器或手機設定中允許位置存取後再試。',
       2:'暫時無法取得位置，請確認手機定位服務已開啟後再試。',
@@ -79,7 +99,11 @@ function locateMe() {
     };
     report(messages[error.code] || '定位失敗，請稍後再試。');
     finish();
-  }, {enableHighAccuracy:true, timeout:15000, maximumAge:0});
+  }, {enableHighAccuracy:false, timeout:15000, maximumAge:60000});
+  } catch {
+    report('此瀏覽器無法啟動定位，請確認位置權限後再試。');
+    finish();
+  }
 }
 function resetMap() {
   history.replaceState(null, "", shopUrl(null));
@@ -263,13 +287,13 @@ async function init(){
     byId('category-toggle').onclick=()=>{const b=byId('category-toggle');b.setAttribute('aria-expanded',String(b.getAttribute('aria-expanded')!=='true'));};
     byId('list-view').onclick=()=>setView(false);
     byId('map-view').onclick=()=>setView(true);
-    byId('home-map').addEventListener('click',locateMe);
   }catch{
     byId('result-count').textContent='載入失敗';
     const error=node('div',undefined,'empty-state');error.append(node('strong','店家資料暫時無法載入'),node('p','請重新整理頁面再試一次。'));
     const retry=node('button','重新載入');retry.onclick=()=>location.reload();error.append(retry);byId('shop-list').replaceChildren(error);
   }
 }
+byId('home-map').addEventListener('click', locateMe);
 const contactDialog = byId('contact-dialog');
 byId('contact-open').addEventListener('click', () => contactDialog.showModal());
 contactDialog.addEventListener('click', event => {
