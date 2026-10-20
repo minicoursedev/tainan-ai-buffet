@@ -1,4 +1,4 @@
-import {createShopMap} from './shop-map.js?v=20261020-osm';
+import {createShopMap} from './shop-map.js?v=20261020-service-size';
 const byId = id => document.getElementById(id);
 const origin = '22.997137,120.21295';
 let shops = [], category = '', selectedId = null;

@@ -53,6 +53,10 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         positions.set(shop.id, position);
         const badge = document.createElement('div');
         badge.className = 'osm-shop-pin';
+        const scale = shop.category === '洋流服務站' ? 1.15 : 1;
+        const width = 24 * scale, height = 30 * scale;
+        badge.style.width = `${width}px`;
+        badge.style.height = `${height}px`;
         if (shop.mapMarker?.image && shop.mapMarker?.label) {
           badge.classList.add('osm-portrait-pin');
           const portrait = document.createElement('img');
@@ -62,7 +66,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         } else badge.textContent = '●';
         const marker = L.marker(position, {
           title:shop.name, alt:shop.name,
-          icon:L.divIcon({html:badge, className:'osm-marker', iconSize:[24,30],iconAnchor:[12,30]})
+          icon:L.divIcon({html:badge, className:'osm-marker', iconSize:[width,height],iconAnchor:[width/2,height]})
         });
         marker.on('click', () => onSelect(shop));
         if (!visibleIds || visibleIds.has(shop.id)) marker.addTo(map);
