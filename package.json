@@ -1,0 +1,19 @@
+{
+  "name": "tainan-ai-buffet",
+  "private": true,
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "check": "ASTRO_TELEMETRY_DISABLED=1 astro check && ASTRO_TELEMETRY_DISABLED=1 astro build && node scripts/check-build.mjs",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview"
+  },
+  "dependencies": {
+    "astro": "^7.3.3",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@types/node": "^26.6.1",
+    "typescript": "^6.0.3"
+  }
+}

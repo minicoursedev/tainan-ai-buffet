@@ -1,0 +1,54 @@
+[
+  {
+    "organizer": "Mii Lab",
+    "contact": "Sandra",
+    "format": "線下",
+    "location": "台南市中西區",
+    "locationNote": "確切地點報名後通知",
+    "url": "https://mii-lab.tw/meetup",
+    "hours": "",
+    "title": "新手村零基礎場",
+    "description": "零基礎、免費參加，請自備電腦",
+    "dates": [
+      "下一場日期未定"
+    ],
+    "sortDate": "2026-10-02T19:00:00+08:00",
+    "endsAt": null,
+    "note": "10/2 場已額滿；下一場可先留資料，日期確定後通知"
+  },
+  {
+    "organizer": "Mii Lab",
+    "contact": "Sandra",
+    "format": "線下",
+    "location": "台南市中西區",
+    "locationNote": "確切地點報名後通知",
+    "url": "https://mii-lab.tw/meetup",
+    "hours": "平日 19:00–21:00",
+    "title": "台南 AI 實體小聚",
+    "description": "需有 AI 實作基礎，可帶作品交流；免費參加",
+    "dates": [
+      "2026/10（日期規劃中）"
+    ],
+    "sortDate": "2026-10-01T00:00:00+08:00",
+    "endsAt": null,
+    "note": "開放登記，日期確定後通知"
+  },
+  {
+    "organizer": "臺南市政府經濟發展局",
+    "contact": "ACCUPASS 刊登：蔓妮藝能有限公司",
+    "format": "線下",
+    "location": "大臺南會展中心（熱蘭遮 A 廳）",
+    "locationNote": "台南市歸仁區歸仁十二路 3 號",
+    "url": "https://www.accupass.com/event/2609040316121587209216",
+    "hours": "",
+    "title": "〖T-AI-NAN 智匯臺南 永續賦能〗2026臺南市科技產業研討暨策展",
+    "description": "",
+    "dates": [
+      "2026/09/16（三）09:00",
+      "至 2026/09/17（四）17:30"
+    ],
+    "sortDate": "2026-09-16T09:00:00+08:00",
+    "endsAt": "2026-09-17T17:30:00+08:00",
+    "note": ""
+  }
+]

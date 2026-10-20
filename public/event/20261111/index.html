@@ -1,0 +1,399 @@
+<!doctype html><html lang="zh-Hant"><head>
+<script src="/assets/analytics.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 的進度，由你掌握｜圖文簡報</title><style>*{box-sizing:border-box}body{margin:0;background:#101a24;color:#eef4f6;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",sans-serif}.frame{position:relative;width:100vw;height:100vh}.slide{position:absolute;inset:0;padding:7vh 8vw 12vh;display:none;flex-direction:column;justify-content:center}.slide.active{display:flex}h1{font-size:clamp(26px,min(6.3vw,10vh),94px);line-height:1.3;font-weight:760;margin:0;letter-spacing:-.025em}.kicker{position:absolute;top:5vh;left:8vw;font-size:clamp(12px,1.4vw,20px);color:#7fc6d4}.foot{position:absolute;bottom:9vh;left:8vw;right:8vw;font-size:clamp(10px,1.1vw,16px);line-height:1.65;color:#b1c4cb;max-height:18vh}a{color:#a2d3df}.controls{position:fixed;bottom:2vh;left:8vw;right:8vw;display:flex;justify-content:space-between;align-items:center;font-size:13px;color:#b1c4cb}button{font:inherit;padding:6px 14px;background:transparent;color:inherit;border:1px solid #617c86;cursor:pointer}#page{padding:0 14px}@media(max-width:600px){.slide{padding:8vh 7vw 21vh}h1{font-size:clamp(26px,7.2vw,42px)}.foot{max-height:22vh;bottom:9vh}}body{background:#f8f5ed;color:#2c402f}.slide{background:#f8f5ed url('assets/style/botanical-original-v2.png') center/100% 100% no-repeat}h1{color:#304830;font-family:'Noto Serif TC','Songti TC','PMingLiU',serif}.kicker{color:#5d7253}.foot,.foot a{color:#4b5a46}.controls,.controls a{color:#455b3e}button{border-color:#899b77;color:#455b3e}
+
+.kicker{top:7vh}
+body:not(:has(.scene)) .slide[data-page="7"] h1{font-size:clamp(22px,2.65vw,51px);line-height:1.35}
+.slide{padding:11vh 5vw 23vh}.kicker{left:5vw}.composition{display:grid;grid-template-columns:1fr 1.3fr;gap:3vw;align-items:center;width:100%;height:100%}.composition h1{font-size:clamp(26px,3.05vw,64px);line-height:1.5;overflow-wrap:normal}.illustration{display:block;width:100%;max-height:60vh;object-fit:contain;border-radius:14px}.foot{left:5vw;right:5vw;bottom:9vh;max-height:18vh;font-size:clamp(10px,1vw,16px)}.controls{left:5vw;right:5vw}@media(max-width:700px){.slide{padding:10vh 6vw 24vh}.composition{grid-template-columns:1fr;gap:2vh;align-content:center}.composition h1{font-size:clamp(22px,5vw,32px);line-height:1.35}.illustration{width:100%;max-height:32vh}.foot{font-size:10px;max-height:16vh}.kicker{font-size:11px}}/* This case's whole-deck composition, independent of shared styles. */
+.scene{padding:0!important;overflow:hidden;background:#0c1722}
+.scene .kicker{top:5vh;left:5.5vw;right:5.5vw;font-size:clamp(11px,1.1vw,21px);letter-spacing:.09em;color:#b6d5da;z-index:3}
+.scene-art{position:absolute;display:block;object-fit:contain;width:100%;height:100%;max-height:none;border-radius:0;inset:0}
+.scene-shade{position:absolute;inset:0;pointer-events:none}
+.scene-copy{position:absolute;left:5.5vw;right:5.5vw;margin:0;font-size:clamp(24px,3.9vw,76px);line-height:1.42;letter-spacing:-.035em;color:#f7f4ed;z-index:2;font-weight:720}
+.copy-line{display:block}
+.scene .foot{z-index:3;left:5.5vw;right:5.5vw;bottom:8vh;max-height:16vh;font-size:clamp(9px,.87vw,17px);line-height:1.6;color:#b7c9d0}
+.scene .foot a{color:#b7c9d0}
+.controls{z-index:10;font-size:clamp(10px,.9vw,16px);color:#94a8b4;bottom:1.7vh}
+.controls button{border-color:#78919d40;border-radius:99px;padding:5px 15px}.controls a{color:#94a8b4}
+.progress{position:fixed;z-index:11;left:0;bottom:0;width:100%;height:3px;margin:0;accent-color:#90cbc9;opacity:.5;cursor:pointer}
+.scene-cover .scene-art{object-fit:cover;object-position:center 43%;opacity:.84}
+.scene-cover .scene-shade{background:linear-gradient(180deg,#07121be6 0%,#07121b3d 36%,transparent 57%,#07121b 95%)}
+.scene-cover .scene-copy{top:12vh;font-size:clamp(35px,5.1vw,98px);line-height:1.22;text-shadow:0 3px 24px #0006}
+.scene-cover .copy-line:last-child{color:#a7ded5}
+.scene-cinematic .scene-art{object-fit:cover;object-position:center 43%}
+.scene-cinematic .scene-shade{background:linear-gradient(180deg,#09131dd9 0%,transparent 28%,transparent 48%,#09131ddd 78%,#09131d 100%)}
+.scene-cinematic .scene-copy{bottom:16vh;font-size:clamp(26px,3.8vw,73px);line-height:1.32;text-shadow:0 3px 20px #0009}
+.scene-cinematic[data-page="3"] .scene-copy{inset:0}
+.scene-cinematic[data-page="3"] .copy-line:first-child{position:absolute;top:12vh;left:5.5vw;font-size:clamp(19px,2.2vw,42px);letter-spacing:.025em;font-weight:550;color:#bddbdc}
+.scene-cinematic[data-page="3"] .copy-line:nth-child(2){position:absolute;bottom:27vh;left:5.5vw;font-size:clamp(19px,2.5vw,48px);font-weight:500}
+.scene-cinematic[data-page="3"] .copy-line:last-child{position:absolute;bottom:14.8vh;left:5.5vw;font-size:clamp(26px,4.2vw,81px);color:#f4ead6}
+.scene-poster .scene-copy{top:12vh;text-align:center;font-size:clamp(24px,3.45vw,66px);line-height:1.3}
+.scene-poster .copy-line:first-child{color:#a0d6d4}
+.scene-poster .scene-art{inset:32vh 12vw 14vh;width:76vw;height:54vh;object-fit:contain;mask-image:linear-gradient(180deg,#000 85%,transparent)}
+.scene-feature .scene-art{inset:10vh auto 14vh 0;width:62vw;height:75vh;object-fit:cover;object-position:center;mask-image:linear-gradient(90deg,#000 75%,transparent)}
+.scene-feature .scene-copy{left:60vw;right:4.5vw;top:29vh;font-size:clamp(22px,2.75vw,53px);line-height:1.55}
+.scene-feature .copy-line:first-child{color:#a5d8d1;margin-bottom:2.5vh}
+.scene-feature[data-page="5"] .scene-copy{font-size:clamp(21px,2.45vw,47px)}
+.scene-feature[data-page="15"] .scene-copy{left:57vw;right:4vw;font-size:clamp(21px,2.5vw,48px)}
+.scene-triptych .scene-art{inset:10vh 8vw auto;width:84vw;height:58vh;object-fit:contain;mask-image:linear-gradient(180deg,#000 86%,transparent)}
+.scene-triptych .scene-copy{top:70vh;display:grid;grid-template-columns:repeat(3,1fr);gap:3vw;font-size:clamp(18px,2.2vw,43px);line-height:1.35;letter-spacing:-.025em;text-align:center}
+.scene-triptych .copy-line{padding-top:2vh;border-top:1px solid #79b6c15c}
+.scene-triptych[data-page="6"] .copy-line:last-child{font-size:.85em}
+.scene-triptych .foot{bottom:8vh;max-height:7vh}
+.scene-statistics .scene-art{object-fit:cover;opacity:.38;object-position:center}
+.scene-statistics .scene-shade{background:linear-gradient(180deg,#08152288,transparent 33%,#081522df 74%,#081522)}
+.scene-statistics .scene-copy{top:22vh;display:grid;grid-template-columns:repeat(3,1fr);gap:3vw;font-size:clamp(18px,2vw,38px);text-align:center}
+.stat strong{display:block;font-size:clamp(42px,7.2vw,138px);font-weight:650;letter-spacing:-.06em;line-height:1.25;color:#c3e6dd}
+.stat>span{display:block;margin-top:2vh;font-weight:500}
+.scene-statistics .foot{max-height:22vh;bottom:9vh}
+.scene-journey .scene-art{object-fit:cover;object-position:center 48%}
+.scene-journey .scene-shade{background:linear-gradient(180deg,#0815229c,transparent 27%,transparent 47%,#081522ed 79%,#081522)}
+.scene-journey .scene-copy{bottom:17vh;display:grid;grid-template-columns:repeat(3,1fr);gap:4vw;font-size:clamp(22px,2.7vw,52px);text-align:center}
+.scene-journey .copy-line{position:relative;padding-top:2vh;border-top:1px solid #a9dfd979}
+.scene-journey .copy-line:not(:last-child):after{content:'→';position:absolute;right:-3.1vw;color:#87bbc0;font-weight:400}
+.scene-closing .scene-art{object-fit:cover;object-position:center}
+.scene-closing .scene-shade{background:linear-gradient(90deg,transparent 25%,#09151b66 47%,#09151bd9 74%),linear-gradient(0deg,#09151b,transparent 35%)}
+.scene-closing .scene-copy{left:52vw;right:4vw;top:23vh;font-size:clamp(25px,3.5vw,68px);line-height:1.6}
+.scene-closing .copy-line:last-child{color:#9ad8cc;margin-top:2vh}
+@media(max-aspect-ratio:1/1){
+ .scene-copy{font-size:5vw}.scene-cinematic .scene-art{object-fit:contain;inset:19vh 0 auto;height:60vh}
+ .scene-cinematic .scene-shade{background:linear-gradient(180deg,#09131d 10%,transparent 35%,transparent 55%,#09131d 80%)}
+ .scene-cinematic[data-page="3"] .copy-line:last-child{font-size:5vw}.scene-cinematic[data-page="3"] .copy-line:nth-child(2){bottom:22vh;font-size:3.8vw}
+ .scene-feature .scene-art{inset:12vh 0 auto;width:100vw;height:47vh;object-fit:contain;mask-image:none}
+ .scene-feature .scene-copy,.scene-feature[data-page="15"] .scene-copy{left:7vw;right:7vw;top:62vh;font-size:4vw;line-height:1.35}
+ .scene-feature .copy-line:first-child{margin-bottom:1vh}.scene-feature .foot{max-height:8vh;font-size:9px}
+ .scene-triptych .scene-copy{font-size:3.4vw;gap:2vw}.scene-triptych .scene-art{inset:13vh 4vw auto;width:92vw;height:54vh}
+ .scene-statistics .scene-copy{gap:2vw;font-size:3vw}.stat strong{font-size:8vw}
+ .scene-journey .scene-copy{font-size:3.4vw}.scene-closing .scene-copy{left:10vw;top:48vh;font-size:6vw}
+}
+
+/* Slide 7: actual brand glyphs identify each platform. */
+.stat .stat-logo{display:flex;align-items:center;justify-content:center;width:clamp(58px,7.6vw,146px);height:clamp(58px,7.6vw,146px);margin:0 auto 2.2vh;border-radius:24%;background:var(--brand);box-shadow:0 14px 36px #0004}
+.stat-logo img{display:block;width:69%;height:69%;object-fit:contain}.stat-logo img.light-ink{filter:invert(1)}
+.stat .stat-country{display:block;margin:0 0 1.6vh;font-size:clamp(17px,1.9vw,36px);font-weight:500;letter-spacing:.12em;color:#f4f1e8}
+
+.stat-logo img.dark-ink{width:100%;height:100%;background:#191600;border-radius:24%}
+
+/* Inserted slide: setup paths, scoped to this case and composition. */
+.setup-title{position:absolute;top:11vh;left:5.5vw;margin:0;font-size:clamp(23px,3.25vw,63px);line-height:1.2;letter-spacing:-.025em;font-weight:700}
+.setup-title:first-line{color:#f5f1e9}
+.setup-rows{position:absolute;top:27vh;left:5.5vw;right:5.5vw;display:grid;gap:1vh}
+.setup-row{display:grid;grid-template-columns:13vw 1fr;gap:2vw;align-items:center;min-height:9.5vh;border-top:1px solid #aacdc133;padding-top:1.2vh}
+.setup-brand{display:flex;gap:1vw;align-items:center;font-size:clamp(12px,1.3vw,25px)}
+.setup-brand>span{width:4.2vw;height:4.2vw;max-width:76px;max-height:76px;border-radius:24%;background:var(--brand);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.setup-brand img{width:70%;height:70%;object-fit:contain}.setup-brand img.white{filter:invert(1)}.setup-brand img.color{width:90%;height:90%}
+.setup-path p{font-size:clamp(10px,1vw,19px);color:#97bbb9;margin:0 0 1vh}
+.setup-path ol{list-style:none;display:flex;gap:2.1vw;padding:0;margin:0;align-items:center}
+.setup-path li{position:relative;font-size:clamp(11px,1.36vw,27px);font-weight:550;white-space:nowrap}
+.setup-path li+li:before{content:'→';position:absolute;left:-1.65vw;color:#689c9e;font-weight:400}
+.setup-art{position:absolute;left:5.5vw;top:70vh;width:27vw;height:16vh;object-fit:cover;object-position:center 76%;border-radius:8px;mask-image:linear-gradient(90deg,#000 75%,transparent)}
+.setup-takeaway{position:absolute;left:36vw;top:70.5vh;margin:0;font-size:clamp(16px,2vw,39px);line-height:1.45;color:#bdc9ca}.setup-takeaway strong{color:#afe2d4;font-weight:650}
+.scene-onboarding .foot{bottom:7vh;font-size:clamp(8px,.78vw,15px);max-height:7vh;line-height:1.5}
+@media(max-aspect-ratio:1/1){.setup-title{font-size:4.4vw}.setup-row{grid-template-columns:15vw 1fr}.setup-brand{flex-direction:column;gap:.5vh;font-size:2vw}.setup-brand>span{width:6vw;height:6vw}.setup-path li{font-size:1.8vw}.setup-path p{font-size:1.65vw}.setup-takeaway{font-size:3vw}.scene-onboarding .foot{font-size:1.25vw}}
+/* Case-local editorial market stage. */
+.market-slide{padding:0!important;overflow:hidden;background:radial-gradient(ellipse at 50% 76%,#1b3544 0,transparent 58%),#0c151f}
+.market-slide:before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 14% 62%,#44c6ad0c,transparent 35%),radial-gradient(ellipse at 85% 64%,#9b94fb12,transparent 35%)}
+.market-slide .kicker{top:5.7vh;left:6vw;font-size:clamp(11px,1.1vw,20px);letter-spacing:.13em;color:#9caebc}
+.market-heading{position:absolute;top:12.3vh;left:6vw;font-size:clamp(25px,3.55vw,68px);font-weight:720;line-height:1.3;letter-spacing:-.045em;color:#f5f1e9}
+.market-heading span{color:#9edbd5}
+.market-stage{position:absolute;left:6vw;right:6vw;top:28vh;bottom:16vh;isolation:isolate}
+.market-backdrop{position:absolute;left:10%;top:0;width:80%;height:100%;object-fit:cover;opacity:.12;filter:saturate(.35);z-index:-2;mask-image:radial-gradient(ellipse,#000 5%,transparent 72%)}
+.orbit-ring{position:absolute;left:12%;top:17%;width:76%;height:66%;border:1px solid #8ebfc526;border-radius:50%;box-shadow:0 0 48px #5bd4cb05,inset 0 0 35px #5bd4cb05;transform:rotate(-8deg)}
+.orbit-ring i{position:absolute;inset:10%;border:1px solid #8ebfc512;border-radius:50%}
+.orbit-ring i+i{inset:-12%;border-color:#8ebfc50b}
+.orbit-core{position:absolute;left:50%;top:47%;transform:translate(-50%,-50%);text-align:center;font-size:clamp(17px,2.2vw,40px);letter-spacing:.07em;line-height:1.65;color:#f5f1e9}
+.orbit-core span,.orbit-core strong{display:block;font-weight:400}.orbit-core span{font-size:.6em;color:#7d9ca9;letter-spacing:.28em}
+.market-zone{position:absolute;top:0;bottom:0;width:30%;left:calc(var(--x) - 15%);opacity:0;--region:#88dac5}
+.market-zone[data-group=office]{--region:#9ecbe9}.market-zone[data-group=specific]{--region:#b2a7ed}
+.market-zone:before{content:'';position:absolute;inset:26% -3% -6%;border-radius:50%;background:radial-gradient(ellipse at 50% 82%,color-mix(in srgb,var(--region),transparent 94%),transparent 65%);pointer-events:none}
+.zone-number{position:absolute;right:4%;top:0;font-size:clamp(35px,5vw,90px);line-height:1;font-weight:250;color:#ffffff0c;letter-spacing:-.07em}
+.market-zone h2{font-size:clamp(24px,3.15vw,60px);font-weight:650;letter-spacing:.03em;margin:0 0 1vh 6%;color:#f5f1e9}
+.market-zone p{font-size:clamp(11px,1.15vw,22px);letter-spacing:.12em;margin:0 0 0 6%;color:#90a4b0}
+.zone-line{position:absolute;left:6%;right:6%;top:24%;height:1px;background:linear-gradient(90deg,var(--region),#ffffff0c)}
+.zone-line:before{content:'';position:absolute;left:0;top:-2px;height:5px;width:5px;border-radius:50%;background:var(--region)}
+.market-chip{position:absolute;left:50%;top:50%;width:25%;height:11%;display:flex;align-items:center;justify-content:flex-start;gap:1.05vw;padding:0 1.1vw;border-radius:1.25vw;background:linear-gradient(140deg,#fbfcfd,#dce5ed);box-shadow:0 14px 30px #0004,0 1px 0 #fff7 inset;font-size:clamp(14px,1.85vw,35px);font-weight:680;letter-spacing:-.025em;color:#16212d;transform:translate(-50%,-50%);white-space:nowrap;will-change:left,top,transform,opacity}
+.app-mark{display:flex;align-items:center;justify-content:center;flex:none;width:2.9vw;height:2.9vw;max-height:76%;border-radius:.8vw;background:var(--brand);color:#fff;font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-size:1.8vw;font-weight:800;box-shadow:inset 0 1px 1px #fff5,0 3px 7px #10203018}
+.market-crossover{position:absolute;left:70%;right:3%;top:71%;text-align:left;color:#8fa3b0;font-size:clamp(10px,1.05vw,20px);line-height:1.7;opacity:0}
+.market-crossover strong{display:block;font-weight:500;color:#b7addf;margin-bottom:2px}.market-crossover strong:before{content:'↗';margin-right:.5em}
+.market-actions{position:absolute;right:6vw;top:5vh;display:flex;gap:10px;align-items:center}
+.market-actions button{border-radius:99px;font-size:clamp(10px,.9vw,16px);padding:7px 15px;border:1px solid #8094a32e;color:#9dafbb;background:#ffffff03}.market-actions button:hover{background:#ffffff10;color:#fff}.market-actions button:disabled{opacity:.35;cursor:default}
+.market-phase{color:#728a99;font-size:clamp(10px,.85vw,16px);min-width:6em;text-align:right;margin-right:8px}
+.market-slide .foot{left:6vw;right:6vw;bottom:8.9vh;max-height:6vh;font-size:clamp(10px,.9vw,17px);color:#8194a1}
+@media(max-width:700px){.market-slide .kicker{top:4vh}.market-heading{top:14vh;font-size:5.1vw;max-width:88vw;line-height:1.5}.market-heading span{display:block}.market-actions{top:7.5vh;left:6vw;right:auto}.market-stage{top:34vh;bottom:20vh}.market-zone h2{font-size:4.6vw}.market-zone p{font-size:9px;letter-spacing:0}.zone-number{font-size:9vw;top:-3vh}.zone-line{top:25%}.market-chip{width:28%;font-size:2.65vw;border-radius:2vw;gap:1vw;padding:0 1.2vw;height:11%}.app-mark{width:4vw;height:4vw;border-radius:1vw;font-size:2.5vw}.market-crossover{left:69%;font-size:9px;line-height:1.5}.market-slide .foot{bottom:10vh;max-height:8vh}.orbit-core{font-size:3vw}.market-actions button{padding:5px 12px}}
+.app-mark img{width:72%;height:72%;object-fit:contain;filter:invert(1)}
+/* Case-only direction from the user's botanical paper reference. */
+:root{--ink:#283b30;--sage:#526a50;--gold:#a57e39;--muted:#596354;--paper:#f8f5ed}
+body{background:var(--paper);color:var(--ink)}
+.scene,.market-slide{background:var(--paper) url('assets/style/botanical-original-v2.png') center/100% 100% no-repeat}
+.scene .kicker,.market-slide .kicker{color:var(--sage);font-weight:550;letter-spacing:.14em}
+.scene-copy{color:var(--ink);font-family:'Noto Serif TC','Songti TC','PMingLiU',serif;font-weight:650;letter-spacing:.01em;text-shadow:none!important}
+.scene-shade{display:none}
+.scene-art{mix-blend-mode:multiply;opacity:1;object-fit:contain;mask-image:none}
+.scene .foot,.market-slide .foot,.scene .foot a{color:#485344}
+.scene .foot{padding:5px 8px;background:#faf8f0b8;border-radius:3px}
+.controls{color:#3f503e;background:#faf8efd9;border-top:1px solid #a57e3933;padding-top:.65vh;bottom:1.5vh}
+.controls a{color:#425b40}.controls button{background:#f9f6edcf;border-color:#8d9c7966;color:#3f503e}
+.progress{accent-color:#607953;opacity:.8}
+.scene-cover .scene-art{inset:31vh 18vw auto;width:77vw;height:59vh;object-fit:contain;opacity:1;object-position:center}
+.scene-cover .scene-copy{top:13vh;left:8vw;right:8vw;font-size:clamp(33px,4.9vw,94px);line-height:1.28}
+.scene-cover .copy-line:last-child{color:#56744f}
+.scene-cover .foot{max-width:48vw}
+.scene-cinematic .scene-art{inset:19vh 25vw auto;width:70vw;height:49vh;object-fit:contain}
+.scene-cinematic[data-page="3"] .copy-line:first-child{top:13vh;left:8vw;font-size:clamp(18px,2.2vw,42px);color:#677248;font-family:-apple-system,BlinkMacSystemFont,sans-serif}
+.scene-cinematic[data-page="3"] .copy-line:nth-child(2){left:8vw;bottom:27vh;color:var(--sage);font-size:clamp(20px,2.4vw,46px)}
+.scene-cinematic[data-page="3"] .copy-line:last-child{left:8vw;bottom:16vh;color:var(--ink);font-size:clamp(25px,3.5vw,67px)}
+.scene-poster .scene-copy{top:12vh;color:var(--ink);line-height:1.35;font-size:clamp(24px,3.25vw,63px)}
+.scene-poster .copy-line:first-child{color:var(--sage)}
+.scene-poster .scene-art{inset:29vh 13vw auto;width:74vw;height:53vh;object-fit:contain;mask-image:none}
+.scene-feature .scene-art{inset:17vh auto auto 5vw;width:53vw;height:64vh;object-fit:contain;mask-image:none}
+.scene-feature .scene-copy{left:60vw;right:6vw;top:30vh;font-size:clamp(22px,2.6vw,50px);line-height:1.65}
+.scene-feature .copy-line:first-child{color:var(--sage)}
+.scene-feature[data-page="5"] .scene-copy{font-size:clamp(21px,2.35vw,45px)}
+.scene-triptych .scene-art{inset:14vh 8vw auto;width:84vw;height:53vh;mask-image:none}
+.scene-triptych .scene-copy{top:69vh;color:var(--ink);font-size:clamp(18px,2.2vw,43px);font-family:-apple-system,BlinkMacSystemFont,sans-serif}
+.scene-triptych .copy-line{border-top:1px solid #a57e3970;padding-top:2vh}
+.scene-statistics .scene-art{inset:9vh 17vw auto;width:66vw;height:75vh;object-fit:contain;opacity:.18}
+.scene-statistics .scene-copy{top:24vh;font-family:-apple-system,BlinkMacSystemFont,sans-serif}
+.stat strong{color:#3c593e;font-weight:580}.stat .stat-country{color:#344b35}
+.stat .stat-logo{box-shadow:0 10px 25px #53653c20}
+.scene-statistics .foot{background:#faf8f1dc}
+.scene-journey .scene-art{inset:14vh 9vw auto;width:82vw;height:55vh;object-fit:contain}
+.scene-journey .scene-copy{bottom:19vh;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-size:clamp(21px,2.7vw,52px)}
+.scene-journey .copy-line{border-color:#a57e3970}.scene-journey .copy-line:after{color:var(--gold)!important}
+.setup-title{color:var(--ink);font-family:'Noto Serif TC','Songti TC','PMingLiU',serif;font-weight:650;letter-spacing:.015em}
+.setup-title:first-line{color:var(--ink)}
+.setup-row{border-color:#a57e3950}.setup-brand{color:var(--ink)}
+.setup-path p{color:#5e7057}.setup-path li{color:#293f2d}.setup-path li+li:before{color:#9b7937}
+.setup-art{mix-blend-mode:multiply;object-fit:contain;object-position:center;mask-image:none}
+.setup-takeaway{color:#66705b}.setup-takeaway strong{color:#3f623f}
+.market-slide:before{display:none}.market-heading{color:var(--ink);font-family:'Noto Serif TC','Songti TC','PMingLiU',serif;font-weight:650;letter-spacing:0}
+.market-heading span{color:#58714e}.market-backdrop{opacity:.13;filter:none;mix-blend-mode:multiply;object-fit:contain}
+.orbit-core{color:#354f37}.orbit-core span{color:#72774f}
+.orbit-ring{border-color:#9f813d66;box-shadow:none}.orbit-ring i{border-color:#9f813d3d}.orbit-ring i+i{border-color:#9f813d22}
+.market-zone{--region:#708b5f}.market-zone[data-group=office]{--region:#b18d4c}.market-zone[data-group=specific]{--region:#8a7b64}
+.market-zone h2{color:#314a34;font-family:'Noto Serif TC','Songti TC','PMingLiU',serif;font-weight:650}.market-zone p{color:#586751}
+.zone-number{color:#5c704d18}.zone-line{background:linear-gradient(90deg,var(--region),#8c9d5e22)}
+.market-chip{background:linear-gradient(140deg,#fffef9,#f2eedf);border:1px solid #b4ae875c;box-shadow:0 8px 20px #6872531d,0 1px 0 #fff inset;color:#283c2b;border-radius:.8vw}
+.market-crossover{color:#62674f}.market-crossover strong{color:#6f6042}
+.market-actions button{color:#40563b;border-color:#9b8d6555;background:#faf7ecdd}.market-actions button:hover{color:#283c2b;background:#eee9d9}.market-phase{color:#596c4b}
+@media(max-aspect-ratio:1/1){
+ .scene-cover .scene-copy{font-size:5.5vw;top:17vh}.scene-cover .scene-art{left:11vw;width:84vw;top:35vh;height:49vh}
+ .scene-cinematic .scene-art{left:12vw;width:85vw;top:23vh;height:41vh}
+ .scene-cinematic[data-page="3"] .copy-line:last-child{font-size:4.8vw;bottom:17vh}.scene-cinematic[data-page="3"] .copy-line:nth-child(2){font-size:3.4vw;bottom:26vh}
+ .scene-feature .scene-art{inset:15vh 6vw auto;width:88vw;height:45vh}
+ .scene-feature .scene-copy,.scene-feature[data-page="5"] .scene-copy{left:8vw;right:8vw;top:62vh;font-size:3.6vw;line-height:1.4}
+ .scene-poster .scene-copy{font-size:4.4vw}.scene-triptych .scene-copy{font-size:3.2vw}.scene-journey .scene-copy{font-size:3.3vw}
+}
+
+/* Keep the new original background accents clear of slide labels. */
+.scene .kicker,.market-slide .kicker{top:7vh}
+
+/* Slide 7: two deliberate visual bands rather than stacked prose. */
+.scene-statistics .scene-copy{top:16vh;left:7vw;right:7vw;gap:0}
+.scene-statistics .stat{padding:0 2vw;position:relative}
+.scene-statistics .stat+.stat{border-left:1px solid #9f91673b}
+.scene-statistics .stat-logo{width:clamp(48px,6.2vw,119px);height:clamp(48px,6.2vw,119px);margin-bottom:1.6vh;box-shadow:0 8px 24px #506a401a}
+.scene-statistics .stat-country{margin-bottom:1vh;font-size:clamp(16px,1.65vw,32px);letter-spacing:.16em}
+.scene-statistics .stat strong{font-size:clamp(42px,6.6vw,127px);line-height:1.2;letter-spacing:-.055em}
+.scene-statistics .scene-art{top:9vh;height:41vh;opacity:.10}
+.market-needs{position:absolute;left:7vw;right:7vw;top:53vh;height:25vh;padding:2.4vh 3vw;background:#425c45;color:#fffdf2;border-radius:1.2vw;box-shadow:0 12px 32px #30432f12;z-index:3}
+.market-needs h2{font:500 clamp(12px,1.18vw,23px)/1.4 -apple-system,BlinkMacSystemFont,sans-serif;margin:0 0 2.2vh;color:#e5e6d0;letter-spacing:.08em}
+.needs-items{display:grid;grid-template-columns:1fr 1fr 1.25fr;gap:2vw}
+.needs-item{display:flex;flex-direction:column;gap:1.1vh;padding-left:2vw;border-left:1px solid #d8c58a80}
+.needs-item:first-child{padding-left:0;border-left:0}
+.needs-label{font-size:clamp(12px,1.2vw,23px);color:#d9c997;letter-spacing:.12em}
+.needs-item strong{font-family:'Noto Serif TC','Songti TC','PMingLiU',serif;font-size:clamp(19px,2.3vw,44px);line-height:1.35;font-weight:600;white-space:nowrap}
+.scene-statistics .foot{bottom:8vh;padding:0 1.5vw;background:transparent;color:#53604c}
+@media(max-aspect-ratio:1/1){.market-needs h2{font-size:2vw}.needs-label{font-size:2vw}.needs-item strong{font-size:3vw}.market-needs{height:24vh}.scene-statistics .stat strong{font-size:8vw}}
+/* Whole-canvas compositions, scoped to this report. */
+.scene,.market-slide{background:#f8f5ed}
+.scene-art,.setup-art,.market-backdrop{mix-blend-mode:normal;border-radius:0}
+.scene .foot{background:transparent;padding:0;left:6vw;right:6vw;font-size:clamp(9px,.82vw,16px)}
+.scene .kicker,.market-slide .kicker{left:6vw;top:6vh;letter-spacing:.1em}
+.controls{background:transparent;border-color:#a57e3928}
+.scene-cover .scene-art,.scene-cinematic[data-page="3"] .scene-art{inset:0;width:100vw;height:100vh;object-fit:cover;object-position:center;opacity:1}
+.scene-cover .scene-copy{top:25vh;left:6vw;right:44vw;font-size:clamp(32px,4.15vw,80px);line-height:1.48;letter-spacing:0}
+.scene-cover .copy-line:last-child{color:#506a48}
+.scene-cover .foot{display:none}
+.scene-cinematic[data-page="3"] .copy-line:first-child{top:23vh;left:6vw;font-size:clamp(17px,1.9vw,37px)}
+.scene-cinematic[data-page="3"] .copy-line:nth-child(2){top:33vh;bottom:auto;left:6vw;font-size:clamp(23px,2.65vw,51px);line-height:1.4}
+.scene-cinematic[data-page="3"] .copy-line:last-child{top:44vh;bottom:auto;left:6vw;width:34vw;font-size:clamp(25px,3.15vw,61px);line-height:1.55;text-wrap:balance}
+.scene-cinematic[data-page="3"] .foot{right:65vw;bottom:11vh}
+.scene-poster .scene-copy{top:15vh;font-size:clamp(24px,3.25vw,63px);line-height:1.5}
+.scene-poster .scene-art{inset:32vh 5vw auto;width:90vw;height:54vh}
+.scene-feature .scene-art{inset:16vh auto auto 0;width:66vw;height:67vh}
+.scene-feature .scene-copy,.scene-feature[data-page="5"] .scene-copy{top:29vh;left:64vw;right:5vw;font-size:clamp(22px,2.65vw,51px);line-height:1.65;text-wrap:balance}
+.scene-feature .copy-line:first-child{margin-bottom:3vh}
+.scene-triptych .scene-art{inset:-6vh 5vw auto;width:90vw;height:60vw}
+.scene-triptych .scene-copy{left:8vw;right:8vw;top:69vh;gap:5vw;font-size:clamp(18px,2.2vw,43px)}
+.scene-triptych .copy-line{border:0;padding:0}
+.scene-triptych .copy-line:before{content:'';display:block;width:2vw;height:2px;background:#a57e39;margin:0 auto 2vh}
+.scene-statistics .scene-art{inset:6vh 25vw auto;width:50vw;height:45vh;opacity:.09}
+.market-needs{border-radius:0;box-shadow:none}
+.scene-journey .scene-art{inset:-10vh 2vw auto;width:96vw;height:64vw}
+.scene-journey .scene-copy{left:5vw;right:5vw;bottom:auto;top:82vh;gap:3vw;font-size:clamp(21px,2.45vw,47px)}
+.scene-journey .copy-line{border:0;padding-top:0}
+.scene-journey .copy-line:after{display:none}
+.scene-journey .copy-line:nth-child(2){transform:translateY(-14vh)}
+.scene-journey .copy-line:nth-child(3){transform:translateY(-29vh)}
+.setup-title{top:13vh;left:6vw;font-size:clamp(23px,3.1vw,60px)}
+.setup-rows{left:6vw;right:6vw;top:28vh}
+.setup-art{left:62vw;top:3vh;width:34vw;height:24vh;opacity:1}
+.setup-takeaway{left:6vw;top:73vh;font-size:clamp(16px,1.8vw,35px)}
+.setup-takeaway br{display:none}.setup-takeaway strong{margin-left:.4em}
+.scene-onboarding .foot{bottom:7vh}
+.scene-poster[data-page="11"] .scene-art{top:23vh;height:65vh;width:92vw;left:4vw}
+.market-backdrop{opacity:.08}
+/* Slide 8: image and labels share one proportional canvas at every window ratio. */
+.scene-journey[data-page="8"] .journey-canvas{position:absolute;top:3vh;left:50%;transform:translateX(-50%);width:min(94vw,130vh);height:min(62.6667vw,86.6667vh)}
+.scene-journey[data-page="8"] .journey-canvas .scene-art{inset:0;width:100%;height:100%;object-fit:contain}
+.scene-journey[data-page="8"] .journey-canvas .scene-copy{inset:0;width:100%;height:100%;display:block;font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-weight:650;font-size:clamp(18px,min(3.3vw,3.9vh),44px);line-height:1.35;letter-spacing:.01em}
+.scene-journey[data-page="8"] .journey-canvas .copy-line{position:absolute;width:34%;margin:0;padding:0;border:0;transform:none;text-align:center;white-space:nowrap}
+.scene-journey[data-page="8"] .journey-canvas .copy-line:nth-child(1){left:0;top:85%}
+.scene-journey[data-page="8"] .journey-canvas .copy-line:nth-child(2){left:34%;top:73%}
+.scene-journey[data-page="8"] .journey-canvas .copy-line:nth-child(3){left:65%;top:59%}
+@media(max-aspect-ratio:4/3){
+ .scene-cover .scene-art,.scene-cinematic[data-page="3"] .scene-art{object-fit:contain;mix-blend-mode:normal;top:calc((100vh - 56.25vw)/2);height:56.25vw;mask-image:linear-gradient(180deg,transparent,#000 12%,#000 88%,transparent)}
+ .scene-cover .scene-copy{top:24vh;font-size:4.3vw;right:42vw}
+ .scene-cover .foot{bottom:25vh;max-width:43vw}
+ .scene-cinematic[data-page="3"] .copy-line:first-child{top:27vh;font-size:2vw}
+ .scene-cinematic[data-page="3"] .copy-line:nth-child(2){top:35vh;font-size:2.8vw}
+ .scene-cinematic[data-page="3"] .copy-line:last-child{top:43vh;font-size:3.3vw}
+ .scene-cinematic[data-page="3"] .foot{right:6vw;bottom:12vh}
+ .scene-feature .scene-art{inset:12vh 0 auto;width:100vw;height:47vh}
+ .scene-feature .scene-copy,.scene-feature[data-page="5"] .scene-copy{left:8vw;right:8vw;top:64vh;text-align:center;font-size:3.5vw;line-height:1.4}
+ .scene-feature .copy-line:first-child{margin-bottom:1vh}
+ .scene-triptych .scene-art{top:12vh;height:60vh}
+ .scene-journey .scene-art{top:12vh;height:60vh}
+ .scene-journey .scene-copy{top:69vh;font-size:2.8vw;left:15vw;right:15vw}
+ .scene-journey .copy-line:nth-child(2){transform:translateY(-9vh)}
+ .scene-journey .copy-line:nth-child(3){transform:translateY(-18vh)}
+ .scene-triptych .scene-copy{top:67vh;font-size:2.7vw}
+}
+
+/* Keep the three illustrations and their captions on the same proportional canvas. */
+.scene-triptych .triptych-canvas{position:absolute;top:9vh;left:50%;transform:translateX(-50%);width:min(90vw,132vh);height:min(60vw,88vh)}
+.scene-triptych .triptych-canvas .scene-art{inset:0;width:100%;height:100%;object-fit:contain}
+.scene-triptych .triptych-canvas .scene-copy{left:0;right:0;top:76%;bottom:auto;gap:0;font-size:clamp(18px,min(2.2vw,3.8vh),43px);line-height:1.4}
+.scene-triptych .triptych-canvas .copy-line{width:100%;padding:0}
+.scene-triptych .triptych-canvas .copy-line:before{margin-bottom:1.5vh}
+/* Breathing room above and below the four onboarding rows. */
+.scene-onboarding .setup-title{font-size:clamp(23px,min(3.1vw,5.8vh),60px)}
+.scene-onboarding .setup-rows{top:30vh;gap:1vh}
+.scene-onboarding .setup-row{min-height:9vh;padding-top:1vh}
+.scene-onboarding .setup-brand>span{width:min(4.2vw,6.8vh);height:min(4.2vw,6.8vh)}
+.scene-onboarding .setup-takeaway{top:75vh;margin-top:0}
+
+/* Zoom into slide 12's outgoing Webhook lane, scoped to this new page. */
+.scene-channels[data-page="13"].active .scene-art{transform-origin:72% 28%;animation:webhook-focus 1.05s cubic-bezier(.2,.7,.2,1) both}
+@keyframes webhook-focus{from{opacity:0;transform:translate(12vw,-9vh) scale(.3)}to{opacity:1;transform:translate(0,0) scale(1)}}
+@media(prefers-reduced-motion:reduce){.scene-channels[data-page="13"].active .scene-art{animation:none}}
+
+.scene-channels[data-page="15"] .scene-copy{top:12vh;font-size:clamp(26px,3.2vw,62px)}
+.scene-channels[data-page="15"] .scene-art{top:22vh;height:65vh;width:94vw;left:3vw}
+
+.scene-invite .invite-content{position:absolute;inset:17vh 8vw 14vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.scene-invite .invite-content>img{width:min(10vw,15vh);height:min(10vw,15vh);object-fit:contain;margin-bottom:3vh;filter:invert(40%) sepia(79%) saturate(1959%) hue-rotate(217deg) brightness(98%) contrast(94%)}
+.scene-invite .invite-content h1{font-family:serif;font-size:clamp(30px,min(4.3vw,7vh),78px);font-weight:650;line-height:1.4;letter-spacing:0}
+.scene-invite .invite-content p{font-size:clamp(20px,min(2.5vw,4vh),45px);color:#56704f;margin:2vh 0 5vh}
+.scene-invite .invite-content a{font-size:clamp(19px,min(2.6vw,4vh),46px);font-weight:600;text-decoration:none;color:#293e30;border-bottom:2px solid #ac823a;padding:1vh 2vw}
+.scene-invite .invite-content small{font-size:clamp(12px,1.2vw,20px);color:#69745e;margin-top:2vh}
+
+.scene-invite .invite-content{inset:13vh 8vw 12vh}
+.scene-invite .invite-content>img{width:min(8vw,11vh);height:min(8vw,11vh);margin-bottom:2vh}
+.scene-invite .invite-content p{margin:1.5vh 0 2.5vh}
+.scene-invite .invite-line{display:flex;flex-direction:column;align-items:center;gap:1vh;margin-top:3vh;padding-top:2vh;border-top:1px solid #bdc6af;width:min(660px,70vw);font-size:clamp(15px,min(1.7vw,2.9vh),30px);color:#56704f}
+.scene-invite .invite-line a{font-size:clamp(15px,min(1.7vw,2.9vh),30px);padding:.5vh 1vw;border-color:#70845d}
+
+/* Slide 2: keep category headers above the fixed landing lanes on wide windows. */
+.market-zone h2{font-size:clamp(18px,min(3.15vw,6vh),60px);line-height:1.2;margin-bottom:1vh}
+.market-zone p{font-size:clamp(9px,min(1.15vw,2.4vh),22px);line-height:1.35}
+.market-chip{font-size:clamp(12px,min(1.85vw,4vh),35px)}
+.market-chip .app-mark{width:min(2.9vw,4.5vh);height:min(2.9vw,4.5vh);font-size:min(1.8vw,3vh)}
+
+/* Page 16: requested text-left / screenshot-right composition. */
+.scene-invite .invite-content{inset:16vh auto 14vh 6vw;width:33vw;align-items:flex-start;text-align:left}
+.scene-invite .invite-content h1{font-size:clamp(24px,min(2.8vw,5.2vh),54px);line-height:1.45}
+.scene-invite .invite-content p{font-size:clamp(16px,min(1.65vw,3.1vh),32px);margin:2vh 0 3vh}
+.scene-invite .invite-content a{font-size:clamp(16px,min(1.7vw,3vh),32px);padding:1vh 0}
+.scene-invite .invite-content small{font-size:clamp(11px,1vw,17px)}
+.scene-invite .invite-line{width:100%;align-items:flex-start;text-align:left;font-size:clamp(13px,min(1.35vw,2.6vh),25px);margin-top:3vh}
+.scene-invite .invite-line a{font-size:clamp(13px,min(1.35vw,2.6vh),25px)}
+.scene-invite .invite-proof{position:absolute;left:43vw;top:17vh;width:53vw;height:68vh;object-fit:contain;object-position:center;border-radius:0}
+
+.scene-conversation .conversation-title{position:absolute;left:6vw;top:12vh;font-family:'Noto Serif TC','Songti TC','PMingLiU',serif;font-size:clamp(28px,min(3.8vw,6.8vh),68px);font-weight:650;line-height:1.25;letter-spacing:0}
+.scene-conversation .conversation-proof{position:absolute;left:7vw;top:24vh;width:86vw;height:59vh;object-fit:contain}
+.scene-conversation .conversation-flow{position:absolute;left:6vw;right:6vw;top:85vh;margin:0;text-align:center;color:#293e30;font-size:clamp(17px,min(2vw,3.1vh),34px);font-weight:650;line-height:1.3}
+.scene-conversation .conversation-flow span{color:#ac823a;margin:0 1em}
+
+.scene-community .community-brand{position:absolute;left:33vw;top:13vh;width:34vw;height:20vh;object-fit:contain}
+.community-links{position:absolute;left:10vw;right:10vw;top:43vh;bottom:15vh;display:grid;grid-template-columns:1fr 1fr}
+.community-links>a{display:flex;flex-direction:column;align-items:center;justify-content:center;text-decoration:none;text-align:center;color:#293e30}
+.community-links>a+a{border-left:1px solid #b7bea9}
+.community-icon{display:flex;align-items:center;justify-content:center;width:7vh;height:7vh;border-radius:1.5vh;margin-bottom:2vh}
+.community-icon.discord{background:#5865f2}.community-icon.line{background:#06c755}
+.community-icon img{width:72%;height:72%;object-fit:contain;filter:invert(1)}
+.community-links h1{font-family:'Noto Serif TC','Songti TC','PMingLiU',serif;font-size:clamp(22px,min(2.7vw,4.7vh),48px);font-weight:650;line-height:1.4;letter-spacing:0}
+.community-links p{font-size:clamp(15px,min(1.65vw,2.8vh),28px);color:#69745e;margin:1.5vh 0 3vh}
+.community-links strong{font-size:clamp(14px,min(1.65vw,2.8vh),28px);border-bottom:1px solid #ac823a;padding-bottom:1vh}
+
+.scene-community .community-home{position:absolute;left:33vw;top:12vh;width:34vw;height:26vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.5vh;text-decoration:none;color:#56704f}
+.scene-community .community-home .community-brand{position:static;width:100%;height:19vh;object-fit:contain}
+.scene-community .community-home span{font-size:clamp(14px,min(1.6vw,2.8vh),27px);border-bottom:1px solid #ac823a;padding-bottom:.5vh}
+
+/* New generated cover, one full-bleed composition. */
+.scene-cover .kicker,.scene-cover .scene-shade{display:none}
+.scene-cover .scene-art{inset:0;width:100vw;height:100vh;object-fit:cover;object-position:center;mask-image:none;opacity:1}
+.scene-cover .scene-copy{top:27vh;left:7vw;right:auto;width:46vw;text-align:left;font-size:clamp(32px,min(5.8vw,10.4vh),112px);line-height:1.28;letter-spacing:.025em;z-index:2}
+.scene-cover .copy-line:first-child{font-size:.66em;color:#50634a;letter-spacing:.05em}
+.scene-cover .copy-line:last-child{margin-top:2.3vh;color:#293e30}
+.scene-cover .cover-brands{position:absolute;left:7vw;top:65vh;width:40vw;display:flex;align-items:flex-start;gap:3vw;z-index:3}
+.scene-cover .cover-brands a{display:flex;flex:1;min-width:0;flex-direction:column;align-items:flex-start;gap:1.8vh;text-decoration:none;color:#50634a;font-size:clamp(10px,min(1.05vw,1.85vh),20px)}
+.scene-cover .cover-brands img{width:100%;height:7vh;object-fit:contain;object-position:left center}
+.scene-cover .cover-brands a:nth-child(2) img{height:7vh;background:transparent;padding:0;border-radius:0}
+.scene-cover .cover-brands span{white-space:nowrap;border-bottom:1px solid #ac823a;padding-bottom:.5vh}
+
+/* Title is now part of the generated artwork. */
+.scene-cover .scene-copy{display:none}
+.scene-cover .cover-brands{left:5vw;top:67vh}
+.scene-channels .scene-copy{top:13vh;left:6vw;right:6vw;font-size:clamp(28px,3.8vw,73px);line-height:1.25}.scene-channels .scene-art{inset:24vh 5vw auto;width:90vw;height:61vh;object-fit:contain;mix-blend-mode:normal}.scene-channels .foot{bottom:7.5vh;font-size:clamp(10px,.95vw,18px);line-height:1.5}@media(max-aspect-ratio:4/3){.scene-channels .scene-copy{font-size:4.6vw;top:16vh}.scene-channels .scene-art{top:27vh;height:52vh;width:96vw;left:2vw}.scene-channels .foot{font-size:1.45vw;bottom:10vh}}</style></head><body><main class="frame"><section class="slide scene scene-cover" data-page="1" aria-label="第 1 頁"><img class="scene-art" data-layout-role="background" src="assets/illustrations/cover-title-art.webp" alt="AI 的進度，由你掌握配圖"><div class="scene-shade" data-layout-role="decoration"></div><div class="kicker">01　產品開發者與技術團隊</div><h1 class="scene-copy"><span class="copy-line">AI 的進度</span><span class="copy-line">由你掌握</span></h1><div class="cover-brands"><a href="https://minicourse.dev" target="_blank" rel="noopener"><img src="assets/logos/minicourse.svg" alt="MiniCourse Logo"><span>minicourse.dev ↗</span></a><a href="https://line.me/ti/g/25tLgs2Rf6" target="_blank" rel="noopener"><img src="assets/logos/tainan-ai-buffet.svg" alt="台南AI爽 Logo"><span>台南 AI 爽 LINE 群 ↗</span></a></div><div class="foot">報告定位</div></section><section class="slide market-slide" data-page="2" aria-label="第 2 頁"><div class="kicker">02　即時通的市場領域</div><div class="market-heading">即時通有很多種，<span>各有市場領域</span></div><div class="market-actions"><span class="market-phase" aria-live="polite">旋轉中</span><button class="market-pause" aria-pressed="false">暫停</button><button class="market-replay">重播動畫</button></div><div class="market-stage"><img data-layout-role="background" class="market-backdrop" src="assets/illustrations/integrated-page-07.webp" alt="大眾、辦公與社群的三個通訊空間"><div class="orbit-ring"><i></i><i></i></div><div class="orbit-core"><span>連結日常</span><strong>也連結工作</strong></div><div class="market-zone" data-group="public" style="--x:17%"><span class="zone-number">01</span><h2>大眾</h2><p>人際聯絡</p><div class="zone-line"></div></div><div class="market-zone" data-group="office" style="--x:50%"><span class="zone-number">02</span><h2>辦公</h2><p>團隊協作</p><div class="zone-line"></div></div><div class="market-zone" data-group="specific" style="--x:83%"><span class="zone-number">03</span><h2>特定市場</h2><p>遊戲／社群</p><div class="zone-line"></div></div><div class="market-chip" data-group="public" style="--brand:#06C755"><span class="app-mark" aria-hidden="true">L</span><span>LINE</span></div><div class="market-chip" data-group="public" style="--brand:#5394FF"><span class="app-mark" aria-hidden="true">↗</span><span>Messenger</span></div><div class="market-chip" data-group="public" style="--brand:#25D366"><span class="app-mark" aria-hidden="true">W</span><span>WhatsApp</span></div><div class="market-chip" data-group="office" style="--brand:#9996F6"><span class="app-mark" aria-hidden="true">T</span><span>Teams</span></div><div class="market-chip" data-group="office" style="--brand:#E9B95F"><span class="app-mark" aria-hidden="true">#</span><span>Slack</span></div><div class="market-chip" data-group="specific" style="--brand:#929BFF"><span class="app-mark" aria-hidden="true">D</span><span>Discord</span></div><div class="market-chip" data-group="public" style="--brand:#17b85b"><span class="app-mark" aria-hidden="true">微</span><span>微信 WeChat</span></div><div class="market-chip" data-group="office" style="--brand:#388bfa"><span class="app-mark" aria-hidden="true">企</span><span>企業微信</span></div><div class="market-chip" data-group="office" style="--brand:#2584fa"><span class="app-mark" aria-hidden="true">釘</span><span>釘釘</span></div><div class="market-chip" data-group="office" style="--brand:#23b9c2"><span class="app-mark" aria-hidden="true">飛</span><span>飛書</span></div><div class="market-chip" data-group="specific" style="--brand:#26A5E4"><span class="app-mark" aria-hidden="true"><img src="assets/logos/telegram.svg" alt=""></span><span>Telegram</span></div><div class="market-crossover"><strong>也可用於辦公</strong>同一平台，能跨越用途</div></div><div class="foot">依主要定位／需求示意；平台可跨市場。Telegram 兼具大眾通訊用途，Discord 也可用於辦公。</div><script type="application/json" class="market-config">{"durationMs": 8500, "groups": [{"id": "public", "label": "大眾", "detail": "人際聯絡", "x": 17}, {"id": "office", "label": "辦公", "detail": "團隊協作", "x": 50}, {"id": "specific", "label": "特定市場", "detail": "遊戲／社群", "x": 83}], "items": [{"name": "LINE", "group": "public", "x": 17, "y": 34, "color": "#06C755"}, {"name": "Messenger", "group": "public", "x": 17, "y": 52.5, "color": "#5394FF"}, {"name": "WhatsApp", "group": "public", "x": 17, "y": 71, "color": "#25D366"}, {"name": "Teams", "group": "office", "x": 50, "y": 34, "color": "#9996F6"}, {"name": "Slack", "group": "office", "x": 50, "y": 48, "color": "#E9B95F"}, {"name": "Discord", "group": "specific", "x": 83, "y": 34, "color": "#929BFF"}, {"name": "微信 WeChat", "group": "public", "x": 17, "y": 89.5, "color": "#17b85b"}, {"name": "企業微信", "group": "office", "x": 50, "y": 62, "color": "#388bfa"}, {"name": "釘釘", "group": "office", "x": 50, "y": 76, "color": "#2584fa"}, {"name": "飛書", "group": "office", "x": 50, "y": 90, "color": "#23b9c2"}, {"name": "Telegram", "group": "specific", "x": 83, "y": 52.5, "color": "#26A5E4", "logo": "assets/logos/telegram.svg"}], "orbitCycleMs": 5000, "orbitTurns": 0.5}</script></section><section class="slide scene scene-cinematic" data-page="3" aria-label="第 3 頁"><img class="scene-art" data-layout-role="background" src="assets/illustrations/integrated-page-03.webp" alt="台灣市場：工作與生活的界線配圖"><div class="scene-shade" data-layout-role="decoration"></div><div class="kicker">03　台灣市場：工作與生活的界線</div><h1 class="scene-copy"><span class="copy-line">LINE、Teams、Slack</span><span class="copy-line">工具有不同定位</span><span class="copy-line">人卻常混用工作與生活</span></h1><div class="foot">工作與生活的界線，也取決於人的使用習慣與溝通規則。</div></section><section class="slide scene scene-poster" data-page="4" aria-label="第 4 頁"><img class="scene-art" data-layout-role="background" src="assets/illustrations/integrated-page-04.webp" alt="大眾市場：人際網絡帶動選用配圖"><div class="scene-shade" data-layout-role="decoration"></div><div class="kicker">04　大眾市場：人際網絡帶動選用</div><h1 class="scene-copy"><span class="copy-line">誰在這裡聯絡？</span><span class="copy-line">親友、日常往來、商家</span></h1><div class="foot"><a href="https://www.lycorp.co.jp/ja/company/global" target="_blank" rel="noopener">LINE 海外事業與人口覆蓋率</a>；<a href="https://www.whatsapp.com/" target="_blank" rel="noopener">WhatsApp 產品定位</a>；<a href="https://www.tencent.com/products/weixin-wechat/" target="_blank" rel="noopener">Tencent：Weixin 與 WeChat</a>；<a href="https://www.tencent.com/products/qq/" target="_blank" rel="noopener">Tencent：QQ</a>；<a href="https://datareportal.com/reports/digital-2026-south-korea" target="_blank" rel="noopener">Digital 2026 South Korea</a>；<a href="https://about.fb.com/news/2023/12/default-end-to-end-encryption-on-messenger/" target="_blank" rel="noopener">Meta：Messenger 個人通訊</a>；<a href="https://www.forbusiness.viber.com/en/blog/post/empowering-brands-vibers-2023-global-events-spotlight-superapp-strategies-and-solutions/" target="_blank" rel="noopener">Viber 2023 年市場活動資料</a></div></section><section class="slide scene scene-feature" data-page="5" aria-label="第 5 頁"><img class="scene-art" data-layout-role="background" src="assets/illustrations/integrated-page-05.webp" alt="辦公市場：團隊與組織主導選用配圖"><div class="scene-shade" data-layout-role="decoration"></div><div class="kicker">05　辦公市場：團隊與組織主導選用</div><h1 class="scene-copy"><span class="copy-line">誰一起工作？</span><span class="copy-line">責任、交接、協作與管理</span></h1><div class="foot"><a href="https://slack.com/about" target="_blank" rel="noopener">Slack 產品與市場定位</a>；<a href="https://support.microsoft.com/en-gb/workflows/send-messages-in-teams-using-incoming-webhooks" target="_blank" rel="noopener">Teams：透過 Workflows 接收 webhook 通知</a>；<a href="https://workspace.google.com/products/chat/" target="_blank" rel="noopener">Google Chat 產品定位</a>；<a href="https://www.zoom.com/en/products/team-chat/" target="_blank" rel="noopener">Zoom Chat 產品定位</a>；<a href="https://www.tencent.com/products/wecom/" target="_blank" rel="noopener">Tencent：企業微信 WeCom</a>；<a href="https://www.dingtalk.com/" target="_blank" rel="noopener">釘釘官方：工作與協作平台</a>；<a href="https://www.feishu.cn/hc/zh-CN/articles/360049067482-管理员设置沟通协作权限" target="_blank" rel="noopener">飛書官方：團隊溝通與協作管理</a></div></section><section class="slide scene scene-triptych" data-page="6" aria-label="第 6 頁"><div class="kicker">06　特定市場：逐一界定需求</div><div class="triptych-canvas"><img class="scene-art" data-layout-role="background" src="assets/illustrations/integrated-page-06.webp" alt="特定市場：逐一界定需求配圖"><h1 class="scene-copy"><span class="copy-line">遊戲與社群</span><span class="copy-line">隱私通訊</span><span class="copy-line">裝置生態與訊息整合</span></h1></div><div class="foot"><a href="https://discord.com/newsroom" target="_blank" rel="noopener">Discord 官方使用者概況</a>；<a href="https://core.telegram.org/bots" target="_blank" rel="noopener">Telegram：Bots 開發說明</a>；<a href="https://signal.org/" target="_blank" rel="noopener">Signal 產品定位</a>；<a href="https://support.apple.com/zh-tw/104972" target="_blank" rel="noopener">Apple：iMessage、RCS 與 SMS/MMS</a>；<a href="https://www.beeper.com/" target="_blank" rel="noopener">Beeper 通訊整合定位</a>；<a href="https://discord.com/company" target="_blank" rel="noopener">Discord 官方沿革：2015 遊戲聊天、2019 Go Live</a></div></section><section class="slide scene scene-statistics" data-page="7" aria-label="第 7 頁"><img class="scene-art" data-layout-role="background" src="assets/illustrations/integrated-page-07.webp" alt="各地使用率與不同市場的回報需求配圖"><div class="scene-shade" data-layout-role="decoration"></div><div class="kicker">07　各地使用率與不同市場的回報需求</div><h1 class="scene-copy"><span class="stat" aria-label="台灣 LINE 94.5%"><span class="stat-logo" style="--brand:#06C755"><img src="assets/logos/line.svg" alt="LINE Logo" class="light-ink"></span><span class="stat-country">台灣</span><strong>94.5%</strong></span><span class="stat" aria-label="巴西 WhatsApp 93.9%"><span class="stat-logo" style="--brand:#25D366"><img src="assets/logos/whatsapp.svg" alt="WhatsApp Logo" class="light-ink"></span><span class="stat-country">巴西</span><strong>93.9%</strong></span><span class="stat" aria-label="韓國 KakaoTalk 95.1%"><span class="stat-logo" style="--brand:#FEE500"><img src="assets/logos/kakaotalk-brand.svg" alt="KakaoTalk Logo" class="dark-ink"></span><span class="stat-country">韓國</span><strong>95.1%</strong></span></h1><div class="market-needs"><h2>不同市場，需要掌握不同資訊</h2><div class="needs-items"><div class="needs-item"><span class="needs-label">大眾</span><strong>自己的事情</strong></div><div class="needs-item"><span class="needs-label">辦公</span><strong>團隊的工作</strong></div><div class="needs-item"><span class="needs-label">社群</span><strong>共同關注的進展</strong></div></div></div><div class="foot">LINE：2026/3 月活÷人口。<br>WhatsApp：GWI 2025 Q2，16+ 網路使用者過去一個月曾使用。<br>KakaoTalk：Digital 2026 採用的 2025 年月活÷人口。三者口徑不同。 本頁數字不代表辦公市場占有率。</div></section><section class="slide scene scene-journey" data-page="8" aria-label="第 8 頁"><div class="kicker">08　從市場區隔推導 AI 產品設計</div><div class="journey-canvas"><img class="scene-art" data-layout-role="background" src="assets/illustrations/integrated-page-08.webp" alt="從市場區隔推導 AI 產品設計配圖"><h1 class="scene-copy"><span class="copy-line">市場區隔</span><span class="copy-line">選用理由</span><span class="copy-line">AI 進度回報設計</span></h1></div><div class="foot">設計提案</div></section><section class="slide scene scene-onboarding" data-page="9" aria-label="第 9 頁"><div class="kicker">09　接入門檻｜讓 AI 傳回第一則通知</div><h1 class="setup-title">要開始到能測通的難度<br>也是不一樣的</h1><div class="setup-rows"><div class="setup-row"><div class="setup-brand"><span style="--brand:#06C755"><img src="assets/logos/line.svg" alt="LINE Logo" class="white"></span><strong>LINE</strong></div><div class="setup-path"><p>先完成帳號與 Bot 通道設定</p><ol><li>註冊／登入</li><li>建立官方帳號</li><li>啟用 Messaging API</li><li>取得 Token／試送</li></ol></div></div><div class="setup-row"><div class="setup-brand"><span style="--brand:#5865F2"><img src="assets/logos/discord.svg" alt="Discord Logo" class="white"></span><strong>Discord</strong></div><div class="setup-path"><p>從既有頻道的設定開始</p><ol><li>開啟頻道設定</li><li>建立 Webhook</li><li>複製網址／試送</li></ol></div></div><div class="setup-row"><div class="setup-brand"><span style="--brand:#24294b"><img src="assets/logos/microsoft-teams.svg" alt="Teams Logo" class="color"></span><strong>Teams</strong></div><div class="setup-path"><p>從既有工作空間的範本開始</p><ol><li>選用 Workflows 範本</li><li>選頻道／登入授權</li><li>儲存網址／試送</li></ol></div></div><div class="setup-row"><div class="setup-brand"><span style="--brand:#ffffff"><img src="assets/logos/slack.svg" alt="Slack Logo" class="color"></span><strong>Slack</strong></div><div class="setup-path"><p>在工作空間建立 App 與通知入口</p><ol><li>建立 Slack App</li><li>啟用 Webhook</li><li>選頻道／授權</li><li>複製網址／試送</li></ol></div></div></div><img class="setup-art" src="assets/illustrations/integrated-page-09.webp" alt="四條經過不同設定關卡的路徑通往通知手機"><p class="setup-takeaway">接入門檻，<br><strong>也是一項選型條件。</strong></p><div class="foot">比較範圍：第一次單向通知；Discord／Teams／Slack 已有帳號、工作空間與設定權限。<br>LINE 不需認證徽章；Teams／Slack 仍受組織政策限制。依官方文件整理，尚未實際串接測通。</div></section><section class="slide scene scene-triptych" data-page="10" aria-label="第 10 頁"><div class="kicker">10　任務狀態與通知狀態</div><div class="triptych-canvas"><img class="scene-art" data-layout-role="background" src="assets/illustrations/integrated-page-10.webp" alt="任務狀態與通知狀態配圖"><h1 class="scene-copy"><span class="copy-line">任務完成</span><span class="copy-line">平台接受訊息</span><span class="copy-line">使用者已確認</span></h1></div><div class="foot">工程設計提案</div></section><section class="slide scene scene-channels" data-page="11" aria-label="第 11 頁"><img class="scene-art" data-layout-role="background" src="assets/illustrations/channels-11.svg" alt="即時通的進出通道配圖"><div class="scene-shade" data-layout-role="decoration"></div><div class="kicker">11　即時通的進出通道</div><h1 class="scene-copy">即時通的進出通道</h1><div class="foot">以 AI 系統為觀察點；接收也可能使用 Push。各平台支援的方式與權限不同。</div></section><section class="slide scene scene-channels" data-page="12" aria-label="第 12 頁"><img class="scene-art" data-layout-role="background" src="assets/illustrations/discord-design-12.svg" alt="Discord 的設計概念配圖"><div class="scene-shade" data-layout-role="decoration"></div><div class="kicker">12　Discord 的設計概念</div><h1 class="scene-copy">Discord 的設計概念</h1><div class="foot">單向通知可只用 Webhook；雙向互動需 Bot、頻道權限與必要 Intents。<br>Gateway 需維持心跳與斷線重連。本頁為設計概念，尚未實際串接測通。</div></section><section class="slide scene scene-channels" data-page="13" aria-label="第 13 頁"><img class="scene-art" data-layout-role="background" src="assets/illustrations/webhook-13.svg" alt="Webhook 是什麼？配圖"><div class="scene-shade" data-layout-role="decoration"></div><div class="kicker">13　Webhook 是什麼？</div><h1 class="scene-copy">Webhook 是什麼？</h1><div class="foot">此處指 Discord Incoming Webhook；單向通知不必先建立 Bot。<br>網址含發送憑證，需妥善保管；圖中訊息為示意，尚未實際串接。</div></section><section class="slide scene scene-channels" data-page="14" aria-label="第 14 頁"><img class="scene-art" data-layout-role="background" src="assets/illustrations/webhook-url-14.svg" alt="Discord 的通知網址配圖"><div class="scene-shade" data-layout-role="decoration"></div><div class="kicker">14　Discord 的通知網址</div><h1 class="scene-copy">Discord 的通知網址</h1><div class="foot">{變數} 為教學佔位；實際使用時，複製 Discord 提供的完整 Webhook 網址。<br>Webhook ID 不是頻道 ID；完整網址含發送憑證，請勿公開。</div></section><section class="slide scene scene-channels" data-page="15" aria-label="第 15 頁"><img class="scene-art" data-layout-role="background" src="assets/illustrations/discord-setup-15.svg" alt="取得 Discord Webhook 網址配圖"><div class="scene-shade" data-layout-role="decoration"></div><div class="kicker">15　取得 Discord Webhook 網址</div><h1 class="scene-copy">取得 Discord Webhook 網址</h1><div class="foot">操作路徑：頻道設定 → 整合 → Webhook → 複製 Webhook 網址。</div></section><section class="slide scene scene-invite" data-page="16" aria-label="第 16 頁"><div class="kicker">16　一起看看實際的 AI 工作過程</div><div class="invite-content"><img src="assets/logos/discord.svg" alt="Discord Logo"><h1>MiniCourse 專屬頻道</h1><p>來看看 AiNews 的生成過程</p><a href="https://discord.gg/s6qwRUKt3" target="_blank" rel="noopener">discord.gg/s6qwRUKt3 <span aria-hidden="true">↗</span></a><small>點擊連結，前往 Discord</small><div class="invite-line"><span>台南 AI 爽・AI Taiwan LINE 群</span><a href="https://line.me/ti/g/25tLgs2Rf6" target="_blank" rel="noopener">line.me/ti/g/25tLgs2Rf6 ↗</a></div></div><img class="invite-proof" src="assets/screenshots/ainews-progress.png" alt="AiNews 在 Discord 回報新聞整理、素材交接與影片產生進度的實際畫面"></section><section class="slide scene scene-channels" data-page="17" aria-label="第 17 頁"><img class="scene-art" data-layout-role="background" src="assets/illustrations/bot-17.svg" alt="Bot 又是什麼？配圖"><div class="scene-shade" data-layout-role="decoration"></div><div class="kicker">17　Bot 又是什麼？</div><h1 class="scene-copy">Bot 又是什麼？</h1><div class="foot">Discord Bot 依授權接收指令／事件；讀取一般訊息內容另受頻道權限與 Intents 限制。</div></section><section class="slide scene scene-conversation" data-page="18" aria-label="第 18 頁"><div class="kicker">18　從進度通知到雙向互動</div><h1 class="conversation-title">變成有來有回的對談</h1><img class="conversation-proof" src="assets/screenshots/bot-conversation-18.png" alt="使用者標記 AiNews 機器人下達指令，Bot 回覆受理並回報完成結果的對話截圖"><p class="conversation-flow">提出指令 <span>→</span> Bot 接收 <span>→</span> 回報結果</p></section><section class="slide scene scene-channels" data-page="19" aria-label="第 19 頁"><img class="scene-art" data-layout-role="background" src="assets/illustrations/collaboration-cycle-19.svg" alt="讓進度回報，形成協作循環配圖"><div class="scene-shade" data-layout-role="decoration"></div><div class="kicker">19　讓進度回報，形成協作循環</div><h1 class="scene-copy">讓進度回報，形成協作循環</h1><div class="foot">自動化執行 → AI 參與 → 人為驗證 → 跟進處理 → 再次回報。</div></section><section class="slide scene scene-community" data-page="20" aria-label="第 20 頁"><div class="kicker">20　加入社群，一起實作</div><a class="community-home" href="https://minicourse.dev" target="_blank" rel="noopener"><img class="community-brand" src="assets/logos/minicourse.svg" alt="迷你課 MiniCourse Logo"><span>minicourse.dev ↗</span></a><div class="community-links"><a href="https://discord.gg/s6qwRUKt3" target="_blank" rel="noopener"><span class="community-icon discord"><img src="assets/logos/discord.svg" alt="Discord Logo"></span><h1>Discord 頻道</h1><p>看看 AiNews 的生成過程</p><strong>discord.gg/s6qwRUKt3 ↗</strong></a><a href="https://line.me/ti/g/25tLgs2Rf6" target="_blank" rel="noopener"><span class="community-icon line"><img src="assets/logos/line.svg" alt="LINE Logo"></span><h1>台南 AI 爽 LINE 群</h1><p>AI Taiwan</p><strong>line.me/ti/g/25tLgs2Rf6 ↗</strong></a></div></section></main><nav class="controls"><span>AI 的進度，由你掌握</span><span><button id="prev" aria-label="上一頁">上一頁</button><span id="page"></span><button id="next" aria-label="下一頁">下一頁</button></span><a href="report.html">完整報告</a></nav><input class="progress" id="progress" type="range" min="1" max="20" value="1" aria-label="簡報頁碼"><script>const slides=[...document.querySelectorAll('.slide')];let page=1;function show(p){page=Math.max(1,Math.min(slides.length,p));slides.forEach((s,i)=>s.classList.toggle('active',i===page-1));document.querySelector('#page').textContent=page+' / '+slides.length;const progress=document.querySelector('#progress');if(progress)progress.value=page;history.replaceState(null,'','#'+page);window.dispatchEvent(new CustomEvent('slidechange',{detail:page}));}document.querySelector('#prev').onclick=()=>show(page-1);document.querySelector('#next').onclick=()=>show(page+1);document.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='PageDown')show(page+1);if(e.key==='ArrowLeft'||e.key==='PageUp')show(page-1)});document.querySelector('#progress')?.addEventListener('input',e=>show(Number(e.target.value)));show(parseInt(location.hash.slice(1),10)||1);
+(() => {
+ const slide=document.querySelector('.market-slide'); if(!slide)return;
+ const config=JSON.parse(slide.querySelector('.market-config').textContent);
+ const chips=[...slide.querySelectorAll('.market-chip')], zones=[...slide.querySelectorAll('.market-zone')];
+ const phase=slide.querySelector('.market-phase'), pause=slide.querySelector('.market-pause'), replay=slide.querySelector('.market-replay');
+ let animations=[], generation=0, paused=false;
+ const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+ function stop(){generation++;animations.forEach(a=>a.cancel());animations=[];paused=false;pause.textContent='暫停';pause.setAttribute('aria-pressed','false');}
+ function start(){
+  stop();const run=generation;phase.textContent='旋轉中';pause.disabled=false;
+  const options={duration:config.durationMs,fill:'forwards',easing:'linear'};
+  const orbitMs=config.orbitCycleMs*config.orbitTurns, orbitEnd=orbitMs/config.durationMs;
+  const orbitSteps=Math.ceil(config.orbitTurns*60);
+  chips.forEach((chip,i)=>{
+   const item=config.items[i],keys=[];
+   for(let j=0;j<=orbitSteps;j++){
+    const t=j/orbitSteps,a=i*Math.PI*2/chips.length+t*Math.PI*2*config.orbitTurns;
+    keys.push({offset:t*orbitEnd,height:'16%',left:(50+33*Math.cos(a))+'%',top:(47+33*Math.sin(a))+'%',opacity:.76+.24*(Math.sin(a)+1)/2,transform:`translate(-50%,-50%) scale(${.60+.20*(Math.sin(a)+1)/2}) rotate(${Math.sin(a)*3}deg)`,easing:'linear'});
+   }
+   keys[keys.length-1].easing='cubic-bezier(.22,.8,.28,1)';
+   keys.push({opacity:1,height:'11%',offset:.80+i*.008,left:item.x+'%',top:item.y+'%',transform:'translate(-50%,-50%) rotate(0deg)'});
+   keys.push({opacity:1,height:'11%',offset:1,left:item.x+'%',top:item.y+'%',transform:'translate(-50%,-50%) rotate(0deg)'});
+   animations.push(chip.animate(keys,options));
+  });
+  zones.forEach(z=>animations.push(z.animate([{opacity:0,offset:0},{opacity:0,offset:.42},{opacity:1,offset:.72},{opacity:1,offset:1}],options)));
+  animations.push(slide.querySelector('.orbit-core').animate([{opacity:1,offset:0},{opacity:1,offset:.40},{opacity:0,offset:.57},{opacity:0,offset:1}],options));
+  animations.push(slide.querySelector('.orbit-ring').animate([{opacity:1,offset:0},{opacity:1,offset:.42},{opacity:0,offset:.75},{opacity:0,offset:1}],options));
+  animations.push(slide.querySelector('.market-crossover').animate([{opacity:0,offset:0},{opacity:0,offset:.9},{opacity:1,offset:1}],options));
+  // A synchronized clock animation drives the phase label without independent timeouts.
+  const clock=slide.querySelector('.market-phase').animate([{opacity:1},{opacity:1}],options);animations.push(clock);
+  function tick(){if(run!==generation)return;const t=Number(clock.currentTime)||0;phase.textContent=t>=config.durationMs*.9?'分類完成':t>=orbitMs?'落入領域':'旋轉中';if(clock.playState!=='finished')requestAnimationFrame(tick);}
+  requestAnimationFrame(tick);
+  clock.finished.then(()=>{if(run===generation){phase.textContent='分類完成';pause.disabled=true;}}).catch(()=>{});
+  if(reduced.matches)animations.forEach(a=>a.finish());
+ }
+ pause.addEventListener('click',()=>{paused=!paused;animations.forEach(a=>paused?a.pause():a.play());pause.textContent=paused?'繼續':'暫停';pause.setAttribute('aria-pressed',String(paused));});
+ replay.addEventListener('click',start);
+ window.addEventListener('slidechange',e=>{if(e.detail===Number(slide.dataset.page))start();else stop();});
+ if(slide.classList.contains('active'))start();
+})();
+</script></body></html>

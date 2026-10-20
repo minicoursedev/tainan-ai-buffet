@@ -1,0 +1,26 @@
+---
+import type { Event } from '../lib/data';
+import LineBreaks from './LineBreaks.astro';
+
+interface Props { event: Event; upcoming: boolean }
+const { event, upcoming } = Astro.props;
+const detail = upcoming && event.paragraphs;
+const [year, month, day] = event.date.split('-').map(Number);
+const weekday = '日一二三四五六'[new Date(`${event.date}T12:00:00+08:00`).getUTCDay()];
+---
+<article class="event-card" id={`event-${event.date}`}>
+  <div class="event-date">{event.datePending ? <span>活動日期：待通知</span> : <time datetime={event.date}>{event.date.replaceAll('-', '.')}</time>}<span class="event-status">{upcoming ? '近期活動' : '歷次分享'}</span></div>
+  <div class:list={['event-body', { 'upcoming-body': detail }]}>
+    <h3>{event.title}</h3>
+    <p>{detail ? <strong><LineBreaks text={event.summary} /></strong> : <LineBreaks text={event.summary} />}</p>
+    {detail && event.paragraphs?.map(paragraph => <p><LineBreaks text={paragraph} /></p>)}
+    {detail && <p><strong>時間｜</strong>{year} 年 {month} 月 {day} 日（{weekday}）{event.startTime}–{event.endTime}<br /><strong>地點｜</strong><LineBreaks text={event.location ?? ''} /><br /><strong>參加方式｜</strong><LineBreaks text={event.participation ?? ''} /></p>}
+    {!detail && event.location && <p>活動地點：{event.location}</p>}
+    <ul class="tags" aria-label="分享主題">{event.topics.map(topic => <li>{topic}</li>)}</ul>
+    <div class="event-actions">
+      {event.slides && <a class="button" data-ga-event="slides_click" data-content-id={event.date} data-placement={upcoming ? "upcoming" : "archive"} href={`/${event.slides}`} aria-label={`閱讀 ${event.title} 簡報`}>閱讀簡報 <span aria-hidden="true">↗</span></a>}
+      {event.registration && <a class={upcoming ? 'button' : 'text-link'} data-ga-event={upcoming ? "registration_click" : undefined} data-content-id={event.date} data-placement="upcoming" href={event.registration}>{upcoming ? event.registrationLabel || '活動詳情與報名' : '當場活動資訊（KKTIX）'} <span aria-hidden="true">↗</span></a>}
+      <a class="text-link event-permalink" href={`#event-${event.date}`} aria-label={`${event.title}的固定網址`}>活動網址 <span aria-hidden="true">#</span></a>
+    </div>
+  </div>
+</article>

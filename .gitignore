@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.astro/
+
+
+# Local Google API configuration must not be committed.
+public/puma_oshen_wave/map-config.json

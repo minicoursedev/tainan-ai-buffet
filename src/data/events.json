@@ -1,0 +1,48 @@
+[
+  {
+    "date": "2026-09-09",
+    "title": "AI 說可以",
+    "summary": "當 AI 說「可以」或「完成了」，我們該怎麼判斷？從過度設計、驗證到決策，聊聊把 AI 拉回現實的六個主題。",
+    "slides": "event/20260909/",
+    "registration": "https://lman-37f33d.kktix.cc/events/2c43bc25",
+    "status": "past",
+    "topics": [
+      "AI 協作",
+      "過度設計",
+      "驗證與判斷"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "endsAt": "2026-10-06T21:00:00+08:00",
+    "title": "AI 怎麼模組化？",
+    "heading": "下一場，一起聊模組化。",
+    "summary": "東西做到一半，AI 開始改東壞西，怎麼辦？",
+    "paragraphs": [
+      "一開始，你只是請 AI 幫忙做個小東西。\n後來，想法愈加愈多，要求愈來愈長。\n改好了這裡，那裡卻又壞了。\n想繼續做，卻不知道下一步該怎麼交代。",
+      "這一場，我們一起聊聊「模組化」：\n把一件大事情拆成各自負責、又能接得起來的小部分。",
+      "哪些事情可以拆開？哪些必須放在一起？\n怎麼讓 AI 每次知道自己該處理哪一部分？\n下次想調整時，怎麼不用全部重來？",
+      "帶著你正在做的東西，或卡住的問題來。\n我們一起想想，怎麼拆，才能繼續做下去。",
+      "這是一場以非資訊工程人員為主的 AI 聚會，不需要先懂程式；有經驗的工程師也歡迎一起聊。"
+    ],
+    "location": "台南新芽，臺南市中西區成功路 29 號 4 樓",
+    "participation": "免費報名，現場討論、共同分享",
+    "slides": "event/20261006/",
+    "registration": "https://lman-37f33d.kktix.cc/events/26107",
+    "registrationLabel": "前往 KKTIX 免費報名",
+    "topics": []
+  },
+  {
+    "date": "2026-11-11",
+    "datePending": true,
+    "title": "AI 的進度，由你掌握",
+    "summary": "論企業與團隊的 AI 協作",
+    "location": "待通知",
+    "slides": "event/20261111/",
+    "registration": null,
+    "status": "upcoming",
+    "topics": []
+  }
+]

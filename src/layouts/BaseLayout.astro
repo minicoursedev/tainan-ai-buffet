@@ -1,0 +1,46 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  ogDescription?: string;
+  themeColor?: string;
+  structuredData?: Record<string, unknown>;
+}
+
+const {
+  title,
+  description,
+  canonical,
+  ogDescription = description,
+  themeColor = '#1d2925',
+  structuredData,
+} = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <script is:inline src="/assets/analytics.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:site_name" content="迷你課| 台南AI爽" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={ogDescription} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={ogDescription} />
+    <meta name="theme-color" content={themeColor} />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/site.css" />
+    {structuredData && <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />}
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

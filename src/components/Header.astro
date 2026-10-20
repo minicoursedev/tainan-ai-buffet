@@ -1,0 +1,64 @@
+---
+interface Props {
+  home?: boolean;
+  hasUpcoming?: boolean;
+}
+const { home = false, hasUpcoming = false } = Astro.props;
+const prefix = home ? '' : '/';
+---
+<a class="skip-link" href="#main">跳到主要內容</a>
+<header class="site-header wrap">
+  <div class="header-brands">
+    <span class="parent-brand"><img src="/assets/minicourse-logo.svg" alt="迷你課 MiniCourse，台南 AI 爽的主品牌" width="1168" height="358" /></span>
+  <a class="brand" href="/" aria-label="台南AI爽首頁"><span class="brand-mark" aria-hidden="true">爽</span><span>台南AI爽<small>TAINAN AI BUFFET</small></span></a>
+  </div>
+  <nav aria-label="主要導覽">
+    <details class="nav-dropdown">
+      <summary>選單 <span aria-hidden="true">▾</span></summary>
+      <div class="nav-links">
+    {hasUpcoming && <a href={`${prefix}#upcoming`}>近期活動</a>}
+    <a href={`${prefix}#about`}>關於聚會</a>
+    {home && <a href="#skills">帶走就能用</a>}
+    <a href={`${prefix}#archive`}>歷次分享 {home && <span aria-hidden="true">↗</span>}</a>
+    <a href="/friends.html">串門子</a>
+    <a href="https://www.youtube.com/@minicourse-dev">YouTube 頻道</a>
+    <a href="https://github.com/minicoursedev/tainan-ai-buffet/issues">意見回饋</a>
+      </div>
+    </details>
+    <a class="ocean-link" href="/puma_oshen_wave/">台南洋流</a>
+  </nav>
+</header>
+
+<style>
+  .site-header nav { align-items: center; gap: 16px; }
+  .nav-dropdown { position: relative; }
+  .nav-dropdown summary, .ocean-link { display: flex; align-items: center; justify-content: center; gap: 12px; min-height: 44px; padding: 8px 14px; cursor: pointer; }
+  .nav-dropdown summary { list-style: none; border: 1px solid currentColor; }
+  .nav-dropdown summary::-webkit-details-marker { display: none; }
+  .nav-dropdown summary:focus-visible { outline: 3px solid var(--orange); outline-offset: 4px; }
+  .nav-dropdown[open] summary span { transform: rotate(180deg); }
+  .nav-links { position: absolute; top: calc(100% + 8px); right: 0; width: 210px; max-height: 65vh; overflow-y: auto; padding: 8px; background: var(--dark); border: 2px solid var(--paper); box-shadow: 4px 4px 0 var(--green); }
+  .nav-links a { display: block; padding: 10px 14px; min-height: 44px; }
+  .nav-links a:hover, .nav-links a:focus-visible { background: #ffffff18; }
+  .ocean-link { border: 1px solid var(--green); }
+  @media (max-width: 650px) {
+    .site-header nav { justify-content: flex-end; }
+    .nav-links { right: auto; left: 0; }
+  }
+</style>
+<script>
+  document.querySelectorAll<HTMLDetailsElement>('.nav-dropdown').forEach((menu) => {
+    menu.addEventListener('click', (event) => {
+      if (event.target instanceof Element && event.target.closest('a')) menu.open = false;
+    });
+    document.addEventListener('click', (event) => {
+      if (event.target instanceof Node && !menu.contains(event.target)) menu.open = false;
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && menu.open) {
+        menu.open = false;
+        menu.querySelector('summary')?.focus();
+      }
+    });
+  });
+</script>

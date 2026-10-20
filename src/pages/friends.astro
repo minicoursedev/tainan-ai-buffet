@@ -1,0 +1,40 @@
+---
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { events, friends, isUpcoming } from '../lib/data';
+
+const now = Date.now();
+const hasUpcoming = events.some(event => isUpcoming(event, now));
+const visible = friends
+  .filter(event => !event.endsAt || Date.parse(event.endsAt) > now)
+  .sort((a, b) => Date.parse(b.sortDate) - Date.parse(a.sortDate));
+const description = '迷你課 MiniCourse 旗下台南AI爽的「串門子」整理其他主辦單位的 AI 聚會，提供活動地點、時間與活動連結，方便找到想參加的交流活動。';
+---
+<BaseLayout title="串門子｜迷你課| 台南AI爽" {description} canonical="https://minicourse.dev/friends.html" themeColor="#f5f2e9">
+  <Header {hasUpcoming} />
+  <main id="main" class="friends-main wrap">
+    <section aria-labelledby="friends-title">
+      <p class="eyebrow">AI GATHERINGS</p>
+      <h1 id="friends-title">串門子</h1>
+      <p class="friends-intro">分享其它主辦單位的AI聚會</p>
+      <div class="friends-table-wrap" style="margin-top:32px">
+        <table class="friends-table">
+          <caption class="sr-only">串門子，依活動時間由新到舊排列</caption>
+          <thead><tr><th scope="col">主辦</th><th scope="col">活動地點（線上／線下）</th><th scope="col">活動時間</th><th scope="col">活動名稱</th></tr></thead>
+          <tbody id="friends-events">
+            {visible.length ? visible.map(event => <tr>
+              <td>{event.organizer}<span class="example-label">{event.contact}</span></td>
+              <td><span class:list={['format-tag', { online: event.format === '線上' }]}>{event.format}</span><span class="venue">{event.location}</span><span class="example-label">{event.locationNote}</span></td>
+              <td>{event.dates.map(date => <>{date}<br /></>)}<span class="event-hours">{event.hours}</span><span class="example-label">{event.note}</span></td>
+              <td><a class="friend-event-name" href={event.url}>{event.title} ↗</a><span class="example-label">{event.description}</span></td>
+            </tr>) : <tr><td colspan="4">目前沒有近期活動。</td></tr>}
+          </tbody>
+        </table>
+      </div>
+      <p class="friends-footnote">活動由各主辦單位舉辦，最新資訊請以活動原頁為準。時間皆為台灣時間。</p>
+    </section>
+  </main>
+  <Footer />
+  <script src="/assets/friends.js" defer></script>
+</BaseLayout>

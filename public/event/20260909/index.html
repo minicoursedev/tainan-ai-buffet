@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<script src="/assets/analytics.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 說可以｜台南 AI 聚會「台南AI爽」2026/09/09 場次簡報</title>
+  <meta name="description" content="台南 AI 聚會「台南AI爽」2026/09/09 場次簡報：從 AI 過度設計、完成的落差到驗證與判斷，聊聊把 AI 拉回現實的六個主題。">
+  <link rel="canonical" href="https://minicourse.dev/event/20260909/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:site_name" content="台南AI爽">
+  <meta property="og:title" content="AI 說可以｜台南 AI 聚會「台南AI爽」2026/09/09">
+  <meta property="og:description" content="台南 AI 聚會「台南AI爽」場次簡報，從過度設計到驗證與判斷，把 AI 拉回現實的六個主題。">
+  <meta property="og:url" content="https://minicourse.dev/event/20260909/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #000000;
+      color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans TC", sans-serif;
+      overflow: hidden;
+      height: 100vh;
+      width: 100vw;
+      user-select: none;
+    }
+
+    .slide-container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .slide.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* 高橋流核心超大字體 */
+    .takahashi-text {
+      font-size: clamp(3.5rem, 12vw, 11rem);
+      font-weight: 900;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      word-break: break-word;
+    }
+
+    /* 次級大字體 */
+    .sub-text {
+      font-size: clamp(2rem, 6vw, 5rem);
+      font-weight: 700;
+      color: #a1a1aa;
+      margin-top: 1.5rem;
+    }
+
+    /* 高亮顏色 */
+    .highlight { color: #38bdf8; } /* 科技藍 */
+    .danger { color: #f43f5e; }    /* 警告紅 */
+    .success { color: #22c55e; }   /* 成功綠 */
+    .warning { color: #fbbf24; }   /* 提醒黃 */
+
+    /* 需求依序湧入並累積；再次進入此頁時重播。 */
+    .scope-expansion {
+      gap: clamp(0.5rem, 2vh, 1.5rem);
+      overflow: hidden;
+    }
+    .scope-item {
+      font-size: clamp(2rem, min(9vw, 13vh), 8rem);
+      white-space: nowrap;
+      opacity: 0;
+      transform: translateX(35vw);
+    }
+    .scope-expansion.active .scope-item {
+      animation: scope-flow-in 0.65s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    .scope-expansion.active .scope-item:nth-child(2) { animation-delay: 0.8s; }
+    .scope-expansion.active .scope-item:nth-child(3) { animation-delay: 1.5s; }
+    .scope-expansion.active .scope-item:nth-child(4) { animation-delay: 2.1s; }
+    @keyframes scope-flow-in {
+      from { opacity: 0; transform: translateX(35vw); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    /* 進度標記 */
+    .progress-bar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 24px;
+      margin: 0;
+      padding: 0;
+      appearance: none;
+      -webkit-appearance: none;
+      background: transparent;
+      cursor: ew-resize;
+      z-index: 20;
+      --progress: 0%;
+    }
+
+    .progress-bar::-webkit-slider-runnable-track {
+      height: 6px;
+      background: linear-gradient(to right, #38bdf8 var(--progress), #52525b var(--progress));
+    }
+
+    .progress-bar::-webkit-slider-thumb {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 18px;
+      height: 18px;
+      margin-top: -6px;
+      border-radius: 50%;
+      background: #38bdf8;
+    }
+
+    .progress-bar::-moz-range-track {
+      height: 6px;
+      background: #52525b;
+    }
+
+    .progress-bar::-moz-range-progress { height: 6px; background: #38bdf8; }
+    .progress-bar::-moz-range-thumb {
+      width: 18px;
+      height: 18px;
+      border: 0;
+      border-radius: 50%;
+      background: #38bdf8;
+    }
+
+    .progress-bar:focus-visible { outline: 2px solid #38bdf8; outline-offset: -2px; }
+
+    .home-link {
+      position: fixed;
+      top: 0.6rem;
+      left: 0.8rem;
+      z-index: 30;
+      color: #ffffff;
+      background: #18181b;
+      padding: 0.35rem 0.65rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      text-underline-offset: 3px;
+    }
+    .home-link:focus-visible { outline: 2px solid #38bdf8; outline-offset: 3px; }
+
+    .counter {
+      position: absolute;
+      bottom: 1.5rem;
+      right: 2rem;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #52525b;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <a class="home-link" href="../../">← 台南AI爽官網</a>
+
+  <div class="slide-container">
+
+    <!-- 活動開場：台南AI爽 -->
+    <div class="slide active" style="gap: clamp(1rem, 3vh, 2rem);">
+      <h1 class="takahashi-text highlight" style="font-size: clamp(3rem, min(10vw, 15vh), 9rem);">台南AI爽</h1>
+      <p style="font-size: clamp(1.1rem, min(3.5vw, 5vh), 3rem); line-height: 1.4; color: #a1a1aa;">一個在台南舉辦的 AI 小型聚會</p>
+      <div style="font-size: clamp(1.3rem, min(4.5vw, 6vh), 4rem); font-weight: 700; line-height: 1.5;">每一個主題，大家都能<span class="warning">喊卡</span><br>每一個主題，大家都能<span class="warning">聚焦</span></div>
+      <div style="font-size: clamp(1.2rem, min(4vw, 5.5vh), 3.5rem); font-weight: 700; line-height: 1.5;">你遇到了什麼問題呢？<br><span class="highlight">一起來聊聊吧！</span></div>
+      <a class="highlight" href="https://lman-37f33d.kktix.cc/events/2c43bc25" target="_blank" rel="noopener noreferrer" style="font-size: clamp(1rem, min(3vw, 4vh), 2rem); font-weight: 700;">活動報名連結</a>
+    </div>
+
+    <!-- 整場封面 -->
+    <div class="slide">
+      <div class="takahashi-text highlight">AI 說可以</div>
+    </div>
+
+    <!-- 主題一：人類安慰師，AI 的盜夢空間 -->
+    <div class="slide">
+      <div class="sub-text">主題一</div>
+      <div class="takahashi-text highlight">人類安慰師</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text highlight">AI 的<br>盜夢空間</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">你說</div>
+      <div class="takahashi-text ">「我想做一個<br>買高鐵票的 App」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">AI 說</div>
+      <div class="takahashi-text highlight">「可以！」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">訂票、付款、會員訂閱……</div>
+      <div class="takahashi-text warning">越講越完整</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text warning">等一下<br>怎麼買？</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">使用者的個人資料</div>
+      <div class="takahashi-text ">怎麼交給高鐵？</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text ">付款怎麼完成？</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text ">票又怎麼拿到？</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text danger">這些都<br>還沒確認</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">你已經幫我規劃</div>
+      <div class="takahashi-text warning">會員訂閱？</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">最熟悉這個場景的人</div>
+      <div class="takahashi-text highlight">是執行團隊</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">老闆說：</div>
+      <div class="takahashi-text warning">「AI 都說可以了」</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text danger">「為什麼你們<br>說不行？」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">團隊問的是</div>
+      <div class="takahashi-text ">資料從哪來？<br>交易怎麼接？</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">老闆聽到的卻是</div>
+      <div class="takahashi-text danger">「你們又在<br>找理由」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">AI 給了肯定</div>
+      <div class="takahashi-text warning">團隊接下了落差</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">但這一切</div>
+      <div class="takahashi-text ">建立在哪裡？</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">在 AI 的夢境裡</div>
+      <div class="takahashi-text highlight">缺少的條件<br>都自動補齊</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">到了現實世界</div>
+      <div class="takahashi-text danger">那些條件<br>誰來實現？</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">你以為拿到了</div>
+      <div class="takahashi-text success">執行計畫</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">其實，你們只是一起</div>
+      <div class="takahashi-text danger">把夢做得<br>更詳細</div>
+    </div>
+
+    <!-- 主題二：平行時空 -->
+    <div class="slide">
+      <div class="sub-text">主題二</div>
+      <div class="takahashi-text danger">平行時空</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">有一天，你對 AI 說：</div>
+      <div class="takahashi-text">「我想加發一張折價券」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">AI 眼神一亮</div>
+      <div class="takahashi-text highlight">「可以！」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">然後...</div>
+      <div class="takahashi-text warning">資訊風暴</div>
+    </div>
+
+    <div class="slide scope-expansion">
+      <div class="takahashi-text scope-item">促銷系統</div>
+      <div class="takahashi-text scope-item">獨立入口</div>
+      <div class="takahashi-text scope-item warning">Queue Job</div>
+      <div class="takahashi-text scope-item danger">資安控管</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text" style="font-size: clamp(2rem, 7vw, 6rem);">（下略 500 字）</div>
+    </div>
+
+    <!-- 區塊 2：衝突與對比 -->
+    <div class="slide">
+      <div class="sub-text">你說：</div>
+      <div class="takahashi-text">「那出規格吧」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">AI 吐出</div>
+      <div class="takahashi-text danger">5,000 字</div>
+      <div class="sub-text">超長規格書</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">AI 計算執行時間...</div>
+      <div class="takahashi-text danger">三天三夜</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">AI 在背景連續運算...</div>
+      <div class="takahashi-text danger">整整 3 天</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">但現實世界中</div>
+      <div class="takahashi-text highlight">人類工程師</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">打開 Terminal</div>
+      <div class="takahashi-text success">敲一行指令</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">執行時間</div>
+      <div class="takahashi-text success">1 秒鐘</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text success">發出去了！</div>
+    </div>
+
+    <!-- 區塊 3：荒謬對比 -->
+    <div class="slide">
+      <div class="takahashi-text danger">三天三夜</div>
+      <div class="sub-text">vs</div>
+      <div class="takahashi-text success">1 秒鐘</div>
+    </div>
+
+    <!-- 區塊 4：對話拆解 -->
+    <div class="slide">
+      <div class="sub-text">為什麼會這樣？</div>
+      <div class="takahashi-text warning">對話還原</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">需求：重發折價券</div>
+      <div class="takahashi-text danger">AI：設計補發入口</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">引導：改既有 issue 吧</div>
+      <div class="takahashi-text danger">AI：新增 Reissue 模式</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">你終於炸裂：</div>
+      <div class="takahashi-text">你到底要<br><span class="danger">改什麼？</span></div>
+    </div>
+
+    <div class="slide" style="background: #ffffff; color: #000000;">
+      <div class="sub-text" style="color: #000000; margin-top: 0;">我只是要重發</div>
+      <div class="takahashi-text danger" style="font-size: clamp(5rem, min(23vw, 40vh), 20rem);">一次！</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">這叫</div>
+      <div class="takahashi-text highlight">靈魂拷問</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">AI 突然驚醒</div>
+      <div class="takahashi-text success">搜尋現有程式</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">發現既有函式</div>
+      <div class="takahashi-text success">sendCoupon()</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text success">0 行程式修改</div>
+      <div class="sub-text">直接執行完畢</div>
+    </div>
+
+    <!-- 區塊 5：深度剖析 -->
+    <div class="slide">
+      <div class="sub-text">深度剖析</div>
+      <div class="takahashi-text">為什麼？</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">原因一</div>
+      <div class="takahashi-text warning">Action</div>
+      <div class="sub-text">vs</div>
+      <div class="takahashi-text danger">Feature</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">你要一次性操作</div>
+      <div class="takahashi-text danger">AI 以為要蓋系統</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">原因二</div>
+      <div class="takahashi-text danger">過度設計</div>
+      <div class="sub-text">(Over-Engineering)</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">原因三</div>
+      <div class="takahashi-text danger">盲目重造輪子</div>
+    </div>
+
+    <!-- 區塊 6：防衛心法 -->
+    <div class="slide">
+      <div class="sub-text">如何防禦？</div>
+      <div class="takahashi-text highlight">踢回現實</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">心法一</div>
+      <div class="takahashi-text highlight">設定邊界</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text" style="font-size: clamp(2rem, 5vw, 4rem);">「優先搜尋既有 Code」</div>
+      <div class="sub-text danger">「禁止修改正式程式碼」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">心法二</div>
+      <div class="takahashi-text warning">靈魂拷問</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">當 AI 開始聊 DB / Queue 時...</div>
+      <div class="takahashi-text warning" style="font-size: clamp(2rem, 5vw, 4rem);">「現有程式能不能直接做？」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">總結</div>
+      <div class="takahashi-text danger">別讓 AI 重造輪子</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">讓它</div>
+      <div class="takahashi-text success">找現成的輪子！</div>
+    </div>
+
+    <!-- 主題三：AI：完成了！ -->
+    <div class="slide">
+      <div class="sub-text">主題三</div>
+      <div class="takahashi-text highlight">AI：完成了！</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">程式寫好了</div>
+      <div class="takahashi-text success">促銷券<br>發出去了</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">但客人拿到後</div>
+      <div class="takahashi-text danger">不能用</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">合約寫好了</div>
+      <div class="takahashi-text success">要交付的是<br>一個專案</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">條款卻把</div>
+      <div class="takahashi-text danger">整間公司<br>都交給客戶</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">客服文件寫好了</div>
+      <div class="takahashi-text success">「有問題<br>請加官方 LINE」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">客人加了</div>
+      <div class="takahashi-text danger">競爭對手的<br>LINE</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">AI 的完成</div>
+      <div class="takahashi-text warning">跟你的完成<br>不一樣</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text danger">誰負責？</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">AI 可以再說一次</div>
+      <div class="takahashi-text highlight">「抱歉<br>你說得對」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">要處理後果的人</div>
+      <div class="takahashi-text danger">是你</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text danger">AI 不會<br>幫你負責</div>
+    </div>
+
+
+
+    <!-- 主題四：越修越壞 -->
+    <div class="slide">
+      <div class="sub-text">主題四</div>
+      <div class="takahashi-text highlight">越修越壞</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">促銷券不能用，你說</div>
+      <div class="takahashi-text ">「修一下」</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text success">「修好了！」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">這次</div>
+      <div class="takahashi-text danger">整個購物車<br>不能結帳</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">等等</div>
+      <div class="takahashi-text warning">「先恢復結帳！」</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text success">「修好了！」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">結帳恢復了</div>
+      <div class="takahashi-text danger">促銷券<br>又不能用了</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text warning">「你剛才不是<br>修好了？」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">AI 說</div>
+      <div class="takahashi-text highlight">「抱歉，這次<br>找到真正原因了」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">這句話</div>
+      <div class="takahashi-text danger">你已經<br>聽過三次</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">你開始不敢說</div>
+      <div class="takahashi-text ">「再修一下」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">你只想說</div>
+      <div class="takahashi-text danger">「先停下來」</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text highlight">AI 世代的驗證<br>比任何時候都重要</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">修好的，要能用</div>
+      <div class="takahashi-text warning">原本能用的<br>也不能壞</div>
+    </div>
+
+    <!-- 主題五：誰在開車？ -->
+    <div class="slide">
+      <div class="sub-text">主題五</div>
+      <div class="takahashi-text highlight">誰在開車？</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">一開始</div>
+      <div class="takahashi-text ">你說，AI 做</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">AI 問</div>
+      <div class="takahashi-text highlight">「要不要<br>順便優化？」</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text success">好</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text highlight">「這裡建議<br>換個做法」</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text success">可以</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text highlight">「需要調整<br>一下架構」</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text warning">你決定就好</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">不知道從什麼時候開始</div>
+      <div class="takahashi-text warning">變成 AI 說<br>你同意</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">同事問你</div>
+      <div class="takahashi-text ">「為什麼<br>改成這樣？」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">你說</div>
+      <div class="takahashi-text highlight">「AI 建議的」</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text ">「那原本的做法<br>有什麼問題？」</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text ">……</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">你每一步都按了同意</div>
+      <div class="takahashi-text danger">卻說不清楚<br>自己同意了什麼</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">把工作交出去</div>
+      <div class="takahashi-text highlight">判斷要<br>留在手上</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">至少，你要能回答</div>
+      <div class="takahashi-text warning">為什麼改？<br>怎樣才算對？</div>
+    </div>
+
+    <!-- 主題六：把 AI 拉回現實 -->
+    <div class="slide">
+      <div class="sub-text">主題六</div>
+      <div class="takahashi-text highlight">把 AI 拉回現實</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">回到一開始</div>
+      <div class="takahashi-text ">「我想做一個<br>買高鐵票的 App」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">AI 說</div>
+      <div class="takahashi-text success">「可以！」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">這次，你說</div>
+      <div class="takahashi-text warning">「先別急」</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text ">「你說的可以<br>有哪些依據？」</div>
+    </div>
+
+    <div class="slide">
+      <div class="takahashi-text warning">「哪些已經確認？<br>哪些只是你假設？」</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">先確認</div>
+      <div class="takahashi-text highlight">一筆購票<br>能不能真的走完</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">需要哪些資料？透過什麼管道訂票？</div>
+      <div class="takahashi-text ">付款後<br>怎麼拿到票？</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">還不知道的地方</div>
+      <div class="takahashi-text warning">先查證</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">確認做得到</div>
+      <div class="takahashi-text highlight">再決定做多少</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">先完成一個小範圍</div>
+      <div class="takahashi-text ">拿實際結果來看</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">結果不符合</div>
+      <div class="takahashi-text warning">先找落差<br>再決定怎麼改</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">我們還是可以</div>
+      <div class="takahashi-text success">讓 AI<br>做很多事</div>
+    </div>
+
+    <div class="slide">
+      <div class="sub-text">但每一步</div>
+      <div class="takahashi-text highlight">都要接得上現實</div>
+    </div>
+
+    <div class="slide" style="gap: clamp(1.5rem, 5vh, 4rem);">
+      <div style="font-size: clamp(1.8rem, min(5vw, 8vh), 4.5rem); font-weight: 700; line-height: 1.3; color: #a1a1aa;">AI 說可以，是開始</div>
+      <div class="takahashi-text" style="font-size: clamp(2.5rem, min(10vw, 17vh), 9rem);">你確認可以<br><span class="warning">才算完成</span></div>
+    </div>
+
+  </div>
+
+  <input class="progress-bar" id="progressBar" type="range" min="1" max="1" value="1" step="1" aria-label="簡報頁碼">
+  <div class="counter" id="counter">1 / 44</div>
+
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    const progressBar = document.getElementById('progressBar');
+    const counter = document.getElementById('counter');
+    let currentSlide = 0;
+    progressBar.max = slides.length;
+
+    function updateSlide() {
+      slides.forEach((slide, index) => {
+        slide.classList.toggle('active', index === currentSlide);
+      });
+      const progress = slides.length > 1 ? (currentSlide / (slides.length - 1)) * 100 : 100;
+      progressBar.value = currentSlide + 1;
+      progressBar.style.setProperty("--progress", `${progress}%`);
+      progressBar.setAttribute("aria-valuetext", `第 ${currentSlide + 1} 頁，共 ${slides.length} 頁`);
+      counter.textContent = `${currentSlide + 1} / ${slides.length}`;
+    }
+
+    function nextSlide() {
+      if (currentSlide < slides.length - 1) {
+        currentSlide++;
+        updateSlide();
+      }
+    }
+
+    function prevSlide() {
+      if (currentSlide > 0) {
+        currentSlide--;
+        updateSlide();
+      }
+    }
+
+    progressBar.addEventListener('input', () => {
+      currentSlide = Number(progressBar.value) - 1;
+      updateSlide();
+    });
+
+    // 鍵盤與點擊控制
+    document.addEventListener('keydown', (e) => {
+      if (e.target === progressBar || e.target.closest('a')) return;
+      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') {
+        nextSlide();
+      } else if (e.key === 'ArrowLeft') {
+        prevSlide();
+      }
+    });
+
+    document.addEventListener('click', (e) => {
+      if (e.target === progressBar || e.target.closest('a')) return;
+      // 點擊螢幕右側前進，左側後退
+      if (e.clientX > window.innerWidth / 2) {
+        nextSlide();
+      } else {
+        prevSlide();
+      }
+    });
+
+    updateSlide();
+  </script>
+</body>
+</html>

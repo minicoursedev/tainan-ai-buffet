@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<script defer src="/assets/analytics.js?v=20261019-content-group"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ff3476"><meta name="description" content="台南洋流店家地圖，整理店家地址、營業時間與社群連結。依店家分類查找台南洋流店家，查看地圖位置，並透過 Google Maps 規劃前往路線。">
+<title>台南洋流店家地圖｜店家地址、營業時間與導航</title>
+<link rel="canonical" href="https://minicourse.dev/puma_oshen_wave/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:site_name" content="MiniCourse">
+<meta property="og:title" content="台南洋流店家地圖｜店家地址、營業時間與導航">
+<meta property="og:description" content="台南洋流店家地圖，整理店家地址、營業時間與社群連結。依店家分類查找台南洋流店家，查看地圖位置，並透過 Google Maps 規劃前往路線。">
+<meta property="og:url" content="https://minicourse.dev/puma_oshen_wave/">
+<meta property="og:image" content="https://minicourse.dev/puma_oshen_wave/assets/ocean-map-hero.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="2171">
+<meta property="og:image:height" content="724">
+<meta property="og:image:alt" content="洋流地圖 — 台南好店，一起來找！">
+<link rel="stylesheet" href="./vendor/leaflet/leaflet.css"><script defer src="./vendor/leaflet/leaflet.js"></script>
+<link rel="stylesheet" href="./style.css?v=20261020-marquee"><script type="module" src="./app.js?v=20261020-marquee"></script>
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner"><a class="wordmark" href="./" aria-label="台南洋流店家地圖首頁">台南洋流店家地圖</a><button type="button" id="contact-open" aria-haspopup="dialog">聯絡我們</button></div>
+</header>
+<main>
+<section class="title-scene imagegen-hero" aria-labelledby="page-title">
+  <div class="hero-art"><img src="./assets/ocean-map-hero.png" width="2171" height="724" alt="洋流地圖 — 台南好店，一起來找！" fetchpriority="high"></div>
+  <div class="page-intro"><h1 id="page-title">台南洋流店家地圖</h1></div>
+</section>
+<section class="finder" aria-labelledby="finder-title">
+  <div class="finder-marquee">
+    <div class="marquee-window"><h2 id="finder-title" class="marquee-track"><span>尋找你心中的洋流，為自己投下那一票，台北的市長沈伯洋、台南的市長陳亭妃</span><span aria-hidden="true">尋找你心中的洋流，為自己投下那一票，台北的市長沈伯洋、台南的市長陳亭妃</span></h2></div>
+  </div>
+  <button id="category-toggle" class="mobile-control" type="button" aria-expanded="false" aria-controls="category-filters">店別：全部店家 ▾</button>
+  <div class="controls"><div id="category-filters" class="category-filters" role="group" aria-label="店別篩選"></div></div>
+</section>
+<section class="map-workspace" id="map-area" aria-label="店家清單與地圖">
+  <div class="mobile-views" role="group" aria-label="瀏覽方式"><button type="button" id="list-view" aria-pressed="true">店家清單</button><button type="button" id="map-view" aria-pressed="false">查看地圖</button></div>
+  <aside class="shop-panel"><div class="panel-heading"><h2>台南洋流店家清單 <span aria-hidden="true">↓</span></h2><span id="result-count" aria-live="polite">讀取中</span></div><section id="shop-detail" class="shop-detail" hidden aria-label="選定店家資訊"><div class="start-icon" aria-hidden="true">↗</div><div><h2>台南洋流店家地圖與導航</h2><p>在地圖上選擇店家，查看地址並規劃前往路線。</p></div></section><div id="shop-list" aria-live="polite"></div><p class="shop-info-note">營業時間與店家資訊，請以各店最新公告為準。</p></aside>
+  <div class="map-column"><div class="map-frame"><div class="map-bar"><div><span class="location-dot" aria-hidden="true"></span><strong id="location-name">台南火車站</strong><span class="map-label">OPENSTREETMAP</span></div><button id="home-map" type="button">回到車站 ↺</button></div><div id="all-shops-map" hidden aria-label="所有店家位置"></div><p id="map-status" role="status" hidden></p><div class="map-caption"><span>點選店家，查看位置與詳細資訊</span></div></div></div>
+</section>
+<div class="closing-strip" aria-hidden="true"><span>找好店</span><b>×</b><span>逛台南</span><b>×</b><span>收集小快樂</span><i>✦</i></div>
+</main>
+
+<footer><strong>台南洋流店家地圖</strong><a href="#page-title">回到上方 ↑</a><p class="footer-notice">本網頁由 <a href="https://minicourse.dev" style="text-decoration:underline;text-underline-offset:3px">MiniCourse</a> 製作，所有店家資訊均為各家所有，本站僅整理，不保證百分之百正確</p><p class="footer-notice">部分店家座標資料 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>（ODbL）</p></footer>
+<dialog id="contact-dialog" aria-labelledby="contact-title" aria-describedby="contact-description">
+  <form method="dialog"><button class="contact-close" aria-label="關閉對話框" autofocus>×</button></form>
+  <h2 id="contact-title">聯絡我們</h2>
+  <p id="contact-description">避免誤會，申請加入請由店家自行申請。</p>
+  <a class="contact-thread" href="https://www.threads.com/@lmanliang/post/Deq27XPgZhQ" target="_blank" rel="noopener noreferrer">Threads 討論串 ↗</a>
+</dialog>
+</body></html>
