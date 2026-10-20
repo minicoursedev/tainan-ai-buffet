@@ -18,7 +18,7 @@
 <meta property="og:image:height" content="724">
 <meta property="og:image:alt" content="洋流地圖 — 台南好店，一起來找！">
 <link rel="stylesheet" href="./vendor/leaflet/leaflet.css"><script defer src="./vendor/leaflet/leaflet.js"></script>
-<link rel="stylesheet" href="./style.css?v=20261020-marquee"><script type="module" src="./app.js?v=20261020-service-size"></script>
+<link rel="stylesheet" href="./style.css?v=20261020-location"><script type="module" src="./app.js?v=20261020-service-size"></script>
 </head>
 <body>
 <header class="masthead">
@@ -38,7 +38,7 @@
 <section class="map-workspace" id="map-area" aria-label="店家清單與地圖">
   <div class="mobile-views" role="group" aria-label="瀏覽方式"><button type="button" id="list-view" aria-pressed="true">店家清單</button><button type="button" id="map-view" aria-pressed="false">查看地圖</button></div>
   <aside class="shop-panel"><div class="panel-heading"><h2>台南洋流店家清單 <span aria-hidden="true">↓</span></h2><span id="result-count" aria-live="polite">讀取中</span></div><section id="shop-detail" class="shop-detail" hidden aria-label="選定店家資訊"><div class="start-icon" aria-hidden="true">↗</div><div><h2>台南洋流店家地圖與導航</h2><p>在地圖上選擇店家，查看地址並規劃前往路線。</p></div></section><div id="shop-list" aria-live="polite"></div><p class="shop-info-note">營業時間與店家資訊，請以各店最新公告為準。</p></aside>
-  <div class="map-column"><div class="map-frame"><div class="map-bar"><div><span class="location-dot" aria-hidden="true"></span><strong id="location-name">台南火車站</strong><span class="map-label">OPENSTREETMAP</span></div><button id="home-map" type="button">回到車站 ↺</button></div><div id="all-shops-map" hidden aria-label="所有店家位置"></div><p id="map-status" role="status" hidden></p><div class="map-caption"><span>點選店家，查看位置與詳細資訊</span></div></div></div>
+  <div class="map-column"><div class="map-frame"><div class="map-bar"><div><span class="location-dot" aria-hidden="true"></span><strong id="location-name">台南火車站</strong><span class="map-label">OPENSTREETMAP</span></div><button id="home-map" type="button">我的位置</button></div><div id="all-shops-map" hidden aria-label="所有店家位置"></div><p id="map-status" role="status" hidden></p><div class="map-caption"><span>點選店家，查看位置與詳細資訊</span></div></div></div>
 </section>
 <div class="closing-strip" aria-hidden="true"><span>找好店</span><b>×</b><span>逛台南</span><b>×</b><span>收集小快樂</span><i>✦</i></div>
 </main>

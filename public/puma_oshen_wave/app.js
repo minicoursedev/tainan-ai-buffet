@@ -1,4 +1,4 @@
-import {createShopMap} from './shop-map.js?v=20261020-service-size';
+import {createShopMap} from './shop-map.js?v=20261020-location';
 const byId = id => document.getElementById(id);
 const origin = '22.997137,120.21295';
 let shops = [], category = '', selectedId = null;
@@ -47,6 +47,39 @@ function restoreLinkedShop() {
   renderCategories();
   renderShops();
   if (shop && (!category || shop.category === category)) selectShop(shop);
+}
+function locateMe() {
+  const button = byId('home-map'), status = byId('map-status');
+  const report = text => { status.hidden = false; status.textContent = text; };
+  if (!navigator.geolocation) {
+    report('此瀏覽器不支援定位，請使用手機瀏覽器開啟 HTTPS 網站。');
+    return;
+  }
+  button.disabled = true;
+  button.textContent = '定位中…';
+  report('正在取得你的位置…');
+  const finish = () => { button.disabled = false; button.textContent = '我的位置'; };
+  navigator.geolocation.getCurrentPosition(async ({coords}) => {
+    try {
+      if (!await shopMap.load(shops)) {
+        report('地圖暫時無法載入，請重新整理後再試。');
+        return;
+      }
+      resetMap();
+      setView(true);
+      shopMap.locate({lat:coords.latitude, lng:coords.longitude});
+      byId('location-name').textContent = '我的位置';
+      report(`已定位，精確度約 ${Math.round(coords.accuracy)} 公尺`);
+    } finally { finish(); }
+  }, error => {
+    const messages = {
+      1:'尚未允許定位，請在瀏覽器或手機設定中允許位置存取後再試。',
+      2:'暫時無法取得位置，請確認手機定位服務已開啟後再試。',
+      3:'定位逾時，請移到訊號較佳的位置後再試。'
+    };
+    report(messages[error.code] || '定位失敗，請稍後再試。');
+    finish();
+  }, {enableHighAccuracy:true, timeout:15000, maximumAge:0});
 }
 function resetMap() {
   history.replaceState(null, "", shopUrl(null));
@@ -230,7 +263,7 @@ async function init(){
     byId('category-toggle').onclick=()=>{const b=byId('category-toggle');b.setAttribute('aria-expanded',String(b.getAttribute('aria-expanded')!=='true'));};
     byId('list-view').onclick=()=>setView(false);
     byId('map-view').onclick=()=>setView(true);
-    byId('home-map').addEventListener('click',resetMap);
+    byId('home-map').addEventListener('click',locateMe);
   }catch{
     byId('result-count').textContent='載入失敗';
     const error=node('div',undefined,'empty-state');error.append(node('strong','店家資料暫時無法載入'),node('p','請重新整理頁面再試一次。'));

@@ -2,6 +2,7 @@ const station = {lat:22.997137,lng:120.21295};
 
 // Coordinates and shop information remain on this website; only base tiles are remote.
 export function createShopMap({container, status, onSelect, onPositionsReady = () => {}}) {
+  let userMarker;
   let map, selected = null, loading, visibleIds = null, total = 0;
   const markers = new Map(), positions = new Map(), visuals = new Map();
   const updateCount = () => {
@@ -28,6 +29,17 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
       marker.setZIndexOffset(shopId === id ? 1000 : 0);
       visuals.get(shopId).classList.toggle('is-selected', shopId === id);
     }
+  };
+  const locate = ({lat, lng}) => {
+    if (!map) return false;
+    focus(null);
+    const position = {lat, lng};
+    if (userMarker) userMarker.setLatLng(position);
+    else userMarker = L.circleMarker(position, {
+      radius:8, color:'#fff', weight:3, fillColor:'#009a50', fillOpacity:1
+    }).addTo(map).bindTooltip('我的位置');
+    map.setView(position, 16);
+    return true;
   };
   async function load(shops) {
     if (loading) return loading;
@@ -90,5 +102,5 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
     });
     return loading;
   }
-  return {load, focus, filter, get active(){return Boolean(map);}};
+  return {load, focus, filter, locate, get active(){return Boolean(map);}};
 }

@@ -92,3 +92,6 @@ body:has(#contact-dialog[open]){overflow:hidden}
 @keyframes oshen-marquee{to{transform:translateX(-50%)}}
 @media(max-width:700px){.finder-marquee{font-size:18px}}
 @media(prefers-reduced-motion:reduce){.marquee-track{animation:none;width:auto}.marquee-track span{white-space:normal;padding:0}.marquee-track span[aria-hidden]{display:none}}
+
+#home-map{background:#fff;color:var(--green)}
+#home-map:disabled{opacity:.65;cursor:wait}
