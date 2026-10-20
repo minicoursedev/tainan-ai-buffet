@@ -4109,7 +4109,12 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060261866",
       "coordinateNote": "2026-10-20 OpenStreetMap 結構化門牌查詢核對66號、平通路、安平區、臺南市相符。",
-      "visitNote": "台南市議員民進黨候選人"
+      "visitNote": "台南市議員民進黨候選人",
+      "mapMarker": {
+        "label": "林依婷",
+        "image": "https://scontent.cdninstagram.com/v/t51.82787-19/650847001_17940169443149946_2709806269689369893_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=ZxOnodH9C3IQ7kNvwH7vTBy&_nc_oc=Adpq1FupZmNQUi8ntPe-Nj7ES9tf7nx6ig2mlr2TvRrH7HOeinyepJISJsM6mg_z6Hk&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=GjaaPuzdouZGLIDLZ-HwoQ&_nc_ss=7920f&oh=00_AQO0RATqjHZ5ECcFDGRqxYGPGL2zHGxO1pSUKKQA973MBA&oe=6ADD4561",
+        "source": "https://www.threads.com/@yitinglin_123"
+      }
     }
   ],
   "pendingStores": []
