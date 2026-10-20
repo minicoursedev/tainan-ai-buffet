@@ -4108,7 +4108,8 @@
         "lng": 120.181408
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060261866",
-      "coordinateNote": "2026-10-20 OpenStreetMap 結構化門牌查詢核對66號、平通路、安平區、臺南市相符。"
+      "coordinateNote": "2026-10-20 OpenStreetMap 結構化門牌查詢核對66號、平通路、安平區、臺南市相符。",
+      "visitNote": "台南市議員民進黨候選人"
     }
   ],
   "pendingStores": []
