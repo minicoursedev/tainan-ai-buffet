@@ -2083,15 +2083,16 @@
       "social": {
         "facebook": "",
         "instagram": "",
-        "threads": ""
+        "threads": "https://www.threads.com/@yutingztw"
       },
       "sources": [
         "https://www.threads.com/@companio__bakery/post/DeQspkugc6i",
-        "https://www.google.com/maps/place/荷芯藥局/data=!4m2!3m1!1s0x346e77005105ec57:0x9e1c0e95644c3cb6"
+        "https://www.google.com/maps/place/荷芯藥局/data=!4m2!3m1!1s0x346e77005105ec57:0x9e1c0e95644c3cb6",
+        "https://www.threads.com/@yutingztw"
       ],
       "giftStatus": "可能有小物",
-      "verifiedAt": "2026-10-19",
-      "verificationNote": "一起companio bakery的10/9送達海報清單／同串追加回覆明列店名地址；主代理放大原帖照片，確認海報上寫「你的市長沈伯洋」，並以供應者10/6洋流海報原文交叉核對。Google商家資訊核地址及店型。非店家自身公告，不代表即時庫存。",
+      "verifiedAt": "2026-10-21",
+      "verificationNote": "一起companio bakery的10/9送達海報清單／同串追加回覆明列店名地址；主代理放大原帖照片，確認海報上寫「你的市長沈伯洋」，並以供應者10/6洋流海報原文交叉核對。Google商家資訊核地址及店型。非店家自身公告，不代表即時庫存。2026-10-21 核對使用者提供的 Threads @yutingztw，公開個人頁名稱為 Yuting Zheng，自介明列「荷芯藥局小幫手」及「台南市北區育德路27號」，與既有店名地址一致，補入店家小幫手公開帳號。未取得可確認的 Facebook、Instagram 或個人檔案頭像，維持原欄位；本次未取得新的官方營業時段，保留既有營業時間及查證日期。",
       "openingHours": {
         "status": "verified",
         "text": "週一至週六 09:00–21:00\n週日公休。",
@@ -4275,6 +4276,87 @@
       },
       "coordinateSource": "https://www.google.com/maps/place/威記藥膳排骨湯/data=!4m7!3m6!1s0x346e85a9443e1a2b:0xcaeef25d0a84a263!8m2!3d23.3107922!4d120.3181334!16s%2Fg%2F11xt27qyj3!19sChIJKxo-RKmFbjQRY6KECl3y7so",
       "coordinateNote": "2026-10-21 OpenStreetMap 完整地址、27-12號及27號之12寫法查無門牌；街道與門牌結構化查詢僅回道路結果，未採用道路中心。改以瀏覽器核對 Google Maps 店名、民治路27號之12及電話06-6328355，取地點網址 !3d、!4d 座標。"
+    },
+    {
+      "id": "jisheng-ramen",
+      "category": "正餐",
+      "giftStatus": "可能有小物",
+      "name": "激勝",
+      "address": "台南市東區東寧路42-2號",
+      "social": {
+        "facebook": "https://www.facebook.com/share/1BtHg8FD3R/",
+        "instagram": "https://www.instagram.com/jisheng.ramen/",
+        "threads": "https://www.threads.com/@jisheng.ramen"
+      },
+      "sources": [
+        "https://www.threads.com/@jisheng.ramen",
+        "https://www.instagram.com/jisheng.ramen/",
+        "https://www.google.com/maps/place/%E6%BF%80%E5%8B%9D%E4%B8%A8%E5%8F%B0%E5%8D%97%E6%9D%B1%E5%8D%80+%E6%B8%85%E6%B9%AF%E6%BF%83%E6%B9%AF%E6%8B%89%E9%BA%B5%E5%B0%88%E8%B3%A3/@22.9920447,120.2204268,17z/data=!3m1!4b1!4m6!3m5!1s0x346e7770655586a7:0xf90a86060a9902ef!8m2!3d22.9920447!4d120.2204268!16s%2Fg%2F11ly_d641n?entry=ttu&g_ep=EgoyMDI2MTAxOC4wIKXMDSoASAFQAw%3D%3D"
+      ],
+      "verifiedAt": "2026-10-21",
+      "verificationNote": "使用者指定收錄。官方 Threads 與 Instagram 均名為「激勝」，地址一致為東寧路42-2號；Instagram 自介說明以雞豚湯底為主的拉麵店，分類為正餐。Facebook 分享連結由官方 Threads 個人頁 rel=me 提供，Facebook 頁面目前無法查看內容，未據此補填其他資訊。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週二至週六 11:30–13:30、17:00–21:00\n週日、週一公休。午餐最後點餐 13:20，晚餐最後點餐 20:40；特殊節日或臨時公休另行公告。",
+        "sources": [
+          "https://www.instagram.com/jisheng.ramen/"
+        ],
+        "checkedAt": "2026-10-21",
+        "auditNote": "官方 Instagram 個人頁自介明列午晚餐時段、最後點餐時間及「固定公休日、一」，依官方公告整理。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent.cdninstagram.com/v/t51.2885-19/471809965_4039537636283168_3855568869638136775_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=109&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=O8e8IPpK9dIQ7kNvwHkR_08&_nc_oc=Adr-sJLVZEY2LaJyOVsh1eK7rkVxOidiOzIc3rVYuofaypLcIyPtnLRPFZNqSZzqzUc&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7f689&oh=00_AQPfkORyl03GQwx0HwBLOa7YLWHxpBmWjmsHY0M_l7SQcw&oe=6ADE4BFA",
+        "source": "https://www.instagram.com/jisheng.ramen/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-21",
+        "note": "官方 Instagram 個人頁名稱為激勝，簡介地址與官方 Threads 一致；瀏覽器 img alt 明示「jisheng.ramen's profile picture」，圖像為激勝黑白雞圖標；圖片 GET HTTP 200，Content-Type image/jpeg。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9920447,
+        "lng": 120.2204268
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E6%BF%80%E5%8B%9D%E4%B8%A8%E5%8F%B0%E5%8D%97%E6%9D%B1%E5%8D%80+%E6%B8%85%E6%B9%AF%E6%BF%83%E6%B9%AF%E6%8B%89%E9%BA%B5%E5%B0%88%E8%B3%A3/@22.9920447,120.2204268,17z/data=!3m1!4b1!4m6!3m5!1s0x346e7770655586a7:0xf90a86060a9902ef!8m2!3d22.9920447!4d120.2204268!16s%2Fg%2F11ly_d641n?entry=ttu&g_ep=EgoyMDI2MTAxOC4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateNote": "2026-10-21 OSM 完整門牌及 42號之2 無結果，結構化查詢僅回道路，未採用。以 Playwright 開啟 Google Maps 搜尋激勝，地點名稱為「激勝丨台南東區 清湯濃湯拉麵專賣」，地址顯示「701臺南市東區東寧路42-2號」，採地點網址 !3d22.9920447!4d120.2204268。"
+    },
+    {
+      "id": "no19store",
+      "category": "其它",
+      "giftStatus": "可能有小物",
+      "name": "十九號二手屋",
+      "address": "台南市東區裕農路389巷3弄19號1樓",
+      "social": {
+        "facebook": "https://www.facebook.com/no19store/",
+        "instagram": "https://www.instagram.com/smile19_com/",
+        "threads": "https://www.threads.com/@smile19_com"
+      },
+      "sources": [
+        "https://www.facebook.com/no19store/",
+        "https://www.instagram.com/smile19_com/",
+        "https://www.threads.com/@smile19_com",
+        "https://www.facebook.com/no19store/posts/pfbid0tpZAMgVZW2CvrDWRTLSYbozez9xcCSBU8hEdAqycYBghxQfpRYm6cjDq9BhUycrGl"
+      ],
+      "verifiedAt": "2026-10-21",
+      "verificationNote": "使用者指定收錄。官方 Facebook 簡介與貼文均列裕農路389巷3弄19號1樓；簡介說明以二手商品、精品寄賣為主要經營內容，依使用者指定歸類為其它。Instagram 由官方 Facebook 連結確認；Threads 由官方 Instagram 個人頁帳號連結及 Threads 回連同一 Instagram 確認，三者店名均為十九號二手屋。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間請洽店家社群。",
+        "sources": [
+          "https://www.facebook.com/no19store/about",
+          "https://www.instagram.com/smile19_com/",
+          "https://www.google.com/maps/place/十九號二手屋/data=!4m6!3m5!1s0x346e76bdbae12e77:0x83c8e84244c2a281!8m2!3d22.9882273!4d120.230067!16s%2Fg%2F1tdkvf2s"
+        ],
+        "checkedAt": "2026-10-21",
+        "auditNote": "官方 Facebook 關於頁及 Instagram 完整自介未列固定營業時間；Google Maps 部分內容模式展開僅見星期三12:00–20:30，未取得完整週間表，故不填定現行時段或公休日。官方貼文的領取活動時段不作為營業時間。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9881803,
+        "lng": 120.2300283
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060491879",
+      "coordinateNote": "2026-10-21 OSM 完整地址查無結果，改以街道與門牌結構化查詢，取得19號門牌節點而非道路中心；再以節點 API 核對臺南市、東區、裕農路389巷3弄19號及數值座標。節點原資料樓層為五樓，本筆僅採同門牌建物位置，店家一樓沿用該門牌座標。"
     }
   ],
   "pendingStores": []
