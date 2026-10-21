@@ -4360,6 +4360,54 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060491879",
       "coordinateNote": "2026-10-21 OSM 完整地址查無結果，改以街道與門牌結構化查詢，取得19號門牌節點而非道路中心；再以節點 API 核對臺南市、東區、裕農路389巷3弄19號及數值座標。節點原資料樓層為五樓，本筆僅採同門牌建物位置，店家一樓沿用該門牌座標。"
+    },
+    {
+      "id": "wayonly-service-office",
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "周嘉韋議員服務處",
+      "address": "台南市中西區臨安路一段242號",
+      "social": {
+        "facebook": "https://www.facebook.com/wayonly/",
+        "instagram": "https://www.instagram.com/wei_lawyer_/",
+        "threads": "https://www.threads.com/@wei_lawyer_"
+      },
+      "sources": [
+        "https://www.facebook.com/wayonly/",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=3883BDD9-B3D8-4E32-92CE-45E27B7D56EB",
+        "https://tnda.tainan.gov.tw/civilbook/page.asp?page=7",
+        "https://www.instagram.com/wei_lawyer_/",
+        "https://www.threads.com/@wei_lawyer_",
+        "https://www.taisounds.com/news/content/71/240222"
+      ],
+      "verifiedAt": "2026-10-21",
+      "verificationNote": "使用者提供 wayonly Facebook 並指定洋流服務站分類。該頁名稱為周嘉韋律師；臺南市議會官方議員頁回連同一 Facebook，通訊處地址與市民手冊明列的服務處地址均為中西區臨安路一段242號。Instagram 與 Threads 個人頁均名為周嘉韋，自介為台南市中西區、北區市議員；太報報導嵌入的周嘉韋 Threads 貼文亦對應 wei_lawyer_ 帳號。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽官方社群。",
+        "sources": [
+          "https://www.facebook.com/wayonly/",
+          "https://www.instagram.com/wei_lawyer_/",
+          "https://www.threads.com/@wei_lawyer_"
+        ],
+        "checkedAt": "2026-10-21",
+        "auditNote": "未取得可確認的完整固定服務時間，故不填定時段或公休日。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent-sin2-2.xx.fbcdn.net/v/t39.30808-1/803267332_1476409801203108_4917887559977140877_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=RJemY6Bt_GMQ7kNvwFVtrxg&_nc_oc=AdqYWtn63nf9zn4ofMJcrBv9Tmw21uhvy6ltnCtzmZR45cShFrHmUH4MhpgBU96k42A&_nc_zt=24&_nc_ht=scontent-sin2-2.xx&_nc_gid=gkqDTAf4w4o9Os8tpuQosw&_nc_ss=7f20f&oh=00_AQNaPL-1I_dLEX1OcXGKYGls2yvU66TtdbhLQMLn0z-z_w&oe=6ADEA15E",
+        "source": "https://www.facebook.com/wayonly/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-21",
+        "note": "Facebook 公開頁 title、og:title 與 profile_name 均為周嘉韋律師；og:image 與 profile_name 對應 image_url 使用同一個人頁頭像檔案。HEAD 回應 HTTP 200、image/jpeg。CDN 簽章網址可能到期。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.0017405,
+        "lng": 120.1943253
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060946060",
+      "coordinateNote": "2026-10-21 OSM 完整地址自由查詢無結果，改以242 臨安路一段、臺南市、臺灣結構化門牌查詢取得節點；再以節點 API 核對中西區、兌悅里、臨安路一段242號及數值座標，採門牌位置而非道路中心。"
     }
   ],
   "pendingStores": []
