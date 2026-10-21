@@ -4393,6 +4393,11 @@
         "checkedAt": "2026-10-21",
         "auditNote": "未取得可確認的完整固定服務時間，故不填定時段或公休日。"
       },
+      "mapMarker": {
+        "label": "周嘉韋",
+        "image": "https://scontent-sin2-2.xx.fbcdn.net/v/t39.30808-1/803267332_1476409801203108_4917887559977140877_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=RJemY6Bt_GMQ7kNvwFVtrxg&_nc_oc=AdqYWtn63nf9zn4ofMJcrBv9Tmw21uhvy6ltnCtzmZR45cShFrHmUH4MhpgBU96k42A&_nc_zt=24&_nc_ht=scontent-sin2-2.xx&_nc_gid=gkqDTAf4w4o9Os8tpuQosw&_nc_ss=7f20f&oh=00_AQNaPL-1I_dLEX1OcXGKYGls2yvU66TtdbhLQMLn0z-z_w&oe=6ADEA15E",
+        "source": "https://www.facebook.com/wayonly/"
+      },
       "shopPhoto": {
         "url": "https://scontent-sin2-2.xx.fbcdn.net/v/t39.30808-1/803267332_1476409801203108_4917887559977140877_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=RJemY6Bt_GMQ7kNvwFVtrxg&_nc_oc=AdqYWtn63nf9zn4ofMJcrBv9Tmw21uhvy6ltnCtzmZR45cShFrHmUH4MhpgBU96k42A&_nc_zt=24&_nc_ht=scontent-sin2-2.xx&_nc_gid=gkqDTAf4w4o9Os8tpuQosw&_nc_ss=7f20f&oh=00_AQNaPL-1I_dLEX1OcXGKYGls2yvU66TtdbhLQMLn0z-z_w&oe=6ADEA15E",
         "source": "https://www.facebook.com/wayonly/",
