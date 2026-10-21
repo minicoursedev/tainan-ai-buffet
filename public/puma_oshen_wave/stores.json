@@ -4447,6 +4447,42 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11061020845",
       "coordinateNote": "2026-10-21 OSM 完整地址查詢無結果，改以60 大成路一段、台南市、南區、台灣的結構化門牌查詢取得節點；再以節點 API 核對臺南市南區明德里6鄰大成路一段60號及數值座標，採門牌位置而非道路中心。"
+    },
+    {
+      "id": "jingang-yoga",
+      "category": "日常生活",
+      "giftStatus": "可能有小物",
+      "name": "金剛跳瑜伽",
+      "address": "台南市中西區忠義路二段49號9樓",
+      "social": {
+        "facebook": "https://www.facebook.com/insanalife/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/insanalife/",
+        "https://www.aimershine.net/pages/arena",
+        "https://insanaife.wixsite.com/insanayoga"
+      ],
+      "verifiedAt": "2026-10-21",
+      "verificationNote": "使用者指定收錄，地址及9樓資訊依使用者提供，未取得官方公開頁的完整現址。官方 Facebook 頁名為「台南 金剛跳瑜伽」，前身帕渥瑜伽官方 Wix 的 Facebook 社群連結亦指向 insanalife；合作品牌愛美香官方介紹列為台南展售點，說明其為瑜伽工作室，依運動教室規則歸為日常生活。Wix 仍刊2017年課表及開山路舊址，不採用其地址或時段。未確認官方 Instagram、Threads，欄位留空。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "課程及開放時間請洽店家社群。",
+        "sources": [
+          "https://www.facebook.com/insanalife/",
+          "https://insanaife.wixsite.com/insanayoga"
+        ],
+        "checkedAt": "2026-10-21",
+        "auditNote": "官方 Facebook 公開內容以登入提示為主，未取得目前固定開放時間；前身官方網站僅見2017年舊課表，不作為現行營業時間，故不填定時段或公休日。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9913333,
+        "lng": 120.2024686
+      },
+      "coordinateSource": "https://www.openstreetmap.org/way/566279856",
+      "coordinateNote": "2026-10-21 依使用者提供地址查詢 OSM，完整地址及去樓層自由搜尋均無結果；改以49 忠義路二段、臺南市、中西區、臺灣的結構化門牌查詢，取得建築 way 566279856。以 Nominatim 回應及 OSM API 核對臺南市中西區忠義路二段49號與數值座標，採同門牌建築位置，非道路或行政區中心；樓層依使用者提供。"
     }
   ],
   "pendingStores": []
