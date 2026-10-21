@@ -4209,6 +4209,35 @@
       },
       "coordinateSource": "https://www.google.com/maps/place/老闆是隻貓自烘咖啡專門店（不是貓咖）/data=!4m6!3m5!1s0x346e774568fac6a9:0x5a6bdebb8be74184!8m2!3d22.9897604!4d120.2262649!16s%2Fg%2F11kqblb3jk",
       "coordinateNote": "2026-10-21 OSM 查詢因連線無法完成，改以瀏覽器開啟 Google Maps，核對店名及林森路二段192巷81號地址，取地點網址 !3d、!4d 座標。"
+    },
+    {
+      "id": "bb-cafe-tainan",
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "B.B.CAFE 小黑熊咖啡",
+      "address": "原址：台南市中西區民權路二段48號2樓（暫停營業、搬遷中，新址未確認）",
+      "social": {
+        "facebook": "https://www.facebook.com/101073816156666",
+        "instagram": "https://www.instagram.com/b.b.cafe_tainan/",
+        "threads": ""
+      },
+      "sources": [
+        "https://niceclaup313.pixnet.net/blog/posts/8234820287",
+        "https://garyforfun.blogspot.com/2025/07/bbcafetainan.html?m=1",
+        "https://vickylife.com/b-b-cafe/",
+        "https://ifoodie.tw/restaurant/640b622c01ba337ee5c06669-B-B-Cafe",
+        "https://www.instagram.com/b.b.cafe_tainan/",
+        "https://www.facebook.com/101073816156666"
+      ],
+      "verifiedAt": "2026-10-21",
+      "verificationNote": "使用者指定收錄。多篇食記交叉核對店名、咖啡廳分類及搬遷前地址：民權路二段48號2樓。2026-10-21 讀取官方 Instagram 自介顯示「暫停營業中、努力搬遷中」，未找到可確認新址，地址明示原址，不視為目前營業地址。Facebook 由食記及愛食記的店家連結確認，兩種數字網址的 og:url 均指向同一 B.B.CAFE_Tainan 官方頁；Instagram 由食記店家連結確認。過往營業時間及公休日資料不一致，且官方已標示暫停營業，故未填現行時段。愛食記同頁的已歇業及現正營業標示互相矛盾，營業現況採官方 Instagram 自介。Threads 未找到可確認帳號，留空。",
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9944547,
+        "lng": 120.2052065
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060951321",
+      "coordinateNote": "2026-10-21 OpenStreetMap Nominatim 完整地址查無結果，改以街道與門牌結構化查詢，選取門牌節點而非道路結果；再讀取節點 API，核對臺南市、中西區、民權路二段48號及數值座標一致。此座標僅為搬遷前原址門牌位置，二樓沿用該門牌座標；不是搬遷後新址。"
     }
   ],
   "pendingStores": []
