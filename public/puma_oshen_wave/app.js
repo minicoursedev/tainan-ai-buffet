@@ -151,12 +151,6 @@ function selectShop(shop, openDetail = true) {
     const hours = node('section',undefined,'business-hours');
     hours.append(node('h3','營業時間'),node('p',hoursText,'hours-schedule'));
     if (shop.openingHours?.note) hours.append(node('p',shop.openingHours.note,'hours-note'));
-    const hoursMeta = node('div',undefined,'hours-meta');
-    try {
-      const source = new URL(shop.openingHours?.sources?.[0]);
-      if(source.protocol === 'https:') hoursMeta.append(externalLink('查看時間來源 ↗',source.href));
-    } catch { /* No confirmed opening-hours source available. */ }
-    hours.append(hoursMeta,node('p','臨時公休與假日調整，請以店家公告為準。','hours-note'));
     content.append(hours);
   }
   if (shop.visitNote) content.append(node('p',shop.visitNote));
