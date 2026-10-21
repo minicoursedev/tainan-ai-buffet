@@ -1,7 +1,9 @@
-import {createShopMap} from './shop-map.js?v=20261020-location';
+import {findStar} from './lucky-star.js?v=20261022-star';
+import {createShopMap} from './shop-map.js?v=20261022-star';
 const byId = id => document.getElementById(id);
 const origin = '22.997137,120.21295';
 let shops = [], category = '', selectedId = null;
+let starVersion = 0;
 const shopMap = createShopMap({container:byId('all-shops-map'),status:byId('map-status'),onSelect:selectShopFromMap,onPositionsReady:sortByStationDistance});
 // Great-circle distance; independent of the selected shop and category.
 function distanceFromStation({lat, lng}) {
@@ -28,6 +30,7 @@ function externalLink(text, url, className) {
   return a;
 }
 function showMap(name, query, center = false) {
+  clearLuckyStar();
   shopMap.focus(center ? null : selectedId);
   byId('location-name').textContent = name;
 }
@@ -49,6 +52,7 @@ function restoreLinkedShop() {
   if (shop && (!category || shop.category === category)) selectShop(shop);
 }
 function locateMe() {
+  clearLuckyStar();
   const button = byId('home-map'), status = byId('map-status');
   const report = text => { status.hidden = false; status.textContent = text; };
   if (!shopMap.active) {
@@ -60,6 +64,7 @@ function locateMe() {
     return;
   }
   button.disabled = true;
+  byId('lucky-star').disabled = true;
   button.textContent = '定位中…';
   report('正在取得你的位置…');
   let finished = false;
@@ -67,6 +72,7 @@ function locateMe() {
     finished = true;
     clearTimeout(watchdog);
     button.disabled = false;
+    byId('lucky-star').disabled = false;
     button.textContent = '我的位置';
   };
   const watchdog = setTimeout(() => {
@@ -276,7 +282,7 @@ async function init(){
     shops=data.stores.filter(shop=>shop.disabled!==true);renderCategories();renderShops();
     restoreLinkedShop();
     window.addEventListener("popstate", restoreLinkedShop);
-    void shopMap.load(shops);
+    void shopMap.load(shops).then(ready => {byId('lucky-star').disabled = !ready;});
     byId('category-toggle').onclick=()=>{const b=byId('category-toggle');b.setAttribute('aria-expanded',String(b.getAttribute('aria-expanded')!=='true'));};
     byId('list-view').onclick=()=>setView(false);
     byId('map-view').onclick=()=>setView(true);
@@ -286,7 +292,51 @@ async function init(){
     const retry=node('button','重新載入');retry.onclick=()=>location.reload();error.append(retry);byId('shop-list').replaceChildren(error);
   }
 }
+function clearLuckyStar() {
+  starVersion++;
+  shopMap.clearStar();
+  byId('lucky-star-message').hidden = true;
+}
+byId('close-star').addEventListener('click', clearLuckyStar);
+byId('lucky-star').addEventListener('click', async () => {
+  const button = byId('lucky-star'), status = byId('map-status');
+  clearLuckyStar();
+  const version = starVersion;
+  button.disabled = true;
+  button.setAttribute('aria-label', '尋找幸運星…');
+  button.setAttribute('aria-busy', 'true');
+  byId('home-map').disabled = true;
+  status.hidden = false;
+  status.textContent = '尋找幸運星…';
+  try {
+    if (!await shopMap.load(shops)) throw new Error('Map unavailable');
+    const star = await findStar();
+    if (version !== starVersion) return;
+    if (!star) {status.textContent = '幸運星還在路上...'; return;}
+    resetMap();
+    setView(true);
+    shopMap.showStar(star, shops.find(shop => shop.id === star.shopId));
+    byId('location-name').textContent = '幸運星';
+    byId('lucky-star-text').textContent = star.message;
+    byId('lucky-star-message').hidden = false;
+    status.textContent = '已找到幸運星';
+  } catch {
+    if (version === starVersion) status.textContent = '暫時無法讀取幸運星，請稍後再試。';
+  } finally {
+    button.disabled = false;
+    button.setAttribute('aria-label', '幸運星');
+    button.removeAttribute('aria-busy');
+    byId('home-map').disabled = false;
+  }
+});
 byId('home-map').addEventListener('click', locateMe);
+const shareDialog = byId('share-dialog');
+byId('share-open').addEventListener('click', () => shareDialog.showModal());
+shareDialog.addEventListener('click', event => {
+  const rect = shareDialog.getBoundingClientRect();
+  if (event.target === shareDialog &&
+      (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) shareDialog.close();
+});
 const contactDialog = byId('contact-dialog');
 byId('contact-open').addEventListener('click', () => contactDialog.showModal());
 contactDialog.addEventListener('click', event => {

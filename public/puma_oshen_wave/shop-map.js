@@ -2,14 +2,9 @@ const station = {lat:22.997137,lng:120.21295};
 
 // Coordinates and shop information remain on this website; only base tiles are remote.
 export function createShopMap({container, status, onSelect, onPositionsReady = () => {}}) {
-  let userMarker;
-  let map, selected = null, loading, visibleIds = null, total = 0;
+  let userMarker, starMarker;
+  let map, selected = null, loading, visibleIds = null;
   const markers = new Map(), positions = new Map(), visuals = new Map();
-  const updateCount = () => {
-    if (!map) return;
-    const shown = [...markers.keys()].filter(id => !visibleIds || visibleIds.has(id)).length;
-    status.textContent = `已標記 ${shown} / ${visibleIds ? visibleIds.size : total} 間店家`;
-  };
   const filter = ids => {
     visibleIds = new Set(ids);
     if (!map) return;
@@ -17,7 +12,6 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
       if (visibleIds.has(id)) marker.addTo(map);
       else marker.remove();
     }
-    updateCount();
   };
   const focus = id => {
     selected = id;
@@ -41,19 +35,30 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
     map.setView(position, 16);
     return true;
   };
+  const clearStar = () => {starMarker?.remove(); starMarker = null;};
+  const showStar = (star, shop) => {
+    if (!map) return;
+    clearStar();
+    starMarker = L.marker(star.latlng, {
+      title:shop ? `幸運星：${shop.name}` : '幸運星', alt:'幸運星', zIndexOffset:2000,
+      icon:L.divIcon({html:'<div class="osm-shop-pin lucky-star-pin">●</div>', className:'osm-marker', iconSize:[30,38], iconAnchor:[15,38]})
+    }).addTo(map);
+    map.invalidateSize();
+    if (shop) starMarker.on('click', () => onSelect(shop));
+    map.setView(star.latlng, 16);
+  };
   async function load(shops) {
     if (loading) return loading;
     loading = Promise.resolve().then(() => {
       if (!window.L) throw new Error('Leaflet unavailable');
-      status.hidden = false;
       container.hidden = false;
-      total = shops.length;
       map = L.map(container, {center:station, zoom:13, scrollWheelZoom:false});
       const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom:19,
         attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>'
       }).addTo(map);
       tiles.on('tileerror', () => {
+        status.hidden = false;
         status.textContent = '部分底圖暫時無法載入，仍可查看店家資訊或使用導航連結。';
       });
       for (const shop of shops) {
@@ -89,8 +94,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
       const observer = new ResizeObserver(() => map?.invalidateSize());
       observer.observe(container);
       onPositionsReady(new Map(positions));
-      updateCount();
-      focus(selected);
+        focus(selected);
       return true;
     }).catch(() => {
       map?.remove();
@@ -102,5 +106,5 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
     });
     return loading;
   }
-  return {load, focus, filter, locate, get active(){return Boolean(map);}};
+  return {load, focus, filter, locate, showStar, clearStar, get active(){return Boolean(map);}};
 }
