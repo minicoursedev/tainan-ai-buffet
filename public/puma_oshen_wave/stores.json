@@ -4149,6 +4149,31 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060958983",
       "coordinateNote": "2026-10-21 OpenStreetMap 結構化門牌查詢核對558號、西門路一段、中西區、臺南市相符。"
+    },
+    {
+      "id": "yicheng-hongguo",
+      "category": "其它",
+      "giftStatus": "可能有小物",
+      "name": "易丞地政｜宏國建設開發",
+      "address": "台南市北區文賢路1030巷3弄46號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://maps.app.goo.gl/rzCXSirEV4ZEA5ub9?g_st=ic",
+        "https://maps.app.goo.gl/qcpeSTViiSrei7eKA?g_st=ic"
+      ],
+      "verifiedAt": "2026-10-21",
+      "verificationNote": "使用者指定易丞地政與宏國建設開發為同一家，合併收錄一筆，分類其它；使用者選擇易丞地政地址作為定位。兩個 Google Maps 商家頁分別核對店名與地址，均連結 homegoycl.com.tw。",
+      "disabled": false,
+      "latlng": {
+        "lat": 23.0151918,
+        "lng": 120.1941709
+      },
+      "coordinateSource": "https://www.google.com/maps/place/易丞地政%7C代書%7C不動產顧問/data=!4m6!3m5!1s0x346e7746a5ad5e17:0x561f9f2c60c428b8!8m2!3d23.0151918!4d120.1941709!16s%2Fg%2F11ldv3hlhw",
+      "coordinateNote": "2026-10-21 透過使用者提供的 Google Maps 連結核對易丞地政店名及文賢路1030巷3弄46號地址，取地點網址 !3d、!4d 座標；依使用者選擇採用此地址與座標。"
     }
   ],
   "pendingStores": []
