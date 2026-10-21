@@ -3790,23 +3790,26 @@
       "address": "台南市中西區衛民街59號",
       "social": {
         "facebook": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/dancingsheepdn/",
         "threads": ""
       },
       "sources": [
         "https://ifoodie.tw/restaurant/5598331540b5e30894d72286-%E8%B7%B3%E8%88%9E%E7%9A%84%E7%BE%8A",
         "https://admin.twtainan.net/file/5936/",
         "https://www.chunmegirl.com.tw/2023/01/blog-post_6.html",
-        "https://www.ptt.cc/bbs/Coffee/M.1216732189.A.8A3.html"
+        "https://www.ptt.cc/bbs/Coffee/M.1216732189.A.8A3.html",
+        "https://www.instagram.com/dancingsheepdn/"
       ],
-      "verifiedAt": "2026-10-20",
-      "verificationNote": "台南旅遊資料及店家目錄均列跳舞的羊咖啡屋／咖啡豆專賣店於中西區衛民街59號。可查到的營業時間資料較舊，且未找到近期官方公告確認目前營業狀態；官方Facebook網址、Instagram及Threads帳號均未能確認，故留空。",
+      "verifiedAt": "2026-10-21",
+      "verificationNote": "台南旅遊資料及店家目錄均列跳舞的羊咖啡屋／咖啡豆專賣店於中西區衛民街59號。使用者補充 Instagram，2026-10-21 核對該個人頁名稱為「跳舞的羊咖啡屋」，簡介列衛民街59號、訂位及訂購咖啡豆資訊，確認為同一店家；營業時間依官方簡介更新。Facebook 及 Threads 帳號未能確認，故留空。",
       "openingHours": {
-        "status": "reference",
-        "text": "12:00–21:00（營業日未註明）。",
-        "sources": [],
-        "checkedAt": "2026-10-20",
-        "auditNote": "依使用者補充更新為12:00–21:00；未推定適用星期。"
+        "status": "verified",
+        "text": "週一 12:00–18:00；週二至週日 12:00–21:00。",
+        "sources": [
+          "https://www.instagram.com/dancingsheepdn/"
+        ],
+        "checkedAt": "2026-10-21",
+        "auditNote": "依官方 Instagram 個人頁簡介核對，補正週一 18:00 結束營業的例外時段。"
       },
       "latlng": {
         "lat": 22.9927385,
