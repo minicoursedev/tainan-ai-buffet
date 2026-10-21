@@ -4519,6 +4519,52 @@
       },
       "coordinateSource": "https://www.google.com/maps/place/%E5%91%B7%E9%9B%9E%E5%BA%B7%E5%87%B1-%E5%89%B5%E5%A7%8B%E5%A4%A7%E7%81%A3%E5%BA%97/@23.0095236,120.2688794,17z/data=!3m1!4b1!4m6!3m5!1s0x346e71067290b603:0xae1264eb79985f7f!8m2!3d23.0095236!4d120.2688794!16s%2Fg%2F11zd47nc1g?entry=ttu",
       "coordinateNote": "2026-10-21 OSM 完整地址查詢無結果；改以106 大同街、臺南市、永康區、臺灣結構化查詢，僅回傳無門牌的大同街道路，未採用。改以瀏覽器查 Google Maps，核對「呷雞康凱-創始大灣店」地址為臺南市永康區大同街106號，從地點網址 !3d23.0095236 與 !4d120.2688794 取得座標，非使用 @ 地圖視窗中心。"
+    },
+    {
+      "id": "zenolai-campaign-headquarters",
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "賴瑞隆競選總部",
+      "address": "高雄市左營區曾子路250號",
+      "social": {
+        "facebook": "https://www.facebook.com/zenolai2/",
+        "instagram": "https://www.instagram.com/zenolai/",
+        "threads": "https://www.threads.net/@zenolai"
+      },
+      "sources": [
+        "https://www.facebook.com/zenolai2/?locale=zh_TW",
+        "https://www.zenolai.tw/",
+        "https://www.instagram.com/zenolai/",
+        "https://www.threads.net/@zenolai"
+      ],
+      "verifiedAt": "2026-10-21",
+      "verificationNote": "使用者指定收錄。提供的 zenolai2 Facebook 對應賴瑞隆；官方網站頁尾明列「賴瑞隆競選總部」、高雄市左營區曾子路250號及電話07-341-6901，Google Maps 同門牌卡片亦列賴瑞隆競選總部，採此對外總部地址。官方網站直接連結 Facebook zenolai2、Instagram zenolai 及 Threads @zenolai，確認社群歸屬；分類沿用既有競選總部的洋流服務站。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽官方社群。",
+        "sources": [
+          "https://www.zenolai.tw/",
+          "https://www.facebook.com/zenolai2/",
+          "https://news.nextapple.com/politics/20261014/C914AA22E58B90E540055DF8FB894F7D"
+        ],
+        "checkedAt": "2026-10-21",
+        "auditNote": "官方網站未列完整固定開放週間表；2026-10-14報導引競選團隊說明平日09:00–21:00開放領取飄帶，此為領取時段，不據此填定一般服務時間或週末公休日。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent.cdninstagram.com/v/t51.82787-19/657718877_18576386158042923_8183811179744968913_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=102&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDQ1LkMzIn0%3D&_nc_ohc=soE_0qhS8wIQ7kNvwF8LM38&_nc_oc=Adr7F3NU8Bl1nwpJ2bACEzqifs8fNLMwOWqeLxip3JO-MkHbo-I1ORDY2SzOwTGVONI&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=99KvKa5fAjOQWD7KNt9h8g&_nc_ss=7f900&oh=00_AQPMY1ErgwJs_3ZBYOy4koD672lyAGjY4PSIn5qCtDiiZQ&oe=6ADF0AEE",
+        "source": "https://www.instagram.com/zenolai/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-21",
+        "note": "官方網站直接連結此Instagram；公開個人頁標題為賴瑞隆 (@zenolai)，og:image路徑t51.82787-19且efg明示profile_pic，確認為個人頭像；HEAD回應HTTP 200、image/jpeg。CDN簽章網址可能到期。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6791623,
+        "lng": 120.307917
+      },
+      "coordinateSource": "https://www.google.com/maps/place/813高雄市左營區菜公里曾子路250號/@22.6791623,120.307917,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0572b5c67123:0xe1bb681b0d0c22ed!8m2!3d22.6791623!4d120.307917!16s%2Fg%2F11ywl33fhp",
+      "coordinateNote": "2026-10-21 OSM 完整地址、街道與門牌結構化查詢及地址變體均未找到250號門牌，僅回傳道路結果，未採用。改以 Playwright 實際操作 Google Maps 查詢地址，門牌卡片顯示高雄市左營區菜公里曾子路250號，並列高雄市長候選人賴瑞隆競選總部；從地點網址 !3d22.6791623 與 !4d120.307917 取得座標，非使用 @ 地圖視窗中心。"
     }
   ],
   "pendingStores": []
