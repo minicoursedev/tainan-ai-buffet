@@ -4551,12 +4551,12 @@
         "auditNote": "官方網站未列完整固定開放週間表；2026-10-14報導引競選團隊說明平日09:00–21:00開放領取飄帶，此為領取時段，不據此填定一般服務時間或週末公休日。"
       },
       "shopPhoto": {
-        "url": "https://scontent.cdninstagram.com/v/t51.82787-19/657718877_18576386158042923_8183811179744968913_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=102&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDQ1LkMzIn0%3D&_nc_ohc=soE_0qhS8wIQ7kNvwF8LM38&_nc_oc=Adr7F3NU8Bl1nwpJ2bACEzqifs8fNLMwOWqeLxip3JO-MkHbo-I1ORDY2SzOwTGVONI&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=99KvKa5fAjOQWD7KNt9h8g&_nc_ss=7f900&oh=00_AQPMY1ErgwJs_3ZBYOy4koD672lyAGjY4PSIn5qCtDiiZQ&oe=6ADF0AEE",
-        "source": "https://www.instagram.com/zenolai/",
-        "platform": "instagram",
+        "url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/855705347_17989521093098311_4089424662016266228_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gGyqVQK3ssuwerS3Ox02lENIl4eqtLOF4QWiZN7CK3wqFSwTFAuj8Hb6FV9-XK6Z7k&_nc_ohc=0PouU0R_DwEQ7kNvwGhNNPD&_nc_gid=-K7ICxf5XCbYuBI71QpzRg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQOq0pMTmSYH2YkDIwRsies1bOOKOuvDxnkZwQsgod2sOg&oe=6ADF1821&_nc_sid=10d13b",
+        "source": "https://www.threads.com/@zenolai",
+        "platform": "threads",
         "status": "verified",
         "checkedAt": "2026-10-21",
-        "note": "官方網站直接連結此Instagram；公開個人頁標題為賴瑞隆 (@zenolai)，og:image路徑t51.82787-19且efg明示profile_pic，確認為個人頭像；HEAD回應HTTP 200、image/jpeg。CDN簽章網址可能到期。"
+        "note": "官方網站直接連結 Threads @zenolai，Threads 個人頁亦連回 zenolai.tw；以個人頁 BarcelonaProfilePageDirectQuery 的 user（username=zenolai）之 hd_profile_pic_versions 取得640×640頭像，並核對頁首 img 的 alt 為 zenolai's profile picture。已實看為灰底、深藍西裝、雙手交握形象照，非封面或貼文；GET 回應 HTTP 200、image/jpeg。保留完整 CDN 查詢參數，簽章網址可能到期。"
       },
       "disabled": false,
       "latlng": {
