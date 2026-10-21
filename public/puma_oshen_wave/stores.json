@@ -4174,6 +4174,41 @@
       },
       "coordinateSource": "https://www.google.com/maps/place/易丞地政%7C代書%7C不動產顧問/data=!4m6!3m5!1s0x346e7746a5ad5e17:0x561f9f2c60c428b8!8m2!3d23.0151918!4d120.1941709!16s%2Fg%2F11ldv3hlhw",
       "coordinateNote": "2026-10-21 透過使用者提供的 Google Maps 連結核對易丞地政店名及文賢路1030巷3弄46號地址，取地點網址 !3d、!4d 座標；依使用者選擇採用此地址與座標。"
+    },
+    {
+      "id": "cat-boss-coffee",
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "老闆是隻貓自烘咖啡專門店",
+      "address": "台南市東區林森路二段192巷81號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100092652742538",
+        "instagram": "https://www.instagram.com/niki_bo19900120/",
+        "threads": "https://www.threads.com/@niki_bo19900120"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/老闆是隻貓自烘咖啡專門店（不是貓咖）/data=!4m6!3m5!1s0x346e774568fac6a9:0x5a6bdebb8be74184!8m2!3d22.9897604!4d120.2262649!16s%2Fg%2F11kqblb3jk",
+        "https://etaiwan.blog/701-niki_bo19900120/",
+        "https://www.threads.com/@niki_bo19900120"
+      ],
+      "verifiedAt": "2026-10-21",
+      "verificationNote": "使用者指定收錄並提供 Threads。Google Maps 商家頁核對店名、地址、電話及官方 Facebook 連結；Instagram 由店家介紹文章的店家 IG 連結確認。",
+      "openingHours": {
+        "status": "verified",
+        "text": "每日 09:00–17:00",
+        "sources": [
+          "https://www.google.com/maps/place/老闆是隻貓自烘咖啡專門店（不是貓咖）/data=!4m6!3m5!1s0x346e774568fac6a9:0x5a6bdebb8be74184!8m2!3d22.9897604!4d120.2262649!16s%2Fg%2F11kqblb3jk"
+        ],
+        "checkedAt": "2026-10-21",
+        "auditNote": "Google Maps 商家頁展開完整週間營業時間，週一至週日均為09:00–17:00；2023年食記所載10:00–19:00、週三休為舊資料，採目前地圖資訊。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9897604,
+        "lng": 120.2262649
+      },
+      "coordinateSource": "https://www.google.com/maps/place/老闆是隻貓自烘咖啡專門店（不是貓咖）/data=!4m6!3m5!1s0x346e774568fac6a9:0x5a6bdebb8be74184!8m2!3d22.9897604!4d120.2262649!16s%2Fg%2F11kqblb3jk",
+      "coordinateNote": "2026-10-21 OSM 查詢因連線無法完成，改以瀏覽器開啟 Google Maps，核對店名及林森路二段192巷81號地址，取地點網址 !3d、!4d 座標。"
     }
   ],
   "pendingStores": []
