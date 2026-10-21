@@ -152,7 +152,6 @@ function selectShop(shop, openDetail = true) {
     hours.append(node('h3','營業時間'),node('p',hoursText,'hours-schedule'));
     if (shop.openingHours?.note) hours.append(node('p',shop.openingHours.note,'hours-note'));
     const hoursMeta = node('div',undefined,'hours-meta');
-    if (shop.openingHours?.checkedAt) hoursMeta.append(node('span',`查核：${shop.openingHours.checkedAt}`));
     try {
       const source = new URL(shop.openingHours?.sources?.[0]);
       if(source.protocol === 'https:') hoursMeta.append(externalLink('查看時間來源 ↗',source.href));
