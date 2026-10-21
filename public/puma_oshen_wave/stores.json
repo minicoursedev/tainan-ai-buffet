@@ -4413,6 +4413,40 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060946060",
       "coordinateNote": "2026-10-21 OSM 完整地址自由查詢無結果，改以242 臨安路一段、臺南市、臺灣結構化門牌查詢取得節點；再以節點 API 核對中西區、兌悅里、臨安路一段242號及數值座標，採門牌位置而非道路中心。"
+    },
+    {
+      "id": "fuquan-pawnshop",
+      "category": "其它",
+      "giftStatus": "可能有小物",
+      "name": "富泉當舖",
+      "address": "台南市南區大成路一段60號",
+      "social": {
+        "facebook": "https://www.facebook.com/p/富泉當舖-100072024361943/?locale=zh_TW",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/p/富泉當舖-100072024361943/?locale=zh_TW",
+        "https://www.facebook.com/100072024361943/about_contact_and_basic_info"
+      ],
+      "verifiedAt": "2026-10-21",
+      "verificationNote": "使用者指定收錄。以瀏覽器核對官方 Facebook 聯絡和基本資料頁，頁名為「富泉當舖」、類別為「當鋪」，對外地址為台南市南區大成路一段60號，依現有分類歸為其它。官方頁未見 Instagram、Threads 或官網連結，另搜尋亦未取得可確認的官方帳號，社群欄位留空。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間請洽店家社群。",
+        "sources": [
+          "https://www.facebook.com/100072024361943/about_contact_and_basic_info"
+        ],
+        "checkedAt": "2026-10-21",
+        "auditNote": "官方 Facebook 僅顯示當下非營業狀態，未取得完整固定週間時段或公休日，故不填定營業時間。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9752496,
+        "lng": 120.2019984
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11061020845",
+      "coordinateNote": "2026-10-21 OSM 完整地址查詢無結果，改以60 大成路一段、台南市、南區、台灣的結構化門牌查詢取得節點；再以節點 API 核對臺南市南區明德里6鄰大成路一段60號及數值座標，採門牌位置而非道路中心。"
     }
   ],
   "pendingStores": []
