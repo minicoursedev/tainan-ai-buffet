@@ -4483,6 +4483,42 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/way/566279856",
       "coordinateNote": "2026-10-21 依使用者提供地址查詢 OSM，完整地址及去樓層自由搜尋均無結果；改以49 忠義路二段、臺南市、中西區、臺灣的結構化門牌查詢，取得建築 way 566279856。以 Nominatim 回應及 OSM API 核對臺南市中西區忠義路二段49號與數值座標，採同門牌建築位置，非道路或行政區中心；樓層依使用者提供。"
+    },
+    {
+      "id": "chiah-ke-khong-khai-dawan",
+      "category": "小吃",
+      "giftStatus": "可能有小物",
+      "name": "呷雞康凱-大灣店",
+      "address": "台南市永康區大同街106號",
+      "social": {
+        "facebook": "https://www.facebook.com/people/呷雞康凱-大灣店/61556448724639/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/people/呷雞康凱-大灣店/61556448724639/",
+        "https://www.facebook.com/people/呷雞康凱-大灣店/61556448724639/?sk=about",
+        "https://www.google.com/maps/place/%E5%91%B7%E9%9B%9E%E5%BA%B7%E5%87%B1-%E5%89%B5%E5%A7%8B%E5%A4%A7%E7%81%A3%E5%BA%97/@23.0095236,120.2688794,17z/data=!3m1!4b1!4m6!3m5!1s0x346e71067290b603:0xae1264eb79985f7f!8m2!3d23.0095236!4d120.2688794!16s%2Fg%2F11zd47nc1g?entry=ttu"
+      ],
+      "verifiedAt": "2026-10-21",
+      "verificationNote": "使用者指定收錄。官方 Facebook 頁名為「呷雞康凱-大灣店」，地址明載台南市永康區大同街106號，介紹雞排及多樣炸物，頁面類別為小吃攤，歸為小吃。Google Maps 名稱為「呷雞康凱-創始大灣店」，地址一致，其官方網站連結亦導向同一 Facebook 粉專（61556448724639）。未查得可確認的官方 Instagram、Threads，欄位留空。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間請洽店家社群。",
+        "sources": [
+          "https://www.facebook.com/people/呷雞康凱-大灣店/61556448724639/?sk=about",
+          "https://www.google.com/maps/place/%E5%91%B7%E9%9B%9E%E5%BA%B7%E5%87%B1-%E5%89%B5%E5%A7%8B%E5%A4%A7%E7%81%A3%E5%BA%97/@23.0095236,120.2688794,17z/data=!3m1!4b1!4m6!3m5!1s0x346e71067290b603:0xae1264eb79985f7f!8m2!3d23.0095236!4d120.2688794!16s%2Fg%2F11zd47nc1g?entry=ttu"
+        ],
+        "checkedAt": "2026-10-21",
+        "auditNote": "Google Maps 僅顯示開始營業時間14:30，部分內容模式無法展開完整週間時段；Facebook 關於頁僅見當下非營業狀態，未取得可確認的完整固定營業時間及公休日，故不填定時段。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.0095236,
+        "lng": 120.2688794
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E5%91%B7%E9%9B%9E%E5%BA%B7%E5%87%B1-%E5%89%B5%E5%A7%8B%E5%A4%A7%E7%81%A3%E5%BA%97/@23.0095236,120.2688794,17z/data=!3m1!4b1!4m6!3m5!1s0x346e71067290b603:0xae1264eb79985f7f!8m2!3d23.0095236!4d120.2688794!16s%2Fg%2F11zd47nc1g?entry=ttu",
+      "coordinateNote": "2026-10-21 OSM 完整地址查詢無結果；改以106 大同街、臺南市、永康區、臺灣結構化查詢，僅回傳無門牌的大同街道路，未採用。改以瀏覽器查 Google Maps，核對「呷雞康凱-創始大灣店」地址為臺南市永康區大同街106號，從地點網址 !3d23.0095236 與 !4d120.2688794 取得座標，非使用 @ 地圖視窗中心。"
     }
   ],
   "pendingStores": []
