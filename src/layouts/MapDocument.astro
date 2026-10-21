@@ -1,0 +1,26 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+interface Props { title: string; description: string; path: string }
+const { title, description, path } = Astro.props;
+---
+<BaseLayout title={`${title}｜洋流地圖｜台南AI爽`} description={description} canonical={`https://minicourse.dev${path}`}>
+  <Header />
+  <main id="main" class="wrap map-document">
+    <p class="eyebrow">洋流地圖 APP</p>
+    <h1>{title}</h1>
+    <slot />
+    <nav aria-label="洋流地圖相關資訊"><a href="/puma_oshen_wave/">探索店家地圖</a><a href="/puma_oshen_wave/support/">App 支援</a><a href="/puma_oshen_wave/privacy/">隱私權政策</a></nav>
+  </main>
+  <Footer />
+</BaseLayout>
+<style>
+  .map-document { max-width: 840px; padding-top: 56px; padding-bottom: 64px; }
+  .eyebrow { letter-spacing: .12em; font-size: .85rem; }
+  h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.25; margin-bottom: 24px; }
+  .map-document :global(h2) { font-size: 1.3rem; margin-top: 32px; }
+  .map-document :global(p), .map-document :global(li) { line-height: 1.9; overflow-wrap: anywhere; }
+  .map-document :global(a) { text-decoration: underline; text-underline-offset: 4px; }
+  nav { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 40px; padding-top: 24px; border-top: 1px solid #cbd2cc; }
+</style>
