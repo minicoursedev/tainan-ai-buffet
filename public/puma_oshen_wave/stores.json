@@ -4115,6 +4115,40 @@
         "image": "https://scontent.cdninstagram.com/v/t51.82787-19/650847001_17940169443149946_2709806269689369893_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=ZxOnodH9C3IQ7kNvwH7vTBy&_nc_oc=Adpq1FupZmNQUi8ntPe-Nj7ES9tf7nx6ig2mlr2TvRrH7HOeinyepJISJsM6mg_z6Hk&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=GjaaPuzdouZGLIDLZ-HwoQ&_nc_ss=7920f&oh=00_AQO0RATqjHZ5ECcFDGRqxYGPGL2zHGxO1pSUKKQA973MBA&oe=6ADD4561",
         "source": "https://www.threads.com/@yitinglin_123"
       }
+    },
+    {
+      "id": "zhijue-ximen",
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "植蕨 西門店",
+      "address": "台南市中西區西門路一段558號",
+      "social": {
+        "facebook": "https://www.facebook.com/goodtimetea.no.2/",
+        "instagram": "https://www.instagram.com/goodtime_tea2/",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.instagram.com/goodtime_tea2/",
+        "https://www.foodpanda.com.tw/restaurant/z6kj/zhi-jue-cha-yin",
+        "https://doromon01.com/bolg/goodtime_tea-2/"
+      ],
+      "verifiedAt": "2026-10-21",
+      "verificationNote": "使用者指定收錄。官方 Instagram 標題確認為植蕨茶飲西門店；店家外送頁及介紹文章核對西門路一段558號，文章連結確認 Facebook 與 Instagram 帳號。營業時間來源不一致，未填入。",
+      "shopPhoto": {
+        "url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/143335667_323194245777184_6183098092140057196_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=109&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=pgQGVgdxUqIQ7kNvwEm-pOt&_nc_oc=AdpLq6AjZKcJFE3F6BeSQeMWyTFYhyn4u2iK4FTFNN4xzDpJD8oVmo3Pl3aqjwerhtg&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7960f&oh=00_AQML_vpO992qsWCdb76-WUBmyXzdifdPx7yEiTxJgZ65pw&oe=6ADE0D01",
+        "source": "https://www.instagram.com/goodtime_tea2/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-21",
+        "note": "官方個人頁標題為植蕨茶飲西門店；og:image 為 t51.2885-19 個人頭像資源，圖片網址 HEAD 回應200、image/jpeg。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9857054,
+        "lng": 120.197755
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060958983",
+      "coordinateNote": "2026-10-21 OpenStreetMap 結構化門牌查詢核對558號、西門路一段、中西區、臺南市相符。"
     }
   ],
   "pendingStores": []
