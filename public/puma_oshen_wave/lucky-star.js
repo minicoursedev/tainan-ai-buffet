@@ -34,11 +34,22 @@ export function locateForStar() {
     } catch {finish(null);}
   });
 }
-export async function findStar() {
+export function nextStar(stars, previous, now = Date.now()) {
+  const index = stars.findIndex(star => star.shopId === previous.shopId &&
+    star.latlng.lat === previous.latlng.lat && star.latlng.lng === previous.latlng.lng &&
+    star.start === previous.start && star.end === previous.end);
+  for (let offset = 1; offset <= stars.length; offset++) {
+    const star = stars[(index + offset) % stars.length];
+    if (star.start <= now && now < star.end) return star;
+  }
+  return null;
+}
+export async function findStar(previous = null) {
   const response = await fetch(['localhost', '127.0.0.1', '[::1]'].includes(location.hostname) ? './star.json' : starSource, {cache:'no-store', signal:AbortSignal.timeout(15000)});
   if (response.status === 404) return null;
   if (!response.ok) throw new Error('Star request failed');
   const stars = parseStars(await response.json());
+  if (previous) return nextStar(stars, previous);
   if (!selectStar(stars)) return null;
   const position = await locateForStar();
   return selectStar(stars, Date.now(), position);

@@ -3,7 +3,7 @@ import {createShopMap} from './shop-map.js?v=20261022-star';
 const byId = id => document.getElementById(id);
 const origin = '22.997137,120.21295';
 let shops = [], category = '', selectedId = null;
-let starVersion = 0;
+let starVersion = 0, displayedStar = null;
 const shopMap = createShopMap({container:byId('all-shops-map'),status:byId('map-status'),onSelect:selectShopFromMap,onPositionsReady:sortByStationDistance});
 // Great-circle distance; independent of the selected shop and category.
 function distanceFromStation({lat, lng}) {
@@ -293,6 +293,7 @@ async function init(){
   }
 }
 function clearLuckyStar() {
+  displayedStar = null;
   starVersion++;
   shopMap.clearStar();
   byId('lucky-star-message').hidden = true;
@@ -300,6 +301,7 @@ function clearLuckyStar() {
 byId('close-star').addEventListener('click', clearLuckyStar);
 byId('lucky-star').addEventListener('click', async () => {
   const button = byId('lucky-star'), status = byId('map-status');
+  const previous = byId('lucky-star-message').hidden ? null : displayedStar;
   clearLuckyStar();
   const version = starVersion;
   button.disabled = true;
@@ -310,7 +312,7 @@ byId('lucky-star').addEventListener('click', async () => {
   status.textContent = '尋找幸運星…';
   try {
     if (!await shopMap.load(shops)) throw new Error('Map unavailable');
-    const star = await findStar();
+    const star = await findStar(previous);
     if (version !== starVersion) return;
     if (!star) {status.textContent = '幸運星還在路上...'; return;}
     resetMap();
@@ -318,6 +320,7 @@ byId('lucky-star').addEventListener('click', async () => {
     shopMap.showStar(star, shops.find(shop => shop.id === star.shopId));
     byId('location-name').textContent = '幸運星';
     byId('lucky-star-text').textContent = star.message;
+    displayedStar = star;
     byId('lucky-star-message').hidden = false;
     status.textContent = '已找到幸運星';
   } catch {
