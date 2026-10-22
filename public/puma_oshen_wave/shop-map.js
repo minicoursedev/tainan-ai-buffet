@@ -45,6 +45,10 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
     }).addTo(map);
     map.invalidateSize();
     if (shop) starMarker.on('click', () => onSelect(shop));
+    else if (!star.shopId) starMarker.on('click', () => {
+      const destination = encodeURIComponent(`${star.latlng.lat},${star.latlng.lng}`);
+      window.open(`https://www.google.com/maps/dir/?api=1&destination=${destination}&travelmode=walking`, '_blank', 'noopener,noreferrer');
+    });
     map.setView(star.latlng, 16);
   };
   async function load(shops) {
