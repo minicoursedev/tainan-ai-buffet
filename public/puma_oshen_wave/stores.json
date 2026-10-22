@@ -4652,6 +4652,51 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11079865048",
       "coordinateNote": "2026-10-22 OSM Nominatim 完整地址查無結果，改以 street=65 翠屏路84巷、city=大社區、state=高雄市、country=Taiwan 結構化查詢，取得門牌節點11079865048。主代理再讀取節點 API，核對高雄市、大社區、翠屏路84巷65號及數值座標一致。節點原始資料包含十二樓標記，此處僅採同門牌位置，不據此認定餐廳樓層或入口。"
+    },
+    {
+      "id": "bltchcake",
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "賤人雞蛋糕feat.高雄打狗燒",
+      "address": "高雄市鹽埕區莒光街1號",
+      "social": {
+        "facebook": "https://www.facebook.com/bltchcake4/",
+        "instagram": "https://www.instagram.com/bltchcake/",
+        "threads": "https://www.threads.com/@bltchcake"
+      },
+      "sources": [
+        "https://www.threads.com/@bltchcake",
+        "https://www.instagram.com/bltchcake/",
+        "https://www.facebook.com/bltchcake4/"
+      ],
+      "verifiedAt": "2026-10-22",
+      "verificationNote": "使用者指定收錄。官方 Threads 與 Instagram 個人頁名稱均為「賤人雞蛋糕feat.高雄打狗燒」，簡介明列高雄市鹽埕區莒光街1號，並連結 Facebook bltchcake4；Facebook 簡介亦載明2025/7/1日起於駁二P2倉庫對面定點、相同門牌，確認三個官方社群歸屬與目前對外地址。主售造型雞蛋糕，歸為甜點飲料。僅收錄指定帳號的駁二定點，不採舊高雄車站地址或另增快閃活動地點。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間請以 Google 地圖及官方社群最新公告為準。",
+        "sources": [
+          "https://www.threads.com/@bltchcake",
+          "https://www.instagram.com/bltchcake/",
+          "https://www.google.com/maps/place/賤人雞蛋糕feat.高雄打狗燒／高雄特色點心／平日可外送／活動專門/@22.6194908,120.2824527,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0586eb520675:0xf5057de5ef36c81a!8m2!3d22.6194908!4d120.2824527!16s%2Fg%2F11yw29jqkp"
+        ],
+        "checkedAt": "2026-10-22",
+        "auditNote": "官方 Threads、Instagram 簡介皆提示營業時間以Google地圖為準。Google Maps 僅顯示部分內容，首次預覽為週六15:30開始，重新載入並展開後僅見星期四15:00–18:00，未取得一致完整週表；官方近期貼文亦有平日開攤及臨時休息公告，故不填定固定營業時間與公休日。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-19/729778103_18592874560026364_5375231447298488015_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=PK5kmlLYBFYQ7kNvwHMcg_R&_nc_oc=Adpb-aec9JO1A5Tfq9mpC_uyhTvQvxulGzRUj_wkSDDLIefwNcz0R2B85UpWSbJ7Uxg&_nc_zt=24&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=dRfGHYj1yOFvJmusUKYGnw&_nc_ss=7f689&oh=00_AQNb1myhKVoVOOEMNLORn3Zsht2MXx4If2-mvE9usDr4PQ&oe=6ADFDFB1",
+        "source": "https://www.instagram.com/bltchcake/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-22",
+        "note": "官方 Instagram 個人頁名稱與地址對應店家；img alt 明示 bltchcake's profile picture，HTTP 200 image/jpeg"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6195178,
+        "lng": 120.2824216
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11082665983",
+      "coordinateNote": "2026-10-22 OSM Nominatim 完整地址查詢無結果，改以 city=高雄市、county=鹽埕區、street=1 莒光街、country=Taiwan 結構化查詢，取得門牌節點11082665983。主代理再讀取 OSM 節點 API，核對 addr:full 為高雄市鹽埕區新化里6鄰莒光街1號，行政區、街道、門牌及數值座標一致；採與官方營業地址相符的門牌位置。"
     }
   ],
   "pendingStores": []
