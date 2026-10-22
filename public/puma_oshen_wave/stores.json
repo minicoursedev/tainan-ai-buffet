@@ -4607,6 +4607,51 @@
       },
       "coordinateSource": "https://www.google.com/maps/place/%E8%91%89%E6%B0%8F%E8%B1%86%E5%8C%A0/@22.6664534,120.3158657,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0fd9e8ee773d:0x49b0a5eee3683ff2!8m2!3d22.6664534!4d120.3158657!16s%2Fg%2F11rpdd0s1b?entry=ttu&g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D",
       "coordinateNote": "2026-10-22 OSM Nominatim 完整地址及街道門牌結構化查詢皆無結果；店名搜尋僅出現不相關地點，未採用。改以 Playwright 瀏覽器開啟 Google Maps 地點，核對「葉氏豆匠」、高雄市三民區鼎泰里民族一路543巷16號、官網及電話0905-172-466，從地點網址 !3d22.6664534 與 !4d120.3158657 取得座標，非使用 @ 地圖視窗中心。"
+    },
+    {
+      "id": "howwow-dashe",
+      "category": "正餐",
+      "giftStatus": "可能有小物",
+      "name": "好窩（大社創始店）",
+      "address": "高雄市大社區翠屏路84巷65號",
+      "social": {
+        "facebook": "https://www.facebook.com/howwow168/",
+        "instagram": "https://www.instagram.com/howwow168/",
+        "threads": "https://www.threads.com/@howwow168"
+      },
+      "sources": [
+        "https://www.threads.com/@howwow168",
+        "https://www.instagram.com/howwow168/",
+        "https://www.facebook.com/howwow168/",
+        "https://hoolee.tw/howwow/"
+      ],
+      "verifiedAt": "2026-10-22",
+      "verificationNote": "使用者指定收錄。Threads @howwow168 官方個人頁名稱為「好窩『大社創始店』」，簡介明列椒麻雞專門店、高雄市大社區翠屏路84巷65號，歸為正餐。Threads 連結同名 Instagram @howwow168；合作採訪食記列相同門牌及電話07-3525145，並直接連結 Facebook howwow168，核對官方社群歸屬。僅收錄指定帳號對應的大社創始店。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週日至週五 16:30–23:30\n週六公休；臨時店休依官方公告。",
+        "sources": [
+          "https://www.threads.com/@howwow168",
+          "https://www.instagram.com/howwow168/"
+        ],
+        "checkedAt": "2026-10-22",
+        "auditNote": "官方 Threads 簡介明載16:30–23:30及十月每週六店休，Instagram 簡介亦列16:30–23:30、週六公休，另提示雙十節三天店休。採本次一致的官方簡介，不採第三方較舊的16:00或17:00時段。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-19/568344655_18390889492192650_8724123375494522653_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=107&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=SXYp1PLlKJEQ7kNvwHjFsdN&_nc_oc=Ado7Yomq3DvRAJsdIGLECXFmFnn_QJolEO4ElBYzNJBnNV-kjC6ozW0zP-p8UcV0spc&_nc_zt=24&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=bmQfusP1Z3doBFl44qNxOw&_nc_ss=7f500&oh=00_AQM2Dk_1ifdAsHg4_3YHeBO1o6cg7cWJ1zic0rmDdDt_0A&oe=6ADFF3B6",
+        "source": "https://www.instagram.com/howwow168/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-22",
+        "note": "官方 Instagram 個人頁名稱及帳號與 Threads 互鏈吻合；頭像網址 efg 解碼明載 profile_pic.www.1080.C3，確認為個人檔案頭像。完整圖片網址實際 GET 回應 HTTP 200、image/jpeg。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.729119,
+        "lng": 120.3514918
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11079865048",
+      "coordinateNote": "2026-10-22 OSM Nominatim 完整地址查無結果，改以 street=65 翠屏路84巷、city=大社區、state=高雄市、country=Taiwan 結構化查詢，取得門牌節點11079865048。主代理再讀取節點 API，核對高雄市、大社區、翠屏路84巷65號及數值座標一致。節點原始資料包含十二樓標記，此處僅採同門牌位置，不據此認定餐廳樓層或入口。"
     }
   ],
   "pendingStores": []
