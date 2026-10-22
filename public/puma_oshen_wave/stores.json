@@ -4697,6 +4697,50 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11082665983",
       "coordinateNote": "2026-10-22 OSM Nominatim 完整地址查詢無結果，改以 city=高雄市、county=鹽埕區、street=1 莒光街、country=Taiwan 結構化查詢，取得門牌節點11082665983。主代理再讀取 OSM 節點 API，核對 addr:full 為高雄市鹽埕區新化里6鄰莒光街1號，行政區、街道、門牌及數值座標一致；採與官方營業地址相符的門牌位置。"
+    },
+    {
+      "id": "sian-beauty",
+      "category": "正餐",
+      "giftStatus": "可能有小物",
+      "name": "鮮丼生魚片（龍華市場141攤）",
+      "address": "高雄市左營區富國路60號141攤（龍華市場）",
+      "social": {
+        "facebook": "https://www.facebook.com/p/鮮丼-生魚片丼飯專賣店-100092537115125/",
+        "instagram": "https://www.instagram.com/sian.beauty/",
+        "threads": "https://www.threads.com/@sian.beauty"
+      },
+      "sources": [
+        "https://www.threads.com/@sian.beauty",
+        "https://www.instagram.com/sian.beauty/",
+        "https://www.facebook.com/p/鮮丼-生魚片丼飯專賣店-100092537115125/",
+        "https://ru.restaurantguru.com/%E9%AE%AE%E4%B8%BC%E7%94%9F%E9%AD%9A%E7%89%87-%E9%BE%8D%E8%8F%AF%E5%B8%82%E5%A0%B4141%E6%94%A4-Kaohsiung"
+      ],
+      "verifiedAt": "2026-10-22",
+      "verificationNote": "使用者指定收錄。官方 Threads @sian.beauty 名稱為「鮮丼生魚片龍華市場141攤」，簡介明列高雄市左營區富國路60號141攤（龍華市場）、電話0985-006899及營業時間；Instagram 同名同址，確認帳號對應生魚片、丼飯店，歸為正餐。RestaurantGuru 同名同電話店家頁連結 Facebook，該官方頁名稱為「鮮丼-生魚片丼飯專賣店」，簡介含 Sian Beauty，核對社群歸屬。僅收錄指定帳號對應的龍華市場141攤。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週一至週五 11:30–19:30\n週六 11:30–14:30，售完為止。\n週日公休；依備料狀況可能延後營業時間。",
+        "sources": [
+          "https://www.threads.com/@sian.beauty"
+        ],
+        "checkedAt": "2026-10-22",
+        "auditNote": "本次官方 Threads 個人頁簡介明載完整週間時段及備料可能延後營業的註記；採官方現行資訊，不沿用較舊食記時段。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/684670439_17987601698991789_6906106866538812340_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=108&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40ODYuQzMifQ%3D%3D&_nc_ohc=-sJ4HS8a7AwQ7kNvwFcBWFP&_nc_oc=AdpjqJQlnUCr9KlxlCsfnMK9P9PTAU8LDDyPyNMSi8zsJyf3Zgt09xOzvKJMdTvkKdU&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=LJxjzDxjbSThXwShhGEl6g&_nc_ss=7f500&oh=00_AQOpKC3ADWnRblj9KwSp-qpujddsRT0FpcjmN29FcY3XQQ&oe=6AE0249F",
+        "source": "https://www.instagram.com/sian.beauty/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-22",
+        "note": "官方 Instagram 個人頁名稱、帳號與地址對應店家；頭像網址 efg 解碼 vencode_tag 為 profile_pic.www.486.C3，確認為個人檔案頭像。完整圖片網址 GET 回應 HTTP 200、image/jpeg，圖片為鮮丼魚圖店徽。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6585184,
+        "lng": 120.3067647
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11081685002",
+      "coordinateNote": "2026-10-22 OSM Nominatim 完整地址查詢無結果，改以 street=60 富國路、city=高雄市、county=左營區、country=Taiwan 結構化查詢取得門牌節點11081685002。主代理再讀取節點 API，核對 addr:full 為高雄市左營區新上里40鄰富國路60號，行政區、街道、門牌及數值座標一致；採市場同門牌位置，不將座標視為141攤入口。"
     }
   ],
   "pendingStores": []
