@@ -4552,16 +4552,16 @@
       },
       "mapMarker": {
         "label": "賴瑞隆",
-        "image": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/855705347_17989521093098311_4089424662016266228_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gGyqVQK3ssuwerS3Ox02lENIl4eqtLOF4QWiZN7CK3wqFSwTFAuj8Hb6FV9-XK6Z7k&_nc_ohc=0PouU0R_DwEQ7kNvwGhNNPD&_nc_gid=-K7ICxf5XCbYuBI71QpzRg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQOq0pMTmSYH2YkDIwRsies1bOOKOuvDxnkZwQsgod2sOg&oe=6ADF1821&_nc_sid=10d13b",
-        "source": "https://www.threads.com/@zenolai"
+        "image": "https://www.zenolai.tw/asset/types/zenolai/img/people.png",
+        "source": "https://www.zenolai.tw/"
       },
       "shopPhoto": {
-        "url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/855705347_17989521093098311_4089424662016266228_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gGyqVQK3ssuwerS3Ox02lENIl4eqtLOF4QWiZN7CK3wqFSwTFAuj8Hb6FV9-XK6Z7k&_nc_ohc=0PouU0R_DwEQ7kNvwGhNNPD&_nc_gid=-K7ICxf5XCbYuBI71QpzRg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQOq0pMTmSYH2YkDIwRsies1bOOKOuvDxnkZwQsgod2sOg&oe=6ADF1821&_nc_sid=10d13b",
-        "source": "https://www.threads.com/@zenolai",
-        "platform": "threads",
+        "url": "https://www.zenolai.tw/asset/types/zenolai/img/people.png",
+        "source": "https://www.zenolai.tw/",
+        "platform": "website",
         "status": "verified",
-        "checkedAt": "2026-10-21",
-        "note": "官方網站直接連結 Threads @zenolai，Threads 個人頁亦連回 zenolai.tw；以個人頁 BarcelonaProfilePageDirectQuery 的 user（username=zenolai）之 hd_profile_pic_versions 取得640×640頭像，並核對頁首 img 的 alt 為 zenolai's profile picture。已實看為灰底、深藍西裝、雙手交握形象照，非封面或貼文；GET 回應 HTTP 200、image/jpeg。保留完整 CDN 查詢參數，簽章網址可能到期。"
+        "checkedAt": "2026-10-22",
+        "note": "官網介紹區人物照片，已實看確認；帶入 minicourse.dev 的 Origin 與 Referer 實際 GET 回應 HTTP 200、image/png，未帶 Cross-Origin-Resource-Policy 限制標頭。"
       },
       "disabled": false,
       "latlng": {
