@@ -4570,6 +4570,43 @@
       },
       "coordinateSource": "https://www.google.com/maps/place/813高雄市左營區菜公里曾子路250號/@22.6791623,120.307917,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0572b5c67123:0xe1bb681b0d0c22ed!8m2!3d22.6791623!4d120.307917!16s%2Fg%2F11ywl33fhp",
       "coordinateNote": "2026-10-21 OSM 完整地址、街道與門牌結構化查詢及地址變體均未找到250號門牌，僅回傳道路結果，未採用。改以 Playwright 實際操作 Google Maps 查詢地址，門牌卡片顯示高雄市左營區菜公里曾子路250號，並列高雄市長候選人賴瑞隆競選總部；從地點網址 !3d22.6791623 與 !4d120.307917 取得座標，非使用 @ 地圖視窗中心。"
+    },
+    {
+      "id": "yessoymilk-hedi",
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "葉氏豆匠（高雄河堤門市）",
+      "address": "高雄市三民區民族一路543巷16號",
+      "social": {
+        "facebook": "https://www.facebook.com/yessoymilk/",
+        "instagram": "https://www.instagram.com/yessoymilk2022/",
+        "threads": "https://www.threads.com/@yessoymilk2022"
+      },
+      "sources": [
+        "https://www.yessoymilk.com.tw/page/location",
+        "https://www.yessoymilk.com.tw/",
+        "https://www.threads.com/@yessoymilk2022",
+        "https://www.google.com/maps/place/%E8%91%89%E6%B0%8F%E8%B1%86%E5%8C%A0/@22.6664534,120.3158657,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0fd9e8ee773d:0x49b0a5eee3683ff2!8m2!3d22.6664534!4d120.3158657!16s%2Fg%2F11rpdd0s1b?entry=ttu&g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D"
+      ],
+      "verifiedAt": "2026-10-22",
+      "verificationNote": "使用者指定收錄。指定 Threads @yessoymilk2022 頁首為「葉氏豆匠｜臺灣國產鮮濃豆漿」，簡介列河堤門市完整地址及營業時間，並連回官方網站；官網實體據點頁將高雄河堤門市列為直營門市，地址與 Google Maps 地點卡一致。官網頁尾直接連結 Facebook yessoymilk、Instagram yessoymilk2022，確認官方社群歸屬。店家主售豆漿等飲品，歸為甜點飲料；僅收錄此直營門市。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週一至週五、週日 09:30–21:00\n週六公休。",
+        "sources": [
+          "https://www.yessoymilk.com.tw/page/location",
+          "https://www.threads.com/@yessoymilk2022"
+        ],
+        "checkedAt": "2026-10-22",
+        "auditNote": "官方實體據點頁與 Threads 個人頁簡介皆明載09:30–21:00、週六固定公休，採一致的官方資訊。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6664534,
+        "lng": 120.3158657
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E8%91%89%E6%B0%8F%E8%B1%86%E5%8C%A0/@22.6664534,120.3158657,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0fd9e8ee773d:0x49b0a5eee3683ff2!8m2!3d22.6664534!4d120.3158657!16s%2Fg%2F11rpdd0s1b?entry=ttu&g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateNote": "2026-10-22 OSM Nominatim 完整地址及街道門牌結構化查詢皆無結果；店名搜尋僅出現不相關地點，未採用。改以 Playwright 瀏覽器開啟 Google Maps 地點，核對「葉氏豆匠」、高雄市三民區鼎泰里民族一路543巷16號、官網及電話0905-172-466，從地點網址 !3d22.6664534 與 !4d120.3158657 取得座標，非使用 @ 地圖視窗中心。"
     }
   ],
   "pendingStores": []
