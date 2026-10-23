@@ -4760,7 +4760,7 @@
         "https://evantravel.tw/sm3542/"
       ],
       "verifiedAt": "2026-10-23",
-      "verificationNote": "使用者指定收錄。2026年2月13日食記明列旗山秀明豬心冬粉的對外地址、電話及官方 Facebook sm3542、Instagram smph.41 連結；Instagram 個人頁名稱與帳號吻合，米其林店家頁亦列旗山區永平街41號及相同電話07-662-4625，交叉確認指定專頁與此店歸屬。供應豬心冬粉、肉燥飯等料理，沿用現有湯麵小吃店分類為小吃。未找到可確認的官方 Threads，留空；未取得可確認的官方個人檔案頭像，不填入頭像。",
+      "verificationNote": "使用者指定收錄。2026年2月13日食記明列旗山秀明豬心冬粉的對外地址、電話及官方 Facebook sm3542、Instagram smph.41 連結；Instagram 個人頁名稱與帳號吻合，米其林店家頁亦列旗山區永平街41號及相同電話07-662-4625，交叉確認指定專頁與此店歸屬。供應豬心冬粉、肉燥飯等料理，沿用現有湯麵小吃店分類為小吃。未找到可確認的官方 Threads，留空；2026-10-23 已確認並採用官方 Facebook 個人檔案頭像，辨識及圖片回應依據記於 shopPhoto。",
       "openingHours": {
         "status": "unverified",
         "text": "營業時間請洽官方社群確認。",
@@ -4772,6 +4772,14 @@
         ],
         "checkedAt": "2026-10-23",
         "auditNote": "米其林店家頁列週二至週日08:30–15:30、週一休；2026年2月13日食記則列07:30–15:30、週一休且售完提早打烊。起始時間不同，Facebook 直接讀取僅見登入或暫時封鎖頁，Instagram 可讀個人頁未列可核對的完整時段；未能以官方現行資訊解消矛盾，故不填定固定營業時間與公休日。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/302481064_555147413075997_4434614251461984347_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1432&ctp=s200x200&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=xsXBi9FQnm8Q7kNvwEkKoHq&_nc_oc=AdqJ9aQBzfgWASIzawqf_o-ryo_A_Ackr_qeqxH0Ve7wAjFHySWxZElt05xK0mS6JIs&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=EUgHGZa7EuKduTGBaOi4Mg&_nc_ss=79289&oh=00_AQOlA0j2Cb6GF_eeQ268IoLOWlLMsU0hS9wzE1lyERkU_Q&oe=6AE0AEB4",
+        "source": "https://www.facebook.com/sm3542/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-23",
+        "note": "官方 Facebook 個人頁店名、永平街41號及電話07-662-4625與既有店家資料相符。頁面 JSON profilePhoto.id=555147436409328、profilePicLarge.uri 與頁首168px圓形 SVG 頭像及相同 fbid 照片連結交叉核對，確認為個人檔案頭像；完整圖片網址實際 GET 回應200 image/jpeg，主代理另核對 DOM 與圖片回應一致。"
       },
       "disabled": false,
       "latlng": {
