@@ -4788,6 +4788,51 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11079817570",
       "coordinateNote": "2026-10-23 OSM Nominatim 完整地址查詢無結果，改以 street=41 永平街、city=高雄市、county=旗山區、country=臺灣 結構化查詢取得門牌節點11079817570。主代理另讀取 OSM 節點 API，核對 addr:full 為高雄市旗山區太平里2鄰永平街41號，行政區、街道、門牌及數值座標一致，節點資料來源標示高雄市政府；採與對外營業地址相符的門牌位置。"
+    },
+    {
+      "id": "56song",
+      "category": "小吃",
+      "giftStatus": "可能有小物",
+      "name": "阿昌牛肉湯",
+      "address": "台南市關廟區巡府路73號",
+      "social": {
+        "facebook": "https://www.facebook.com/56song/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/56song/",
+        "https://www.facebook.com/56song/about?locale=zh_TW",
+        "https://www.twtainan.net/zh-tw/shop/consume/6513/"
+      ],
+      "verifiedAt": "2026-10-23",
+      "verificationNote": "使用者指定收錄。官方 Facebook 56song 個人頁名稱為「阿昌牛肉湯」，詳細資料列關廟區香洋里巡府路73號及電話06-5959113；台南旅遊網同名店家頁載相同地址、電話，且 Facebook 連結指向56song，交叉確認專頁歸屬與對外營業地址。供應牛肉湯及飯食，沿用現有湯類店家分類為小吃。未找到可確認的官方 Instagram、Threads，留空。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間請洽官方 Facebook 確認。",
+        "sources": [
+          "https://www.facebook.com/56song/",
+          "https://www.facebook.com/56song/about?locale=zh_TW",
+          "https://www.twtainan.net/zh-tw/shop/consume/6513/"
+        ],
+        "checkedAt": "2026-10-23",
+        "auditNote": "官方 Facebook 首頁及詳細資料未取得完整營業週表。台南旅遊網列週三至週日05:30–13:00、16:30–20:00，週一、二休息，但店家頁更新日期為2022-12-05，其他舊彙整資料亦有不同版本；未能以官方現行資料核實，故不填定固定時段與公休日。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/308657378_462224745924627_6878249252423544101_n.jpg?stp=dst-jpg_tt6&cstp=mx1160x1160&ctp=s200x200&_nc_cat=102&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=1-T7NcQxMC4Q7kNvwG0_g96&_nc_oc=AdrQi9vRmc-nFb0PKmyaAZIjpP1hyEgZjHZQqen6-0dmWhrxrGrwBorVyn5i6Zbv9V0&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=dmh96qxMU09HOQ-FJeeLiA&_nc_ss=7b20f&oh=00_AQMuzefgSqBoJ6hyih2lsc6Prh0bNSOp1yA5i4zKOtRVAA&oe=6AE0BA15",
+        "source": "https://www.facebook.com/56song/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-23",
+        "note": "官方 Facebook Relay JSON 的 profile_header_renderer.user 名稱為阿昌牛肉湯、ID為100064113154540；直接取得 profilePicLarge.uri，並與同物件的 profilePhoto 照片連結（fbid=462224759257959）核對，確認為個人檔案頭像。完整圖片網址實際 GET 回應HTTP 200、image/jpeg；主代理另核對圖片回應一致。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9604744,
+        "lng": 120.32746
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060144844",
+      "coordinateNote": "2026-10-23 OSM Nominatim 完整地址查詢無結果，改以 street=73 巡府路、city=關廟區、state=臺南市 結構化查詢取得門牌節點11060144844。主代理另讀取 OSM 節點 API，核對 addr:full 為臺南市關廟區香洋里8鄰巡府路73號，行政區、街道、門牌及數值座標一致，節點資料來源標示臺南市政府；採與對外營業地址相符的門牌位置。"
     }
   ],
   "pendingStores": []
