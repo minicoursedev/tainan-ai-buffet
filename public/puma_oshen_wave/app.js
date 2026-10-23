@@ -238,7 +238,6 @@ function renderShops(page = 0) {
   const results=shops.filter(s=>!category||s.category===category);
   shopMap.filter(results.map(shop=>shop.id));
   if(selectedId&&!results.some(s=>s.id===selectedId)) resetMap();
-  byId('result-count').textContent=`${results.length} 間店家`;
   const list=byId('shop-list');
   list.replaceChildren();
   if(!results.length) {
@@ -278,7 +277,7 @@ function renderShops(page = 0) {
     previous.type=next.type='button';
     previous.disabled=page===0;
     next.disabled=(page+1)*pageSize>=results.length;
-    const changePage=target=>{renderShops(target);list.scrollTop=0;byId('result-count').scrollIntoView({block:'center'});};
+    const changePage=target=>{renderShops(target);list.scrollTop=0;list.scrollIntoView({block:'start'});};
     previous.onclick=()=>changePage(page-1);
     next.onclick=()=>changePage(page+1);
     pagination.append(previous,node('span',`${page+1} / ${Math.ceil(results.length/pageSize)}`),next);
@@ -302,7 +301,6 @@ async function init(){
     byId('list-view').onclick=()=>setView(false);
     byId('map-view').onclick=()=>setView(true);
   }catch{
-    byId('result-count').textContent='載入失敗';
     const error=node('div',undefined,'empty-state');error.append(node('strong','店家資料暫時無法載入'),node('p','請重新整理頁面再試一次。'));
     const retry=node('button','重新載入');retry.onclick=()=>location.reload();error.append(retry);byId('shop-list').replaceChildren(error);
   }

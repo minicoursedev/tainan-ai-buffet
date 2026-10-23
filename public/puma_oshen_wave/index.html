@@ -18,7 +18,7 @@
 <meta property="og:image:height" content="724">
 <meta property="og:image:alt" content="我們的洋流地圖 — 一起走走，讓支持成為日常。">
 <link rel="stylesheet" href="./vendor/leaflet/leaflet.css"><script defer src="./vendor/leaflet/leaflet.js"></script>
-<link rel="stylesheet" href="./style.css?v=20261024-statement"><script type="module" src="./app.js?v=20261024-pagination"></script>
+<link rel="stylesheet" href="./style.css?v=20261024-compact-share"><script type="module" src="./app.js?v=20261024-clean-list"></script>
 </head>
 <body>
 
@@ -43,7 +43,7 @@
 </section>
 <section class="map-workspace" id="map-area" aria-label="店家清單與地圖">
   <div class="mobile-views" role="group" aria-label="瀏覽方式"><button type="button" id="list-view" aria-pressed="true">店家清單</button><button type="button" id="map-view" aria-pressed="false">查看地圖</button></div>
-  <aside class="shop-panel"><div class="panel-heading"><h2>今天，去哪裡走走？ <span aria-hidden="true">↓</span></h2><span id="result-count" aria-live="polite">讀取中</span></div><p class="panel-intro">依店別找找，或打開地圖看看。</p><section id="shop-detail" class="shop-detail" hidden aria-label="選定店家資訊"><div class="start-icon" aria-hidden="true">↗</div><div><h2>我們的洋流地圖</h2><p>在地圖上選擇店家，查看地址並規劃前往路線。</p></div></section><div id="shop-list" aria-live="polite"></div><p class="shop-info-note">營業時間與店家資訊，請以各店最新公告為準。</p></aside>
+  <aside class="shop-panel"><section id="shop-detail" class="shop-detail" hidden aria-label="選定店家資訊"><div class="start-icon" aria-hidden="true">↗</div><div><h2>我們的洋流地圖</h2><p>在地圖上選擇店家，查看地址並規劃前往路線。</p></div></section><div id="shop-list" aria-live="polite"></div><p class="shop-info-note">營業時間與店家資訊，請以各店最新公告為準。</p></aside>
   <div class="map-column"><div class="map-frame"><div class="map-bar"><div><span class="location-dot" aria-hidden="true"></span><strong id="location-name">台南火車站</strong><span class="map-label">OPENSTREETMAP</span></div><button id="home-map" type="button">我的位置</button></div><div id="lucky-star-message" class="lucky-star-message" hidden><img src="./assets/lucky-star.png" width="28" height="28" alt=""><p id="lucky-star-text" role="status"></p><button id="close-star" type="button" aria-label="關閉幸運星訊息">×</button></div><div class="map-canvas"><div id="all-shops-map" hidden aria-label="所有店家位置"></div><button id="lucky-star" type="button" disabled title="幸運星" aria-label="幸運星"><img src="./assets/lucky-star.png" width="34" height="34" alt=""></button></div><p id="map-status" role="status" hidden></p></div></div>
 </section>
 <p class="closing-strip closing-message">一間店、一個地方，讓我們的洋流繼續流動。</p>
