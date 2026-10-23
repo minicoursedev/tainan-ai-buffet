@@ -765,25 +765,28 @@
       "giftStatus": "可能有小物",
       "social": {
         "facebook": "https://www.facebook.com/people/羚角-手搖茶飲/61565137907788/",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/gold_tea35/",
         "threads": ""
       },
       "sources": [
         "https://www.threads.com/@lovepupubb/post/DebzGeZCVnU",
         "https://www.threads.com/@dondon.zhao/post/Deln7hVo7-a",
-        "https://www.facebook.com/people/羚角-手搖茶飲/61565137907788/"
+        "https://www.facebook.com/people/羚角-手搖茶飲/61565137907788/",
+        "https://www.instagram.com/gold_tea35/",
+        "https://www.threads.com/@dondon.zhao"
       ],
-      "verifiedAt": "2026-10-19",
-      "verificationNote": "飄帶提供者原文明列羚角、金華路三段35號及免費自取；經營者2026-10-17原文公告洋流貼紙、小提袋及虎爺明信片可領取，不必消費。Google 商家與外送菜單確認飲料業態及地址。經營者個人Threads僅作來源，未冒充店家社群。",
+      "verifiedAt": "2026-10-23",
+      "verificationNote": "飄帶提供者原文明列羚角、金華路三段35號及免費自取；經營者2026-10-17原文公告洋流貼紙、小提袋及虎爺明信片可領取，不必消費。Google 商家與外送菜單確認飲料業態及地址。經營者個人Threads僅作來源，未冒充店家社群。 2026-10-23 重新核對官方 Facebook，專頁名稱為「羚角 手搖茶飲」，簡介列相同金華路三段35號地址及15:00–01:00營業時間。經營者 Threads @dondon.zhao 簡介明列「羚角手搖茶飲 gold_tea35」，對應 Instagram @gold_tea35 個人頁同名「羚角手搖茶飲」，確認為店家官方 Instagram 並補入。未取得可確認的店家官方 Threads，維持留空；經營者個人帳號僅作查證來源。",
       "openingHours": {
         "status": "verified",
-        "text": "每日 15:00–01:00（跨午夜至翌日）。",
+        "text": "15:00–翌日01:00；公休日請洽官方 Facebook 確認。",
         "sources": [
+          "https://www.facebook.com/people/羚角-手搖茶飲/61565137907788/",
           "https://www.google.com/maps/place/%E7%BE%9A%E8%A7%92-%E9%87%91%E8%8F%AF%E7%B8%BD%E5%BA%97%EF%BC%88%E5%8F%B0%E5%8D%97%E5%A5%BD%E5%96%9D%E9%BB%91%E7%B3%96%E9%AE%AE%E5%A5%B6%E9%A3%B2%E5%93%81%EF%BC%89/@22.9891007,120.1920835,17z/data=!3m1!4b1!4m6!3m5!1s0x346e7726d0412625:0x30b3e1ecce9a144c!8m2!3d22.9891007!4d120.1920835!16s%2Fg%2F11lnvlkfxz?entry=ttu",
           "https://www.ubereats.com/tw-en/store/%E7%BE%9A%E8%A7%92-%E6%89%8B%E6%90%96%E8%8C%B6%E9%A3%B2/R9K9jJEVWheKEv4uTe3b5A"
         ],
-        "checkedAt": "2026-10-19",
-        "auditNote": "Google 地圖地址吻合並有完整週表，七日皆 15:00–01:00。Uber Eats 舊頁顯示 15:00–00:15 且已於 2025-06-20 停止平台服務；以現有地圖週表為準。"
+        "checkedAt": "2026-10-23",
+        "auditNote": "2026-10-23 官方 Facebook 公開簡介明載15:00–01:00，與本筆既有時段一致，改以官方資料為主要依據；簡介未明列各日週表及公休日，故不再將「每日」寫定。保留既有 Google Maps、Uber Eats 查證來源：2026-10-19 原查證紀錄為地圖七日皆15:00–01:00，Uber Eats舊頁15:00–00:15且已於2025-06-20停止平台服務，本次未以舊外送時段填定。"
       },
       "shopPhoto": {
         "url": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/459077280_9162395727110286_2744721185044677818_n.jpg?stp=dst-jpg_tt6&cstp=mx540x960&ctp=s540x960&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Dkpo3ESlKK4Q7kNvwGnukNG&_nc_oc=AdoPtnC84iKkEJuV1Ys1Fv6I8VOZEHtEDa-YPiV_am_vU2p0jYuTgzSRdWNYxudFGzA&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=G6Kz7JbtVLuzYscP2JIi_Q&_nc_ss=7f20f&oh=00_AQPKX9gu14cWReqGYB3fwiKLnP36g7DC7bH5SGQ3yodSuw&oe=6ADC021F",
