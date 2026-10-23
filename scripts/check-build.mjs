@@ -4,6 +4,11 @@ import { isDeepStrictEqual } from 'node:util';
 
 const root = process.cwd();
 const requiredFiles = [
+  'puma_oshen_wave/index.html', 'puma_oshen_wave/games/fresh-route/index.html',
+  'puma_oshen_wave/games/fresh-route/game.js', 'puma_oshen_wave/games/fresh-route/level.js',
+  'puma_oshen_wave/games/fresh-route/styles.css',
+  'puma_oshen_wave/games/fresh-route/assets/courier.png',
+  'puma_oshen_wave/games/fresh-route/assets/level-01-background.png',
   'CNAME', 'index.html', 'friends.html', 'sitemap.xml', 'robots.txt',
   'google0dd0e2c38ab50487.html', 'assets/site.css', 'assets/archive.js',
   'assets/friends.js', 'assets/favicon.svg', 'data/events.json',
