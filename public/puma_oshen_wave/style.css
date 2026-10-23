@@ -108,8 +108,3 @@ body:has(#share-dialog[open]){overflow:hidden}
 @media(max-width:420px){.masthead-inner{flex-wrap:wrap}.masthead-actions{margin-left:auto}}
 
 .map-canvas{position:relative}#lucky-star{position:absolute;right:16px;bottom:32px;z-index:1;width:48px;height:48px;display:grid;place-items:center;border:1px solid #ead8a2;border-radius:50%;background:white;box-shadow:0 2px 8px #0003}#lucky-star:disabled{opacity:.55;cursor:wait}.lucky-star-message{display:flex;align-items:flex-start;gap:8px;padding:12px;background:#fff8d9}.lucky-star-message[hidden]{display:none}.lucky-star-message img{flex:none}.lucky-star-message p{flex:1;min-width:0;max-height:120px;overflow:auto;overflow-wrap:anywhere;margin:0;font-size:20px;font-weight:700}.lucky-star-message button{flex:none;border:0;background:transparent;font-size:24px;min-width:44px;min-height:44px}.osm-shop-pin.lucky-star-pin{width:30px;height:38px;background:#ffdf00;color:#fff}
-
-/* 同站小遊戲入口；窄螢幕保留完整按鈕與名稱。 */
-.game-entry{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:8px 16px;border:1px solid var(--green);border-radius:999px;background:var(--green);color:white;font-weight:700;white-space:nowrap}
-.game-entry:hover{background:#007b3f}
-@media(max-width:700px){.masthead-inner{flex-wrap:wrap;gap:12px}.masthead-actions{width:100%;justify-content:flex-start}.game-entry{flex:1;font-size:13px}.masthead-actions button{font-size:12px;padding-inline:12px}}

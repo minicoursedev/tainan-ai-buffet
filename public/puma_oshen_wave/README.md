@@ -64,9 +64,3 @@ python3 scripts/split-stores.py
 3. `display` 不影響轉檔；全部 22 個縣市皆產製，沒有店家者保留空陣列。分別處理 `stores`、`pendingStores`，並保留 disabled 店家與原始欄位。
 4. 原始頂層 metadata（含地圖名稱與中心點）原樣保留。維護時修改來源 `stores.json` 再重跑 script，不手動修改分檔。重跑會覆寫分檔，不改來源或總表。
 5. 官方原始 SHP、完整 GeoJSON 與其他簡化測試版留在網站外的工作區 `output/taiwan-counties/`。
-
-## 小遊戲：農漁保鮮線
-
-入口位於頁首「玩遊戲・農漁保鮮線」，遊戲路徑為 `/puma_oshen_wave/games/fresh-route/`，返回地圖連結使用同站路徑。本地與正式網站使用相同路由。
-
-此整合版以 `games/fresh-route/` 下的 HTML、CSS、JavaScript 與 assets 為維護來源，隨 Astro public 目錄直接建置，不依賴網站倉庫以外的檔案。原型仍保留在工作區上層的 `games/fresh-route/`。
