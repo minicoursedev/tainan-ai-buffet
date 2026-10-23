@@ -13,12 +13,12 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
       else marker.remove();
     }
   };
-  const focus = id => {
+  const focus = (id, {recenter = true} = {}) => {
     selected = id;
     if (!map) return;
     map.invalidateSize();
     const position = id ? positions.get(id) : station;
-    if (position) map.panTo(position);
+    if (position && recenter) map.panTo(position);
     for (const [shopId, marker] of markers) {
       marker.setZIndexOffset(shopId === id ? 1000 : 0);
       visuals.get(shopId).classList.toggle('is-selected', shopId === id);

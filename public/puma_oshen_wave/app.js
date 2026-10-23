@@ -29,9 +29,9 @@ function externalLink(text, url, className) {
   a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer';
   return a;
 }
-function showMap(name, query, center = false) {
+function showMap(name, query, center = false, recenter = true) {
   clearLuckyStar();
-  shopMap.focus(center ? null : selectedId);
+  shopMap.focus(center ? null : selectedId, {recenter});
   byId('location-name').textContent = name;
 }
 function shopUrl(id) {
@@ -127,15 +127,15 @@ function selectShopFromMap(shop) {
     renderCategories();
     renderShops();
   }
-  selectShop(shop);
+  selectShop(shop, true, false);
 
 }
-function selectShop(shop, openDetail = true) {
+function selectShop(shop, openDetail = true, recenter = true) {
   selectedId = shop.id;
   history.replaceState(null, "", shopUrl(shop.id));
   document.querySelectorAll('.shop-card').forEach(card=>card.setAttribute('data-selected',String(card.dataset.shopId === shop.id)));
   const query = `${shop.address} ${shop.name}`;
-  showMap(shop.name, query);
+  showMap(shop.name, query, false, recenter);
   const content = node('div',undefined,'detail-content');
   const heading = node('div',undefined,'detail-heading');
   heading.append(node('h2',shop.name));
@@ -223,7 +223,7 @@ function setView(map) {
   byId('map-area').classList.toggle('show-map',map);
   byId('list-view').setAttribute('aria-pressed',String(!map));
   byId('map-view').setAttribute('aria-pressed',String(map));
-  if(map) { void shopMap.load(shops); shopMap.focus(selectedId); }
+  if(map) { void shopMap.load(shops); shopMap.focus(selectedId, {recenter:false}); }
 }
 function renderCategories() {
   byId('category-toggle').textContent = `店別：${category || '全部店家'} ▾`;

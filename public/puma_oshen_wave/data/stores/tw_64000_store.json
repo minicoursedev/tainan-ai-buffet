@@ -1,0 +1,298 @@
+{
+  "name": "台南洋流店家地圖",
+  "slug": "puma_oshen_wave",
+  "center": "台南火車站",
+  "centerCoordinates": "22.997137,120.21295",
+  "categories": [
+    "咖啡廳",
+    "正餐",
+    "小吃",
+    "甜點飲料",
+    "烘焙",
+    "花店",
+    "日常生活",
+    "3C 通訊",
+    "書店",
+    "服飾鞋店",
+    "雜貨店",
+    "運動用品",
+    "桌遊",
+    "酒吧",
+    "美髮",
+    "農業",
+    "洋流服務站",
+    "其它"
+  ],
+  "stores": [
+    {
+      "id": "zenolai-campaign-headquarters",
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "賴瑞隆競選總部",
+      "address": "高雄市左營區曾子路250號",
+      "social": {
+        "facebook": "https://www.facebook.com/zenolai2/",
+        "instagram": "https://www.instagram.com/zenolai/",
+        "threads": "https://www.threads.net/@zenolai"
+      },
+      "sources": [
+        "https://www.facebook.com/zenolai2/?locale=zh_TW",
+        "https://www.zenolai.tw/",
+        "https://www.instagram.com/zenolai/",
+        "https://www.threads.net/@zenolai"
+      ],
+      "verifiedAt": "2026-10-21",
+      "verificationNote": "使用者指定收錄。提供的 zenolai2 Facebook 對應賴瑞隆；官方網站頁尾明列「賴瑞隆競選總部」、高雄市左營區曾子路250號及電話07-341-6901，Google Maps 同門牌卡片亦列賴瑞隆競選總部，採此對外總部地址。官方網站直接連結 Facebook zenolai2、Instagram zenolai 及 Threads @zenolai，確認社群歸屬；分類沿用既有競選總部的洋流服務站。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽官方社群。",
+        "sources": [
+          "https://www.zenolai.tw/",
+          "https://www.facebook.com/zenolai2/",
+          "https://news.nextapple.com/politics/20261014/C914AA22E58B90E540055DF8FB894F7D"
+        ],
+        "checkedAt": "2026-10-21",
+        "auditNote": "官方網站未列完整固定開放週間表；2026-10-14報導引競選團隊說明平日09:00–21:00開放領取飄帶，此為領取時段，不據此填定一般服務時間或週末公休日。"
+      },
+      "mapMarker": {
+        "label": "賴瑞隆",
+        "image": "https://www.zenolai.tw/asset/types/zenolai/img/people.png",
+        "source": "https://www.zenolai.tw/"
+      },
+      "shopPhoto": {
+        "url": "https://www.zenolai.tw/asset/types/zenolai/img/people.png",
+        "source": "https://www.zenolai.tw/",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-22",
+        "note": "官網介紹區人物照片，已實看確認；帶入 minicourse.dev 的 Origin 與 Referer 實際 GET 回應 HTTP 200、image/png，未帶 Cross-Origin-Resource-Policy 限制標頭。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6791623,
+        "lng": 120.307917
+      },
+      "coordinateSource": "https://www.google.com/maps/place/813高雄市左營區菜公里曾子路250號/@22.6791623,120.307917,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0572b5c67123:0xe1bb681b0d0c22ed!8m2!3d22.6791623!4d120.307917!16s%2Fg%2F11ywl33fhp",
+      "coordinateNote": "2026-10-21 OSM 完整地址、街道與門牌結構化查詢及地址變體均未找到250號門牌，僅回傳道路結果，未採用。改以 Playwright 實際操作 Google Maps 查詢地址，門牌卡片顯示高雄市左營區菜公里曾子路250號，並列高雄市長候選人賴瑞隆競選總部；從地點網址 !3d22.6791623 與 !4d120.307917 取得座標，非使用 @ 地圖視窗中心。"
+    },
+    {
+      "id": "yessoymilk-hedi",
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "葉氏豆匠（高雄河堤門市）",
+      "address": "高雄市三民區民族一路543巷16號",
+      "social": {
+        "facebook": "https://www.facebook.com/yessoymilk/",
+        "instagram": "https://www.instagram.com/yessoymilk2022/",
+        "threads": "https://www.threads.com/@yessoymilk2022"
+      },
+      "sources": [
+        "https://www.yessoymilk.com.tw/page/location",
+        "https://www.yessoymilk.com.tw/",
+        "https://www.threads.com/@yessoymilk2022",
+        "https://www.google.com/maps/place/%E8%91%89%E6%B0%8F%E8%B1%86%E5%8C%A0/@22.6664534,120.3158657,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0fd9e8ee773d:0x49b0a5eee3683ff2!8m2!3d22.6664534!4d120.3158657!16s%2Fg%2F11rpdd0s1b?entry=ttu&g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D"
+      ],
+      "verifiedAt": "2026-10-22",
+      "verificationNote": "使用者指定收錄。指定 Threads @yessoymilk2022 頁首為「葉氏豆匠｜臺灣國產鮮濃豆漿」，簡介列河堤門市完整地址及營業時間，並連回官方網站；官網實體據點頁將高雄河堤門市列為直營門市，地址與 Google Maps 地點卡一致。官網頁尾直接連結 Facebook yessoymilk、Instagram yessoymilk2022，確認官方社群歸屬。店家主售豆漿等飲品，歸為甜點飲料；僅收錄此直營門市。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週一至週五、週日 09:30–21:00\n週六公休。",
+        "sources": [
+          "https://www.yessoymilk.com.tw/page/location",
+          "https://www.threads.com/@yessoymilk2022"
+        ],
+        "checkedAt": "2026-10-22",
+        "auditNote": "官方實體據點頁與 Threads 個人頁簡介皆明載09:30–21:00、週六固定公休，採一致的官方資訊。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6664534,
+        "lng": 120.3158657
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E8%91%89%E6%B0%8F%E8%B1%86%E5%8C%A0/@22.6664534,120.3158657,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0fd9e8ee773d:0x49b0a5eee3683ff2!8m2!3d22.6664534!4d120.3158657!16s%2Fg%2F11rpdd0s1b?entry=ttu&g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateNote": "2026-10-22 OSM Nominatim 完整地址及街道門牌結構化查詢皆無結果；店名搜尋僅出現不相關地點，未採用。改以 Playwright 瀏覽器開啟 Google Maps 地點，核對「葉氏豆匠」、高雄市三民區鼎泰里民族一路543巷16號、官網及電話0905-172-466，從地點網址 !3d22.6664534 與 !4d120.3158657 取得座標，非使用 @ 地圖視窗中心。"
+    },
+    {
+      "id": "howwow-dashe",
+      "category": "正餐",
+      "giftStatus": "可能有小物",
+      "name": "好窩（大社創始店）",
+      "address": "高雄市大社區翠屏路84巷65號",
+      "social": {
+        "facebook": "https://www.facebook.com/howwow168/",
+        "instagram": "https://www.instagram.com/howwow168/",
+        "threads": "https://www.threads.com/@howwow168"
+      },
+      "sources": [
+        "https://www.threads.com/@howwow168",
+        "https://www.instagram.com/howwow168/",
+        "https://www.facebook.com/howwow168/",
+        "https://hoolee.tw/howwow/"
+      ],
+      "verifiedAt": "2026-10-22",
+      "verificationNote": "使用者指定收錄。Threads @howwow168 官方個人頁名稱為「好窩『大社創始店』」，簡介明列椒麻雞專門店、高雄市大社區翠屏路84巷65號，歸為正餐。Threads 連結同名 Instagram @howwow168；合作採訪食記列相同門牌及電話07-3525145，並直接連結 Facebook howwow168，核對官方社群歸屬。僅收錄指定帳號對應的大社創始店。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週日至週五 16:30–23:30\n週六公休；臨時店休依官方公告。",
+        "sources": [
+          "https://www.threads.com/@howwow168",
+          "https://www.instagram.com/howwow168/"
+        ],
+        "checkedAt": "2026-10-22",
+        "auditNote": "官方 Threads 簡介明載16:30–23:30及十月每週六店休，Instagram 簡介亦列16:30–23:30、週六公休，另提示雙十節三天店休。採本次一致的官方簡介，不採第三方較舊的16:00或17:00時段。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-19/568344655_18390889492192650_8724123375494522653_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=107&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=SXYp1PLlKJEQ7kNvwHjFsdN&_nc_oc=Ado7Yomq3DvRAJsdIGLECXFmFnn_QJolEO4ElBYzNJBnNV-kjC6ozW0zP-p8UcV0spc&_nc_zt=24&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=bmQfusP1Z3doBFl44qNxOw&_nc_ss=7f500&oh=00_AQM2Dk_1ifdAsHg4_3YHeBO1o6cg7cWJ1zic0rmDdDt_0A&oe=6ADFF3B6",
+        "source": "https://www.instagram.com/howwow168/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-22",
+        "note": "官方 Instagram 個人頁名稱及帳號與 Threads 互鏈吻合；頭像網址 efg 解碼明載 profile_pic.www.1080.C3，確認為個人檔案頭像。完整圖片網址實際 GET 回應 HTTP 200、image/jpeg。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.729119,
+        "lng": 120.3514918
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11079865048",
+      "coordinateNote": "2026-10-22 OSM Nominatim 完整地址查無結果，改以 street=65 翠屏路84巷、city=大社區、state=高雄市、country=Taiwan 結構化查詢，取得門牌節點11079865048。主代理再讀取節點 API，核對高雄市、大社區、翠屏路84巷65號及數值座標一致。節點原始資料包含十二樓標記，此處僅採同門牌位置，不據此認定餐廳樓層或入口。"
+    },
+    {
+      "id": "bltchcake",
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "賤人雞蛋糕feat.高雄打狗燒",
+      "address": "高雄市鹽埕區莒光街1號",
+      "social": {
+        "facebook": "https://www.facebook.com/bltchcake4/",
+        "instagram": "https://www.instagram.com/bltchcake/",
+        "threads": "https://www.threads.com/@bltchcake"
+      },
+      "sources": [
+        "https://www.threads.com/@bltchcake",
+        "https://www.instagram.com/bltchcake/",
+        "https://www.facebook.com/bltchcake4/"
+      ],
+      "verifiedAt": "2026-10-22",
+      "verificationNote": "使用者指定收錄。官方 Threads 與 Instagram 個人頁名稱均為「賤人雞蛋糕feat.高雄打狗燒」，簡介明列高雄市鹽埕區莒光街1號，並連結 Facebook bltchcake4；Facebook 簡介亦載明2025/7/1日起於駁二P2倉庫對面定點、相同門牌，確認三個官方社群歸屬與目前對外地址。主售造型雞蛋糕，歸為甜點飲料。僅收錄指定帳號的駁二定點，不採舊高雄車站地址或另增快閃活動地點。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間請以 Google 地圖及官方社群最新公告為準。",
+        "sources": [
+          "https://www.threads.com/@bltchcake",
+          "https://www.instagram.com/bltchcake/",
+          "https://www.google.com/maps/place/賤人雞蛋糕feat.高雄打狗燒／高雄特色點心／平日可外送／活動專門/@22.6194908,120.2824527,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0586eb520675:0xf5057de5ef36c81a!8m2!3d22.6194908!4d120.2824527!16s%2Fg%2F11yw29jqkp"
+        ],
+        "checkedAt": "2026-10-22",
+        "auditNote": "官方 Threads、Instagram 簡介皆提示營業時間以Google地圖為準。Google Maps 僅顯示部分內容，首次預覽為週六15:30開始，重新載入並展開後僅見星期四15:00–18:00，未取得一致完整週表；官方近期貼文亦有平日開攤及臨時休息公告，故不填定固定營業時間與公休日。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-19/729778103_18592874560026364_5375231447298488015_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=PK5kmlLYBFYQ7kNvwHMcg_R&_nc_oc=Adpb-aec9JO1A5Tfq9mpC_uyhTvQvxulGzRUj_wkSDDLIefwNcz0R2B85UpWSbJ7Uxg&_nc_zt=24&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=dRfGHYj1yOFvJmusUKYGnw&_nc_ss=7f689&oh=00_AQNb1myhKVoVOOEMNLORn3Zsht2MXx4If2-mvE9usDr4PQ&oe=6ADFDFB1",
+        "source": "https://www.instagram.com/bltchcake/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-22",
+        "note": "官方 Instagram 個人頁名稱與地址對應店家；img alt 明示 bltchcake's profile picture，HTTP 200 image/jpeg"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6195178,
+        "lng": 120.2824216
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11082665983",
+      "coordinateNote": "2026-10-22 OSM Nominatim 完整地址查詢無結果，改以 city=高雄市、county=鹽埕區、street=1 莒光街、country=Taiwan 結構化查詢，取得門牌節點11082665983。主代理再讀取 OSM 節點 API，核對 addr:full 為高雄市鹽埕區新化里6鄰莒光街1號，行政區、街道、門牌及數值座標一致；採與官方營業地址相符的門牌位置。"
+    },
+    {
+      "id": "sian-beauty",
+      "category": "正餐",
+      "giftStatus": "可能有小物",
+      "name": "鮮丼生魚片（龍華市場141攤）",
+      "address": "高雄市左營區富國路60號141攤（龍華市場）",
+      "social": {
+        "facebook": "https://www.facebook.com/p/鮮丼-生魚片丼飯專賣店-100092537115125/",
+        "instagram": "https://www.instagram.com/sian.beauty/",
+        "threads": "https://www.threads.com/@sian.beauty"
+      },
+      "sources": [
+        "https://www.threads.com/@sian.beauty",
+        "https://www.instagram.com/sian.beauty/",
+        "https://www.facebook.com/p/鮮丼-生魚片丼飯專賣店-100092537115125/",
+        "https://ru.restaurantguru.com/%E9%AE%AE%E4%B8%BC%E7%94%9F%E9%AD%9A%E7%89%87-%E9%BE%8D%E8%8F%AF%E5%B8%82%E5%A0%B4141%E6%94%A4-Kaohsiung"
+      ],
+      "verifiedAt": "2026-10-22",
+      "verificationNote": "使用者指定收錄。官方 Threads @sian.beauty 名稱為「鮮丼生魚片龍華市場141攤」，簡介明列高雄市左營區富國路60號141攤（龍華市場）、電話0985-006899及營業時間；Instagram 同名同址，確認帳號對應生魚片、丼飯店，歸為正餐。RestaurantGuru 同名同電話店家頁連結 Facebook，該官方頁名稱為「鮮丼-生魚片丼飯專賣店」，簡介含 Sian Beauty，核對社群歸屬。僅收錄指定帳號對應的龍華市場141攤。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週一至週五 11:30–19:30\n週六 11:30–14:30，售完為止。\n週日公休；依備料狀況可能延後營業時間。",
+        "sources": [
+          "https://www.threads.com/@sian.beauty"
+        ],
+        "checkedAt": "2026-10-22",
+        "auditNote": "本次官方 Threads 個人頁簡介明載完整週間時段及備料可能延後營業的註記；採官方現行資訊，不沿用較舊食記時段。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/684670439_17987601698991789_6906106866538812340_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=108&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40ODYuQzMifQ%3D%3D&_nc_ohc=-sJ4HS8a7AwQ7kNvwFcBWFP&_nc_oc=AdpjqJQlnUCr9KlxlCsfnMK9P9PTAU8LDDyPyNMSi8zsJyf3Zgt09xOzvKJMdTvkKdU&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=LJxjzDxjbSThXwShhGEl6g&_nc_ss=7f500&oh=00_AQOpKC3ADWnRblj9KwSp-qpujddsRT0FpcjmN29FcY3XQQ&oe=6AE0249F",
+        "source": "https://www.instagram.com/sian.beauty/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-22",
+        "note": "官方 Instagram 個人頁名稱、帳號與地址對應店家；頭像網址 efg 解碼 vencode_tag 為 profile_pic.www.486.C3，確認為個人檔案頭像。完整圖片網址 GET 回應 HTTP 200、image/jpeg，圖片為鮮丼魚圖店徽。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6585184,
+        "lng": 120.3067647
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11081685002",
+      "coordinateNote": "2026-10-22 OSM Nominatim 完整地址查詢無結果，改以 street=60 富國路、city=高雄市、county=左營區、country=Taiwan 結構化查詢取得門牌節點11081685002。主代理再讀取節點 API，核對 addr:full 為高雄市左營區新上里40鄰富國路60號，行政區、街道、門牌及數值座標一致；採市場同門牌位置，不將座標視為141攤入口。"
+    },
+    {
+      "id": "sm3542",
+      "category": "小吃",
+      "giftStatus": "可能有小物",
+      "name": "旗山秀明豬心冬粉",
+      "address": "高雄市旗山區永平街41號",
+      "social": {
+        "facebook": "https://www.facebook.com/sm3542/",
+        "instagram": "https://www.instagram.com/smph.41/",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/sm3542/",
+        "https://www.instagram.com/smph.41/",
+        "https://guide.michelin.com/tw/zh_TW/kaohsiung-region/kaohsiung/restaurant/hsiu-ming",
+        "https://evantravel.tw/sm3542/"
+      ],
+      "verifiedAt": "2026-10-23",
+      "verificationNote": "使用者指定收錄。2026年2月13日食記明列旗山秀明豬心冬粉的對外地址、電話及官方 Facebook sm3542、Instagram smph.41 連結；Instagram 個人頁名稱與帳號吻合，米其林店家頁亦列旗山區永平街41號及相同電話07-662-4625，交叉確認指定專頁與此店歸屬。供應豬心冬粉、肉燥飯等料理，沿用現有湯麵小吃店分類為小吃。未找到可確認的官方 Threads，留空；2026-10-23 已確認並採用官方 Facebook 個人檔案頭像，辨識及圖片回應依據記於 shopPhoto。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間請洽官方社群確認。",
+        "sources": [
+          "https://www.facebook.com/sm3542/",
+          "https://www.instagram.com/smph.41/",
+          "https://guide.michelin.com/tw/zh_TW/kaohsiung-region/kaohsiung/restaurant/hsiu-ming",
+          "https://evantravel.tw/sm3542/"
+        ],
+        "checkedAt": "2026-10-23",
+        "auditNote": "米其林店家頁列週二至週日08:30–15:30、週一休；2026年2月13日食記則列07:30–15:30、週一休且售完提早打烊。起始時間不同，Facebook 直接讀取僅見登入或暫時封鎖頁，Instagram 可讀個人頁未列可核對的完整時段；未能以官方現行資訊解消矛盾，故不填定固定營業時間與公休日。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/302481064_555147413075997_4434614251461984347_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1432&ctp=s200x200&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=xsXBi9FQnm8Q7kNvwEkKoHq&_nc_oc=AdqJ9aQBzfgWASIzawqf_o-ryo_A_Ackr_qeqxH0Ve7wAjFHySWxZElt05xK0mS6JIs&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=EUgHGZa7EuKduTGBaOi4Mg&_nc_ss=79289&oh=00_AQOlA0j2Cb6GF_eeQ268IoLOWlLMsU0hS9wzE1lyERkU_Q&oe=6AE0AEB4",
+        "source": "https://www.facebook.com/sm3542/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-23",
+        "note": "官方 Facebook 個人頁店名、永平街41號及電話07-662-4625與既有店家資料相符。頁面 JSON profilePhoto.id=555147436409328、profilePicLarge.uri 與頁首168px圓形 SVG 頭像及相同 fbid 照片連結交叉核對，確認為個人檔案頭像；完整圖片網址實際 GET 回應200 image/jpeg，主代理另核對 DOM 與圖片回應一致。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.8854624,
+        "lng": 120.4813696
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11079817570",
+      "coordinateNote": "2026-10-23 OSM Nominatim 完整地址查詢無結果，改以 street=41 永平街、city=高雄市、county=旗山區、country=臺灣 結構化查詢取得門牌節點11079817570。主代理另讀取 OSM 節點 API，核對 addr:full 為高雄市旗山區太平里2鄰永平街41號，行政區、街道、門牌及數值座標一致，節點資料來源標示高雄市政府；採與對外營業地址相符的門牌位置。"
+    }
+  ],
+  "pendingStores": []
+}

@@ -1,0 +1,112 @@
+{
+  "10007": {
+    "store_file": "tw_10007_store.json",
+    "store_name": "彰化縣",
+    "display": 0
+  },
+  "10010": {
+    "store_file": "tw_10010_store.json",
+    "store_name": "嘉義縣",
+    "display": 0
+  },
+  "10004": {
+    "store_file": "tw_10004_store.json",
+    "store_name": "新竹縣",
+    "display": 0
+  },
+  "10015": {
+    "store_file": "tw_10015_store.json",
+    "store_name": "花蓮縣",
+    "display": 0
+  },
+  "10002": {
+    "store_file": "tw_10002_store.json",
+    "store_name": "宜蘭縣",
+    "display": 0
+  },
+  "09020": {
+    "store_file": "tw_09020_store.json",
+    "store_name": "金門縣",
+    "display": 0
+  },
+  "09007": {
+    "store_file": "tw_09007_store.json",
+    "store_name": "連江縣",
+    "display": 0
+  },
+  "10005": {
+    "store_file": "tw_10005_store.json",
+    "store_name": "苗栗縣",
+    "display": 0
+  },
+  "10008": {
+    "store_file": "tw_10008_store.json",
+    "store_name": "南投縣",
+    "display": 0
+  },
+  "10016": {
+    "store_file": "tw_10016_store.json",
+    "store_name": "澎湖縣",
+    "display": 0
+  },
+  "10013": {
+    "store_file": "tw_10013_store.json",
+    "store_name": "屏東縣",
+    "display": 0
+  },
+  "10014": {
+    "store_file": "tw_10014_store.json",
+    "store_name": "臺東縣",
+    "display": 0
+  },
+  "10009": {
+    "store_file": "tw_10009_store.json",
+    "store_name": "雲林縣",
+    "display": 0
+  },
+  "10020": {
+    "store_file": "tw_10020_store.json",
+    "store_name": "嘉義市",
+    "display": 0
+  },
+  "10018": {
+    "store_file": "tw_10018_store.json",
+    "store_name": "新竹市",
+    "display": 0
+  },
+  "10017": {
+    "store_file": "tw_10017_store.json",
+    "store_name": "基隆市",
+    "display": 0
+  },
+  "64000": {
+    "store_file": "tw_64000_store.json",
+    "store_name": "高雄市",
+    "display": 1
+  },
+  "65000": {
+    "store_file": "tw_65000_store.json",
+    "store_name": "新北市",
+    "display": 0
+  },
+  "68000": {
+    "store_file": "tw_68000_store.json",
+    "store_name": "桃園市",
+    "display": 0
+  },
+  "67000": {
+    "store_file": "tw_67000_store.json",
+    "store_name": "臺南市",
+    "display": 1
+  },
+  "63000": {
+    "store_file": "tw_63000_store.json",
+    "store_name": "臺北市",
+    "display": 0
+  },
+  "66000": {
+    "store_file": "tw_66000_store.json",
+    "store_name": "臺中市",
+    "display": 0
+  }
+}
