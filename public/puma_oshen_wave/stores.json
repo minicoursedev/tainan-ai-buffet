@@ -4833,6 +4833,43 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060144844",
       "coordinateNote": "2026-10-23 OSM Nominatim 完整地址查詢無結果，改以 street=73 巡府路、city=關廟區、state=臺南市 結構化查詢取得門牌節點11060144844。主代理另讀取 OSM 節點 API，核對 addr:full 為臺南市關廟區香洋里8鄰巡府路73號，行政區、街道、門牌及數值座標一致，節點資料來源標示臺南市政府；採與對外營業地址相符的門牌位置。"
+    },
+    {
+      "id": "changmei-qishan",
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "旗山 常美冰店",
+      "address": "高雄市旗山區文中路99號",
+      "social": {
+        "facebook": "https://www.facebook.com/p/旗山-常美冰店-100057568535067/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/p/旗山-常美冰店-100057568535067/",
+        "https://www.ptt.cc/bbs/Food/M.1776575810.A.DFC.html",
+        "https://www.fda.gov.tw/tc/includes/GetFile.ashx?id=t408925"
+      ],
+      "verifiedAt": "2026-10-23",
+      "verificationNote": "使用者指定收錄。官方 Facebook 專頁標題為「旗山 常美冰店 | Kaohsiung」，描述分類為冰淇淋店；2026年2月實訪紀錄列高雄市旗山區文中路99號、電話07-6612524，官方 Facebook 連結指向相同專頁ID 100057568535067。食藥署115年5月11日抽樣清單亦列常美冰店及同址，交叉確認對外營業地址。供應香蕉冰、冰淇淋及配料冰品，分類為甜點飲料。僅收錄指定旗山店，不混入美濃店資料。未找到可確認的官方 Instagram、Threads，留空；Facebook 可讀頁面未取得可辨識的個人檔案頭像，未填入頭像。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間請洽官方 Facebook 確認。",
+        "sources": [
+          "https://www.facebook.com/p/旗山-常美冰店-100057568535067/",
+          "https://www.ptt.cc/bbs/Food/M.1776575810.A.DFC.html",
+          "https://www.openrice.com/zh-tw/kaohsiung-pingtung/r-%E5%B8%B8%E7%BE%8E%E5%86%B0%E5%BA%97-%E6%97%97%E5%B1%B1%E5%8D%80-%E5%8F%B0%E7%81%A3%E6%96%99%E7%90%86-%E7%94%9C%E9%BB%9E-%E8%9B%8B%E7%B3%95-r300607"
+        ],
+        "checkedAt": "2026-10-23",
+        "auditNote": "2026年2月實訪紀錄列09:00–18:00、週二公休；OpenRice 另列週三09:00–19:30及每月最後週三休息，資料存在差異。官方 Facebook 首頁及詳細資料未取得可核對的完整營業週表，未能以官方現行資訊解消矛盾，故不填定固定時段與公休日。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.8931685,
+        "lng": 120.4808201
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11079816735",
+      "coordinateNote": "2026-10-23 OSM Nominatim 完整地址查詢無結果，改以 street=99 文中路、city=旗山區、county=高雄市、country=臺灣 結構化查詢取得門牌節點11079816735，簡寫查詢亦取得相同節點。主代理另讀取 OSM 節點 API，核對 addr:full 為高雄市旗山區竹峰里10鄰文中路99號，行政區、街道、門牌及數值座標一致，節點資料來源標示高雄市政府；採與對外營業地址相符的門牌位置。"
     }
   ],
   "pendingStores": []
