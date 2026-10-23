@@ -3,50 +3,56 @@
 <head>
 <script defer src="/assets/analytics.js?v=20261019-content-group"></script>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#ff3476"><meta name="description" content="台南洋流店家地圖，整理店家地址、營業時間與社群連結。依店家分類查找台南洋流店家，查看地圖位置，並透過 Google Maps 規劃前往路線。">
-<title>台南洋流店家地圖｜店家地址、營業時間與導航</title>
+<meta name="theme-color" content="#ff3476"><meta name="description" content="我們的洋流地圖，一起走走，讓支持成為日常。喝杯咖啡、吃頓飯，或到一家小店逛逛。打開地圖，找找今天想去的地方。">
+<title>我們的洋流地圖｜一起走走，讓支持成為日常。</title>
 <link rel="canonical" href="https://minicourse.dev/puma_oshen_wave/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="zh_TW">
 <meta property="og:site_name" content="MiniCourse">
-<meta property="og:title" content="台南洋流店家地圖｜店家地址、營業時間與導航">
-<meta property="og:description" content="台南洋流店家地圖，整理店家地址、營業時間與社群連結。依店家分類查找台南洋流店家，查看地圖位置，並透過 Google Maps 規劃前往路線。">
+<meta property="og:title" content="我們的洋流地圖｜一起走走，讓支持成為日常。">
+<meta property="og:description" content="我們的洋流地圖，一起走走，讓支持成為日常。喝杯咖啡、吃頓飯，或到一家小店逛逛。打開地圖，找找今天想去的地方。">
 <meta property="og:url" content="https://minicourse.dev/puma_oshen_wave/">
-<meta property="og:image" content="https://minicourse.dev/puma_oshen_wave/assets/ocean-map-hero.png">
+<meta property="og:image" content="https://minicourse.dev/puma_oshen_wave/assets/our-ocean-map-hero.png">
 <meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="2171">
+<meta property="og:image:width" content="2172">
 <meta property="og:image:height" content="724">
-<meta property="og:image:alt" content="洋流地圖 — 台南好店，一起來找！">
+<meta property="og:image:alt" content="我們的洋流地圖 — 一起走走，讓支持成為日常。">
 <link rel="stylesheet" href="./vendor/leaflet/leaflet.css"><script defer src="./vendor/leaflet/leaflet.js"></script>
-<link rel="stylesheet" href="./style.css?v=20261024-game"><script type="module" src="./app.js?v=20261022-star"></script>
+<link rel="stylesheet" href="./style.css?v=20261024-our-map"><script type="module" src="./app.js?v=20261024-our-map"></script>
 </head>
 <body>
 <header class="masthead">
-  <div class="masthead-inner"><a class="wordmark" href="./" aria-label="台南洋流店家地圖首頁">台南洋流店家地圖</a><div class="masthead-actions"><button type="button" id="share-open" aria-haspopup="dialog" aria-controls="share-dialog">分享給朋友</button><button type="button" id="contact-open" aria-haspopup="dialog">聯絡我們</button></div></div>
+  <div class="masthead-inner"><a class="wordmark" href="./" aria-label="我們的洋流地圖首頁">我們的洋流地圖</a><div class="masthead-actions"><button type="button" id="share-open" aria-haspopup="dialog" aria-controls="share-dialog">分享給朋友</button><button type="button" id="contact-open" aria-haspopup="dialog">聯絡我們</button></div></div>
 </header>
 <main>
 <section class="title-scene imagegen-hero" aria-labelledby="page-title">
-  <h1 id="page-title" class="hero-art"><img src="./assets/ocean-map-hero.webp" width="1280" height="427" alt="洋流地圖 — 台南好店，一起來找！" fetchpriority="high"></h1>
+  <h1 id="page-title" class="hero-art"><img src="./assets/our-ocean-map-hero.webp" width="1280" height="427" alt="我們的洋流地圖 — 一起走走，讓支持成為日常。" fetchpriority="high"></h1>
+  <div class="page-intro">
+    <p>喝杯咖啡、吃頓飯，或到一家小店逛逛。<br>有些地方你已經很熟悉，有些還等著你走進去。</p>
+    <p>打開我們的洋流地圖，找找今天想去的地方。</p>
+    <p>別忘了點點地圖上的幸運星</p>
+  </div>
 </section>
 <section class="finder" aria-labelledby="finder-title">
-  <a class="finder-marquee" href="https://www.threads.com/@yitinglin_123/post/Det79ibCcnC/media?xmt=AQG0yPNCXmUpMPG4FBdb91zxHibpyw2IWesIblZI0Ogrnw8">
-    <div class="marquee-window"><h2 id="finder-title" class="marquee-track"><span>10/25(日) 台南市議員 林依婷 連任大會 黃捷陪你一起來</span><span aria-hidden="true">10/25(日) 台南市議員 林依婷 連任大會 黃捷陪你一起來</span></h2></div>
+  <a class="finder-marquee" href="https://forms.gle/1M9SYBFmCK5YQ57w7">
+    <div class="marquee-window"><h2 id="finder-title" class="marquee-track"><span>來吧!來吧！讓我們知道要收錄你！</span><span aria-hidden="true">來吧!來吧！讓我們知道要收錄你！</span></h2></div>
   </a>
   <button id="category-toggle" class="mobile-control" type="button" aria-expanded="false" aria-controls="category-filters">店別：全部店家 ▾</button>
   <div class="controls"><div id="category-filters" class="category-filters" role="group" aria-label="店別篩選"></div></div>
 </section>
 <section class="map-workspace" id="map-area" aria-label="店家清單與地圖">
   <div class="mobile-views" role="group" aria-label="瀏覽方式"><button type="button" id="list-view" aria-pressed="true">店家清單</button><button type="button" id="map-view" aria-pressed="false">查看地圖</button></div>
-  <aside class="shop-panel"><div class="panel-heading"><h2>台南洋流店家清單 <span aria-hidden="true">↓</span></h2><span id="result-count" aria-live="polite">讀取中</span></div><section id="shop-detail" class="shop-detail" hidden aria-label="選定店家資訊"><div class="start-icon" aria-hidden="true">↗</div><div><h2>台南洋流店家地圖與導航</h2><p>在地圖上選擇店家，查看地址並規劃前往路線。</p></div></section><div id="shop-list" aria-live="polite"></div><p class="shop-info-note">營業時間與店家資訊，請以各店最新公告為準。</p></aside>
+  <aside class="shop-panel"><div class="panel-heading"><h2>今天，去哪裡走走？ <span aria-hidden="true">↓</span></h2><span id="result-count" aria-live="polite">讀取中</span></div><p class="panel-intro">依店別找找，或打開地圖看看。</p><section id="shop-detail" class="shop-detail" hidden aria-label="選定店家資訊"><div class="start-icon" aria-hidden="true">↗</div><div><h2>我們的洋流地圖</h2><p>在地圖上選擇店家，查看地址並規劃前往路線。</p></div></section><div id="shop-list" aria-live="polite"></div><p class="shop-info-note">營業時間與店家資訊，請以各店最新公告為準。</p></aside>
   <div class="map-column"><div class="map-frame"><div class="map-bar"><div><span class="location-dot" aria-hidden="true"></span><strong id="location-name">台南火車站</strong><span class="map-label">OPENSTREETMAP</span></div><button id="home-map" type="button">我的位置</button></div><div id="lucky-star-message" class="lucky-star-message" hidden><img src="./assets/lucky-star.png" width="28" height="28" alt=""><p id="lucky-star-text" role="status"></p><button id="close-star" type="button" aria-label="關閉幸運星訊息">×</button></div><div class="map-canvas"><div id="all-shops-map" hidden aria-label="所有店家位置"></div><button id="lucky-star" type="button" disabled title="幸運星" aria-label="幸運星"><img src="./assets/lucky-star.png" width="34" height="34" alt=""></button></div><p id="map-status" role="status" hidden></p></div></div>
 </section>
-<div class="closing-strip" aria-hidden="true"><span>找好店</span><b>×</b><span>逛台南</span><b>×</b><span>收集小快樂</span><i>✦</i></div>
+<p class="closing-strip closing-message">一間店、一個地方，讓我們的洋流繼續流動。</p>
 </main>
 
-<footer><strong>台南洋流店家地圖</strong><a href="#page-title">回到上方 ↑</a><p class="footer-notice">本網頁由 <a href="https://minicourse.dev" style="text-decoration:underline;text-underline-offset:3px">MiniCourse</a> 製作，所有店家資訊均為各家所有，本站僅整理，不保證百分之百正確</p><p class="footer-notice">部分店家座標資料 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>（ODbL）</p></footer>
-<dialog id="share-dialog" aria-labelledby="share-title">
-  <h2 id="share-title">台南洋流地圖</h2>
-  <img src="./assets/map-share-qr.svg" width="264" height="264" alt="台南洋流地圖 QR Code，掃描開啟 https://minicourse.dev/puma_oshen_wave/">
+<footer><strong>我們的洋流地圖</strong><a href="#page-title">回到上方 ↑</a><p class="footer-notice">本網頁由 <a href="https://minicourse.dev" style="text-decoration:underline;text-underline-offset:3px">MiniCourse</a> 製作，所有店家資訊均為各家所有，本站僅整理，不保證百分之百正確</p><p class="footer-notice">部分店家座標資料 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>（ODbL）</p></footer>
+<dialog id="share-dialog" aria-labelledby="share-title" aria-describedby="share-description">
+  <h2 id="share-title">我們的洋流地圖</h2>
+  <p id="share-description">分享給朋友，下次一起去。</p>
+  <img src="./assets/map-share-qr.svg" width="264" height="264" alt="我們的洋流地圖 QR Code，掃描開啟 https://minicourse.dev/puma_oshen_wave/">
   <form method="dialog"><button autofocus>關閉</button></form>
 </dialog>
 <dialog id="contact-dialog" aria-labelledby="contact-title" aria-describedby="contact-description">

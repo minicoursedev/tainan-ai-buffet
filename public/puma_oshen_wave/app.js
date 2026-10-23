@@ -117,7 +117,7 @@ function resetMap() {
   showShopList(false);
   showMap('台南火車站', origin, true);
   const text = node('div');
-  text.append(node('h2','台南洋流店家地圖與導航'),node('p','在地圖上選擇店家，查看地址並規劃前往路線。'));
+  text.append(node('h2','我們的洋流地圖'),node('p','在地圖上選擇店家，查看地址並規劃前往路線。'));
   byId('shop-detail').replaceChildren(node('div','↗','start-icon'),text);
   document.querySelectorAll('.shop-card').forEach(card=>card.setAttribute('data-selected','false'));
 }
