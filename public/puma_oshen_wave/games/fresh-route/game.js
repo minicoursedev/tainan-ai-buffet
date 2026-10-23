@@ -20,6 +20,11 @@ const pointers = new Map();
 let jumpQueued = false;
 const images = {};
 let courierCrop = null;
+const phoneLayout = window.matchMedia('(max-width: 600px)');
+function cameraView() {
+  if (!phoneLayout.matches) return { x: 0, y: 0, width: WORLD.width, height: WORLD.height };
+  return { x: Math.max(0, Math.min(WORLD.width - 560, state.x - 280)), y: 400, width: 560, height: 420 };
+}
 
 const put = (el, text) => { if (el && el.textContent !== text) el.textContent = text; };
 const on = (el, type, callback) => el?.addEventListener(type, callback);
@@ -128,7 +133,8 @@ canvas.addEventListener('pointerdown', event => {
   if (state.status !== 'running' || state.cooling > 0) return;
   event.preventDefault(); unlockAudio();
   const bounds = canvas.getBoundingClientRect();
-  walkTarget = Math.max(55, Math.min(WORLD.width - 55, (event.clientX - bounds.left) / bounds.width * WORLD.width));
+  const view = cameraView();
+  walkTarget = Math.max(55, Math.min(WORLD.width - 55, view.x + (event.clientX - bounds.left) / bounds.width * view.width));
 });
 window.addEventListener('blur', () => { if (state.status === 'running') pause(); else clearInput(); });
 document.addEventListener('visibilitychange', () => { if (document.hidden && state.status === 'running') pause(); });
@@ -170,7 +176,12 @@ function text(value, x, y, size = 24, color = '#173f33', align = 'center') {
   ctx.font = `700 ${size}px system-ui, sans-serif`; ctx.textAlign = align; ctx.textBaseline = 'middle'; ctx.fillStyle = color; ctx.fillText(value, x, y);
 }
 function draw() {
-  ctx.clearRect(0, 0, WORLD.width, WORLD.height);
+  const view = cameraView();
+  if (canvas.width !== view.width || canvas.height !== view.height) {
+    canvas.width = view.width; canvas.height = view.height;
+  }
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.save(); ctx.translate(-view.x, -view.y);
   if (images.background) ctx.drawImage(images.background, 0, 0, WORLD.width, WORLD.height);
   else {
     ctx.fillStyle = '#c6dfca'; ctx.fillRect(0, 0, WORLD.width, WORLD.height);
@@ -185,7 +196,7 @@ function draw() {
     roundRect(station.x - 87, badgeY, 174, 82, 16, active ? '#fffbed' : '#fffbedee', active ? '#225d43' : '#ffffff');
     text(station.name, station.x, badgeY + 27, 28);
     const detail = station.kind ? `待領 ${state.stock[station.kind]} 箱` : station.id === 'cold' ? `預冷電力 ${state.battery} / 2` : `已送達 ${state.delivered.length} / 4`;
-    text(detail, station.x, badgeY + 60, 18, '#4a6d5c');
+    text(detail, station.x, badgeY + 60, phoneLayout.matches ? 24 : 18, '#4a6d5c');
     ctx.fillStyle = station.color; ctx.beginPath(); ctx.moveTo(station.x - 10, badgeY + 83); ctx.lineTo(station.x + 10, badgeY + 83); ctx.lineTo(station.x, badgeY + 96); ctx.fill();
   }
   for (const barrier of OBSTACLES) {
@@ -220,7 +231,8 @@ function draw() {
     roundRect(state.x - 70, state.y - 185, 140, 21, 10, '#fffbed');
     roundRect(state.x - 66, state.y - 181, 132 * (1 - state.cooling / 3), 13, 6, '#5fae9d');
   }
-  // A compact route below the illustration keeps goals visible at mobile sizes.
+  // Desktop overview; mobile uses readable HTML route labels.
+  if (!phoneLayout.matches) {
   roundRect(115, 900, 1306, 92, 24, '#fffbeded');
   ctx.strokeStyle = '#b4cbb9'; ctx.lineWidth = 7; ctx.beginPath(); ctx.moveTo(220, 932); ctx.lineTo(1370, 932); ctx.stroke();
   for (const station of STATIONS) {
@@ -228,21 +240,24 @@ function draw() {
     text(station.name, station.x, 968, 21);
   }
   ctx.fillStyle = '#204d3e'; ctx.beginPath(); ctx.moveTo(state.x, 909); ctx.lineTo(state.x - 9, 892); ctx.lineTo(state.x + 9, 892); ctx.fill();
-  if (state.status === 'running' && !state.cooling) {
+  }
+  if (state.status === 'running' && !state.cooling && !phoneLayout.matches) {
     const hint = nearby ? '按 E／互動' : '點路面可自動走跳';
     const anchor = Math.max(100, Math.min(WORLD.width - 100, state.x));
     roundRect(anchor - 96, 802, 192, 40, 15, '#fffbedee'); text(hint, anchor, 822, 19);
   }
+  ctx.restore();
 }
 function renderUI() {
   put(dom.timeValue, `${Math.ceil(state.seconds)} 秒`);
   put(dom.deliveryValue, `${state.delivered.length} / 4`);
   put(dom.batteryValue, `${state.battery} / 2`);
   put(dom.gameMessage, state.messageTime > 0 ? state.message : objective(state));
-  put(dom.actionHint, actionHint(state));
+  const hint = phoneLayout.matches ? actionHint(state).replace('按 E', '點此') : actionHint(state);
+  put(dom.actionHint, hint);
   if (dom.interactButton) {
     dom.interactButton.disabled = state.status !== 'running' || state.cooling > 0;
-    dom.interactButton.setAttribute('aria-label', `互動：${actionHint(state)}`);
+    dom.interactButton.setAttribute('aria-label', `互動：${hint}`);
   }
   if (dom.pauseButton) {
     dom.pauseButton.disabled = !['running', 'paused'].includes(state.status);
