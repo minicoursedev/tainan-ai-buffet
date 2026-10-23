@@ -234,7 +234,7 @@ function renderCategories() {
     button.onclick=()=>{category=value;resetMap();renderCategories();renderShops();byId('category-toggle').setAttribute('aria-expanded','false');};return button;
   }));
 }
-function renderShops() {
+function renderShops(page = 0) {
   const results=shops.filter(s=>!category||s.category===category);
   shopMap.filter(results.map(shop=>shop.id));
   if(selectedId&&!results.some(s=>s.id===selectedId)) resetMap();
@@ -247,7 +247,8 @@ function renderShops() {
     if(shops.length){const clear=node('button','清除篩選');clear.type='button';clear.onclick=()=>{category='';resetMap();renderCategories();renderShops();};empty.append(clear);}
     list.append(empty);return;
   }
-  for(const shop of results){
+  const pageSize = 30;
+  for(const shop of results.slice(page * pageSize, (page + 1) * pageSize)){
     const card=node('article',undefined,'shop-card');card.dataset.shopId=shop.id;card.setAttribute('data-selected',String(shop.id===selectedId));
     const top=node('div',undefined,'shop-card-top');top.append(node('span',shop.category,'type-tag'));
     const bottom=node('button','查看店家資訊 ↗','shop-card-bottom');bottom.type='button';bottom.setAttribute('aria-label',`查看 ${shop.name} 的店家資訊`);bottom.onclick=()=>selectShop(shop);
@@ -268,6 +269,20 @@ function renderShops() {
       } catch { /* Keep the full text width when no valid logo is available. */ }
     }
     card.append(summary,bottom);list.append(card);
+  }
+  if(results.length > pageSize) {
+    const pagination=node('nav',undefined,'shop-pagination');
+    pagination.setAttribute('aria-label','店家清單分頁');
+    const previous=node('button','上一頁');
+    const next=node('button','下一頁');
+    previous.type=next.type='button';
+    previous.disabled=page===0;
+    next.disabled=(page+1)*pageSize>=results.length;
+    const changePage=target=>{renderShops(target);list.scrollTop=0;byId('result-count').scrollIntoView({block:'center'});};
+    previous.onclick=()=>changePage(page-1);
+    next.onclick=()=>changePage(page+1);
+    pagination.append(previous,node('span',`${page+1} / ${Math.ceil(results.length/pageSize)}`),next);
+    list.append(pagination);
   }
 }
 async function init(){
@@ -334,17 +349,22 @@ byId('lucky-star').addEventListener('click', async () => {
 });
 byId('home-map').addEventListener('click', locateMe);
 const shareDialog = byId('share-dialog');
-byId('share-open').addEventListener('click', () => shareDialog.showModal());
+const shareStatus = byId('share-status');
+byId('share-open').addEventListener('click', () => {
+  shareStatus.textContent = '';
+  shareDialog.showModal();
+});
+byId('share-copy').addEventListener('click', async () => {
+  try {
+    await navigator.clipboard.writeText(byId('share-url').href);
+    shareStatus.textContent = '已複製連結';
+  } catch {
+    shareStatus.textContent = '無法自動複製，請長按或右鍵上方網址複製。';
+  }
+});
 shareDialog.addEventListener('click', event => {
   const rect = shareDialog.getBoundingClientRect();
   if (event.target === shareDialog &&
       (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) shareDialog.close();
-});
-const contactDialog = byId('contact-dialog');
-byId('contact-open').addEventListener('click', () => contactDialog.showModal());
-contactDialog.addEventListener('click', event => {
-  const rect = contactDialog.getBoundingClientRect();
-  if (event.target === contactDialog &&
-      (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) contactDialog.close();
 });
 init();

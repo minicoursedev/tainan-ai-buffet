@@ -18,15 +18,16 @@
 <meta property="og:image:height" content="724">
 <meta property="og:image:alt" content="我們的洋流地圖 — 一起走走，讓支持成為日常。">
 <link rel="stylesheet" href="./vendor/leaflet/leaflet.css"><script defer src="./vendor/leaflet/leaflet.js"></script>
-<link rel="stylesheet" href="./style.css?v=20261024-our-map"><script type="module" src="./app.js?v=20261024-our-map"></script>
+<link rel="stylesheet" href="./style.css?v=20261024-statement"><script type="module" src="./app.js?v=20261024-pagination"></script>
 </head>
 <body>
-<header class="masthead">
-  <div class="masthead-inner"><a class="wordmark" href="./" aria-label="我們的洋流地圖首頁">我們的洋流地圖</a><div class="masthead-actions"><button type="button" id="share-open" aria-haspopup="dialog" aria-controls="share-dialog">分享給朋友</button><button type="button" id="contact-open" aria-haspopup="dialog">聯絡我們</button></div></div>
-</header>
+
 <main>
 <section class="title-scene imagegen-hero" aria-labelledby="page-title">
+  <div class="hero-banner">
   <h1 id="page-title" class="hero-art"><img src="./assets/our-ocean-map-hero.webp" width="1280" height="427" alt="我們的洋流地圖 — 一起走走，讓支持成為日常。" fetchpriority="high"></h1>
+  <div class="hero-actions"><button type="button" id="share-open" aria-haspopup="dialog" aria-controls="share-dialog">分享給朋友</button><a id="join-map" href="https://forms.gle/1M9SYBFmCK5YQ57w7" target="_blank" rel="noopener noreferrer">加入地圖</a></div>
+  </div>
   <div class="page-intro">
     <p>喝杯咖啡、吃頓飯，或到一家小店逛逛。<br>有些地方你已經很熟悉，有些還等著你走進去。</p>
     <p>打開我們的洋流地圖，找找今天想去的地方。</p>
@@ -48,17 +49,13 @@
 <p class="closing-strip closing-message">一間店、一個地方，讓我們的洋流繼續流動。</p>
 </main>
 
-<footer><strong>我們的洋流地圖</strong><a href="#page-title">回到上方 ↑</a><p class="footer-notice">本網頁由 <a href="https://minicourse.dev" style="text-decoration:underline;text-underline-offset:3px">MiniCourse</a> 製作，所有店家資訊均為各家所有，本站僅整理，不保證百分之百正確</p><p class="footer-notice">部分店家座標資料 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>（ODbL）</p></footer>
+<footer><strong>我們的洋流地圖</strong><a href="#page-title">回到上方 ↑</a><p id="map-statement" class="footer-disclaimer"><strong>本地圖不代表任何人、事、務</strong><br><strong>未有任何人、組織贊助</strong><br><strong>不接受任何人、組織贊助</strong></p><p class="footer-notice">本網頁由 <a href="https://minicourse.dev" style="text-decoration:underline;text-underline-offset:3px">MiniCourse</a> 製作，所有店家資訊均為各家所有，本站僅整理，不保證百分之百正確</p><p class="footer-notice">部分店家座標資料 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>（ODbL）</p></footer>
 <dialog id="share-dialog" aria-labelledby="share-title" aria-describedby="share-description">
   <h2 id="share-title">我們的洋流地圖</h2>
   <p id="share-description">分享給朋友，下次一起去。</p>
   <img src="./assets/map-share-qr.svg" width="264" height="264" alt="我們的洋流地圖 QR Code，掃描開啟 https://minicourse.dev/puma_oshen_wave/">
-  <form method="dialog"><button autofocus>關閉</button></form>
-</dialog>
-<dialog id="contact-dialog" aria-labelledby="contact-title" aria-describedby="contact-description">
-  <form method="dialog"><button class="contact-close" aria-label="關閉對話框" autofocus>×</button></form>
-  <h2 id="contact-title">聯絡我們</h2>
-  <p id="contact-description">避免誤會，申請加入請由店家自行申請。</p>
-  <a class="contact-thread" href="https://www.threads.com/@lmanliang/post/Deq27XPgZhQ" target="_blank" rel="noopener noreferrer">Threads 討論串 ↗</a>
+  <a id="share-url" href="https://minicourse.dev/puma_oshen_wave/" target="_blank" rel="noopener noreferrer">https://minicourse.dev/puma_oshen_wave/</a>
+  <div class="share-actions"><button id="share-copy" type="button" autofocus>複製連結</button><form method="dialog"><button>關閉</button></form></div>
+  <p id="share-status" role="status" aria-live="polite"></p>
 </dialog>
 </body></html>
