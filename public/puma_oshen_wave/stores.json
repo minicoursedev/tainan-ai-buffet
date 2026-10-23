@@ -4741,6 +4741,45 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11081685002",
       "coordinateNote": "2026-10-22 OSM Nominatim 完整地址查詢無結果，改以 street=60 富國路、city=高雄市、county=左營區、country=Taiwan 結構化查詢取得門牌節點11081685002。主代理再讀取節點 API，核對 addr:full 為高雄市左營區新上里40鄰富國路60號，行政區、街道、門牌及數值座標一致；採市場同門牌位置，不將座標視為141攤入口。"
+    },
+    {
+      "id": "sm3542",
+      "category": "小吃",
+      "giftStatus": "可能有小物",
+      "name": "旗山秀明豬心冬粉",
+      "address": "高雄市旗山區永平街41號",
+      "social": {
+        "facebook": "https://www.facebook.com/sm3542/",
+        "instagram": "https://www.instagram.com/smph.41/",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/sm3542/",
+        "https://www.instagram.com/smph.41/",
+        "https://guide.michelin.com/tw/zh_TW/kaohsiung-region/kaohsiung/restaurant/hsiu-ming",
+        "https://evantravel.tw/sm3542/"
+      ],
+      "verifiedAt": "2026-10-23",
+      "verificationNote": "使用者指定收錄。2026年2月13日食記明列旗山秀明豬心冬粉的對外地址、電話及官方 Facebook sm3542、Instagram smph.41 連結；Instagram 個人頁名稱與帳號吻合，米其林店家頁亦列旗山區永平街41號及相同電話07-662-4625，交叉確認指定專頁與此店歸屬。供應豬心冬粉、肉燥飯等料理，沿用現有湯麵小吃店分類為小吃。未找到可確認的官方 Threads，留空；未取得可確認的官方個人檔案頭像，不填入頭像。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間請洽官方社群確認。",
+        "sources": [
+          "https://www.facebook.com/sm3542/",
+          "https://www.instagram.com/smph.41/",
+          "https://guide.michelin.com/tw/zh_TW/kaohsiung-region/kaohsiung/restaurant/hsiu-ming",
+          "https://evantravel.tw/sm3542/"
+        ],
+        "checkedAt": "2026-10-23",
+        "auditNote": "米其林店家頁列週二至週日08:30–15:30、週一休；2026年2月13日食記則列07:30–15:30、週一休且售完提早打烊。起始時間不同，Facebook 直接讀取僅見登入或暫時封鎖頁，Instagram 可讀個人頁未列可核對的完整時段；未能以官方現行資訊解消矛盾，故不填定固定營業時間與公休日。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.8854624,
+        "lng": 120.4813696
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11079817570",
+      "coordinateNote": "2026-10-23 OSM Nominatim 完整地址查詢無結果，改以 street=41 永平街、city=高雄市、county=旗山區、country=臺灣 結構化查詢取得門牌節點11079817570。主代理另讀取 OSM 節點 API，核對 addr:full 為高雄市旗山區太平里2鄰永平街41號，行政區、街道、門牌及數值座標一致，節點資料來源標示高雄市政府；採與對外營業地址相符的門牌位置。"
     }
   ],
   "pendingStores": []
