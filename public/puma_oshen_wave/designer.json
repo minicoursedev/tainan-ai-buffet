@@ -1,0 +1,23 @@
+{
+  "designers": [
+    {
+      "name": "野狼信號",
+      "disabled": false,
+      "verification": false,
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@wolfsignal_tw",
+        "ig": "https://www.instagram.com/wolfsignal_tw/",
+        "web": "https://myship.7-11.com.tw/general/detail/GM2606110862204"
+      },
+      "logo": {
+        "url": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-19/702277706_18049381421765230_2775298893383401160_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=100&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=z0Em711l9gUQ7kNvwFM4YYT&_nc_oc=AdoWazM06t2DCKhciNfgKTRJ1WzCeqY5Qn3_pnK-zNXSBNopcqLUyQqlsKp3wcqnsEg&_nc_zt=24&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=dps9fCDChXuMlE5nUEw1BQ&_nc_ss=7b689&oh=00_AQPYQ_RQ09ckxYQDZZRrdb9W6hwDNbQxBMf0ovAcqSr-6w&oe=6AE2A925",
+        "source": "https://www.instagram.com/wolfsignal_tw/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-24",
+        "note": "官方 Instagram 個人檔案頭像；社群圖片網址可能失效，屆時需更新。"
+      }
+    }
+  ]
+}

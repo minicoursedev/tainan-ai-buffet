@@ -4,6 +4,7 @@ const byId = id => document.getElementById(id);
 const origin = '22.997137,120.21295';
 let shops = [], category = '', selectedId = null;
 let starVersion = 0, displayedStar = null;
+let designersLoaded = false, designersLoading = false;
 const shopMap = createShopMap({container:byId('all-shops-map'),status:byId('map-status'),onSelect:selectShopFromMap,onPositionsReady:sortByStationDistance});
 // Great-circle distance; independent of the selected shop and category.
 function distanceFromStation({lat, lng}) {
@@ -28,6 +29,76 @@ function externalLink(text, url, className) {
   const a = node('a', text, className);
   a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer';
   return a;
+}
+function setDirectory(showDesigners) {
+  byId('shops-directory').hidden = showDesigners;
+  byId('designers-directory').hidden = !showDesigners;
+  byId('shops-tab').setAttribute('aria-pressed', String(!showDesigners));
+  byId('designers-tab').setAttribute('aria-pressed', String(showDesigners));
+  if (showDesigners) void loadDesigners();
+  else shopMap.focus(selectedId, {recenter:false});
+}
+async function loadDesigners() {
+  if (designersLoaded || designersLoading) return;
+  designersLoading = true;
+  const list = byId('designer-list');
+  list.setAttribute('aria-busy', 'true');
+  list.replaceChildren(node('p', '設計師名單載入中…', 'empty-state'));
+  try {
+    const response = await fetch('./designer.json', {cache:'no-cache'});
+    if (!response.ok) throw new Error('Could not load designers');
+    const data = await response.json();
+    if (!Array.isArray(data.designers)) throw new Error('Invalid designer list');
+    const designers = data.designers.filter(designer => designer.disabled !== true);
+    if (designers.some(designer => typeof designer.name !== 'string' || !designer.name.trim())) {
+      throw new Error('Invalid designer name');
+    }
+    list.replaceChildren(...designers.map(designer => {
+      const card = node('article', undefined, 'designer-card');
+      card.dataset.verified = String(designer.verification === true);
+      const heading = node('div', undefined, 'designer-card-heading');
+      heading.append(node('h3', designer.name));
+      if (designer.logo?.status === 'verified') {
+        try {
+          const url = new URL(designer.logo.url);
+          if (url.protocol === 'https:') {
+            const logo = node('img', undefined, 'designer-logo');
+            logo.alt = designer.name + ' Logo';
+            logo.width = 72; logo.height = 72;
+            logo.loading = 'lazy'; logo.decoding = 'async';
+            logo.referrerPolicy = 'no-referrer';
+            logo.onerror = () => logo.remove();
+            logo.src = url.href;
+            heading.append(logo);
+          }
+        } catch { /* Missing or invalid logo URLs are omitted. */ }
+      }
+      card.append(heading);
+      const links = node('div', undefined, 'designer-links');
+      for (const [field, label] of [['fb','Facebook'],['threads','Threads'],['ig','Instagram'],['web','網站']]) {
+        try {
+          const url = new URL(designer.social?.[field]);
+          if (['https:', 'http:'].includes(url.protocol)) links.append(externalLink(label+' ↗', url.href));
+        } catch { /* Missing or invalid links are omitted. */ }
+      }
+      if (!links.childElementCount) links.append(node('span', '尚未提供連結'));
+      card.append(links);
+      return card;
+    }));
+    if (!designers.length) list.append(node('p', '設計師名單準備中', 'empty-state'));
+    designersLoaded = true;
+  } catch {
+    const error = node('div', undefined, 'empty-state');
+    error.append(node('strong', '設計師資料暫時無法載入'));
+    const retry = node('button', '重新載入');
+    retry.type = 'button';
+    retry.onclick = loadDesigners;
+    error.append(retry);
+    list.replaceChildren(error);
+  } finally {
+    designersLoading = false;
+    list.removeAttribute('aria-busy');
+  }
 }
 function showMap(name, query, center = false, recenter = true) {
   clearLuckyStar();
@@ -367,4 +438,6 @@ shareDialog.addEventListener('click', event => {
   if (event.target === shareDialog &&
       (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) shareDialog.close();
 });
+byId('shops-tab').addEventListener('click', () => setDirectory(false));
+byId('designers-tab').addEventListener('click', () => setDirectory(true));
 init();

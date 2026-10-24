@@ -5,6 +5,7 @@ import { isDeepStrictEqual } from 'node:util';
 const root = process.cwd();
 const requiredFiles = [
   'puma_oshen_wave/index.html',
+  'puma_oshen_wave/designer.json',
   'CNAME', 'index.html', 'friends.html', 'sitemap.xml', 'robots.txt',
   'google0dd0e2c38ab50487.html', 'assets/site.css', 'assets/archive.js',
   'assets/friends.js', 'assets/favicon.svg', 'data/events.json',

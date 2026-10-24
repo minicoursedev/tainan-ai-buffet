@@ -18,11 +18,16 @@
 <meta property="og:image:height" content="724">
 <meta property="og:image:alt" content="我們的洋流地圖 — 一起走走，讓支持成為日常。">
 <link rel="stylesheet" href="./vendor/leaflet/leaflet.css"><script defer src="./vendor/leaflet/leaflet.js"></script>
-<link rel="stylesheet" href="./style.css?v=20261024-recommend-map"><script type="module" src="./app.js?v=20261024-verification-markers"></script>
+<link rel="stylesheet" href="./style.css?v=20261024-designers"><script type="module" src="./app.js?v=20261024-designers"></script>
 </head>
 <body>
 
-<main>
+<main id="page-top">
+<nav class="directory-tabs" aria-label="洋流名錄">
+  <button id="shops-tab" type="button" aria-pressed="true" aria-controls="shops-directory">洋流店家</button>
+  <button id="designers-tab" type="button" aria-pressed="false" aria-controls="designers-directory">洋流設計師</button>
+</nav>
+<div id="shops-directory">
 <section class="title-scene imagegen-hero" aria-labelledby="page-title">
   <div class="hero-banner">
   <h1 id="page-title" class="hero-art"><img src="./assets/our-ocean-map-hero.webp" width="1280" height="427" alt="我們的洋流地圖 — 一起走走，讓支持成為日常。" fetchpriority="high"></h1>
@@ -47,9 +52,14 @@
   <div class="map-column"><div class="map-frame"><div class="map-bar"><div><span class="location-dot" aria-hidden="true"></span><strong id="location-name">台南火車站</strong><span class="map-label">OPENSTREETMAP</span></div><button id="home-map" type="button">我的位置</button></div><div id="lucky-star-message" class="lucky-star-message" hidden><img src="./assets/lucky-star.png" width="28" height="28" alt=""><p id="lucky-star-text" role="status"></p><button id="close-star" type="button" aria-label="關閉幸運星訊息">×</button></div><div class="map-canvas"><div id="all-shops-map" hidden aria-label="所有店家位置"></div><button id="lucky-star" type="button" disabled title="幸運星" aria-label="幸運星"><img src="./assets/lucky-star.png" width="34" height="34" alt=""></button></div><p id="map-status" role="status" hidden></p></div></div>
 </section>
 <p class="closing-strip closing-message">一間店、一個地方，讓我們的洋流繼續流動。</p>
+</div>
+<section id="designers-directory" class="designer-directory" hidden aria-labelledby="designers-title">
+  <header class="designer-heading"><h2 id="designers-title">洋流設計師</h2></header>
+  <div id="designer-list" class="designer-list" aria-live="polite"></div>
+</section>
 </main>
 
-<footer><strong>我們的洋流地圖</strong><a href="#page-title">回到上方 ↑</a><p id="map-statement" class="footer-disclaimer"><strong>本地圖不代表任何人、事、務</strong><br><strong>未有任何人、組織贊助</strong><br><strong>不接受任何人、組織贊助</strong></p><p class="footer-notice">本網頁由 <a href="https://minicourse.dev" style="text-decoration:underline;text-underline-offset:3px">MiniCourse</a> 製作，所有店家資訊均為各家所有，本站僅整理，不保證百分之百正確</p><p class="footer-notice">部分店家座標資料 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>（ODbL）</p></footer>
+<footer><strong>我們的洋流地圖</strong><a href="#page-top">回到上方 ↑</a><p id="map-statement" class="footer-disclaimer"><strong>本地圖不代表任何人、事、務</strong><br><strong>未有任何人、組織贊助</strong><br><strong>不接受任何人、組織贊助</strong></p><p class="footer-notice">本網頁由 <a href="https://minicourse.dev" style="text-decoration:underline;text-underline-offset:3px">MiniCourse</a> 製作，所有店家資訊均為各家所有，本站僅整理，不保證百分之百正確</p><p class="footer-notice">部分店家座標資料 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>（ODbL）</p></footer>
 <dialog id="share-dialog" aria-labelledby="share-title" aria-describedby="share-description">
   <h2 id="share-title">我們的洋流地圖</h2>
   <p id="share-description">分享給朋友，下次一起去。</p>
