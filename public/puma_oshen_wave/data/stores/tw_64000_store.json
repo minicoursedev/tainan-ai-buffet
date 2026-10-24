@@ -14,7 +14,7 @@
     "3C 通訊",
     "書店",
     "服飾鞋店",
-    "雜貨店",
+    "選物雜貨",
     "運動用品",
     "桌遊",
     "酒吧",
@@ -26,6 +26,7 @@
   "stores": [
     {
       "id": "zenolai-campaign-headquarters",
+      "verification": true,
       "category": "洋流服務站",
       "giftStatus": "可能有小物",
       "name": "賴瑞隆競選總部",
@@ -77,6 +78,7 @@
     },
     {
       "id": "yessoymilk-hedi",
+      "verification": true,
       "category": "甜點飲料",
       "giftStatus": "可能有小物",
       "name": "葉氏豆匠（高雄河堤門市）",
@@ -114,6 +116,7 @@
     },
     {
       "id": "howwow-dashe",
+      "verification": true,
       "category": "正餐",
       "giftStatus": "可能有小物",
       "name": "好窩（大社創始店）",
@@ -159,6 +162,7 @@
     },
     {
       "id": "bltchcake",
+      "verification": true,
       "category": "甜點飲料",
       "giftStatus": "可能有小物",
       "name": "賤人雞蛋糕feat.高雄打狗燒",
@@ -204,6 +208,7 @@
     },
     {
       "id": "sian-beauty",
+      "verification": true,
       "category": "正餐",
       "giftStatus": "可能有小物",
       "name": "鮮丼生魚片（龍華市場141攤）",
@@ -248,6 +253,7 @@
     },
     {
       "id": "sm3542",
+      "verification": true,
       "category": "小吃",
       "giftStatus": "可能有小物",
       "name": "旗山秀明豬心冬粉",
@@ -295,6 +301,7 @@
     },
     {
       "id": "changmei-qishan",
+      "verification": true,
       "category": "甜點飲料",
       "giftStatus": "可能有小物",
       "name": "旗山 常美冰店",

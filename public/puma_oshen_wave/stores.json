@@ -5222,6 +5222,43 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060970721",
       "coordinateNote": "2026-10-24 查證子代理先以OSM Nominatim完整地址查詢無結果，改用street=64 衛民街、city=臺南市、county=中西區、country=台灣結構化查詢取得門牌節點11060970721，排除同查詢的106號之64。主代理另讀取OSM節點API，核對addr:full為臺南市中西區城隍里6鄰衛民街64號，來源臺南市政府，行政區、街道、門牌及數值座標均與官方對外地址相符。"
+    },
+    {
+      "id": "taocheng-cookingtea",
+      "verification": false,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "桃城烹茶",
+      "address": "嘉義市西區文化路168號",
+      "social": {
+        "facebook": "https://www.facebook.com/61575372834003/",
+        "instagram": "https://www.instagram.com/taocheng.cookingtea/",
+        "threads": "https://www.threads.com/@taocheng.cookingtea"
+      },
+      "sources": [
+        "https://www.threads.com/@taocheng.cookingtea",
+        "https://www.instagram.com/taocheng.cookingtea/",
+        "https://www.facebook.com/61575372834003/",
+        "https://chiayiwenhuah.mindnodeair.com/allstore/store-1"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為布林值false。查證子代理及主代理分別讀取官方Threads公開頁，名稱為「全台唯一桃城烹茶｜嘉義在地品牌｜文化路夜市」，簡介明列嘉義市文化路168號及營業時間。Instagram同名帳號與品牌名稱一致，亦為Google Maps該店地點的官方網站連結；嘉義文化商圈店家頁列相同地址與Instagram，其Facebook分享連結實際轉至61575372834003，主代理確認名稱為「桃城烹茶抵嘉」。以Google Maps同店地址核對西區，未採舊址。依飲料店業態沿用甜點飲料分類，已比對全部既有紀錄（含disabled），未發現同名、同址或相同社群帳號。頭像未完成查證，未填入。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週一至週五12:00起、週六及週日13:00起，售完為止；不定時公休，請參考官方公告。",
+        "sources": [
+          "https://www.threads.com/@taocheng.cookingtea"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "查證子代理及主代理分別取得官方Threads公開頁，簡介明列週一至週五中午12點、週六及週日中午13點到售完為止及不定時公休；未自行填定打烊時間，未以第三方舊時段覆蓋官方資訊。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4792071,
+        "lng": 120.4498298
+      },
+      "coordinateSource": "https://www.google.com/search?tbm=map&hl=zh-TW&q=%E6%A1%83%E5%9F%8E%E7%83%B9%E8%8C%B6%20%E5%98%89%E7%BE%A9%E5%B8%82%E6%96%87%E5%8C%96%E8%B7%AF168%E8%99%9F",
+      "coordinateNote": "2026-10-24 先以OSM Nominatim完整地址、店名及街道門牌結構化查詢，未取得門牌結果，僅有文化路道路資料，未採用。改讀Google Maps公開搜尋頁所載入的地點JSON；查證子代理及主代理分別取得同一商家物件，店名為「嘉義必喝！桃城烹茶『耐喝系』公休請看臉書與IG」，地址為600嘉義市西區中央里文化路168號，官方網站指向taocheng.cookingtea Instagram，地點識別為0x346e9564a765edf7:0x6236a9049041a6f1（https://www.google.com/maps?cid=7077029701524498161）。採用此商家物件獨立位置欄位的23.4792071、120.44982979999999，非地圖視窗中心。實際以公開頁JSON查證，未取得含!3d與!4d的原生地點網址，亦未以瀏覽器操作取得，不宣稱已完成該網址步驟。"
     }
   ],
   "pendingStores": []

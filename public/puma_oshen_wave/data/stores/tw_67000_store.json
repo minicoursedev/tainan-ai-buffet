@@ -14,7 +14,7 @@
     "3C 通訊",
     "書店",
     "服飾鞋店",
-    "雜貨店",
+    "選物雜貨",
     "運動用品",
     "桌遊",
     "酒吧",
@@ -26,6 +26,7 @@
   "stores": [
     {
       "id": "hana-da",
+      "verification": true,
       "category": "甜點飲料",
       "giftStatus": "可能有小物",
       "name": "花田 HANA DA",
@@ -66,6 +67,7 @@
     },
     {
       "id": "sabisabi-tainan",
+      "verification": true,
       "category": "咖啡廳",
       "giftStatus": "可能有小物",
       "name": "SabiSabi Coffee&Sweets in Tainan",
@@ -109,6 +111,7 @@
     },
     {
       "id": "aini-tofu",
+      "verification": true,
       "category": "小吃",
       "giftStatus": "可能有小物",
       "name": "愛尼香豆腐－愛尼舒食",
@@ -151,6 +154,7 @@
     },
     {
       "id": "moonlight-books-tainan",
+      "verification": true,
       "category": "書店",
       "giftStatus": "可能有小物",
       "name": "銀月書店 Moonlight Books",
@@ -195,6 +199,7 @@
     },
     {
       "id": "morona-tainan",
+      "verification": true,
       "category": "服飾鞋店",
       "giftStatus": "可能有小物",
       "name": "Morona 茉娜精緻手工內衣（台南）",
@@ -240,6 +245,7 @@
     },
     {
       "id": "shencai181",
+      "verification": true,
       "category": "其它",
       "giftStatus": "可能有小物",
       "name": "神彩影像輸出",
@@ -280,6 +286,7 @@
     },
     {
       "id": "haitiau",
+      "verification": true,
       "name": "潮汐 hái-tiâu",
       "category": "甜點飲料",
       "address": "台南市中西區海安路一段190巷10號",
@@ -321,6 +328,7 @@
     },
     {
       "id": "kaichun",
+      "verification": true,
       "name": "開春古早味排骨便當",
       "category": "正餐",
       "address": "台南市中西區開山路64號",
@@ -361,6 +369,7 @@
     },
     {
       "id": "fashion-wenxian",
+      "verification": true,
       "name": "時尚國際通訊文賢店",
       "category": "3C 通訊",
       "address": "台南市北區文賢路619號",
@@ -404,6 +413,7 @@
     },
     {
       "id": "jingliang-chongde",
+      "verification": true,
       "name": "靜涼茶坊台南崇德店",
       "category": "甜點飲料",
       "address": "台南市東區崇德路663-1號",
@@ -447,6 +457,7 @@
     },
     {
       "id": "roar-factory",
+      "verification": true,
       "name": "吃貨製造所 Roar Factory",
       "category": "咖啡廳",
       "address": "台南市中西區大新街57號",
@@ -496,6 +507,7 @@
     },
     {
       "id": "taiwan-titsia",
+      "verification": true,
       "name": "台灣佇遮（襪達人）",
       "category": "服飾鞋店",
       "address": "台南市安南區府安路五段162巷95號",
@@ -536,7 +548,8 @@
     },
     {
       "id": "selten-dac",
-      "category": "雜貨店",
+      "verification": true,
+      "category": "選物雜貨",
       "giftStatus": "可能有小物",
       "name": "南德 難得 Selten",
       "address": "台南市中西區協和街68號",
@@ -589,6 +602,7 @@
     },
     {
       "id": "senyu-xinshi",
+      "verification": true,
       "name": "森羽 SENYU｜羽球專賣・專業穿線",
       "category": "運動用品",
       "giftStatus": "可能有小物",
@@ -631,6 +645,7 @@
     },
     {
       "id": "klaster-savour",
+      "verification": true,
       "name": "做伙刈包／做伙食堂",
       "category": "小吃",
       "giftStatus": "可能有小物",
@@ -675,6 +690,7 @@
     },
     {
       "id": "tuojin-mobile",
+      "verification": true,
       "name": "拓金數位通訊",
       "category": "3C 通訊",
       "giftStatus": "可能有小物",
@@ -718,6 +734,7 @@
     },
     {
       "id": "namiya-cafe",
+      "verification": true,
       "name": "波屋咖啡 ナミヤコーヒー",
       "category": "咖啡廳",
       "address": "台南市中西區開山路87號1樓",
@@ -759,6 +776,7 @@
     },
     {
       "id": "gold-tea-jinhua",
+      "verification": true,
       "name": "羚角手搖茶飲（金華總店）",
       "category": "甜點飲料",
       "address": "台南市中西區金華路三段35號",
@@ -804,6 +822,7 @@
     },
     {
       "id": "jiangxin-curry-jiali",
+      "verification": true,
       "name": "匠昕熟成咖哩・丼飯",
       "category": "正餐",
       "address": "台南市佳里區延平路208號",
@@ -845,6 +864,7 @@
     },
     {
       "id": "chill-well-douhua",
+      "verification": true,
       "name": "且未豆花",
       "category": "甜點飲料",
       "address": "台南市佳里區光復路417號",
@@ -885,6 +905,7 @@
     },
     {
       "id": "frankdaily-madou",
+      "verification": true,
       "name": "日常咖啡（麻豆）",
       "category": "咖啡廳",
       "address": "台南市麻豆區興中路210之1號1樓",
@@ -926,6 +947,7 @@
     },
     {
       "id": "laopai-hotpot-madou",
+      "verification": true,
       "name": "嘉義老牌專業石頭火鍋（麻豆店）",
       "category": "正餐",
       "address": "台南市麻豆區光復路83號",
@@ -967,6 +989,7 @@
     },
     {
       "id": "ru-studio-flower",
+      "verification": true,
       "name": "RU Studio 永生乾燥花店",
       "category": "花店",
       "address": "台南市永康區富強路一段63號",
@@ -1010,6 +1033,7 @@
     },
     {
       "id": "lumos-flower-lab",
+      "verification": true,
       "name": "光禾花室 Lumos Flower Lab",
       "category": "花店",
       "address": "台南市東區崇學路271-10號",
@@ -1052,8 +1076,9 @@
     },
     {
       "id": "about-dream-anping",
+      "verification": true,
       "name": "About Dream 關於夢想（安平夢裡店）",
-      "category": "雜貨店",
+      "category": "選物雜貨",
       "address": "台南市安平區安平路296號",
       "social": {
         "facebook": "",
@@ -1097,6 +1122,7 @@
     },
     {
       "id": "hamsterstar",
+      "verification": true,
       "name": "鼠兔星球",
       "category": "日常生活",
       "address": "台南市北區北園街8巷9弄5號",
@@ -1138,6 +1164,7 @@
     },
     {
       "id": "sing-yuan-coffee",
+      "verification": true,
       "name": "杏源珈琲 Sing yuan coffee",
       "category": "咖啡廳",
       "address": "台南市中西區府前路一段342巷2號",
@@ -1181,6 +1208,7 @@
     },
     {
       "id": "dono-doro",
+      "verification": true,
       "name": "豆弄 とろ",
       "category": "咖啡廳",
       "address": "台南市中西區五妃街76號1樓",
@@ -1224,6 +1252,7 @@
     },
     {
       "id": "time-of-sun",
+      "verification": true,
       "name": "太陽的時間碳烤吐司",
       "category": "正餐",
       "address": "台南市中西區國華街二段82號",
@@ -1266,6 +1295,7 @@
     },
     {
       "id": "old-laifa-bakery",
+      "verification": true,
       "name": "舊來發餅舖",
       "category": "烘焙",
       "address": "台南市北區自強街17號1樓",
@@ -1309,6 +1339,7 @@
     },
     {
       "id": "gandan-cafe",
+      "verification": true,
       "category": "咖啡廳",
       "giftStatus": "可能有小物",
       "name": "甘單咖啡館",
@@ -1354,6 +1385,7 @@
     },
     {
       "id": "youyu-xinying",
+      "verification": true,
       "category": "正餐",
       "giftStatus": "可能有小物",
       "name": "有餘",
@@ -1396,6 +1428,7 @@
     },
     {
       "id": "weiji-zhongshan",
+      "verification": true,
       "category": "小吃",
       "giftStatus": "可能有小物",
       "name": "新營威記（中山店）",
@@ -1438,6 +1471,7 @@
     },
     {
       "id": "em-hair-design",
+      "verification": true,
       "category": "美髮",
       "giftStatus": "可能有小物",
       "name": "EM hair & design",
@@ -1479,6 +1513,7 @@
     },
     {
       "id": "applenana-mit",
+      "verification": true,
       "category": "服飾鞋店",
       "giftStatus": "可能有小物",
       "name": "AppleNana台灣製造手工鞋旗艦店",
@@ -1523,6 +1558,7 @@
     },
     {
       "id": "inspire-island-studio",
+      "verification": true,
       "category": "其它",
       "giftStatus": "可能有小物",
       "name": "造島。kids studio（造島共感空間工作室）",
@@ -1566,6 +1602,7 @@
     },
     {
       "id": "lazyday-boardgame",
+      "verification": true,
       "category": "桌遊",
       "giftStatus": "可能有小物",
       "name": "懶日子桌遊概念館+劇本體驗工作室",
@@ -1610,6 +1647,7 @@
     },
     {
       "id": "day-day-ding",
+      "verification": true,
       "name": "日日雞蛋糕",
       "category": "甜點飲料",
       "address": "台南市東區大同路一段269號",
@@ -1651,6 +1689,7 @@
     },
     {
       "id": "hsuehs-select",
+      "verification": true,
       "name": "薛式選物咖啡店",
       "category": "咖啡廳",
       "address": "台南市中西區開山路3巷48號",
@@ -1692,6 +1731,7 @@
     },
     {
       "id": "rt-flower-design",
+      "verification": true,
       "name": "亞特花藝 RT Flower Design",
       "category": "花店",
       "address": "台南市永康區忠孝一路97號",
@@ -1732,6 +1772,7 @@
     },
     {
       "id": "yakioyster-wusheng",
+      "verification": true,
       "name": "牡蠣大叔海鮮燒物（武聖夜市）",
       "category": "小吃",
       "address": "台南市中西區武聖路69巷40弄14號（武聖夜市攤位）",
@@ -1774,6 +1815,7 @@
     },
     {
       "id": "jialiang-pharmacy",
+      "verification": true,
       "name": "佳良藥局",
       "category": "日常生活",
       "address": "台南市佳里區中山路66號1樓",
@@ -1818,6 +1860,7 @@
     },
     {
       "id": "cafe-douceur",
+      "verification": true,
       "name": "甜在心咖啡館",
       "category": "咖啡廳",
       "address": "台南市北區北忠街58巷12號",
@@ -1863,6 +1906,7 @@
     },
     {
       "id": "fachu-sushi",
+      "verification": true,
       "name": "法竹壽司すし私密廚",
       "category": "正餐",
       "address": "台南市北區賢北街16巷16號",
@@ -1908,6 +1952,7 @@
     },
     {
       "id": "taixing-auto",
+      "verification": true,
       "name": "太星汽車",
       "category": "其它",
       "address": "台南市仁德區崑崙路806號",
@@ -1954,6 +1999,7 @@
     },
     {
       "id": "companio-bakery",
+      "verification": true,
       "name": "一起 companio bakery",
       "category": "烘焙",
       "address": "台南市東區裕信路309號1樓",
@@ -1996,6 +2042,7 @@
     },
     {
       "id": "senmu-kitchen",
+      "verification": true,
       "name": "森木廚房 日式咖哩＆米食餐盒",
       "category": "正餐",
       "address": "台南市中西區青年路36號",
@@ -2038,6 +2085,7 @@
     },
     {
       "id": "south-island-dream",
+      "verification": true,
       "name": "南島夢遊",
       "category": "正餐",
       "address": "台南市北區公園路487巷18號之一",
@@ -2080,6 +2128,7 @@
     },
     {
       "id": "hexin-pharmacy",
+      "verification": true,
       "name": "荷芯藥局",
       "category": "日常生活",
       "address": "台南市北區育德路27號",
@@ -2123,6 +2172,7 @@
     },
     {
       "id": "dash-pound-cake",
+      "verification": true,
       "name": "大囍咖啡｜磅蛋糕",
       "category": "咖啡廳",
       "address": "台南市中西區府前路一段129號",
@@ -2167,6 +2217,7 @@
     },
     {
       "id": "zhiyu-fuguang",
+      "verification": true,
       "name": "芷嶼扶光 嬋柔運動",
       "category": "日常生活",
       "address": "台南市東區長榮路三段115號",
@@ -2208,6 +2259,7 @@
     },
     {
       "id": "shuxing-brunch",
+      "verification": true,
       "name": "蔬醒早午餐",
       "category": "正餐",
       "address": "台南市北區育德路80號",
@@ -2250,6 +2302,7 @@
       "giftStatus": "可能有小物",
       "verifiedAt": "2026-10-19",
       "id": "goodtime-tainan",
+      "verification": true,
       "name": "好時光 / GoodTime",
       "category": "其它",
       "address": "台南市中西區府前路一段85巷34弄3號",
@@ -2294,6 +2347,7 @@
       "giftStatus": "可能有小物",
       "verifiedAt": "2026-10-19",
       "id": "tadaima-tainan",
+      "verification": true,
       "name": "只今居酒屋",
       "category": "正餐",
       "address": "台南市中西區宮後街9號",
@@ -2332,6 +2386,7 @@
     },
     {
       "id": "mokume-mumu",
+      "verification": true,
       "name": "木目麦酒（梅酒專門店）",
       "category": "酒吧",
       "address": "台南市中西區開山路151巷8號",
@@ -2372,6 +2427,7 @@
     },
     {
       "id": "bing-chun-bakery",
+      "verification": true,
       "category": "烘焙",
       "giftStatus": "可能有小物",
       "name": "秉醇烘焙坊",
@@ -2412,6 +2468,7 @@
     },
     {
       "id": "amiao-noodles",
+      "verification": true,
       "category": "小吃",
       "giftStatus": "可能有小物",
       "name": "鹽水點心城阿妙意麵",
@@ -2452,6 +2509,7 @@
     },
     {
       "id": "mezzanine-floor",
+      "verification": true,
       "category": "酒吧",
       "giftStatus": "可能有小物",
       "name": "M/F（Mezzanine Floor）",
@@ -2490,6 +2548,7 @@
     },
     {
       "id": "oh-mo-meow",
+      "verification": true,
       "category": "甜點飲料",
       "giftStatus": "可能有小物",
       "name": "Oh Mo貓吃",
@@ -2529,6 +2588,7 @@
     },
     {
       "id": "long-ting",
+      "verification": true,
       "category": "正餐",
       "giftStatus": "可能有小物",
       "name": "龍亭",
@@ -2570,6 +2630,7 @@
     },
     {
       "id": "daoru-ice",
+      "verification": true,
       "category": "甜點飲料",
       "giftStatus": "可能有小物",
       "name": "島入冰店",
@@ -2609,6 +2670,7 @@
     },
     {
       "id": "chia-tsao-brunch",
+      "verification": true,
       "category": "正餐",
       "giftStatus": "可能有小物",
       "name": "吃早。呷早",
@@ -2650,6 +2712,7 @@
     },
     {
       "id": "182-beer-bar",
+      "verification": true,
       "category": "酒吧",
       "giftStatus": "可能有小物",
       "name": "182 BEER BAR｜TAINAN",
@@ -2690,6 +2753,7 @@
     },
     {
       "id": "tang-jia-kimchi",
+      "verification": true,
       "category": "正餐",
       "giftStatus": "可能有小物",
       "name": "唐家泡菜館",
@@ -2729,6 +2793,7 @@
     },
     {
       "id": "yen-caffe",
+      "verification": true,
       "category": "咖啡廳",
       "giftStatus": "可能有小物",
       "name": "言 咖啡",
@@ -2768,6 +2833,7 @@
     },
     {
       "id": "hush-anping",
+      "verification": true,
       "category": "甜點飲料",
       "giftStatus": "可能有小物",
       "name": "默沫手作飲品 安平高登店",
@@ -2809,6 +2875,7 @@
     },
     {
       "id": "show-sento-tainan",
+      "verification": true,
       "category": "甜點飲料",
       "giftStatus": "可能有小物",
       "name": "小仙島 仙味茶專門 台南府前店",
@@ -2851,6 +2918,7 @@
     },
     {
       "id": "jisu-computer",
+      "verification": true,
       "category": "3C 通訊",
       "giftStatus": "可能有小物",
       "name": "極速電腦",
@@ -2891,6 +2959,7 @@
     },
     {
       "id": "zhinanwoshi",
+      "verification": true,
       "category": "甜點飲料",
       "giftStatus": "可能有小物",
       "name": "植男臥室雞蛋燒",
@@ -2932,6 +3001,7 @@
     },
     {
       "id": "island-blue",
+      "verification": true,
       "category": "農業",
       "giftStatus": "可能有小物",
       "name": "島嶼藍Tó Sū Nâ 島生藍莓",
@@ -2971,6 +3041,7 @@
     },
     {
       "id": "smellscape-tainan",
+      "verification": true,
       "category": "日常生活",
       "giftStatus": "可能有小物",
       "name": "smellscape 氣味構築的景緻（台南本店）",
@@ -3012,6 +3083,7 @@
     },
     {
       "id": "sangu-oyster",
+      "verification": true,
       "category": "正餐",
       "giftStatus": "可能有小物",
       "name": "蚵男 生蠔 海物 燒烤",
@@ -3051,6 +3123,7 @@
     },
     {
       "id": "biosis-shotting-fun",
+      "verification": true,
       "category": "酒吧",
       "giftStatus": "可能有小物",
       "name": "-bíōsis, The Shotting Fun",
@@ -3089,6 +3162,7 @@
     },
     {
       "id": "minflower",
+      "verification": true,
       "category": "花店",
       "giftStatus": "可能有小物",
       "name": "植卉所 MinFlower",
@@ -3129,6 +3203,7 @@
     },
     {
       "id": "heydude-noodles",
+      "verification": true,
       "category": "正餐",
       "giftStatus": "可能有小物",
       "name": "島頂。食麵",
@@ -3170,6 +3245,7 @@
     },
     {
       "id": "qingzhen-duck",
+      "verification": true,
       "category": "小吃",
       "giftStatus": "可能有小物",
       "name": "清珍鴨肉焿",
@@ -3211,6 +3287,7 @@
     },
     {
       "id": "tsai-li-ching-guoan-haidian",
+      "verification": true,
       "category": "洋流服務站",
       "giftStatus": "可能有小物",
       "name": "蔡麗青國安海佃服務處",
@@ -3256,6 +3333,7 @@
     },
     {
       "id": "full-yakiniku-annan",
+      "verification": true,
       "category": "正餐",
       "giftStatus": "可能有小物",
       "name": "花燒肉個人燒肉 台南安南店",
@@ -3298,6 +3376,7 @@
     },
     {
       "id": "he-cafee",
+      "verification": true,
       "category": "咖啡廳",
       "giftStatus": "可能有小物",
       "name": "赫珈琲 Splendid Café",
@@ -3338,6 +3417,7 @@
     },
     {
       "id": "wanmore-yongkang",
+      "verification": true,
       "category": "小吃",
       "giftStatus": "可能有小物",
       "name": "丸MORE 脆皮章魚燒 永康店",
@@ -3377,6 +3457,7 @@
     },
     {
       "id": "screaming-bean",
+      "verification": true,
       "category": "咖啡廳",
       "giftStatus": "可能有小物",
       "name": "叫咖啡 Screaming Bean",
@@ -3416,6 +3497,7 @@
     },
     {
       "id": "shiroi-usagi",
+      "verification": true,
       "category": "咖啡廳",
       "giftStatus": "可能有小物",
       "name": "白兔美術社",
@@ -3455,6 +3537,7 @@
     },
     {
       "id": "lily-garden-tainan",
+      "verification": true,
       "name": "百合花苑 Lily Garden",
       "category": "花店",
       "address": "台南市北區忠義路三段117號",
@@ -3489,6 +3572,7 @@
     },
     {
       "id": "lola-dessert-tainan",
+      "verification": true,
       "name": "蘿拉嫡家",
       "category": "甜點飲料",
       "address": "台南市東區崇明路293號",
@@ -3532,6 +3616,7 @@
     },
     {
       "id": "wafting-coffee",
+      "verification": true,
       "category": "咖啡廳",
       "giftStatus": "可能有小物",
       "name": "裊淡咖啡",
@@ -3568,6 +3653,7 @@
     },
     {
       "id": "moricasa-art",
+      "verification": true,
       "name": "森初．moricasa art（預約制）",
       "category": "其它",
       "address": "台南市安平區漁光路113號",
@@ -3603,6 +3689,7 @@
     },
     {
       "id": "bingder-no2-wanchang",
+      "verification": true,
       "category": "甜點飲料",
       "giftStatus": "可能有小物",
       "disabled": false,
@@ -3641,6 +3728,7 @@
     },
     {
       "id": "tranity-anping",
+      "verification": true,
       "category": "酒吧",
       "giftStatus": "可能有小物",
       "disabled": false,
@@ -3677,6 +3765,7 @@
     },
     {
       "id": "wufei-luwei-wusheng",
+      "verification": true,
       "category": "小吃",
       "giftStatus": "可能有小物",
       "disabled": false,
@@ -3712,6 +3801,7 @@
     },
     {
       "id": "three-fourths-patisserie",
+      "verification": true,
       "category": "甜點飲料",
       "giftStatus": "可能有小物",
       "disabled": false,
@@ -3750,6 +3840,7 @@
     },
     {
       "id": "zeng-jia-xinying",
+      "verification": true,
       "category": "正餐",
       "giftStatus": "可能有小物",
       "disabled": false,
@@ -3786,6 +3877,7 @@
     },
     {
       "id": "dancing-sheep-coffee",
+      "verification": true,
       "category": "咖啡廳",
       "giftStatus": "可能有小物",
       "disabled": false,
@@ -3823,6 +3915,7 @@
     },
     {
       "id": "tso-hue-tsiah-eggcake",
+      "verification": true,
       "name": "作伙呷雞蛋糕 tsò-hué tsia̍h",
       "category": "甜點飲料",
       "address": "台南市鹽水區朝琴路33號騎樓（莉莉服飾旁）",
@@ -3849,6 +3942,7 @@
     },
     {
       "id": "gandan-xinying-ice-tangyuan",
+      "verification": true,
       "name": "甘單手作冰菓湯圓專賣店（原夜市圓仔湯）",
       "category": "甜點飲料",
       "address": "台南市新營區民治路148-1號",
@@ -3874,6 +3968,7 @@
     },
     {
       "id": "youzhiyuan-kidswear",
+      "verification": true,
       "name": "幼之園童裝部屋",
       "category": "服飾鞋店",
       "address": "台南市安南區海佃路一段276號1樓",
@@ -3898,6 +3993,7 @@
     },
     {
       "id": "yehjia-squid-rice-noodles",
+      "verification": true,
       "name": "臺南味葉家小卷料理",
       "category": "小吃",
       "address": "台南市中西區國華街3段165號",
@@ -3920,6 +4016,7 @@
     },
     {
       "id": "chengyang-light",
+      "verification": true,
       "name": "承洋照明",
       "category": "日常生活",
       "address": "台南市中西區民權路二段3號",
@@ -3954,6 +4051,7 @@
     },
     {
       "id": "gui-gui-foodie",
+      "verification": true,
       "name": "貴貴腹地 gui gui foodie",
       "category": "正餐",
       "address": "台南市中西區建業街18號",
@@ -3988,6 +4086,7 @@
     },
     {
       "id": "chen-ting-fei-campaign-headquarters",
+      "verification": true,
       "category": "洋流服務站",
       "giftStatus": "可能有小物",
       "name": "陳亭妃競選總部",
@@ -4026,6 +4125,7 @@
     },
     {
       "id": "hele-sports-yidong",
+      "verification": true,
       "name": "禾樂體育用品社",
       "category": "運動用品",
       "giftStatus": "可能有小物",
@@ -4052,6 +4152,7 @@
     },
     {
       "id": "ganachoco",
+      "verification": true,
       "name": "格那修蛋糕",
       "category": "甜點飲料",
       "giftStatus": "可能有小物",
@@ -4086,6 +4187,7 @@
     },
     {
       "id": "lin-yi-ting-service-office",
+      "verification": true,
       "category": "洋流服務站",
       "giftStatus": "可能有小物",
       "name": "林依婷服務處",
@@ -4125,6 +4227,7 @@
     },
     {
       "id": "zhijue-ximen",
+      "verification": true,
       "category": "甜點飲料",
       "giftStatus": "可能有小物",
       "name": "植蕨 西門店",
@@ -4159,6 +4262,7 @@
     },
     {
       "id": "yicheng-hongguo",
+      "verification": true,
       "category": "其它",
       "giftStatus": "可能有小物",
       "name": "易丞地政｜宏國建設開發",
@@ -4184,6 +4288,7 @@
     },
     {
       "id": "cat-boss-coffee",
+      "verification": true,
       "category": "咖啡廳",
       "giftStatus": "可能有小物",
       "name": "老闆是隻貓自烘咖啡專門店",
@@ -4219,6 +4324,7 @@
     },
     {
       "id": "bb-cafe-tainan",
+      "verification": true,
       "category": "咖啡廳",
       "giftStatus": "可能有小物",
       "name": "B.B.CAFE 小黑熊咖啡",
@@ -4248,6 +4354,7 @@
     },
     {
       "id": "weiji-minzhi",
+      "verification": true,
       "category": "小吃",
       "giftStatus": "可能有小物",
       "name": "威記藥膳排骨湯（民治店）",
@@ -4285,6 +4392,7 @@
     },
     {
       "id": "jisheng-ramen",
+      "verification": true,
       "category": "正餐",
       "giftStatus": "可能有小物",
       "name": "激勝",
@@ -4328,7 +4436,8 @@
     },
     {
       "id": "no19store",
-      "category": "雜貨店",
+      "verification": true,
+      "category": "選物雜貨",
       "giftStatus": "可能有小物",
       "name": "十九號二手屋",
       "address": "台南市東區裕農路389巷3弄19號1樓",
@@ -4366,6 +4475,7 @@
     },
     {
       "id": "wayonly-service-office",
+      "verification": true,
       "category": "洋流服務站",
       "giftStatus": "可能有小物",
       "name": "周嘉韋議員服務處",
@@ -4419,6 +4529,7 @@
     },
     {
       "id": "fuquan-pawnshop",
+      "verification": true,
       "category": "其它",
       "giftStatus": "可能有小物",
       "name": "富泉當舖",
@@ -4453,6 +4564,7 @@
     },
     {
       "id": "jingang-yoga",
+      "verification": true,
       "category": "日常生活",
       "giftStatus": "可能有小物",
       "name": "金剛跳瑜伽",
@@ -4489,6 +4601,7 @@
     },
     {
       "id": "chiah-ke-khong-khai-dawan",
+      "verification": true,
       "category": "小吃",
       "giftStatus": "可能有小物",
       "name": "呷雞康凱-大灣店",
@@ -4525,6 +4638,7 @@
     },
     {
       "id": "56song",
+      "verification": true,
       "category": "小吃",
       "giftStatus": "可能有小物",
       "name": "阿昌牛肉湯",
@@ -4570,6 +4684,7 @@
     },
     {
       "id": "ainagareru",
+      "verification": true,
       "category": "甜點飲料",
       "giftStatus": "可能有小物",
       "name": "愛流れる",
@@ -4613,7 +4728,8 @@
     },
     {
       "id": "un603un",
-      "category": "雜貨店",
+      "verification": true,
+      "category": "選物雜貨",
       "giftStatus": "可能有小物",
       "name": "溫溫選物所｜UN Lifestyle",
       "address": "台南市中西區忠義路一段60巷3號",
@@ -4655,7 +4771,8 @@
     },
     {
       "id": "shiwustudio",
-      "category": "雜貨店",
+      "verification": true,
+      "category": "選物雜貨",
       "giftStatus": "可能有小物",
       "name": "什物／Shiwu Studio",
       "address": "台南市中西區南寧街83巷32號",
@@ -4700,6 +4817,7 @@
     },
     {
       "id": "isbl-hair",
+      "verification": true,
       "category": "美髮",
       "giftStatus": "可能有小物",
       "name": "ISBL Hair Salon伊莎貝爾",
@@ -4746,6 +4864,7 @@
     },
     {
       "id": "rozo-cafe",
+      "verification": true,
       "category": "咖啡廳",
       "giftStatus": "可能有小物",
       "name": "般若咖啡 Rozo cafe",
