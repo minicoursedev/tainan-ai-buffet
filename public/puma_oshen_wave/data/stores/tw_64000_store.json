@@ -857,6 +857,40 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11082721178",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以26 大同二路、高雄市、前金區結構化門牌查詢取得節點11082721178。主代理另讀OSM節點API，確認addr:full為高雄市前金區民生里10鄰大同二路26號，行政區、道路及門牌均與指定地址及店家介紹一致，門牌資料來源為高雄市政府。採門牌數值座標22.6272514、120.2953692，未使用道路或地圖視窗中心。"
+    },
+    {
+      "id": "taitai-sewing-studio",
+      "verification": false,
+      "category": "選物雜貨",
+      "giftStatus": "可能有小物",
+      "name": "太太車縫室",
+      "address": "高雄市鼓山區鼓山一路133號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://pier2.org/activity/info/1592/",
+        "https://pier2.org/activity/info/1831/",
+        "https://www.openstreetmap.org/node/11082251113"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者提供店名與地址指定收錄，verification依本次指示設為JSON布林值false。查證子代理與主代理核對駁二藝術特區官方活動頁的搜尋索引，太太車縫室分別列於布品與文創品牌，據此暫歸選物雜貨；直接開啟活動頁未取得該段名單，不宣稱已直接讀取正文。地址採使用者提供，尚未取得官方資料獨立確認店家於此址對外營業；OSM僅確認門牌位置。已比對全部154筆既有紀錄（含disabled）的店名與地址，並檢查既有社群資料，未發現重複；本次未取得可確認的官方Facebook、Instagram或Threads，社群留空。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間、到訪方式與公休日待確認。",
+        "sources": [],
+        "checkedAt": "2026-10-24",
+        "auditNote": "本次未找到可核對的店家官方社群或固定營業時段，不以市集活動時段或駁二園區營業時間代替。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6289071,
+        "lng": 120.2797618
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11082251113",
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以133 鼓山一路、高雄市、鼓山區結構化查詢取得門牌節點11082251113。主代理另讀OSM節點API，確認addr:full為高雄市鼓山區山下里13鄰鼓山一路133號、addr:housenumber為133號，資料來源為高雄市政府。採門牌數值座標22.6289071、120.2797618，非133之1號、道路中心或地圖視窗中心；此座標確認門牌位置，不代表獨立確認店家營業地址。"
     }
   ],
   "pendingStores": []
