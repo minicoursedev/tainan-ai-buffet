@@ -618,6 +618,48 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11082974984",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢完整地址受阻，改以林森三路55號、高雄市、前鎮區結構化查詢取得門牌節點11082974984。主代理另讀OSM節點API，核對addr:full為高雄市前鎮區西甲里5鄰林森三路55號，行政區、道路及門牌與官方Threads營業地址一致，來源為高雄市政府。採門牌數值座標22.6114656、120.3074697，未使用道路或地圖視窗中心。"
+    },
+    {
+      "id": "kuo-chien-meng-service-office",
+      "verification": false,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "郭建盟議員服務處",
+      "address": "高雄市苓雅區河北路206號",
+      "social": {
+        "facebook": "https://www.facebook.com/GaoXiongShiYiYuanGuoJianMeng/",
+        "instagram": "https://www.instagram.com/kcc382001/",
+        "threads": "https://www.threads.com/@kcc382001"
+      },
+      "sources": [
+        "https://www.threads.com/@kcc382001",
+        "https://www.kcc.gov.tw/MemberInfo_New.aspx?msn=2209&n=39&sms=9028",
+        "https://www.facebook.com/GaoXiongShiYiYuanGuoJianMeng/",
+        "https://www.instagram.com/kcc382001/",
+        "https://zh.wikipedia.org/wiki/郭建盟",
+        "https://www.ptt.cc/bbs/Kaohsiung/M.1758596152.A.170.html",
+        "https://www.openstreetmap.org/node/11082772478"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者提供Threads帳號kcc382001並指定按服務處收錄，沿用洋流服務站分類；verification依本次指示設為JSON布林值false。查證子代理與主代理直接讀取高雄市議會郭建盟官方議員頁，確認通訊地址為苓雅區河北路206號；子代理另核對議會服務處清冊同址，非僅以公司登記推定。議會頁Facebook嵌入連至GaoXiongShiYiYuanGuoJianMeng，維基郭建盟條目外部連結列出同一Facebook及Instagram、Threads的kcc382001帳號，PTT文章亦以郭建盟姓名連結該Threads貼文。社群平台直接擷取受限，未宣稱已讀取完整個人檔案或確認頭像。已比對全部148筆既有紀錄（含disabled）的姓名、地址及社群，未發現重複。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "固定服務時間待確認，請洽官方社群。",
+        "sources": [
+          "https://www.kcc.gov.tw/MemberInfo_New.aspx?msn=2209&n=39&sms=9028",
+          "https://www.facebook.com/GaoXiongShiYiYuanGuoJianMeng/",
+          "https://www.threads.com/@kcc382001"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "議會頁未列固定服務時間；第三方轉錄的特定領取時段與頁底舊時段有落差，不據以填定一般服務時間或公休日。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6304584,
+        "lng": 120.3229119
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11082772478",
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap Nominatim結構化查詢河北路206號、高雄市、苓雅區取得門牌節點11082772478。主代理另讀OSM節點API核對addr:full為高雄市苓雅區五權里12鄰河北路206號，行政區、道路與門牌均與議會服務處地址一致，資料來源為高雄市政府。採門牌數值座標22.6304584、120.3229119，未使用道路或地圖視窗中心。"
     }
   ],
   "pendingStores": []
