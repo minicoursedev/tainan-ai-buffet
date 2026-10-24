@@ -818,6 +818,45 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/5057927924",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以林森一路146巷2號、高雄市結構化查詢取得咖啡店節點5057927924。主代理另讀OSM節點API，確認name為灰。咖啡、amenity為cafe、addr:full為高雄市新興區林森一路146巷2號，行政區、道路及門牌均與高雄電影節官方名單及店家Instagram簡介一致。採店家節點數值座標22.6292185、120.3045738，未使用道路或地圖視窗中心。"
+    },
+    {
+      "id": "qianjin-braised-pork-rice",
+      "verification": false,
+      "category": "小吃",
+      "giftStatus": "可能有小物",
+      "name": "前金肉燥飯",
+      "address": "高雄市前金區大同二路26號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100063744920382",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/profile.php?id=100063744920382",
+        "https://supertaste.tvbs.com.tw/infocard/6986",
+        "https://khh.travel/zh-tw/shop/gourmet/1138/",
+        "https://www.openstreetmap.org/node/11082721178"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者提供店名與地址指定收錄，verification依本次指示設為JSON布林值false。查證子代理與主代理核對食尚玩家及高雄旅遊網，店名、營業地址與指定資料一致；食尚玩家的粉絲專頁連結指向Facebook帳號100063744920382，主代理直接讀取該頁HTML，確認前金肉燥飯名稱、高雄市位置及小吃攤介紹，沿用小吃分類。已比對全部153筆既有紀錄（含disabled）的店名、地址及社群，未發現重複。官方Instagram與Threads尚未確認，留空。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間與公休日待確認，請以店家官方Facebook最新公告為準。",
+        "sources": [
+          "https://www.facebook.com/profile.php?id=100063744920382",
+          "https://supertaste.tvbs.com.tw/infocard/6986",
+          "https://khh.travel/zh-tw/shop/gourmet/1138/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "食尚玩家列週一至週五07:15–17:30、週六07:15–14:00、週日休；高雄旅遊網則列週一至週五07:00–17:00、週六07:30–14:00、週日休。主代理核對兩頁後確認開閉店時刻有差異，官方Facebook公開頁未取得可核對的完整固定時段，故不填定營業時間與公休日。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6272514,
+        "lng": 120.2953692
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11082721178",
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以26 大同二路、高雄市、前金區結構化門牌查詢取得節點11082721178。主代理另讀OSM節點API，確認addr:full為高雄市前金區民生里10鄰大同二路26號，行政區、道路及門牌均與指定地址及店家介紹一致，門牌資料來源為高雄市政府。採門牌數值座標22.6272514、120.2953692，未使用道路或地圖視窗中心。"
     }
   ],
   "pendingStores": []
