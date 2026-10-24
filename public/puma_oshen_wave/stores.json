@@ -3949,16 +3949,19 @@
       "giftStatus": "可能有小物",
       "social": {
         "facebook": "https://www.facebook.com/profile.php?id=100063929020475",
-        "instagram": "",
-        "threads": ""
+        "instagram": "https://www.instagram.com/gan_dan1952/",
+        "threads": "https://www.threads.com/@gan_dan1952"
       },
       "sources": [
         "https://www.facebook.com/profile.php?id=100063929020475",
         "https://tainantone.info/tainan-local-dishes-ice-shop/",
-        "https://twtainan.net/zh-tw/event/newsdetail/4342/"
+        "https://twtainan.net/zh-tw/event/newsdetail/4342/",
+        "https://www.threads.com/@gan_dan1952",
+        "https://www.facebook.com/share/1CFUMBEjQN/",
+        "https://www.instagram.com/gan_dan1952/"
       ],
-      "verifiedAt": "2026-10-20",
-      "verificationNote": "使用者提供的 Facebook 頁面顯示完整店名；台南通店家專訪列地址並連結同一 Facebook 頁，臺南旅遊網確認原夜市圓仔湯遷至新營民治路。名單內「甘單咖啡館」位於中西區，為不同店家。營業時間的公開資料時段不一致，故未填。",
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定整理。查證子代理及主代理分別讀取官方Threads公開頁，名稱為「甘單冰菓手作湯圓專賣」，其個人頁連結https://www.facebook.com/share/1CFUMBEjQN/實際轉至Facebook專頁100063929020475，與本筆既有紀錄相同；Instagram同帳號gan_dan1952的公開頁名稱為「甘單冰菓」，品牌及冰品、湯圓業態相符，補入官方Instagram及Threads。已比對全部既有紀錄（含disabled），未另新增；既有verification維持true。台南通店家專訪列新營區民治路148-1號並連結同一Facebook，臺南旅遊網確認原夜市圓仔湯遷至新營民治路，保留既有地址、分類與座標。名單內「甘單咖啡館」為不同店家。此次官方頁未取得現行營業時間，第三方時段仍有差異，繼續不填定。",
       "latlng": {
         "lat": 23.3097427,
         "lng": 120.3081026
