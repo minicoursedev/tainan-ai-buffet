@@ -1,6 +1,8 @@
 node_modules/
 dist/
 .astro/
+.avatar-sync/
+__pycache__/
 
 
 # Local Google API configuration must not be committed.
