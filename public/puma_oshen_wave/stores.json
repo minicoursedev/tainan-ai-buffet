@@ -4916,6 +4916,48 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060946506",
       "coordinateNote": "2026-10-23 OSM Nominatim 完整地址查詢無結果，改以street=65 城隍街、city=臺南市、county=中西區、country=臺灣結構化查詢取得門牌節點11060946506。主代理另讀取OSM節點API，核對addr:full為臺南市中西區永華里1鄰城隍街65號，行政區、街道、門牌及數值座標一致，資料來源標示臺南市政府；採與官方營業地址相符的門牌位置。"
+    },
+    {
+      "id": "un603un",
+      "category": "雜貨店",
+      "giftStatus": "可能有小物",
+      "name": "溫溫選物所｜UN Lifestyle",
+      "address": "台南市中西區忠義路一段60巷3號",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/un603un/",
+        "threads": "https://www.threads.com/@un603un"
+      },
+      "sources": [
+        "https://www.instagram.com/un603un/",
+        "https://www.threads.com/@un603un"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄。官方 Instagram 名稱為「溫溫選物所 | UN Lifestyle」，簡介列選物、聚會及台南中西區；頁面直接連結同名官方 Threads。官方 Threads 簡介明列台南市中西區忠義路一段60巷3號，並說明尚未正式開幕、偶爾舉辦不同主題市集，市集與開放時間另行公告。依選物營業內容沿用雜貨店分類。未找到可確認的官方 Facebook，留空。",
+      "openingHours": {
+        "status": "verified",
+        "text": "尚未正式開幕；不定期舉辦市集，市集與開放時間依官方公告。",
+        "sources": [
+          "https://www.threads.com/@un603un"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "官方 Threads 簡介明載尚未正式開幕、偶爾舉辦不同主題市集，市集與開放時間另行公告；未公布固定營業週表，故不填定常態時段。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent-sin6-1.cdninstagram.com/v/t51.82787-19/656041429_18027821981642782_2872242150400774334_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=111&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=8-NWnWCNUD4Q7kNvwG_KR5K&_nc_oc=Adok0jxeyFSDGzE0yBSnpOldRRDGgp0Zx9PKRYWvZy-T5s_HcSOULjMc_O-nOqpAjnk&_nc_zt=24&_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_gid=sH4ySGllg5WjICm-qC2UeQ&_nc_ss=7f689&oh=00_AQOhTX7hTbfH-P_ILMr4U-ksYwbRPy2sCxs3soINzL45Yg&oe=6AE25ED9",
+        "source": "https://www.instagram.com/un603un/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-24",
+        "note": "查證子代理於官方 Instagram 個人頁核對 img 替代文字為「un603un的大頭貼照」，尺寸150×150，確認為個人檔案頭像；主代理另取完整圖片網址，回應 HTTP 200、image/jpeg，JPEG 檔案標頭一致。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9866475,
+        "lng": 120.201986
+      },
+      "coordinateSource": "https://www.google.com/maps/place/700%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E5%8D%97%E9%96%80%E9%87%8C%E5%BF%A0%E7%BE%A9%E8%B7%AF%E4%B8%80%E6%AE%B560%E5%B7%B73%E8%99%9F/@22.9866475,120.201986,17z/data=!3m1!4b1!4m6!3m5!1s0x346e767c34ef249d:0x81510030df16b47d!8m2!3d22.9866475!4d120.201986!16s%2Fg%2F11cs7_lcns?hl=zh-TW",
+      "coordinateNote": "2026-10-24 查證子代理先以 OSM Nominatim 完整地址及街道門牌結構化查詢，均無結果；再操作 Chromium 瀏覽器查詢 Google Maps，核對門牌地點標題與資訊為700臺南市中西區南門里忠義路一段60巷3號，與官方營業地址一致。採地點網址 !3d22.9866475!4d120.201986 的緯經度，為符合店家地址的門牌位置，未取地圖視窗中心。"
     }
   ],
   "pendingStores": []
