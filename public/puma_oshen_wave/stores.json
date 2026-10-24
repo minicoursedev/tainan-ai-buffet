@@ -5962,6 +5962,47 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11082717674",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，再以171 中正四路、高雄市、臺灣結構化門牌查詢取得節點11082717674。主代理另讀OSM節點API，核對addr:full為高雄市前金區民生里1鄰中正四路171號、道路及行政區與官方社群地址一致，來源為高雄市政府；採門牌數值座標22.6288215、120.2950791，未使用道路中心。"
+    },
+    {
+      "id": "meet-the-old-house-coffee",
+      "verification": false,
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "癒見老宅咖啡",
+      "address": "高雄市三民區三鳳中街38巷6號",
+      "social": {
+        "facebook": "https://www.facebook.com/meet.the.old.house.coffee/",
+        "instagram": "https://www.instagram.com/meet.the.old.house.coffee/",
+        "threads": "https://www.threads.com/@meet.the.old.house.coffee"
+      },
+      "sources": [
+        "https://www.threads.com/@meet.the.old.house.coffee",
+        "https://www.instagram.com/meet.the.old.house.coffee/",
+        "https://www.facebook.com/meet.the.old.house.coffee/",
+        "https://www.khafterparty.tw/Store/Detail/VKgmOlwO2nxA?cateId=33",
+        "https://omega.taipei/meetoldhouse/",
+        "https://goo.gl/maps/P6w56aDNa3WsCVFm8"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為JSON布林值false。查證子代理與主代理核對官方Threads、Instagram及Facebook，三者均為癒見老宅咖啡、帳號meet.the.old.house.coffee；高雄商圈夜市優惠券官方店家頁列高雄市三民區三鳳中街38巷6號並連結同一Instagram，與食記地址及其Google Maps店家連結一致。依官方社群所列手沖、義式、甜點與下午茶，沿用咖啡廳分類。已比對全部143筆既有紀錄（含disabled）的店名、地址與社群，未發現重複。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "11:00起營業，17:00最後收客及點餐；打烊時間待確認。公休不固定，以官方Google地圖公告為準。",
+        "sources": [
+          "https://www.threads.com/@meet.the.old.house.coffee",
+          "https://www.instagram.com/meet.the.old.house.coffee/",
+          "https://www.facebook.com/meet.the.old.house.coffee/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "查證子代理與主代理直接讀取官方社群公開自介：Threads及Instagram列11點–17點、17點最後收客及點餐；Facebook列11:00–17:30、最後點餐17:00。打烊時間有差異，故標為unverified，不填定關店時間。公休日以官方Google地圖為準，不推定固定每週營業日；未採2023年食記的10:00–18:00、週二公休或商圈頁的部分營業日。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.638161,
+        "lng": 120.295312
+      },
+      "coordinateSource": "https://www.google.com.tw/maps/place/癒見老宅咖啡/@22.638161,120.295312,15z/data=!4m6!3m5!1s0x346e0555c7412cdd:0x702ca68df07ad402!8m2!3d22.638161!4d120.295312!16s%2Fg%2F11qbhrzc8c?hl=zh-TW&coh=164777&entry=tt&shorturl=1",
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap查詢完整地址及結構化門牌；主代理核對候選節點11082443105原始資料，實為三德西街35巷6號，與店址不同，故棄用。改開啟食記所列三鳳中街38巷6號旁的Google Maps店家連結https://goo.gl/maps/P6w56aDNa3WsCVFm8，查證子代理與主代理均確認重導至癒見老宅咖啡的地點網址，地點識別0x346e0555c7412cdd:0x702ca68df07ad402；地址另與高雄商圈官方店家頁相符。採地點網址!3d22.638161、!4d120.295312，不以@地圖視窗中心取值。"
     }
   ],
   "pendingStores": []

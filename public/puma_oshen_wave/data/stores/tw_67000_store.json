@@ -11,6 +11,7 @@
     "烘焙",
     "花店",
     "日常生活",
+    "寵物",
     "3C 通訊",
     "書店",
     "服飾鞋店",
@@ -1124,7 +1125,7 @@
       "id": "hamsterstar",
       "verification": true,
       "name": "鼠兔星球",
-      "category": "日常生活",
+      "category": "寵物",
       "address": "台南市北區北園街8巷9弄5號",
       "giftStatus": "可能有小物",
       "social": {
