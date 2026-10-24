@@ -361,6 +361,44 @@
       },
       "coordinateSource": "https://www.google.com/maps/place/日日利商號/data=!4m7!3m6!1s0x346e95004356c297:0x5743c2c0196f55b3!8m2!3d23.4779918!4d120.4563322!16s%2Fg%2F11zx40spzr!19sChIJl8JWQwCVbjQRs1VvGcDCQ1c",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果；結構化查詢僅回傳文昌街道路，未採道路中心。改以Playwright瀏覽器查詢Google Maps，核對店名「日日利商號」及地址卡「600嘉義市東區民族里文昌街117號」，與使用者提供地址及PTT買肉討論相符。採地點網址!3d23.4779918、!4d120.4563322，非@地圖視窗中心；主代理另GET同一地點網址，核對店名、地點ID及數值座標一致，未呼叫付費Geocoding API。"
+    },
+    {
+      "id": "lao-si-shen-rice-stall",
+      "verification": false,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "老四嬸純米攤",
+      "address": "嘉義市東區共和路130號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100054230181070",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/profile.php?id=100054230181070",
+        "https://outsiderinchiayi.com/ricecake/",
+        "https://www.google.com/maps/place/老四嬸純米攤/@23.4779256,120.455813,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9434f0468c65:0x153e10698cc2841f!8m2!3d23.4779256!4d120.455813!16s%2Fg%2F11b6v3vf5t"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為布林值false。查證子代理與主代理核對指定Facebook頁面，店名為老四嬸純米攤；官方菜單包含仙草、愛玉、奶酪、粿、麻糬及湯圓，沿用甜點飲料分類。嘉義異鄉人店家介紹與Google Maps地點卡皆列嘉義市東區共和路130號；介紹所附舊Facebook頁經查證子代理確認轉向指定帳號。未查證到官方Instagram及Threads，均留空；頭像未確認，未填入。已比對全部既有紀錄（含disabled）的店名、地址及社群，未發現重複。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間及公休日待確認。",
+        "sources": [
+          "https://www.facebook.com/profile.php?id=100054230181070",
+          "https://outsiderinchiayi.com/ricecake/",
+          "https://www.google.com/maps/place/老四嬸純米攤/@23.4779256,120.455813,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9434f0468c65:0x153e10698cc2841f!8m2!3d23.4779256!4d120.455813!16s%2Fg%2F11b6v3vf5t"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "2022年嘉義異鄉人介紹列06:00–18:00、週一公休；查證子代理以瀏覽器核對Google Maps，目前僅顯示部分時段（週六07:00–17:00、下次週日07:00開門），與舊文不同。官方Facebook可讀內容未提供營業週表，故不填定時段或公休日。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4779256,
+        "lng": 120.455813
+      },
+      "coordinateSource": "https://www.google.com/maps/place/老四嬸純米攤/@23.4779256,120.455813,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9434f0468c65:0x153e10698cc2841f!8m2!3d23.4779256!4d120.455813!16s%2Fg%2F11b6v3vf5t",
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址、店名及結構化地址查詢；完整地址與店名無結果，結構化查詢僅回傳道路，未採道路中心。改以Playwright瀏覽器查詢Google Maps，核對店名老四嬸純米攤及地址600嘉義市東區林森里共和路130號，與嘉義異鄉人介紹相符。採地點網址!3d23.4779256、!4d120.455813，非@地圖視窗中心；主代理另讀同一地點網址確認店名、地點ID與數值座標一致，未呼叫付費Geocoding API。"
     }
   ],
   "pendingStores": []
