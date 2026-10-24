@@ -5003,6 +5003,52 @@
       },
       "coordinateSource": "https://www.google.com/maps/place/%E4%BB%80%E7%89%A9+%2F+Shiwu+Studio+%E6%96%87%E5%85%B7%E6%89%8B%E5%B8%B3%E9%81%B8%E7%89%A9%E5%BA%97+%E5%8F%B0%E5%8D%97%E6%96%87%E5%8C%96%E5%B9%A3/@22.9845658,120.1983301,17z/data=!3m1!4b1!4m6!3m5!1s0x346e766490600adb:0x9b60c8fce2592b91!8m2!3d22.9845658!4d120.1983301!16s%2Fg%2F11by_gc8fz?hl=zh-TW",
       "coordinateNote": "2026-10-24 查證子代理先以 OSM Nominatim 完整門牌及 street=32 南寧街83巷、city=臺南市、county=中西區、country=Taiwan 結構化查詢，皆無結果；再實際操作 Chromium 瀏覽器查詢 Google Maps，核對店名、地址700臺南市中西區南寧街83巷32號與官網 shiwustudio.com 均一致。採最終地點網址 !3d22.9845658!4d120.1983301 的緯經度，未取地圖視窗中心。"
+    },
+    {
+      "id": "isbl-hair",
+      "category": "美髮",
+      "giftStatus": "可能有小物",
+      "name": "ISBL Hair Salon伊莎貝爾",
+      "address": "台南市南區文南路291號",
+      "social": {
+        "facebook": "https://www.facebook.com/isblhairsalon/",
+        "instagram": "https://www.instagram.com/isbl_hair/",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.instagram.com/isbl_hair/",
+        "https://msha.ke/isbl_hair_salon/",
+        "https://page.line.me/sgc8061j",
+        "https://www.facebook.com/isblhairsalon/"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄。指定 Instagram 帳號個人頁名稱為ISBL Hair Salon，簡介列每週一固定店休；同名官方 Milkshake 頁的LINE線上預約連結轉至官方LINE店頁，名稱為「ISBL Hair Salon伊莎貝爾」，明列臺南市南區文南路291號及電話06-2618068。官方LINE直接連結的Facebook分享網址實際轉址至isblhairsalon，交叉確認專頁歸屬；Facebook名稱及週一店休亦一致。依髮藝沙龍業態沿用美髮分類。未找到可確認的官方Threads，留空。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "週一公休；週日10:00–18:00；週二至週六10:00起，結束時間請洽店家確認。採預約制，不定期進修另行公告。",
+        "sources": [
+          "https://page.line.me/sgc8061j",
+          "https://www.facebook.com/isblhairsalon/",
+          "https://www.instagram.com/isbl_hair/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "官方LINE營業週表列週二至週六10:00–20:00、週日10:00–18:00、週一休息；官方Facebook個人頁描述列週二至週六10:00–19:30、週日10:00–18:00、週一公休，並註明預約制與不定期進修另行公告。Instagram簡介亦列每週一店休。官方來源的週二至週六結束時間不一致，無法確認現行完整週表，故標為待確認並僅列一致時段，不自行選定打烊時間。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent-sin6-3.cdninstagram.com/v/t51.82787-19/565047378_18414802294117458_9160101572873062851_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=110&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy45NTUuQzMifQ%3D%3D&_nc_ohc=2D3UfCvAAEAQ7kNvwFTMlhY&_nc_oc=AdoGyomlfqHdjn605BOXY2twUzKYCPzgK0bOAjk5uO_JQGdUCup12blVJ79cuyPcw0E&_nc_zt=24&_nc_ht=scontent-sin6-3.cdninstagram.com&_nc_gid=5vxGbsTL61wYmOcbOl462g&_nc_ss=7f500&oh=00_AQN0Fa2tLB2fa2gAJtuGGhcR-qVmBK8vxjY-G912P6sMfQ&oe=6AE26BB4",
+        "source": "https://www.instagram.com/isbl_hair/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-24",
+        "note": "指定Instagram個人頁店名為ISBL Hair Salon；頭像網址efg參數解碼明示profile_pic.www.955.C3，確認為個人檔案頭像。查證子代理及主代理分別取得完整圖片網址，主代理GET回應HTTP 200、image/jpeg，檔案標頭為JPEG。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9868262,
+        "lng": 120.1899745
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11061045451",
+      "coordinateNote": "2026-10-24 查證子代理以OSM Nominatim完整地址查詢無結果，改以street=291 文南路、city=臺南市、county=南區、country=台灣結構化查詢取得門牌節點11061045451。主代理另讀取OSM節點API，核對addr:full為臺南市南區文華里16鄰文南路291號，行政區、街道、門牌及數值座標均一致，節點來源標示臺南市政府；採與官方對外營業地址相符的門牌位置。"
     }
   ],
   "pendingStores": []
