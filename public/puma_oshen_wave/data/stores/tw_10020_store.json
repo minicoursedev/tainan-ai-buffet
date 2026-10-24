@@ -43,7 +43,7 @@
         "https://chiayiwenhuah.mindnodeair.com/allstore/store-1"
       ],
       "verifiedAt": "2026-10-24",
-      "verificationNote": "使用者指定收錄，verification依本次指示設為布林值false。查證子代理及主代理分別讀取官方Threads公開頁，名稱為「全台唯一桃城烹茶｜嘉義在地品牌｜文化路夜市」，簡介明列嘉義市文化路168號及營業時間。Instagram同名帳號與品牌名稱一致，亦為Google Maps該店地點的官方網站連結；嘉義文化商圈店家頁列相同地址與Instagram，其Facebook分享連結實際轉至61575372834003，主代理確認名稱為「桃城烹茶抵嘉」。以Google Maps同店地址核對西區，未採舊址。依飲料店業態沿用甜點飲料分類，已比對全部既有紀錄（含disabled），未發現同名、同址或相同社群帳號。頭像未完成查證，未填入。",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為布林值false。查證子代理及主代理分別讀取官方Threads公開頁，名稱為「全台唯一桃城烹茶｜嘉義在地品牌｜文化路夜市」，簡介明列嘉義市文化路168號及營業時間。Instagram同名帳號與品牌名稱一致，亦為Google Maps該店地點的官方網站連結；嘉義文化商圈店家頁列相同地址與Instagram，其Facebook分享連結實際轉至61575372834003，主代理確認名稱為「桃城烹茶抵嘉」。以Google Maps同店地址核對西區，未採舊址。依飲料店業態沿用甜點飲料分類，已比對全部既有紀錄（含disabled），未發現同名、同址或相同社群帳號。本次另完成官方Instagram頭像查證，詳shopPhoto。",
       "openingHours": {
         "status": "verified",
         "text": "週一至週五12:00起、週六及週日13:00起，售完為止；不定時公休，請參考官方公告。",
@@ -59,7 +59,15 @@
         "lng": 120.4498298
       },
       "coordinateSource": "https://www.google.com/search?tbm=map&hl=zh-TW&q=%E6%A1%83%E5%9F%8E%E7%83%B9%E8%8C%B6%20%E5%98%89%E7%BE%A9%E5%B8%82%E6%96%87%E5%8C%96%E8%B7%AF168%E8%99%9F",
-      "coordinateNote": "2026-10-24 先以OSM Nominatim完整地址、店名及街道門牌結構化查詢，未取得門牌結果，僅有文化路道路資料，未採用。改讀Google Maps公開搜尋頁所載入的地點JSON；查證子代理及主代理分別取得同一商家物件，店名為「嘉義必喝！桃城烹茶『耐喝系』公休請看臉書與IG」，地址為600嘉義市西區中央里文化路168號，官方網站指向taocheng.cookingtea Instagram，地點識別為0x346e9564a765edf7:0x6236a9049041a6f1（https://www.google.com/maps?cid=7077029701524498161）。採用此商家物件獨立位置欄位的23.4792071、120.44982979999999，非地圖視窗中心。實際以公開頁JSON查證，未取得含!3d與!4d的原生地點網址，亦未以瀏覽器操作取得，不宣稱已完成該網址步驟。"
+      "coordinateNote": "2026-10-24 先以OSM Nominatim完整地址、店名及街道門牌結構化查詢，未取得門牌結果，僅有文化路道路資料，未採用。改讀Google Maps公開搜尋頁所載入的地點JSON；查證子代理及主代理分別取得同一商家物件，店名為「嘉義必喝！桃城烹茶『耐喝系』公休請看臉書與IG」，地址為600嘉義市西區中央里文化路168號，官方網站指向taocheng.cookingtea Instagram，地點識別為0x346e9564a765edf7:0x6236a9049041a6f1（https://www.google.com/maps?cid=7077029701524498161）。採用此商家物件獨立位置欄位的23.4792071、120.44982979999999，非地圖視窗中心。實際以公開頁JSON查證，未取得含!3d與!4d的原生地點網址，亦未以瀏覽器操作取得，不宣稱已完成該網址步驟。",
+      "shopPhoto": {
+        "url": "https://scontent.cdninstagram.com/v/t51.82787-19/564720996_18058759169537408_4391317948117081758_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=110&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zMjAuQzMifQ%3D%3D&_nc_ohc=6xFj-bPb3ecQ7kNvwHQ3-uW&_nc_oc=AdpODIfgobvXvJMkkfceicCl92sKgrgkPtS2N_HdWtlZRdy4673MrSdWmuSWIikhSKI&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=MgfXyWGl0UhN9Q1E7J7h1g&_nc_ss=79500&oh=00_AQOvf_KCBoWZj2e5l8JtBFZ4qTc8NmjJ8pq4fvNNg0gQqg&oe=6AE27903",
+        "source": "https://www.instagram.com/taocheng.cookingtea/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-24",
+        "note": "查證子代理核對官方 Instagram 個人頁，帳號與品牌名稱一致，頁面 og:type 為 profile；頭像網址 efg 參數解碼為 profile_pic.www.320.C3，確認為個人檔案頭像，非貼文或封面。主代理 GET 圖片回應 200、Content-Type image/jpeg，並確認 JPEG 檔頭。"
+      }
     },
     {
       "id": "zhaoxing-meat",
