@@ -5520,6 +5520,51 @@
         "checkedAt": "2026-10-24",
         "note": "官方Instagram自介與Threads同名、同址、同營業時間，並由官方Taplink連結確認帳號；個人頁圖片網址的efg解碼標記為profile_pic.www.1080.C3，確認為個人檔案頭像。查證子代理及主代理分別GET圖片，均回應200、Content-Type image/jpeg、2500 bytes，主代理另確認JPEG檔頭。"
       }
+    },
+    {
+      "id": "felicitacroissant",
+      "verification": false,
+      "category": "烘焙",
+      "giftStatus": "可能有小物",
+      "name": "昕樂ㄩㄝˋ烘焙",
+      "address": "嘉義市東區延平街9號",
+      "social": {
+        "facebook": "https://www.facebook.com/felicita.sweet.studio/",
+        "instagram": "https://www.instagram.com/felicitacroissant/",
+        "threads": "https://www.threads.com/@felicitacroissant"
+      },
+      "sources": [
+        "https://www.threads.com/@felicitacroissant",
+        "https://www.instagram.com/felicitacroissant/",
+        "https://www.facebook.com/felicita.sweet.studio/",
+        "https://blackmomo.tw/felicita-chiayi/"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為布林值false。查證子代理及主代理核對官方Threads與Instagram，現名為「昕樂ㄩㄝˋ烘焙」，原名Felicita幸福無限；官方Threads明列嘉義市東區延平街9號及可頌／布理歐麵包專賣店，依業態沿用烘焙分類。店家合作文直接連結上述Instagram及Facebook，Facebook名稱與官方Instagram口號相符。已比對全部既有紀錄（含disabled），未發現同名、同址或相同社群帳號。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週四至週日 09:00–14:00，或售完為止；5–9月夏季改為週五至週日 09:00–14:00，或售完為止。",
+        "sources": [
+          "https://www.instagram.com/felicitacroissant/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "官方Instagram個人頁簡介明列一般營業日、時間及5–9月夏季調整，採官方資訊；合作文舊資料列10:00–16:00，未沿用。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4776891,
+        "lng": 120.460271
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E6%98%95%E6%A8%82%E3%84%A9%E3%84%9D%CB%8B%E5%8F%AF%E9%A0%8C%E5%B0%88%E8%B3%A3%E5%BA%97(%E5%8E%9F%E5%B9%B8%E7%A6%8F%E7%84%A1%E9%99%90)/@23.4776891,120.460271,15z/data=!4m6!3m5!1s0x346e95c6895b6657:0xc184a539247c20a4!8m2!3d23.4776891!4d120.460271!16s%2Fg%2F11f3rglfvn?coh=164777&entry=tt&shorturl=1",
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果；結構化街道門牌查詢僅回傳延平街道路，未採道路中心。改用店家合作文所列嘉義市東區延平街9號旁的Google Maps短連結https://goo.gl/maps/JoVDpUSX6X2ZAzLh9，查證子代理及主代理核對轉址地點名「昕樂ㄩㄝˋ可頌專賣店(原幸福無限)」與官方名稱及沿革一致，地址另與官方Threads交叉核對。採轉址地點網址!3d23.4776891、!4d120.460271，非@地圖視窗中心；未取得可讀的Google Maps地址卡，未呼叫付費Geocoding API。",
+      "shopPhoto": {
+        "url": "https://scontent-lax3-1.cdninstagram.com/v/t51.2885-19/476634847_931260035452049_3206689908659978359_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=108&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zOTYuQzMifQ%3D%3D&_nc_ohc=oMUxnU_nU8sQ7kNvwG2gcnN&_nc_oc=Adob3LNneF5mmMpvhJ-rsqRuJtgbehp2lZs3Xoa26ygzepXLiF4FM-UjJsNBUbfK_7s&_nc_zt=24&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_ss=7f500&oh=00_AQOKSR_C77t5YNrk_b-uhAB84ZiL-5iB-gsSLR2ehhWIkw&oe=6AE27179",
+        "source": "https://www.instagram.com/felicitacroissant/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-24",
+        "note": "官方Instagram與Threads同名同帳號，並由店家合作文直接連結確認；個人頁og:image網址的efg解碼標記為profile_pic.www.396.C3，確認為個人檔案頭像。主代理GET圖片回應200、Content-Type image/jpeg、2344 bytes，並確認JPEG檔頭。"
+      }
     }
   ],
   "pendingStores": []
