@@ -4958,6 +4958,51 @@
       },
       "coordinateSource": "https://www.google.com/maps/place/700%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E5%8D%97%E9%96%80%E9%87%8C%E5%BF%A0%E7%BE%A9%E8%B7%AF%E4%B8%80%E6%AE%B560%E5%B7%B73%E8%99%9F/@22.9866475,120.201986,17z/data=!3m1!4b1!4m6!3m5!1s0x346e767c34ef249d:0x81510030df16b47d!8m2!3d22.9866475!4d120.201986!16s%2Fg%2F11cs7_lcns?hl=zh-TW",
       "coordinateNote": "2026-10-24 查證子代理先以 OSM Nominatim 完整地址及街道門牌結構化查詢，均無結果；再操作 Chromium 瀏覽器查詢 Google Maps，核對門牌地點標題與資訊為700臺南市中西區南門里忠義路一段60巷3號，與官方營業地址一致。採地點網址 !3d22.9866475!4d120.201986 的緯經度，為符合店家地址的門牌位置，未取地圖視窗中心。"
+    },
+    {
+      "id": "shiwustudio",
+      "category": "雜貨店",
+      "giftStatus": "可能有小物",
+      "name": "什物／Shiwu Studio",
+      "address": "台南市中西區南寧街83巷32號",
+      "social": {
+        "facebook": "https://www.facebook.com/shiwustudio",
+        "instagram": "https://www.instagram.com/shiwustudio/",
+        "threads": "https://www.threads.com/@shiwustudio"
+      },
+      "sources": [
+        "https://www.shiwustudio.com/pages/about-us",
+        "https://www.facebook.com/shiwustudio",
+        "https://www.instagram.com/shiwustudio/",
+        "https://www.threads.com/@shiwustudio"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄。官方 Threads 與 Instagram 個人頁名稱皆為「什物／Shiwu Studio」，Threads 簡介自述位於台南巷內的文具選物店；官網 About us 正文介紹南寧街83巷尾實體店，頁尾列完整對外地址南寧街83巷32號與營業時間。官網直接連結同帳號 Facebook、Instagram，交叉確認官方社群歸屬。依文具、紙品、鋼筆與生活選物營業內容，沿用雜貨店分類。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週三至週日 13:00–18:00；週一、二公休。",
+        "sources": [
+          "https://www.shiwustudio.com/pages/about-us",
+          "https://www.google.com/maps/place/%E4%BB%80%E7%89%A9+%2F+Shiwu+Studio+%E6%96%87%E5%85%B7%E6%89%8B%E5%B8%B3%E9%81%B8%E7%89%A9%E5%BA%97+%E5%8F%B0%E5%8D%97%E6%96%87%E5%8C%96%E5%B9%A3/@22.9845658,120.1983301,17z/data=!3m1!4b1!4m6!3m5!1s0x346e766490600adb:0x9b60c8fce2592b91!8m2!3d22.9845658!4d120.1983301!16s%2Fg%2F11by_gc8fz?hl=zh-TW"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "官網頁尾明載 Hours / WED~SUN 13:00~18:00；查證子代理實際操作 Google Maps，核對同名同址店家營業週表一致，週一、二休息。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent-lax7-1.cdninstagram.com/v/t51.2885-19/39792157_685896895112818_5951685226022305792_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=105&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDQyLkMzIn0%3D&_nc_ohc=1lP5lygpZkcQ7kNvwEAI4Hn&_nc_oc=Adpy7yNJBpV6Nv3ck-xUy4jcSY_NGMwFEAZfMkjbPAPJfjl38TxdpbflQGkor9nqZ-4&_nc_zt=24&_nc_ht=scontent-lax7-1.cdninstagram.com&_nc_ss=7960f&oh=00_AQPnWVO-2Z3HVlvXLFVoaAW9MEGbig33QXL8n96ko-QSog&oe=6AE26F9B",
+        "source": "https://www.instagram.com/shiwustudio/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-24",
+        "note": "官方 Instagram 個人頁名稱及帳號與官網直接連結相符；圖片網址 efg 參數解碼明示 profile_pic.www.1042.C3，確認為個人檔案頭像。查證子代理與主代理分別核對，主代理取得的完整圖片網址 GET 回應 HTTP 200、image/jpeg，檔案標頭為 JPEG。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9845658,
+        "lng": 120.1983301
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E4%BB%80%E7%89%A9+%2F+Shiwu+Studio+%E6%96%87%E5%85%B7%E6%89%8B%E5%B8%B3%E9%81%B8%E7%89%A9%E5%BA%97+%E5%8F%B0%E5%8D%97%E6%96%87%E5%8C%96%E5%B9%A3/@22.9845658,120.1983301,17z/data=!3m1!4b1!4m6!3m5!1s0x346e766490600adb:0x9b60c8fce2592b91!8m2!3d22.9845658!4d120.1983301!16s%2Fg%2F11by_gc8fz?hl=zh-TW",
+      "coordinateNote": "2026-10-24 查證子代理先以 OSM Nominatim 完整門牌及 street=32 南寧街83巷、city=臺南市、county=中西區、country=Taiwan 結構化查詢，皆無結果；再實際操作 Chromium 瀏覽器查詢 Google Maps，核對店名、地址700臺南市中西區南寧街83巷32號與官網 shiwustudio.com 均一致。採最終地點網址 !3d22.9845658!4d120.1983301 的緯經度，未取地圖視窗中心。"
     }
   ],
   "pendingStores": []
