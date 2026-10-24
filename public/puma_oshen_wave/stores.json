@@ -6233,6 +6233,44 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11082772478",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap Nominatim結構化查詢河北路206號、高雄市、苓雅區取得門牌節點11082772478。主代理另讀OSM節點API核對addr:full為高雄市苓雅區五權里12鄰河北路206號，行政區、道路與門牌均與議會服務處地址一致，資料來源為高雄市政府。採門牌數值座標22.6304584、120.3229119，未使用道路或地圖視窗中心。"
+    },
+    {
+      "id": "faguozi-skewers",
+      "verification": false,
+      "category": "正餐",
+      "giftStatus": "可能有小物",
+      "name": "法果子小串烤",
+      "address": "高雄市新興區文化路23號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://share.google/rvZaIuZFqSEYN0OJs",
+        "https://woowa.tw/restaurant/5266",
+        "https://yeheslite.pixnet.net/blog/posts/1034167449",
+        "https://www.openstreetmap.org/node/11082641823"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者提供Google店家連結指定收錄，verification依本次指示設為JSON布林值false。查證子代理與主代理確認連結指向法果子小串烤，woowa近期店家資料與食記均列高雄市新興區文化路23號；依串烤、燒烤餐點及既有同類店家沿用正餐分類。已比對全部149筆既有紀錄（含disabled）的店名、別名及地址，未發現重複。官方Facebook、Instagram及Threads尚未確認，留空；不將第三方平台的社群或圖片視為店家官方資料。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間與公休日待店家確認。",
+        "sources": [
+          "https://woowa.tw/restaurant/5266",
+          "https://yeheslite.pixnet.net/blog/posts/1034167449"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "woowa標示資料更新於2026-10-19，列週一、週二休息，週三至週六18:00至翌日02:00、週日18:00至翌日01:00；2025-02-25食記則列18:00至翌日02:00、每週一公休。新舊來源的公休日與週日時段有差異，尚未取得官方公告消除矛盾，故不填定營業時段。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.623913,
+        "lng": 120.3064522
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11082641823",
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢完整地址無結果，再以文化路23號、高雄市、新興區結構化查詢取得門牌節點11082641823。主代理另讀OSM節點API，核對addr:full為高雄市新興區浩然里16鄰文化路23號四樓，行政區、道路及門牌與店家資料一致，資料來源為高雄市政府。採同門牌數值座標22.623913、120.3064522；節點附帶四樓標籤，僅採門牌位置，不據以推定店家營業樓層，未使用道路或地圖視窗中心。"
     }
   ],
   "pendingStores": []
