@@ -4965,6 +4965,53 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060548298",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，再以門牌4號、長榮路三段50巷、東區、臺南市結構化查詢取得節點11060548298。主代理另讀OSM節點API，核對addr:full為臺南市東區大學里4鄰長榮路三段50巷4號，資料來源為臺南市政府，與官方Threads及Instagram對外營業地址相符；採該門牌數值座標22.9933835、120.2222007，未使用道路中心。"
+    },
+    {
+      "id": "room15-patisserie",
+      "verification": false,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "15號甜室/Room 15.patisserie",
+      "address": "台南市中西區大仁街70號",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/room15_patisserie/",
+        "threads": "https://www.threads.com/@room15_patisserie"
+      },
+      "sources": [
+        "https://www.threads.com/@room15_patisserie",
+        "https://www.instagram.com/room15_patisserie/",
+        "https://www.instagram.com/room15_patisserie/p/DcgroevGQy9/",
+        "https://www.instagram.com/room15_patisserie/p/DdydTh-NM-e/",
+        "https://www.openstreetmap.org/node/11060964708"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為布林值false。查證子代理與主代理核對官方Threads及Instagram，店名為15號甜室/Room 15.patisserie，對外營業地址為台南市中西區大仁街70號，販售可麗露、費南雪、蛋糕與餅乾，沿用甜點飲料分類。Facebook未取得可確認的官方帳號，留空。已比對全部既有紀錄（含disabled）的店名、地址及社群，未發現重複。",
+      "openingHours": {
+        "status": "verified",
+        "text": "11:30–18:30；公休日依官方每月公告。",
+        "sources": [
+          "https://www.instagram.com/room15_patisserie/p/DcgroevGQy9/",
+          "https://www.instagram.com/room15_patisserie/p/DdydTh-NM-e/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "官方Instagram於2026-08-26公告9月起營業時間更改為11:30–18:30；2026-09-27另發布10月休假公告。主代理讀取兩篇官方貼文HTML確認內容及發布日期，未將月休公告推定為固定每週公休。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent-lax7-1.cdninstagram.com/v/t51.82787-19/722489563_17917183527402252_6823453787926558683_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=T8KTJHkhk2IQ7kNvwF-ECxb&_nc_oc=Ado7WHVpmkW2rVoVwPBA3k5df1SLWBUF0phKXtiV13wH-98PoW6ujW_tYStMjip0l8o&_nc_zt=24&_nc_ht=scontent-lax7-1.cdninstagram.com&_nc_gid=-vhWo5R9YiqpYf5mphMY9w&_nc_ss=7b60f&oh=00_AQNSZL0W0WlbqyMBLuLcby3Yu7fPUQaWI-3j3aUvGQluNA&oe=6AE28BD9",
+        "source": "https://www.instagram.com/room15_patisserie/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-24",
+        "note": "查證子代理確認官方IG與指定Threads同名同地址；IG個人頁img明確標示room15_patisserie's profile picture，圖片GET回應200 image/jpeg。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9906448,
+        "lng": 120.1929998
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060964708",
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，再以大仁街70號、臺南市中西區結構化查詢取得節點11060964708，排除70號之2與70號之4。主代理另讀OSM節點API，核對addr:full為臺南市中西區南廠里21鄰大仁街70號、資料來源為臺南市政府，與官方Threads及Instagram地址相符；採該門牌數值座標22.9906448、120.1929998，未使用道路中心。"
     }
   ],
   "pendingStores": []
