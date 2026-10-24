@@ -4926,6 +4926,45 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060970721",
       "coordinateNote": "2026-10-24 查證子代理先以OSM Nominatim完整地址查詢無結果，改用street=64 衛民街、city=臺南市、county=中西區、country=台灣結構化查詢取得門牌節點11060970721，排除同查詢的106號之64。主代理另讀取OSM節點API，核對addr:full為臺南市中西區城隍里6鄰衛民街64號，來源臺南市政府，行政區、街道、門牌及數值座標均與官方對外地址相符。"
+    },
+    {
+      "id": "sammi-fine-coffee",
+      "verification": false,
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "山米咖啡所",
+      "address": "台南市東區長榮路三段50巷4號1樓",
+      "social": {
+        "facebook": "https://www.facebook.com/people/山米咖啡所/100067221354575/",
+        "instagram": "https://www.instagram.com/sammi_fine_coffee/",
+        "threads": "https://www.threads.com/@sammi_fine_coffee"
+      },
+      "sources": [
+        "https://www.threads.com/@sammi_fine_coffee",
+        "https://www.instagram.com/sammi_fine_coffee/",
+        "https://www.facebook.com/people/山米咖啡所/100067221354575/",
+        "https://rexedson.pixnet.net/blog/posts/17344423053",
+        "https://www.openstreetmap.org/node/11060548298"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為布林值false。查證子代理與主代理核對官方Threads及Instagram，店名皆為山米咖啡所，自介明列長榮路三段50巷4號1樓及固定營業時段，業態為精品咖啡店，沿用咖啡廳分類。2024年食記直接連結同一Facebook專頁與Instagram，Facebook名稱及精品咖啡店簡介相符。頭像未確認為個人檔案圖片，未填入。已比對全部既有紀錄（含disabled）的店名、地址與社群帳號，未發現重複。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週一、二、三、五 20:00–23:00。\n週六、日 16:00–19:00。\n週四公休；其他時段可先預約。",
+        "sources": [
+          "https://www.threads.com/@sammi_fine_coffee",
+          "https://www.instagram.com/sammi_fine_coffee/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "採官方Threads及Instagram目前公開自介的固定開店時間；非固定時段須事先預約，未視為全天營業。2024年食記時段與官方現行自介不同，採目前官方自介。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9933835,
+        "lng": 120.2222007
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060548298",
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，再以門牌4號、長榮路三段50巷、東區、臺南市結構化查詢取得節點11060548298。主代理另讀OSM節點API，核對addr:full為臺南市東區大學里4鄰長榮路三段50巷4號，資料來源為臺南市政府，與官方Threads及Instagram對外營業地址相符；採該門牌數值座標22.9933835、120.2222007，未使用道路中心。"
     }
   ],
   "pendingStores": []
