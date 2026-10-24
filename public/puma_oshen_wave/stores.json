@@ -5426,6 +5426,54 @@
       },
       "coordinateSource": "https://www.google.com/maps/place/data=!4m6!3m5!1s0x3467e4dd222ca985:0x40d6f4ee1884da0c!8m2!3d24.750175!4d121.7549566!16s%2Fg%2F11cmp6__rf",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址、2-20號變體及結構化門牌查詢，未取得符合門牌位置；結構化查詢僅回傳和睦路道路，未採用道路中心。改以瀏覽器查詢Google Maps，子代理及主代理分別核對地點地址260宜蘭縣宜蘭市神農里和睦路2之20號、電話03 932 9828及官方Facebook相符。採地點網址!3d24.750175、!4d121.7549566的緯經度，非@地圖視窗中心，未呼叫付費Geocoding API。"
+    },
+    {
+      "id": "2663space",
+      "verification": false,
+      "category": "其它",
+      "giftStatus": "可能有小物",
+      "name": "貳陸陸杉Space",
+      "address": "嘉義市東區民國路182號",
+      "social": {
+        "facebook": "https://www.facebook.com/2663space/",
+        "instagram": "https://www.instagram.com/2663space/",
+        "threads": "https://www.threads.com/@2663space"
+      },
+      "sources": [
+        "https://www.threads.com/@2663space",
+        "https://alishan2018.com/2663space/",
+        "https://alishan2018.com/2663/echoes-along-the-2421m-ascent/",
+        "https://www.instagram.com/2663space/",
+        "https://www.facebook.com/2663space/"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為布林值false。查證子代理及主代理分別核對官方Threads與經營單位阿里山世界遺產協會官網，確認店名「貳陸陸杉Space」、對外地址嘉義市東區民國路182號及營業時間；Google Maps電話05-2762663亦與官網一致。官網說明2025年已搬離嘉義製材所園區，不採用舊址。官方2026年展覽公告直接連結Instagram與Facebook的2663space帳號。依複合式共享空間、講座展演及場地租借業態，沿用藝文空間的「其它」分類。已比對全部既有紀錄（含disabled），未發現同名、同址或相同社群帳號。",
+      "openingHours": {
+        "status": "verified",
+        "text": "10:00–20:00；實際營業日與時間以官方Instagram／Facebook每月行事曆為準。",
+        "sources": [
+          "https://www.threads.com/@2663space",
+          "https://alishan2018.com/2663space/",
+          "https://alishan2018.com/2663/echoes-along-the-2421m-ascent/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "經營單位官網店家介紹列每日上午10時至下午8時；2026-08-27發布、展期至2026-12-31的官方展覽公告亦列10:00–20:00，並明定實際營業時間依店家Instagram及Facebook每月行事曆為主，不推定每週固定公休日。頁首星期三至日10:00–17:00為協會服務時間，未誤作店家營業時間。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4817667,
+        "lng": 120.460084
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E8%B2%B3%E9%99%B8%E9%99%B8%E6%9D%89Space/@23.4817667,120.460084,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9562ef0a1e29:0x306e8240261a71f9!8m2!3d23.4817667!4d120.460084!16s%2Fg%2F11kq4s0nwg",
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址、結構化街道門牌及店名查詢，未取得符合門牌結果；僅有民國路道路資料，未採用道路中心。改以既有Chromium瀏覽器查詢Google Maps，子代理及主代理分別開啟「貳陸陸杉Space」地點頁，確認地址600嘉義市東區東興里民國路182號及電話05 276 2663，與官方Threads及經營單位官網相符。採地點網址!3d23.4817667、!4d120.460084的緯經度，非@地圖視窗中心，未呼叫付費Geocoding API。",
+      "shopPhoto": {
+        "url": "https://scontent-lax3-1.cdninstagram.com/v/t51.82787-19/846101538_17994763842103318_9129596276723159132_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gHKOqQc18-z22d3LLzdYsPgEgneqwO5bEQDrnXWSE0eKVexcM5ZwzDGTL6UOQEZo9Y&_nc_ohc=42mm-AVqImgQ7kNvwHYOGep&_nc_gid=Vmt9qj_I8e3trY-P43cTRw&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQOPyDW-Rf_UAI0N0KIvZWafW_oJdmAM-ORAiND24sxXNg&oe=6AE27377&_nc_sid=10d13b",
+        "source": "https://www.threads.com/@2663space",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-24",
+        "note": "查證子代理核對官方Threads名稱、民國路182號及營業時間與經營單位資料一致；頁面圖片alt為「2663space的大頭貼照」，確認為個人檔案頭像。子代理及主代理分別GET圖片，均回應200、Content-Type image/jpeg，JPEG檔頭成立。"
+      }
     }
   ],
   "pendingStores": []
