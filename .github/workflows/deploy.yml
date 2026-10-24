@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths-ignore:
       - public/puma_oshen_wave/stores.json
+      - public/puma_oshen_wave/designer.json
   workflow_dispatch:
 
 permissions:

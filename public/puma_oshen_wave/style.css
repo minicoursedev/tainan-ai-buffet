@@ -152,6 +152,7 @@ body:has(#share-dialog[open]){overflow:hidden}
 .designer-social,.designer-products{margin-top:24px}.designer-social h3,.designer-products h3{font-size:18px;margin:0}
 .designer-product-images{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;margin-top:12px}
 .designer-product-images img{display:block;width:300px;max-width:100%;height:auto;aspect-ratio:1;object-fit:contain;background:var(--cream);border-radius:12px}
+.designer-products[hidden],.designer-product-images img[hidden]{display:none}
 .designer-social .designer-links{margin-top:10px}
 @media(max-width:1050px){.designer-directory{margin:20px}.designer-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.directory-tabs button{min-height:48px;font-size:16px}.designer-directory{margin:16px 10px;padding:20px 14px;border-width:3px}.designer-heading h2{font-size:24px}.designer-list{grid-template-columns:1fr}.designer-card{padding:18px}}

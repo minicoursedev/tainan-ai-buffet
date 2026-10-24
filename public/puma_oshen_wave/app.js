@@ -113,6 +113,7 @@ function designerLinks(designer) {
 function designerProducts(designer) {
   if (!Array.isArray(designer.productImages)) return null;
   const section = node('section', undefined, 'designer-products');
+  section.hidden = true;
   const images = node('div', undefined, 'designer-product-images');
   for (const product of designer.productImages.slice(0, 2)) {
     if (typeof product?.url !== 'string' || !product.url.trim()) continue;
@@ -122,8 +123,13 @@ function designerProducts(designer) {
       const photo = node('img');
       photo.alt = product.alt || `${designer.name} 作品參考`;
       photo.width = 300; photo.height = 300;
-      photo.loading = 'lazy'; photo.decoding = 'async';
+      photo.hidden = true;
+      photo.loading = 'eager'; photo.decoding = 'async';
       photo.referrerPolicy = 'no-referrer';
+      photo.onload = () => {
+        photo.hidden = false;
+        section.hidden = false;
+      };
       photo.onerror = () => {
         photo.remove();
         if (!images.childElementCount) section.remove();
@@ -187,7 +193,7 @@ async function loadDesigners() {
   list.setAttribute('aria-busy', 'true');
   list.replaceChildren(node('p', '設計師名單載入中…', 'empty-state'));
   try {
-    const response = await fetch('./designer.json', {cache:'no-cache'});
+    const response = await fetch('https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/designer.json', {cache:'no-cache'});
     if (!response.ok) throw new Error('Could not load designers');
     const data = await response.json();
     if (!Array.isArray(data.designers)) throw new Error('Invalid designer list');
