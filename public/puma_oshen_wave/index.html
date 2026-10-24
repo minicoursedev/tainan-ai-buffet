@@ -18,7 +18,7 @@
 <meta property="og:image:height" content="724">
 <meta property="og:image:alt" content="我們的洋流地圖 — 一起走走，讓支持成為日常。">
 <link rel="stylesheet" href="./vendor/leaflet/leaflet.css"><script defer src="./vendor/leaflet/leaflet.js"></script>
-<link rel="stylesheet" href="./style.css?v=20261024-designer-raw"><script type="module" src="./app.js?v=20261024-designer-raw"></script>
+<link rel="stylesheet" href="./style.css?v=20261025-marker-legend"><script type="module" src="./app.js?v=20261025-marker-legend"></script>
 </head>
 <body>
 
@@ -48,7 +48,7 @@
 </section>
 <section class="map-workspace" id="map-area" aria-label="店家清單與地圖">
   <div class="mobile-views" role="group" aria-label="瀏覽方式"><button type="button" id="list-view" aria-pressed="true">店家清單</button><button type="button" id="map-view" aria-pressed="false">查看地圖</button></div>
-  <aside class="shop-panel"><section id="shop-detail" class="shop-detail" hidden aria-label="選定店家資訊"><div class="start-icon" aria-hidden="true">↗</div><div><h2>我們的洋流地圖</h2><p>在地圖上選擇店家，查看地址並規劃前往路線。</p></div></section><div id="shop-list" aria-live="polite"></div><p class="shop-info-note">營業時間與店家資訊，請以各店最新公告為準。</p></aside>
+  <aside class="shop-panel"><section id="shop-detail" class="shop-detail" hidden aria-label="選定店家資訊"><div class="start-icon" aria-hidden="true">↗</div><div><h2>我們的洋流地圖</h2><p>在地圖上選擇店家，查看地址並規劃前往路線。</p></div></section><div id="shop-list" aria-live="polite"></div></aside>
   <div class="map-column"><div class="map-frame"><div class="map-bar"><div><span class="location-dot" aria-hidden="true"></span><strong id="location-name">台南火車站</strong><span class="map-label">OPENSTREETMAP</span></div><button id="home-map" type="button">我的位置</button></div><div id="lucky-star-message" class="lucky-star-message" hidden><img src="./assets/lucky-star.png" width="28" height="28" alt=""><p id="lucky-star-text" role="status"></p><button id="close-star" type="button" aria-label="關閉幸運星訊息">×</button></div><div class="map-canvas"><div id="all-shops-map" hidden aria-label="所有店家位置"></div><button id="lucky-star" type="button" disabled title="幸運星" aria-label="幸運星"><img src="./assets/lucky-star.png" width="34" height="34" alt=""></button></div><p id="map-status" role="status" hidden></p></div></div>
 </section>
 <p class="closing-strip closing-message">一間店、一個地方，讓我們的洋流繼續流動。</p>
@@ -60,7 +60,15 @@
 </section>
 </main>
 
-<footer><strong>我們的洋流地圖</strong><a href="#page-top">回到上方 ↑</a><p id="map-statement" class="footer-disclaimer"><strong>本地圖不代表任何人、事、務</strong><br><strong>未有任何人、組織贊助</strong><br><strong>不接受任何人、組織贊助</strong></p><p class="footer-notice">本網頁由 <a href="https://minicourse.dev" style="text-decoration:underline;text-underline-offset:3px">MiniCourse</a> 製作，所有店家資訊均為各家所有，本站僅整理，不保證百分之百正確</p><p class="footer-notice">部分店家座標資料 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>（ODbL）</p></footer>
+<footer><strong>我們的洋流地圖</strong><a href="#page-top">回到上方 ↑</a>
+<section class="map-legend" aria-label="地圖標記說明">
+  <ol>
+    <li><strong>各服務處</strong><p>以各服務處的人像作為地圖標記。</p></li>
+    <li><strong><span class="legend-color legend-pink" aria-hidden="true"></span>桃紅色</strong><p>目前第一批上線、經我們邀請，或已同意我們上架的店家。<br>店家名稱下方也會亮起<span class="legend-orange-line">橘色光條</span>。</p></li>
+    <li><strong><span class="legend-color legend-light-green" aria-hidden="true"></span>淺綠色</strong><p>在網路上看到，但還沒有正面同意收錄的店家。</p></li>
+  </ol>
+</section>
+<p id="map-statement" class="footer-disclaimer"><strong>本地圖不代表任何人、事、務</strong><br><strong>未有任何人、組織贊助</strong><br><strong>不接受任何人、組織贊助</strong></p><p class="footer-notice">本網頁由 <a href="https://minicourse.dev" style="text-decoration:underline;text-underline-offset:3px">MiniCourse</a> 製作，所有店家資訊均為各家所有，本站僅整理，不保證百分之百正確</p><p class="footer-notice">部分店家座標資料 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>（ODbL）</p></footer>
 <dialog id="share-dialog" aria-labelledby="share-title" aria-describedby="share-description">
   <h2 id="share-title">我們的洋流地圖</h2>
   <p id="share-description">分享給朋友，下次一起去。</p>

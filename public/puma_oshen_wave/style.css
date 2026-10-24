@@ -61,6 +61,10 @@ button.shop-card-bottom{display:block;width:100%;border:0;border-top:1px solid #
 
 footer{flex-wrap:wrap}.footer-notice{flex-basis:100%;margin:4px 0 0;font-size:12px;line-height:1.8;color:#77645d}
 .footer-disclaimer{flex-basis:100%;margin:4px 0 0;padding:14px 16px;border-left:4px solid var(--pink);border-radius:8px;background:#fff;color:var(--ink);font-size:14px;line-height:1.9;font-weight:700}
+.map-legend{flex-basis:100%;min-width:0;padding:20px;border:1px solid var(--line);border-radius:16px;background:#fffaf6;color:var(--ink);font-size:14px;line-height:1.8}
+.map-legend ol{margin:0;padding-left:24px}.map-legend li+li{margin-top:16px}.map-legend strong{font-size:16px;color:var(--ink)}.map-legend p{margin:4px 0 0}
+.legend-color{display:inline-block;width:14px;height:14px;margin-right:8px;border-radius:50%;vertical-align:-1px}.legend-pink{background:var(--pink)}.legend-light-green{background:#66bb6a}
+.legend-orange-line{border-bottom:2px solid #ff9500;padding-bottom:2px}
 
 .shop-share{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:16px;font-size:13px}.shop-share a{color:var(--green);text-decoration:underline;padding:10px 0}.shop-share button{min-height:44px;padding:8px 14px;border:1px solid var(--green);border-radius:8px;background:white;color:var(--green)}.shop-share [role=status]{width:100%;color:#625c59}
 

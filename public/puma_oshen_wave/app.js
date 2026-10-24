@@ -404,7 +404,6 @@ function selectShop(shop, openDetail = true, recenter = true) {
   if (openDetail) {
     byId('shop-detail').hidden = false;
     byId('shop-list').hidden = true;
-    document.querySelector('.shop-info-note').hidden = true;
     setView(false);
     const panel=document.querySelector('.shop-panel');
     if(panel.getBoundingClientRect().top < 0) panel.scrollIntoView({block:'start'});
@@ -414,7 +413,6 @@ function selectShop(shop, openDetail = true, recenter = true) {
 function showShopList(restoreFocus = true) {
   byId('shop-detail').hidden = true;
   byId('shop-list').hidden = false;
-  document.querySelector('.shop-info-note').hidden = false;
   if (restoreFocus) {
     const card=[...byId('shop-list').children].find(c=>c.dataset.shopId===selectedId);
     card?.querySelector('button')?.focus({preventScroll:true});
