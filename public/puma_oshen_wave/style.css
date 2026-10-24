@@ -75,7 +75,9 @@ footer{flex-wrap:wrap}.footer-notice{flex-basis:100%;margin:4px 0 0;font-size:12
 
 .shop-card-summary.has-logo{display:grid;grid-template-columns:minmax(0,1fr) min(28%,96px);gap:12px;align-items:stretch}.shop-card-text{min-width:0}.shop-card-text h3,.shop-card-text .shop-address{overflow-wrap:anywhere}.shop-card-logo{position:relative;min-width:0}.shop-card-logo img{position:absolute;inset:0;width:100%;height:100%;max-height:160px;object-fit:contain;object-position:center top;border-radius:8px}
 
-/* Leaflet pins retain the existing shop selection colors. */
+/* Verification colors apply only while a shop marker is not selected. */
+.osm-shop-pin.is-unverified:not(.is-selected){background:#66bb6a}
+.osm-portrait-pin.is-unverified:not(.is-selected){border-color:#66bb6a}
 #all-shops-map{z-index:0;font-family:inherit}.osm-marker{background:none;border:0}.osm-shop-pin{width:24px;height:30px;background:var(--pink);color:white;border:1.5px solid white;border-radius:50% 50% 50% 4px;transform:rotate(-45deg);display:flex;align-items:center;justify-content:center;box-shadow:0 1.5px 3.75px #0005;font-size:13.5px}.osm-shop-pin.is-selected{background:#ff9500}.osm-portrait-pin{transform:none;border-radius:50%;overflow:hidden}.osm-portrait-pin img{width:100%;height:100%;object-fit:cover}.osm-portrait-pin.is-selected{border-color:#ff9500}#all-shops-map .leaflet-control-attribution{font-size:11px}
 
 .masthead-inner{display:flex;justify-content:space-between;align-items:center;gap:12px}

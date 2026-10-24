@@ -1,5 +1,5 @@
 import {findStar} from './lucky-star.js?v=20261022-star';
-import {createShopMap} from './shop-map.js?v=20261022-star';
+import {createShopMap} from './shop-map.js?v=20261024-verification-markers';
 const byId = id => document.getElementById(id);
 const origin = '22.997137,120.21295';
 let shops = [], category = '', selectedId = null;

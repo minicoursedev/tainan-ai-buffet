@@ -74,6 +74,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         positions.set(shop.id, position);
         const badge = document.createElement('div');
         badge.className = 'osm-shop-pin';
+        if (shop.verification === false) badge.classList.add('is-unverified');
         const scale = shop.category === '洋流服務站' ? 1.15 : 1;
         const width = 24 * scale, height = 30 * scale;
         badge.style.width = `${width}px`;
