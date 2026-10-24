@@ -44,12 +44,12 @@ function shopUrl(id) {
 }
 function restoreLinkedShop() {
   const params = new URL(location.href).searchParams;
-  category = params.get('category') || '';
   const shop = shops.find(shop => shop.id === params.get('shop'));
+  category = shop?.category || params.get('category') || '';
   resetMap();
   renderCategories();
   renderShops();
-  if (shop && (!category || shop.category === category)) selectShop(shop);
+  if (shop) selectShop(shop);
 }
 function locateMe() {
   clearLuckyStar();
@@ -138,7 +138,7 @@ function selectShop(shop, openDetail = true, recenter = true) {
   showMap(shop.name, query, false, recenter);
   const content = node('div',undefined,'detail-content');
   const heading = node('div',undefined,'detail-heading');
-  heading.append(node('h2',shop.name));
+  heading.append(node('h2',shop.name),node('span',shop.category,'type-tag'));
   const bottom = node('div',undefined,'detail-bottom');
   const social = node('div',undefined,'socials');
   for (const [field,label] of [['facebook','Facebook'],['instagram','Instagram'],['threads','Threads']]) {
