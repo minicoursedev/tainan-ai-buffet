@@ -1525,10 +1525,14 @@
       },
       "sources": [
         "https://www.threads.com/@print_hunter2006/post/Del3IizgXLR",
-        "https://www.google.com/maps/place/AppleNana%E5%8F%B0%E7%81%A3%E8%A3%BD%E9%80%A0%E6%89%8B%E5%B7%A5%E9%9E%8B%E6%97%97%E8%89%A6%E5%BA%97/"
+        "https://www.google.com/maps/place/AppleNana%E5%8F%B0%E7%81%A3%E8%A3%BD%E9%80%A0%E6%89%8B%E5%B7%A5%E9%9E%8B%E6%97%97%E8%89%A6%E5%BA%97/",
+        "https://share.google/Q27QPuhKgpNEaEzQf",
+        "https://www.facebook.com/AppleNanaMIT/",
+        "https://www.instagram.com/applenanamit/",
+        "https://www.openstreetmap.org/node/11060916373"
       ],
-      "verifiedAt": "2026-10-19",
-      "verificationNote": "供應者 print_hunter2006 的10/17洋流貼紙／水晶貼／悠遊卡貼與手提袋送達清單明列本店與地址；另核對店家業態及社群。不是即時庫存。",
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "供應者 print_hunter2006 的10/17洋流貼紙／水晶貼／悠遊卡貼與手提袋送達清單明列本店與地址；另核對店家業態及社群。不是即時庫存。 2026-10-24 本次使用者分享的Google連結指向同名店家（地點識別碼/g/11f55z9mmx）；查證子代理與主代理核對官方Facebook及Instagram名稱與手工鞋品牌簡介，並以OSM門牌資料核對北成路435號。已比對全部紀錄（含disabled）的店名、地址與社群帳號，確認為本筆既有店家，不另新增；保留原verification、ID與disabled。未查證到官方Threads帳號，維持空白。",
       "openingHours": {
         "status": "verified",
         "text": "週一、週三及週日公休\n週二、週四、週五 14:00–19:00\n週六 11:00–18:00。",
@@ -1538,7 +1542,7 @@
           "https://www.instagram.com/applenanamit/"
         ],
         "checkedAt": "2026-10-19",
-        "auditNote": "Google Maps商家卡地址為北成路435號，已展開完整週表。"
+        "auditNote": "Google Maps商家卡地址為北成路435號，已展開完整週表。 2026-10-24 本次未能重新確認官方完整營業時間。查證子代理讀取的第三方Facebook轉錄頁（https://www.findglocal.com/TW/Tainan/1523665384397244/AppleNana%E5%8F%B0%E7%81%A3%E8%A3%BD%E9%80%A0%E6%89%8B%E5%B7%A5%E9%9E%8B%E6%97%97%E8%89%A6%E5%BA%97）所列週三14:00–19:00與本筆2026-10-19查得的週三公休有差異；其轉錄2026-10-01公告表示每月依狀況安排營業時間，出發前應查看官方粉絲專頁。公告附圖無法取得，未能核對十月完整月表；主代理亦未能開啟該轉錄頁，故不採第三方時段覆寫既有週表，原status與checkedAt僅表示2026-10-19的查證結果，最新時段仍待官方確認。"
       },
       "shopPhoto": {
         "url": "https://scontent.cdninstagram.com/v/t51.2885-19/93425158_153132792780771_2349282402934718464_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=104&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43MDAuQzMifQ%3D%3D&_nc_ohc=KRESlG2kIewQ7kNvwEWWHWQ&_nc_oc=AdrQqChMjydTIa7AmO21lsmJyjz442Ae09TChTXweXlPZDMLwgAR58YVU3mi55216Qc&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7060f&oh=00_AQMn4xCzFptGF6zndnvmAHCOSUg5zUp-M1ezqxa2-Kb9dA&oe=6ADC1652",
@@ -1554,7 +1558,7 @@
         "lng": 120.1990991
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060916373",
-      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。"
+      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。 2026-10-24 查證子代理及主代理分別讀取OSM節點11060916373 API，完整地址為臺南市北區文元里7鄰北成路435號，緯經度23.0183644、120.1990991，與既有地址及座標一致，故保留原值。"
     },
     {
       "id": "inspire-island-studio",
