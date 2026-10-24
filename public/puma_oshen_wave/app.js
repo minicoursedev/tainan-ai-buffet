@@ -4,7 +4,8 @@ const byId = id => document.getElementById(id);
 const origin = '22.997137,120.21295';
 let shops = [], category = '', selectedId = null;
 let starVersion = 0, displayedStar = null;
-let designersLoaded = false, designersLoading = false;
+let designers = [], designersLoaded = false, designersLoading = false, shopsLoaded = false;
+const defaultPageTitle = document.title;
 const shopMap = createShopMap({container:byId('all-shops-map'),status:byId('map-status'),onSelect:selectShopFromMap,onPositionsReady:sortByStationDistance});
 // Great-circle distance; independent of the selected shop and category.
 function distanceFromStation({lat, lng}) {
@@ -30,18 +31,159 @@ function externalLink(text, url, className) {
   a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer';
   return a;
 }
-function setDirectory(showDesigners) {
+function isDesignerRoute() {
+  const params = new URL(location.href).searchParams;
+  return params.has('designer') || params.get('view') === 'designers';
+}
+function designerUrl(id) {
+  const url = new URL(location.href);
+  url.search = ''; url.hash = '';
+  if (id) url.searchParams.set('designer', id);
+  else url.searchParams.set('view', 'designers');
+  return url;
+}
+function directoryLink(text, url, className) {
+  const link = node('a', text, className);
+  link.href = url.href;
+  link.onclick = event => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    if (link.href !== location.href) history.pushState(null, '', link.href);
+    restoreDirectory();
+  };
+  return link;
+}
+function setDirectory(showDesigners, updateHistory = true) {
+  if (updateHistory) {
+    const url = showDesigners ? designerUrl() : shopUrl(selectedId);
+    if (url.href !== location.href) history.pushState(null, '', url);
+  }
   byId('shops-directory').hidden = showDesigners;
   byId('designers-directory').hidden = !showDesigners;
   byId('shops-tab').setAttribute('aria-pressed', String(!showDesigners));
   byId('designers-tab').setAttribute('aria-pressed', String(showDesigners));
   if (showDesigners) void loadDesigners();
-  else shopMap.focus(selectedId, {recenter:false});
+  else {
+    document.title = defaultPageTitle;
+    shopMap.focus(selectedId, {recenter:false});
+  }
+}
+function restoreDirectory() {
+  const showDesigners = isDesignerRoute();
+  setDirectory(showDesigners, false);
+  if (!showDesigners && shopsLoaded) restoreLinkedShop();
+}
+function designerHeading(designer, level, linked = false) {
+  const heading = node('div', undefined, 'designer-card-heading');
+  const name = node(level);
+  if (linked) {
+    const link = directoryLink(designer.name, designerUrl(designer.id), 'designer-card-link');
+    link.setAttribute('aria-label', `查看 ${designer.name} 的設計師資訊`);
+    name.append(link);
+  } else name.textContent = designer.name;
+  heading.append(name);
+  if (designer.logo?.status === 'verified') {
+    try {
+      const url = new URL(designer.logo.url);
+      if (url.protocol === 'https:') {
+        const logo = node('img', undefined, 'designer-logo');
+        logo.alt = designer.name + ' Logo';
+        logo.width = 72; logo.height = 72;
+        logo.loading = 'lazy'; logo.decoding = 'async';
+        logo.referrerPolicy = 'no-referrer';
+        logo.onerror = () => logo.remove();
+        logo.src = url.href;
+        heading.append(logo);
+      }
+    } catch { /* Missing or invalid logo URLs are omitted. */ }
+  }
+  return heading;
+}
+function designerLinks(designer) {
+  const links = node('div', undefined, 'designer-links');
+  for (const [field, label] of [['fb','Facebook'],['threads','Threads'],['ig','Instagram'],['web','網站']]) {
+    try {
+      const url = new URL(designer.social?.[field]);
+      if (['https:', 'http:'].includes(url.protocol)) links.append(externalLink(label+' ↗', url.href));
+    } catch { /* Missing or invalid links are omitted. */ }
+  }
+  if (!links.childElementCount) links.append(node('span', '尚未提供連結'));
+  return links;
+}
+function designerProducts(designer) {
+  if (!Array.isArray(designer.productImages)) return null;
+  const section = node('section', undefined, 'designer-products');
+  const images = node('div', undefined, 'designer-product-images');
+  for (const product of designer.productImages.slice(0, 2)) {
+    if (typeof product?.url !== 'string' || !product.url.trim()) continue;
+    try {
+      const url = new URL(product.url, location.href);
+      if (url.protocol !== 'https:' && url.origin !== location.origin) continue;
+      const photo = node('img');
+      photo.alt = product.alt || `${designer.name} 作品參考`;
+      photo.width = 300; photo.height = 300;
+      photo.loading = 'lazy'; photo.decoding = 'async';
+      photo.referrerPolicy = 'no-referrer';
+      photo.onerror = () => {
+        photo.remove();
+        if (!images.childElementCount) section.remove();
+      };
+      photo.src = url.href;
+      images.append(photo);
+    } catch { /* Invalid image URLs are omitted. */ }
+  }
+  if (!images.childElementCount) return null;
+  section.append(node('h3', '作品參考'), images);
+  return section;
+}
+function renderDesignerRoute() {
+  if (!isDesignerRoute()) return;
+  const id = new URL(location.href).searchParams.get('designer');
+  const detail = byId('designer-detail');
+  byId('designer-list').hidden = id !== null;
+  detail.hidden = id === null;
+  detail.replaceChildren();
+  document.title = '洋流設計師｜我們的洋流地圖';
+  if (id === null) return;
+  const back = directoryLink('← 返回設計師清單', designerUrl(), 'back-to-designers');
+  detail.append(back);
+  const designer = designers.find(item => item.id === id);
+  detail.dataset.verified = String(designer?.verification === true);
+  if (!designer) {
+    detail.append(node('h2', '找不到這位設計師'));
+    return;
+  }
+  document.title = `${designer.name}｜洋流設計師`;
+  detail.append(designerHeading(designer, 'h2'));
+  const products = designerProducts(designer);
+  if (products) detail.append(products);
+  const social = node('section', undefined, 'designer-social');
+  social.append(node('h3', '社群與網站'), designerLinks(designer));
+  const share = node('div', undefined, 'shop-share');
+  const permalink = directoryLink('本站設計師連結 ↗', designerUrl(designer.id));
+  const copy = node('button', '複製連結');
+  copy.type = 'button';
+  const status = node('span');
+  status.setAttribute('role', 'status');
+  copy.onclick = async () => {
+    try {
+      await navigator.clipboard.writeText(permalink.href);
+      status.textContent = '已複製';
+    } catch {
+      status.textContent = '請長按或右鍵「本站設計師連結」複製網址。';
+    }
+  };
+  share.append(permalink, copy, status);
+  detail.append(social, share);
+  back.focus({preventScroll:true});
 }
 async function loadDesigners() {
-  if (designersLoaded || designersLoading) return;
+  if (designersLoaded) { renderDesignerRoute(); return; }
+  if (designersLoading) return;
   designersLoading = true;
   const list = byId('designer-list');
+  list.hidden = false;
+  byId('designer-detail').hidden = true;
   list.setAttribute('aria-busy', 'true');
   list.replaceChildren(node('p', '設計師名單載入中…', 'empty-state'));
   try {
@@ -49,44 +191,24 @@ async function loadDesigners() {
     if (!response.ok) throw new Error('Could not load designers');
     const data = await response.json();
     if (!Array.isArray(data.designers)) throw new Error('Invalid designer list');
-    const designers = data.designers.filter(designer => designer.disabled !== true);
-    if (designers.some(designer => typeof designer.name !== 'string' || !designer.name.trim())) {
-      throw new Error('Invalid designer name');
+    const ids = new Set();
+    for (const designer of data.designers) {
+      if (!designer || typeof designer.id !== 'string' || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(designer.id) ||
+          ids.has(designer.id) || typeof designer.name !== 'string' || !designer.name.trim()) {
+        throw new Error('Invalid designer record');
+      }
+      ids.add(designer.id);
     }
+    designers = data.designers.filter(designer => designer.disabled !== true);
     list.replaceChildren(...designers.map(designer => {
       const card = node('article', undefined, 'designer-card');
       card.dataset.verified = String(designer.verification === true);
-      const heading = node('div', undefined, 'designer-card-heading');
-      heading.append(node('h3', designer.name));
-      if (designer.logo?.status === 'verified') {
-        try {
-          const url = new URL(designer.logo.url);
-          if (url.protocol === 'https:') {
-            const logo = node('img', undefined, 'designer-logo');
-            logo.alt = designer.name + ' Logo';
-            logo.width = 72; logo.height = 72;
-            logo.loading = 'lazy'; logo.decoding = 'async';
-            logo.referrerPolicy = 'no-referrer';
-            logo.onerror = () => logo.remove();
-            logo.src = url.href;
-            heading.append(logo);
-          }
-        } catch { /* Missing or invalid logo URLs are omitted. */ }
-      }
-      card.append(heading);
-      const links = node('div', undefined, 'designer-links');
-      for (const [field, label] of [['fb','Facebook'],['threads','Threads'],['ig','Instagram'],['web','網站']]) {
-        try {
-          const url = new URL(designer.social?.[field]);
-          if (['https:', 'http:'].includes(url.protocol)) links.append(externalLink(label+' ↗', url.href));
-        } catch { /* Missing or invalid links are omitted. */ }
-      }
-      if (!links.childElementCount) links.append(node('span', '尚未提供連結'));
-      card.append(links);
+      card.append(designerHeading(designer, 'h3', true), designerLinks(designer));
       return card;
     }));
     if (!designers.length) list.append(node('p', '設計師名單準備中', 'empty-state'));
     designersLoaded = true;
+    renderDesignerRoute();
   } catch {
     const error = node('div', undefined, 'empty-state');
     error.append(node('strong', '設計師資料暫時無法載入'));
@@ -107,6 +229,8 @@ function showMap(name, query, center = false, recenter = true) {
 }
 function shopUrl(id) {
   const url = new URL(location.href);
+  url.searchParams.delete('designer');
+  url.searchParams.delete('view');
   if (category) url.searchParams.set("category", category);
   else url.searchParams.delete("category");
   if (id) url.searchParams.set("shop", id);
@@ -366,9 +490,8 @@ async function init(){
       if(!['id','name','address','category'].every(key=>typeof shop[key]==='string'&&shop[key].trim())||ids.has(shop.id))throw new Error('Invalid shop record');
       ids.add(shop.id);
     }
-    shops=data.stores.filter(shop=>shop.disabled!==true);renderCategories();renderShops();
-    restoreLinkedShop();
-    window.addEventListener("popstate", restoreLinkedShop);
+    shops=data.stores.filter(shop=>shop.disabled!==true);shopsLoaded=true;renderCategories();renderShops();
+    if (!isDesignerRoute()) restoreLinkedShop();
     void shopMap.load(shops).then(ready => {byId('lucky-star').disabled = !ready;});
     byId('category-toggle').onclick=()=>{const b=byId('category-toggle');b.setAttribute('aria-expanded',String(b.getAttribute('aria-expanded')!=='true'));};
     byId('list-view').onclick=()=>setView(false);
@@ -440,4 +563,6 @@ shareDialog.addEventListener('click', event => {
 });
 byId('shops-tab').addEventListener('click', () => setDirectory(false));
 byId('designers-tab').addEventListener('click', () => setDirectory(true));
+window.addEventListener('popstate', restoreDirectory);
+restoreDirectory();
 init();

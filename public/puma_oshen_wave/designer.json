@@ -1,9 +1,23 @@
 {
   "designers": [
     {
+      "id": "wolfsignal-tw",
       "name": "野狼信號",
       "disabled": false,
       "verification": false,
+      "productImages": [
+        {
+          "url": "./assets/designers/wolfsignal-tw/prod_image.png",
+          "alt": "野狼信號作品參考：黃色 CHAMPION 狼頭圖案"
+        },
+        {
+          "url": "https://scontent-lax3-1.cdninstagram.com/v/t51.82787-15/858370037_17994446460114840_1316859127596070093_n.jpg?stp=cp6_dst-jpegr_e35_tt6&_nc_cat=109&ig_cache_key=NDAxMzI5NDA3MDc4MDg3MDUwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzAyNC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=U0DZHJ0d6QEQ7kNvwEkjG7u&_nc_oc=Adp9-inoacH8kB6imuT5vMrbxc-ppfOikyJXdBvhmeYH4Vj8EKlSPkEtjqXy_Bo1Qt4&_nc_zt=23&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_gid=qigfVf1FYzX2N1gCWI7vqA&_nc_ss=7b289&oh=00_AQOkMvetT7U4pa2tHotecdsG8KAjlY66GhWZvsIi7_rQ7Q&oe=6AE2AD71",
+          "source": "https://www.threads.com/@wolfsignal_tw/post/DeyFbGsEz9p/media",
+          "alt": "野狼信號作品參考：貼紙、透卡與髮圈禮物包",
+          "checkedAt": "2026-10-24",
+          "note": "官方 Threads 貼文照片；社群圖片網址可能失效，屆時需更新。"
+        }
+      ],
       "social": {
         "fb": "",
         "threads": "https://www.threads.com/@wolfsignal_tw",
