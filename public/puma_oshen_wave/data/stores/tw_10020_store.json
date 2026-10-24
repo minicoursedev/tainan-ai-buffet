@@ -96,6 +96,44 @@
       },
       "coordinateSource": "https://www.google.com/maps/place/%E6%98%AD%E8%88%88%E8%82%89%E7%AB%99/@23.4791276,120.4571634,17z/data=!3m1!4b1!4m6!3m5!1s0x346e954c576bf6f7:0x87555de7cecc1029!8m2!3d23.4791276!4d120.4571634!16s%2Fg%2F11g0ldh6yl",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整門牌134-22號、134之22號、134號之22及店名查詢，均無門牌結果；結構化查詢僅取得和平路道路資料，未採用道路中心。改以既有Chromium瀏覽器查詢Google Maps，查證子代理及主代理分別讀取「昭興肉站」地點，確認地址600嘉義市東區華南里和平路134-22號及電話05 278 4772，與官方Threads及Instagram相符。採地點網址!3d23.4791276、!4d120.4571634的緯經度，非@地圖視窗中心，未呼叫付費Geocoding API。"
+    },
+    {
+      "id": "hohohanphang",
+      "verification": false,
+      "category": "烘焙",
+      "giftStatus": "可能有小物",
+      "name": "好好做烘焙",
+      "address": "嘉義市西區北興公有市場一區7號",
+      "social": {
+        "facebook": "https://www.facebook.com/hohohanphang/",
+        "instagram": "https://www.instagram.com/hohohanphang/",
+        "threads": "https://www.threads.com/@hohohanphang"
+      },
+      "sources": [
+        "https://www.threads.com/@hohohanphang",
+        "https://www.instagram.com/hohohanphang/",
+        "https://www.facebook.com/hohohanphang/"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為布林值false。查證子代理及主代理分別讀取官方Threads公開頁，店名為「好好做烘焙」，簡介明列嘉義市西區北興公有市場一區7號及每日品項新鮮製作。Instagram同名帳號與品牌名稱一致；查證子代理確認Facebook原專頁ID 105854187491700轉址至hohohanphang，主代理另讀取該頁確認名稱「好好做烘焙」、嘉義地區及相同品牌說明。Google Maps商家地址及官方Facebook連結均相符。依麵包烘焙業態沿用烘焙分類。已比對全部既有紀錄（含disabled），未發現同名、同址或相同社群帳號。頭像未完成個人檔案圖片查證，未填入。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "公休日及營業時間依官方Facebook／Instagram公告，請出發前確認。",
+        "sources": [
+          "https://www.threads.com/@hohohanphang",
+          "https://www.instagram.com/hohohanphang/",
+          "https://www.facebook.com/hohohanphang/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "官方Threads簡介明列「公休日及營業時間依臉書/IG公告」。未確認現行完整固定週表，故標為待確認；未以Google Maps固定時段或單月公休公告自行填定營業日及時段。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4831845,
+        "lng": 120.4437042
+      },
+      "coordinateSource": "https://www.google.com/search?tbm=map&q=%E5%A5%BD%E5%A5%BD%E5%81%9A%E7%83%98%E7%84%99+%E5%98%89%E7%BE%A9&hl=zh-TW",
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整官方地址、市場名稱與攤位地址變體、店名及街道／城市結構化查詢，均未取得門牌結果。改讀Google Maps公開搜尋頁的原生商家JSON，查證子代理及主代理分別確認同一商家物件：名稱「好好做烘焙（營業日依臉書公告」、地址600嘉義市西區北興公有市場一區7號、官方網站連至facebook.com/hohohanphang，地點識別0x346e95034506b867:0xe46c0ad3e1463a1a（https://www.google.com/maps?cid=16459542643266173466）。採商家物件獨立位置欄位23.4831845、120.4437042，非@地圖視窗中心；精度為Google商家標記，未驗證市場內攤位入口。環境無可用瀏覽器，實際開啟Google提供的地點頁仍為JS空殼，未完成瀏覽器地點網址!3d與!4d核對程序，如實保留此限制，未呼叫付費Geocoding API。"
     }
   ],
   "pendingStores": []
