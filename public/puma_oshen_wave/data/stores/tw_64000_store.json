@@ -430,6 +430,45 @@
       },
       "coordinateSource": "https://www.google.com.tw/maps/place/癒見老宅咖啡/@22.638161,120.295312,15z/data=!4m6!3m5!1s0x346e0555c7412cdd:0x702ca68df07ad402!8m2!3d22.638161!4d120.295312!16s%2Fg%2F11qbhrzc8c?hl=zh-TW&coh=164777&entry=tt&shorturl=1",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap查詢完整地址及結構化門牌；主代理核對候選節點11082443105原始資料，實為三德西街35巷6號，與店址不同，故棄用。改開啟食記所列三鳳中街38巷6號旁的Google Maps店家連結https://goo.gl/maps/P6w56aDNa3WsCVFm8，查證子代理與主代理均確認重導至癒見老宅咖啡的地點網址，地點識別0x346e0555c7412cdd:0x702ca68df07ad402；地址另與高雄商圈官方店家頁相符。採地點網址!3d22.638161、!4d120.295312，不以@地圖視窗中心取值。"
+    },
+    {
+      "id": "qing-xiang-yuan-hakka",
+      "verification": false,
+      "category": "正餐",
+      "giftStatus": "可能有小物",
+      "name": "清香園客家美食",
+      "address": "高雄市左營區正心街45號",
+      "social": {
+        "facebook": "https://www.facebook.com/people/清香園客家美食/100063877627832/",
+        "instagram": "https://www.instagram.com/hakka075575518/",
+        "threads": "https://www.threads.com/@hakka075575518"
+      },
+      "sources": [
+        "https://www.threads.com/@hakka075575518",
+        "https://www.instagram.com/hakka075575518/",
+        "https://www.facebook.com/people/清香園客家美食/100063877627832/",
+        "https://www.ubereats.com/tw/store/清香園客家美食/kA-7NPguQyekJfYFhl_q5Q",
+        "https://www.openstreetmap.org/node/11081561853"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為JSON布林值false。查證子代理與主代理核對官方Threads，店名為清香園客家美食，自介明列高雄市左營區正心街45號、平日午晚餐時段及販售便當，沿用正餐分類。Instagram為同名同帳號；Facebook同名粉專列相同營業時段與電話07-5575518，與帳號及外送平台資訊相符。已比對全部144筆既有紀錄（含disabled）的店名、地址與社群，未發現重複。未確認官方個人頭像，未填入。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週一至週五 11:00–14:00、17:00–20:00；週六、週日公休。官方提醒晚餐時段常於19:30收店，建議提早前往。",
+        "sources": [
+          "https://www.threads.com/@hakka075575518",
+          "https://www.facebook.com/people/清香園客家美食/100063877627832/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "查證子代理與主代理直接讀取官方Threads公開自介，列週一至週五、週休二日、11:00–14:00及17:00–20:00，並註明常常19:30收；Facebook公開自介亦列相同平日午晚餐時段。保留官方提早收店提醒。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6647764,
+        "lng": 120.3039957
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11081561853",
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢完整地址無結果，再以簡化及結構化門牌查詢取得節點11081561853。主代理另讀OSM節點API，核對addr:full為高雄市左營區新上里27鄰正心街45號，門牌、道路及行政區均與官方Threads營業地址一致，來源為高雄市政府。採門牌數值座標22.6647764、120.3039957，未使用道路中心。"
     }
   ],
   "pendingStores": []
