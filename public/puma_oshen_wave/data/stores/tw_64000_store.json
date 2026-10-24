@@ -739,6 +739,45 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11081639594",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap自由文字地址查詢無結果，再以新勝街21號、高雄市、左營區結構化查詢取得門牌節點11081639594。主代理另讀OSM節點API，核對addr:full為高雄市左營區新下里30鄰新勝街21號，行政區、道路及門牌與商圈官方及店家會員頁地址一致，資料來源為高雄市政府。採門牌數值座標22.6688936、120.2998419，未使用道路或地圖視窗中心。"
+    },
+    {
+      "id": "zheng-song-noodles",
+      "verification": false,
+      "category": "正餐",
+      "giftStatus": "可能有小物",
+      "name": "正松麵舖 Song’s Noodles",
+      "address": "高雄市前金區自強一路83巷63號",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/song202605/",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.instagram.com/song202605/",
+        "https://twfoodgirl.com/zhengsong/",
+        "https://486word.com/page/486fun/A2606120002c8b1/",
+        "https://www.google.com/maps/place/%E6%AD%A3%E6%9D%BE%E9%BA%B5%E8%88%96+Song%E2%80%99s+Noodles/@22.6311708,120.2911751,17z/data=!3m1!4b1!4m6!3m5!1s0x346e05ad94a368fb:0xfc342770fa7e26a2!8m2!3d22.6311708!4d120.2911751!16s%2Fg%2F11z4vl509n?entry=ttu"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者提供店名與地址指定收錄，verification依本次指示設為JSON布林值false。查證子代理與主代理核對2026-10-08食記及486店家介紹，店名、營業地址一致；486文章明確連至song202605 Instagram，子代理另以Google Maps店家網站連結核對相同帳號。主代理直接讀取官方Instagram個人頁HTML，確認正松麵舖名稱及營業時段；依麵食、鍋燒及滷味餐點，沿用正餐分類。已比對全部151筆既有紀錄（含disabled）的店名、地址及社群，未發現重複。官方Facebook與Threads尚未確認，留空。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週一、週二、週四至週六 11:00–14:00、16:30–20:00\n週三、週日公休。",
+        "sources": [
+          "https://www.instagram.com/song202605/",
+          "https://twfoodgirl.com/zhengsong/",
+          "https://486word.com/page/486fun/A2606120002c8b1/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "主代理直接讀取官方Instagram個人頁meta description，列每週三、日公休及11:00–14:00、16:30–20:00；2026-10-08食記與486店家介紹列相同時段及公休日。臨時異動以店家公告為準。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6311708,
+        "lng": 120.2911751
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E6%AD%A3%E6%9D%BE%E9%BA%B5%E8%88%96+Song%E2%80%99s+Noodles/@22.6311708,120.2911751,17z/data=!3m1!4b1!4m6!3m5!1s0x346e05ad94a368fb:0xfc342770fa7e26a2!8m2!3d22.6311708!4d120.2911751!16s%2Fg%2F11z4vl509n?entry=ttu",
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址及結構化門牌查詢，均無結果；再透過Playwright瀏覽Google Maps地點頁，核對正松麵舖 Song’s Noodles、801009高雄市前金區新生里自強一路83巷63號及電話07 211 0001，店家網站連至官方Instagram song202605。採地點網址!3d22.6311708、!4d120.2911751的數值座標，未使用@地圖視窗中心。"
     }
   ],
   "pendingStores": []
