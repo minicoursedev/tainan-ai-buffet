@@ -81,8 +81,8 @@ footer{flex-wrap:wrap}.footer-notice{flex-basis:100%;margin:4px 0 0;font-size:12
 #all-shops-map{z-index:0;font-family:inherit}.osm-marker{background:none;border:0}.osm-shop-pin{width:24px;height:30px;background:var(--pink);color:white;border:1.5px solid white;border-radius:50% 50% 50% 4px;transform:rotate(-45deg);display:flex;align-items:center;justify-content:center;box-shadow:0 1.5px 3.75px #0005;font-size:13.5px}.osm-shop-pin.is-selected{background:#ff9500}.osm-portrait-pin{transform:none;border-radius:50%;overflow:hidden}.osm-portrait-pin img{width:100%;height:100%;object-fit:cover}.osm-portrait-pin.is-selected{border-color:#ff9500}#all-shops-map .leaflet-control-attribution{font-size:11px}
 
 .masthead-inner{display:flex;justify-content:space-between;align-items:center;gap:12px}
-#join-map{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;min-height:44px;padding:8px 16px;border:1px solid var(--pink);border-radius:999px;background:white;color:var(--pink);font:inherit;font-weight:700;white-space:nowrap}
-#join-map:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+#join-map,#recommend-map{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;min-height:44px;padding:8px 16px;border:1px solid var(--pink);border-radius:999px;background:white;color:var(--pink);font:inherit;font-weight:700;white-space:nowrap}
+#join-map:focus-visible,#recommend-map:focus-visible{outline:3px solid var(--green);outline-offset:3px}
 
 .finder-marquee{display:flex;align-items:center;gap:12px;margin-bottom:18px;padding:.2em 12px;font-size:20px;background:#fff0f4;border-radius:12px}
 .marquee-window{flex:1;min-width:0;overflow:hidden}
@@ -96,7 +96,7 @@ footer{flex-wrap:wrap}.footer-notice{flex-basis:100%;margin:4px 0 0;font-size:12
 #home-map{background:#fff;color:var(--green)}
 #home-map:disabled{opacity:.65;cursor:wait}
 
-.hero-banner{max-width:1280px;margin:0 auto;overflow:hidden;border-radius:0 0 16px 16px}.hero-actions{display:grid;grid-template-columns:1fr 1fr;gap:0;padding:0}
+.hero-banner{max-width:1280px;margin:0 auto;overflow:hidden;border-radius:0 0 16px 16px}.hero-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;padding:0}
 #share-open{min-height:44px;padding:8px 16px;border:1px solid var(--pink);border-radius:999px;background:var(--pink);color:white;font-weight:700;white-space:nowrap}
 #share-dialog{width:min(360px,calc(100vw - 32px));max-height:calc(100dvh - 32px);overflow:auto;padding:28px;border:0;border-radius:20px;background:#fffaf6;color:var(--ink);text-align:center;box-shadow:0 20px 80px #0003}
 #share-dialog::backdrop{background:#20322c99}
@@ -114,7 +114,7 @@ body:has(#share-dialog[open]){overflow:hidden}
 
 .map-canvas{position:relative}#lucky-star{position:absolute;right:16px;bottom:32px;z-index:1;width:48px;height:48px;display:grid;place-items:center;border:1px solid #ead8a2;border-radius:50%;background:white;box-shadow:0 2px 8px #0003}#lucky-star:disabled{opacity:.55;cursor:wait}.lucky-star-message{display:flex;align-items:flex-start;gap:8px;padding:12px;background:#fff8d9}.lucky-star-message[hidden]{display:none}.lucky-star-message img{flex:none}.lucky-star-message p{flex:1;min-width:0;max-height:120px;overflow:auto;overflow-wrap:anywhere;margin:0;font-size:20px;font-weight:700}.lucky-star-message button{flex:none;border:0;background:transparent;font-size:24px;min-width:44px;min-height:44px}.osm-shop-pin.lucky-star-pin{width:30px;height:38px;background:#ffdf00;color:#fff}
 
-.hero-actions #share-open,.hero-actions #join-map{width:100%;min-height:36px;margin:0;border:0;border-radius:0;padding:7px 12px;font-size:14px;line-height:1.5}.hero-actions #join-map{background:#fff8fa;box-shadow:inset 0 -1px 0 #f1d5dd}
+.hero-actions #share-open,.hero-actions #join-map,.hero-actions #recommend-map{width:100%;min-height:36px;margin:0;border:0;border-radius:0;padding:7px 12px;font-size:14px;line-height:1.5}.hero-actions #join-map,.hero-actions #recommend-map{background:#fff8fa;box-shadow:inset 0 -1px 0 #f1d5dd}
 
 .shop-pagination{display:flex;align-items:center;justify-content:center;gap:16px;padding:16px 0;grid-column:1/-1}.shop-pagination button{border:1px solid var(--pink);border-radius:8px;background:white;color:var(--pink);padding:10px 16px;min-height:44px}.shop-pagination button:disabled{opacity:.4;cursor:default}
 
