@@ -23,6 +23,53 @@
     "洋流服務站",
     "其它"
   ],
-  "stores": [],
+  "stores": [
+    {
+      "id": "cafe-sanpo-yilan",
+      "verification": false,
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "散歩咖啡 CAFE SANPO",
+      "address": "宜蘭縣宜蘭市神農里和睦路2之20號",
+      "social": {
+        "facebook": "https://www.facebook.com/sanpo2015/",
+        "instagram": "https://www.instagram.com/2015cafesanpo/",
+        "threads": "https://www.threads.com/@2015cafesanpo"
+      },
+      "sources": [
+        "https://www.threads.com/@2015cafesanpo",
+        "https://www.instagram.com/2015cafesanpo/",
+        "https://www.facebook.com/sanpo2015/",
+        "https://www.zopetshop.com/blogs/zozogo/cafe_sanpo"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為布林值false。查證子代理及主代理分別以瀏覽器核對官方Threads、Instagram、Facebook及Google Maps；Threads名稱為散步咖啡、簡介為宜蘭市咖啡店，Instagram名稱為散歩咖啡 CAFE SANPO，Facebook名稱為散歩 CAFE SANPO，地址及電話03 932 9828與Google Maps相符。店名採官方Instagram名稱，依咖啡館業態沿用咖啡廳分類。已比對全部既有紀錄（含disabled），未發現同名、同址或相同社群帳號。",
+      "openingHours": {
+        "status": "verified",
+        "text": "11:00–17:30；店休日請見官方Facebook公告。",
+        "sources": [
+          "https://www.instagram.com/2015cafesanpo/",
+          "https://www.threads.com/@2015cafesanpo"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "官方Instagram簡介列11:00–17:30及「店休：請看粉專」，官方Threads 2026-09-29貼文公告隔日11:00–17:30，時段一致。未確認固定每週休息日，不推定每日營業；店休日依官方粉專公告。"
+      },
+      "shopPhoto": {
+        "url": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.2885-19/463369234_1232402118069800_6429890886864595614_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fkhh1-2.fna.fbcdn.net&_nc_cat=108&_nc_oc=Q6cZ2gGgMb8XVP_8j-kzo-Jk2EwtlKl01bh3WU6ZMpSk3XgJdj566C-nGwFwYoWXlWhwX0k&_nc_ohc=nzDPpRmingoQ7kNvwH8D2C3&_nc_gid=oluSrCbgWk0b4Enc2feVDQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQOZXuIHBxD8-Yyps1cDF9RvCarmU_PHVCxASmfK28POSg&oe=6AE25F7A&_nc_sid=10d13b",
+        "source": "https://www.threads.com/@2015cafesanpo",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-24",
+        "note": "查證子代理確認官方Threads個人頁名稱散步咖啡、簡介宜蘭市咖啡店，並連結官方Instagram；頁首圖片alt為「2015cafesanpo的大頭貼照」，確認為個人檔案頭像。子代理及主代理分別GET圖片，均回應200、Content-Type image/jpeg（8811 bytes）。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.750175,
+        "lng": 121.7549566
+      },
+      "coordinateSource": "https://www.google.com/maps/place/data=!4m6!3m5!1s0x3467e4dd222ca985:0x40d6f4ee1884da0c!8m2!3d24.750175!4d121.7549566!16s%2Fg%2F11cmp6__rf",
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址、2-20號變體及結構化門牌查詢，未取得符合門牌位置；結構化查詢僅回傳和睦路道路，未採用道路中心。改以瀏覽器查詢Google Maps，子代理及主代理分別核對地點地址260宜蘭縣宜蘭市神農里和睦路2之20號、電話03 932 9828及官方Facebook相符。採地點網址!3d24.750175、!4d121.7549566的緯經度，非@地圖視窗中心，未呼叫付費Geocoding API。"
+    }
+  ],
   "pendingStores": []
 }
