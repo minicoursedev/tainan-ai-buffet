@@ -137,6 +137,7 @@ function selectShop(shop, openDetail = true, recenter = true) {
   const query = `${shop.address} ${shop.name}`;
   showMap(shop.name, query, false, recenter);
   const content = node('div',undefined,'detail-content');
+  content.dataset.verified = String(shop.verification === true);
   const heading = node('div',undefined,'detail-heading');
   heading.append(node('h2',shop.name),node('span',shop.category,'type-tag'));
   const bottom = node('div',undefined,'detail-bottom');
@@ -249,6 +250,7 @@ function renderShops(page = 0) {
   const pageSize = 30;
   for(const shop of results.slice(page * pageSize, (page + 1) * pageSize)){
     const card=node('article',undefined,'shop-card');card.dataset.shopId=shop.id;card.setAttribute('data-selected',String(shop.id===selectedId));
+    card.dataset.verified=String(shop.verification===true);
     const top=node('div',undefined,'shop-card-top');top.append(node('span',shop.category,'type-tag'));
     const bottom=node('button','查看店家資訊 ↗','shop-card-bottom');bottom.type='button';bottom.setAttribute('aria-label',`查看 ${shop.name} 的店家資訊`);bottom.onclick=()=>selectShop(shop);
     const summary=node('div',undefined,'shop-card-summary');

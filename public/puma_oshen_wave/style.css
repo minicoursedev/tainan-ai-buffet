@@ -50,6 +50,8 @@ body.detail-open{overflow:hidden}
 #shop-list[hidden],.shop-info-note[hidden]{display:none}
 .shop-card{cursor:auto;user-select:text;-webkit-user-select:text}
 button.shop-card-bottom{display:block;width:100%;border:0;border-top:1px solid #eedfd5;background:transparent;text-align:left;color:var(--pink);font-weight:700;min-height:44px;cursor:pointer}
+.shop-card[data-verified=true] .shop-card-bottom{border-top:2px solid #ff9500}
+.detail-content[data-verified=true] .detail-heading h2{border-bottom:2px solid #ff9500;padding-bottom:6px}
 .shop-panel .shop-detail{display:block;user-select:text;-webkit-user-select:text}
 .shop-panel .shop-detail[hidden]{display:none}
 .back-to-shops,.detail-show-map{min-height:44px;padding:10px 14px;border:1px solid #009a50;border-radius:10px;background:white;color:#007b3f;font-weight:700;cursor:pointer}
