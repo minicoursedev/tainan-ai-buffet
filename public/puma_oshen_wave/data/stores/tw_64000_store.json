@@ -336,6 +336,58 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11079816735",
       "coordinateNote": "2026-10-23 OSM Nominatim 完整地址查詢無結果，改以 street=99 文中路、city=旗山區、county=高雄市、country=臺灣 結構化查詢取得門牌節點11079816735，簡寫查詢亦取得相同節點。主代理另讀取 OSM 節點 API，核對 addr:full 為高雄市旗山區竹峰里10鄰文中路99號，行政區、街道、門牌及數值座標一致，節點資料來源標示高雄市政府；採與對外營業地址相符的門牌位置。"
+    },
+    {
+      "id": "huang-jie-service-office",
+      "verification": false,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "立法委員黃捷服務處",
+      "address": "高雄市前金區中正四路171號",
+      "social": {
+        "facebook": "https://www.facebook.com/KaohsiungHuangjie/",
+        "instagram": "https://www.instagram.com/huangjie_official/",
+        "threads": "https://www.threads.com/@huangjie_official"
+      },
+      "sources": [
+        "https://www.threads.com/@huangjie_official",
+        "https://www.instagram.com/huangjie_official/",
+        "https://www.facebook.com/KaohsiungHuangjie/",
+        "https://www.openstreetmap.org/node/11082717674"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者提供黃捷官方Threads，指定收錄為洋流服務處並製作人像地圖標記；verification依本次指示設為JSON布林值false。查證子代理核對官方Threads、Instagram及Facebook自介，均列高雄第六選區立法委員身分與高雄市前金區中正四路171號服務處；主代理另讀指定Threads及Instagram原文確認名稱與地址。已比對全部既有紀錄（含disabled）的店名、地址與社群，未發現重複。鳳山區中泰街42號為議員時期舊址，未採用。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽官方社群。",
+        "sources": [
+          "https://www.threads.com/@huangjie_official",
+          "https://www.instagram.com/huangjie_official/",
+          "https://www.facebook.com/KaohsiungHuangjie/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "未取得現址完整固定服務時間；官方社群自介僅列地址與聯絡資訊。鳳山舊址歷史時段及特定活動、連署開放時段不作為固定服務時間。"
+      },
+      "mapMarker": {
+        "label": "黃捷",
+        "image": "https://scontent.cdninstagram.com/v/t51.82787-19/588043865_18547113115010538_8388453142529521495_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=pEzoS9zLFHQQ7kNvwGJK4Et&_nc_oc=AdoxI5QhHqz-9LfjFBqg7cC93uit0YW7-7ddfs2V58TsZpbydbGQJbR9gIXbylo3lVQ&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=WE6e-Lssg-gLXWvoWSluAA&_nc_ss=7f500&oh=00_AQMDB_1OKKF_ZdXMcBhX4r-mjqFH62Ddd47qZ9WqURI2Pg&oe=6AE29C9E",
+        "source": "https://www.instagram.com/huangjie_official/"
+      },
+      "shopPhoto": {
+        "url": "https://scontent.cdninstagram.com/v/t51.82787-19/588043865_18547113115010538_8388453142529521495_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=pEzoS9zLFHQQ7kNvwGJK4Et&_nc_oc=AdoxI5QhHqz-9LfjFBqg7cC93uit0YW7-7ddfs2V58TsZpbydbGQJbR9gIXbylo3lVQ&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=WE6e-Lssg-gLXWvoWSluAA&_nc_ss=7f500&oh=00_AQMDB_1OKKF_ZdXMcBhX4r-mjqFH62Ddd47qZ9WqURI2Pg&oe=6AE29C9E",
+        "source": "https://www.instagram.com/huangjie_official/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-24",
+        "note": "官方Instagram個人頁og:title為黃捷HuangJie (@huangjie_official)，自介地址與指定Threads一致；og:type為profile，頭像URL的efg資料明示profile_pic.www.1080.C3，查證子代理實看為黃捷白色西裝半身人像，非貼文或封面。主代理另讀同一官方頁確認頭像檔名一致，圖片GET回應HTTP 200、image/jpeg。保留完整CDN簽章參數，網址可能到期。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6288215,
+        "lng": 120.2950791
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11082717674",
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，再以171 中正四路、高雄市、臺灣結構化門牌查詢取得節點11082717674。主代理另讀OSM節點API，核對addr:full為高雄市前金區民生里1鄰中正四路171號、道路及行政區與官方社群地址一致，來源為高雄市政府；採門牌數值座標22.6288215、120.2950791，未使用道路中心。"
     }
   ],
   "pendingStores": []
