@@ -6042,6 +6042,48 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11081561853",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢完整地址無結果，再以簡化及結構化門牌查詢取得節點11081561853。主代理另讀OSM節點API，核對addr:full為高雄市左營區新上里27鄰正心街45號，門牌、道路及行政區均與官方Threads營業地址一致，來源為高雄市政府。採門牌數值座標22.6647764、120.3039957，未使用道路中心。"
+    },
+    {
+      "id": "fu-fu-tang-tcm",
+      "verification": false,
+      "category": "日常生活",
+      "giftStatus": "可能有小物",
+      "name": "福福堂中醫診所",
+      "address": "高雄市三民區繼光街11號",
+      "social": {
+        "facebook": "https://www.facebook.com/fufutangtcm/",
+        "instagram": "https://www.instagram.com/fu.fu.tang/",
+        "threads": "https://www.threads.com/@fu.fu.tang"
+      },
+      "sources": [
+        "https://www.threads.com/@fu.fu.tang",
+        "https://www.instagram.com/fu.fu.tang/",
+        "https://www.facebook.com/fufutangtcm/",
+        "https://linktr.ee/fufutang",
+        "https://www.fufutang.com.tw/",
+        "https://www.api.fufutang.com.tw/Clinic",
+        "https://www.api.fufutang.com.tw/ClinicTime/fufu",
+        "https://www.openstreetmap.org/node/11082439785"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為JSON布林值false。查證子代理與主代理直接讀取官方Threads，確認店名為福福堂中醫診所、自介地址為高雄市三民區繼光街11號，並連結官方Linktree；Linktree連至診所官網、Facebook fufutangtcm與Instagram fu.fu.tang。官網使用的官方Clinic資料亦列同一現址，未採自立一路279號舊址。依診所服務沿用日常生活分類。已比對全部145筆既有紀錄（含disabled）的店名、新舊地址及社群，未發現重複。頭像未確認，未填入。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "週一至週五 08:30–12:00、14:30–18:00、18:30–21:00；週六 08:30–12:00、14:30–18:00。週日門診狀態待確認；實際門診及休診異動以官方公告為準。",
+        "sources": [
+          "https://www.fufutang.com.tw/",
+          "https://www.api.fufutang.com.tw/ClinicTime/fufu"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "查證子代理與主代理核對官網公開ClinicTime/fufu資料及官網前端週表表頭，確認星期欄位依序為一至六，早午晚時段分別為08:30–12:00、14:30–18:00、18:30–21:00；週一至五三時段均排有門診，週六僅早午有門診。官網未列週日欄位，故不自行填定週日休診。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6372651,
+        "lng": 120.2992278
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11082439785",
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢，透過繼光街11號、高雄市、三民區結構化地址取得節點11082439785。主代理另讀OSM節點API，核對addr:full為高雄市三民區建東里1鄰繼光街11號，門牌、道路及行政區與官方Clinic資料現址一致，來源為高雄市政府。採門牌數值座標22.6372651、120.2992278，未使用道路中心。"
     }
   ],
   "pendingStores": []
