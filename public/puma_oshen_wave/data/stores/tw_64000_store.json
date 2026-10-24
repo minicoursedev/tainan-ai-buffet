@@ -778,6 +778,46 @@
       },
       "coordinateSource": "https://www.google.com/maps/place/%E6%AD%A3%E6%9D%BE%E9%BA%B5%E8%88%96+Song%E2%80%99s+Noodles/@22.6311708,120.2911751,17z/data=!3m1!4b1!4m6!3m5!1s0x346e05ad94a368fb:0xfc342770fa7e26a2!8m2!3d22.6311708!4d120.2911751!16s%2Fg%2F11z4vl509n?entry=ttu",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址及結構化門牌查詢，均無結果；再透過Playwright瀏覽Google Maps地點頁，核對正松麵舖 Song’s Noodles、801009高雄市前金區新生里自強一路83巷63號及電話07 211 0001，店家網站連至官方Instagram song202605。採地點網址!3d22.6311708、!4d120.2911751的數值座標，未使用@地圖視窗中心。"
+    },
+    {
+      "id": "hway-coffee-kaohsiung",
+      "verification": false,
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "灰咖啡 Hway Coffee",
+      "address": "高雄市新興區林森一路146巷2號",
+      "social": {
+        "facebook": "https://www.facebook.com/hwaycoffee.taiwan/",
+        "instagram": "https://www.instagram.com/hwaycoffee.taiwan/",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/hwaycoffee.taiwan/",
+        "https://www.instagram.com/hwaycoffee.taiwan/",
+        "https://www.kff.tw/content/2025kff-guidebook-pickup",
+        "https://www.rieasianlife.com/taiwan/kaohsiung/hwaycoffee.html",
+        "https://www.openstreetmap.org/node/5057927924"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者提供店名與地址指定收錄，verification依本次指示設為JSON布林值false。查證子代理與主代理核對高雄電影節官方活動手冊索取點名單，灰咖啡營業地址與指定地址一致；食記明確連至hwaycoffee.taiwan的Facebook與Instagram，主代理另直接讀取兩個官方個人頁HTML，確認灰咖啡Hway Coffee店名，Instagram簡介亦列相同地址。依咖啡、手沖與甜點及OSM cafe標籤沿用咖啡廳分類。已比對全部152筆既有紀錄（含disabled）的店名、別名、地址及社群，未發現重複。官方Threads尚未確認，留空。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間與公休日待確認，請以店家Google地圖及官方最新公告為準。",
+        "sources": [
+          "https://www.instagram.com/hwaycoffee.taiwan/",
+          "https://www.facebook.com/hwaycoffee.taiwan/",
+          "https://www.google.com/maps/place/%E7%81%B0%E3%80%82%E5%92%96%E5%95%A1/@22.629196,120.30482,17z/data=!3m1!4b1!4m6!3m5!1s0x346e048ee64d785f:0x1b07f6a899183040!8m2!3d22.629196!4d120.30482!16s%2Fg%2F11bzs5cqyz"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "主代理直接讀取官方Facebook個人頁og:description，列13:30–00:00、週二及週三公休；官方Instagram個人頁meta description則列週一、週四至週六13:30–00:00，週二及週三13:00–20:00僅供應手沖、甜點，並註明營業時間請參考Google地圖，未明列週日。查證子代理以瀏覽器核對同店同址Google地圖，僅取得當日00:00打烊資訊，未取得完整週表。兩個官方來源對週二、週三營業狀態不同，現有地圖資料不足以消除矛盾，故不填定營業時段與公休日。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6292185,
+        "lng": 120.3045738
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/5057927924",
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以林森一路146巷2號、高雄市結構化查詢取得咖啡店節點5057927924。主代理另讀OSM節點API，確認name為灰。咖啡、amenity為cafe、addr:full為高雄市新興區林森一路146巷2號，行政區、道路及門牌均與高雄電影節官方名單及店家Instagram簡介一致。採店家節點數值座標22.6292185、120.3045738，未使用道路或地圖視窗中心。"
     }
   ],
   "pendingStores": []
