@@ -6271,6 +6271,47 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11082641823",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢完整地址無結果，再以文化路23號、高雄市、新興區結構化查詢取得門牌節點11082641823。主代理另讀OSM節點API，核對addr:full為高雄市新興區浩然里16鄰文化路23號四樓，行政區、道路及門牌與店家資料一致，資料來源為高雄市政府。採同門牌數值座標22.623913、120.3064522；節點附帶四樓標籤，僅採門牌位置，不據以推定店家營業樓層，未使用道路或地圖視窗中心。"
+    },
+    {
+      "id": "miss-mimi-coffee",
+      "verification": false,
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "Miss Mimi 義法蔬食咖啡廳",
+      "address": "高雄市左營區新勝街21號",
+      "social": {
+        "facebook": "https://www.facebook.com/miss.mimi.cafe/",
+        "instagram": "https://www.instagram.com/miss.mimi.coffee/",
+        "threads": "https://www.threads.com/@miss.mimi.coffee"
+      },
+      "sources": [
+        "https://www.facebook.com/miss.mimi.cafe/?locale=zh_TW",
+        "https://www.instagram.com/miss.mimi.coffee/",
+        "https://www.khafterparty.tw/Store/Detail/zKjmRwAJ241B?cateId=32",
+        "https://jtk-point.com/p/406-1142-12292,r487.php?Lang=zh-tw",
+        "https://sport.ftvnews.com.tw/news/detail/2026827W0274",
+        "https://www.openstreetmap.org/node/11081639594"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者提供Facebook指定收錄，verification依本次指示設為JSON布林值false。查證子代理與主代理核對高雄商圈夜市優惠券官方店家頁及揪攤集店家頁，兩者均列高雄市左營區新勝街21號，並連至使用者提供的Facebook；會員頁另連至miss.mimi.coffee官方Instagram。直接讀取Facebook與Instagram個人頁HTML，確認Miss Mimi Coffee蔬食咖啡館名稱、蔬食餐點與咖啡甜點介紹，沿用咖啡廳分類。Threads的miss.mimi.coffee帳號由2026-08-27民視報導及其嵌入貼文間接核對，未宣稱已直接讀取Threads個人頁。已比對全部150筆既有紀錄（含disabled）的店名、地址及社群，未發現重複；Instagram提及同經營者的癒見老宅咖啡為三民區三鳳中街另一營業地址，保留原紀錄。本次未取得可確認且驗證可存取的官方個人頭像，不填入shopPhoto。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間與公休日待確認，請以店家Google地圖及官方公告為準。",
+        "sources": [
+          "https://www.instagram.com/miss.mimi.coffee/",
+          "https://www.facebook.com/miss.mimi.cafe/?locale=zh_TW",
+          "https://jtk-point.com/p/406-1142-12292,r487.php?Lang=zh-tw"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "查證子代理與主代理直接讀取官方Instagram個人頁meta description，列週一至週五09:00–20:00、假日09:00–18:00；揪攤集店家頁則列平日09:00–21:00、週六日09:00–18:00，平日閉店時間不同。官方Facebook個人頁og:description明示營業時間見Google地圖商家最準確；本次未核對Google地圖當前營業時段與公休日，故保留待確認，不將矛盾來源填為已確認時間。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6688936,
+        "lng": 120.2998419
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11081639594",
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap自由文字地址查詢無結果，再以新勝街21號、高雄市、左營區結構化查詢取得門牌節點11081639594。主代理另讀OSM節點API，核對addr:full為高雄市左營區新下里30鄰新勝街21號，行政區、道路及門牌與商圈官方及店家會員頁地址一致，資料來源為高雄市政府。採門牌數值座標22.6688936、120.2998419，未使用道路或地圖視窗中心。"
     }
   ],
   "pendingStores": []
