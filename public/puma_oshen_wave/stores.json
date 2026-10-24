@@ -5259,6 +5259,42 @@
       },
       "coordinateSource": "https://www.google.com/search?tbm=map&hl=zh-TW&q=%E6%A1%83%E5%9F%8E%E7%83%B9%E8%8C%B6%20%E5%98%89%E7%BE%A9%E5%B8%82%E6%96%87%E5%8C%96%E8%B7%AF168%E8%99%9F",
       "coordinateNote": "2026-10-24 先以OSM Nominatim完整地址、店名及街道門牌結構化查詢，未取得門牌結果，僅有文化路道路資料，未採用。改讀Google Maps公開搜尋頁所載入的地點JSON；查證子代理及主代理分別取得同一商家物件，店名為「嘉義必喝！桃城烹茶『耐喝系』公休請看臉書與IG」，地址為600嘉義市西區中央里文化路168號，官方網站指向taocheng.cookingtea Instagram，地點識別為0x346e9564a765edf7:0x6236a9049041a6f1（https://www.google.com/maps?cid=7077029701524498161）。採用此商家物件獨立位置欄位的23.4792071、120.44982979999999，非地圖視窗中心。實際以公開頁JSON查證，未取得含!3d與!4d的原生地點網址，亦未以瀏覽器操作取得，不宣稱已完成該網址步驟。"
+    },
+    {
+      "id": "zhaoxing-meat",
+      "verification": false,
+      "category": "日常生活",
+      "giftStatus": "可能有小物",
+      "name": "昭興肉品",
+      "address": "嘉義市東區和平路134-22號",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/zhaoxing_meat/",
+        "threads": "https://www.threads.com/@zhaoxing_meat"
+      },
+      "sources": [
+        "https://www.threads.com/@zhaoxing_meat",
+        "https://www.instagram.com/zhaoxing_meat/"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為布林值false。查證子代理及主代理分別讀取官方Threads與Instagram公開個人頁，店名均為「昭興肉品」，簡介均列嘉義市東區和平路134-22號及電話05-2784772。Google Maps地點名稱為「昭興肉站」，地址及電話均與官方社群相符，店名採現行官方社群名稱。官方自介為每日溫體豬、客製分切及現場零售／批發，依生鮮肉品零售業態沿用日常生活分類。已比對全部既有紀錄（含disabled），未發現同名、同址或相同社群帳號。未找到可確認的官方Facebook，留空；頭像未完成查證，未填入。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "現場零售07:00起；打烊時間及公休日待確認，批發請私訊店家。",
+        "sources": [
+          "https://www.threads.com/@zhaoxing_meat",
+          "https://www.instagram.com/zhaoxing_meat/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "官方Threads簡介列現場零售07:00–13:30；官方Instagram簡介列現場零售07:00–13:00，兩者打烊時間不一致，且未列完整營業日與公休日。保留一致的開始時間並標為待確認，不自行選定打烊時間或推定每日營業；批發均註明請私訊。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4791276,
+        "lng": 120.4571634
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E6%98%AD%E8%88%88%E8%82%89%E7%AB%99/@23.4791276,120.4571634,17z/data=!3m1!4b1!4m6!3m5!1s0x346e954c576bf6f7:0x87555de7cecc1029!8m2!3d23.4791276!4d120.4571634!16s%2Fg%2F11g0ldh6yl",
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整門牌134-22號、134之22號、134號之22及店名查詢，均無門牌結果；結構化查詢僅取得和平路道路資料，未採用道路中心。改以既有Chromium瀏覽器查詢Google Maps，查證子代理及主代理分別讀取「昭興肉站」地點，確認地址600嘉義市東區華南里和平路134-22號及電話05 278 4772，與官方Threads及Instagram相符。採地點網址!3d23.4791276、!4d120.4571634的緯經度，非@地圖視窗中心，未呼叫付費Geocoding API。"
     }
   ],
   "pendingStores": []
