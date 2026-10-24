@@ -6084,6 +6084,58 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11082439785",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢，透過繼光街11號、高雄市、三民區結構化地址取得節點11082439785。主代理另讀OSM節點API，核對addr:full為高雄市三民區建東里1鄰繼光街11號，門牌、道路及行政區與官方Clinic資料現址一致，來源為高雄市政府。採門牌數值座標22.6372651、120.2992278，未使用道路中心。"
+    },
+    {
+      "id": "chun-massage",
+      "verification": false,
+      "category": "日常生活",
+      "giftStatus": "可能有小物",
+      "name": "春·舒壓按摩工作室",
+      "address": "高雄市阿蓮區忠孝路352號A2室",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/chun_massage/",
+        "threads": "https://www.threads.com/@chun_massage"
+      },
+      "sources": [
+        "https://www.threads.com/@chun_massage",
+        "https://www.instagram.com/chun_massage/",
+        "https://www.instagram.com/p/DOsVsunkwLn/",
+        "https://www.instagram.com/p/DLhFGP1xLkt/",
+        "https://www.instagram.com/p/DIs9mcFxpbq/",
+        "https://maps.app.goo.gl/gKBJTRzjbz9utPW28?g_st=ic",
+        "https://lin.ee/9EHMHCM",
+        "https://lin.ee/4VM5Yc0",
+        "https://www.openstreetmap.org/node/11080199011"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為JSON布林值false。查證子代理與主代理核對官方Threads及Instagram，顯示名均為春·舒壓按摩工作室chun_massage，介紹為個人按摩工作室，沿用日常生活分類；兩個官方社群的LINE預約短鏈均導向@939xuiwt。Instagram貼文確認高雄市阿蓮區忠孝路352號，Threads個人頁「導航按我」連結指向同門牌並列A2室。已比對全部146筆既有紀錄（含disabled）的店名、地址及社群，未發現重複。Facebook未確認，留空。",
+      "openingHours": {
+        "status": "appointment",
+        "text": "採預約制，請透過官方LINE提前預約；暫無固定公休日。起始營業時間待確認，實際可約時段及其他時間預約請洽店家。",
+        "sources": [
+          "https://www.threads.com/@chun_massage",
+          "https://www.instagram.com/p/DLhFGP1xLkt/",
+          "https://www.instagram.com/p/DIs9mcFxpbq/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "查證子代理與主代理直接讀取官方Instagram公開貼文，原文皆寫「表訂營業時間 中午10:00至晚上22:00」，另稱其他時間可LINE討論、目前暫無固定公休日並請提前預約。起始時間的「中午」與10:00有歧義，故不填定完整營業時段；保留預約制及無固定公休資訊，請先向官方LINE確認。官方Threads自介亦請至官方LINE預約。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent-lax3-1.cdninstagram.com/v/t51.82787-19/514595645_18466318900073973_2137504379228009347_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHB9Cy2u9xd66yYu_zxpHs7XXQoBiZx0h3HRmVdqyTVhDR57OgMLkWdYmz4uD7RLgA&_nc_ohc=RX8ZyjZ_D_kQ7kNvwF3C62a&_nc_gid=6Upauf1AgRtAhZWUapAYEA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQPBSZrESluE8gal9jqgrhHcP9co3dsGbsyFND4L4LLgvQ&oe=6AE287AE&_nc_sid=10d13b",
+        "source": "https://www.threads.com/@chun_massage",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-24",
+        "note": "官方Threads帳號chun_massage公開個人檔案的profile_pic_url，非貼文圖或封面；店名、個人工作室介紹及LINE預約帳號與官方Instagram相符。查證子代理及主代理實際GET確認HTTP 200、Content-Type為image/jpeg。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.8784622,
+        "lng": 120.3264618
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11080199011",
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢完整地址無結果，再以忠孝路352號、高雄市及阿蓮區結構化門牌查詢取得節點11080199011。主代理另讀OSM節點API，核對addr:full為高雄市阿蓮區和蓮里24鄰忠孝路352號，行政區、道路及門牌與官方Instagram貼文及Threads導航相符，來源為高雄市政府。採同門牌數值座標22.8784622、120.3264618；A2室依官方導航記錄，未使用道路或地圖視窗中心。"
     }
   ],
   "pendingStores": []
