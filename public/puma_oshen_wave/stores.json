@@ -5049,6 +5049,53 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11061045451",
       "coordinateNote": "2026-10-24 查證子代理以OSM Nominatim完整地址查詢無結果，改以street=291 文南路、city=臺南市、county=南區、country=台灣結構化查詢取得門牌節點11061045451。主代理另讀取OSM節點API，核對addr:full為臺南市南區文華里16鄰文南路291號，行政區、街道、門牌及數值座標均一致，節點來源標示臺南市政府；採與官方對外營業地址相符的門牌位置。"
+    },
+    {
+      "id": "rozo-cafe",
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "般若咖啡 Rozo cafe",
+      "address": "台南市中西區衛民街64號",
+      "social": {
+        "facebook": "https://www.facebook.com/rozocafe/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/share/1Gi96SUKQL/",
+        "https://www.facebook.com/rozocafe/",
+        "https://www.facebook.com/rozocafe/about/?locale=en_US",
+        "https://www.facebook.com/rozocafe/about_contact_and_basic_info/?locale=en_US"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄。分享連結實際轉至官方Facebook專頁rozocafe，名稱為「般若咖啡 Rozo cafe」，現行個人頁ID為100064006630373。官方公開基本資料列地址「中西區衛民街64號, Tainan, Taiwan, 700」、分類Coffee shop及電話0935 401 037；依業態沿用咖啡廳分類。已比對全部既有紀錄（含disabled），未發現同名、同址或相同社群帳號。未找到可確認的官方Instagram及Threads，留空。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間待確認，請洽店家或參考官方公告。",
+        "sources": [
+          "https://www.facebook.com/rozocafe/about/?locale=en_US",
+          "https://www.facebook.com/rozocafe/about_contact_and_basic_info/?locale=en_US",
+          "https://www.eaters.tw/place/cafe/tainan/11417",
+          "https://www.ubereats.com/tw-en/store/rozo-cafe-%E8%88%AC%E8%8B%A5%E5%92%96%E5%95%A1/y3qobHk_VHWJOaSUKyWFog"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "官方Facebook公開基本資料未列營業時間；查證子代理核對第三方Eaters與Uber Eats時段不同，無法確認現行完整週表，故標為待確認，不以第三方或外送時段自行填定。"
+      },
+      "shopPhoto": {
+        "url": "https://scontent-sin2-1.xx.fbcdn.net/v/t39.30808-1/801786073_1514160460727494_7905195359637346417_n.jpg?stp=dst-jpg_tt6&cstp=mx1417x1417&ctp=s200x200&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=Bw_oqxWRRkAQ7kNvwEvZFHC&_nc_oc=AdpEX06rXNEE2o5uUAqXJKfpk2MI9Cz-0Aoz1SIX5IsYC41pZRHS12TFBGercvSwR2w&_nc_zt=24&_nc_ht=scontent-sin2-1.xx&_nc_gid=DRUvb032Er9_so4YP2KLpg&_nc_ss=7b20f&oh=00_AQORmRNJy8ZkC4sFGI07g52Jy1U9yIy5RD94OJTKoDK4Zw&oe=6AE250C7",
+        "source": "https://www.facebook.com/rozocafe/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-24",
+        "note": "主代理從官方Facebook公開基本資料JSON的profilePicLarge欄位取得完整圖片網址，並確認profile_picture_is_silhouette為false、profile_photo ID為1514160574060816，區別於封面圖；GET回應HTTP 200、image/jpeg，檔案標頭ffd8ffe0，確認為可存取的個人檔案頭像。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9930026,
+        "lng": 120.210091
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060970721",
+      "coordinateNote": "2026-10-24 查證子代理先以OSM Nominatim完整地址查詢無結果，改用street=64 衛民街、city=臺南市、county=中西區、country=台灣結構化查詢取得門牌節點11060970721，排除同查詢的106號之64。主代理另讀取OSM節點API，核對addr:full為臺南市中西區城隍里6鄰衛民街64號，來源臺南市政府，行政區、街道、門牌及數值座標均與官方對外地址相符。"
     }
   ],
   "pendingStores": []
