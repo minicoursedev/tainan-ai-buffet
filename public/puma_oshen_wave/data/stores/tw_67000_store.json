@@ -1653,25 +1653,28 @@
       "address": "台南市東區大同路一段269號",
       "giftStatus": "可能有小物",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/Daydayeggcake/",
         "instagram": "https://www.instagram.com/day_day_ding_/",
-        "threads": ""
+        "threads": "https://www.threads.com/@day_day_ding_"
       },
       "sources": [
         "https://www.threads.com/@print_hunter2006/post/Del3IizgXLR",
-        "https://www.instagram.com/day_day_ding_/"
+        "https://www.instagram.com/day_day_ding_/",
+        "https://www.threads.com/@day_day_ding_",
+        "https://www.facebook.com/Daydayeggcake/",
+        "https://travel.yam.com/article/128632"
       ],
-      "verifiedAt": "2026-10-19",
-      "verificationNote": "供應者10/17洋流物資送達13店清單明列店名地址；Google商家資訊交叉核對。",
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "供應者10/17洋流物資送達13店清單明列店名地址；Google商家資訊交叉核對。2026-10-24 查證子代理及主代理分別讀取指定Threads公開個人頁，店名為日日雞蛋糕，簡介明列台南市東區大同路一段269號，與既有紀錄及同名Instagram相符，補齊官方Threads。Facebook專頁名稱為日·日雞蛋糕；輕旅行店家介紹同列該Facebook、Instagram及相同地址，交叉確認歸屬並補齊Facebook。已比對全部紀錄（含disabled），本次更新既有店家，不重複新增；保留verification、disabled、地址、座標及既有頭像。",
       "openingHours": {
         "status": "verified",
-        "text": "週一、週二及週四、週五 13:00–18:30\n週三公休\n週六、週日 12:00–18:30。",
+        "text": "週一、週二及週四、週五 13:00–18:30\n週三公休\n週六、週日 12:00–18:30；售完提早收。",
         "sources": [
           "https://www.google.com/maps/place/%E6%97%A5%E6%97%A5%E9%9B%9E%E8%9B%8B%E7%B3%95/@22.9825393,120.2115675,17z/data=!3m1!4b1!4m6!3m5!1s0x346e775814f5d1c5:0xa4882a1503355be4!8m2!3d22.9825393!4d120.2115675!16s%2Fg%2F11qpyvxpdp?entry=ttu",
           "https://www.instagram.com/day_day_ding_/"
         ],
-        "checkedAt": "2026-10-19",
-        "auditNote": "Google Maps商家卡地址為大同路一段269號並已展開完整週表。"
+        "checkedAt": "2026-10-24",
+        "auditNote": "2026-10-19已核對Google Maps商家卡同址及完整週表；2026-10-24主代理讀取官方Instagram現行簡介，明列週三固定休、平日13:00–18:30、假日12:00–18:30，均註明或售完，與既有時段相符，補充售完提早收。Facebook簡介僅概述下午1點至售完，未列完整週表；輕旅行2022年文章的19:00為舊資料，不覆蓋現行官方Instagram時段。"
       },
       "shopPhoto": {
         "url": "https://scontent.cdninstagram.com/v/t51.82787-19/608813962_18097895893880175_2665752101089405858_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=108&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=aNMu35fLk08Q7kNvwFxbsij&_nc_oc=AdrbHEq0EytxkkRPckDyddbLQQ8cD2ZSVj6xl4XjItxQKrxm42Mg4A9XWANWAkLwMgk&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=YJTDYQhW24vkNdU2OSu9ng&_nc_ss=7060f&oh=00_AQPmVVbCXA3BwMechozaiH_gIjZa205dgnG3lJU8afsMhQ&oe=6ADC0F35",
