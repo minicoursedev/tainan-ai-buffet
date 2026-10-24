@@ -23,6 +23,45 @@
     "洋流服務站",
     "其它"
   ],
-  "stores": [],
+  "stores": [
+    {
+      "id": "ccat820",
+      "verification": false,
+      "category": "正餐",
+      "giftStatus": "可能有小物",
+      "name": "曬月亮的貓",
+      "address": "雲林縣土庫鎮三民街49號",
+      "social": {
+        "facebook": "https://www.facebook.com/100071066894790/",
+        "instagram": "",
+        "threads": "https://www.threads.com/@ccat820"
+      },
+      "sources": [
+        "https://www.threads.com/@ccat820",
+        "https://www.facebook.com/100071066894790/",
+        "https://dongwa.tw/ccat820/",
+        "https://www.openstreetmap.org/node/11418963245"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為布林值false。查證子代理與主代理核對官方Threads自介，確認店名曬月亮的貓、雲林縣土庫鎮三民街49號，販售滷味麻辣燙、丼飯、義大利麵、健康餐盒及pizza，沿用正餐分類。食記列同名同址並直接連結上述Facebook，粉專名稱及所在地Tuku相符。未取得足夠依據確認店家Instagram，留空；頭像未確認為個人檔案頭像，未填入。已比對全部既有紀錄（含disabled）的店名、地址與社群帳號，未發現重複。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "每週日、一公休；詳細營業時段待確認。",
+        "sources": [
+          "https://www.facebook.com/100071066894790/",
+          "https://dongwa.tw/ccat820/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "官方Facebook簡介明列每週日、一店休，未取得官方起迄時刻。第三方食記列17:00–22:00，尚未獲官方來源確認，故不填定完整營業時段。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.6736325,
+        "lng": 120.3884222
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11418963245",
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，改以三民街49號、土庫鎮、雲林縣結構化查詢取得門牌節點11418963245。主代理另讀OSM節點API，核對addr:full為雲林縣土庫鎮順天里15鄰三民街49號、資料來源為雲林縣政府，與官方Threads地址相符；採節點數值座標23.6736325、120.3884222，未使用道路中心。"
+    }
+  ],
   "pendingStores": []
 }
