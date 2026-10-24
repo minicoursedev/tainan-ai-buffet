@@ -1785,25 +1785,32 @@
       "address": "台南市中西區武聖路69巷40弄14號（武聖夜市攤位）",
       "social": {
         "facebook": "https://www.facebook.com/yakioyster/",
-        "instagram": "",
-        "threads": ""
+        "instagram": "https://www.instagram.com/yakioyster/",
+        "threads": "https://www.threads.com/@yakioyster"
       },
       "sources": [
         "https://www.threads.com/@print_hunter2006/post/Del3IizgXLR",
         "https://footinder.com.tw/台南市中西區/103875/",
-        "https://marketoffice.tainan.gov.tw/News_Content.aspx?Create=1&n=44651&s=8747428"
+        "https://marketoffice.tainan.gov.tw/News_Content.aspx?Create=1&n=44651&s=8747428",
+        "https://share.google/HfTZAosfYd6IBpFEL",
+        "https://www.facebook.com/yakioyster/",
+        "https://www.instagram.com/yakioyster/",
+        "https://www.threads.com/@yakioyster"
       ],
-      "verificationNote": "供應者10/17洋流物資清單明列本攤；商家資料核對武聖夜市定位。夜市總址為69巷42號，商家頁另列40弄14號；非獨立店面。",
+      "verificationNote": "供應者10/17洋流物資清單明列本攤；商家資料核對武聖夜市定位。夜市總址為69巷42號，商家頁另列40弄14號；非獨立店面。2026-10-24查證子代理與主代理確認使用者分享連結轉向牡蠣大叔（武聖夜市點），Google商家識別碼/g/1pztkh0nb與既有地點一致；比對全部紀錄（含disabled）的店名、地址及社群，確認為本筆既有店家，不重複新增。官方Facebook與Instagram店名、品牌沿革及出攤表相符，Threads同名同帳號且出攤表一致，補齊Instagram與Threads。保留既有verification、disabled、ID、地址、座標及頭像。",
       "giftStatus": "可能有小物",
-      "verifiedAt": "2026-10-19",
+      "verifiedAt": "2026-10-24",
       "openingHours": {
         "status": "verified",
-        "text": "週三、週六 18:30–23:00\n週一、週二、週四、週五、週日公休。",
+        "text": "週三、週六 18:30–23:00\n其餘日未於武聖夜市出攤；實際出攤時間以店家公告為準。",
         "sources": [
-          "https://www.google.com/maps/place/%E7%89%A1%E8%A0%A3%E5%A4%A7%E5%8F%94%EF%BC%88%E6%AD%A6%E8%81%96%E5%A4%9C%E5%B8%82%E9%BB%9E%EF%BC%89/@23.0047438,120.1717702,15z/data=!4m10!1m2!2m1!1z5q2m6IGW5aSc5biC54mh6KCj5YWo6J-56buR6Lyq5bqXIOWPsOWNl-atpuiBlui3rzY55be3NDDlvIQxNOiZnw!3m6!1s0x346e7642c3c611f3:0x8929562b8ecfea3c!8m2!3d23.0047438!4d120.1908246!16s%2Fg%2F1pztkh0nb"
+          "https://www.google.com/maps/place/%E7%89%A1%E8%A0%A3%E5%A4%A7%E5%8F%94%EF%BC%88%E6%AD%A6%E8%81%96%E5%A4%9C%E5%B8%82%E9%BB%9E%EF%BC%89/@23.0047438,120.1717702,15z/data=!4m10!1m2!2m1!1z5q2m6IGW5aSc5biC54mh6KCj5YWo6J-56buR6Lyq5bqXIOWPsOWNl-atpuiBlui3rzY55be3NDDlvIQxNOiZnw!3m6!1s0x346e7642c3c611f3:0x8929562b8ecfea3c!8m2!3d23.0047438!4d120.1908246!16s%2Fg%2F1pztkh0nb",
+          "https://www.facebook.com/yakioyster/",
+          "https://www.instagram.com/yakioyster/",
+          "https://www.threads.com/@yakioyster"
         ],
-        "checkedAt": "2026-10-19",
-        "auditNote": "Google 商家卡核對武聖路69巷40弄14號，類型小吃攤，週表與原第三方來源吻合。"
+        "checkedAt": "2026-10-24",
+        "auditNote": "2026-10-19已以Google商家卡核對武聖路69巷40弄14號、類型小吃攤及18:30–23:00時段；本次查證子代理核對FooTinder商家彙整仍列相同鐘點，沿用原時段。子代理與主代理另直接讀取官方Facebook、Instagram及Threads簡介，均列週三、六武聖、週二、五善化、週一鹽行、週四日休攤，故將其他日公休釐清為未於武聖出攤。官方簡介未列起迄鐘點，本次未取得更新鐘點的官方證據，實際出攤以店家公告為準。"
       },
       "visitNote": "夜市攤位，實際出攤以店家公告為準。",
       "shopPhoto": {
