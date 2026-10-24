@@ -280,6 +280,51 @@
         "checkedAt": "2026-10-24",
         "note": "官方Instagram簡介與Threads同名同址同營業時間；查證子代理以瀏覽器確認頭像img的alt為kagi.kaki.kakigori's profile picture，與此圖片同一檔名。主代理確認圖片網址efg標記為profile_pic.www.1080.C3，GET回應200、Content-Type image/jpeg、2941 bytes及JPEG檔頭。"
       }
+    },
+    {
+      "id": "yume27-14",
+      "verification": false,
+      "category": "選物雜貨",
+      "giftStatus": "可能有小物",
+      "name": "吾美 YUME 選物店",
+      "address": "嘉義市西區光彩街462號之1",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/yume27.14/",
+        "threads": "https://www.threads.com/@yume27.14"
+      },
+      "sources": [
+        "https://www.threads.com/@yume27.14",
+        "https://www.instagram.com/yume27.14/",
+        "https://www.tastesweety.com/zh-hant/pages/cooperative-store"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為布林值false。查證子代理與主代理分別讀取官方Threads及Instagram，確認店名吾美、嘉義市光彩街462號之一及文創、手作商品、花束與推活商品業態，沿用選物雜貨分類。合作品牌甜馨工作室官網列名吾美YUME選物店、同一門牌及西區，並連結同名Google Maps地點；該頁街名誤寫為彩光街，街名以店家官方社群光彩街為準。未查證到官方Facebook，留空。已比對全部既有紀錄（含disabled）的店名、地址及社群帳號，未發現重複。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "週一、週二公休；詳細營業時段請查看官方Google Maps或私訊店家確認。",
+        "sources": [
+          "https://www.threads.com/@yume27.14",
+          "https://www.instagram.com/yume27.14/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "官方Threads與Instagram簡介均列每週一、週二公休，詳細時間請查Google Maps。合作品牌2025年展售資料列週二至週日16:00–21:00，與現行官方公休日矛盾，未採用舊週表；Google Maps未取得可讀的詳細營業時間，故不填定完整營業時段。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.478216,
+        "lng": 120.4490979
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E5%90%BE%E7%BE%8EYUME%E9%A3%BE%E5%93%81%EF%BD%9C%E7%A6%AE%E5%93%81%EF%BD%9C%E9%81%B8%E7%89%A9%E5%BA%97/@23.478216,120.446523,1002m/data=!3m2!1e3!4b1!4m6!3m5!1s0x346e95000fae1e8b:0x741c891a3f0a6499!8m2!3d23.478216!4d120.4490979!16s%2Fg%2F11w1k1h7dj?entry=ttu&g_ep=EgoyMDI1MDkyNC4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址、門牌變體及結構化查詢，未取得符合門牌結果；道路中心未採用。改查合作品牌甜馨工作室官網吾美店家地址旁的Google Maps地點連結，採!3d23.478216與!4d120.4490979，非@視窗中心。子代理與主代理分別GET完整地點網址，回應200，頁面APP_INITIALIZATION_STATE的店名為吾美YUME飾品｜禮品｜選物店，地點ID及數值座標一致，並以官方社群的光彩街462號之一交叉核對合作頁門牌關聯。網頁瀏覽工具無法開啟地點頁，未操作可視瀏覽器或取得詳細地址卡；未呼叫付費Geocoding API。",
+      "shopPhoto": {
+        "url": "https://scontent.cdninstagram.com/v/t51.82787-19/794946804_18115373420084543_7683352251949867177_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=105&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=uv_QPyNqB2oQ7kNvwFf1OD_&_nc_oc=AdoiBF2h3Ol2vNUB-8N0-4y-OJKazl9x0cDgTMRwR6DOFt10VUOk08SshRTqFGVGl68&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=x_YZYoz061_n3R-Ccseylw&_nc_ss=7f500&oh=00_AQOMUnA9cMK3HVDDXXIZbWnLE26NPAxu4c_bEyTQcvyslQ&oe=6AE287CA",
+        "source": "https://www.instagram.com/yume27.14/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-24",
+        "note": "官方Instagram與Threads的店名、地址及公休日一致；個人頁og:image網址的efg參數解碼標記為profile_pic.www.1080.C3，確認為個人檔案頭像。查證子代理及主代理分別GET圖片，回應200、Content-Type image/jpeg；主代理另確認2382 bytes及JPEG檔頭。"
+      }
     }
   ],
   "pendingStores": []
