@@ -5339,6 +5339,47 @@
       },
       "coordinateSource": "https://www.google.com/search?tbm=map&q=%E5%A5%BD%E5%A5%BD%E5%81%9A%E7%83%98%E7%84%99+%E5%98%89%E7%BE%A9&hl=zh-TW",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整官方地址、市場名稱與攤位地址變體、店名及街道／城市結構化查詢，均未取得門牌結果。改讀Google Maps公開搜尋頁的原生商家JSON，查證子代理及主代理分別確認同一商家物件：名稱「好好做烘焙（營業日依臉書公告」、地址600嘉義市西區北興公有市場一區7號、官方網站連至facebook.com/hohohanphang，地點識別0x346e95034506b867:0xe46c0ad3e1463a1a（https://www.google.com/maps?cid=16459542643266173466）。採商家物件獨立位置欄位23.4831845、120.4437042，非@地圖視窗中心；精度為Google商家標記，未驗證市場內攤位入口。環境無可用瀏覽器，實際開啟Google提供的地點頁仍為JS空殼，未完成瀏覽器地點網址!3d與!4d核對程序，如實保留此限制，未呼叫付費Geocoding API。"
+    },
+    {
+      "id": "wanchataiwan",
+      "verification": false,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "灣茶 Wan Cha",
+      "address": "台中市西區華美西街一段195巷1弄7號",
+      "social": {
+        "facebook": "https://www.facebook.com/WanChaTaiwan/",
+        "instagram": "https://www.instagram.com/wanchataiwan/",
+        "threads": "https://www.threads.com/@wanchataiwan"
+      },
+      "sources": [
+        "https://www.threads.com/@wanchataiwan",
+        "https://www.instagram.com/wanchataiwan/",
+        "https://www.facebook.com/WanChaTaiwan/",
+        "https://www.wanchataiwan.com/",
+        "https://www.wanchataiwan.com/teaceremony/"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為布林值false。查證子代理及主代理分別讀取官方Threads公開頁，名稱為「灣茶 Wan Cha」，簡介明列台中西區華美西街一段195巷1弄7號及白天茶館、晚上茶酒吧。官網首頁直接連結同名Instagram與Facebook，茶席體驗資訊明列相同地址為體驗地點，確認為對外營業地址。Instagram亦說明台灣茶販售、茶事預約及晚間全預約制；依茶館業態沿用甜點飲料分類。已比對全部既有紀錄（含disabled），未發現同名、同址或相同社群帳號。頭像未完成查證，未填入。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "白天為茶館，晚間採全預約制；現行營業時間、公休日及活動請向官方社群確認。",
+        "sources": [
+          "https://www.instagram.com/wanchataiwan/",
+          "https://www.threads.com/@wanchataiwan",
+          "https://www.wanchataiwan.com/新台式茶館｜沉浸式體驗｜不同茶面貌｜灣茶tea-house/",
+          "https://www.wanchataiwan.com/阮的品茶空間-｜-灣茶-tea-house-bar/"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "官方Instagram簡介確認晚間全預約制，Threads簡介說明每月活動行事曆在IG動態精選。官網2024-03-21文章列一、三、四、日13:00–21:00、二休、五六13:00–18:00及20:00–24:00；2024-02-10文章則列日～四12:00–21:00、五六12:00–24:00。兩篇時段及公休日不同，且未確認現行適用，故不填定固定週表，標示待確認。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1600734,
+        "lng": 120.6624926
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8535011265",
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址（台中／臺中）查詢無結果，改用street=7 華美西街一段195巷1弄、city=臺中市、county=西區、country=Taiwan結構化查詢取得精確門牌節點8535011265。子代理及主代理分別讀取OSM節點API，核對addr:full為臺中市西區忠誠里17鄰華美西街一段195巷1弄7號，行政區、街道及門牌與官方對外地址相符；採節點數值座標，非道路中心。"
     }
   ],
   "pendingStores": []
