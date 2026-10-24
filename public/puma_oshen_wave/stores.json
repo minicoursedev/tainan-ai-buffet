@@ -5748,6 +5748,43 @@
       },
       "coordinateSource": "https://www.google.com/maps/place/日日利商號/data=!4m7!3m6!1s0x346e95004356c297:0x5743c2c0196f55b3!8m2!3d23.4779918!4d120.4563322!16s%2Fg%2F11zx40spzr!19sChIJl8JWQwCVbjQRs1VvGcDCQ1c",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果；結構化查詢僅回傳文昌街道路，未採道路中心。改以Playwright瀏覽器查詢Google Maps，核對店名「日日利商號」及地址卡「600嘉義市東區民族里文昌街117號」，與使用者提供地址及PTT買肉討論相符。採地點網址!3d23.4779918、!4d120.4563322，非@地圖視窗中心；主代理另GET同一地點網址，核對店名、地點ID及數值座標一致，未呼叫付費Geocoding API。"
+    },
+    {
+      "id": "jiqin-shishe",
+      "verification": false,
+      "category": "小吃",
+      "giftStatus": "可能有小物",
+      "name": "雞禽食舍",
+      "address": "嘉義縣太保市祥和一路東段90號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.tissa.tw/commercialdistrict/shop_detail.php?mtid=88797544&sd=108",
+        "https://www.ubereats.com/tw/store/雞禽食舍/MShbGGyvUtO0yRMvdGV-iA",
+        "https://www.openstreetmap.org/node/12648972206"
+      ],
+      "verifiedAt": "2026-10-24",
+      "verificationNote": "使用者指定收錄，verification依本次指示設為布林值false。查證子代理與主代理分別核對數位福袋店家頁及Uber Eats商家頁，店名與對外營業地址皆為雞禽食舍、嘉義縣太保市祥和一路東段90號；依炸雞、雞排、鹽酥雞等業態沿用小吃分類。未查證到官方Facebook、Instagram及Threads，均留空；頭像未確認，未填入。已比對全部既有紀錄（含disabled）的店名、地址及社群，未發現重複。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "實體店營業時間待確認。",
+        "sources": [
+          "https://www.tissa.tw/commercialdistrict/shop_detail.php?mtid=88797544&sd=108",
+          "https://www.ubereats.com/tw/store/雞禽食舍/MShbGGyvUtO0yRMvdGV-iA"
+        ],
+        "checkedAt": "2026-10-24",
+        "auditNote": "數位福袋店家頁未列營業時間；Uber Eats僅提供外送供應時段，不能直接視為實體店營業週表，週日未顯示時段亦不據此認定公休，故不填定。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4581932,
+        "lng": 120.2982366
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/12648972206",
+      "coordinateNote": "2026-10-24 查證子代理以OpenStreetMap Nominatim結構化門牌查詢取得節點12648972206；主代理另讀OSM節點API，核對addr:full為嘉義縣太保市安仁里14鄰祥和一路東段90號、資料來源為嘉義縣政府，與數位福袋及Uber Eats公開營業地址相符。採該門牌節點數值座標23.4581932、120.2982366，未使用道路中心。"
     }
   ],
   "pendingStores": []
