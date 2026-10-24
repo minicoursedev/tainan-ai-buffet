@@ -62,12 +62,12 @@
         "source": "https://www.zenolai.tw/"
       },
       "shopPhoto": {
-        "url": "https://www.zenolai.tw/asset/types/zenolai/img/people.png",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/zenolai-campaign-headquarters.png?v=e1e85502aed4bda4",
         "source": "https://www.zenolai.tw/",
         "platform": "website",
         "status": "verified",
-        "checkedAt": "2026-10-22",
-        "note": "官網介紹區人物照片，已實看確認；帶入 minicourse.dev 的 Origin 與 Referer 實際 GET 回應 HTTP 200、image/png，未帶 Cross-Origin-Resource-Policy 限制標頭。"
+        "checkedAt": "2026-10-25",
+        "note": "已確認官方網站「認識瑞隆」既有頭像位置 .about_left img；本站保存 512 × 512、完整置中、不放大；來源尺寸 1302 × 1418。"
       },
       "disabled": false,
       "latlng": {
@@ -146,12 +146,12 @@
         "auditNote": "官方 Threads 簡介明載16:30–23:30及十月每週六店休，Instagram 簡介亦列16:30–23:30、週六公休，另提示雙十節三天店休。採本次一致的官方簡介，不採第三方較舊的16:00或17:00時段。"
       },
       "shopPhoto": {
-        "url": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-19/568344655_18390889492192650_8724123375494522653_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=107&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=SXYp1PLlKJEQ7kNvwHjFsdN&_nc_oc=Ado7Yomq3DvRAJsdIGLECXFmFnn_QJolEO4ElBYzNJBnNV-kjC6ozW0zP-p8UcV0spc&_nc_zt=24&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=bmQfusP1Z3doBFl44qNxOw&_nc_ss=7f500&oh=00_AQM2Dk_1ifdAsHg4_3YHeBO1o6cg7cWJ1zic0rmDdDt_0A&oe=6ADFF3B6",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/howwow-dashe.png?v=180cb24406820857",
         "source": "https://www.instagram.com/howwow168/",
         "platform": "instagram",
         "status": "verified",
-        "checkedAt": "2026-10-22",
-        "note": "官方 Instagram 個人頁名稱及帳號與 Threads 互鏈吻合；頭像網址 efg 解碼明載 profile_pic.www.1080.C3，確認為個人檔案頭像。完整圖片網址實際 GET 回應 HTTP 200、image/jpeg。"
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；好窩「大社創始店」 (@howwow168) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
       },
       "disabled": false,
       "latlng": {
@@ -192,12 +192,12 @@
         "auditNote": "官方 Threads、Instagram 簡介皆提示營業時間以Google地圖為準。Google Maps 僅顯示部分內容，首次預覽為週六15:30開始，重新載入並展開後僅見星期四15:00–18:00，未取得一致完整週表；官方近期貼文亦有平日開攤及臨時休息公告，故不填定固定營業時間與公休日。"
       },
       "shopPhoto": {
-        "url": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-19/729778103_18592874560026364_5375231447298488015_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=PK5kmlLYBFYQ7kNvwHMcg_R&_nc_oc=Adpb-aec9JO1A5Tfq9mpC_uyhTvQvxulGzRUj_wkSDDLIefwNcz0R2B85UpWSbJ7Uxg&_nc_zt=24&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=dRfGHYj1yOFvJmusUKYGnw&_nc_ss=7f689&oh=00_AQNb1myhKVoVOOEMNLORn3Zsht2MXx4If2-mvE9usDr4PQ&oe=6ADFDFB1",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/bltchcake.png?v=722918219dcba6d7",
         "source": "https://www.instagram.com/bltchcake/",
         "platform": "instagram",
         "status": "verified",
-        "checkedAt": "2026-10-22",
-        "note": "官方 Instagram 個人頁名稱與地址對應店家；img alt 明示 bltchcake's profile picture，HTTP 200 image/jpeg"
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；賤人雞蛋糕feat.高雄打狗燒 (@bltchcake) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
       },
       "disabled": false,
       "latlng": {
@@ -237,12 +237,12 @@
         "auditNote": "本次官方 Threads 個人頁簡介明載完整週間時段及備料可能延後營業的註記；採官方現行資訊，不沿用較舊食記時段。"
       },
       "shopPhoto": {
-        "url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/684670439_17987601698991789_6906106866538812340_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=108&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40ODYuQzMifQ%3D%3D&_nc_ohc=-sJ4HS8a7AwQ7kNvwFcBWFP&_nc_oc=AdpjqJQlnUCr9KlxlCsfnMK9P9PTAU8LDDyPyNMSi8zsJyf3Zgt09xOzvKJMdTvkKdU&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=LJxjzDxjbSThXwShhGEl6g&_nc_ss=7f500&oh=00_AQOpKC3ADWnRblj9KwSp-qpujddsRT0FpcjmN29FcY3XQQ&oe=6AE0249F",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/sian-beauty.png?v=2f915025cfd0f4db",
         "source": "https://www.instagram.com/sian.beauty/",
         "platform": "instagram",
         "status": "verified",
-        "checkedAt": "2026-10-22",
-        "note": "官方 Instagram 個人頁名稱、帳號與地址對應店家；頭像網址 efg 解碼 vencode_tag 為 profile_pic.www.486.C3，確認為個人檔案頭像。完整圖片網址 GET 回應 HTTP 200、image/jpeg，圖片為鮮丼魚圖店徽。"
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；鮮丼生魚片龍華市場141攤 (@sian.beauty) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
       },
       "disabled": false,
       "latlng": {
@@ -285,12 +285,12 @@
         "auditNote": "米其林店家頁列週二至週日08:30–15:30、週一休；2026年2月13日食記則列07:30–15:30、週一休且售完提早打烊。起始時間不同，Facebook 直接讀取僅見登入或暫時封鎖頁，Instagram 可讀個人頁未列可核對的完整時段；未能以官方現行資訊解消矛盾，故不填定固定營業時間與公休日。"
       },
       "shopPhoto": {
-        "url": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/302481064_555147413075997_4434614251461984347_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1432&ctp=s200x200&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=xsXBi9FQnm8Q7kNvwEkKoHq&_nc_oc=AdqJ9aQBzfgWASIzawqf_o-ryo_A_Ackr_qeqxH0Ve7wAjFHySWxZElt05xK0mS6JIs&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=EUgHGZa7EuKduTGBaOi4Mg&_nc_ss=79289&oh=00_AQOlA0j2Cb6GF_eeQ268IoLOWlLMsU0hS9wzE1lyERkU_Q&oe=6AE0AEB4",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/sm3542.png?v=ee5159b54dcbec57",
         "source": "https://www.facebook.com/sm3542/",
         "platform": "facebook",
         "status": "verified",
-        "checkedAt": "2026-10-23",
-        "note": "官方 Facebook 個人頁店名、永平街41號及電話07-662-4625與既有店家資料相符。頁面 JSON profilePhoto.id=555147436409328、profilePicLarge.uri 與頁首168px圓形 SVG 頭像及相同 fbid 照片連結交叉核對，確認為個人檔案頭像；完整圖片網址實際 GET 回應200 image/jpeg，主代理另核對 DOM 與圖片回應一致。"
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；旗山秀明豬心冬粉 | Kaohsiung ；本站保存 512 × 512、完整置中、不放大；來源尺寸 720 × 716。"
       },
       "disabled": false,
       "latlng": {
@@ -375,12 +375,12 @@
         "source": "https://www.instagram.com/huangjie_official/"
       },
       "shopPhoto": {
-        "url": "https://scontent.cdninstagram.com/v/t51.82787-19/588043865_18547113115010538_8388453142529521495_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=pEzoS9zLFHQQ7kNvwGJK4Et&_nc_oc=AdoxI5QhHqz-9LfjFBqg7cC93uit0YW7-7ddfs2V58TsZpbydbGQJbR9gIXbylo3lVQ&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=WE6e-Lssg-gLXWvoWSluAA&_nc_ss=7f500&oh=00_AQMDB_1OKKF_ZdXMcBhX4r-mjqFH62Ddd47qZ9WqURI2Pg&oe=6AE29C9E",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/huang-jie-service-office.png?v=7d1e986a47fdf330",
         "source": "https://www.instagram.com/huangjie_official/",
         "platform": "instagram",
         "status": "verified",
-        "checkedAt": "2026-10-24",
-        "note": "官方Instagram個人頁og:title為黃捷HuangJie (@huangjie_official)，自介地址與指定Threads一致；og:type為profile，頭像URL的efg資料明示profile_pic.www.1080.C3，查證子代理實看為黃捷白色西裝半身人像，非貼文或封面。主代理另讀同一官方頁確認頭像檔名一致，圖片GET回應HTTP 200、image/jpeg。保留完整CDN簽章參數，網址可能到期。"
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；黃捷HuangJie (@huangjie_official) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
       },
       "disabled": false,
       "latlng": {
@@ -424,12 +424,12 @@
         "auditNote": "查證子代理與主代理直接讀取官方社群公開自介：Threads及Instagram列11點–17點、17點最後收客及點餐；Facebook列11:00–17:30、最後點餐17:00。打烊時間有差異，故標為unverified，不填定關店時間。公休日以官方Google地圖為準，不推定固定每週營業日；未採2023年食記的10:00–18:00、週二公休或商圈頁的部分營業日。"
       },
       "shopPhoto": {
-        "url": "https://scontent-lax3-2.cdninstagram.com/v/t51.2885-19/292212768_1067583220851549_578633537990689011_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=JtTUx7Nu2nYQ7kNvwHGn89U&_nc_oc=AdqIFTxQP8JFj0SYYX3sHD-Ek_hhtTjWWSMamh429Twq5ccFFJFALjqnNLLERnpNZFs&_nc_zt=24&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_ss=7f500&oh=00_AQM-SiZPC27TaMAR3Fnxq_knf78hekdKkhXeTNUTBrSxrQ&oe=6AE2890B",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/meet-the-old-house-coffee.png?v=76a34d76025e1d76",
         "source": "https://www.instagram.com/meet.the.old.house.coffee/",
         "platform": "instagram",
         "status": "verified",
-        "checkedAt": "2026-10-24",
-        "note": "官方Instagram個人頁標示癒見老宅咖啡-高雄咖啡 高雄美食 寵物友善（@meet.the.old.house.coffee），與既有官方Threads及高雄商圈官方店家頁連結相符；頁面og:type為profile，圖片網址efg參數解碼明確標示profile_pic.www.1080.C3，確認為個人檔案頭像。查證子代理及主代理實際GET確認HTTP 200、Content-Type image/jpeg、2409 bytes、JFIF格式。"
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；癒見老宅咖啡-高雄咖啡 高雄美食 寵物友善 (@meet.the.old.house.coffee) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
       },
       "disabled": false,
       "latlng": {
@@ -557,12 +557,12 @@
         "auditNote": "查證子代理與主代理直接讀取官方Instagram公開貼文，原文皆寫「表訂營業時間 中午10:00至晚上22:00」，另稱其他時間可LINE討論、目前暫無固定公休日並請提前預約。起始時間的「中午」與10:00有歧義，故不填定完整營業時段；保留預約制及無固定公休資訊，請先向官方LINE確認。官方Threads自介亦請至官方LINE預約。"
       },
       "shopPhoto": {
-        "url": "https://scontent-lax3-1.cdninstagram.com/v/t51.82787-19/514595645_18466318900073973_2137504379228009347_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHB9Cy2u9xd66yYu_zxpHs7XXQoBiZx0h3HRmVdqyTVhDR57OgMLkWdYmz4uD7RLgA&_nc_ohc=RX8ZyjZ_D_kQ7kNvwF3C62a&_nc_gid=6Upauf1AgRtAhZWUapAYEA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQPBSZrESluE8gal9jqgrhHcP9co3dsGbsyFND4L4LLgvQ&oe=6AE287AE&_nc_sid=10d13b",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/chun-massage.png?v=7b41a2d7d46646d3",
         "source": "https://www.threads.com/@chun_massage",
         "platform": "threads",
         "status": "verified",
-        "checkedAt": "2026-10-24",
-        "note": "官方Threads帳號chun_massage公開個人檔案的profile_pic_url，非貼文圖或封面；店名、個人工作室介紹及LINE預約帳號與官方Instagram相符。查證子代理及主代理實際GET確認HTTP 200、Content-Type為image/jpeg。"
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；春·舒壓按摩工作室chun_massage (@chun_massage) • Threads, Say more；本站保存 512 × 512、完整置中、不放大；來源尺寸 640 × 640。"
       },
       "disabled": false,
       "latlng": {
@@ -604,12 +604,12 @@
         "auditNote": "查證子代理核對官方Threads與Instagram自介，主代理另直接讀取官方Threads確認Hours:11：20~售完為止（最晚到15:00）。官方列有當月店休日期，故不採舊食記的固定週三公休；休假異動請以官方公告為準。"
       },
       "shopPhoto": {
-        "url": "https://scontent-lax7-1.cdninstagram.com/v/t51.82787-19/825322189_18483196438106439_2627967960920293908_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=101&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=XdZgrG_n3IEQ7kNvwEuok7P&_nc_oc=AdqsID6cdZHe-GYyl8D3PrXBFN2Z_R06YfdnFaYQSGy-PtqOWIPFVxI06cx5PY_cNLw&_nc_zt=24&_nc_ht=scontent-lax7-1.cdninstagram.com&_nc_gid=RtN9s9pYfLNYh6YQhRnSNw&_nc_ss=7960f&oh=00_AQNfC6VKaV7GLYOUDAxsWQG42rkvrwiI5CJeQxnxNp1mDA&oe=6AE27D32",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/smoko-salad-bar.png?v=5a5bab09a3946376",
         "source": "https://www.instagram.com/smokosaladbar/",
         "platform": "instagram",
         "status": "verified",
-        "checkedAt": "2026-10-24",
-        "note": "官方Instagram個人頁標示Smoko Salad Bar (@smokosaladbar)，與官方Threads及食記連結相符；圖片網址efg參數解碼明確標示profile_pic.www.1080.C3，確認為個人檔案頭像，非貼文圖或封面。查證子代理及主代理實際GET確認HTTP 200、Content-Type image/jpeg、2304 bytes。"
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Smoko Salad Bar (@smokosaladbar) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
       },
       "disabled": false,
       "latlng": {

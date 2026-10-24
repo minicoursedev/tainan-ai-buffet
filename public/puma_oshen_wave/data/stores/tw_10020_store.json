@@ -62,12 +62,12 @@
       "coordinateSource": "https://www.google.com/search?tbm=map&hl=zh-TW&q=%E6%A1%83%E5%9F%8E%E7%83%B9%E8%8C%B6%20%E5%98%89%E7%BE%A9%E5%B8%82%E6%96%87%E5%8C%96%E8%B7%AF168%E8%99%9F",
       "coordinateNote": "2026-10-24 先以OSM Nominatim完整地址、店名及街道門牌結構化查詢，未取得門牌結果，僅有文化路道路資料，未採用。改讀Google Maps公開搜尋頁所載入的地點JSON；查證子代理及主代理分別取得同一商家物件，店名為「嘉義必喝！桃城烹茶『耐喝系』公休請看臉書與IG」，地址為600嘉義市西區中央里文化路168號，官方網站指向taocheng.cookingtea Instagram，地點識別為0x346e9564a765edf7:0x6236a9049041a6f1（https://www.google.com/maps?cid=7077029701524498161）。採用此商家物件獨立位置欄位的23.4792071、120.44982979999999，非地圖視窗中心。實際以公開頁JSON查證，未取得含!3d與!4d的原生地點網址，亦未以瀏覽器操作取得，不宣稱已完成該網址步驟。",
       "shopPhoto": {
-        "url": "https://scontent.cdninstagram.com/v/t51.82787-19/564720996_18058759169537408_4391317948117081758_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=110&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zMjAuQzMifQ%3D%3D&_nc_ohc=6xFj-bPb3ecQ7kNvwHQ3-uW&_nc_oc=AdpODIfgobvXvJMkkfceicCl92sKgrgkPtS2N_HdWtlZRdy4673MrSdWmuSWIikhSKI&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=MgfXyWGl0UhN9Q1E7J7h1g&_nc_ss=79500&oh=00_AQOvf_KCBoWZj2e5l8JtBFZ4qTc8NmjJ8pq4fvNNg0gQqg&oe=6AE27903",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/taocheng-cookingtea.png?v=5ffc5cb6177981af",
         "source": "https://www.instagram.com/taocheng.cookingtea/",
         "platform": "instagram",
         "status": "verified",
-        "checkedAt": "2026-10-24",
-        "note": "查證子代理核對官方 Instagram 個人頁，帳號與品牌名稱一致，頁面 og:type 為 profile；頭像網址 efg 參數解碼為 profile_pic.www.320.C3，確認為個人檔案頭像，非貼文或封面。主代理 GET 圖片回應 200、Content-Type image/jpeg，並確認 JPEG 檔頭。"
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；全台唯一桃城烹茶｜嘉義在地品牌｜文化路夜市 (@taocheng.cookingtea) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
       }
     },
     {
@@ -184,12 +184,12 @@
       "coordinateSource": "https://www.google.com/maps/place/%E8%B2%B3%E9%99%B8%E9%99%B8%E6%9D%89Space/@23.4817667,120.460084,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9562ef0a1e29:0x306e8240261a71f9!8m2!3d23.4817667!4d120.460084!16s%2Fg%2F11kq4s0nwg",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址、結構化街道門牌及店名查詢，未取得符合門牌結果；僅有民國路道路資料，未採用道路中心。改以既有Chromium瀏覽器查詢Google Maps，子代理及主代理分別開啟「貳陸陸杉Space」地點頁，確認地址600嘉義市東區東興里民國路182號及電話05 276 2663，與官方Threads及經營單位官網相符。採地點網址!3d23.4817667、!4d120.460084的緯經度，非@地圖視窗中心，未呼叫付費Geocoding API。",
       "shopPhoto": {
-        "url": "https://scontent-lax3-1.cdninstagram.com/v/t51.82787-19/846101538_17994763842103318_9129596276723159132_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gHKOqQc18-z22d3LLzdYsPgEgneqwO5bEQDrnXWSE0eKVexcM5ZwzDGTL6UOQEZo9Y&_nc_ohc=42mm-AVqImgQ7kNvwHYOGep&_nc_gid=Vmt9qj_I8e3trY-P43cTRw&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQOPyDW-Rf_UAI0N0KIvZWafW_oJdmAM-ORAiND24sxXNg&oe=6AE27377&_nc_sid=10d13b",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/2663space.png?v=f2fbbdb2a3950b02",
         "source": "https://www.threads.com/@2663space",
         "platform": "threads",
         "status": "verified",
-        "checkedAt": "2026-10-24",
-        "note": "查證子代理核對官方Threads名稱、民國路182號及營業時間與經營單位資料一致；頁面圖片alt為「2663space的大頭貼照」，確認為個人檔案頭像。子代理及主代理分別GET圖片，均回應200、Content-Type image/jpeg，JPEG檔頭成立。"
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；貳陸陸杉Space｜插座空間｜咖啡美食｜辦公聊天 (@2663space) • Threads, Say more；本站保存 512 × 512、完整置中、不放大；來源尺寸 640 × 640。"
       }
     },
     {
@@ -229,12 +229,12 @@
       "coordinateSource": "https://www.google.com/maps/place/%E6%98%95%E6%A8%82%E3%84%A9%E3%84%9D%CB%8B%E5%8F%AF%E9%A0%8C%E5%B0%88%E8%B3%A3%E5%BA%97(%E5%8E%9F%E5%B9%B8%E7%A6%8F%E7%84%A1%E9%99%90)/@23.4776891,120.460271,15z/data=!4m6!3m5!1s0x346e95c6895b6657:0xc184a539247c20a4!8m2!3d23.4776891!4d120.460271!16s%2Fg%2F11f3rglfvn?coh=164777&entry=tt&shorturl=1",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果；結構化街道門牌查詢僅回傳延平街道路，未採道路中心。改用店家合作文所列嘉義市東區延平街9號旁的Google Maps短連結https://goo.gl/maps/JoVDpUSX6X2ZAzLh9，查證子代理及主代理核對轉址地點名「昕樂ㄩㄝˋ可頌專賣店(原幸福無限)」與官方名稱及沿革一致，地址另與官方Threads交叉核對。採轉址地點網址!3d23.4776891、!4d120.460271，非@地圖視窗中心；未取得可讀的Google Maps地址卡，未呼叫付費Geocoding API。",
       "shopPhoto": {
-        "url": "https://scontent-lax3-1.cdninstagram.com/v/t51.2885-19/476634847_931260035452049_3206689908659978359_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=108&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zOTYuQzMifQ%3D%3D&_nc_ohc=oMUxnU_nU8sQ7kNvwG2gcnN&_nc_oc=Adob3LNneF5mmMpvhJ-rsqRuJtgbehp2lZs3Xoa26ygzepXLiF4FM-UjJsNBUbfK_7s&_nc_zt=24&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_ss=7f500&oh=00_AQOKSR_C77t5YNrk_b-uhAB84ZiL-5iB-gsSLR2ehhWIkw&oe=6AE27179",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/felicitacroissant.png?v=4eae9c05e059ca37",
         "source": "https://www.instagram.com/felicitacroissant/",
         "platform": "instagram",
         "status": "verified",
-        "checkedAt": "2026-10-24",
-        "note": "官方Instagram與Threads同名同帳號，並由店家合作文直接連結確認；個人頁og:image網址的efg解碼標記為profile_pic.www.396.C3，確認為個人檔案頭像。主代理GET圖片回應200、Content-Type image/jpeg、2344 bytes，並確認JPEG檔頭。"
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；昕樂ㄩㄝˋ烘焙 (@felicitacroissant) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
       }
     },
     {
@@ -274,12 +274,12 @@
       "coordinateSource": "https://www.google.com/maps/place/%E5%AF%8C%E5%93%81%E7%8F%8D%E8%B2%B4%E6%9C%A8%E6%9D%90%E7%A0%94%E7%A9%B6%E5%AE%A4%26Kagikaki%E6%B0%B4%E6%96%87%E5%88%A8%E5%86%B0/@23.4639749,120.4326534,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9731a2eed1e9:0xf0a020573249f0d3!8m2!3d23.4639749!4d120.4326534!16s%2Fg%2F11hdtvmtfh?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap完整地址查詢無結果；結構化門牌及簡化地址查詢僅回傳重慶路道路資料，未採道路中心。改以瀏覽器開啟官方Threads提供的Google Maps短連結，核對地點名「富品珍貴木材研究室&Kagikaki水文刨冰」、地址嘉義市西區福民里重慶路324號及電話05-2360533，與官方簡介相符。採地點網址!3d23.4639749、!4d120.4326534的緯經度，非@地圖視窗中心；主代理核對官方短連結轉址名稱、地址及地點網址參數。",
       "shopPhoto": {
-        "url": "https://scontent.cdninstagram.com/v/t51.82787-19/539507725_18055693472616709_2641465690296695152_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=110&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=dEpKjJbWSfAQ7kNvwFcMi9R&_nc_oc=AdrECTvocUY5LFqnq4_bp8DRaWxa-kGUv0UOVfjp01aG2ctYpX7UmG9CaGYyPeBEzrI&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=lpSEYk_yZtfoWzBY5Fwitw&_nc_ss=7f500&oh=00_AQO8csQI5Sj40USKFExHw0A_cQaW3hAYJgxqnEDPRfPVrw&oe=6AE268C9",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/kagi-kaki-kakigori.png?v=f8114d8622414fe8",
         "source": "https://www.instagram.com/kagi.kaki.kakigori/",
         "platform": "instagram",
         "status": "verified",
-        "checkedAt": "2026-10-24",
-        "note": "官方Instagram簡介與Threads同名同址同營業時間；查證子代理以瀏覽器確認頭像img的alt為kagi.kaki.kakigori's profile picture，與此圖片同一檔名。主代理確認圖片網址efg標記為profile_pic.www.1080.C3，GET回應200、Content-Type image/jpeg、2941 bytes及JPEG檔頭。"
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑； (@kagi.kaki.kakigori) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
       }
     },
     {
@@ -319,12 +319,12 @@
       "coordinateSource": "https://www.google.com/maps/place/%E5%90%BE%E7%BE%8EYUME%E9%A3%BE%E5%93%81%EF%BD%9C%E7%A6%AE%E5%93%81%EF%BD%9C%E9%81%B8%E7%89%A9%E5%BA%97/@23.478216,120.446523,1002m/data=!3m2!1e3!4b1!4m6!3m5!1s0x346e95000fae1e8b:0x741c891a3f0a6499!8m2!3d23.478216!4d120.4490979!16s%2Fg%2F11w1k1h7dj?entry=ttu&g_ep=EgoyMDI1MDkyNC4wIKXMDSoASAFQAw%3D%3D",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址、門牌變體及結構化查詢，未取得符合門牌結果；道路中心未採用。改查合作品牌甜馨工作室官網吾美店家地址旁的Google Maps地點連結，採!3d23.478216與!4d120.4490979，非@視窗中心。子代理與主代理分別GET完整地點網址，回應200，頁面APP_INITIALIZATION_STATE的店名為吾美YUME飾品｜禮品｜選物店，地點ID及數值座標一致，並以官方社群的光彩街462號之一交叉核對合作頁門牌關聯。網頁瀏覽工具無法開啟地點頁，未操作可視瀏覽器或取得詳細地址卡；未呼叫付費Geocoding API。",
       "shopPhoto": {
-        "url": "https://scontent.cdninstagram.com/v/t51.82787-19/794946804_18115373420084543_7683352251949867177_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=105&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=uv_QPyNqB2oQ7kNvwFf1OD_&_nc_oc=AdoiBF2h3Ol2vNUB-8N0-4y-OJKazl9x0cDgTMRwR6DOFt10VUOk08SshRTqFGVGl68&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=x_YZYoz061_n3R-Ccseylw&_nc_ss=7f500&oh=00_AQOMUnA9cMK3HVDDXXIZbWnLE26NPAxu4c_bEyTQcvyslQ&oe=6AE287CA",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/yume27-14.png?v=7a2886912c0b2cf2",
         "source": "https://www.instagram.com/yume27.14/",
         "platform": "instagram",
         "status": "verified",
-        "checkedAt": "2026-10-24",
-        "note": "官方Instagram與Threads的店名、地址及公休日一致；個人頁og:image網址的efg參數解碼標記為profile_pic.www.1080.C3，確認為個人檔案頭像。查證子代理及主代理分別GET圖片，回應200、Content-Type image/jpeg；主代理另確認2382 bytes及JPEG檔頭。"
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；吾美 ✦ 嘉義市｜文創·禮品·文具·花束 (@yume27.14) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
       }
     },
     {

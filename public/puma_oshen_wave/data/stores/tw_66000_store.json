@@ -104,12 +104,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8535014721",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，改用street=96 華美街、city=臺中市、country=Taiwan結構化查詢取得精確門牌節點8535014721。主代理讀取OSM節點API，確認addr:full為臺中市西區昇平里33鄰華美街96號，行政區、街道及門牌與官方對外地址相符；採節點數值座標，為門牌位置，非道路中心。",
       "shopPhoto": {
-        "url": "https://scontent.cdninstagram.com/v/t51.2885-19/467200496_531496729718794_493168974394341102_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=110&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=64_KKlbBRoUQ7kNvwEZ2ibH&_nc_oc=AdoC73PgG36ryOM5J6A3pXgFK0okE6pDBAqIb1Ukvk3bQ-YGcDtHB_Aad8-hXinGuc8&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7f500&oh=00_AQOAX6MM5EknafAl8K8i4lMQcTZ_G3_z9-OGQdxEvfm5Aw&oe=6AE27C30",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/thisishopein.png?v=ba1b53858ad4542a",
         "source": "https://www.instagram.com/thisishopein/",
         "platform": "instagram",
         "status": "verified",
-        "checkedAt": "2026-10-24",
-        "note": "官方Instagram自介與Threads同名、同址、同營業時間，並由官方Taplink連結確認帳號；個人頁圖片網址的efg解碼標記為profile_pic.www.1080.C3，確認為個人檔案頭像。查證子代理及主代理分別GET圖片，均回應200、Content-Type image/jpeg、2500 bytes，主代理另確認JPEG檔頭。"
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Hope.in Studio (@thisishopein) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
       }
     }
   ],
