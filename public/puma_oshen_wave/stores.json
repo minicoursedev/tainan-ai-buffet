@@ -14,7 +14,7 @@
     "3C 通訊",
     "書店",
     "服飾鞋店",
-    "雜貨店",
+    "選物雜貨",
     "運動用品",
     "桌遊",
     "酒吧",
@@ -536,7 +536,7 @@
     },
     {
       "id": "selten-dac",
-      "category": "雜貨店",
+      "category": "選物雜貨",
       "giftStatus": "可能有小物",
       "name": "南德 難得 Selten",
       "address": "台南市中西區協和街68號",
@@ -1053,7 +1053,7 @@
     {
       "id": "about-dream-anping",
       "name": "About Dream 關於夢想（安平夢裡店）",
-      "category": "雜貨店",
+      "category": "選物雜貨",
       "address": "台南市安平區安平路296號",
       "social": {
         "facebook": "",
@@ -4328,7 +4328,7 @@
     },
     {
       "id": "no19store",
-      "category": "雜貨店",
+      "category": "選物雜貨",
       "giftStatus": "可能有小物",
       "name": "十九號二手屋",
       "address": "台南市東區裕農路389巷3弄19號1樓",
@@ -4919,7 +4919,7 @@
     },
     {
       "id": "un603un",
-      "category": "雜貨店",
+      "category": "選物雜貨",
       "giftStatus": "可能有小物",
       "name": "溫溫選物所｜UN Lifestyle",
       "address": "台南市中西區忠義路一段60巷3號",
@@ -4961,7 +4961,7 @@
     },
     {
       "id": "shiwustudio",
-      "category": "雜貨店",
+      "category": "選物雜貨",
       "giftStatus": "可能有小物",
       "name": "什物／Shiwu Studio",
       "address": "台南市中西區南寧街83巷32號",
