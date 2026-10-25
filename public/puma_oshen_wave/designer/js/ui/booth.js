@@ -98,8 +98,7 @@ function boothHtml(booth, store) {
       ${storeUrl ? `<a class="btn btn-primary" href="${esc(storeUrl)}" target="_blank" rel="noopener">看設計師</a>` : ''}
       <span class="bo-count muted">${works.length ? `共 ${Number(booth.total) || works.length} 部作品` : ''}</span>
       <div class="bo-share">
-        <button type="button" class="btn" data-copy-booth>複製攤位連結</button>
-        <a class="link-btn" data-booth-link href="${esc(designerBoothUrl(booth.store))}">攤位連結</a>
+        <button type="button" class="btn" data-copy-booth="${esc(designerBoothUrl(booth.store))}">複製設計師連結</button>
         <span class="bo-share-status muted" role="status"></span>
       </div>
     </div>`;
@@ -159,14 +158,14 @@ function switchToWalk() {
 
 async function copyBoothLink(button) {
   const share = button.closest('.bo-share');
-  const link = share.querySelector('[data-booth-link]');
+  const link = button.dataset.copyBooth;
   const status = share.querySelector('[role="status"]');
   button.disabled = true;
   try {
-    await navigator.clipboard.writeText(link.href);
-    status.textContent = '攤位連結已複製';
+    await navigator.clipboard.writeText(link);
+    status.textContent = '設計師連結已複製';
   } catch {
-    status.textContent = '無法自動複製，請長按或右鍵複製「攤位連結」。';
+    status.textContent = `無法自動複製，請複製此網址：${link}`;
   } finally {
     button.disabled = false;
   }
