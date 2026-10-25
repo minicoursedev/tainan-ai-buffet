@@ -788,7 +788,7 @@
         "https://www.threads.com/@miss.mimi2.0/post/De4M8T7E23_"
       ],
       "verifiedAt": "2026-10-25",
-      "verificationNote": "2026-10-25 依使用者指定Threads，由查證子代理與主代理核對公開官方頁面後，確認為既有Miss Mimi店家，更新Threads為miss.mimi2.0，不新增紀錄。既有官方Instagram的DevcBbYNl4v及DerXupFN_-i貼文明示「排版：@miss.mimi2.0」「隆貓：@miss.mimi_one.ear」；指定Threads自介同列店經理miss.mimi_one.ear，公開貼文以經營者口吻介紹供餐、檸檬塔及高雄左楠地區，並標記與既有官方Facebook一致的店名「Miss Mimi Coffee｜蔬食咖啡館｜寵物友善｜」。子代理另核對官方Instagram的De4NC_Hmjx4與指定Threads的De4M8T7E23_為同一店家公告。以上交叉證據確認帳號關聯，不推定原miss.mimi.coffee帳號已更名。既有地址高雄市左營區新勝街21號未變，保留分類及已存門牌座標；已比對本次快照全部156筆紀錄（含disabled）的店名、地址及社群，僅有此既有店家。保留原verification、disabled與shopPhoto各欄位及既有圖片網址，頭像仍採既有官方Facebook來源。營業時間與公休日尚未取得足以消除來源差異的最新完整週表，維持待確認。",
+      "verificationNote": "2026-10-25 依使用者指定Threads重新查證，確認為既有Miss Mimi店家，不新增紀錄。查證子代理核對官方Instagram的DevcBbYNl4v及DerXupFN_-i貼文，作者均為miss.mimi.coffee，文案明列「排版：@miss.mimi2.0」「隆貓：@miss.mimi_one.ear」；指定Threads簡介同列店經理miss.mimi_one.ear。官方Instagram的De4NC_Hmjx4與指定Threads的De4M8T7E23_亦為同一店家公告，足以交叉確認帳號關聯，不推定原帳號更名。主代理直接讀取官方Facebook，確認og:url與既有帳號相符、店名為「Miss Mimi Coffee｜蔬食咖啡館｜寵物友善｜」；子代理另核對高雄商圈店家頁所列既有名稱、地址及實際外連Facebook。已比對本次快照全部156筆紀錄（含disabled）的店名、地址及社群，僅有此既有店家。保留原verification、disabled、ID、分類、地址及未變更地址的既有門牌座標。既有頭像網址保留，來源及圖片回應重新核對；完整營業週表與公休日仍待確認。",
       "openingHours": {
         "status": "unverified",
         "text": "營業時間與公休日待確認，請以店家Google地圖及官方公告為準。",
@@ -798,7 +798,7 @@
           "https://jtk-point.com/p/406-1142-12292,r487.php?Lang=zh-tw"
         ],
         "checkedAt": "2026-10-25",
-        "auditNote": "2026-10-25 查證子代理再次核對官方Instagram公開簡介，仍列週一至週五09:00–20:00、假日09:00–18:00；既有揪攤集店家資料列平日09:00–21:00、週六日09:00–18:00，平日閉店時間不同。主代理與子代理核對官方Facebook，簡介仍明示營業時間以Google地圖商家為準；本次未取得Google地圖當前完整營業時段及公休日，故不填定固定週表，維持unverified。"
+        "auditNote": "2026-10-25 查證子代理重新讀取官方Instagram公開簡介，仍列週一至週五09:00–20:00、假日09:00–18:00；既有揪攤集資料列平日09:00–21:00、週六日09:00–18:00，平日閉店時間不同。主代理直接讀取官方Facebook公開HTML，簡介仍明示「營業時間見google地圖商家最準確」。本次未取得Google地圖當前完整營業週表與公休日，故維持unverified，不填定固定時段。"
       },
       "disabled": false,
       "latlng": {
@@ -813,7 +813,7 @@
         "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 960 × 679。",
+        "note": "2026-10-25 主代理與查證子代理重新核對官方Facebook公開頁：og:url與本店帳號相符，頁名為「Miss Mimi Coffee｜蔬食咖啡館｜寵物友善｜」。子代理確認頁面路由image_url的正方形裁切圖與og:image使用相同圖片識別碼439864732_7715897811801847_6939266030158259964_n.jpg，支持其為頁面頭像。主代理依官方頁明示的完整og:image網址於記憶體檢查，HTTP 200、image/jpeg，JPEG尺寸960×679；未改寫尺寸或簽章參數，原生長邊足供256px Logo使用。保留既有圖片網址。",
         "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/miss-mimi-coffee.png?v=4b0d506663ae1f0a"
       }
     },
