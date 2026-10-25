@@ -20,9 +20,9 @@ from PIL import Image, ImageChops, ImageOps, ImageStat, UnidentifiedImageError
 
 ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / 'public/puma_oshen_wave/stores.json'
-ASSETS = ROOT / 'public/puma_oshen_wave/assets/store-avatars'
+ASSETS = ROOT / 'public/puma_oshen_wave/assets'
 PUBLIC_BASE = ('https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/'
-               'main/public/puma_oshen_wave/assets/store-avatars/')
+               'main/public/puma_oshen_wave/assets/')
 STATE = ROOT / 'scripts/store-avatar-sync-state.json'
 WORK = ROOT / '.avatar-sync'
 Image.MAX_IMAGE_PIXELS = 25_000_000
@@ -362,8 +362,15 @@ def render(image):
     x, y = (edge - content.width) // 2, (edge - content.height) // 2
     canvas.paste(content, (x, y))
     stream = io.BytesIO()
-    canvas.save(stream, format='PNG', optimize=True)
-    return stream.getvalue(), [x, y, x + content.width, y + content.height]
+    canvas.save(stream, format='WEBP', lossless=True, exact=True, method=6)
+    if stream.tell() <= 100_000:
+        return stream.getvalue(), [x, y, x + content.width, y + content.height]
+    for quality in (85, 75, 65, 55, 45):
+        stream = io.BytesIO()
+        canvas.save(stream, format='WEBP', quality=quality, method=6)
+        if stream.tell() <= 100_000:
+            return stream.getvalue(), [x, y, x + content.width, y + content.height]
+    raise ValueError('Logo WebP 超過 100 KB')
 
 
 def sync_one(store, previous, client, assets=ASSETS, reviewed=None):
@@ -372,7 +379,7 @@ def sync_one(store, previous, client, assets=ASSETS, reviewed=None):
         return previous, None, 'missing-source', '沒有官方頭像來源'
     if photo.get('status') != 'verified':
         return previous, None, 'needs-review', '既有頭像未確認為官方頭像'
-    path = assets / (store['id'] + '.png')
+    path = assets / store['id'] / 'logo.webp'
     old_valid = path.exists() and previous.get('sha256') == sha(path.read_bytes()) and previous.get('contentBox')
     attempts, selected = [], None
     sources = official_sources(store)
@@ -461,7 +468,7 @@ def sync_one(store, previous, client, assets=ASSETS, reviewed=None):
             old_image = old.crop(tuple(record['contentBox']))
             upgrade = max(old_image.size) < min(TARGET_EDGE, max(image.size))
             resize = old.size != (min(TARGET_EDGE, max(image.size)),) * 2
-            changed = resize or upgrade or not same_content(old_image, image)
+            changed = resize or upgrade or not (same_content(old_image, image) or sha(render(image)[0]) == record.get('sha256'))
         if changed:
             data, box = render(image)
             atomic_write(path, data)
@@ -471,10 +478,10 @@ def sync_one(store, previous, client, assets=ASSETS, reviewed=None):
                   '來源頭像內容改變' if changed else '像素內容相同或僅有輕微轉碼差異')
         record['imageValidators'] = validators(image_headers)
     record.update(source=source_photo['source'], imageUrl=image_url, evidence=evidence,
-                  filename=path.name, lastSuccess=now(), discoveryVersion=DISCOVERY_VERSION)
+                  filename=path.relative_to(assets).as_posix(), lastSuccess=now(), discoveryVersion=DISCOVERY_VERSION)
     if status != 304:
         record['sourceValidators'] = validators(headers)
-    url = PUBLIC_BASE + path.name + '?v=' + record['sha256'][:16]
+    url = PUBLIC_BASE + path.relative_to(assets).as_posix() + '?v=' + record['sha256'][:16]
     updated = copy.deepcopy(photo)
     if photo.get('url') != url or photo['source'] != source_photo['source']:
         updated.update(url=url, source=source_photo['source'], platform=source_photo['platform'],
@@ -482,7 +489,7 @@ def sync_one(store, previous, client, assets=ASSETS, reviewed=None):
                        note=evidence + '；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 ' +
                        ' × '.join(map(str, record['sourceSize'])) + '。')
     patch = None if updated == photo else {'id': store['id'], 'before': photo, 'after': updated,
-                                           'sha256': record['sha256'], 'filename': path.name}
+                                           'sha256': record['sha256'], 'filename': path.relative_to(assets).as_posix()}
     return record, patch, ('updated' if changed else 'unchanged'), reason
 
 
@@ -551,13 +558,13 @@ def prepare(args):
             store['shopPhoto'] = patches[store['id']]['after']
     write_json(args.work_dir / 'stores.candidate.json', candidate)
     print(json.dumps({key: report[key] for key in ('counts', 'requests', 'downloadedBytes')}, ensure_ascii=False))
-    print('正式 stores.json 未變更。先提交並推送 assets/store-avatars/，再執行 apply 驗證 GitHub Raw 圖片；無須部署網站。')
+    print('正式 stores.json 未變更。先提交並推送 assets/<店家ID>/logo.webp，再執行 apply 驗證 GitHub Raw 圖片；無須部署網站。')
 
 
 def verify_plan(plan, client, assets=ASSETS):
     evidence = []
     for patch in plan['patches']:
-        filename = patch['id'] + '.png'
+        filename = patch['id'] + '/logo.webp'
         if patch['filename'] != filename or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', patch['id']):
             raise ValueError('待發布圖片檔名無效')
         data = (assets / filename).read_bytes()

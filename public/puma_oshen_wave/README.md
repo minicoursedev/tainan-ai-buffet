@@ -86,3 +86,7 @@ python3 scripts/split-stores.py
 3. `display` 不影響轉檔；全部 22 個縣市皆產製，沒有店家者保留空陣列。分別處理 `stores`、`pendingStores`，並保留 disabled 店家與原始欄位。
 4. 原始頂層 metadata（含地圖名稱與中心點）原樣保留。維護時修改來源 `stores.json` 再重跑 script，不手動修改分檔。重跑會覆寫分檔，不改來源或總表。
 5. 官方原始 SHP、完整 GeoJSON 與其他簡化測試版留在網站外的工作區 `output/taiwan-counties/`。
+
+### WebP 縮圖（2026-10-25）
+
+店家與設計師 Logo 統一存於 `assets/<ID>/logo.webp`；設計師作品為 `assets/<ID>/1.webp`、`2.webp` 等，作品數不限。Logo 最長邊 256 px、作品最長邊 800 px，不放大，每張最多 100 KB。資料引用帶內容版本參數的 GitHub Raw 網址，原始來源保留。舊版 PNG 檔保留供既有引用相容；新增與重製採用 WebP。

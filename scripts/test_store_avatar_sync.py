@@ -90,7 +90,7 @@ class AvatarTests(unittest.TestCase):
     def test_signature_change_does_not_rewrite_file_or_url(self):
         state, proposed, _, _ = self.migrate()
         self.store['shopPhoto'] = proposed['after']
-        path = self.assets / 'example-shop.png'
+        path = self.assets / 'example-shop/logo.webp'
         mtime = path.stat().st_mtime_ns
         new_url = IMAGE_URL.replace('first', 'second')
         client = FakeClient([(200, html(new_url), {}, SOURCE), (200, png(self.image), {}, new_url)])
@@ -108,7 +108,7 @@ class AvatarTests(unittest.TestCase):
         client = FakeClient([(200, html(), {}, SOURCE), (200, png(changed), {}, IMAGE_URL)])
         updated, second, outcome, _ = sync.sync_one(self.store, state, client, self.assets)
         self.assertEqual(outcome, 'updated')
-        self.assertEqual(list(self.assets.iterdir()), [self.assets / 'example-shop.png'])
+        self.assertEqual(list(self.assets.rglob('*.webp')), [self.assets / 'example-shop/logo.webp'])
         self.assertNotEqual(first['after']['url'], second['after']['url'])
         self.store['shopPhoto'] = second['after']
         client = FakeClient([(200, html(), {}, SOURCE), (200, png(changed), {}, IMAGE_URL)])
@@ -166,7 +166,7 @@ class AvatarTests(unittest.TestCase):
         state, proposed, _, _ = self.migrate()
         self.store['shopPhoto'] = proposed['after']
         before = copy.deepcopy(self.store)
-        original = (self.assets / 'example-shop.png').read_bytes()
+        original = (self.assets / 'example-shop/logo.webp').read_bytes()
         for failure in [ValueError('HTTP 403'), ValueError('HTTP 429'), ValueError('timeout')]:
             _, patch, outcome, _ = sync.sync_one(self.store, state, FakeClient([failure]), self.assets)
             self.assertIsNone(patch)
@@ -175,7 +175,7 @@ class AvatarTests(unittest.TestCase):
         _, proposed, outcome, _ = sync.sync_one(self.store, state, client, self.assets)
         self.assertIsNone(proposed)
         self.assertEqual(outcome, 'failed')
-        self.assertEqual(original, (self.assets / 'example-shop.png').read_bytes())
+        self.assertEqual(original, (self.assets / 'example-shop/logo.webp').read_bytes())
         self.assertEqual(before, self.store)
 
     def test_missing_source_is_pending_without_request(self):
@@ -192,21 +192,22 @@ class AvatarTests(unittest.TestCase):
         _, proposed, outcome, _ = sync.sync_one(self.store, {}, FakeClient(replies), self.assets)
         self.assertIsNone(proposed)
         self.assertEqual(outcome, 'low-resolution')
-        self.assertFalse((self.assets / 'example-shop.png').exists())
+        self.assertFalse((self.assets / 'example-shop/logo.webp').exists())
         state, proposed, _, _ = self.migrate()
         self.store['shopPhoto'] = proposed['after']
-        original = (self.assets / 'example-shop.png').read_bytes()
+        original = (self.assets / 'example-shop/logo.webp').read_bytes()
         updated, proposed, outcome, _ = sync.sync_one(self.store, state, FakeClient(replies), self.assets)
         self.assertEqual(outcome, 'low-resolution')
         self.assertIsNone(proposed)
         self.assertEqual(updated['sha256'], state['sha256'])
         self.assertEqual(updated['imageUrl'], state['imageUrl'])
-        self.assertEqual((self.assets / 'example-shop.png').read_bytes(), original)
+        self.assertEqual((self.assets / 'example-shop/logo.webp').read_bytes(), original)
 
     def test_same_logo_at_higher_resolution_replaces_old_padded_thumbnail(self):
         small = Image.new('RGBA', (100, 100), 'red')
         data, box = sync.render(small)
-        (self.assets / 'example-shop.png').write_bytes(data)
+        (self.assets / 'example-shop').mkdir(exist_ok=True)
+        (self.assets / 'example-shop/logo.webp').write_bytes(data)
         state = {'source': SOURCE, 'sourceSize': [100, 100], 'sha256': sync.sha(data), 'contentBox': box}
         large = Image.new('RGBA', (640, 640), 'red')
         self.assertTrue(sync.same_content(small, large))
@@ -260,7 +261,7 @@ class AvatarTests(unittest.TestCase):
         state, proposed, outcome, _ = sync.sync_one(self.store, {}, client, self.assets, reviewed)
         self.assertEqual(outcome, 'updated')
         self.assertEqual(len(client.calls), 1)
-        self.assertEqual(sync.decode((self.assets / 'example-shop.png').read_bytes()).size, (256, 256))
+        self.assertEqual(sync.decode((self.assets / 'example-shop/logo.webp').read_bytes()).size, (256, 256))
         for invalid in [{**reviewed, 'id': 'another-shop'}, {**reviewed, 'checkedAt': '2000-01-01'}]:
             with self.assertRaises(ValueError):
                 sync.sync_one(self.store, {}, FakeClient([]), self.assets, invalid)
@@ -269,7 +270,7 @@ class AvatarTests(unittest.TestCase):
         _, proposed, outcome, _ = sync.sync_one(self.store, state, wrong, self.assets, reviewed)
         self.assertEqual(outcome, 'failed')
         self.assertIsNone(proposed)
-        self.assertEqual(state['sha256'], sync.sha((self.assets / 'example-shop.png').read_bytes()))
+        self.assertEqual(state['sha256'], sync.sha((self.assets / 'example-shop/logo.webp').read_bytes()))
 
     def test_line_uses_explicit_original_field_and_checks_account(self):
         source = 'https://page.line.me/example'
@@ -286,7 +287,8 @@ class AvatarTests(unittest.TestCase):
     def test_existing_512_asset_is_resized_even_when_remote_returns_304(self):
         image = Image.new('RGBA', (512, 512), 'red')
         data = png(image)
-        (self.assets / 'example-shop.png').write_bytes(data)
+        (self.assets / 'example-shop').mkdir(exist_ok=True)
+        (self.assets / 'example-shop/logo.webp').write_bytes(data)
         state = {'source': SOURCE, 'imageUrl': IMAGE_URL, 'sourceSize': [1080, 1080],
                  'sha256': sync.sha(data), 'contentBox': [0, 0, 512, 512],
                  'discoveryVersion': sync.DISCOVERY_VERSION, 'evidence': 'same official profile'}
@@ -301,15 +303,15 @@ class AvatarTests(unittest.TestCase):
         state, proposed, _, _ = self.migrate()
         self.store['shopPhoto'] = proposed['after']
         self.store['shopPhoto']['url'] = ('https://minicourse.dev/puma_oshen_wave/assets/store-avatars/'
-                                         'example-shop.png?v=' + state['sha256'][:16])
-        path = self.assets / 'example-shop.png'
+                                         'example-shop/logo.webp?v=' + state['sha256'][:16])
+        path = self.assets / 'example-shop/logo.webp'
         original, mtime = path.read_bytes(), path.stat().st_mtime_ns
         client = FakeClient([(304, b'', {}, SOURCE), (304, b'', {}, IMAGE_URL)])
         _, migrated, outcome, _ = sync.sync_one(self.store, state, client, self.assets)
         self.assertEqual(outcome, 'unchanged')
         self.assertTrue(migrated['after']['url'].startswith(
             'https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/'))
-        self.assertTrue(migrated['after']['url'].endswith('example-shop.png?v=' + state['sha256'][:16]))
+        self.assertTrue(migrated['after']['url'].endswith('example-shop/logo.webp?v=' + state['sha256'][:16]))
         self.assertEqual(path.read_bytes(), original)
         self.assertEqual(path.stat().st_mtime_ns, mtime)
         self.store['shopPhoto'] = migrated['after']
@@ -319,8 +321,8 @@ class AvatarTests(unittest.TestCase):
 
     def test_public_verification_rejects_pages_and_other_raw_repository(self):
         _, proposed, _, _ = self.migrate()
-        data = (self.assets / 'example-shop.png').read_bytes()
-        for final in ['https://minicourse.dev/puma_oshen_wave/assets/store-avatars/example-shop.png',
+        data = (self.assets / 'example-shop/logo.webp').read_bytes()
+        for final in ['https://minicourse.dev/puma_oshen_wave/assets/store-avatars/example-shop/logo.webp',
                       proposed['after']['url'].replace('/minicoursedev/', '/another-owner/')]:
             with self.subTest(final=final):
                 with self.assertRaises(ValueError):
@@ -332,7 +334,7 @@ class AvatarTests(unittest.TestCase):
         client = FakeClient([(200, png(Image.new('RGBA', (512, 512), 'green')), {}, proposed['after']['url'])])
         with self.assertRaises(ValueError):
             sync.verify_plan(plan, client, self.assets)
-        data = (self.assets / 'example-shop.png').read_bytes()
+        data = (self.assets / 'example-shop/logo.webp').read_bytes()
         client = FakeClient([(200, data, {}, proposed['after']['url'])])
         self.assertEqual(sync.verify_plan(plan, client, self.assets)[0]['size'], [256, 256])
 

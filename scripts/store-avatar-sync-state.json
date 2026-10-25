@@ -2,7 +2,7 @@
   "version": 1,
   "stores": {
     "morona-tainan": {
-      "sha256": "905a6815d424b72083f44fd724549caada6360cb10d894153928beeb5350db58",
+      "sha256": "b9740998ad20b2f998c619e08eae949c1831f0a4974f58c14b78764c08abd4ae",
       "contentBox": [
         0,
         0,
@@ -19,7 +19,7 @@
       "source": "https://www.threads.com/@morona_mit_tainan",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/358378136_823186672856983_3777543288861074421_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby45NjAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gEMqYORcM-y5dsuURMfcOVlfjoDuaZtgHeMvRxoGdoZQbjZSpMEVFlsKL8i6R-8qrI&_nc_ohc=AZtTwbUE4q8Q7kNvwEZ82hj&_nc_gid=K1Y0HDougjNfBy-ZwbKLeA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQP_l9EP8ao4E8EpgzjpJYpNGp4cdMKIIwsdnmIIyPoQWA&oe=6AE33B9A&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Morona茉娜Mit台灣品牌精緻手工內衣 (@morona_mit_tainan) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "morona-tainan.png",
+      "filename": "morona-tainan/logo.webp",
       "lastSuccess": "2026-10-25T10:59:46+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:46+08:00",
@@ -41,7 +41,7 @@
       "discoveryVersion": 3
     },
     "jiangxin-curry-jiali": {
-      "sha256": "8cc5953e185c18e22cfe664bc34538bb403404ef543f4735ca2c283e58c9e22c",
+      "sha256": "6d551a360ec4ef5b445f5070edc922bd23c9cbb29149b900d4a2c3447a2c0713",
       "contentBox": [
         0,
         0,
@@ -58,7 +58,7 @@
       "source": "https://www.facebook.com/JiangXincCurry/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/461774370_518677417576592_1276426486324546707_n.jpg?stp=dst-jpg_tt6&cstp=mx836x836&ctp=s720x720&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AkqjRbr4BH4Q7kNvwH0sCsH&_nc_oc=AdpLadB3zOXIHIX-yKqNXUBkCVEV4OOl9UsLRb-KldAQFUXldySNpPeL7huq78vQgEk&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=6rZNJlpRLn1ydnKwUv2j5w&_nc_ss=7320f&oh=00_AQOS-Qe8tE4Iyr9sV7XYJjwuijRmBQgLJEv2FFI7A31m8w&oe=6AE34814",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；匠昕熟成咖哩·丼飯 | Tainan ",
-      "filename": "jiangxin-curry-jiali.png",
+      "filename": "jiangxin-curry-jiali/logo.webp",
       "lastSuccess": "2026-10-25T11:00:02+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:02+08:00",
@@ -80,7 +80,7 @@
       "discoveryVersion": 3
     },
     "lazyday-boardgame": {
-      "sha256": "5cbc9d4c99e5ff8a6b0425487cf5996ceb5a1c31fa66cd3a959b12c73a30dd91",
+      "sha256": "a9a1dd1891f93330b4244a965954ac96013cde633285185ac870b99930676be4",
       "contentBox": [
         0,
         53,
@@ -97,7 +97,7 @@
       "source": "https://www.facebook.com/lazyday062236278/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/294652909_448625880606451_4371261209870742318_n.jpg?stp=dst-jpg_tt6&cstp=mx335x195&ctp=s335x195&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=SAESHOLlVmUQ7kNvwFr0bsC&_nc_oc=AdpyN-_tlKZUKWAswkyEv5z20ugRn1G8qZ-g9FOQC6q7MxCO3a894bX51QCcYE_WktE&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=z8fosM79B61uuwzGe2yZzw&_nc_ss=7320f&oh=00_AQPMEdYJxyKfyx0w_xqwQYQ9THp0HgPhjZzLiN-87-NUtg&oe=6AE32835",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "lazyday-boardgame.png",
+      "filename": "lazyday-boardgame/logo.webp",
       "lastSuccess": "2026-10-25T11:00:39+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:39+08:00",
@@ -119,7 +119,7 @@
       "discoveryVersion": 3
     },
     "zhiyu-fuguang": {
-      "sha256": "1a4147524a5cb6c6976d54f2a78f118bb9c50f939f5cf85bba0fb4cab82860ef",
+      "sha256": "e14566fa832ed5133eaf7bdd9f7fa1fd56d86b8f0e55631289ed38a7897b8136",
       "contentBox": [
         0,
         0,
@@ -136,7 +136,7 @@
       "source": "https://page.line.me/924dwiyh",
       "imageUrl": "https://profile.line-scdn.net/0hCP1MpxpJHH8MNAzNyG1jKDBxEhJ7Gho3dFYGH3pjQhhyUAgoMVQGHikzFUonDF8tZVdWSXo3Qkp2",
       "evidence": "人工核對該店官方 line 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "zhiyu-fuguang.png",
+      "filename": "zhiyu-fuguang/logo.webp",
       "lastSuccess": "2026-10-25T11:00:57+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:57+08:00",
@@ -158,7 +158,7 @@
       "discoveryVersion": 3
     },
     "hana-da": {
-      "sha256": "9b1f217c24d24600705b5eb666f4835ca5c6ab2efb2e5eaad2f5c226ab407279",
+      "sha256": "d86ccdf833509992d624369b887e35144f8a48400785159e82b7e355dbe51fa2",
       "contentBox": [
         0,
         0,
@@ -175,7 +175,7 @@
       "source": "https://www.facebook.com/p/花田-HANA-DA-100094464120620/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/357702532_7316020131758071_5499872470759855632_n.jpg?stp=dst-jpg_tt6&cstp=mx420x420&ctp=s420x420&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mhcIoJqzbR0Q7kNvwHRo30L&_nc_oc=AdoyCz5k8Q_lhnGAVED1DLvGZ8MTqHjXONDwJfMv6-usDhMeR3NrDZ91BgfoxxaOmbg&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=CaXmTncSxAD5M0gPbKwtZw&_nc_ss=7320f&oh=00_AQP7KCVhJ5SO2RpdWq6DCcWaP0zQnqPx-djvy73C3G28VQ&oe=6AE343F1",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "hana-da.png",
+      "filename": "hana-da/logo.webp",
       "lastSuccess": "2026-10-25T10:59:41+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:41+08:00",
@@ -197,7 +197,7 @@
       "discoveryVersion": 3
     },
     "sabisabi-tainan": {
-      "sha256": "98c91c924925a7f77532ae2693ebe7a3f82b8e8f32ef1f2859d649b9c1d40a74",
+      "sha256": "a3cae2d5c84aa3c4f2f5a85102efde9872689fbbea4d1c3429ff4e54268307c0",
       "contentBox": [
         0,
         0,
@@ -214,7 +214,7 @@
       "source": "https://www.facebook.com/SabiSabi2022/?locale=zh_TW",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/733630072_1412529474230163_5523542071594717736_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rBqjLG90oUkQ7kNvwHk4PRW&_nc_oc=Adq36lzr-OVxOIvxZSzGViKnkIk8a2vVmgvuIxqA32CeIC77WUCDOWNnCG7CCvsthSM&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=QmOAV5WenMqcnwbuOHaQAw&_nc_ss=7320f&oh=00_AQO7HwA5N_xOOoGRF6qfWfswN2mE_27ETKAejcFg2HPNmw&oe=6AE35072",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "sabisabi-tainan.png",
+      "filename": "sabisabi-tainan/logo.webp",
       "lastSuccess": "2026-10-25T10:59:42+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:42+08:00",
@@ -236,7 +236,7 @@
       "discoveryVersion": 3
     },
     "aini-tofu": {
-      "sha256": "49e20ad779b783360c8ebbb471dbd30ec3cdff9bb16b77982af1c2d7d6d60fa4",
+      "sha256": "f59dfd48180c7a58ad1453598642bdf04f3273a273e3bf17f18d2a90c02f19c2",
       "contentBox": [
         0,
         0,
@@ -253,7 +253,7 @@
       "source": "https://www.facebook.com/p/愛尼香豆腐-愛尼舒食-100091775057347/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/524708080_686611457741350_3068699765659242150_n.jpg?stp=dst-jpg_tt6&cstp=mx969x968&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jsZBlAzuuvsQ7kNvwGCOJVG&_nc_oc=AdolxUw1H1UUMSWTXy78-PZ07QWhHGl7E0teqgd1XQwcz-wK47l6YFcUCTPc6JmfeSI&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=gKYZ8uPkNPuzfs9WnRfhBg&_nc_ss=7320f&oh=00_AQOo_waR2MakAXgBATFZ4SzzKxcKm0B006sFyfM2ljqknw&oe=6AE3392D",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "aini-tofu.png",
+      "filename": "aini-tofu/logo.webp",
       "lastSuccess": "2026-10-25T10:59:43+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:43+08:00",
@@ -275,7 +275,7 @@
       "discoveryVersion": 3
     },
     "moonlight-books-tainan": {
-      "sha256": "69f34835bccfeef533c0a64571b49e27e613101deabf1e352ea6af94fcc813a3",
+      "sha256": "0075af33a3a3513bfef9cb6d8c1abcb456047fdf5cb8cd2d6354e60bd1f6644b",
       "contentBox": [
         0,
         0,
@@ -292,7 +292,7 @@
       "source": "https://www.facebook.com/MoonlightBooksTainan/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/528478185_10224501135470616_1938642841915372151_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1533x1533&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=RDD8jxE7jKAQ7kNvwFYterH&_nc_oc=Adqgwulz5GxJgeMpumhhIEm5Yx60e6gRJd7Oo0rY60f-1XrxDtOpFiAm6mF9MVegoMA&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=vGZZ-JTkNgkEpVSW1kBpFw&_nc_ss=7320f&oh=00_AQN5rX9zi_4tMid-IQYvWR4UpfqbooJThghgPL-yERebUw&oe=6AE34175",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "moonlight-books-tainan.png",
+      "filename": "moonlight-books-tainan/logo.webp",
       "lastSuccess": "2026-10-25T10:59:44+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:44+08:00",
@@ -314,7 +314,7 @@
       "discoveryVersion": 3
     },
     "shencai181": {
-      "sha256": "8e0609d8086a2a9a243afe4f1ef98f19143ecf0667d39f85dbad11d0e6076cf6",
+      "sha256": "51cf4206b1bbb3cd7997f70262d19704d594460ead67dce3ef2db7444978330a",
       "contentBox": [
         0,
         0,
@@ -331,7 +331,7 @@
       "source": "https://www.facebook.com/shencai181/?locale=zh_TW",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/276989574_4923299794429659_4106961339313804259_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x1181&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ldkKOpjwyvEQ7kNvwGC5V2z&_nc_oc=AdoyxuIVx5h9LxjGqtXfuVtICQ8lwymgPLrmrBCzuAEPDi3yHskOn7faknkXAzkHWl8&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=CwNxXdqSjQR-cX0lw5lJDQ&_nc_ss=7320f&oh=00_AQOraqu5Yk27RgnwPQO5Cx_z9AvHLHMNM-boArjEBbTaNQ&oe=6AE32776",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "shencai181.png",
+      "filename": "shencai181/logo.webp",
       "lastSuccess": "2026-10-25T10:59:47+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:47+08:00",
@@ -353,7 +353,7 @@
       "discoveryVersion": 3
     },
     "haitiau": {
-      "sha256": "f057f5da8614bc33120a65b27884ed70c50f5e0c7ba3473757eeb49c89ce8475",
+      "sha256": "626a253ceaa6060d6d0973e8e74fe9cfc93b769c1f3ce119d590ea892135305e",
       "contentBox": [
         0,
         0,
@@ -370,7 +370,7 @@
       "source": "https://www.threads.com/@haitiau_",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/762475278_18151119037489175_2629907360908292014_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=lt6CRcsL10kQ7kNvwFQtPjB&_nc_oc=Adq4MCvcYoBzI4D1obdLlTOSlZxBYuP3VEErmowyrs88OvbWnUvWBXai3bttXNnEIlU&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=558c7iPvZBCrNOpF8VDS9A&_nc_ss=7320f&oh=00_AQPQFaCxZUDrPd_EDWQp8Z4MheErIRG-xT78bUAdvxMDMQ&oe=6AE34FCE",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "haitiau.png",
+      "filename": "haitiau/logo.webp",
       "lastSuccess": "2026-10-25T10:59:48+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:48+08:00",
@@ -392,7 +392,7 @@
       "discoveryVersion": 3
     },
     "kaichun": {
-      "sha256": "e3e6b2d66d7c5a52d040fff4a5f4df1898af6fbfbc74e8fe497d8088c68409ee",
+      "sha256": "fbe827448ea527d5431908c60dfd7554523ba4810efcbd76416be2e498e5524c",
       "contentBox": [
         0,
         0,
@@ -409,7 +409,7 @@
       "source": "https://www.instagram.com/kcgzwbd/",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/586793493_18087164204476267_3408287922168772428_n.jpg?_nc_cat=103&ig_cache_key=GBXC_SJr52YVLkJAAEy3H63Oq0wvbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41OTQuQzMifQ%3D%3D&_nc_ohc=1Ml8zDt1lx8Q7kNvwG2uDmr&_nc_oc=Adrofi4yZYcqw6zpIiTonJKNPrBhI7KnP450FzphX1UCNJ9khImQ_wpu65NFheEdDjU&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=HFeGpeAjD2wINIwpNbKCkw&_nc_ss=7b6a8&oh=00_AQPPh2zb2P6da9-Y3A-aLKad_BENI4xhN4yIAoh-lNiyFQ&oe=6AE32C4E",
       "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "kaichun.png",
+      "filename": "kaichun/logo.webp",
       "lastSuccess": "2026-10-25T10:59:49+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:49+08:00",
@@ -436,7 +436,7 @@
       "reason": "沒有官方頭像來源"
     },
     "jingliang-chongde": {
-      "sha256": "2bd4d985fd82a97a23336c1f821b380dc0d70dd07b6e30fe3de0fa1f25e7444a",
+      "sha256": "c7b9a2ffee72a6f3edb7756b83393dd434451e6c09d54aad94169751f26fd0be",
       "contentBox": [
         0,
         0,
@@ -453,7 +453,7 @@
       "source": "https://www.facebook.com/profile.php?id=61574875141059",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/512565393_122128037900829171_63964541960975640_n.jpg?stp=dst-jpg_tt6&cstp=mx640x640&ctp=s640x640&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dQKiQN0O2_QQ7kNvwHgqMY_&_nc_oc=AdoIoT2qMiuRTQq9aZPIusgBbZCeVhG0hJdf1ILtGHGIEE2yRiTcNEHvJBwOgINtVbY&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=wyCmtCtDHlMt1o4Ei3jTbw&_nc_ss=7320f&oh=00_AQO08Z3NGPuiJfp4Ny-hNWkLpRAVrfAIIv0H1PJQkNT8lA&oe=6AE34A0E",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "jingliang-chongde.png",
+      "filename": "jingliang-chongde/logo.webp",
       "lastSuccess": "2026-10-25T10:59:50+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:50+08:00",
@@ -475,7 +475,7 @@
       "discoveryVersion": 3
     },
     "roar-factory": {
-      "sha256": "201d472b27cdae55cdfacb3d4a47fb0120998e1a7084f4ce1b0f24116c818026",
+      "sha256": "33c9fd855c03e4e260deeace65b7f14303dc9d115e0bae04f75106bcb99ed5f9",
       "contentBox": [
         0,
         0,
@@ -492,7 +492,7 @@
       "source": "https://www.threads.com/@roar_factory",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/424467330_1438677150359456_1575470737866990476_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=neh6o9aSoOoQ7kNvwHL6b03&_nc_oc=AdrX27gbQSfJ15DIYK_IhLLRVgV30TxtS1jIhEp0jyfKcdZznLgb5ETkc8AJySxE8Lc&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7320f&oh=00_AQO8NRMtUP1dXmeo4Mm2K0DAaziU2aC8icjW03MwHKX4Sw&oe=6AE34805",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "roar-factory.png",
+      "filename": "roar-factory/logo.webp",
       "lastSuccess": "2026-10-25T10:59:51+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:51+08:00",
@@ -514,7 +514,7 @@
       "discoveryVersion": 3
     },
     "taiwan-titsia": {
-      "sha256": "e14be01aa411335bb42a1fe0975ea0f1c430d9866747880f9b1357dac56dfe10",
+      "sha256": "3cc71c36fae44481103a59f5d65cbe026744b618f1ec4b56edd1c6aee59371f0",
       "contentBox": [
         0,
         14,
@@ -531,7 +531,7 @@
       "source": "https://www.facebook.com/people/台灣佇遮/61592092670376/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/745144702_10226553485583707_8566069702246547198_n.jpg?stp=dst-jpg_tt6&cstp=mx1331x1181&ctp=s720x720&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ylIgaQ43Ta8Q7kNvwH051d8&_nc_oc=Adr7EKhY0cFScY11LLNNGKDjOsZ9iRNjYLHZCxgE_riqu_Il7uaPGoKToVjUVJJQ1so&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=GKVeOeiLA656gQwDMXF6og&_nc_ss=7320f&oh=00_AQM2AFzduVG013koGIfEIAaLzI8s8HfvAbmXVdLo-dONFg&oe=6AE337CD",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；台灣佇遮 | Tainan ",
-      "filename": "taiwan-titsia.png",
+      "filename": "taiwan-titsia/logo.webp",
       "lastSuccess": "2026-10-25T10:59:53+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:53+08:00",
@@ -553,7 +553,7 @@
       "discoveryVersion": 3
     },
     "selten-dac": {
-      "sha256": "2ce8fdcdd287e5163d47196e029f6351384549fe8562927c1f1c7c2a0e8d993e",
+      "sha256": "59b956c0579b582a14867f2809981599a45a6fa036619da26b4d36c637059f8a",
       "contentBox": [
         0,
         0,
@@ -570,7 +570,7 @@
       "source": "https://www.facebook.com/selten.dac/",
       "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/273893097_149359100806379_5485488379044706110_n.jpg?stp=dst-jpg_tt6&cstp=mx828x828&ctp=s720x720&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Zt6b-cGypmoQ7kNvwGU49ic&_nc_oc=Adq8BXGoiDfefMXeVrBqkLe0aJPx_O3QI71L2CyFK76Fs0STxu90jDXGl8Y_p1LIyH4&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=wiR6uwOmayS5tddInwETnw&_nc_ss=7320f&oh=00_AQNbn5IGheAv6jLyOIuOozF3RbnrAPWLgBdLcxdtUpF5dQ&oe=6AE32798",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "selten-dac.png",
+      "filename": "selten-dac/logo.webp",
       "lastSuccess": "2026-10-25T10:59:54+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:54+08:00",
@@ -592,7 +592,7 @@
       "discoveryVersion": 3
     },
     "senyu-xinshi": {
-      "sha256": "e872a8dbfd69d9732e684d36b7950c0e60473102b5e769f57e2752a57168fe97",
+      "sha256": "30e3f1c1c89bda5f0d62cc69c6e25a9577fb269e2175ae3162049c3cd6cf0a9f",
       "contentBox": [
         0,
         0,
@@ -609,7 +609,7 @@
       "source": "https://www.instagram.com/senyu.badminton/",
       "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-19/657882405_18074691041213903_2866108037428021850_n.jpg?_nc_cat=110&ig_cache_key=GCV9NifPve-y1TZAAFoKyiITdsYnbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy44MDAuQzMifQ%3D%3D&_nc_ohc=7tk_KX-FSMUQ7kNvwEAtZu1&_nc_oc=Adp7F11MdfpSqOV1_TJG9yBSemzdUCJsoBq5TfZCVngc_jAxBG02ke_-qyxAVD4XBsc&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=CFWqXvaRBVRWWd4wFBI_Kg&_nc_ss=7b6a8&oh=00_AQMQxQkm-kqMIkYucPI34Yc1okG5gb1ja0XrhQSRW1scvQ&oe=6AE33D21",
       "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "senyu-xinshi.png",
+      "filename": "senyu-xinshi/logo.webp",
       "lastSuccess": "2026-10-25T10:59:55+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:55+08:00",
@@ -631,7 +631,7 @@
       "discoveryVersion": 3
     },
     "klaster-savour": {
-      "sha256": "47fa5237cb21c507ff8b2adf20d79a745571b2601f97f96e4459a90341f9a06e",
+      "sha256": "a707a985ccda929b05df8772b5d26970e0e2e09db8dfa80a82793ad4a791edb2",
       "contentBox": [
         0,
         0,
@@ -648,7 +648,7 @@
       "source": "https://www.facebook.com/people/做伙刈包-做伙食堂/61553153229294/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/400995871_7128537080498142_4834791027253428095_n.jpg?stp=dst-jpg_tt6&cstp=mx709x709&ctp=s709x709&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Xbz-A212DM8Q7kNvwFJZZjE&_nc_oc=AdqUj1mVB15F_nHkHTOhoapYCGcH3Lsc3aRPDv-ehOi_pb3Z2v29i987Ocy6C4s2_cA&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=yZNdpYIjaNuGH_TuUGT-DQ&_nc_ss=7320f&oh=00_AQMD1FKzTTNB9wY3601lc_5HTJ3gtkmQvUHvopelbL27Ow&oe=6AE3285E",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "klaster-savour.png",
+      "filename": "klaster-savour/logo.webp",
       "lastSuccess": "2026-10-25T10:59:56+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:56+08:00",
@@ -670,7 +670,7 @@
       "discoveryVersion": 3
     },
     "tuojin-mobile": {
-      "sha256": "49c3829090b6a640f182544df61442aabeee76da4743cd9029c822c28aabd1a9",
+      "sha256": "b220fb2ee5f50830c38a066763b6cd2e71556d90b40353e153d8b0605c821f21",
       "contentBox": [
         0,
         0,
@@ -687,7 +687,7 @@
       "source": "https://www.threads.com/@tk2227266tk",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/616993603_17848065204666542_6981492855900407806_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=108&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=Pzbw0ssmACgQ7kNvwGsldVM&_nc_oc=AdoG0k6gjovF5mMnrt877jv7-enG7e75K1DCESLqR1VKt46P3V8yW06rwSreLnkaw5M&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eaYEXJqbtI-_T6RfZHjJbg&_nc_ss=7320f&oh=00_AQPrH_JLX4fAf2XbvRzpO-njyv0MAZ2_QX8BKRicUe02gg&oe=6AE32BDA",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "tuojin-mobile.png",
+      "filename": "tuojin-mobile/logo.webp",
       "lastSuccess": "2026-10-25T10:59:57+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:57+08:00",
@@ -709,7 +709,7 @@
       "discoveryVersion": 3
     },
     "namiya-cafe": {
-      "sha256": "dab0d154b4ace6c48fb5a7556f1852e12cab3eeb24394119c883257a4acc8344",
+      "sha256": "7b3b0a97d2cb052f40490403d95428b4013e182a10a278238c5d12f2fea2b25e",
       "contentBox": [
         0,
         0,
@@ -726,7 +726,7 @@
       "source": "https://www.threads.com/@namiya.cafe",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/552775624_17872097853427859_4643073266653956036_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=hJqjKAibLpEQ7kNvwGMnqhh&_nc_oc=AdqNnKrW3owiQ9CKeoQgUF771rpaOzrYDKeJ4XPDBVrHUymPtcLT5jccdOQemuWsm8o&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=TaK5N5QAJMBxCfI3saxsDw&_nc_ss=7320f&oh=00_AQNPvwabXaOPv8E3dNU0Y57Md2r0DseE7L-9mCR8A_WOxg&oe=6AE3431D",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "namiya-cafe.png",
+      "filename": "namiya-cafe/logo.webp",
       "lastSuccess": "2026-10-25T10:59:58+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T10:59:58+08:00",
@@ -748,7 +748,7 @@
       "discoveryVersion": 3
     },
     "gold-tea-jinhua": {
-      "sha256": "cd8b354c56006fd5d29bacc3c846a538490cc080ccbdd3fd3713a058c80ea853",
+      "sha256": "2c5277886951a2aba91a401c8d232b911ef89b9a836125f508ca77088b4aed1c",
       "contentBox": [
         56,
         0,
@@ -765,7 +765,7 @@
       "source": "https://www.facebook.com/people/羚角-手搖茶飲/61565137907788/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/459077280_9162395727110286_2744721185044677818_n.jpg?stp=dst-jpg_tt6&cstp=mx540x960&ctp=s540x960&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rLJqdgMTqN8Q7kNvwHldFX-&_nc_oc=AdrXzGIdVaGFkH1Je8esIB34Z6mcDbXa8aWU9H7ayyM_mu0M4Uecnq8LcdSUgMcGJ0o&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=jDs5BK3WsUdA9fwH84kUJw&_nc_ss=7320f&oh=00_AQNlbML1dRqo5n9cNJvhPOlCwaPdl4ZfJznSIPeyD7aNVQ&oe=6AE3425F",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；羚角 手搖茶飲 | Tainan ",
-      "filename": "gold-tea-jinhua.png",
+      "filename": "gold-tea-jinhua/logo.webp",
       "lastSuccess": "2026-10-25T11:00:00+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:00+08:00",
@@ -787,7 +787,7 @@
       "discoveryVersion": 3
     },
     "chill-well-douhua": {
-      "sha256": "93ce5b164de5150766dd22e9a84c45d96799e811fee3601f08df74e4db607b28",
+      "sha256": "41b60ef2c9572541502213f6e84ac35ad60670e2e9b43742488f101d1b051c8c",
       "contentBox": [
         0,
         0,
@@ -804,7 +804,7 @@
       "source": "https://www.threads.com/@chill_well_douhua?xmt=AQG01VFckv2GX-RxUbZVHLGh_eWGWVFT1e5X3g5piG_lrcc",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/730001242_17881669923604104_4461716218274908908_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gHRekOMi4-mfFW86Nomo0l6-TZj6pQg2QdipYlHXOKfLIlj7qoj1rdMfH0MRSQKGLI&_nc_ohc=eUhzp4c2_akQ7kNvwECX4fP&_nc_gid=IrhB_rEF9dy-c_zTzm8mIQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQNoJDNFiy3C7zyy7DgdKyHRviV01VamK78SSTpmIA2WhQ&oe=6AE35506&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；且未豆花 (@chill_well_douhua) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "chill-well-douhua.png",
+      "filename": "chill-well-douhua/logo.webp",
       "lastSuccess": "2026-10-25T11:00:08+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:08+08:00",
@@ -849,7 +849,7 @@
       "discoveryVersion": 3
     },
     "frankdaily-madou": {
-      "sha256": "b3de948378974bf701a1e36519af2c032ff3967fc4db48e8890c4d58863a21b4",
+      "sha256": "8c2e5f6353f236c8cca0c2121e1748bb36644d96c081712f4f98f5277f9e21f3",
       "contentBox": [
         0,
         0,
@@ -866,7 +866,7 @@
       "source": "https://www.facebook.com/frankdaily85/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/277781186_269519378720846_4980884040582602600_n.jpg?stp=dst-jpg_tt6&cstp=mx678x678&ctp=s678x678&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mohQv2cEJ7AQ7kNvwE-EUN3&_nc_oc=AdoZ97TQpGzqcGMaR5EjhV_Hvw2NMn1wcSKw01ltzpHSY2vHTYJYEFFhCJNcv2Td7l8&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=S-OubUFMpM5nLmorvK6eMA&_nc_ss=7320f&oh=00_AQN14f90hIsr_gi8g2wh6qlK7W5cPqoJDrvvUsUPnYfOLQ&oe=6AE33AF9",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "frankdaily-madou.png",
+      "filename": "frankdaily-madou/logo.webp",
       "lastSuccess": "2026-10-25T11:00:09+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:09+08:00",
@@ -888,7 +888,7 @@
       "discoveryVersion": 3
     },
     "laopai-hotpot-madou": {
-      "sha256": "5e36088fa1d8fc9627e200a25577a29432dcb3e9f8a001f86c58bfe2ce33e272",
+      "sha256": "ab08eda3d1fa79f30042b8af89baeb6dbd8272abe3686f6517c7ce736f6022de",
       "contentBox": [
         0,
         0,
@@ -905,7 +905,7 @@
       "source": "https://www.facebook.com/Madou83/",
       "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/486500203_1049941830491880_8417255227548741165_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sHNsZxletgMQ7kNvwGGLWqM&_nc_oc=Adrfvgbp9ZU7N-_LPm79jQVaApGG19l4dRjFG4T-p3wWCLNB8CXbQmDhM5kNpAe1Yts&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=yXui5-Yzgh1oeKp08sN20g&_nc_ss=7320f&oh=00_AQO0LlNETq67Q34g-Bi5A-YBpBYhnRYW57xsyAX1YIKhXA&oe=6AE3532C",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；嘉義老牌專業石頭火鍋 - 麻豆店 | Tainan ",
-      "filename": "laopai-hotpot-madou.png",
+      "filename": "laopai-hotpot-madou/logo.webp",
       "lastSuccess": "2026-10-25T11:00:10+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:10+08:00",
@@ -927,7 +927,7 @@
       "discoveryVersion": 3
     },
     "ru-studio-flower": {
-      "sha256": "8c8ebfbd306913285a60012e6c9221b907a58e1c2419727b249b193f0ca6b6d1",
+      "sha256": "27beb067e890b45ae86107ce5449ed731ad7dc9a5aca292ba18f2dbffa923fa9",
       "contentBox": [
         0,
         0,
@@ -944,7 +944,7 @@
       "source": "https://www.threads.com/@rustudio_flower",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/475863601_1188661942341321_2955407616015560877_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NTkuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHjs2nnHDO8FEGZQsCztQnfPHRGASzDCK98ZHPjoAp5fe3CQ9aA-2TyNtrkb67x_D8&_nc_ohc=1m4YZq8eNOMQ7kNvwHDpKEf&_nc_gid=9jkfECPIJHF7EuwQnRekNg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQPHwWLWW6w17YXAiP2s4eXJi-U2sFiDK9jpfnnPSlaLnw&oe=6AE34E82&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；RU Studio台南永康大灣花店|| KFAA不凋乾燥花藝.IFA&SDCA石膏捏塑 各式紓壓手作教室 (@rustudio_flower) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "ru-studio-flower.png",
+      "filename": "ru-studio-flower/logo.webp",
       "lastSuccess": "2026-10-25T11:00:13+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:13+08:00",
@@ -966,7 +966,7 @@
       "discoveryVersion": 3
     },
     "lumos-flower-lab": {
-      "sha256": "2904b08a4cb7b5799c64f8caa7c87987d4062fa0d97b53af3d9833ed72f541e3",
+      "sha256": "5c0b10d2a40333e74fd59d118b5d70eef7da276bd93d3cdd49ae6079c9a2b70a",
       "contentBox": [
         0,
         0,
@@ -983,7 +983,7 @@
       "source": "https://www.threads.com/@lumos.flower.lab",
       "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/408229633_699038248868894_3917206110285888364_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gGvERIuQfkUZwq0hzjVIjX9cvXh-TBtBUEAyfzhf5J3qsQLTGigydc2xfr3r1d6yQY&_nc_ohc=Mxvs2V0hI-UQ7kNvwE10fqT&_nc_gid=t3TIAmMV0odxmdQdauU0UQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQN_6AuIHUkv2X--GQmT5NBpr2Nh3gOH5QxkVWIyl8LP3A&oe=6AE35095&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；光禾花室 | Lumos Flower Lab (@lumos.flower.lab) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "lumos-flower-lab.png",
+      "filename": "lumos-flower-lab/logo.webp",
       "lastSuccess": "2026-10-25T11:00:15+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:15+08:00",
@@ -1005,7 +1005,7 @@
       "discoveryVersion": 3
     },
     "about-dream-anping": {
-      "sha256": "49c47b20ed458e9acb07cce546590a27474b69afc8b5f1950beddde294a1104c",
+      "sha256": "09abb5602a4ea102f21c2ec967e77e30be30e5279ea63e5cbf8b75f057464768",
       "contentBox": [
         0,
         0,
@@ -1022,7 +1022,7 @@
       "source": "https://www.threads.com/@aboutdream.tainan",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/462059110_948856573936568_6548277145535197597_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42MjcuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gHYDxBjNP5M6zKQvutBAC0oQaNcDOLdTe-nosugBS33FqL6pOdX-SBzDouIYB0GvpY&_nc_ohc=eHnT4bLXAFIQ7kNvwHWztLB&_nc_gid=28-RZpVGwWtLTTYCIxgEVA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQNITaLwRrAV1xvTQtNOCv1GeMRQ4nWpLUKQbwNZA_Eyjw&oe=6AE34E95&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；About Dream 關於夢想 (@aboutdream.tainan) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "about-dream-anping.png",
+      "filename": "about-dream-anping/logo.webp",
       "lastSuccess": "2026-10-25T11:00:18+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:18+08:00",
@@ -1044,7 +1044,7 @@
       "discoveryVersion": 3
     },
     "hamsterstar": {
-      "sha256": "4a511087d449b402c4a74285afb832fe1a413118661bddff0198822db3ae14b5",
+      "sha256": "f4a240a9f315b5cc6e22c2db26708baf282ba533fe89b4e046b77ae70fed2a55",
       "contentBox": [
         0,
         0,
@@ -1061,7 +1061,7 @@
       "source": "https://www.threads.com/@hamsterstar888",
       "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-19/721625429_18089486360102617_8257216046529202109_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=Sfgi1vQ_i0gQ7kNvwGMBAzf&_nc_oc=Adp8rkEA0Jc0NXaaoIIOW66iTC9ey_2UWpKRdCTyVZPEIjhdKNWw8V8y_2sWyko6VD0&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=A_sCRjaiH8zs3ClmHMp5Bg&_nc_ss=7320f&oh=00_AQPg1ArPBqDnrGli5m0u-g_4Uftwm6jvUUMMqTBu5q6_zA&oe=6AE359B8",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "hamsterstar.png",
+      "filename": "hamsterstar/logo.webp",
       "lastSuccess": "2026-10-25T11:00:19+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:19+08:00",
@@ -1083,7 +1083,7 @@
       "discoveryVersion": 3
     },
     "sing-yuan-coffee": {
-      "sha256": "98bfef2f6af28c4046215b4902fcd75d6cb09ddc908e9c2a720a0a59bedc8ddf",
+      "sha256": "f5c9a6128632cad11097c983dda971fc2454bbe69310e7e8dbbb587123f4482a",
       "contentBox": [
         0,
         0,
@@ -1100,7 +1100,7 @@
       "source": "https://www.threads.com/@sing_yuan_coffee?xmt=AQG09CK6eTWGA-j__4D6T2phpJsGmEFoNNqO2ygYCl9XZSI",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/358168655_263562989616129_170969180676405097_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zMjAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHSTeF9x3Ca05FEaa8bRuAFYO9bDNTu0NOc95s_-Ot9Zo8i-4tyBZXsUz3aE8RqDFY&_nc_ohc=U2o0MkUcwuwQ7kNvwGPq2XM&_nc_gid=3P-GxTkUmAXjFlV0MjNdPA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQOPpgXhhaBQm5o5TJFMp0kolKFEimUXpun0OyxzLHxJ-g&oe=6AE34F34&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；臺南-杏源珈琲（杏源踅踅文化社） (@sing_yuan_coffee) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "sing-yuan-coffee.png",
+      "filename": "sing-yuan-coffee/logo.webp",
       "lastSuccess": "2026-10-25T11:00:25+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:25+08:00",
@@ -1145,7 +1145,7 @@
       "discoveryVersion": 3
     },
     "dono-doro": {
-      "sha256": "ce633adba6680ee72b9dba4e55f5177e1bd289db4cfe944a5a1238578a801fdf",
+      "sha256": "044943a7191c61ea2f450582e8ce66c5c93e81fb2cf6a9b706f645284a427bee",
       "contentBox": [
         0,
         0,
@@ -1162,7 +1162,7 @@
       "source": "https://www.threads.com/@dono.doro",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/467930906_3282575345206066_1324565611332849967_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=106&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=_wJun3V_HekQ7kNvwFPHN1R&_nc_oc=AdpGu1AU8ISDopl1NK-D1LaIK2DHB7uZkRdjve6qK2w8Sx9PjW7UX-Frx3DBywly6Ns&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7320f&oh=00_AQN5u8Z6QglRUX0gyAC4nlEcC2xUIqrzSky08lMNrMBj2g&oe=6AE34A17",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "dono-doro.png",
+      "filename": "dono-doro/logo.webp",
       "lastSuccess": "2026-10-25T11:00:26+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:26+08:00",
@@ -1184,7 +1184,7 @@
       "discoveryVersion": 3
     },
     "time-of-sun": {
-      "sha256": "a4f6c0adec98204f8628f70b20b91568ff737d1ac4e32ddca4082f99bc352855",
+      "sha256": "a8ce54ccd656eeed3399afc421ba2e41e1d0ef0943de47bd1aac06f445c81075",
       "contentBox": [
         0,
         0,
@@ -1201,7 +1201,7 @@
       "source": "https://www.threads.com/@the_time_of_sun",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/450563125_1041589613999342_793477904992721107_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=sxwslskQExsQ7kNvwGx9wzz&_nc_oc=AdqRdOo63_BpLv7Qwx8GoNJlLpDEJjIBnMr1MA8vmlevDlzhKIeOxiR01BsfaZ0NP_M&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7320f&oh=00_AQN5lZNBj6Pc0vj55d6pIMfZDOGcH3OsgEvM5G2t3ZI_Kg&oe=6AE32968",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "time-of-sun.png",
+      "filename": "time-of-sun/logo.webp",
       "lastSuccess": "2026-10-25T11:00:27+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:27+08:00",
@@ -1223,7 +1223,7 @@
       "discoveryVersion": 3
     },
     "old-laifa-bakery": {
-      "sha256": "bc5700c41637f7b49207564373959f44d722fc2dc1aec070768887fa6d5fd10e",
+      "sha256": "89145b174a6a6e352b6c93a5c7b2e22db49112de7fc9c253ba0df6f3fc380efe",
       "contentBox": [
         0,
         0,
@@ -1240,7 +1240,7 @@
       "source": "https://www.facebook.com/twglf/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/315191218_516474717161411_7665728467661716515_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tp4gI2z-xKkQ7kNvwFFVD7h&_nc_oc=Adpf4pLpkVyyn-5hmcksed3NnbNQgsYFh2YoqZcTs9Mlu5K5N6nC0XNyO6uuT5rmMtQ&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=Cq644tkVYKvGFOynad91Dg&_nc_ss=7320f&oh=00_AQNzcdHhwYKTVpJiUajA1LYyA9WQAsMjQevtmmat-V9SBA&oe=6AE351EA",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；舊來發餅舖 since 1875 | Tainan ",
-      "filename": "old-laifa-bakery.png",
+      "filename": "old-laifa-bakery/logo.webp",
       "lastSuccess": "2026-10-25T11:00:29+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:29+08:00",
@@ -1262,7 +1262,7 @@
       "discoveryVersion": 3
     },
     "gandan-cafe": {
-      "sha256": "ddb61db0b5fb6c90e5c920356cd033d78cdd70f44b8f39d6504267cdbf69c88e",
+      "sha256": "cc85ca1613c896a5251f86d884f8ea60312aa0cd9d9893461f047682158a2305",
       "contentBox": [
         0,
         0,
@@ -1279,7 +1279,7 @@
       "source": "https://www.facebook.com/p/%E7%94%98%E5%96%AE%E5%92%96%E5%95%A1%E9%A4%A8-100064820196334/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/515873763_1148918563945473_8341593536301675225_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx512x512&ctp=s512x512&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BpMsfczRCz4Q7kNvwF_BD-t&_nc_oc=Adqgd4q3VqNwwN1ylCoRVnkUHiTY6SnaPSei8r9far3jMj3JIpV0Oz8s6nN6TuPPcTI&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=9hBgWwvt9gQKnNXmKL7v7A&_nc_ss=7320f&oh=00_AQMZlEr4O2RHSq0jTSDhTdtuIlaI1GVh4DNs4C4BJQngjg&oe=6AE353DF",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；甘單咖啡館 | Tainan ",
-      "filename": "gandan-cafe.png",
+      "filename": "gandan-cafe/logo.webp",
       "lastSuccess": "2026-10-25T11:00:31+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:31+08:00",
@@ -1301,7 +1301,7 @@
       "discoveryVersion": 3
     },
     "youyu-xinying": {
-      "sha256": "c19ab504935da92717de8b24a53e5760e4037184a08faf868b84d37373ba7f73",
+      "sha256": "9b524eeeac7969f85bc9c8e5a00f34b18cae7243be766841886c321c858ccd05",
       "contentBox": [
         0,
         0,
@@ -1318,7 +1318,7 @@
       "source": "https://www.facebook.com/p/%E6%9C%89%E9%A4%98-100057568805157/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/635146443_1361059195823028_8933595160843354984_n.jpg?stp=dst-jpg_tt6&cstp=mx1415x1416&ctp=s720x720&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xW9IUsrTY88Q7kNvwHWT9UZ&_nc_oc=AdreuJfdIFlvcLhkf63syDPtzeNY6-7lQgER8lqHE60bT2rEoavDExyr9hF35mm-0hM&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=ADxEu6YqlECgxT0El1Kkkw&_nc_ss=7320f&oh=00_AQOuGGscHcoM-ncISLyXUsXN8VfQje4t0_mX9fZ-UL1sOA&oe=6AE32CE0",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；有餘 | Tainan ",
-      "filename": "youyu-xinying.png",
+      "filename": "youyu-xinying/logo.webp",
       "lastSuccess": "2026-10-25T11:00:33+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:33+08:00",
@@ -1343,7 +1343,7 @@
       "lastAttempt": "2026-10-25T11:00:35+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "38fd5546ce4cabc9fb9b125b3b254a2dc83638ac4061debb1f2b12a201532f3d",
+      "sha256": "612f68b00e227d47d5d16b8533a5b92e42ce5180e434fa07616fc25c3af8d7d7",
       "contentBox": [
         0,
         0,
@@ -1360,7 +1360,7 @@
       "source": "https://www.facebook.com/p/%E6%9D%B1%E5%B1%B1%E5%A8%81%E8%A8%98-100081441651191/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/835363146_1120051560719555_6269780889224027758_n.jpg?stp=dst-jpg_tt6&cstp=mx1512x1512&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FxCVsOyPjxwQ7kNvwHCKpJj&_nc_oc=Adr0DNxy58BISmV3TnSida1iJF8MsBw9Q3egJooTfwSkbpbtbgMJ4jHspO3N8Lmu6vY&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=dBgh5dGnXcht6sTMbStq9A&_nc_ss=7320f&oh=00_AQP-fNxJDNZdFXG1O0wbW1cSMvIedtNhw16hehUh9P2jyg&oe=6AE35CA5",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；東山威記 | Tainan ",
-      "filename": "weiji-zhongshan.png",
+      "filename": "weiji-zhongshan/logo.webp",
       "lastSuccess": "2026-10-25T11:00:35+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -1379,7 +1379,7 @@
       "discoveryVersion": 3
     },
     "em-hair-design": {
-      "sha256": "c279ae26d10626633806f97bbc12400fcd479605f4fc7d5a85877471873f95ad",
+      "sha256": "86b8d784645c437008a62c50a07b1b3a77b5bc83c86dbb47f1c4d07529ab275a",
       "contentBox": [
         0,
         0,
@@ -1396,7 +1396,7 @@
       "source": "https://www.facebook.com/EmHairDesign/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/294141234_462718202529471_6277890190843755436_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z-MW_fEZXHwQ7kNvwEK57Zd&_nc_oc=AdpBrOttL33NazVYHYYb3-IxbvfZtL_laa3KoghWI2b868juM7GUcteLB6wM9w5HvyI&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=7r_hCSRvdIrDjkhStBoqpA&_nc_ss=7320f&oh=00_AQOpgiaKjO2TeWePv7lnhMuuQ3lRx2pK__pxlRSzeTqtaQ&oe=6AE338A1",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "em-hair-design.png",
+      "filename": "em-hair-design/logo.webp",
       "lastSuccess": "2026-10-25T11:00:36+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:36+08:00",
@@ -1418,7 +1418,7 @@
       "discoveryVersion": 3
     },
     "applenana-mit": {
-      "sha256": "09ecddfd571025c0a4995cb0f6f3c55db686d9ab318b7ec4dd5b1af5987b5012",
+      "sha256": "0544f0b8154f83c4f6cd80186ea6626812934f4433d13ac22ecce605f8d96e3b",
       "contentBox": [
         0,
         0,
@@ -1435,7 +1435,7 @@
       "source": "https://www.facebook.com/AppleNanaMIT/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/305474803_572159774700899_5357636046997611440_n.png?stp=dst-png&cstp=mx640x640&ctp=s640x640&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=l7Tm877AjKYQ7kNvwFkLW9H&_nc_oc=AdrLmZ5B5VhEL6pUKfjR3JzcWSzGJ4hivjx-dOBAoSXYJQ-QSYrdTQqF7lLu6mG0e4Y&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=I6X3lq-vnezvSKmRevhcBw&_nc_ss=7320f&oh=00_AQPeZEsjm3xJSOD9NeZG-HesmB7soV2s14XCNbHSuiKURg&oe=6AE35525",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "applenana-mit.png",
+      "filename": "applenana-mit/logo.webp",
       "lastSuccess": "2026-10-25T11:00:37+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:37+08:00",
@@ -1457,7 +1457,7 @@
       "discoveryVersion": 3
     },
     "inspire-island-studio": {
-      "sha256": "03d298ac6a00b52933d70f2d36e1ba76b4b956da1983ed2737cab09c3b238b84",
+      "sha256": "4ec14729853dd9eb057295904a471eb0f69da806ae48ff54ac8f2327c94fe403",
       "contentBox": [
         0,
         3,
@@ -1474,7 +1474,7 @@
       "source": "https://www.facebook.com/p/Inspireisland%E9%80%A0%E5%B3%B6-61564624596320/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/456326919_122100307154487486_5502375621536358929_n.jpg?stp=dst-jpg_tt6&cstp=mx787x764&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=T5JvRjWwdbYQ7kNvwF2twPP&_nc_oc=AdpypOsaLInURM_e_v2Gf-eYp7jEMe-xSAfAeok9p-glswdGtTdICnaBMYxGOmH75bM&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=lOwg7FOloxi5q1C0l91N3A&_nc_ss=7320f&oh=00_AQPSeXk-EVcbnUkT1oHmoF75-UQC-mW4m2d3MhqWVvzwqw&oe=6AE35116",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "inspire-island-studio.png",
+      "filename": "inspire-island-studio/logo.webp",
       "lastSuccess": "2026-10-25T11:00:38+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:38+08:00",
@@ -1496,7 +1496,7 @@
       "discoveryVersion": 3
     },
     "day-day-ding": {
-      "sha256": "239ec4f8b0657f03c0d0bb8760068c9981666f01b71128513b352130db03588e",
+      "sha256": "c51f64b4056f55e188155e493d39974aa75c0d75acd81ba937f63927989af977",
       "contentBox": [
         0,
         0,
@@ -1513,7 +1513,7 @@
       "source": "https://www.threads.com/@day_day_ding_",
       "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-19/842554932_17986685559119770_1404282117108877890_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=hl9n2FwrJCYQ7kNvwFjjmjT&_nc_oc=Adq9eHMGecUQoPTHkdnrz2BMZC7753hBeZEY0ynmCdtOPGA96WxHktL491KLxzeVioo&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=ahCf9NDqFysHv6Y21EYznw&_nc_ss=7320f&oh=00_AQOdT5Q98YHkp5zueKN0_DbIy0Wph43v3GhkoCAuC4U7pQ&oe=6AE35480",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "day-day-ding.png",
+      "filename": "day-day-ding/logo.webp",
       "lastSuccess": "2026-10-25T11:00:40+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:40+08:00",
@@ -1535,7 +1535,7 @@
       "discoveryVersion": 3
     },
     "hsuehs-select": {
-      "sha256": "ce0358e04fb1db5b282547f4911f5fd6dc8be00852d7a766533f6eb91234cf44",
+      "sha256": "ce87ebda3828a42d4eb751b25f4dd02ac21238ad8847cab2b2317ee9d53d24a5",
       "contentBox": [
         0,
         0,
@@ -1552,7 +1552,7 @@
       "source": "https://www.instagram.com/hsuehs_select/",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/740858807_18128794885649789_3233117717317065803_n.jpg?_nc_cat=109&ig_cache_key=GLebKCx9dV37CmhAAEuctCFvV94sbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43MDQuQzMifQ%3D%3D&_nc_ohc=2lhpOOojCIAQ7kNvwEBAdmw&_nc_oc=AdqxM5BOeqThsOQnZ8grXcyb6HvOz9J_9l9p_pNinKh6xyzhEKnJQfh96cp23MKke0k&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=s-RFvu8GvY5u1ztrAWLqbA&_nc_ss=7b6a8&oh=00_AQM90UCk_aqH_L7aBm0KvefEMmNdQGqIT6eeOpZeD5EXiw&oe=6AE331B0",
       "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "hsuehs-select.png",
+      "filename": "hsuehs-select/logo.webp",
       "lastSuccess": "2026-10-25T11:00:41+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:41+08:00",
@@ -1574,7 +1574,7 @@
       "discoveryVersion": 3
     },
     "rt-flower-design": {
-      "sha256": "a93395b8f3e00aa141a4430727579d0684642069c8d18236ecdb6c9933b039d3",
+      "sha256": "81b1a71a16c13aa1057154d1d3cf28344e8044306f6de1c47a02b2871403358b",
       "contentBox": [
         0,
         0,
@@ -1591,7 +1591,7 @@
       "source": "https://www.facebook.com/profile.php?id=61581726853076",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/559005013_122110238186999895_3720361127273021999_n.jpg?stp=dst-jpg_tt6&cstp=mx1240x1240&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=K2_Vp-Pt1JcQ7kNvwEXm_tU&_nc_oc=AdqoWrjdl3fLPq5Ydqxs5xzst7RSyfHqSPUDbilsg6lwTnJVegSv2XiXLcvqx7_9Upk&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=1Edl7pyvZKR8aGLyz9ACEg&_nc_ss=7320f&oh=00_AQNC_Wyzeb7QfL7u5XvzL7aMazMTe6esUNf-3JtKS2cCpg&oe=6AE34D73",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "rt-flower-design.png",
+      "filename": "rt-flower-design/logo.webp",
       "lastSuccess": "2026-10-25T11:00:42+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:42+08:00",
@@ -1613,7 +1613,7 @@
       "discoveryVersion": 3
     },
     "yakioyster-wusheng": {
-      "sha256": "04ee5e168dd75754be691ac06c56e4d253471059ff9a3e27fa6e8edff7f256ef",
+      "sha256": "52660f9d6919e406794bfb5f9693e3535e8b8fdeb87192eb0e50f978423a0d24",
       "contentBox": [
         0,
         0,
@@ -1630,7 +1630,7 @@
       "source": "https://www.threads.com/@yakioyster",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/358191844_196568790016993_2165678848059615401_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=ypK_KQUY63cQ7kNvwF5FXFf&_nc_oc=AdrATejFoBdgtRzy7xvyOvDNmn6wZag9TOwOr5R2q_Gx-saE_tnbL6jCK1vrhQGZ3Z4&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7320f&oh=00_AQNKf6IKcJrj9dlO7yQFY7Xjf7UtR1ZqANqxUTEIZzYGpA&oe=6AE3507A",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "yakioyster-wusheng.png",
+      "filename": "yakioyster-wusheng/logo.webp",
       "lastSuccess": "2026-10-25T11:00:43+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:43+08:00",
@@ -1657,7 +1657,7 @@
       "reason": "沒有官方頭像來源"
     },
     "cafe-douceur": {
-      "sha256": "c6ef148d56b912234a55b8b9ca349af3910546789164c66604c4df7c59d10e61",
+      "sha256": "db27e7ef56944466ab8064b3d0426a86e09a6a142d8ebb410e34b1785ee23795",
       "contentBox": [
         0,
         0,
@@ -1674,7 +1674,7 @@
       "source": "https://www.facebook.com/cafedouceurcoffee/",
       "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/359726026_663338335815898_1200223087825317697_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0gw2WZVJ7lQQ7kNvwH4hdAs&_nc_oc=AdoeiVj8AHwSqNQTIcuVF2bNu5bIZ7FEY8yFdWaQiY6oUo_gJW2X8bdbzJL5s0WE6TM&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=RBke2Fs8dHMUVkrakUX7-A&_nc_ss=7320f&oh=00_AQPeibfa0d03e_8d7DYIt1neL3ZhSfP_scxCXAVzW2XzTA&oe=6AE33ECE",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；甜在心咖啡館 | Tainan ",
-      "filename": "cafe-douceur.png",
+      "filename": "cafe-douceur/logo.webp",
       "lastSuccess": "2026-10-25T11:00:45+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:45+08:00",
@@ -1696,7 +1696,7 @@
       "discoveryVersion": 3
     },
     "fachu-sushi": {
-      "sha256": "cbdca4f40ebae8cb5a7aa96ef84dc63959aa36328933f6364e8ac2782dee8dc2",
+      "sha256": "4a977536b67f69479fbe1ae3e844527d08c97bf8030873702417757f65c3c103",
       "contentBox": [
         50,
         0,
@@ -1713,7 +1713,7 @@
       "source": "https://www.facebook.com/fachu.sushi/",
       "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/306914147_472604898220655_473913720166923973_n.jpg?stp=dst-jpg_tt6&cstp=mx346x569&ctp=s346x569&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sJJNbzO5er8Q7kNvwGt7TcU&_nc_oc=Adrc2HN4ALAPIoD3vHA9oqyq3YLPqecOUpUKlxJ061tp5TvYtlG9sszjmoJcRGtTfYE&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=A8V78e1bheE61p1I6Z8aPg&_nc_ss=7320f&oh=00_AQN4MvDyXs2xID2bpNbCdXEK12LfcIUohRABbang0yJbhQ&oe=6AE33C3F",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；法竹壽司すし私密廚 | Tainan ",
-      "filename": "fachu-sushi.png",
+      "filename": "fachu-sushi/logo.webp",
       "lastSuccess": "2026-10-25T11:00:47+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:47+08:00",
@@ -1735,7 +1735,7 @@
       "discoveryVersion": 3
     },
     "taixing-auto": {
-      "sha256": "db2ccb91a89e12f55e3e70a09320507b7f633ba272b0852cb1deca40bef69c7a",
+      "sha256": "82ea4fb32aca7b2cdf30e059f22cc0df442223d71568646fcd294a326dbc98d5",
       "contentBox": [
         0,
         0,
@@ -1752,7 +1752,7 @@
       "source": "https://www.instagram.com/txcar456/",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/348854442_777683807285298_3738574818948252605_n.jpg?_nc_cat=105&ig_cache_key=GKoYyxQysBSfTMMCAL2DoXH9FeIzbkULAAAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=daOUDGAmrVUQ7kNvwEikxrS&_nc_oc=AdoraQ_qrfPuGUsp-sHA0hq6u-gkrLOmJBr7zZ96XAV6hMOY5cGxksrxyWxDsB1AbBg&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7b6a8&oh=00_AQMyyGW-FUnQhK6oVQSUm26AOI_x3G4R6sGfPSi6PM1XOQ&oe=6AE3283F",
       "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "taixing-auto.png",
+      "filename": "taixing-auto/logo.webp",
       "lastSuccess": "2026-10-25T11:00:48+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:48+08:00",
@@ -1774,7 +1774,7 @@
       "discoveryVersion": 3
     },
     "companio-bakery": {
-      "sha256": "b11367938de53e15608220dc9280988229582f295350e4ff9fd1bb0e100c2b0d",
+      "sha256": "aa59a13771fe0536413d154ecba18bb4519731e413877da5207e4852be058533",
       "contentBox": [
         0,
         0,
@@ -1791,7 +1791,7 @@
       "source": "https://www.threads.com/@companio__bakery",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/358189881_826397199088196_446094703674516557_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gEsejY30pL_Vt3STEIMqTs4lgUpTalgHdPgSvYtjfxmCoTKftJnbdpHwRrNs_LYWds&_nc_ohc=m0lm1K1z6YgQ7kNvwH4LxJr&_nc_gid=S0gtCmaHgCNqe8DtjcnyzA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQMcKDQvgs5YUy_Qf-tk4I5ZOjKOKj2VoMRfbit5dVXlsQ&oe=6AE349CD&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；一起 companio bakery (@companio__bakery) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "companio-bakery.png",
+      "filename": "companio-bakery/logo.webp",
       "lastSuccess": "2026-10-25T11:00:50+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:50+08:00",
@@ -1816,7 +1816,7 @@
       "lastAttempt": "2026-10-25T11:00:52+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "41358482b0320ec184c87e184bb30d62bd717b9ea3c9f6545e084ec56334db6e",
+      "sha256": "ccfd8ff5ac1110815ed413325f2ef80d7463b3aff553b0862c8660c841286185",
       "contentBox": [
         0,
         0,
@@ -1833,7 +1833,7 @@
       "source": "https://www.facebook.com/%E6%A3%AE%E6%9C%A8%E5%BB%9A%E6%88%BF-106275088128265/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/258747915_269154915173614_8921455016469515892_n.jpg?stp=dst-jpg_tt6&cstp=mx528x528&ctp=s528x528&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=h1XidpdT05kQ7kNvwHtY3DD&_nc_oc=AdrspDNRGdYGNExHbY-FNHIk7ElFNV7Tg-Ctdt8gmfN-EcewaccbnXyafEn1WJnLI4I&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=zZ3-xtN71B73nxX5m_ckoA&_nc_ss=7320f&oh=00_AQMsGSzOaIGcGVlkh6frAltMStpNrKuhw09fpLiBGMSNUA&oe=6AE3278F",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；森木廚房",
-      "filename": "senmu-kitchen.png",
+      "filename": "senmu-kitchen/logo.webp",
       "lastSuccess": "2026-10-25T11:00:52+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -1852,7 +1852,7 @@
       "discoveryVersion": 3
     },
     "south-island-dream": {
-      "sha256": "6727428f2a67b2693538d50bbadafd5c148e1d74577690571fc0df76a4606f27",
+      "sha256": "1956099252461ad1453f412a3658035690f9848e1538d7cc4b525e6c50a69dde",
       "contentBox": [
         0,
         0,
@@ -1869,7 +1869,7 @@
       "source": "https://www.instagram.com/dreamdrift/",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/219586006_3025963664303852_3035310751623316311_n.jpg?_nc_cat=107&ig_cache_key=GNadFg3sZlARGcAKAFeDbv0Llx8qbkULAAAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy42MzguQzMifQ%3D%3D&_nc_ohc=eyCXx6ZJ2wsQ7kNvwH68ORM&_nc_oc=AdpYJEK2eDsuFBiTmdDzKZjXcnctz-Rlvo1yvhs9fv8F4ef2Y4TIqM0jLGxrrLYw03o&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7b6a8&oh=00_AQOrnhvMYgMFfX169LUmH94qec9Ne4HqITU-AJCatOJ5Ng&oe=6AE345EC",
       "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "south-island-dream.png",
+      "filename": "south-island-dream/logo.webp",
       "lastSuccess": "2026-10-25T11:00:53+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:53+08:00",
@@ -1894,7 +1894,7 @@
       "lastAttempt": "2026-10-25T11:00:55+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "f917144083c98a8101c78cca06679208b169d7683dce9fa1061bf9d937063ac9",
+      "sha256": "c8c6aa713d0867f2a5e7ba5997941e39572e68e67180c3e37381103a9c09962d",
       "contentBox": [
         0,
         0,
@@ -1911,7 +1911,7 @@
       "source": "https://www.threads.com/@yutingztw",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/855830781_17988886203116286_3524449616570413345_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gEwzpUCZq_edLEFKn7cZRYUYG1jBstIrl7X8erZ5XWfPHdBmn3n4Ued2GdVQq8CGHo&_nc_ohc=OBBPLBbnkxMQ7kNvwGlWUc-&_nc_gid=SqQHWFiyJZd9IwWhL1v4Gg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQNq4w7geA6YCECG_RKOUpesvVrLx3gEDfnhLk_Nk65zWA&oe=6AE32A5E&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；荷芯藥局 (@yutingztw) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "hexin-pharmacy.png",
+      "filename": "hexin-pharmacy/logo.webp",
       "lastSuccess": "2026-10-25T11:00:55+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -1930,7 +1930,7 @@
       "discoveryVersion": 3
     },
     "dash-pound-cake": {
-      "sha256": "eadba8e3c786f6790b5212e395651cab7ce4b025e00b49e4a739374e0b8a3af6",
+      "sha256": "b208a784bbf82af04517b8e939ff4d6cff7f686f95ca6058939456aa2c099c8e",
       "contentBox": [
         0,
         0,
@@ -1947,7 +1947,7 @@
       "source": "https://www.threads.com/@dash415__",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/741592191_17944400223253361_3489285258402210678_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=108&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=3l4YDI89bIsQ7kNvwG1WgHF&_nc_oc=AdrH4STi6B_Yg7rW0K70OpUnvVu1LfF8uRnFa5bsqQEbGD7Fj6HvKy9t24fAdnWy130&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=oIRo3xhNRGkarZXK6Aojbg&_nc_ss=7320f&oh=00_AQOsiwceWb3epaDQ1CGUkgYwpfuXysuoEausUyR2R_ChNA&oe=6AE345A2",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "dash-pound-cake.png",
+      "filename": "dash-pound-cake/logo.webp",
       "lastSuccess": "2026-10-25T11:00:56+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:56+08:00",
@@ -1969,7 +1969,7 @@
       "discoveryVersion": 3
     },
     "shuxing-brunch": {
-      "sha256": "10c008a470559fcd84c0465489f825b8b670153f9ee47b4fa82cb2e25d5933d9",
+      "sha256": "9ef9673647ce7a340fc513feefe862e653962631a9d52e8f6e2d4cfe2a96d05b",
       "contentBox": [
         0,
         0,
@@ -1986,7 +1986,7 @@
       "source": "https://www.threads.com/@wakey_veggie",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/609841215_17869393482508818_5445022566459357233_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFq2bnjaAbsU21-3hkjSU7x_D9dQ3EMq4_LMqhLtce7yx867g9Z1Uv0Ivy2ENwBTCY&_nc_ohc=r4Vy2GevXacQ7kNvwESHhy3&_nc_gid=X1lzLg8Vz_CTlMJB3yEGXQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQORNvPBYqimK1y_1L4kKvf1zOLiGQKfocQKQbaBJf5Vnw&oe=6AE3281F&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；蔬醒早午餐 (@wakey_veggie) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "shuxing-brunch.png",
+      "filename": "shuxing-brunch/logo.webp",
       "lastSuccess": "2026-10-25T11:00:59+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:00:59+08:00",
@@ -2008,7 +2008,7 @@
       "discoveryVersion": 3
     },
     "goodtime-tainan": {
-      "sha256": "20bf2d125ffadc23500e6ef267577e6e7353a26e77abf03994c32eaf681dbc1d",
+      "sha256": "feb8615e38bc41a6700249dd9352eed2c58db4c1d1a786877b82d9a3deb6d2f5",
       "contentBox": [
         0,
         0,
@@ -2025,7 +2025,7 @@
       "source": "https://www.facebook.com/GoodTime.Tainan",
       "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/326424065_752527202875780_6559359055724944333_n.jpg?stp=dst-jpg_tt6&cstp=mx1638x1638&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MLyKYIZd1kgQ7kNvwG9M7TY&_nc_oc=AdqVXXjBqJGdDOLczJ3ML33cy625iSgbO-3L9QIEmYq1kQK5s1Zxb9gRhSzaIHauMdo&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=-LTSwtaTIZ7eOZRKHWxKfA&_nc_ss=7320f&oh=00_AQO1ZDYhfvv_yTBo_UcTFM8Gc2JhT41DZBoIeipiCl06Gg&oe=6AE33776",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "goodtime-tainan.png",
+      "filename": "goodtime-tainan/logo.webp",
       "lastSuccess": "2026-10-25T11:01:00+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:00+08:00",
@@ -2047,7 +2047,7 @@
       "discoveryVersion": 3
     },
     "tadaima-tainan": {
-      "sha256": "ab8980130825569629cefa7686180763d32d2a3d102088868e21214e89d5a2bb",
+      "sha256": "9bbc37b1a6fcd6024b855f21cf9ec06045c72cd37ff0c6ec95f99244c9406440",
       "contentBox": [
         0,
         0,
@@ -2064,7 +2064,7 @@
       "source": "https://www.instagram.com/tadaima_tainan/",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/425339338_216447888144921_8207645094518453015_n.jpg?_nc_cat=105&ig_cache_key=GMopWhkZOnyz28QAABfzPz26aedxbkULAAAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDIyLkMzIn0%3D&_nc_ohc=4woxXLaNGJwQ7kNvwH6wOZW&_nc_oc=AdodNzluifdM-4B2dySFMl2-xwkPhuStkeov_WW3MYi9kOBF8JcOuEee8_8noNOCs3g&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7b6a8&oh=00_AQMXD0iXZfO_iX1XtYFLtbAO5nIJFj-EDi9rAShPe8NjSA&oe=6AE32F5E",
       "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "tadaima-tainan.png",
+      "filename": "tadaima-tainan/logo.webp",
       "lastSuccess": "2026-10-25T11:01:01+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:01+08:00",
@@ -2086,7 +2086,7 @@
       "discoveryVersion": 3
     },
     "mokume-mumu": {
-      "sha256": "563fc76d47c4bb53f0174a8efdce7325fc3aa54c31870dba0ac0638b805fa8b1",
+      "sha256": "8b2f0dea877322f96c5d5efb8d90b659c9ac70c3c5a80a8e61edf1f198b2ab8a",
       "contentBox": [
         0,
         0,
@@ -2103,7 +2103,7 @@
       "source": "https://www.instagram.com/mokume_mumu/",
       "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/121362869_683479582552039_8492809069139046708_n.jpg?_nc_cat=111&ig_cache_key=GLXZOwfnr7r9nm0CADSxP--ZhNx1bkULAAAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=kEvYPo3ZcU4Q7kNvwHzrWe1&_nc_oc=AdpeHshmdRRPQgFXZo3WCGPqNMPTyhH_CP0fgmSyhDIqtl0SeWVitQA2PL-NEHnfnHA&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_ss=7b6a8&oh=00_AQNZufNG6ET-KGF3RngIWa-HxLgNVVbpHBYiIwo_5TgM3A&oe=6AE3453F",
       "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "mokume-mumu.png",
+      "filename": "mokume-mumu/logo.webp",
       "lastSuccess": "2026-10-25T11:01:02+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:02+08:00",
@@ -2125,7 +2125,7 @@
       "discoveryVersion": 3
     },
     "bing-chun-bakery": {
-      "sha256": "f849546527c353962ff5e9f374d0d4e20beb2c97b19139d2de9d6fac56c324a0",
+      "sha256": "7b79c46418ced05aa5569238a603b1903feaf156501412d5b0e71076b0890c0c",
       "contentBox": [
         0,
         0,
@@ -2142,7 +2142,7 @@
       "source": "https://www.threads.com/@cookie_no324",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/685306026_18105745022487720_5117580876754743889_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDc5LmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gETmyArqNwja-DfUW-czriw35kc7x3E0X07shc-H77oxY70ds9kTQjChpEZH7PxqRc&_nc_ohc=Dr_2AY6pVUYQ7kNvwHyuc7H&_nc_gid=ag9PzUTbzAzrToW0HbGR9A&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQNG2KTzMis8-R9j0l6C0JUocrDgIvgMyxW8N3leZnPFbg&oe=6AE35EA1&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；秉醇烘焙坊 手工餅乾專賣店 (@cookie_no324) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "bing-chun-bakery.png",
+      "filename": "bing-chun-bakery/logo.webp",
       "lastSuccess": "2026-10-25T11:01:05+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:05+08:00",
@@ -2164,7 +2164,7 @@
       "discoveryVersion": 3
     },
     "amiao-noodles": {
-      "sha256": "fd338291ae5b73d24043a36c7ddd638bc38eaa257fa6f4c2e4f4e32e903c0eef",
+      "sha256": "1f0be40976a20693a4dda88e6f044a824715171cf5344a0f1f9eae68cb543d92",
       "contentBox": [
         0,
         0,
@@ -2181,7 +2181,7 @@
       "source": "https://www.facebook.com/Amiao.Noodles.tw/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/305039259_486089703523558_1625956014276294054_n.jpg?stp=dst-jpg_tt6&cstp=mx446x446&ctp=s446x446&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QMLdpjbSrZUQ7kNvwHwTGpj&_nc_oc=AdryxdYJ_rPTZuezTVmubCTKOFl1XcneBSMFxiTqWmRJnXgDSo-5VZJhVMCexTlF4-0&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=gu5SqghKx0yXYX2xweAPDA&_nc_ss=7320f&oh=00_AQNkyoOmO6L5EyHq9Zz0cR8HKMn-bV75Pa6eGO05trHcbA&oe=6AE328D7",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "amiao-noodles.png",
+      "filename": "amiao-noodles/logo.webp",
       "lastSuccess": "2026-10-25T11:01:05+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:05+08:00",
@@ -2203,7 +2203,7 @@
       "discoveryVersion": 3
     },
     "mezzanine-floor": {
-      "sha256": "c43499fc0e2f7f2fe3305b401c5943713ad7f1d52d648a13b92a65e126f62ccc",
+      "sha256": "453f7e8837f7c15e69126c064770334f7af7ab74a565843e41ab44b73f4643c8",
       "contentBox": [
         0,
         0,
@@ -2220,7 +2220,7 @@
       "source": "https://www.threads.com/@mfintainan",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/571175926_17843299926607852_3220726836335702526_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=Dl4nnmEskMkQ7kNvwG1WhV0&_nc_oc=AdoayhBGAyiBMJyqdL302m9AVfmrn2jV6YP04lpIRdcqNRREwS5d9TWxQFpxI2IULFo&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=IoZbw1G7AmjQC2ua699Omw&_nc_ss=7320f&oh=00_AQMYbXDjex6C15zQQOrrZXTVurl0LEU67ph6T1Yi0JqHsw&oe=6AE35187",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "mezzanine-floor.png",
+      "filename": "mezzanine-floor/logo.webp",
       "lastSuccess": "2026-10-25T11:01:07+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:07+08:00",
@@ -2242,7 +2242,7 @@
       "discoveryVersion": 3
     },
     "oh-mo-meow": {
-      "sha256": "b5806eac29b6fc0403818ab2896e8298e2f608f1f1960fbaf92ea3e675fe558d",
+      "sha256": "2f07038314945ebad7668a846c3771b1aae040a2dd0cdee7d83da89deffd08c0",
       "contentBox": [
         0,
         0,
@@ -2259,7 +2259,7 @@
       "source": "https://www.facebook.com/meoweatmeow/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/406976333_851443246986720_1603270059396060247_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1ebt_PPzL-sQ7kNvwFJhqcV&_nc_oc=Adq9Ei1a5qvlWgXtpH0ncfclayhAcTxFCFcohApx7C3NFUbUyiO5-3gfnhlBb62TmtY&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=sLopkD3A6sJI8425JTuUgQ&_nc_ss=7320f&oh=00_AQMumPMHijXjrGBywr-0BI7ZMCL1D7Md11UbeVbRcfGUOg&oe=6AE358D9",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Oh Mo貓吃 | Tainan ",
-      "filename": "oh-mo-meow.png",
+      "filename": "oh-mo-meow/logo.webp",
       "lastSuccess": "2026-10-25T11:01:08+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:08+08:00",
@@ -2281,7 +2281,7 @@
       "discoveryVersion": 3
     },
     "long-ting": {
-      "sha256": "4e282cc13192918ece4df58b1487c947f742e3cd79f3002d0c917d5308bf31a9",
+      "sha256": "f51cc9fbd9905253a57b6c098319c7eea990666bc81c03691261dc9fe3daf4c3",
       "contentBox": [
         0,
         0,
@@ -2298,7 +2298,7 @@
       "source": "https://www.facebook.com/p/龍亭-100063888702417/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/306324984_474452571361029_553748383906202837_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uLmPK6bb0oQQ7kNvwG4H2--&_nc_oc=Ado5j7Rf4aUvsQrJOx5RJ-8jY03eC4OgYZyCyCDY-ItMFCt8CsyvXxezHCHh-y1NQQ8&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=XKLlw53A9WWdOp4EICsbYw&_nc_ss=7320f&oh=00_AQN3vCxtXRzlCwO1ag_hhQXZU1BIgi14sbx_ho7A7m-0Dg&oe=6AE35A19",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "long-ting.png",
+      "filename": "long-ting/logo.webp",
       "lastSuccess": "2026-10-25T11:01:10+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:10+08:00",
@@ -2320,7 +2320,7 @@
       "discoveryVersion": 3
     },
     "daoru-ice": {
-      "sha256": "c14cada0553502d34218b33f7196d351e0ebb05f359d234d78e976f004614edc",
+      "sha256": "ebc5a5bb61ba641b5d6c2ac91a777dbf677fe5d5417c166b1636f2699644dca1",
       "contentBox": [
         0,
         0,
@@ -2337,7 +2337,7 @@
       "source": "https://www.facebook.com/daoru.ice/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/777881669_1570107798462410_1214962891085344976_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx958x957&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=cfV__yKOFc4Q7kNvwFO8g7D&_nc_oc=AdpQ55nvToqPFqAiLrC51QimcH1WLZ5O_O7FtjxbLVqpAgYHZwJrxahctVEPoxrcOQI&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=oA_wmEgO7lwZ_pYZfiMLIA&_nc_ss=7320f&oh=00_AQMu2sgkBvffJfa-N1zFraiyFL29IUHej_2c3M_VxV8ZSg&oe=6AE3396A",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "daoru-ice.png",
+      "filename": "daoru-ice/logo.webp",
       "lastSuccess": "2026-10-25T11:01:11+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:11+08:00",
@@ -2359,7 +2359,7 @@
       "discoveryVersion": 3
     },
     "chia-tsao-brunch": {
-      "sha256": "48cc66eb1ee84c95e8837461b934bd6251f780f501d1306a9e61f5bb2b43809b",
+      "sha256": "a1977dbf44b8d64f87ccddf7edba2725f0cfe77460176293cd84bf926aebd086",
       "contentBox": [
         0,
         0,
@@ -2376,7 +2376,7 @@
       "source": "https://www.threads.com/@spirte520",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/547839568_17914839456191289_1669490112285806267_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gFqpIqPaMEllLcmnTnUWSxyhx-2t6UCBSgOv_D4PqOH5NVj6rPfizKb6xRGCDN9_R4&_nc_ohc=wbdKEf7CVOAQ7kNvwGMQ95z&_nc_gid=w9I0MfuhoiJN277oxUvjLQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQMMXuj8NR5qMuW3nDLmeRWQIt7jjS1rL_N6ss6uPg9M4g&oe=6AE359DE&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Momo (@spirte520) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "chia-tsao-brunch.png",
+      "filename": "chia-tsao-brunch/logo.webp",
       "lastSuccess": "2026-10-25T11:01:13+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:13+08:00",
@@ -2401,7 +2401,7 @@
       "lastAttempt": "2026-10-25T11:01:14+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "894318e54fedc1c85ec84a44a8d0f0052dba759c6b095f4a3b9f9f7f24b71904",
+      "sha256": "09ce4345d0fb327107110bfda633b68281132a34e6227a6a7792838198af4c8d",
       "contentBox": [
         0,
         0,
@@ -2418,7 +2418,7 @@
       "source": "https://www.instagram.com/182beerbar/",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/453909960_390146400756514_4099771727714432290_n.jpg?_nc_cat=108&ig_cache_key=GMgdDhsio6AJ1mIBACK1mzKqUOU4bkULAAAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41MDAuQzMifQ%3D%3D&_nc_ohc=T1G0LYnxXkUQ7kNvwHTv1qO&_nc_oc=AdpzOk7oWHEIOYlkA2H5D3_1PVE6FhQcisptNxyuoykS4VAyG-Xguk690hHAb8J7Ilc&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7b6a8&oh=00_AQM9BTb9Hngyn6_9mvThQHpdZj4S-MyIuEIJ45U3M7FY7A&oe=6AE33826",
       "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "182-beer-bar.png",
+      "filename": "182-beer-bar/logo.webp",
       "lastSuccess": "2026-10-25T11:01:14+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -2437,7 +2437,7 @@
       "discoveryVersion": 3
     },
     "tang-jia-kimchi": {
-      "sha256": "6f3835c027ecdf1d16de63dd255efddb058e995c0b5990bff732c9a42c54a809",
+      "sha256": "285e4ec2106edf01514c68e4a0edf9f4970e23dc01d174dbf23304d52d18a6e8",
       "contentBox": [
         0,
         0,
@@ -2454,7 +2454,7 @@
       "source": "https://www.facebook.com/profile.php?id=100063791081048",
       "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/248548825_4423819461030560_8862075173341533463_n.jpg?stp=dst-jpg_tt6&cstp=mx638x638&ctp=s638x638&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Nq9tsHDEiOQQ7kNvwGnIOyG&_nc_oc=AdpTr--AtixBNuqd21BWMd6LTnL_UC908BmCjTLbdPJ8p4vpy5xP1xgyFsx9MitN9I8&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=9fLnLgkVfjTxjLrMSCit0w&_nc_ss=7320f&oh=00_AQO05OnNKK8vq3Rc-HdgE-oVKN1ZOo3_Sqk0FSNHSn-Xpg&oe=6AE33623",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；唐家泡菜館 | Tainan ",
-      "filename": "tang-jia-kimchi.png",
+      "filename": "tang-jia-kimchi/logo.webp",
       "lastSuccess": "2026-10-25T11:01:16+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:16+08:00",
@@ -2476,7 +2476,7 @@
       "discoveryVersion": 3
     },
     "yen-caffe": {
-      "sha256": "7d00b58ac16c0e7ed1db013e1e867a219739f0e5a43c5a9776346a899210f12a",
+      "sha256": "705ce4d372baf1d1afc49378e1190031878ba3890a7075ace0f31bda8b112a96",
       "contentBox": [
         0,
         0,
@@ -2493,7 +2493,7 @@
       "source": "https://www.threads.com/@yen_caffe_213",
       "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/398602120_1559021101573864_1454678883802270518_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=Bk7DRD0f4NwQ7kNvwG2TAMt&_nc_oc=AdqQmjQEur9rQJLQnpjpeBZOVWohn7YW5ZfYqEEvbwS7c8BKgyEGIrHSaLlCJmQY_wE&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_ss=7320f&oh=00_AQOiF0T8Jzg-nSOY1axfdWrLAsH5a2RLjE2iyoCKjVBX5g&oe=6AE32A8D",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "yen-caffe.png",
+      "filename": "yen-caffe/logo.webp",
       "lastSuccess": "2026-10-25T11:01:17+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:17+08:00",
@@ -2515,7 +2515,7 @@
       "discoveryVersion": 3
     },
     "hush-anping": {
-      "sha256": "20c4a17d49df8f7d3665929f33e151dde8f1b08be5c16193ca1dec82c59189e6",
+      "sha256": "e22a618ddd2cc7fc79d82e173cb26a7f921e034a892a9a76a7fd807f3aa421ca",
       "contentBox": [
         0,
         0,
@@ -2532,7 +2532,7 @@
       "source": "https://www.threads.com/@hushtn2024",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/616931793_17863058463563737_1432858871330436300_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=EmlF7ujyG6oQ7kNvwGSdRBO&_nc_oc=Ado31YwfQjCmWESVWtCD5-yFS6HjCp59NmeSt43GqDagg7icSM8x-NT3TDGdtnsAJm0&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=XFtDooZ5Ri3FHpHR5X9ATw&_nc_ss=7320f&oh=00_AQMu_yz8aSRkOVV3pVlzjEQC1LFVNRKE5NJr1pILWQcwvQ&oe=6AE34364",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "hush-anping.png",
+      "filename": "hush-anping/logo.webp",
       "lastSuccess": "2026-10-25T11:01:18+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:18+08:00",
@@ -2554,7 +2554,7 @@
       "discoveryVersion": 3
     },
     "show-sento-tainan": {
-      "sha256": "7b53cf508b9921450f9eea43c53d67dfd208fbe8f57bc3cfc1cf40b82218a62e",
+      "sha256": "4696898c90cd1efd35312d02585d8e3e71af96218d121d6d71cbd84b53126218",
       "contentBox": [
         0,
         0,
@@ -2571,7 +2571,7 @@
       "source": "https://www.threads.com/@showsento_tainan",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/518187229_17868435333408286_1939877838082877871_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=i62gAUHAlAgQ7kNvwHRjiyJ&_nc_oc=AdrZ_4S9F1Hn6qrIauXyfCKRElQvxgOWhF26i2CFTof4KJwyPxeaJq0YsqE-7yLTTWs&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=0uhwkRpqKXAWkv0N1evdCw&_nc_ss=7320f&oh=00_AQMSuzgikp16W9sJ7DBokq1kdVqWEzou27n0Maq7-Huz2w&oe=6AE35273",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "show-sento-tainan.png",
+      "filename": "show-sento-tainan/logo.webp",
       "lastSuccess": "2026-10-25T11:01:19+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:19+08:00",
@@ -2593,7 +2593,7 @@
       "discoveryVersion": 3
     },
     "jisu-computer": {
-      "sha256": "ce0f061438b8750d62b9175eba40222569ef6e2aaf8afd3443135c2a67df1a87",
+      "sha256": "4b014d8cf1c17b2f118ab766148c7273d27ad0e73c34d0775d3201bf05c42a23",
       "contentBox": [
         0,
         0,
@@ -2610,7 +2610,7 @@
       "source": "https://www.facebook.com/wewepc/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/414150912_749524653863909_7831237263900589618_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=S0blZHJde7kQ7kNvwFerreZ&_nc_oc=AdrFOpqXO4g991rPNO2NcS8BA4l5dWfoNqH-EvXkSZd63DNmwSm9wr1lX0G6e_Wm-tk&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=E6RaiahQWy-WNb17AoCvRA&_nc_ss=7320f&oh=00_AQNnmbgNqnKvt9fOyRuakDQ3UhScFHtvVaTFHb7Te2DLkA&oe=6AE33FF8",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；極速電腦 | Tainan ",
-      "filename": "jisu-computer.png",
+      "filename": "jisu-computer/logo.webp",
       "lastSuccess": "2026-10-25T11:01:21+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:21+08:00",
@@ -2632,7 +2632,7 @@
       "discoveryVersion": 3
     },
     "zhinanwoshi": {
-      "sha256": "ba92dc9059660ff614933f6e466c43e7a24714a9d6b7d2fdd8b621df7f37fb09",
+      "sha256": "963da0278b7a428ca41a92758e537afcfebc931d301eee72b17ca95970325659",
       "contentBox": [
         0,
         0,
@@ -2649,7 +2649,7 @@
       "source": "https://www.facebook.com/zhinanwoshi/",
       "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/334947431_196945229610727_9208750740269867381_n.jpg?stp=dst-jpg_tt6&cstp=mx958x958&ctp=s720x720&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aH6Tah6TZN4Q7kNvwF42pMW&_nc_oc=Adrd7CDjkzKAsvKWkTjNEP9eQSp_WXN1li1ZSsd4Yg6eoPczc75Q5xocio7RP6g1-SA&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=U83n9GPECsYCBfOcNcpYvA&_nc_ss=7320f&oh=00_AQPAYv7JdUn2XvEMtmvjk8Ann8I1hqlltafOh2C1qFH2wg&oe=6AE34354",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "zhinanwoshi.png",
+      "filename": "zhinanwoshi/logo.webp",
       "lastSuccess": "2026-10-25T11:01:22+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:22+08:00",
@@ -2671,7 +2671,7 @@
       "discoveryVersion": 3
     },
     "island-blue": {
-      "sha256": "8fead3b6c3780b80c70fadea325fb201d003d44e26e4e382afab509ea32990c1",
+      "sha256": "f08797fefb98b83040b980ecec30373108bdce136721fafc1cf21d3c584bcbce",
       "contentBox": [
         0,
         0,
@@ -2688,7 +2688,7 @@
       "source": "https://www.facebook.com/p/%E5%B3%B6%E5%B6%BC%E8%97%8D-t%C3%B3-s%C5%AB-n%C3%A2%E5%B3%B6%E7%94%9F%E8%97%8D%E8%8E%93-61575677586280/",
       "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/724189614_122177168672855919_4899360691544742328_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vaMk9xW9eUMQ7kNvwF87Jvx&_nc_oc=AdrHuPJNZ6l2jHoLGckW6eWiA3jqnf3H4BTNUup9kkEwhS8otGV_LfB8EUu5beJS7c0&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=Fjg_Q5SPxzgd77VlbcsUvQ&_nc_ss=7320f&oh=00_AQM5y95leF5Atgsorm8tRbzOs3Nuol3XmoO4RvDasmIdTg&oe=6AE346EE",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；島嶼藍 tó sū nâ島生藍莓 | Shanhua District, Tainan City ",
-      "filename": "island-blue.png",
+      "filename": "island-blue/logo.webp",
       "lastSuccess": "2026-10-25T11:01:24+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:24+08:00",
@@ -2710,7 +2710,7 @@
       "discoveryVersion": 3
     },
     "smellscape-tainan": {
-      "sha256": "f2e65ed110aefe6107548eed5bf456fac5d6765f55be628f79682eb53cb6ac99",
+      "sha256": "ce109ba3cbc340f2b9e752af8b574dc4f548bc7e533adf0c87b9d06a19b68c27",
       "contentBox": [
         0,
         0,
@@ -2727,7 +2727,7 @@
       "source": "https://www.threads.com/@smellscape_tw",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/420376177_1420604441923570_7022621441905344922_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=GT6ni1pur6MQ7kNvwHT3REK&_nc_oc=AdphjZPJWHVauLHBCuYnBAugQbnQKVWTsLeCOOwFDq6-dP9-eN9xQTFf1laTAolgLkg&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7320f&oh=00_AQOALS5qD1te9p5p_8iyotEDpMNOHZuDXxW109xZBcWeXQ&oe=6AE34E85",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "smellscape-tainan.png",
+      "filename": "smellscape-tainan/logo.webp",
       "lastSuccess": "2026-10-25T11:01:25+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:25+08:00",
@@ -2749,7 +2749,7 @@
       "discoveryVersion": 3
     },
     "sangu-oyster": {
-      "sha256": "f6835835ff0bdc82cc49ff2b9aced8f23b50cd28bef5ce6695924af9f3be0312",
+      "sha256": "ffd44f7aff067a7ba46a85752edf0883fa776fbf2e411ce788866da87089afb0",
       "contentBox": [
         0,
         0,
@@ -2766,7 +2766,7 @@
       "source": "https://www.threads.com/@sanguoyster",
       "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/483658070_1380630393089747_3058463701616969631_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=FbOCtOz_xEcQ7kNvwEWY8YB&_nc_oc=AdpGvCYmPscYjEttrfEwxTqDA9v4MI08wzVbvlDtEeSC9o1f6WmT37HcXxezA3WzynA&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_ss=7320f&oh=00_AQPad0LGk4ZBn3vUuoO1mElwSb-7yVzGlQo2JbYsgsWTOw&oe=6AE35148",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "sangu-oyster.png",
+      "filename": "sangu-oyster/logo.webp",
       "lastSuccess": "2026-10-25T11:01:26+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:26+08:00",
@@ -2788,7 +2788,7 @@
       "discoveryVersion": 3
     },
     "biosis-shotting-fun": {
-      "sha256": "968d664a40800bcbc6ef081f9eec01cd551fcaef96e67e163b5f44526288350f",
+      "sha256": "0ddd5776daece999ec5d36e71d1de54bc449ef278ff349675c8b0706abc067c6",
       "contentBox": [
         0,
         0,
@@ -2805,7 +2805,7 @@
       "source": "https://www.instagram.com/biosis.starts.with.a.hyphen/",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/641193754_17851764582681645_137433453962439131_n.jpg?_nc_cat=109&ig_cache_key=GBrXNyYtjJDWFWw-ANupr4v-QugBbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=pB1MMJyusjMQ7kNvwESPKvt&_nc_oc=AdpBCyfKZDHR8pDlwxR5pBcCVxZ5lGYWvauewJxZafIt2ExTDj6QgsPLPxMHt1AwV4Y&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=_dfnWV34CdYlaNqjw5vxmg&_nc_ss=7b6a8&oh=00_AQP6tOq1BuTYTSyxOJyC7vdVcyADpM_iMYrIV9UdbccD0g&oe=6AE33E3D",
       "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "biosis-shotting-fun.png",
+      "filename": "biosis-shotting-fun/logo.webp",
       "lastSuccess": "2026-10-25T11:01:27+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:27+08:00",
@@ -2827,7 +2827,7 @@
       "discoveryVersion": 3
     },
     "minflower": {
-      "sha256": "d2d804245ee881ca8b35a304e9929988a499969ccf0386cfa73acf7b5149481b",
+      "sha256": "95130aa31a96990c3e4792a875199e72ad336511e279c419709d8935cd4d0e76",
       "contentBox": [
         0,
         0,
@@ -2844,7 +2844,7 @@
       "source": "https://www.threads.com/@minflower168",
       "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/448898807_852853743363532_4084655679328282908_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=jRyHCuXMo1sQ7kNvwGP7p02&_nc_oc=AdoiagXN84LTKGM-paakzq_ZJOLkRByj7gINZoLm-92-fIPe3hpP5T-shWqMpZeTTpU&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_ss=7320f&oh=00_AQPGjHRf3fNiCKt1NlbW4IwFrXILPjkd8NyTS58pkZf-LA&oe=6AE33AA8",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "minflower.png",
+      "filename": "minflower/logo.webp",
       "lastSuccess": "2026-10-25T11:01:28+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:28+08:00",
@@ -2866,7 +2866,7 @@
       "discoveryVersion": 3
     },
     "heydude-noodles": {
-      "sha256": "9781b99b66ffaf49f8c6e6cb18c9308b87c578572d24b383f41f2dc8e1f851b0",
+      "sha256": "a769eaae719d568b4ad7852a4de678e0d87992a989c9a3344814ee89a0e05840",
       "contentBox": [
         0,
         0,
@@ -2883,7 +2883,7 @@
       "source": "https://www.facebook.com/chen062693894/",
       "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/296798401_1981668878687925_1182849577884993503_n.jpg?stp=dst-jpg_tt6&cstp=mx959x959&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mxPbNQORR3EQ7kNvwGKuhb8&_nc_oc=AdorciULxt6yACtbNwsLB4ulWkSTHc51vdGlZVcv1vfAQ8uK2sl71tOHoAZuNfdDaWA&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=wNr-WsLvQhOEHR2nlDCbGg&_nc_ss=7320f&oh=00_AQP2g4ftrLZoeJcMLdne9WfmkZQ-q2zG5dcxYxLzA9Yk3g&oe=6AE327CA",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "heydude-noodles.png",
+      "filename": "heydude-noodles/logo.webp",
       "lastSuccess": "2026-10-25T11:01:29+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:29+08:00",
@@ -2905,7 +2905,7 @@
       "discoveryVersion": 3
     },
     "qingzhen-duck": {
-      "sha256": "9f512ac2fe29fbedde26962838d07bde388c8d7c61476511da09a341d8e42c43",
+      "sha256": "3024f30c70e38fc87a26b7a5030e1b21321ec6ed618efd6a868f8b6b80e9fb59",
       "contentBox": [
         0,
         0,
@@ -2922,7 +2922,7 @@
       "source": "https://www.facebook.com/duck.duck.snack/",
       "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/306224662_502131625254362_5517287218567531987_n.jpg?stp=dst-jpg_tt6&cstp=mx1102x1102&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QpGmVCo0QycQ7kNvwGeWS80&_nc_oc=Adq9gxuBAA2MsWVjbWWnyhZ2pcMakFAbhPYdWL_9zgSE1XK5KuBT5wk4WcoNPF7gyAs&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=Hea8sNxBUNv7N_cJlHQ4Sw&_nc_ss=7320f&oh=00_AQO3YynqLkGptF9Y9JhpLOm8P3piZAW_nSAkbucQoN8i6Q&oe=6AE329C8",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "qingzhen-duck.png",
+      "filename": "qingzhen-duck/logo.webp",
       "lastSuccess": "2026-10-25T11:01:30+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:30+08:00",
@@ -2944,7 +2944,7 @@
       "discoveryVersion": 3
     },
     "tsai-li-ching-guoan-haidian": {
-      "sha256": "4fade8849674e098be51baca2e3a6ef002baf54666665dae83e8cef096e4ac5c",
+      "sha256": "932a9bf5b49fbd1a30eaf9f70be2469d07614ffd3878de483d4596dc86b9d9ff",
       "contentBox": [
         0,
         0,
@@ -2961,7 +2961,7 @@
       "source": "https://www.threads.com/@kisschin66",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/724270309_17909647548423439_3605890341976889896_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gG5TwaeeQTyzhm96WVWd3LlHWAq4VDfNmhVoAiLKpeA5R6CqHfL745X6dn54bD4dbc&_nc_ohc=HUWLN-xtoLIQ7kNvwEAraaA&_nc_gid=14lV6L3HIPmxqU0_h6PaYQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQMsbHnPiaug0KJvOwPpxLGQqv7ua3drQCT4l9xWI8vNjQ&oe=6AE34ADA&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；蔡麗青 (@kisschin66) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "tsai-li-ching-guoan-haidian.png",
+      "filename": "tsai-li-ching-guoan-haidian/logo.webp",
       "lastSuccess": "2026-10-25T11:01:32+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:32+08:00",
@@ -2983,7 +2983,7 @@
       "discoveryVersion": 3
     },
     "full-yakiniku-annan": {
-      "sha256": "225460af22835ae50fe51b52de38fe23b9ccb172f44d6ff870ade92ab3d93539",
+      "sha256": "edd53014af41ec375d2f360ded3caaaddb8f927d2e5b3da7b05d57a98716a97a",
       "contentBox": [
         0,
         0,
@@ -3000,7 +3000,7 @@
       "source": "https://www.facebook.com/people/花燒肉個人燒肉-台南安南店/100095048891506/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/361901461_3575186766097844_2244296698082984312_n.jpg?stp=dst-jpg_tt6&cstp=mx1182x1182&ctp=s720x720&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=buV851WovqIQ7kNvwHII7mN&_nc_oc=Adq8nlsa9qFfPvw9Se22D3uRu0eHgMWMeS1BgJOFTdG3yIN1o-1x5uCQmyKSRTBvBvg&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=ZBMYRh1_Eu1jKgVlWyS7Xw&_nc_ss=7320f&oh=00_AQOoqlig2pkVC8oiM_o4YJxhCMDkbvtq2kFsKqcPx2tFQw&oe=6AE35BD8",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "full-yakiniku-annan.png",
+      "filename": "full-yakiniku-annan/logo.webp",
       "lastSuccess": "2026-10-25T11:01:33+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:33+08:00",
@@ -3022,7 +3022,7 @@
       "discoveryVersion": 3
     },
     "he-cafee": {
-      "sha256": "bde48326bf99373bc6b140919f61501bdbe3160ea2210c7e2c225321a859fc7f",
+      "sha256": "92cde21f12f14c434b6065c475d63a38116405c203c8cb5f2e47a025890ec371",
       "contentBox": [
         0,
         0,
@@ -3039,7 +3039,7 @@
       "source": "https://www.threads.com/@he.cafee",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/357856388_658592062789262_1632634417934934623_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=JheRJKB1RuoQ7kNvwEzlC9v&_nc_oc=AdpdO5QWnyHlPwT7NyjLWXINITCCeW_eLdmb2juG4XQGU69y-3g6YhUyDUUaQl4ODlI&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7320f&oh=00_AQN80bz3wxVK3585J3nkjAjhM376p2fxJINaNKVy7EvKgw&oe=6AE32A13",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "he-cafee.png",
+      "filename": "he-cafee/logo.webp",
       "lastSuccess": "2026-10-25T11:01:34+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:34+08:00",
@@ -3061,7 +3061,7 @@
       "discoveryVersion": 3
     },
     "wanmore-yongkang": {
-      "sha256": "496ded45ede959d98bc5a00c6cfba850a62107a932078e47806f916a1efbc9e5",
+      "sha256": "a6713250bcde7eee65f533c5705857e8c3aff302172aaf8afea474092113c3f2",
       "contentBox": [
         0,
         0,
@@ -3078,7 +3078,7 @@
       "source": "https://www.facebook.com/p/%E4%B8%B8more-%E6%B0%B8%E5%BA%B7%E5%BA%97-61576606328926/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/500478627_122103111854886877_1673264366386111329_n.jpg?stp=dst-jpg_tt6&cstp=mx766x766&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0PoBIXQZ1GMQ7kNvwHO57bW&_nc_oc=AdogPNHNkIovAe3Cv4lm5b4Ne3Tb5egpGpGfh9Lbhb4l7nKGWUrsFcxWCsti4PD_I2s&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=YJlZkHukY1KoA2s9jsvlwQ&_nc_ss=7320f&oh=00_AQMAWd9s-emqmgszrHx5JhX0I7cGgu-RgtgKXtyKT_fTlQ&oe=6AE33B41",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；丸more-永康店 | Tainan ",
-      "filename": "wanmore-yongkang.png",
+      "filename": "wanmore-yongkang/logo.webp",
       "lastSuccess": "2026-10-25T11:01:36+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:36+08:00",
@@ -3100,7 +3100,7 @@
       "discoveryVersion": 3
     },
     "screaming-bean": {
-      "sha256": "3d3c2f0484e71b12735370a2b25d2e851d63dbf333eec19d364347d5989f3943",
+      "sha256": "7e2ec23c931b12e74f685eaf8377da37892d1a3eb96cdca2c06a6eb1fdfcc85b",
       "contentBox": [
         0,
         0,
@@ -3117,7 +3117,7 @@
       "source": "https://www.facebook.com/screamingbeantw",
       "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/357356144_280263581178555_5231350009632274747_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JpoxVRvh1S8Q7kNvwGFHtFT&_nc_oc=Adq0SJ9Q3SyqyIr8BsgK1ZmAlKko4wT1P3k-_u9elVHkqAfSJLY-uV-J5ot-8mlaop8&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=u3PRCrpcWcMIvc4yRuxnAQ&_nc_ss=7320f&oh=00_AQPSU6EoLxh84aJ8Z4xS8Rl8g-Jf1X_NCXaR-ySWYvRD9w&oe=6AE32697",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "screaming-bean.png",
+      "filename": "screaming-bean/logo.webp",
       "lastSuccess": "2026-10-25T11:01:37+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:37+08:00",
@@ -3139,7 +3139,7 @@
       "discoveryVersion": 3
     },
     "shiroi-usagi": {
-      "sha256": "06c8b1fc73dda18f77bb9ecf2bd6dfbccc3929824d955a1c8532dc24e6626694",
+      "sha256": "7a4edd82e0633cc130af1e077a50b16a8c236bad301661f3b3b0746562d750bb",
       "contentBox": [
         0,
         0,
@@ -3156,7 +3156,7 @@
       "source": "https://www.facebook.com/ShiroiUsagiM",
       "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/295074115_454472193352485_5786042061695303806_n.png?stp=dst-png&cstp=mx1377x1377&ctp=s720x720&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HZJYyChBQo8Q7kNvwF2mt8s&_nc_oc=AdopjiysoEGgQq1bJf-ed75aWmnWjBrvn4NAoaTHOUIFEZG37_jwphePA-VVubGjyQA&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=M3LR5h5OBvPCmNKry0QQAA&_nc_ss=7320f&oh=00_AQOm_FsmPnEUwadsfJrcn7nyiCTfT_BGtckOoMfZWwPcPg&oe=6AE33681",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "shiroi-usagi.png",
+      "filename": "shiroi-usagi/logo.webp",
       "lastSuccess": "2026-10-25T11:01:38+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:38+08:00",
@@ -3178,7 +3178,7 @@
       "discoveryVersion": 3
     },
     "lily-garden-tainan": {
-      "sha256": "fa2dba247e17d8645be60c5a1d76914d7857510565d0ba3b39c937f9b0c9a2f6",
+      "sha256": "b9de3a8689a41bece84abe1a190f27d253a7603c1fef9468f532c36dca55dda0",
       "contentBox": [
         0,
         0,
@@ -3195,7 +3195,7 @@
       "source": "https://www.threads.com/@lilygarden117",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/650130355_18317842474271844_5264184814546248774_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=_2eBkTLJT7kQ7kNvwFOwP0-&_nc_oc=AdomILS8sAiTo0eFVpXwRFuDjRD6uZz1guDltbEaX9vlHNB78kdQwvjmSbBsNf7CQ7I&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=zHyv6lplU6-B3BJDE5GIVA&_nc_ss=7320f&oh=00_AQM8Yj7lTmhKJ5sGX9XLM6_xkphlGQ10_f3Wch7VFW6Aeg&oe=6AE35B38",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "lily-garden-tainan.png",
+      "filename": "lily-garden-tainan/logo.webp",
       "lastSuccess": "2026-10-25T11:01:39+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:39+08:00",
@@ -3217,7 +3217,7 @@
       "discoveryVersion": 3
     },
     "lola-dessert-tainan": {
-      "sha256": "19167b5b566c276dc857b1d50d575098388b37caf717741ef1cba1c6fe1a4fec",
+      "sha256": "a5193413dd69483d1bdb9c9ec4e15b4f7170e55035d52167c51ee9365f1ee5b0",
       "contentBox": [
         0,
         0,
@@ -3234,7 +3234,7 @@
       "source": "https://www.threads.com/@loladessert2024",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/755171403_17908530078445378_7123562808503430899_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=108&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=dPrRlH2F4ZgQ7kNvwGjyX3u&_nc_oc=AdrVpGCeGs0adiGVVqEcR5sNboQ8oSgKizZw9qpwGXyRihwCzNQ-BN-H70eYvIZeXvE&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=t-WympFYYQ9o41t-3pm9KQ&_nc_ss=7320f&oh=00_AQMMQvKWr8rPX110pCCGkuVRFDqDEUUkzDNjfUalK1RfRA&oe=6AE3553D",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "lola-dessert-tainan.png",
+      "filename": "lola-dessert-tainan/logo.webp",
       "lastSuccess": "2026-10-25T11:01:40+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:40+08:00",
@@ -3259,7 +3259,7 @@
       "lastAttempt": "2026-10-25T11:35:21+08:00",
       "result": "low-resolution",
       "reason": "官方來源僅取得小圖（最大 150 px），保留舊圖，待補足夠清晰的 Logo 來源",
-      "sha256": "7a6802d15cf3f0c5ed4baf53f2415982d3d4e457d56c948c877b00ed882088b4",
+      "sha256": "1a2a0c6d0dea99c1a573c3836e8a6b581b3f7114e819e9a16a44f701aefcc5e7",
       "contentBox": [
         0,
         0,
@@ -3276,7 +3276,7 @@
       "source": "https://www.instagram.com/wafting_coffee/",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/583611057_17893227738361601_41442608400443891_n.jpg?_nc_cat=107&ig_cache_key=GLEyySIB7zq7y5E-APMpRjDVO5MAbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=tZVMySWamSgQ7kNvwHiJPeV&_nc_oc=AdranP8ehZfsdFGe_JbUehOB3DM_0_8BV7O9U5gmXwmMf8e4j52S1sINdgTwYKdihUk&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=z8ULcubsTYC5dNwH8alTBA&_nc_ss=7b6a8&oh=00_AQN0jK4bpdHsO4UixleYTnpz5pG5VHusiz3QXhhqxsyaiw&oe=6AE34801",
       "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "wafting-coffee.png",
+      "filename": "wafting-coffee/logo.webp",
       "lastSuccess": "2026-10-25T11:01:41+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -3314,7 +3314,7 @@
       "lastAttempt": "2026-10-25T11:01:42+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "0f9d55717f0ca6beeb1492da24fd28dd004cdb35488b7e8af673e8dc4fb8d342",
+      "sha256": "efdea5263977e3224073cf491971798afee7b18a9b1ea4c5105bc8e9eeb79d3a",
       "contentBox": [
         0,
         0,
@@ -3331,7 +3331,7 @@
       "source": "https://www.facebook.com/profile.php?id=100064859281290",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/308641932_464725559032750_4780781478844387307_n.jpg?stp=dst-jpg_tt6&cstp=mx535x535&ctp=s535x535&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4nJF3RFNescQ7kNvwETrBP-&_nc_oc=AdrrG1WUG5tx21-pB8aEX_WpeWT7LGBsvNwF8OoECin5YDUgknm1wE96wsM98CA0Nps&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=UcMhXEX36l1AS9MYq0MqKg&_nc_ss=7320f&oh=00_AQMN0YY2eBP2LK-HuqFtrEU0v14bLwhk7QHaUtGVefTyXA&oe=6AE34FBE",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "bingder-no2-wanchang.png",
+      "filename": "bingder-no2-wanchang/logo.webp",
       "lastSuccess": "2026-10-25T11:01:42+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -3353,7 +3353,7 @@
       "lastAttempt": "2026-10-25T11:01:43+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "8e15e05e0685b9760bc30ed79ee4a9f4da253fccd3efcfb3783b097f3c499127",
+      "sha256": "ae6882056a6872689084ecbf637182f0ad32ebb7ab2ce18dcf0e3d9ff07fa16a",
       "contentBox": [
         0,
         0,
@@ -3370,7 +3370,7 @@
       "source": "https://www.instagram.com/tranity_2024/",
       "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/446335899_365826449379337_8757799393534239045_n.jpg?_nc_cat=102&ig_cache_key=GJuLmhoJkJCbt0wBAEVhvckl9Il5bkULAAAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=FsASd6eXdx0Q7kNvwF909TH&_nc_oc=Adr3rc2CTJpbIlTTf8oeoqrS17JX-cYIHS3t3mlMq--4pB9tGU2u9O5LtRnS3Zm0sS8&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_ss=7b6a8&oh=00_AQOaQYLb2H507H3N9Ysmopx8STpagcvuSxN2CpRA3xd4OQ&oe=6AE32EA6",
       "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "tranity-anping.png",
+      "filename": "tranity-anping/logo.webp",
       "lastSuccess": "2026-10-25T11:01:43+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -3392,7 +3392,7 @@
       "lastAttempt": "2026-10-25T11:01:45+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "38732ce9ecb87fded29da1305cb5fdbb101f219e4bd7b5a5e82bdbbc412ad57e",
+      "sha256": "b90670ba91d9fbd69d6e785db8b18640d1a08330a8601b68c12a23958657433d",
       "contentBox": [
         32,
         0,
@@ -3409,7 +3409,7 @@
       "source": "https://www.facebook.com/p/%E4%BA%94%E5%A6%83%E9%AD%AF%E5%91%B3-%E6%AD%A6%E8%81%96%E5%BA%97-100067737316929/",
       "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/240515288_169169112004026_2841498722685327259_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s960x960&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yPA5WIx8lv4Q7kNvwEDjikR&_nc_oc=Adqv33opO7JHq-c-6RaitrBnhnofx-inFDpZlOf7TYVG0efy59XMSO1Id74PgeI_XSw&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=s9cJfgW1UF7C1qxoY-olfw&_nc_ss=7320f&oh=00_AQMBADrzLBAopjVR0p3mica2sXDExmLYzA2HhIcBsPd56w&oe=6AE34DF2",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；五妃魯味-武聖店 | Tainan ",
-      "filename": "wufei-luwei-wusheng.png",
+      "filename": "wufei-luwei-wusheng/logo.webp",
       "lastSuccess": "2026-10-25T11:01:45+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -3431,7 +3431,7 @@
       "lastAttempt": "2026-10-25T11:01:47+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "8e84f15fc00cc851daf2bbaed4034f9f587a01c306a28572c20718b95d1599fb",
+      "sha256": "24d5d1b300182cce796be301d98cb1b7734c264cec28b0e7d57b82de2e80abbb",
       "contentBox": [
         1,
         0,
@@ -3448,7 +3448,7 @@
       "source": "https://www.facebook.com/3l4patisserie/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/326691926_5629612293825240_6247797810898461166_n.jpg?stp=dst-jpg_tt6&cstp=mx529x536&ctp=s529x536&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MS2kM9lGOmwQ7kNvwF5MxUf&_nc_oc=AdpX3EHrGafX56WCWLbkqrM5W1lnmVztSjBBEKMcfBvc0ldMD2zWdYNArhVp0D_V86A&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=K2KNvgLKa2W57esQrRXagw&_nc_ss=7320f&oh=00_AQMLQJAftlT2LsjT-94EgSUiZM1aiKwdhpKSIHeoNjGSPg&oe=6AE35F7B",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；四分之三法式甜點 3/4 Pâtisserie | Tainan ",
-      "filename": "three-fourths-patisserie.png",
+      "filename": "three-fourths-patisserie/logo.webp",
       "lastSuccess": "2026-10-25T11:01:47+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -3470,7 +3470,7 @@
       "lastAttempt": "2026-10-25T11:01:49+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "b316b6c9210d67bfa62607d1c827b0e9370e5a4b3a2366ad65a08739c7864703",
+      "sha256": "cec0f84505ce9733d4ce0e87bc52ced2b10346bbb73605be8b944a9436dc33d7",
       "contentBox": [
         0,
         0,
@@ -3487,7 +3487,7 @@
       "source": "https://www.facebook.com/tseng110/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/269723411_460212509085037_3803305935872231973_n.jpg?stp=dst-jpg_tt6&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ti6cybqeMGsQ7kNvwFXx7Hv&_nc_oc=AdoSL2sS6PPxNFmbTQVO8t0jD4RMgVFcCp-urqWrlawFBQe9QPMPpgf0EViTdLKqzr8&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=vdag4wVQqwK3hoNBXQo40Q&_nc_ss=7320f&oh=00_AQNK-4dSVuRadnvundzTSMZq8z-09w2E7gXsFAWCgqeTAg&oe=6AE33660",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；曾家小館 | Tainan ",
-      "filename": "zeng-jia-xinying.png",
+      "filename": "zeng-jia-xinying/logo.webp",
       "lastSuccess": "2026-10-25T11:01:49+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -3509,7 +3509,7 @@
       "lastAttempt": "2026-10-25T11:01:50+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "cd0d9dcbeea88673e78a3a58da0919fb642bcf5bb6762e0a1094feed237e0f31",
+      "sha256": "f8dab9bd31e6cab0b7bc4eebd657e70e6f1103fb61d5caf5cdae5542bc70b9f2",
       "contentBox": [
         0,
         0,
@@ -3526,7 +3526,7 @@
       "source": "https://www.instagram.com/dancingsheepdn/",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/563323927_17846667567583434_315822764943055491_n.jpg?_nc_cat=104&ig_cache_key=GBekkyHKUMoYc2c-AIOaaaQhB2IEbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=K219vogez3oQ7kNvwGTWCCB&_nc_oc=AdpO8Sq-iY-GuVIZtpJ7rEsQ3ZnQq4V9ojdHOCOFn4F1bTV4h75tBo-1z1wxvGhpWPg&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=TU7djyakEL28l6W60v_1JQ&_nc_ss=7b6a8&oh=00_AQPk4zGG838Fxi3FrCAI42FVFgZ-ROv6-WZUD6LEb2hnCQ&oe=6AE335A8",
       "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "dancing-sheep-coffee.png",
+      "filename": "dancing-sheep-coffee/logo.webp",
       "lastSuccess": "2026-10-25T11:01:50+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -3548,7 +3548,7 @@
       "lastAttempt": "2026-10-25T11:01:51+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "02b9f9b6d4d832a596fe0656a1192d0d5252484db16b5fedeaf5fa6000c96ed9",
+      "sha256": "4f4f7f87684c22715ae0711c6d03419e2e13b485a039d455dd79bda2bbc6778b",
       "contentBox": [
         0,
         0,
@@ -3565,7 +3565,7 @@
       "source": "https://www.threads.com/@tso.hue.tsiah_eggcake",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/780267310_17904223059542414_6036023778874245831_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=106&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=I0Qw9IqSy5sQ7kNvwH2H2iC&_nc_oc=AdpLMlZwFUUUnBCsSI0imMm6BuDV1_9rt7nY9Mlawd4GIMcZ6yZfrr9Dkgz9Efcs240&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=IRAtBR7WhDIhXmN_VCfJDg&_nc_ss=7320f&oh=00_AQPQiZzR7iUktilPwxnIoOdHmtR5lfkb0gCO4Fz54_1aww&oe=6AE35973",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "tso-hue-tsiah-eggcake.png",
+      "filename": "tso-hue-tsiah-eggcake/logo.webp",
       "lastSuccess": "2026-10-25T11:01:51+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -3587,7 +3587,7 @@
       "lastAttempt": "2026-10-25T11:01:52+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "00d0164f87fce4aec825e8a84671436a20c1b4d5504b8c5a4d8b9640140b2bc5",
+      "sha256": "f06c21f8cd4ecf7591feb19d9c4f6b8f6a2f6115033cd9259d3937dc524689e0",
       "contentBox": [
         0,
         0,
@@ -3604,7 +3604,7 @@
       "source": "https://www.facebook.com/profile.php?id=100063929020475",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/312233870_504125181728445_2777112228324274633_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=B2UbqsiqgOkQ7kNvwF2ib1s&_nc_oc=AdquaeoNjh-FAxYGd50Q0XrGTDhAoTkLoN5s-CYjHY7Exrr-zfRnmOgOXVWNbXWXcnQ&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=XpboAmo_b-Qv5y2GraBRgA&_nc_ss=7320f&oh=00_AQMZha9kev_B5DHPgcUvJ1GQcfCvO1jvBKy5OSQDBggz_w&oe=6AE33D72",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "gandan-xinying-ice-tangyuan.png",
+      "filename": "gandan-xinying-ice-tangyuan/logo.webp",
       "lastSuccess": "2026-10-25T11:01:52+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -3626,7 +3626,7 @@
       "lastAttempt": "2026-10-25T11:01:54+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "f763f76012595dd72596ce58bc5b4ae9a14fe7ea2f7e93dbe23fd88ede8c6e3d",
+      "sha256": "b0a3b2b739892671e5a06ca89ce8e76624c0c612892c45c6820199b531c13801",
       "contentBox": [
         0,
         0,
@@ -3643,7 +3643,7 @@
       "source": "https://www.facebook.com/2596463baby",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/470659429_1098881452248448_540633914003711835_n.jpg?stp=dst-jpg_tt6&cstp=mx1045x1045&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=s2iUUVfIPPoQ7kNvwG85ZPY&_nc_oc=Adrq2EA4YGBew19SYIM2OVJ63yVPxBEoHikSf0ABOPJFz74xBpc0DmNgujNIjI73-Zc&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=huL87ZhTYgWBlCkjd9FXPQ&_nc_ss=7320f&oh=00_AQPeoWG-e1pF5B8wptOH_SDB4CntwDpbg7ojzll3WWbFug&oe=6AE33A98",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；幼之園童裝部屋 | Tainan ",
-      "filename": "youzhiyuan-kidswear.png",
+      "filename": "youzhiyuan-kidswear/logo.webp",
       "lastSuccess": "2026-10-25T11:01:54+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -3665,7 +3665,7 @@
       "lastAttempt": "2026-10-25T11:01:56+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "f47a0a9e34a10452756140675ffc5e251e2ef1153f035e8d6bf7d0fffb1f329f",
+      "sha256": "c16ac8c203bbe6e93d1fec2629fc5922280a8161adc33637e1397c7ed0bcbe24",
       "contentBox": [
         0,
         0,
@@ -3682,7 +3682,7 @@
       "source": "https://www.facebook.com/people/%E8%87%BA%E5%8D%97%E5%91%B3-%E8%91%89%E5%AE%B6%E5%B0%8F%E5%8D%B7%E6%96%99%E7%90%86/100054241430692/",
       "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/298728948_581178917033484_8965536376589402676_n.jpg?stp=dst-jpg_tt6&cstp=mx566x566&ctp=s566x566&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nBBS4hAYkdgQ7kNvwHbZDZH&_nc_oc=Adq04ZXfV66Srjt6FLIifXzGP7Khy5aZQfwN0AbsE5QyxCjyh4vz_b2b5DYAFuG7xFQ&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=S81H77u0rvhkDJbCDfHaVw&_nc_ss=7320f&oh=00_AQNHdBZHj7npkdbMxAb0s5n5pRcVwtSmtZh3GwRZ-F75ug&oe=6AE34879",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；臺南味 葉家小卷料理 | Tainan ",
-      "filename": "yehjia-squid-rice-noodles.png",
+      "filename": "yehjia-squid-rice-noodles/logo.webp",
       "lastSuccess": "2026-10-25T11:01:56+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -3701,7 +3701,7 @@
       "discoveryVersion": 3
     },
     "chengyang-light": {
-      "sha256": "4ed88ecfbd39fd28fdf2ad435864dd753b00e7329935cedbb6bf44622c4928b9",
+      "sha256": "bdbea1b85210d613effde3e80cab216a7989385af1901695cd8c422234488e8b",
       "contentBox": [
         0,
         0,
@@ -3718,7 +3718,7 @@
       "source": "https://www.threads.com/@chengyang_light",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/545270443_17843248245574576_6725309081547384345_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44MDguYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gE7kLUTF3FaunjpZelQssupXa1okC8u8x6sUIPQrbgSJoC1mPkxy38BEwZUHZ9GVH4&_nc_ohc=eD4EZluJN4MQ7kNvwFSDlks&_nc_gid=khKRMjiKlLfQIA-8PfGl9Q&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQNOuFEAXCq-2ZtqrCXIYApNh4Hv5aCAtdA4B45EVUw2pA&oe=6AE32E63&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；承洋照明｜美術燈、軌道燈規劃 (@chengyang_light) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "chengyang-light.png",
+      "filename": "chengyang-light/logo.webp",
       "lastSuccess": "2026-10-25T11:01:58+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:58+08:00",
@@ -3740,7 +3740,7 @@
       "discoveryVersion": 3
     },
     "gui-gui-foodie": {
-      "sha256": "bc1ed15ac1f202145fbd943fbb89313f42d406160d0b5fed510ef665f56382fa",
+      "sha256": "87d1a91870902f2170d39988e4d9d0e6a751cca2104311b192a84417b3771ea5",
       "contentBox": [
         0,
         0,
@@ -3757,7 +3757,7 @@
       "source": "https://www.threads.com/@gui_gui_foodie",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/452384825_3741373572801073_4593981726484713780_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=106&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=fndqoWTWnSoQ7kNvwHzk-0x&_nc_oc=AdrVyvG8J7pE_vkZyr5cmgGCbsbh701ccs8K2pexJilIokvCK6N64Z9crXpSGfwtm2U&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7320f&oh=00_AQMDuJgc96ZTcOrRgtj7XXk0Dh7F4-5gD8jS__TgMx8wrQ&oe=6AE342D8",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "gui-gui-foodie.png",
+      "filename": "gui-gui-foodie/logo.webp",
       "lastSuccess": "2026-10-25T11:01:59+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:01:59+08:00",
@@ -3779,7 +3779,7 @@
       "discoveryVersion": 3
     },
     "chen-ting-fei-campaign-headquarters": {
-      "sha256": "b1a927c2fd18b0421bd8ab7352a84011969c6ee385fa9cdbf5200c2e34996eb7",
+      "sha256": "12d4d8a0d6c2edfa03e6b132d0a131a1950cf3089fea181eab0c588e6b705b8d",
       "contentBox": [
         0,
         0,
@@ -3796,7 +3796,7 @@
       "source": "https://www.threads.com/@chen_tingfei",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/793678027_17967998409138229_6831797389784917395_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gG7YPStvCe-FeoiSywo_Mcy3giH5v8Chh91gJirtfPC6JWUWUxLMM8Fyk7Kc6sum1w&_nc_ohc=WEzyw_ztX9oQ7kNvwHCqc4R&_nc_gid=YtFceIWCv9sMgo13OLwbBQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQPPiFhBGRzhwPKtkJFKktqmNRmPNxnuy5ExLFoThoAMpA&oe=6AE34A91&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；陳亭妃 (@chen_tingfei) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "chen-ting-fei-campaign-headquarters.png",
+      "filename": "chen-ting-fei-campaign-headquarters/logo.webp",
       "lastSuccess": "2026-10-25T11:02:02+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:02+08:00",
@@ -3821,7 +3821,7 @@
       "lastAttempt": "2026-10-25T11:02:04+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "cdd7c5536fb1bd58ac08bc26571de4b43642f6aea0f4b8210dcacfbcba383dd8",
+      "sha256": "25ddc4d0e926e1bd38cb96036953513d5b9873869a2f143407af92580cf57aeb",
       "contentBox": [
         0,
         0,
@@ -3838,7 +3838,7 @@
       "source": "https://www.facebook.com/Hean0428",
       "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/286698414_131933192804126_7494431503909739271_n.jpg?stp=dst-jpg_tt6&cstp=mx959x960&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dHbBMPTXvT0Q7kNvwEXc_vr&_nc_oc=Adq92LF8JmoBLDXGZJzNaiY_Yx1pTRBkK5JRsDTVTXa9oDH2bwCuHoiHPrdVHI0nNKY&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=tt1mwYY1ag_oP2uRu4hZXw&_nc_ss=7320f&oh=00_AQN1Y_8pJxD251ryou23Un-2ft83-MIRI2-11i6hpeDGUg&oe=6AE35992",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；禾樂體育用品社 | East District, Tainan City ",
-      "filename": "hele-sports-yidong.png",
+      "filename": "hele-sports-yidong/logo.webp",
       "lastSuccess": "2026-10-25T11:02:04+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -3860,7 +3860,7 @@
       "lastAttempt": "2026-10-25T11:02:05+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "7dfe1e0db871cc65397554831d344be40e7244fe6d5d8b1627ae942e163bb9a0",
+      "sha256": "30505ad565a3f9db7baae21d8aad258d66fead15a59e44b14933fe618123f340",
       "contentBox": [
         0,
         3,
@@ -3877,7 +3877,7 @@
       "source": "https://www.facebook.com/ganache.com.tw",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/487348485_1102961305204864_4176329027349236607_n.jpg?stp=dst-jpg_tt6&cstp=mx1298x1260&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2Di-3EReW2MQ7kNvwHIKKJ7&_nc_oc=AdqoXUAua46gfnbcreoTGUDfC3FATqFjmGMDBbfq00mnHcC-4I4U4SkFGk1bzXqyTr8&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=czwy0aycp5PJ4aHIV5nt4A&_nc_ss=7320f&oh=00_AQOhyap3PFNZ6ayL4VMHsWk6KCu5g8yofGX5jfI_jQb8sA&oe=6AE33F11",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "ganachoco.png",
+      "filename": "ganachoco/logo.webp",
       "lastSuccess": "2026-10-25T11:02:05+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -3896,7 +3896,7 @@
       "discoveryVersion": 3
     },
     "lin-yi-ting-service-office": {
-      "sha256": "b8fe240d38f732927fa279c332259e21709e11802c36fa2f4286d8f7a30b3712",
+      "sha256": "64c2f77f7bc97ddd922a8e63ab7f65bce9861b62792e8c3f25ef3745c157f54f",
       "contentBox": [
         0,
         0,
@@ -3913,7 +3913,7 @@
       "source": "https://www.threads.com/@yitinglin_123",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/650847001_17940169443149946_2709806269689369893_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFpyaXcmKuinVZ3m5qoHKgZYnC3MkCYqc3fp_HosLFi6udK8ddvBB4X_5CnmyVKkRo&_nc_ohc=GX5KZkueBEkQ7kNvwGGWrb3&_nc_gid=wZ1UDpxCtrS_tOJPANyGEQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQMrS-gcgsGloNp-MYaO-GaaIZleaAD2h5tToOGAzq4R6Q&oe=6AE33421&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；林依婷 (@yitinglin_123) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "lin-yi-ting-service-office.png",
+      "filename": "lin-yi-ting-service-office/logo.webp",
       "lastSuccess": "2026-10-25T11:02:07+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:07+08:00",
@@ -3935,7 +3935,7 @@
       "discoveryVersion": 3
     },
     "zhijue-ximen": {
-      "sha256": "2cb292a5626d4ce9d24b0812c9953039b616830dc09de5d968580f59d0b14936",
+      "sha256": "373497906a19abc4a9006b053799fe144d143cc524c00e1af8c82ba4a0cbc1bf",
       "contentBox": [
         0,
         0,
@@ -3952,7 +3952,7 @@
       "source": "https://www.facebook.com/goodtimetea.no.2/",
       "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/276150490_1024102954854331_5631549864001356081_n.jpg?stp=dst-jpg_tt6&cstp=mx958x959&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BDkzZ9L_sxAQ7kNvwHeWu0J&_nc_oc=Adq1nM2lDUYPXXFahx2uCcwYwJnyFjQ2O0LNK7Y69JBQapCwkGNNpBrOOEt0jgAlhXk&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=86sSESN1C56SMLMRcL3gQg&_nc_ss=7320f&oh=00_AQOYdefcXi_LeuR8TiaETQA0KnpV4nyAbq_qBAuwYpTvMQ&oe=6AE34F00",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "zhijue-ximen.png",
+      "filename": "zhijue-ximen/logo.webp",
       "lastSuccess": "2026-10-25T11:02:08+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:08+08:00",
@@ -3977,7 +3977,7 @@
       "lastAttempt": "2026-10-25T11:02:11+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "1a6ed7cfab7bc5e2627558cc034f0cb10fa7ac831399552d058e9507483d866e",
+      "sha256": "0a36c7b6aa923781a6ab9a23000e3abcd9040ebb4b2ee7bb819202c711532287",
       "contentBox": [
         0,
         0,
@@ -3994,7 +3994,7 @@
       "source": "https://www.threads.com/@yicheng_0625_tw",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/671864737_17960340150111640_2220011983442602492_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby41NDcuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gG03uP_L8PF9951VIgJK-XpKv2g4Hg-1zUqLHxgTJBfjwO6cIRRWMH5lyhx85IltbQ&_nc_ohc=BavAFOBf00oQ7kNvwF52HUc&_nc_gid=kQ-mUZDzCULRg3e4hJ0mgQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQNPs6FTB5TecJ3_XoZ__jglgsjiZUPiDePhj0_f-uurCA&oe=6AE34062&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Yang (@yicheng_0625_tw) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "yicheng-hongguo.png",
+      "filename": "yicheng-hongguo/logo.webp",
       "lastSuccess": "2026-10-25T11:02:11+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -4016,7 +4016,7 @@
       "lastAttempt": "2026-10-25T11:02:12+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "4a899dafe7af9dd151929aab5586aa4a1bcb134fd17a337a66892cf6d5bd8c5e",
+      "sha256": "126c979b8f7dd7bb5919e5c805603c8b9a2c19433927b589809ff89ac4735a2b",
       "contentBox": [
         0,
         0,
@@ -4033,7 +4033,7 @@
       "source": "https://www.threads.com/@niki_bo19900120",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/538979899_17918809659139997_5257354226133183128_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=KThfH1MHwQUQ7kNvwHyaVNl&_nc_oc=AdqnhZjolzyUdsQ0E6qAOnSjlipZA3vRxkZvcaXJ7WR4Ot_SZplf8sQU9IsEz9PrTuE&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aAj-mIXlC5EKFiSvvJqIaQ&_nc_ss=7320f&oh=00_AQP46ZZMKj_0JHuvPXAvJyDMMkONIKNiCQ0LYTxSYBA4jA&oe=6AE358DF",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "cat-boss-coffee.png",
+      "filename": "cat-boss-coffee/logo.webp",
       "lastSuccess": "2026-10-25T11:02:12+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -4055,7 +4055,7 @@
       "lastAttempt": "2026-10-25T11:02:14+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "38fd5546ce4cabc9fb9b125b3b254a2dc83638ac4061debb1f2b12a201532f3d",
+      "sha256": "612f68b00e227d47d5d16b8533a5b92e42ce5180e434fa07616fc25c3af8d7d7",
       "contentBox": [
         0,
         0,
@@ -4072,7 +4072,7 @@
       "source": "https://www.facebook.com/people/%E6%9D%B1%E5%B1%B1%E5%A8%81%E8%A8%98/100081441651191/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/835363146_1120051560719555_6269780889224027758_n.jpg?stp=dst-jpg_tt6&cstp=mx1512x1512&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FxCVsOyPjxwQ7kNvwHCKpJj&_nc_oc=Adr0DNxy58BISmV3TnSida1iJF8MsBw9Q3egJooTfwSkbpbtbgMJ4jHspO3N8Lmu6vY&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=7L7dds3FmsW57J88tYTiew&_nc_ss=7320f&oh=00_AQMzPma6w91kUlNOg36faHKve4cCh58kcDmGQteYbOjlFQ&oe=6AE35CA5",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；東山威記 | Tainan ",
-      "filename": "weiji-minzhi.png",
+      "filename": "weiji-minzhi/logo.webp",
       "lastSuccess": "2026-10-25T11:02:14+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -4091,7 +4091,7 @@
       "discoveryVersion": 3
     },
     "jisheng-ramen": {
-      "sha256": "7d78f262fdc2e193a9cb34fc33ec5bbf3c8006e00a54c98446111927d15ca5a1",
+      "sha256": "ff72b6a15c0547506ee4cc5a25679a6919d9212b64f25f8ac3b49668c3f92fdf",
       "contentBox": [
         0,
         0,
@@ -4108,7 +4108,7 @@
       "source": "https://www.threads.com/@jisheng.ramen",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/482973775_1451944355766508_1809042944600842787_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=TRfzxN7N93YQ7kNvwFDfrLS&_nc_oc=AdriO6MmCGE43xywZgm63Cq0djNG7WFZHbhtfuvtJJsmtWucIUWnryW3iQ9If5fa0zI&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7320f&oh=00_AQPsRZSevxpN5VLaWJlnX042vvZ3_GBMaUvqJuKfSXDsQA&oe=6AE35E54",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "jisheng-ramen.png",
+      "filename": "jisheng-ramen/logo.webp",
       "lastSuccess": "2026-10-25T11:02:15+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:15+08:00",
@@ -4133,7 +4133,7 @@
       "lastAttempt": "2026-10-25T11:02:16+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "02b896ff8af2695798f2877aa17f98aec0ebb7e3b25aeff5c9210f35c6505b19",
+      "sha256": "a3a5a39506b172a294edc78a19e44c364c984e897699dccd47dd234eb44dc0d4",
       "contentBox": [
         0,
         0,
@@ -4150,7 +4150,7 @@
       "source": "https://www.facebook.com/no19store/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/398443005_759923052814494_4208630431897788146_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=it1-99zCedsQ7kNvwHSHdXR&_nc_oc=AdoJ3n9Ot2bLo0u69GJJchMm-8tHgtcvhgPKAp5tS5Fkq7JAZA2nTWwcEdIBJsF8HWk&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=pNAIs6fEhzfBckET5R73HQ&_nc_ss=7320f&oh=00_AQMrLvRR6ML0MpDoxw8oTNV-gKyPpDW5gVjkAPCvSLkOFA&oe=6AE33A74",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "no19store.png",
+      "filename": "no19store/logo.webp",
       "lastSuccess": "2026-10-25T11:02:16+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -4169,7 +4169,7 @@
       "discoveryVersion": 3
     },
     "wayonly-service-office": {
-      "sha256": "75cfbb498cc2ea429d310ad9df88d2f6233a676e779d87d83632386be38c55f1",
+      "sha256": "0d456f793c5fa2dc64f0f472f51f254a5f8d0dad33d62412db71b9de9e5e2b16",
       "contentBox": [
         0,
         0,
@@ -4186,7 +4186,7 @@
       "source": "https://www.facebook.com/wayonly/",
       "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/803267332_1476409801203108_4917887559977140877_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TnRH5tG-U1QQ7kNvwEjaCNI&_nc_oc=Adp49Lue-qF520HuA3qa_Chu6K9QBn2GJKdrx-ztIzVt9ormvTXH-bOEUc41jigfVr4&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=6zP6EK7P-dp7hR7bdcBi-Q&_nc_ss=7320f&oh=00_AQOe35bwUTs_IfVfu0DPPaUcG55KL1rgZi5WKnlT1xNCBA&oe=6AE33E9E",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；周嘉韋律師",
-      "filename": "wayonly-service-office.png",
+      "filename": "wayonly-service-office/logo.webp",
       "lastSuccess": "2026-10-25T11:02:18+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:18+08:00",
@@ -4211,7 +4211,7 @@
       "lastAttempt": "2026-10-25T11:02:20+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "670efb33d7a393bcd2b624be035aaa7f02694414e770d18cdabbf31ad5efd933",
+      "sha256": "4eb5ac4460ef79b9e267a745296a862e3795ea5c32332d285dcfba8bc918e4b7",
       "contentBox": [
         0,
         0,
@@ -4228,7 +4228,7 @@
       "source": "https://www.facebook.com/p/富泉當舖-100072024361943/?locale=zh_TW",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/339607189_3329988720594752_8973365849963427590_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iQs5Lsj84JgQ7kNvwFPw7aJ&_nc_oc=AdpKHECMTMJ2omY_UIJKKr0LNNqw-56NJUtciSUVQBPsknbzs1Vpuc68W2jVgvClVh8&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=W_fMDqnh-5PMV_0Cn6OSlA&_nc_ss=7320f&oh=00_AQNKc-GGTK_Zk7WnzsJOyIuORmomA-vorIHW6pYtWA0jGw&oe=6AE334AD",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；富泉當舖 | Tainan ",
-      "filename": "fuquan-pawnshop.png",
+      "filename": "fuquan-pawnshop/logo.webp",
       "lastSuccess": "2026-10-25T11:02:20+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -4250,7 +4250,7 @@
       "lastAttempt": "2026-10-25T11:02:22+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "8e16ec0f6941185ec5526fa46a538504cd5a313b69859b63c08e60e1436e3e9d",
+      "sha256": "cb532ca5f4d26438238caff7f82b4d84760dc2725a963f9b57984d428f1e97ae",
       "contentBox": [
         0,
         0,
@@ -4267,7 +4267,7 @@
       "source": "https://www.facebook.com/insanalife/",
       "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/305574342_555519026372505_3457922792010496677_n.jpg?stp=dst-jpg_tt6&cstp=mx2046x2046&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NEM4eVpz-scQ7kNvwH6Iolc&_nc_oc=AdqEh6DW_J5aZ-NsODBwihJoQacGw24tpjmg4_nO6WFxhlFFa_qOH8Q0xgHMoY9JV6o&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=DMQzTjimu0nmaOZumUnCWA&_nc_ss=7320f&oh=00_AQPcHPP3LgltqW_vw3wzB6uspxECiDoB40obLndaLEjTgw&oe=6AE35796",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；台南 金剛跳瑜伽 | Tainan ",
-      "filename": "jingang-yoga.png",
+      "filename": "jingang-yoga/logo.webp",
       "lastSuccess": "2026-10-25T11:02:22+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -4289,7 +4289,7 @@
       "lastAttempt": "2026-10-25T11:02:24+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "068fe62783b317786f3cf15040f50302501326074b2e77c4b5301e3e623cba9f",
+      "sha256": "1118a9fe6e235a5af73085d881b1626643a87a1f342a5ce0dfb6ca9c9f0c353e",
       "contentBox": [
         0,
         0,
@@ -4306,7 +4306,7 @@
       "source": "https://www.facebook.com/people/呷雞康凱-大灣店/61556448724639/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/739264404_122296338344214957_3469640962947467097_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ArFAFobhG6IQ7kNvwFVt7FP&_nc_oc=Adrdy4wK-Pf6lc38GL1bEmIYio81qYsdb2hmTtg5dyJ6ItsokTnOcBS-44h43UaSNIY&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=xC0M8jRuotLIZcIUKZlFhA&_nc_ss=7320f&oh=00_AQN0u6iZQo7dp-jbyLNHYuclMg9LJFmaPuvt25OB4rtO9A&oe=6AE34113",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；呷雞康凱-大灣店 | Tainan ",
-      "filename": "chiah-ke-khong-khai-dawan.png",
+      "filename": "chiah-ke-khong-khai-dawan/logo.webp",
       "lastSuccess": "2026-10-25T11:02:24+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -4328,7 +4328,7 @@
       "lastAttempt": "2026-10-25T11:02:26+08:00",
       "result": "updated",
       "reason": "依 Logo 尺寸縮小既有圖片",
-      "sha256": "d69c0bb8bcc0c2288a0e813b77c24bb37394c3432a3ec8f884975c744a93c4ea",
+      "sha256": "234d5943ec35153c7fa3758d94ae892c0500f1c3babe5c19907d2a4fea48686e",
       "contentBox": [
         10,
         0,
@@ -4346,7 +4346,7 @@
       "source": "https://www.zenolai.tw/",
       "imageUrl": "https://www.zenolai.tw/asset/types/zenolai/img/people.png",
       "evidence": "已確認官方網站「認識瑞隆」既有頭像位置 .about_left img",
-      "filename": "zenolai-campaign-headquarters.png",
+      "filename": "zenolai-campaign-headquarters/logo.webp",
       "lastSuccess": "2026-10-25T11:02:26+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -4368,7 +4368,7 @@
       "lastAttempt": "2026-10-25T11:02:27+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "26853b485573dd26decb928ef7abded4e5b9b826b8a389ff8b78b97d9caed62a",
+      "sha256": "0580d488ec0e8ec7e0cb0a05e32c7f56b46c7149bbd9abf93540f7a58ee7bbc7",
       "contentBox": [
         0,
         0,
@@ -4385,7 +4385,7 @@
       "source": "https://www.threads.com/@yessoymilk2022",
       "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-19/567532246_17925545961118571_3078129435518166940_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=LrOSWLdBjH0Q7kNvwHbA5IC&_nc_oc=AdovIR7qsXjuf8VqL-cUHQ0CrKcThRb9jKvPORexGzcie4XSATeZ68efatVLJauGvuE&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=U2a7Ls7hasg93_ymRgNMbw&_nc_ss=7320f&oh=00_AQMfULI4Q_5lOPzAyx73F9vuDvTO2lXB0e-A51EACCXwDA&oe=6AE35627",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "yessoymilk-hedi.png",
+      "filename": "yessoymilk-hedi/logo.webp",
       "lastSuccess": "2026-10-25T11:02:27+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -4404,7 +4404,7 @@
       "discoveryVersion": 3
     },
     "howwow-dashe": {
-      "sha256": "0d2009fede8dbd8007a486bf371c844e5d4ba297bf0be33b5745dd537b9c0889",
+      "sha256": "46d943c78af57106939579c53f973b5302ceb9e4b74be5af3107f3ef7fdfea54",
       "contentBox": [
         0,
         2,
@@ -4421,7 +4421,7 @@
       "source": "https://www.facebook.com/howwow168/",
       "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/302106460_449819900495515_494949072302176480_n.jpg?stp=dst-jpg_tt6&cstp=mx581x573&ctp=s581x573&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=83mOIod3_l4Q7kNvwHKtmW4&_nc_oc=AdoL8yvjwGfr1rZ9SUhbYlHwCG2oXGhqnStBTwzUc0tS_ndAwVJlbSN1fDvQAzb33ds&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=4nvAKJWHjb4eOVvjhoV4dQ&_nc_ss=7320f&oh=00_AQPwjO297iAOseaS29_exerWu2v7oHY34C7jAqw6nYjSOQ&oe=6AE32BC8",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "howwow-dashe.png",
+      "filename": "howwow-dashe/logo.webp",
       "lastSuccess": "2026-10-25T11:02:28+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:28+08:00",
@@ -4443,7 +4443,7 @@
       "discoveryVersion": 3
     },
     "bltchcake": {
-      "sha256": "66823d1d6e95d93f9c1d8471af7bc6042b39add4be9763a1b35f5e363a3df410",
+      "sha256": "9bae5c906514a67ab00e74287d0a3380b0b3a054281259ef6310e4a7da59265b",
       "contentBox": [
         0,
         0,
@@ -4460,7 +4460,7 @@
       "source": "https://www.facebook.com/bltchcake4/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/730354380_1602817705177358_5464026832478837123_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1026&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z-1oL0ZFPngQ7kNvwEBS0Zl&_nc_oc=AdqNV_FoXwmmCI3ykK5AR1188G3EPQ0QyHmKTi58w1ps5J0pql5fyWuuIkA-p40a2OY&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=XrRbNhPm8F0nhVMjonHJdw&_nc_ss=7320f&oh=00_AQNlev2nQUUhYmj8e5F8GSl9IqO4A8d6U_hKlHwadYoV7A&oe=6AE32A12",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "bltchcake.png",
+      "filename": "bltchcake/logo.webp",
       "lastSuccess": "2026-10-25T11:02:29+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:29+08:00",
@@ -4482,7 +4482,7 @@
       "discoveryVersion": 3
     },
     "sian-beauty": {
-      "sha256": "17bb7d9679cd03fe0931af4eaac2c62635acb5b23520ee4f4f08fa90ba916713",
+      "sha256": "e79458125ad50d344783aa4450a25b61ee013f5dca6ff2b4b899d0c8578de5bd",
       "contentBox": [
         0,
         0,
@@ -4499,7 +4499,7 @@
       "source": "https://www.threads.com/@sian.beauty",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/682050323_17887104855490719_2662616947819609144_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=fVqDvv4jIKsQ7kNvwGzRsDM&_nc_oc=Adq8Q837oSOz9mGeR_PHuKFWQLVwbcoh3SPmOShpFzCq3Wg-CxJ5kmfG5Dw2OOTft7g&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=msnHBz-w3MW9-zczXeWq2g&_nc_ss=7320f&oh=00_AQNtY-4NB7y23CCg_Uqa88yA-vLOfybitD6ricmI2MEFmw&oe=6AE34EC6",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "sian-beauty.png",
+      "filename": "sian-beauty/logo.webp",
       "lastSuccess": "2026-10-25T11:02:30+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:30+08:00",
@@ -4521,7 +4521,7 @@
       "discoveryVersion": 3
     },
     "sm3542": {
-      "sha256": "1164949d0cebf183ca16df4d1c7dd7cbc0f58625506aa59da42e1b6fa7eeb2fa",
+      "sha256": "c33b5371e3ba4c2dac313457035a23a16722f96fb486f9ec4afa73bc946162f3",
       "contentBox": [
         0,
         0,
@@ -4538,7 +4538,7 @@
       "source": "https://www.facebook.com/sm3542/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/302481064_555147413075997_4434614251461984347_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1432&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Q_jk8bKe4f4Q7kNvwGDZbeL&_nc_oc=AdqFZXYwCLQhHR4GIvdqhUrs-CvvPv5VdLwh5lFYfs0GmQtZ9eedRGkb9gPLVsyxTmQ&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=K-j6KJNIjNlWQniCruvIAA&_nc_ss=7320f&oh=00_AQMGw83QWNDUDuAB-Iwm2br0gHI0pi0u31Iri2L-UWZHvw&oe=6AE351B4",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；旗山秀明豬心冬粉 | Kaohsiung ",
-      "filename": "sm3542.png",
+      "filename": "sm3542/logo.webp",
       "lastSuccess": "2026-10-25T11:02:32+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:32+08:00",
@@ -4560,7 +4560,7 @@
       "discoveryVersion": 3
     },
     "56song": {
-      "sha256": "90460568439376b683943f83ba17eea246884880a1665eaaf175c189ad73fab6",
+      "sha256": "a61594a1aed90f73bf4a52af3a0a72d68769ba86f502ffd29e0bc4fc04523af9",
       "contentBox": [
         0,
         0,
@@ -4577,7 +4577,7 @@
       "source": "https://www.facebook.com/56song/",
       "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/308657378_462224745924627_6878249252423544101_n.jpg?stp=dst-jpg_tt6&cstp=mx1160x1160&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uscwchoMh0wQ7kNvwEcWxbw&_nc_oc=AdqC7hXVF6WNzHiVaSHFMZC1_KIGamUaM2DC6jaL4br8FaOKgk25D3WqEb4SbQHulos&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=qkjU5EzTNBqNyxph-G7LYQ&_nc_ss=7320f&oh=00_AQPlyYhRwCADcGKPsB6tPQHhPc4c3zwJT1ZWejwFwNxv0A&oe=6AE35D15",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；阿昌牛肉湯 | Tainan ",
-      "filename": "56song.png",
+      "filename": "56song/logo.webp",
       "lastSuccess": "2026-10-25T11:02:34+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:34+08:00",
@@ -4602,7 +4602,7 @@
       "lastAttempt": "2026-10-25T11:02:36+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "cad6f8bf167735b2f7fc2e0a754579c5dcd2959ca343e81fba709369499e91e0",
+      "sha256": "6e47806784fb2ca4ef5057d50bfba49f0c554f8561ef659bedc895ead6364ed7",
       "contentBox": [
         0,
         0,
@@ -4619,7 +4619,7 @@
       "source": "https://www.facebook.com/p/旗山-常美冰店-100057568535067/",
       "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/348424396_546557674103937_2835775130509298453_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=PYMq1ro8E_QQ7kNvwHHMmf_&_nc_oc=AdpBUUngqvrRbipCdkbbdsymZZiwQuqny3_PR16RxSTe-xf5aIcCBAMAM3uwp9dntiA&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=URIF3oyoxdm0ZR71tLRUcA&_nc_ss=7320f&oh=00_AQMBGwzoX0UYuqjYfCwvVwXKBBdLhXy74bKUhJKvX1j2Dw&oe=6AE33DDD",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；旗山 常美冰店 | Kaohsiung ",
-      "filename": "changmei-qishan.png",
+      "filename": "changmei-qishan/logo.webp",
       "lastSuccess": "2026-10-25T11:02:36+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -4638,7 +4638,7 @@
       "discoveryVersion": 3
     },
     "ainagareru": {
-      "sha256": "1cc0e06487fe7c107d8a9e5fd4a2cbf5942546c5019a59e9d2ba28e4044ac998",
+      "sha256": "88079f75caad703ad60be5f2a9d1339d7fefe6196b1894c560a6a8b569e89a02",
       "contentBox": [
         0,
         0,
@@ -4655,7 +4655,7 @@
       "source": "https://www.threads.com/@ainagareru",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/626808950_17938081089137043_7957675527798463378_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=ZElv26WpWRoQ7kNvwHgZZ5z&_nc_oc=AdqL6eyNzWVZmVWaBQm3IPzQC3v8ZliKWVizFPdJpGJFN435HIyCgVzoE3G-OQ2GGpI&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=XYXiEfX92p6mmzEfX93ehg&_nc_ss=7320f&oh=00_AQNChyCVKxNr53gVnoNGStGXLwoLbYJvaG2U9CJIMDkaIQ&oe=6AE3468D",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "ainagareru.png",
+      "filename": "ainagareru/logo.webp",
       "lastSuccess": "2026-10-25T11:02:37+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:37+08:00",
@@ -4677,7 +4677,7 @@
       "discoveryVersion": 3
     },
     "un603un": {
-      "sha256": "c25a9b3072e0b7a5ffb778e1674419f5d93b8b745c56e5999d3d6043e43444bf",
+      "sha256": "b6def6a58967b62e0a3f369eb087a01dca0be13719faf40b6feee1a76a613701",
       "contentBox": [
         0,
         0,
@@ -4694,7 +4694,7 @@
       "source": "https://www.threads.com/@un603un",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/768555228_18085016630215187_395463286272777572_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=DE74rDHcRNwQ7kNvwHFb36R&_nc_oc=AdoX_yfyaemQovx1a07S3w7Aaufw3nqD1Uyo2byDxoppaCWuPlw9j_74FuIhyvGoHJs&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Ls_ujdTWOCJjxqAcTn2wzA&_nc_ss=7320f&oh=00_AQMfWSDLEmprZnGS4H6yvtIfMTy0wU9XXriQGTe8YsLJTw&oe=6AE33EE6",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "un603un.png",
+      "filename": "un603un/logo.webp",
       "lastSuccess": "2026-10-25T11:02:38+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:38+08:00",
@@ -4716,7 +4716,7 @@
       "discoveryVersion": 3
     },
     "shiwustudio": {
-      "sha256": "5ec7d6b2f99c5cb262593f9e46bc4d789934b618dca32e75d1c85f8adbaa647a",
+      "sha256": "66736cef63553ee19561c2a68b3966612fbb084a8d8c4226f25824146441876e",
       "contentBox": [
         0,
         0,
@@ -4733,7 +4733,7 @@
       "source": "https://www.threads.com/@shiwustudio",
       "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/452480254_885870616698398_2117025012372028656_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=BlJ1ZLYW34gQ7kNvwGWnxWX&_nc_oc=AdreI70xBRtn0k6ombDUpmT2xRNsGz4_2IffA68HxZ4Dz4q1txD9R_Ac_aCBnocWr9s&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_ss=7320f&oh=00_AQP2NndpmWwqPetMriXYtY9xwjtMS6p5TOo1JwyHlaIrNA&oe=6AE34D3C",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "shiwustudio.png",
+      "filename": "shiwustudio/logo.webp",
       "lastSuccess": "2026-10-25T11:02:39+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:39+08:00",
@@ -4755,7 +4755,7 @@
       "discoveryVersion": 3
     },
     "isbl-hair": {
-      "sha256": "7c15c5fd30a01d54a8681f94d8436d4216ecae85bfe455dc3883fe92b88415d8",
+      "sha256": "ab4f34959974ea4f2fb82c75c46589c4ce48ac12e86e78dfb14bc8bf486d245b",
       "contentBox": [
         0,
         0,
@@ -4772,7 +4772,7 @@
       "source": "https://www.facebook.com/isblhairsalon/",
       "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/564048955_1215192247293250_2904297535303876416_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=s3fLWVCUTRwQ7kNvwGW7xSv&_nc_oc=AdrImCNxqqX8-1Uh7OZbENQDWXBUi_X6FWLXxinuN_cUyqy60AAYdUiv_MVE4j-XVKE&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=hz9XsbSD8FTH2x0kz2BJDA&_nc_ss=7320f&oh=00_AQMN3_ZhSYb9nzjeW8OpJvZ4X9aXoLvUtxDWQmxmqwX1Lw&oe=6AE350CE",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "isbl-hair.png",
+      "filename": "isbl-hair/logo.webp",
       "lastSuccess": "2026-10-25T11:02:40+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:40+08:00",
@@ -4794,7 +4794,7 @@
       "discoveryVersion": 3
     },
     "rozo-cafe": {
-      "sha256": "c3e5e53026e278c5e05f56c15083d174b04e3e2b1ed11a3a3d8e2fd325c7d461",
+      "sha256": "08c077c6d1fbf97ca38d9e208c8a696d1c86b4b39b7e4e6a9c95ffdfc6c2f8d1",
       "contentBox": [
         0,
         0,
@@ -4811,7 +4811,7 @@
       "source": "https://www.facebook.com/rozocafe/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/801786073_1514160460727494_7905195359637346417_n.jpg?stp=dst-jpg_tt6&cstp=mx1417x1417&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Bw_oqxWRRkAQ7kNvwEvZFHC&_nc_oc=AdpEX06rXNEE2o5uUAqXJKfpk2MI9Cz-0Aoz1SIX5IsYC41pZRHS12TFBGercvSwR2w&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=vH9beQPFIzYHF2KaEVM7wQ&_nc_ss=7320f&oh=00_AQOSpMXvFixuS1jUZMag4J0w50f06WZ2XLbRgdPlunPaoQ&oe=6AE331C7",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；般若咖啡 Rozo cafe | Tainan ",
-      "filename": "rozo-cafe.png",
+      "filename": "rozo-cafe/logo.webp",
       "lastSuccess": "2026-10-25T11:02:42+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:42+08:00",
@@ -4833,7 +4833,7 @@
       "discoveryVersion": 3
     },
     "taocheng-cookingtea": {
-      "sha256": "c2a1161452670133bbb0616925650d2cbf15b558418b78cc68b0e6076726de66",
+      "sha256": "b35216355bbdf13e532c116ce389b8dbda1a169ac17db39238cf8222fe13410a",
       "contentBox": [
         0,
         0,
@@ -4850,7 +4850,7 @@
       "source": "https://www.facebook.com/61575372834003/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/793158970_122188516142845761_6542255723243072395_n.jpg?stp=dst-jpg_tt6&cstp=mx654x654&ctp=s654x654&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uQePoT0MXlYQ7kNvwHsQLvV&_nc_oc=AdocuiMfjvQVY0qPVeQ8FMYo1dusZc3q9_-y35uWfSQCOwD_gI3pWeMeW_YYyDts6TQ&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=FNK8aBXfMGMZGwRDdaaH1g&_nc_ss=7320f&oh=00_AQPNO1UqZ6p825c5h95yAi8hYvbqunj1y4EUw50OUTWQUg&oe=6AE35436",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "taocheng-cookingtea.png",
+      "filename": "taocheng-cookingtea/logo.webp",
       "lastSuccess": "2026-10-25T11:02:43+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:43+08:00",
@@ -4875,7 +4875,7 @@
       "lastAttempt": "2026-10-25T11:02:44+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "7b8594037dd9cf92e62c34cb35c60f66e396af7966c82600be3063ae1b85b841",
+      "sha256": "dd3a3b892f50df04f213d001a1c242b97a8243f5451a44c7ed9003a9c3ca04fc",
       "contentBox": [
         0,
         0,
@@ -4892,7 +4892,7 @@
       "source": "https://www.threads.com/@zhaoxing_meat",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/653545097_18060266459454577_3252110431043461456_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=106&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=zQIq9kLtiS0Q7kNvwHkt7MX&_nc_oc=AdoLYNtJaZOaoS3x5U6Se996Dw2QKgMkRJ4OFd8Y-Ut2gDz6KvuI-1Nj-1HR2t5o7Ls&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=DJ3Rm06t_EuONm9cSQNkxw&_nc_ss=7320f&oh=00_AQNcADasDTIfbtaL-o5uMT_T5qsROy6Be59ayK9-dUUIig&oe=6AE337DB",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "zhaoxing-meat.png",
+      "filename": "zhaoxing-meat/logo.webp",
       "lastSuccess": "2026-10-25T11:02:44+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -4914,7 +4914,7 @@
       "lastAttempt": "2026-10-25T11:02:45+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "ea4e19dc8bbfc4e31f51d512caa272a8368d7607e2206a72af5d4c679e4f8abb",
+      "sha256": "3039505444c211249858e639f098cf9da1194b02078c39a10bc571db0046e9eb",
       "contentBox": [
         0,
         0,
@@ -4931,7 +4931,7 @@
       "source": "https://www.facebook.com/hohohanphang/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/295035861_464864065643924_484093356949400888_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_2dS6H2DZUAQ7kNvwHxd6jr&_nc_oc=AdrSe_FlEY02i8gHG15091O5vobKhoDw6YAvguRmm_IEDKzN-n6ZpCulM1ayE_vKWoY&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=o94EfrvAOUilvUjxxKA-fQ&_nc_ss=7320f&oh=00_AQNki1aOB8Lc-kmgaGny2AcpNZ9PoUNb9WQPVOJRMbN6WA&oe=6AE35C90",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "hohohanphang.png",
+      "filename": "hohohanphang/logo.webp",
       "lastSuccess": "2026-10-25T11:02:45+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -4953,7 +4953,7 @@
       "lastAttempt": "2026-10-25T11:02:46+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "b7b8157b1eb8aea84ade6642b69d1593a78975552a215d54e8303f9ad390b6b4",
+      "sha256": "91e57d2a06f813a1a504ef6b8ef0a164025e5c9543619560ce9ee4b46b1235f2",
       "contentBox": [
         0,
         0,
@@ -4970,7 +4970,7 @@
       "source": "https://www.facebook.com/WanChaTaiwan/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/334063666_8736848119722839_5847410541532881466_n.jpg?stp=dst-jpg_tt6&cstp=mx522x522&ctp=s522x522&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ibRf2bfbc2kQ7kNvwE7d2C_&_nc_oc=AdrxUa4-gCSVCE8V7hCGxVU9D8GCpVJAC3ViSvGcGDJkLEpkFCteNnO-6L20AMClPvQ&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=0XkYOc1OTn5OugxUFiO7pA&_nc_ss=7320f&oh=00_AQP8a8SG-huSMmab_hZhSxuI3f5ChJPp0jUE44_3Vm4Q4A&oe=6AE34A0C",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "wanchataiwan.png",
+      "filename": "wanchataiwan/logo.webp",
       "lastSuccess": "2026-10-25T11:02:46+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -4989,7 +4989,7 @@
       "discoveryVersion": 3
     },
     "cafe-sanpo-yilan": {
-      "sha256": "5a1bc09b5994fcb91d0a7c53ee3c810fc8ef8070f55192b5e7c5f9c93909751f",
+      "sha256": "fc3e3651b969af6f7c0c3e98191ee7a772e62f2fd4f8bc3d6122fe5e25d33c14",
       "contentBox": [
         0,
         0,
@@ -5006,7 +5006,7 @@
       "source": "https://www.threads.com/@2015cafesanpo",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/463369234_1232402118069800_6429890886864595614_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFdSG_swPEF6Btjg6BZHa6G-FnZyW8qn_9f5a5vKpI99W3GlCM3EE7w3ItfXcPf-qU&_nc_ohc=nzDPpRmingoQ7kNvwH8D2C3&_nc_gid=TbpJFS40uixKD0RVLoFoJA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQPbIbq_mJl3WtTUeIxMVIzEzt5_RLlRv8D9Ln5oen-rZA&oe=6AE3407A&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；散步咖啡 (@2015cafesanpo) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "cafe-sanpo-yilan.png",
+      "filename": "cafe-sanpo-yilan/logo.webp",
       "lastSuccess": "2026-10-25T11:02:48+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:48+08:00",
@@ -5028,7 +5028,7 @@
       "discoveryVersion": 3
     },
     "2663space": {
-      "sha256": "7d203c1e199b9b4750b9da8d0e695b57b77a71658c3b654ec7bb4d9589ddb1b4",
+      "sha256": "b1c56905885c0dbdeedfb03a6d232bb217bbfb1d78719a47d2bf01b903012f22",
       "contentBox": [
         0,
         0,
@@ -5045,7 +5045,7 @@
       "source": "https://www.threads.com/@2663space",
       "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-19/846101538_17994763842103318_9129596276723159132_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gExDooyB3RwjTsPe7C1DFROoGBFPnkVT9C9fMZAgko-BajKrDe0uAvPHsu0jCkM31g&_nc_ohc=Bf2URotK9-wQ7kNvwG5g_I7&_nc_gid=uu3UZ6f79jxyeFiaJRccDw&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQMK0HA2O2OnC_bRcUAST2hM403NMQJ2jnFOjm6EcxyYUQ&oe=6AE35477&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；貳陸陸杉Space｜插座空間｜咖啡美食｜辦公聊天 (@2663space) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "2663space.png",
+      "filename": "2663space/logo.webp",
       "lastSuccess": "2026-10-25T11:02:50+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:50+08:00",
@@ -5067,7 +5067,7 @@
       "discoveryVersion": 3
     },
     "thisishopein": {
-      "sha256": "640c594f7fc1fa8351aec8b1a60422103c94e7ab9ba26347cf392be2a61fde5c",
+      "sha256": "64b2ff29cdd34c55a958743fdba950d1a29a79c7991b982db9e7a3c32a2f1cd7",
       "contentBox": [
         0,
         0,
@@ -5084,7 +5084,7 @@
       "source": "https://www.threads.com/@thisishopein",
       "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/474109837_1123131056021249_6501406731352812433_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=nyjpXG5wInIQ7kNvwFmnGAy&_nc_oc=AdoBFTIlLdQTotc8fnms1VpEfCITLhU7CgaUreG0WTNhiCSaN4yba6YvBR2RyR6vJZk&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_ss=7320f&oh=00_AQNPFvYloZkn-cu86suvj9coQgkoIk2B7j6Yjs0D_CFyKQ&oe=6AE353BF",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "thisishopein.png",
+      "filename": "thisishopein/logo.webp",
       "lastSuccess": "2026-10-25T11:02:52+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:52+08:00",
@@ -5106,7 +5106,7 @@
       "discoveryVersion": 3
     },
     "felicitacroissant": {
-      "sha256": "045be17ecdb515022a1c5912118824bbfc7c73a2f04f98383883708fe5c23f37",
+      "sha256": "80fd0cb4032f225e296a32249d315480c980a2514571527144edcc08b954fbf3",
       "contentBox": [
         0,
         0,
@@ -5123,7 +5123,7 @@
       "source": "https://www.facebook.com/felicita.sweet.studio/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/476898971_1191511766309163_6926934110180105798_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IKSFVItKubcQ7kNvwHaX6Mh&_nc_oc=AdqMQfNiAuw9XgPQIxZNiv27kk7mjSSIzPsCxe9qXGA1pR6goBNO_syM9ladNYUmWr0&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=KlM0RfVuFkO5_gRsG8lwxQ&_nc_ss=7320f&oh=00_AQOj_9-WPh5Z80OZdtzxSzGvAwIYSvDQLs9MRfz8U9JLyA&oe=6AE327CD",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "felicitacroissant.png",
+      "filename": "felicitacroissant/logo.webp",
       "lastSuccess": "2026-10-25T11:02:53+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:53+08:00",
@@ -5145,7 +5145,7 @@
       "discoveryVersion": 3
     },
     "kagi-kaki-kakigori": {
-      "sha256": "724b293ca175606dd89e71552c589f5631dcbe4569895a13c932746c6d1a9049",
+      "sha256": "645ab2dee325662861a95c1b3bfde46c15fa2be00b1cfabea3a836ee471f3760",
       "contentBox": [
         0,
         0,
@@ -5162,7 +5162,7 @@
       "source": "https://www.threads.com/@kagi.kaki.kakigori",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/376832602_6885242841488719_701063550169706112_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=106&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=R4_kpyWaM10Q7kNvwHwxusA&_nc_oc=AdonhD-tFqQUyytRx-5d9Eh_voWbSYpetJIXQyoQMBozTj8yNwDCMirU4ydl7_5fuak&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7320f&oh=00_AQO8wlmg84fnNwYZAAAthkjRiLxT1-4O2C4_SpOopJg_jg&oe=6AE32A6C",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "kagi-kaki-kakigori.png",
+      "filename": "kagi-kaki-kakigori/logo.webp",
       "lastSuccess": "2026-10-25T11:02:54+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:54+08:00",
@@ -5184,7 +5184,7 @@
       "discoveryVersion": 3
     },
     "yume27-14": {
-      "sha256": "46c503abb2d76818fa017fd0bf03a25fd079dbb853a79a652cc0fe89d602f999",
+      "sha256": "9d0fa4223f2ac60e5ec2ae34039607c633ca06081e32aa9a4f259e7a0791b2a1",
       "contentBox": [
         0,
         0,
@@ -5201,7 +5201,7 @@
       "source": "https://www.threads.com/@yume27.14",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/796324640_17956626726228347_5110133620908482744_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=TZnvzYeswbQQ7kNvwGpr905&_nc_oc=AdoeobJ-54Z-dm-lEFn3hG6gIXX93tiaAsrjczpYuzdoIPRzN0PCzGyhJ70WXZ-2PVM&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=UelCgOBQSxKd52RrNA4zvQ&_nc_ss=7320f&oh=00_AQOQGKoXd1tOk0tGAXbs13rmbWieaTLz8JsJYBXy-0refw&oe=6AE34B29",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "yume27-14.png",
+      "filename": "yume27-14/logo.webp",
       "lastSuccess": "2026-10-25T11:02:55+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:02:55+08:00",
@@ -5226,7 +5226,7 @@
       "lastAttempt": "2026-10-25T11:02:57+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "bc5e14b12df9d91bfd8d4dc63ab7c9966758da3db8c690671321b617d0a86d9e",
+      "sha256": "525d9bf31b38e693bcc50f65940295e29f77a25416cdcbd1d414acee14fbf624",
       "contentBox": [
         0,
         0,
@@ -5243,7 +5243,7 @@
       "source": "https://www.facebook.com/100071066894790/",
       "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/542751219_799685312410358_8110952021359986354_n.jpg?stp=dst-jpg_tt6&cstp=mx1076x1076&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qizYmz_MnHoQ7kNvwFi8324&_nc_oc=AdrMeyse0veS2cfiE8JxyIJPgxp6NV4gDNva9OU4aLR29pbFoyHue36W_9T10MhK1WI&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=RHYRAstWgvzstdTwFOcVaQ&_nc_ss=7320f&oh=00_AQPaXo68-7AxmgOGs1s3RZwW7aku68PmdwC5R-p179kt9w&oe=6AE34428",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；曬月亮的貓 | Tuku ",
-      "filename": "ccat820.png",
+      "filename": "ccat820/logo.webp",
       "lastSuccess": "2026-10-25T11:02:57+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -5270,7 +5270,7 @@
       "lastAttempt": "2026-10-25T11:02:59+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "2ef242cd24853df7d9de35a12bf2b1aec88d05a507c4185d8c3e9cbe77a20a31",
+      "sha256": "7af7459194ae8f85177d7a03eb141fb399c166425e046e8bc0525b86da2d3026",
       "contentBox": [
         0,
         0,
@@ -5287,7 +5287,7 @@
       "source": "https://www.facebook.com/p/雞禽食舍炸雞店-61573238289881/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/480582346_122103416108774609_2512621518598335048_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1900x1900&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tuffYoZSc1AQ7kNvwGSZN5m&_nc_oc=AdotUZcUGi_V5FePOu9wTMxPCKDDd5dYTCtpbTngCMZHGVhmOvic3Rapti43cPmGSyg&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=DiRDspzTfIQQzYu9yPn8lw&_nc_ss=7320f&oh=00_AQPzas1Nzddm8aCTboaH7sLJmjNa2wP1fTdhVKYmy6Vb0w&oe=6AE32DCB",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；雞禽食舍炸雞店",
-      "filename": "jiqin-shishe.png",
+      "filename": "jiqin-shishe/logo.webp",
       "lastSuccess": "2026-10-25T11:02:59+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -5309,7 +5309,7 @@
       "lastAttempt": "2026-10-25T11:03:00+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "035409045228781d4e216eb184ad540286a8576984f214232c86c0aa38f33c96",
+      "sha256": "a9cf5b665df4efc750dcf4cc65499982ce8fc9cb950db15a212216e1fd0dbe8f",
       "contentBox": [
         0,
         0,
@@ -5326,7 +5326,7 @@
       "source": "https://www.facebook.com/people/山米咖啡所/100067221354575/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/304173693_399121412338567_6196207425395638869_n.jpg?stp=dst-jpg_tt6&cstp=mx828x828&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jqQ5VnkordMQ7kNvwF8MP22&_nc_oc=Adq6CHWcP4qR3mwOkpQslmy1fa8NSNedVdLuFExp2Bcfe-wAsWYkfohz68BK6AmU8E8&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=A5w_RuFzehYoOFOBdI8omw&_nc_ss=7320f&oh=00_AQMzPkUASIRAL7a1m-KqphQNrbUle1JiASdXEVtTGhpN8w&oe=6AE352E2",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "sammi-fine-coffee.png",
+      "filename": "sammi-fine-coffee/logo.webp",
       "lastSuccess": "2026-10-25T11:03:00+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -5345,7 +5345,7 @@
       "discoveryVersion": 3
     },
     "room15-patisserie": {
-      "sha256": "541934237621031996e4c0068e4ac7074fabfced1a7419b5b7183f1f340df14a",
+      "sha256": "5f298799b747cb63acd42606734ced910adefd374d822e3d9aab70410a8920f8",
       "contentBox": [
         0,
         0,
@@ -5362,7 +5362,7 @@
       "source": "https://www.threads.com/@room15_patisserie",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/600538021_17884742559417501_8343002643183054966_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=xecwle0PapUQ7kNvwEt93j9&_nc_oc=AdrbR8m_qxvUORK4H9sWY2PFGLMigEL1qKSxianb_1aJ824XgkRmX_nto_3Y9sjake0&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=SzaHbfWRkRmYvv2PmbyNNA&_nc_ss=7320f&oh=00_AQODd7C8hSTezNzfylYl1BTvsFc7AUhSxiIonGm8c-Glpg&oe=6AE33CC4",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "room15-patisserie.png",
+      "filename": "room15-patisserie/logo.webp",
       "lastSuccess": "2026-10-25T11:03:01+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:03:01+08:00",
@@ -5387,7 +5387,7 @@
       "lastAttempt": "2026-10-25T11:03:03+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "71f115b3db511e08ce15ed67d0cfaddf451abb900be36ad75b3d483337882d3e",
+      "sha256": "8dfc8b7f96054b3088d5c27369aaa7be26fcb057cc06bccc836fb60bb068e83d",
       "contentBox": [
         0,
         56,
@@ -5404,7 +5404,7 @@
       "source": "https://www.facebook.com/profile.php?id=100054230181070",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/632652226_1424205042730488_7730649826207109232_n.jpg?stp=dst-jpg_tt6&cstp=mx1640x924&ctp=p720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=RbXzixFRMyYQ7kNvwEXNDpq&_nc_oc=AdpyDD2q28wI_nmoUP2MWT5WNWQiePikiMA39p8OgBzI0DsQNE52nJvB9g_AQCVsQXQ&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=I_eafoxIVtVmBc01j-4mEg&_nc_ss=7320f&oh=00_AQN5hHT4vMGMSHc1nYvWvmps1aCl0ciLfMZ9nh_whTXAkA&oe=6AE34DE5",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；老四嬸純米攤 | Chiayi ",
-      "filename": "lao-si-shen-rice-stall.png",
+      "filename": "lao-si-shen-rice-stall/logo.webp",
       "lastSuccess": "2026-10-25T11:03:03+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -5423,7 +5423,7 @@
       "discoveryVersion": 3
     },
     "huang-jie-service-office": {
-      "sha256": "4e537054c71c87ead4e4cd33be75953791ff5208e6352b92b5f6e9e39ea22dde",
+      "sha256": "3c20f4dab24e3c622fbee2065f1b3ba3e327a28edb4f4a5d8eff1fe9cbe58046",
       "contentBox": [
         0,
         0,
@@ -5440,7 +5440,7 @@
       "source": "https://www.threads.com/@huangjie_official",
       "imageUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/586277068_17931529962112934_813437279074336643_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=1&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=dlYPIti2EtkQ7kNvwFF-Ud8&_nc_oc=AdqDbLHlpxvw0mLcynQwqe44cbzwgG-4NcV1QJKV3PcrsiGb9kqQIX5yZ01vbdPRFHg&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=ASwiqmu_BDnIEkKa6cE3OA&_nc_ss=7320f&oh=00_AQOmQs1QtlNDYHu_0JyziVpwxxhOCEFk0QN9lS6SznaeZA&oe=6AE341C8",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "huang-jie-service-office.png",
+      "filename": "huang-jie-service-office/logo.webp",
       "lastSuccess": "2026-10-25T11:03:04+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:03:04+08:00",
@@ -5462,7 +5462,7 @@
       "discoveryVersion": 3
     },
     "meet-the-old-house-coffee": {
-      "sha256": "3405ad7fc27f3768cc2c0322bd5058ca5dc0bfdde5fdb3b82b4caf044e10b519",
+      "sha256": "cbeb591c45475225b1a98bdfe2b783c1e7cdb6a23a0cbd364044518ae7757fc5",
       "contentBox": [
         0,
         0,
@@ -5479,7 +5479,7 @@
       "source": "https://www.facebook.com/meet.the.old.house.coffee/",
       "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/292098046_117560840988402_505332733803147224_n.jpg?stp=dst-jpg_tt6&cstp=mx958x958&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5mDJiGDgcOkQ7kNvwH2w70O&_nc_oc=Ado1Gt_6F3WfXpmKmNsBMKGDm3wdlaefhBvZ-XIcjq20trN6edzVvDIRymFFHraF0Tw&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=ohRbZYvl3q1a8zuOpEYkIg&_nc_ss=7320f&oh=00_AQPz4q7-auOQwK0PXFKoF_d8fnb8yiBg0sqF0iFHqS03-w&oe=6AE34379",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "meet-the-old-house-coffee.png",
+      "filename": "meet-the-old-house-coffee/logo.webp",
       "lastSuccess": "2026-10-25T11:03:05+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:03:05+08:00",
@@ -5504,7 +5504,7 @@
       "lastAttempt": "2026-10-25T11:03:06+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "c75b9f21016f8aea3627d740b44a82012b595ef2c40feb28109394d521d49551",
+      "sha256": "dd4d506c79423397b69559b8c957536c6e5dcbb3308c61c4037d5bcc90bb84ca",
       "contentBox": [
         0,
         0,
@@ -5521,7 +5521,7 @@
       "source": "https://www.facebook.com/people/清香園客家美食/100063877627832/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/556982541_1265051612300748_3539218636502618439_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1440&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lD5P1bAyimIQ7kNvwHqUUur&_nc_oc=AdrrOu262BUpWPfd6FORUM7d_g_4dGRcHczROKK66p0UeRbCyvpWHdmiYIEqEL9_fzE&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=cceSSY-vTB6urwpHY-9xqA&_nc_ss=7320f&oh=00_AQN-nHsGKaWwrpfliC_SP72K9NDIOOfONdpr6XLUcuhHKA&oe=6AE35C37",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "qing-xiang-yuan-hakka.png",
+      "filename": "qing-xiang-yuan-hakka/logo.webp",
       "lastSuccess": "2026-10-25T11:03:06+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -5543,7 +5543,7 @@
       "lastAttempt": "2026-10-25T11:03:07+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "8d7f0d884800bcbb02f9ee50fad7595befd14668f8fb2c0f9b36ecb380c20afc",
+      "sha256": "36dcdb9cab12adc4c47d786b1eefda0db56ef5567d9768088065cf73e86df728",
       "contentBox": [
         0,
         0,
@@ -5560,7 +5560,7 @@
       "source": "https://www.threads.com/@fu.fu.tang",
       "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/419376743_689957476335595_9170928247787802429_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=aKJxwjD_CxcQ7kNvwEG7iXS&_nc_oc=AdpfNtrZIkSMSw-GIATeFDi8qVdKqiTOWclNLy2bh6AQYVINW6LOM-KeDwPmRSHa2dc&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_ss=7320f&oh=00_AQNiwccO_-OmVGv4OJk3A4mq6IVAZBYIHVomzDRk4OBdqQ&oe=6AE341B1",
       "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "fu-fu-tang-tcm.png",
+      "filename": "fu-fu-tang-tcm/logo.webp",
       "lastSuccess": "2026-10-25T11:03:07+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -5579,7 +5579,7 @@
       "discoveryVersion": 3
     },
     "chun-massage": {
-      "sha256": "db65e937692a9e8d2b33e06a4b4dc0838a8d2e018e59656f175ea23b09cad3c8",
+      "sha256": "490a266f3b03e2dcb5245e44f5f7fac9f0825e6b2de6909f1ed1da3d2287324b",
       "contentBox": [
         0,
         0,
@@ -5596,7 +5596,7 @@
       "source": "https://www.threads.com/@chun_massage",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/514595645_18466318900073973_2137504379228009347_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gGAlNqpIL_G5RM5RJVuXz6GkOxVIqfGAWK01RPuclc2Cnyqnmy8U4JSmmknlyDAHEU&_nc_ohc=YpG5uU8XFJ0Q7kNvwFhPBbP&_nc_gid=r8rTeiHZDM6i8vb8LA98PA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQPabvUOkuGTw7YwQFEiYhd_CHfbaABpaxuPTpA0_jiOzA&oe=6AE3306E&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；春·舒壓按摩工作室chun_massage (@chun_massage) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "chun-massage.png",
+      "filename": "chun-massage/logo.webp",
       "lastSuccess": "2026-10-25T11:03:09+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:03:09+08:00",
@@ -5618,7 +5618,7 @@
       "discoveryVersion": 3
     },
     "smoko-salad-bar": {
-      "sha256": "ab1e246ea163c6b0a0a6a40bc90c9b2ae264f3f9b7f2a49821db9774ec7a1d96",
+      "sha256": "07dcdab8a13233a029781b6cffecc01c1192fddac9b563011fcdfefb3b5e3f2c",
       "contentBox": [
         0,
         0,
@@ -5635,7 +5635,7 @@
       "source": "https://www.facebook.com/smokosaladbar/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/825395880_1588438449967353_7162325458294733480_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BbcfXid3PmIQ7kNvwEyvbwT&_nc_oc=Adq81R0Q4VYMSs9a0zXz_Dh5CzjR7ZodrPHCgp0BEmiAkT-vbIgYNM_gijTh86HpnUY&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=3AWSJSIRKrmAg_jseZ-j4w&_nc_ss=7320f&oh=00_AQP1_1Pt6aNBv9bjjAhc4HS_w5GOmp6IBPSem_TM3_6irQ&oe=6AE34708",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "smoko-salad-bar.png",
+      "filename": "smoko-salad-bar/logo.webp",
       "lastSuccess": "2026-10-25T11:03:10+08:00",
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T11:03:10+08:00",
@@ -5660,7 +5660,7 @@
       "lastAttempt": "2026-10-25T11:03:11+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "1b48eff7f96ca5c23a43a3c85393e34f63d1cb705bac2e21f20d9927e5bc1086",
+      "sha256": "eebf74997ef2c06ed9c1fd45a0c7f05d9db5d464765734421bf23e6537858cfb",
       "contentBox": [
         0,
         0,
@@ -5677,7 +5677,7 @@
       "source": "https://www.facebook.com/GaoXiongShiYiYuanGuoJianMeng/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/631653550_1357655249711952_6528784312216511767_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AAXQVztFxiAQ7kNvwE_3S0y&_nc_oc=AdouhVpcOeofYl7TL7IvHmDiIx9vcKX_GfxBLAIUwjsHWYekUcOaEHKtUpmyj8ZzmFg&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=Yfhakzn1y6rIH8b6TD0k5Q&_nc_ss=7320f&oh=00_AQOBnQ4U-QBaq2bjJ-1c8n7KDn5dwP2cmGHDD48Bm9Wa4w&oe=6AE33C4E",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "kuo-chien-meng-service-office.png",
+      "filename": "kuo-chien-meng-service-office/logo.webp",
       "lastSuccess": "2026-10-25T11:03:11+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -5699,7 +5699,7 @@
       "lastAttempt": "2026-10-25T11:03:12+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "66d1223a554f058bef94639fc200acf92bb641720b54a90d89c32feeab41a8ef",
+      "sha256": "564b2ca5b62fdb413edcc10c06ea18a9fdbdba3fad5f79bbd231a26efd971cb7",
       "contentBox": [
         0,
         0,
@@ -5716,7 +5716,7 @@
       "source": "https://www.instagram.com/uniqueyaki/",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/582217432_17975573336955023_1698013451861813210_n.jpg?_nc_cat=101&ig_cache_key=GNjusyKPGGJPsNw-ANrnDu48jpAXbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=pJ9DNrRjEyEQ7kNvwE2gmCf&_nc_oc=AdqntJlAUX4H9nl1dYawj_ZEwJJ2u2Kfr95BySO1sryckAGZGC8hjK2mssIsL1p7oRY&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=m19BOHhN5F8k3YOJvfIIJA&_nc_ss=7b6a8&oh=00_AQML2w2MM0u6ljzjQuDePSjaCmrEwDf3IQY-LeNNZOgp3A&oe=6AE334C2",
       "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "faguozi-skewers.png",
+      "filename": "faguozi-skewers/logo.webp",
       "lastSuccess": "2026-10-25T11:03:12+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -5738,7 +5738,7 @@
       "lastAttempt": "2026-10-25T11:03:13+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "4b0d506663ae1f0a7a1f88e78e7dc713baf3fb87195a9afb4fa206f054cb4e19",
+      "sha256": "d966d5f01ef7ce82948d98c665c0e00267a7aa3b9d17e274656404f88cede3fa",
       "contentBox": [
         0,
         37,
@@ -5755,7 +5755,7 @@
       "source": "https://www.facebook.com/miss.mimi.cafe/",
       "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/439864732_7715897811801847_6939266030158259964_n.jpg?stp=dst-jpg_tt6&cstp=mx1754x1240&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bkl-j96mt10Q7kNvwFn_Bvx&_nc_oc=AdoSJdEAT0IJLcEhd3zQbNJ1P2d-lacUBVSP-6haLg6LQnnHNfCTBaMoCP-cWT24NYk&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=Nh5APxPIAYDxIW8lGjlxHg&_nc_ss=7320f&oh=00_AQMA7Y3ZM5Ge_5UeE99DvIR0Tv2MmhMSpD1liUgsdEkDHA&oe=6AE355CD",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "miss-mimi-coffee.png",
+      "filename": "miss-mimi-coffee/logo.webp",
       "lastSuccess": "2026-10-25T11:03:13+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -5777,7 +5777,7 @@
       "lastAttempt": "2026-10-25T11:03:18+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "bac8e35aa0d4d4f60a7378611ba8169f403a094fe146092b82d2a8e887176462",
+      "sha256": "61c857f46687d12fefbaee85d0793c41c1d898608ff0b390f6ae6e783f821dd0",
       "contentBox": [
         0,
         0,
@@ -5794,7 +5794,7 @@
       "source": "https://www.threads.com/@song202605?xmt=AQG0GiYHjVSqSr6Ld9FSjdcPoKCi9TuQSCrk2s4TVXOr_ME",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/718418834_18101671492868357_4434260365479128169_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby45NjguYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gHZ8wAAdOnxDDMtW5XJ8HxyI8tWIgNz7hr6av5bsvQEapciObHi4YwFqRTFzVAMhEY&_nc_ohc=5PYi_ntBj4QQ7kNvwFxhn1F&_nc_gid=ZTcKkb_AeU5z1MC5t_1zyQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQN5AAjZWvHEpxuEkEqihpasrzrMN06T_OTMUy-wF4x0XQ&oe=6AE35876&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；正松麵舖 (@song202605) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
-      "filename": "zheng-song-noodles.png",
+      "filename": "zheng-song-noodles/logo.webp",
       "lastSuccess": "2026-10-25T11:03:18+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -5839,7 +5839,7 @@
       "lastAttempt": "2026-10-25T11:03:19+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "bb4351c7a6f0d6853ff5b7c9ffd1723203a6ea5c39b87682cc693cab1ba837c2",
+      "sha256": "c8d79c8d6906df9ef072d43fbb69fe9e7e43fb327796f57223d34ece6067f403",
       "contentBox": [
         0,
         0,
@@ -5856,7 +5856,7 @@
       "source": "https://www.facebook.com/hwaycoffee.taiwan/",
       "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/227462173_3041906476089415_3520949232413574374_n.jpg?stp=dst-jpg_tt6&cstp=mx467x466&ctp=s467x466&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yUeHo23sxOwQ7kNvwGazTu6&_nc_oc=Adp2sM3JyqAIdzxIzHRv-UxACLAFvkM4XUncKkWwfN_YYfqVg66-BHJFfCYjU2zApX8&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=Tcrvk1sMoUkO3Wn0HboV5w&_nc_ss=7320f&oh=00_AQNZRlbv6fXf2h61meZppo_qxf6oi5l1WXNp4GEaLayhig&oe=6AE34470",
       "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "hway-coffee-kaohsiung.png",
+      "filename": "hway-coffee-kaohsiung/logo.webp",
       "lastSuccess": "2026-10-25T11:03:19+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -5878,7 +5878,7 @@
       "lastAttempt": "2026-10-25T11:03:21+08:00",
       "result": "updated",
       "reason": "來源頭像內容改變",
-      "sha256": "baa68db3dab3b0973fd274499ddb292c8d9ddf3dfd07b47f7d14d41da3f60104",
+      "sha256": "54e169fbd7f2b6093e7d1143a99d179ae05bfc14a268fd06c6256fa41ff55e03",
       "contentBox": [
         0,
         32,
@@ -5895,7 +5895,7 @@
       "source": "https://www.facebook.com/profile.php?id=100063744920382",
       "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/304860814_488637073271119_7450300055405116270_n.jpg?stp=dst-jpg_tt6&cstp=mx600x450&ctp=s600x450&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lnxd0BFUTJwQ7kNvwEWbWWG&_nc_oc=AdrlHZmo858i18GSavgllKW-8j0CW2QLc4cg6HS9NaA3GcYOcRaYH-nT9fMyVt6tW5E&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=cc4Lqn80Tcq2GBsYHVglxg&_nc_ss=7320f&oh=00_AQN4pwgsddonKta5oFW5BjAq_38pFar7_tU_S-WWBY59RQ&oe=6AE339D8",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；前金肉燥飯 | Kaohsiung ",
-      "filename": "qianjin-braised-pork-rice.png",
+      "filename": "qianjin-braised-pork-rice/logo.webp",
       "lastSuccess": "2026-10-25T11:03:21+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -5917,7 +5917,7 @@
       "lastAttempt": "2026-10-25T11:03:22+08:00",
       "result": "updated",
       "reason": "取得較高解析度官方頭像",
-      "sha256": "3562d3e0bc71b4f5561dae105f066cf61d84c69e52670d24b34c2afb393ee752",
+      "sha256": "9118b77e354d77d16350fa556d9e3c13e31b76a036e34ce1b1bbb3aea334f02c",
       "contentBox": [
         0,
         0,
@@ -5934,7 +5934,7 @@
       "source": "https://www.instagram.com/_momshandmade_/",
       "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/639901227_18074050892573600_6620708799331551447_n.jpg?_nc_cat=100&ig_cache_key=GCseJCagqxrnQDZAANfIdTGTe_FbbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=lprp5yMC0_EQ7kNvwFvkLbu&_nc_oc=AdpaNF9XdZZrA6twArCKiLbykRyys1EoVdDr48tvImd7X3AY7nJXLxNym-NIUyH0_RM&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=ZPHLPUdHP7UtjGibvOM1LA&_nc_ss=7b6a8&oh=00_AQM5zYEZV2oZnDKTsjXHTXh2MmQfa_0FPmQdXNUrn76Usg&oe=6AE33570",
       "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-      "filename": "taitai-sewing-studio.png",
+      "filename": "taitai-sewing-studio/logo.webp",
       "lastSuccess": "2026-10-25T11:03:22+08:00",
       "sourceValidators": {},
       "qualityChecks": [
@@ -5966,7 +5966,7 @@
           "result": "sufficient"
         }
       ],
-      "sha256": "3848684a906d873c9f69a664c43e29ce72d68e7eb1a047b9262668ae4511adfe",
+      "sha256": "992919ff246edc402912ef8eda9a9235586c532e3f512d8f98f75112c5f70400",
       "contentBox": [
         0,
         0,
@@ -5983,7 +5983,7 @@
       "source": "https://www.facebook.com/p/Trillion日兆共享商務空間-61559798486162/",
       "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/442502893_10161091754045890_7445272125095629503_n.jpg?stp=dst-jpg_tt6&cstp=mx489x489&ctp=s489x489&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2GE1j7Y4FOMQ7kNvwE7nNNS&_nc_oc=AdqnvWPKyxj-FXwxVSEMzCAIq2ZJdljD6Y4sgrBC4fwPwySBTWtttZ2PxKCkuNCXtxM&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=R_PFR6jtoTEtAiA057bwYg&_nc_ss=7920f&oh=00_AQOp6QnvkomFACucChbbzjbSVGS4qzVCUAOqhDPPirYNuw&oe=6AE3E34E",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Trillion日兆共享商務空間",
-      "filename": "trillion-coworking-zhongli.png",
+      "filename": "trillion-coworking-zhongli/logo.webp",
       "lastSuccess": "2026-10-25T21:56:56+08:00",
       "discoveryVersion": 3,
       "sourceValidators": {},
