@@ -3,7 +3,7 @@
 import { state, toast, findBoothIn } from '../state.js';
 import { loadSearch, loadAisle, aisleOfBooth } from '../data.js';
 import { goToBooth } from '../nav.js';
-import { openBooth } from './booth.js';
+import { openBooth } from './booth.js?v=20261025-designer-share';
 import { thumbnailUrl, retryOriginal } from '../images.js';
 
 const PAGE = 60;
