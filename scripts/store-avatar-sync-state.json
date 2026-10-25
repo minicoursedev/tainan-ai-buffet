@@ -5951,6 +5951,45 @@
         }
       ],
       "discoveryVersion": 3
+    },
+    "trillion-coworking-zhongli": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/p/Trillion日兆共享商務空間-61559798486162/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/442502893_10161091754045890_7445272125095629503_n.jpg?stp=dst-jpg_tt6&cstp=mx489x489&ctp=s489x489&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2GE1j7Y4FOMQ7kNvwE7nNNS&_nc_oc=AdqnvWPKyxj-FXwxVSEMzCAIq2ZJdljD6Y4sgrBC4fwPwySBTWtttZ2PxKCkuNCXtxM&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=R_PFR6jtoTEtAiA057bwYg&_nc_ss=7920f&oh=00_AQOp6QnvkomFACucChbbzjbSVGS4qzVCUAOqhDPPirYNuw&oe=6AE3E34E",
+          "size": [
+            489,
+            489
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Trillion日兆共享商務空間",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "3848684a906d873c9f69a664c43e29ce72d68e7eb1a047b9262668ae4511adfe",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        489,
+        489
+      ],
+      "imageValidators": {
+        "last-modified": "Tue, 14 May 2024 06:17:45 GMT"
+      },
+      "source": "https://www.facebook.com/p/Trillion日兆共享商務空間-61559798486162/",
+      "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/442502893_10161091754045890_7445272125095629503_n.jpg?stp=dst-jpg_tt6&cstp=mx489x489&ctp=s489x489&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2GE1j7Y4FOMQ7kNvwE7nNNS&_nc_oc=AdqnvWPKyxj-FXwxVSEMzCAIq2ZJdljD6Y4sgrBC4fwPwySBTWtttZ2PxKCkuNCXtxM&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=R_PFR6jtoTEtAiA057bwYg&_nc_ss=7920f&oh=00_AQOp6QnvkomFACucChbbzjbSVGS4qzVCUAOqhDPPirYNuw&oe=6AE3E34E",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Trillion日兆共享商務空間",
+      "filename": "trillion-coworking-zhongli.png",
+      "lastSuccess": "2026-10-25T21:56:56+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-25T21:56:56+08:00",
+      "result": "updated",
+      "reason": "首次保存"
     }
   }
 }
