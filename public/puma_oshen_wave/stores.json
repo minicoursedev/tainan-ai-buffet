@@ -53,7 +53,7 @@
         "auditNote": "Google 地圖卡片地址吻合。Uber Eats 等舊資料列 10:30 起，時段有差異，顯示地圖卡完整週間時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/hana-da.png?v=b73de8b065c3aa74",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/hana-da.png?v=b73de8b065c3aa74",
         "source": "https://www.facebook.com/p/花田-HANA-DA-100094464120620/",
         "platform": "facebook",
         "status": "verified",
@@ -97,7 +97,7 @@
         "auditNote": "Google 地圖卡地址吻合並列完整週表；Fooday 舊資料時段及公休日不同。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/sabisabi-tainan.png?v=4b68ed61f2d8385c",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/sabisabi-tainan.png?v=4b68ed61f2d8385c",
         "source": "https://www.instagram.com/sabisabi_2022/",
         "platform": "instagram",
         "status": "verified",
@@ -140,7 +140,7 @@
         "auditNote": "Google 地圖卡地址吻合，商家標題亦標示六日公休。其他外送及素食目錄所列打烊時間不同；採地圖週表。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/aini-tofu.png?v=4fa28c79ef37811a",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/aini-tofu.png?v=4fa28c79ef37811a",
         "source": "https://www.instagram.com/dannyyammytofu/",
         "platform": "instagram",
         "status": "verified",
@@ -183,7 +183,7 @@
         "auditNote": "GoodLife 報導轉述店家官方社群目前公告為每日 11:30–20:00；其他目錄有 12:00 開始的舊時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/moonlight-books-tainan.png?v=5b4c4e4cdaccbf95",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/moonlight-books-tainan.png?v=5b4c4e4cdaccbf95",
         "source": "https://www.instagram.com/moonlightbooks.tainan/",
         "platform": "instagram",
         "status": "verified",
@@ -229,7 +229,7 @@
         "auditNote": "官方店鋪頁及社群資訊指向台南工作室預約試穿；第三方店家介紹明載提前 1–2 天私訊預約。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/morona-tainan.png?v=9bfdc105b7b91dc2",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/morona-tainan.png?v=9bfdc105b7b91dc2",
         "source": "https://www.threads.com/@morona_mit_tainan",
         "platform": "threads",
         "status": "verified",
@@ -272,7 +272,7 @@
         "auditNote": "Google 地圖完整週間時段，地址吻合。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/shencai181.png?v=934810dfd9e4271f",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/shencai181.png?v=934810dfd9e4271f",
         "source": "https://www.instagram.com/shencai181/",
         "platform": "instagram",
         "status": "verified",
@@ -314,7 +314,7 @@
         "auditNote": "Google 地圖完整週間時段，地址吻合。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/haitiau.png?v=bc5305403a5a2e53",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/haitiau.png?v=bc5305403a5a2e53",
         "source": "https://www.instagram.com/haitiau_/",
         "platform": "instagram",
         "status": "verified",
@@ -355,7 +355,7 @@
         "auditNote": "Google 地圖完整週間時段，地址吻合。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/kaichun.png?v=150c3a16610f45c5",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/kaichun.png?v=150c3a16610f45c5",
         "source": "https://www.instagram.com/kcgzwbd/",
         "platform": "instagram",
         "status": "verified",
@@ -401,8 +401,8 @@
         "source": "",
         "platform": "",
         "status": "unavailable",
-        "checkedAt": "2026-10-19",
-        "note": "資料未列社群；以完整店名、文賢路619號搜尋未找到可核對官方帳號；既有 SOGI 來源回應 HTTP 403，未猜測照片。"
+        "checkedAt": "2026-10-25",
+        "note": "2026-10-25 再次依店名、文賢路619號與電話查找官方社群及LINE，未取得可確認的官方頭像；SOGI僅為門市街景，不採作頭像。"
       },
       "disabled": false,
       "latlng": {
@@ -443,7 +443,7 @@
         "auditNote": "Google 地圖「查看更詳細的營業時間」子頁已展開完整週表：週一至週五09:00–21:00、週六休息、週日10:00–21:00。Dcard（2025-10-31）與 Uber Eats 的週末安排不同；以目前Google地圖卡的完整週表為準。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/jingliang-chongde.png?v=f40ba47b51a113fb",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/jingliang-chongde.png?v=f40ba47b51a113fb",
         "source": "https://www.instagram.com/jingliang_no.1/",
         "platform": "instagram",
         "status": "verified",
@@ -491,7 +491,7 @@
         "auditNote": "Eaters 商家頁有完整週表；較舊食記列星期一、二、三休，與現列不同，採商家頁現列時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/roar-factory.png?v=a82dba95a6985773",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/roar-factory.png?v=a82dba95a6985773",
         "source": "https://www.instagram.com/roar_factory/",
         "platform": "instagram",
         "status": "verified",
@@ -534,7 +534,7 @@
         "auditNote": "Google 地圖完整週間時段，地址吻合。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/taiwan-titsia.png?v=8bdc59179fceece2",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/taiwan-titsia.png?v=8bdc59179fceece2",
         "source": "https://www.facebook.com/people/台灣佇遮/61592092670376/",
         "platform": "facebook",
         "status": "verified",
@@ -586,7 +586,7 @@
       },
       "visitNote": "工作室採預約制，請先透過社群私訊預約。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/selten-dac.png?v=fc9513c2d86cab14",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/selten-dac.png?v=fc9513c2d86cab14",
         "source": "https://www.instagram.com/selten.dac/",
         "platform": "instagram",
         "status": "verified",
@@ -631,7 +631,7 @@
         "auditNote": "Google 地圖商家卡地址吻合，類別為運動用品店，已展開完整週表。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/senyu-xinshi.png?v=3d7c29b046af593b",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/senyu-xinshi.png?v=3d7c29b046af593b",
         "source": "https://www.instagram.com/senyu.badminton/",
         "platform": "instagram",
         "status": "verified",
@@ -674,7 +674,7 @@
         "auditNote": "Walkerland 列完整週間時段；另一篇較簡略資料未提週三延後至 09:00，採詳細週表。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/klaster-savour.png?v=d04cd1cd073f433f",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/klaster-savour.png?v=d04cd1cd073f433f",
         "source": "https://www.instagram.com/klaster_savour/",
         "platform": "instagram",
         "status": "verified",
@@ -718,7 +718,7 @@
         "auditNote": "FindGlocal 所列商家資訊鏡像官方 Facebook，地址吻合；此為社群聚合頁資料。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/tuojin-mobile.png?v=756546b30b856066",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/tuojin-mobile.png?v=756546b30b856066",
         "source": "https://www.instagram.com/tk2227266tk/",
         "platform": "instagram",
         "status": "verified",
@@ -760,7 +760,7 @@
         "auditNote": "使用者提供更正營業時間：平日 8:30–16:00，六日 9:30–16:00。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/namiya-cafe.png?v=1a7259daa3cba609",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/namiya-cafe.png?v=1a7259daa3cba609",
         "source": "https://www.instagram.com/namiya.cafe/",
         "platform": "instagram",
         "status": "verified",
@@ -808,7 +808,7 @@
         "auditNote": "2026-10-23 官方 Facebook 公開簡介明載15:00–01:00，與本筆既有時段一致，改以官方資料為主要依據；簡介未明列各日週表及公休日，故不再將「每日」寫定。保留既有 Google Maps、Uber Eats 查證來源：2026-10-19 原查證紀錄為地圖七日皆15:00–01:00，Uber Eats舊頁15:00–00:15且已於2025-06-20停止平台服務，本次未以舊外送時段填定。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/gold-tea-jinhua.png?v=36dd3fe9a1be6257",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/gold-tea-jinhua.png?v=36dd3fe9a1be6257",
         "source": "https://www.facebook.com/people/羚角-手搖茶飲/61565137907788/",
         "platform": "facebook",
         "status": "verified",
@@ -850,7 +850,7 @@
         "auditNote": "Google 地圖商家卡地址吻合，展開完整週表確認週日公休；外送平台頁亦列週一至週六相同時段但未顯示週日時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/jiangxin-curry-jiali.png?v=13235217085ab1a2",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/jiangxin-curry-jiali.png?v=13235217085ab1a2",
         "source": "https://www.facebook.com/JiangXincCurry/",
         "platform": "facebook",
         "status": "verified",
@@ -891,7 +891,7 @@
         "auditNote": "Google Maps商家卡地址為佳里區光復路417號，已展開完整週間表；與先前找到同名仁愛路300號資料不同，採此精確地址商家卡。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/chill-well-douhua.png?v=cf65c6c1246095ca",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/chill-well-douhua.png?v=cf65c6c1246095ca",
         "source": "https://www.instagram.com/chill_well_douhua/",
         "platform": "instagram",
         "status": "verified",
@@ -932,7 +932,7 @@
         "checkedAt": "2026-10-19"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/frankdaily-madou.png?v=73e20f14e4efeff4",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/frankdaily-madou.png?v=73e20f14e4efeff4",
         "source": "https://www.instagram.com/frankdaily_85/",
         "platform": "instagram",
         "status": "verified",
@@ -973,7 +973,7 @@
         "checkedAt": "2026-10-19"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/laopai-hotpot-madou.png?v=62925b1c782c4918",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/laopai-hotpot-madou.png?v=62925b1c782c4918",
         "source": "https://www.facebook.com/Madou83/",
         "platform": "facebook",
         "status": "verified",
@@ -1017,7 +1017,7 @@
         "auditNote": "Google Maps卡標題明列『畢業季採預約制』及可能外出教學，卡片列上述時段；第三方店家介紹亦提到預約及外出教學。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/ru-studio-flower.png?v=ab5353419e162545",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/ru-studio-flower.png?v=ab5353419e162545",
         "source": "https://www.threads.com/@rustudio_flower",
         "platform": "threads",
         "status": "verified",
@@ -1060,7 +1060,7 @@
         "auditNote": "官方 Portaly 列週一至週六時段；第三方頁另列每日 08:00–21:30，與官方資料不一致，採官方公告。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/lumos-flower-lab.png?v=08b42393669a7e73",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/lumos-flower-lab.png?v=08b42393669a7e73",
         "source": "https://www.threads.com/@lumos.flower.lab",
         "platform": "threads",
         "status": "verified",
@@ -1106,7 +1106,7 @@
       },
       "visitNote": "到訪前請查看店家社群營業公告。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/about-dream-anping.png?v=78443eebdf5f4e86",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/about-dream-anping.png?v=78443eebdf5f4e86",
         "source": "https://www.threads.com/@aboutdream.tainan",
         "platform": "threads",
         "status": "verified",
@@ -1150,7 +1150,7 @@
         "auditNote": "Google Maps商家卡地址與北園街8巷9弄5號相符，已展開完整週表。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/hamsterstar.png?v=75ae80b685d65d70",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/hamsterstar.png?v=75ae80b685d65d70",
         "source": "https://www.instagram.com/hamsterstar888/",
         "platform": "instagram",
         "status": "verified",
@@ -1192,7 +1192,7 @@
         "auditNote": "主代理直接讀Google完整週表，週三亦營業；未採第三方舊週三公休。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/sing-yuan-coffee.png?v=c9711e67c37c0b7d",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/sing-yuan-coffee.png?v=c9711e67c37c0b7d",
         "source": "https://www.instagram.com/sing_yuan_coffee/",
         "platform": "instagram",
         "status": "verified",
@@ -1236,7 +1236,7 @@
         "auditNote": "Google Maps卡地址為五妃街76號1樓，完整週表為週一至週五09:30–17:00、週六日09:30–18:00；與舊第三方文章時段相異，採現行Google商家卡。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/dono-doro.png?v=bf6842c87a5d751c",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/dono-doro.png?v=bf6842c87a5d751c",
         "source": "https://www.instagram.com/dono.doro/",
         "platform": "instagram",
         "status": "verified",
@@ -1281,7 +1281,7 @@
         "auditNote": "Google Maps商家卡地址為國華街二段82號，完整週表列週二公休，其餘每日07:00–14:00；第三方舊文另提下午16:00–19:00，現行Google卡未列下午時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/time-of-sun.png?v=7666fbd396a57818",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/time-of-sun.png?v=7666fbd396a57818",
         "source": "https://www.instagram.com/the_time_of_sun/",
         "platform": "instagram",
         "status": "verified",
@@ -1323,7 +1323,7 @@
         "auditNote": "店家官方網站列此時段及自強街17號地址。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/old-laifa-bakery.png?v=9d619e1a8884a816",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/old-laifa-bakery.png?v=9d619e1a8884a816",
         "source": "https://www.facebook.com/twglf/",
         "platform": "facebook",
         "status": "verified",
@@ -1369,7 +1369,7 @@
         "auditNote": "官方網站寫13:30–21:00；頁面服務時段欄另寫至21:30，第三方亦有12:30–20:00與13:30–21:30版本，時間存在衝突，暫採官方營業時間正文13:30–21:00。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/gandan-cafe.png?v=79bfff83b46d4535",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/gandan-cafe.png?v=79bfff83b46d4535",
         "source": "https://www.facebook.com/p/%E7%94%98%E5%96%AE%E5%92%96%E5%95%A1%E9%A4%A8-100064820196334/",
         "platform": "facebook",
         "status": "verified",
@@ -1413,7 +1413,7 @@
         "checkedAt": "2026-10-19"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/youyu-xinying.png?v=e5072e3ececf4fed",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/youyu-xinying.png?v=e5072e3ececf4fed",
         "source": "https://www.facebook.com/p/%E6%9C%89%E9%A4%98-100057568805157/",
         "platform": "facebook",
         "status": "verified",
@@ -1457,12 +1457,12 @@
         "auditNote": "Google Maps商家卡地址精確為新營區中山路45號，展開完整週間表為每日10:30–20:00。"
       },
       "shopPhoto": {
-        "url": "",
-        "source": "",
-        "platform": "",
-        "status": "unavailable",
-        "checkedAt": "2026-10-19",
-        "note": "已搜尋新營威記＋中山路45號、Facebook與Threads，找到歷史東山威記Facebook（104119465638158），但公開metadata仍為東山威記，未能確認是否中山店現行官方帳號，因此不引用。"
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/weiji-zhongshan.png?v=a52f261fc9470488",
+        "source": "https://www.facebook.com/p/%E6%9D%B1%E5%B1%B1%E5%A8%81%E8%A8%98-100081441651191/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；東山威記 | Tainan ；本站保存 512 × 512、完整置中、不放大；來源尺寸 720 × 720。"
       },
       "disabled": false,
       "latlng": {
@@ -1499,7 +1499,7 @@
         "auditNote": "Google Maps商家卡地址為府東街107號1樓，完整週表與2018年文章相同工作日/平日時間，但Google另列週日10:30–18:00。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/em-hair-design.png?v=fceb75744c8875aa",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/em-hair-design.png?v=fceb75744c8875aa",
         "source": "https://www.instagram.com/emhair_design2013/",
         "platform": "instagram",
         "status": "verified",
@@ -1546,7 +1546,7 @@
         "auditNote": "Google Maps商家卡地址為北成路435號，已展開完整週表。 2026-10-24 本次未能重新確認官方完整營業時間。查證子代理讀取的第三方Facebook轉錄頁（https://www.findglocal.com/TW/Tainan/1523665384397244/AppleNana%E5%8F%B0%E7%81%A3%E8%A3%BD%E9%80%A0%E6%89%8B%E5%B7%A5%E9%9E%8B%E6%97%97%E8%89%A6%E5%BA%97）所列週三14:00–19:00與本筆2026-10-19查得的週三公休有差異；其轉錄2026-10-01公告表示每月依狀況安排營業時間，出發前應查看官方粉絲專頁。公告附圖無法取得，未能核對十月完整月表；主代理亦未能開啟該轉錄頁，故不採第三方時段覆寫既有週表，原status與checkedAt僅表示2026-10-19的查證結果，最新時段仍待官方確認。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/applenana-mit.png?v=557f79c2512beb57",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/applenana-mit.png?v=557f79c2512beb57",
         "source": "https://www.instagram.com/applenanamit/",
         "platform": "instagram",
         "status": "verified",
@@ -1590,7 +1590,7 @@
         "auditNote": "主代理由搜尋結果點入正確中華南路141號商家卡，展開並讀取完整週間表，並非只有摘要開始08:00。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/inspire-island-studio.png?v=50fe7ab8dc154a3e",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/inspire-island-studio.png?v=50fe7ab8dc154a3e",
         "source": "https://www.instagram.com/inspireisland.studio/",
         "platform": "instagram",
         "status": "verified",
@@ -1635,7 +1635,7 @@
         "auditNote": "Google Maps商家卡地址為公園路155號並已展開完整週表；第三方資料曾把週日列14:00，採Maps目前列18:00。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/lazyday-boardgame.png?v=3a000622a283031a",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/lazyday-boardgame.png?v=3a000622a283031a",
         "source": "https://www.instagram.com/lazyday_boardgame/",
         "platform": "instagram",
         "status": "verified",
@@ -1682,7 +1682,7 @@
         "auditNote": "2026-10-19已核對Google Maps商家卡同址及完整週表；2026-10-24主代理讀取官方Instagram現行簡介，明列週三固定休、平日13:00–18:30、假日12:00–18:30，均註明或售完，與既有時段相符，補充售完提早收。Facebook簡介僅概述下午1點至售完，未列完整週表；輕旅行2022年文章的19:00為舊資料，不覆蓋現行官方Instagram時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/day-day-ding.png?v=abb1384fd1ae8079",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/day-day-ding.png?v=abb1384fd1ae8079",
         "source": "https://www.instagram.com/day_day_ding_/",
         "platform": "instagram",
         "status": "verified",
@@ -1724,7 +1724,7 @@
         "auditNote": "Google 商家卡核對地址為中西區開山路3巷48號，展開完整週間時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/hsuehs-select.png?v=4c64b6ed350bcd44",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/hsuehs-select.png?v=4c64b6ed350bcd44",
         "source": "https://www.instagram.com/hsuehs_select/",
         "platform": "instagram",
         "status": "verified",
@@ -1765,7 +1765,7 @@
         "auditNote": "Google 商家卡核對永康區忠孝一路97號，週間表與舊第三方資料一致。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/rt-flower-design.png?v=cf54ba97dfa95d2e",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/rt-flower-design.png?v=cf54ba97dfa95d2e",
         "source": "https://www.instagram.com/rtflower/",
         "platform": "instagram",
         "status": "verified",
@@ -1815,7 +1815,7 @@
       },
       "visitNote": "夜市攤位，實際出攤以店家公告為準。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/yakioyster-wusheng.png?v=c997bace94e473e5",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/yakioyster-wusheng.png?v=c997bace94e473e5",
         "source": "https://www.facebook.com/yakioyster/",
         "platform": "facebook",
         "status": "verified",
@@ -1864,8 +1864,8 @@
         "source": "",
         "platform": "",
         "status": "unavailable",
-        "checkedAt": "2026-10-19",
-        "note": "已聚焦搜尋佳良藥局與佳里中山路66號；醫療名錄未列Facebook、Instagram，未查得可確認屬於本店的公開社群，頭像留空。"
+        "checkedAt": "2026-10-25",
+        "note": "2026-10-25 再次依店名、佳里中山路66號與電話查找官方社群及LINE，未找到可確認的官方帳號；提及店家的個人帳號無官方歸屬證據，不採作頭像。"
       },
       "disabled": false,
       "latlng": {
@@ -1904,7 +1904,7 @@
         "auditNote": "主代理直接展開Google商家完整週間表；舊台南旅遊網09:00開店已被現行商家表09:30取代。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/cafe-douceur.png?v=d5d914069de3fbf6",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/cafe-douceur.png?v=d5d914069de3fbf6",
         "source": "https://www.facebook.com/cafedouceurcoffee/",
         "platform": "facebook",
         "status": "verified",
@@ -1950,7 +1950,7 @@
       },
       "visitNote": "預約制餐廳，造訪前請先確認店家安排。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/fachu-sushi.png?v=4f36fc19af86f36a",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/fachu-sushi.png?v=4f36fc19af86f36a",
         "source": "https://www.facebook.com/fachu.sushi/",
         "platform": "facebook",
         "status": "verified",
@@ -1997,7 +1997,7 @@
         "auditNote": "LINE官方帳號明載「賞車採預約制」；未將第三方車商名錄的單一時段套用為週間時間。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/taixing-auto.png?v=aa1361d5e0ebd8f5",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/taixing-auto.png?v=aa1361d5e0ebd8f5",
         "source": "https://www.instagram.com/txcar456/",
         "platform": "instagram",
         "status": "verified",
@@ -2042,7 +2042,7 @@
         "auditNote": "Google 商家卡顯示類別餅店、裕信路309號1樓；週表與較早店家社群固定資訊不同，採目前地圖顯示並保留此差異。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/companio-bakery.png?v=ba36570bb77e9d10",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/companio-bakery.png?v=ba36570bb77e9d10",
         "source": "https://www.threads.com/@companio__bakery",
         "platform": "threads",
         "status": "verified",
@@ -2083,7 +2083,7 @@
         "auditNote": "Google 商家卡地址為中西區青年路36號，展開週間時段；舊第三方頁晚間結束時間不同，採Google現列時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/senmu-kitchen.png?v=76eb5fae3990fa5f",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/senmu-kitchen.png?v=76eb5fae3990fa5f",
         "source": "https://www.facebook.com/%E6%A3%AE%E6%9C%A8%E5%BB%9A%E6%88%BF-106275088128265/",
         "platform": "facebook",
         "status": "verified",
@@ -2128,7 +2128,7 @@
         "auditNote": "主代理Google商家完整週表核09–15、一四五六日，與官方LINE四月起公告相符。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/south-island-dream.png?v=7f82bea7cdfdc862",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/south-island-dream.png?v=7f82bea7cdfdc862",
         "source": "https://www.facebook.com/dreamXdrift/",
         "platform": "facebook",
         "status": "verified",
@@ -2170,12 +2170,12 @@
         "auditNote": "Google 商家卡地址為北區育德路27號，展開完整週間時段。"
       },
       "shopPhoto": {
-        "url": "",
-        "source": "",
-        "platform": "",
-        "status": "unavailable",
-        "checkedAt": "2026-10-19",
-        "note": "依店名、育德路27號與Facebook/Instagram聚焦搜尋，未查得可確認官方社群；找到的商城及第三方名錄非本次社群頭像來源。"
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/hexin-pharmacy.png?v=9b89497f39928cdb",
+        "source": "https://www.threads.com/@yutingztw",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；荷芯藥局 (@yutingztw) • Threads, Say more；本站保存 512 × 512、完整置中、不放大；來源尺寸 640 × 640。"
       },
       "disabled": false,
       "latlng": {
@@ -2215,7 +2215,7 @@
         "auditNote": "Google 商家卡地址為中西區府前路一段129號，展開完整週間時段；第三方平台舊資料不一致。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/dash-pound-cake.png?v=c26c7cda5278c217",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/dash-pound-cake.png?v=c26c7cda5278c217",
         "source": "https://www.instagram.com/dash415__/",
         "platform": "instagram",
         "status": "verified",
@@ -2257,7 +2257,7 @@
         "auditNote": "Google 商家卡核對東區長榮路三段115號；該店現行類別為健身室，卡片週表與舊名錄資料週末時段不同，採地圖當前時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/zhiyu-fuguang.png?v=4fba2f15509da2dd",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/zhiyu-fuguang.png?v=4fba2f15509da2dd",
         "source": "https://page.line.me/924dwiyh",
         "platform": "line",
         "status": "verified",
@@ -2300,7 +2300,7 @@
         "auditNote": "Google 商家卡地址為北區育德路80號，類別為早午餐餐廳，展開完整週間時段；與舊第三方週間表不同，採卡片目前顯示。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/shuxing-brunch.png?v=039b68af617f8085",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/shuxing-brunch.png?v=039b68af617f8085",
         "source": "https://www.threads.com/@wakey_veggie",
         "platform": "threads",
         "status": "verified",
@@ -2343,7 +2343,7 @@
       },
       "visitNote": "工作室非長時間開放，請先透過店家社群預約到訪。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/goodtime-tainan.png?v=1efe7ca5e6973031",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/goodtime-tainan.png?v=1efe7ca5e6973031",
         "source": "https://www.instagram.com/goodtimetainan/",
         "platform": "instagram",
         "status": "verified",
@@ -2386,7 +2386,7 @@
         "auditNote": "Google 商家卡地址為中西區宮後街9號，展開完整週間時段；跨午夜時間依卡片顯示。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/tadaima-tainan.png?v=32ef496ab1d6aa0b",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/tadaima-tainan.png?v=32ef496ab1d6aa0b",
         "source": "https://www.instagram.com/tadaima_tainan/",
         "platform": "instagram",
         "status": "verified",
@@ -2427,7 +2427,7 @@
         "auditNote": "Google 商家卡地址為中西區開山路151巷8號，列出週一、二白天時段及週三至六晚間時段；跨午夜結束時間依卡片顯示。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/mokume-mumu.png?v=e049b48d2bdd6665",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/mokume-mumu.png?v=e049b48d2bdd6665",
         "source": "https://www.instagram.com/mokume_mumu/",
         "platform": "instagram",
         "status": "verified",
@@ -2466,7 +2466,7 @@
         ]
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/bing-chun-bakery.png?v=b4c71fd8da5fe24c",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/bing-chun-bakery.png?v=b4c71fd8da5fe24c",
         "source": "https://www.threads.com/@cookie_no324",
         "platform": "threads",
         "status": "verified",
@@ -2507,7 +2507,7 @@
         ]
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/amiao-noodles.png?v=b4d21d9461b7259c",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/amiao-noodles.png?v=b4d21d9461b7259c",
         "source": "https://www.facebook.com/Amiao.Noodles.tw/",
         "platform": "facebook",
         "status": "verified",
@@ -2546,7 +2546,7 @@
         ]
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/mezzanine-floor.png?v=4445a4e397290e1b",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/mezzanine-floor.png?v=4445a4e397290e1b",
         "source": "https://www.instagram.com/mfintainan/",
         "platform": "instagram",
         "status": "verified",
@@ -2586,7 +2586,7 @@
         ]
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/oh-mo-meow.png?v=635104ade05c861c",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/oh-mo-meow.png?v=635104ade05c861c",
         "source": "https://www.facebook.com/meoweatmeow/",
         "platform": "facebook",
         "status": "verified",
@@ -2628,7 +2628,7 @@
         "auditNote": "IG簡介列五六日一18:00–22:30；Threads公告新增週四營業，未載明週四時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/long-ting.png?v=c00db4f00c43a8b8",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/long-ting.png?v=c00db4f00c43a8b8",
         "source": "https://www.instagram.com/long_ting_food/",
         "platform": "instagram",
         "status": "verified",
@@ -2668,7 +2668,7 @@
         ]
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/daoru-ice.png?v=63512953f2ea4e59",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/daoru-ice.png?v=63512953f2ea4e59",
         "source": "https://www.instagram.com/daoru.kakigori/",
         "platform": "instagram",
         "status": "verified",
@@ -2710,7 +2710,7 @@
         "auditNote": "官方公開簡介未列完整固定時段；未將外送平台時段或臨時營業公告當成固定營業時間。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/chia-tsao-brunch.png?v=f5bf8da96929c362",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/chia-tsao-brunch.png?v=f5bf8da96929c362",
         "source": "https://www.threads.com/@spirte520",
         "platform": "threads",
         "status": "verified",
@@ -2751,7 +2751,7 @@
         "auditNote": "Google 商家卡完整週間時段與業主提供說明一致。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/182-beer-bar.png?v=35bd8a801464e382",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/182-beer-bar.png?v=35bd8a801464e382",
         "source": "https://www.instagram.com/182beerbar/",
         "platform": "instagram",
         "status": "verified",
@@ -2791,7 +2791,7 @@
         "auditNote": "官方 Facebook 營業時間面板列出完整週間時段，簡介另註明午休14:00–16:30，兩者相符。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/tang-jia-kimchi.png?v=d01f6115a5edf59c",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/tang-jia-kimchi.png?v=d01f6115a5edf59c",
         "source": "https://www.facebook.com/profile.php?id=100063791081048",
         "platform": "facebook",
         "status": "verified",
@@ -2833,7 +2833,7 @@
         "auditNote": "Google 商家卡已展開完整週間時段，並以地址及官方 Instagram 連結確認為同店。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/yen-caffe.png?v=10998e429c93d481",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/yen-caffe.png?v=10998e429c93d481",
         "source": "https://www.instagram.com/yen_caffe_213/",
         "platform": "instagram",
         "status": "verified",
@@ -2875,7 +2875,7 @@
         "auditNote": "Google 商家卡展開完整週間時段；官方 Threads 亦載星期一公休。Uber Eats 外送供應時間與門市不同，未採作門市時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/hush-anping.png?v=32364e15981e4271",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/hush-anping.png?v=32364e15981e4271",
         "source": "https://www.instagram.com/hushtn2024/",
         "platform": "instagram",
         "status": "verified",
@@ -2918,7 +2918,7 @@
         "auditNote": "Google 商家卡已展開完整週間時段；官方 LINE 列相同主時段，週三另有重複00:00欄位，採 Google 完整週表。未採舊部落格的週三公休或 Uber Eats 外送時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/show-sento-tainan.png?v=037a8809779a3fb2",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/show-sento-tainan.png?v=037a8809779a3fb2",
         "source": "https://www.instagram.com/showsento_tainan/",
         "platform": "instagram",
         "status": "verified",
@@ -2957,7 +2957,7 @@
         "auditNote": "採官方 LINE 完整週間時段；未採第三方網站週六至20:00的不同資料。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/jisu-computer.png?v=cb3e45dfb84b4548",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/jisu-computer.png?v=cb3e45dfb84b4548",
         "source": "https://www.facebook.com/wewepc/",
         "platform": "facebook",
         "status": "verified",
@@ -2999,7 +2999,7 @@
         "auditNote": "採官方 Instagram 2026年9月30日貼文所列固定時段與週一公休；未採 Facebook 約五年前更新的14:00起舊時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/zhinanwoshi.png?v=04e2a0dced41d09e",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/zhinanwoshi.png?v=04e2a0dced41d09e",
         "source": "https://www.instagram.com/zhinanwoshi/",
         "platform": "instagram",
         "status": "verified",
@@ -3039,7 +3039,7 @@
         "auditNote": "官方公開簡介未列固定營業時間，未推測開放參觀或取貨時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/island-blue.png?v=1e4948e11887a017",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/island-blue.png?v=1e4948e11887a017",
         "source": "https://www.facebook.com/p/%E5%B3%B6%E5%B6%BC%E8%97%8D-t%C3%B3-s%C5%AB-n%C3%A2%E5%B3%B6%E7%94%9F%E8%97%8D%E8%8E%93-61575677586280/",
         "platform": "facebook",
         "status": "verified",
@@ -3081,7 +3081,7 @@
         "auditNote": "採品牌官網銷售據點所列台南本店固定時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/smellscape-tainan.png?v=286985a86b11b96c",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/smellscape-tainan.png?v=286985a86b11b96c",
         "source": "https://www.instagram.com/smellscape_tw/",
         "platform": "instagram",
         "status": "verified",
@@ -3123,7 +3123,7 @@
         "auditNote": "採官方 Eatsy 訂位頁展開後的完整週間營業時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/sangu-oyster.png?v=6fe9f911c11970b7",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/sangu-oyster.png?v=6fe9f911c11970b7",
         "source": "https://www.instagram.com/sanguoyster/",
         "platform": "instagram",
         "status": "verified",
@@ -3162,7 +3162,7 @@
         "auditNote": "採 Google 商家展開後完整週間營業時間，七日均為20:30至02:30；未沿用舊店名相關文章時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/biosis-shotting-fun.png?v=069da7d0c386462c",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/biosis-shotting-fun.png?v=069da7d0c386462c",
         "source": "https://www.instagram.com/biosis.starts.with.a.hyphen/",
         "platform": "instagram",
         "status": "verified",
@@ -3203,7 +3203,7 @@
         "auditNote": "官方 Instagram 簡介與 Google 商家名稱均明列預約制；Google 商家未提供固定週間時段，因此不推定每日營業時間。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/minflower.png?v=0a81b32308ea929a",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/minflower.png?v=0a81b32308ea929a",
         "source": "https://www.instagram.com/minflower168/",
         "platform": "instagram",
         "status": "verified",
@@ -3245,7 +3245,7 @@
         "auditNote": "官方 Threads 公告調整為16:30至23:30，Google 商家完整週表列週一至週六相同時段、週日休息；未採舊文章與外送平台時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/heydude-noodles.png?v=70ad47287f3e691a",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/heydude-noodles.png?v=70ad47287f3e691a",
         "source": "https://www.instagram.com/heydudetw/",
         "platform": "instagram",
         "status": "verified",
@@ -3285,7 +3285,7 @@
         "auditNote": "採官方 Instagram 現行簡介列示時段；Facebook 營業時間面板標示約5年前更新、晚間至21:00，因此未採。未將個別月份店休日寫入固定時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/qingzhen-duck.png?v=bf2810248fb2625c",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/qingzhen-duck.png?v=bf2810248fb2625c",
         "source": "https://www.instagram.com/qingzhenduck/",
         "platform": "instagram",
         "status": "verified",
@@ -3331,7 +3331,7 @@
         "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=E68032EF-2D7A-4FA2-A29F-94CBA717AC82"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/tsai-li-ching-guoan-haidian.png?v=bb562c0433c8efce",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/tsai-li-ching-guoan-haidian.png?v=bb562c0433c8efce",
         "source": "https://www.threads.com/@kisschin66",
         "platform": "threads",
         "status": "verified",
@@ -3374,7 +3374,7 @@
         "auditNote": "時段與最後點餐時間採官方 Facebook 簡介；週一至週日採官方 Instagram 簡介。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/full-yakiniku-annan.png?v=d2e4b40f076888ab",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/full-yakiniku-annan.png?v=d2e4b40f076888ab",
         "source": "https://www.instagram.com/fullyakiniku_annan/",
         "platform": "instagram",
         "status": "verified",
@@ -3417,7 +3417,7 @@
         "auditNote": "使用者更正為週三、週四公休；保留原週一、週二、週五及週六時段，週日時段尚未提供，不推定。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/he-cafee.png?v=a7ad57ea295abba9",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/he-cafee.png?v=a7ad57ea295abba9",
         "source": "https://www.instagram.com/he.cafee/",
         "platform": "instagram",
         "status": "verified",
@@ -3457,7 +3457,7 @@
         "auditNote": "官方 Facebook 列週日至週五15:00–21:00、週六公休；Google 商家卡列週一、週四、週五、週日15:30–21:00，週二、週三、週六公休。兩者不一致，未擇一視為已確認固定營業時間。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/wanmore-yongkang.png?v=e0505eb5e08b49c9",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/wanmore-yongkang.png?v=e0505eb5e08b49c9",
         "source": "https://www.facebook.com/p/%E4%B8%B8more-%E6%B0%B8%E5%BA%B7%E5%BA%97-61576606328926/",
         "platform": "facebook",
         "status": "verified",
@@ -3497,7 +3497,7 @@
         "auditNote": "採官方 Instagram 公開簡介所列平日與週末時段及不定休說明，未以外送供應時間代替門市時間。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/screaming-bean.png?v=c6a3b4830e04ea67",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/screaming-bean.png?v=c6a3b4830e04ea67",
         "source": "https://www.instagram.com/sb.coffeeroaster/",
         "platform": "instagram",
         "status": "verified",
@@ -3537,7 +3537,7 @@
         "auditNote": "採 Google 商家卡由業主提供的用餐規定：15:00–22:00、L.O.21:00或售完、週三週四公休；未沿用舊食記14:00起的時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/shiroi-usagi.png?v=3b1fb0fe7aa0d872",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/shiroi-usagi.png?v=3b1fb0fe7aa0d872",
         "source": "https://www.instagram.com/shiroiusagi_m/",
         "platform": "instagram",
         "status": "verified",
@@ -3570,7 +3570,7 @@
       "verifiedAt": "2026-10-19",
       "verificationNote": "使用者提供官方 Threads 帳號；Threads 與 Instagram 個人頁同名，簡介均列花藝服務及台南市北區忠義路三段117號，Instagram 並連結至同名 Facebook。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/lily-garden-tainan.png?v=1835c65b128f54ad",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/lily-garden-tainan.png?v=1835c65b128f54ad",
         "source": "https://www.instagram.com/lilygarden117/",
         "platform": "instagram",
         "status": "verified",
@@ -3614,7 +3614,7 @@
         "auditNote": "官方 Threads 與 Instagram 簡介一致列出平日及假日常態時段；略過當日/特定日期的臨時異動。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/lola-dessert-tainan.png?v=50290d8c3044c5f5",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/lola-dessert-tainan.png?v=50290d8c3044c5f5",
         "source": "https://www.instagram.com/loladessert2024/",
         "platform": "instagram",
         "status": "verified",
@@ -3664,7 +3664,15 @@
         "lng": 120.2157324
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060919711",
-      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。"
+      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/wafting-coffee.png?v=f1c0f50318672e2f",
+        "source": "https://www.instagram.com/wafting_coffee/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；裊淡咖啡 (@wafting_coffee) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "moricasa-art",
@@ -3739,7 +3747,15 @@
         "lng": 120.2101514
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060963432",
-      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。"
+      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/bingder-no2-wanchang.png?v=b2808945bb4a7624",
+        "source": "https://www.instagram.com/bingderkakikori__2/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；冰ㄉ• かき氷 二號-萬昌店 (@bingderkakikori__2) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "tranity-anping",
@@ -3776,7 +3792,15 @@
         "lng": 120.1609415
       },
       "coordinateSource": "https://www.openstreetmap.org/node/4783887421",
-      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。"
+      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/tranity-anping.png?v=7740caf4c9db2152",
+        "source": "https://www.instagram.com/tranity_2024/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；注目 Tranity (@tranity_2024) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "wufei-luwei-wusheng",
@@ -3812,7 +3836,15 @@
         "lng": 120.1930071
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060954372",
-      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。"
+      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/wufei-luwei-wusheng.png?v=82621eb7d20aed81",
+        "source": "https://www.facebook.com/p/%E4%BA%94%E5%A6%83%E9%AD%AF%E5%91%B3-%E6%AD%A6%E8%81%96%E5%BA%97-100067737316929/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；五妃魯味-武聖店 | Tainan ；本站保存 512 × 512、完整置中、不放大；來源尺寸 720 × 960。"
+      }
     },
     {
       "id": "three-fourths-patisserie",
@@ -3851,7 +3883,15 @@
         "lng": 120.2033181
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11061013197",
-      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。"
+      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/three-fourths-patisserie.png?v=a045ad4cd8ba0b78",
+        "source": "https://www.facebook.com/3l4patisserie/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；四分之三法式甜點 3/4 Pâtisserie | Tainan ；本站保存 512 × 512、完整置中、不放大；來源尺寸 529 × 536。"
+      }
     },
     {
       "id": "zeng-jia-xinying",
@@ -3888,7 +3928,15 @@
         "lng": 120.3188634
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11052893739",
-      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。"
+      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/zeng-jia-xinying.png?v=9e5618ab6c3e51f9",
+        "source": "https://www.facebook.com/tseng110/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；曾家小館 | Tainan ；本站保存 512 × 512、完整置中、不放大；來源尺寸 400 × 400。"
+      }
     },
     {
       "id": "dancing-sheep-coffee",
@@ -3926,7 +3974,15 @@
         "lng": 120.2107615
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060978040",
-      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。"
+      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/dancing-sheep-coffee.png?v=5aee25d073c592dd",
+        "source": "https://www.instagram.com/dancingsheepdn/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；跳舞的羊咖啡屋 (@dancingsheepdn) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "tso-hue-tsiah-eggcake",
@@ -3953,7 +4009,15 @@
         "lng": 120.2685162
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11061072894",
-      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。"
+      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/tso-hue-tsiah-eggcake.png?v=8dbb2c2fd282fdcb",
+        "source": "https://www.instagram.com/tso.hue.tsiah_eggcake/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；作伙呷雞蛋糕 tsò-hué tsia̍h (@tso.hue.tsiah_eggcake) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "gandan-xinying-ice-tangyuan",
@@ -3982,7 +4046,15 @@
         "lng": 120.3081026
       },
       "coordinateNote": "2026-10-20 直接以瀏覽器核對 Google Maps 門牌卡「730臺南市新營區新北里民治路148-1號甘 单」；取網址 !3d/!4d 門牌定位座標，用於地址定位。",
-      "coordinateSource": "https://www.google.com/maps/place/730%E8%87%BA%E5%8D%97%E5%B8%82%E6%96%B0%E7%87%9F%E5%8D%80%E6%96%B0%E5%8C%97%E9%87%8C%E6%B0%91%E6%B2%BB%E8%B7%AF148-1%E8%99%9F%E7%94%98+%E5%8D%95/@23.3097427,120.3081026,17z/data=!3m1!4b1!4m5!3m4!1s0x346e85d063115131:0xa2e0f417983ab8db!8m2!3d23.3097427!4d120.3081026"
+      "coordinateSource": "https://www.google.com/maps/place/730%E8%87%BA%E5%8D%97%E5%B8%82%E6%96%B0%E7%87%9F%E5%8D%80%E6%96%B0%E5%8C%97%E9%87%8C%E6%B0%91%E6%B2%BB%E8%B7%AF148-1%E8%99%9F%E7%94%98+%E5%8D%95/@23.3097427,120.3081026,17z/data=!3m1!4b1!4m5!3m4!1s0x346e85d063115131:0xa2e0f417983ab8db!8m2!3d23.3097427!4d120.3081026",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/gandan-xinying-ice-tangyuan.png?v=2e6134108f157e2a",
+        "source": "https://www.instagram.com/gan_dan1952/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；甘單冰菓 (@gan_dan1952) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "youzhiyuan-kidswear",
@@ -4007,7 +4079,15 @@
         "lng": 120.1913968
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060047867",
-      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。"
+      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/youzhiyuan-kidswear.png?v=451904431027d318",
+        "source": "https://www.facebook.com/2596463baby",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；幼之園童裝部屋 | Tainan ；本站保存 512 × 512、完整置中、不放大；來源尺寸 720 × 720。"
+      }
     },
     {
       "id": "yehjia-squid-rice-noodles",
@@ -4030,7 +4110,15 @@
         "lng": 120.1988121
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060976911",
-      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。"
+      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/yehjia-squid-rice-noodles.png?v=e1cf38db0e9f2f19",
+        "source": "https://www.facebook.com/people/%E8%87%BA%E5%8D%97%E5%91%B3-%E8%91%89%E5%AE%B6%E5%B0%8F%E5%8D%B7%E6%96%99%E7%90%86/100054241430692/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；臺南味 葉家小卷料理 | Tainan ；本站保存 512 × 512、完整置中、不放大；來源尺寸 566 × 566。"
+      }
     },
     {
       "id": "chengyang-light",
@@ -4052,7 +4140,7 @@
       "verifiedAt": "2026-10-20",
       "verificationNote": "使用者提供的 Threads 官方個人頁顯示「承洋照明｜美術燈、軌道燈規劃」，自介明列中西區民權路二段3號及商業空間、居家燈飾、窗簾規劃，並連結同名 Instagram；開關拔拔官方實體通路頁亦列相同3號門市地址。以店家自介及品牌通路地址為準，未採公司登記7號。營業時間及 Facebook 未確認。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/chengyang-light.png?v=d021ff2978725ae0",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/chengyang-light.png?v=d021ff2978725ae0",
         "source": "https://www.threads.com/@chengyang_light",
         "platform": "threads",
         "status": "verified",
@@ -4094,7 +4182,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11060981338",
       "coordinateNote": "2026-10-20 以 OpenStreetMap 結構化門牌查詢，結果為臺南市中西區郡王里建業街18號，與官方店址吻合。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/gui-gui-foodie.png?v=b0db041e823c91d2",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/gui-gui-foodie.png?v=b0db041e823c91d2",
         "source": "https://www.instagram.com/gui_gui_foodie/",
         "platform": "instagram",
         "status": "verified",
@@ -4126,7 +4214,7 @@
         "source": "https://www.threads.com/@chen_tingfei"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/chen-ting-fei-campaign-headquarters.png?v=76ce05cf550c077f",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/chen-ting-fei-campaign-headquarters.png?v=76ce05cf550c077f",
         "source": "https://www.threads.com/@chen_tingfei",
         "platform": "threads",
         "status": "verified",
@@ -4166,7 +4254,15 @@
         "lng": 120.2278574
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060517032",
-      "coordinateNote": "2026-10-20 以 OpenStreetMap Nominatim 結構化查詢怡東路79號，核對東區東明里怡東路79號門牌節點，使用門牌座標。"
+      "coordinateNote": "2026-10-20 以 OpenStreetMap Nominatim 結構化查詢怡東路79號，核對東區東明里怡東路79號門牌節點，使用門牌座標。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/hele-sports-yidong.png?v=0bac50bc3fc476a7",
+        "source": "https://www.facebook.com/Hean0428",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；禾樂體育用品社 | East District, Tainan City ；本站保存 512 × 512、完整置中、不放大；來源尺寸 719 × 720。"
+      }
     },
     {
       "id": "ganachoco",
@@ -4201,7 +4297,15 @@
         "lng": 120.2194976
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060537399",
-      "coordinateNote": "2026-10-20 以 OpenStreetMap Nominatim 結構化查詢懷恩街2號之10，核對臺南市東區中西里懷恩街2號之10門牌節點，使用門牌座標。"
+      "coordinateNote": "2026-10-20 以 OpenStreetMap Nominatim 結構化查詢懷恩街2號之10，核對臺南市東區中西里懷恩街2號之10門牌節點，使用門牌座標。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/ganachoco.png?v=d780241e93716675",
+        "source": "https://www.instagram.com/ganache2012/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Ganachoco Pâtisserie 格那修 (@ganache2012) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "lin-yi-ting-service-office",
@@ -4222,7 +4326,7 @@
       "verifiedAt": "2026-10-20",
       "verificationNote": "使用者指定收錄服務處並提供地址及官方 Threads；臺南市議會第4屆市議員通訊錄核對林依婷服務處地址為安平區平通路66號。沿用既有洋流服務站分類。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/lin-yi-ting-service-office.png?v=e3bb613c7797fce1",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/lin-yi-ting-service-office.png?v=e3bb613c7797fce1",
         "source": "https://www.threads.com/@yitinglin_123",
         "platform": "threads",
         "status": "verified",
@@ -4263,7 +4367,7 @@
       "verifiedAt": "2026-10-21",
       "verificationNote": "使用者指定收錄。官方 Instagram 標題確認為植蕨茶飲西門店；店家外送頁及介紹文章核對西門路一段558號，文章連結確認 Facebook 與 Instagram 帳號。營業時間來源不一致，未填入。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/zhijue-ximen.png?v=53cc68f20549c5b9",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/zhijue-ximen.png?v=53cc68f20549c5b9",
         "source": "https://www.instagram.com/goodtime_tea2/",
         "platform": "instagram",
         "status": "verified",
@@ -4302,7 +4406,15 @@
         "lng": 120.1941709
       },
       "coordinateSource": "https://www.google.com/maps/place/易丞地政%7C代書%7C不動產顧問/data=!4m6!3m5!1s0x346e7746a5ad5e17:0x561f9f2c60c428b8!8m2!3d23.0151918!4d120.1941709!16s%2Fg%2F11ldv3hlhw",
-      "coordinateNote": "2026-10-21 透過使用者提供的 Google Maps 連結核對易丞地政店名及文賢路1030巷3弄46號地址，取地點網址 !3d、!4d 座標；依使用者選擇採用此地址與座標。"
+      "coordinateNote": "2026-10-21 透過使用者提供的 Google Maps 連結核對易丞地政店名及文賢路1030巷3弄46號地址，取地點網址 !3d、!4d 座標；依使用者選擇採用此地址與座標。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/yicheng-hongguo.png?v=c6ca400225cc6a7c",
+        "source": "https://www.threads.com/@yicheng_0625_tw",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Yang (@yicheng_0625_tw) • Threads, Say more；本站保存 512 × 512、完整置中、不放大；來源尺寸 547 × 547。"
+      }
     },
     {
       "id": "cat-boss-coffee",
@@ -4338,7 +4450,15 @@
         "lng": 120.2262649
       },
       "coordinateSource": "https://www.google.com/maps/place/老闆是隻貓自烘咖啡專門店（不是貓咖）/data=!4m6!3m5!1s0x346e774568fac6a9:0x5a6bdebb8be74184!8m2!3d22.9897604!4d120.2262649!16s%2Fg%2F11kqblb3jk",
-      "coordinateNote": "2026-10-21 OSM 查詢因連線無法完成，改以瀏覽器開啟 Google Maps，核對店名及林森路二段192巷81號地址，取地點網址 !3d、!4d 座標。"
+      "coordinateNote": "2026-10-21 OSM 查詢因連線無法完成，改以瀏覽器開啟 Google Maps，核對店名及林森路二段192巷81號地址，取地點網址 !3d、!4d 座標。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/cat-boss-coffee.png?v=18ade06642d79dba",
+        "source": "https://www.instagram.com/niki_bo19900120/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；老闆是隻貓御用工讀生-Niki (@niki_bo19900120) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "bb-cafe-tainan",
@@ -4406,7 +4526,15 @@
         "lng": 120.3181334
       },
       "coordinateSource": "https://www.google.com/maps/place/威記藥膳排骨湯/data=!4m7!3m6!1s0x346e85a9443e1a2b:0xcaeef25d0a84a263!8m2!3d23.3107922!4d120.3181334!16s%2Fg%2F11xt27qyj3!19sChIJKxo-RKmFbjQRY6KECl3y7so",
-      "coordinateNote": "2026-10-21 OpenStreetMap 完整地址、27-12號及27號之12寫法查無門牌；街道與門牌結構化查詢僅回道路結果，未採用道路中心。改以瀏覽器核對 Google Maps 店名、民治路27號之12及電話06-6328355，取地點網址 !3d、!4d 座標。"
+      "coordinateNote": "2026-10-21 OpenStreetMap 完整地址、27-12號及27號之12寫法查無門牌；街道與門牌結構化查詢僅回道路結果，未採用道路中心。改以瀏覽器核對 Google Maps 店名、民治路27號之12及電話06-6328355，取地點網址 !3d、!4d 座標。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/weiji-minzhi.png?v=a52f261fc9470488",
+        "source": "https://www.facebook.com/people/%E6%9D%B1%E5%B1%B1%E5%A8%81%E8%A8%98/100081441651191/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；東山威記 | Tainan ；本站保存 512 × 512、完整置中、不放大；來源尺寸 720 × 720。"
+      }
     },
     {
       "id": "jisheng-ramen",
@@ -4437,7 +4565,7 @@
         "auditNote": "官方 Instagram 個人頁自介明列午晚餐時段、最後點餐時間及「固定公休日、一」，依官方公告整理。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/jisheng-ramen.png?v=538fd7473f43b5e8",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/jisheng-ramen.png?v=538fd7473f43b5e8",
         "source": "https://www.instagram.com/jisheng.ramen/",
         "platform": "instagram",
         "status": "verified",
@@ -4489,7 +4617,15 @@
         "lng": 120.2300283
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060491879",
-      "coordinateNote": "2026-10-21 OSM 完整地址查無結果，改以街道與門牌結構化查詢，取得19號門牌節點而非道路中心；再以節點 API 核對臺南市、東區、裕農路389巷3弄19號及數值座標。節點原資料樓層為五樓，本筆僅採同門牌建物位置，店家一樓沿用該門牌座標。"
+      "coordinateNote": "2026-10-21 OSM 完整地址查無結果，改以街道與門牌結構化查詢，取得19號門牌節點而非道路中心；再以節點 API 核對臺南市、東區、裕農路389巷3弄19號及數值座標。節點原資料樓層為五樓，本筆僅採同門牌建物位置，店家一樓沿用該門牌座標。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/no19store.png?v=957139f403f5c78d",
+        "source": "https://www.instagram.com/smile19_com/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；十九號二手屋 (@smile19_com) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "wayonly-service-office",
@@ -4530,7 +4666,7 @@
         "source": "https://www.facebook.com/wayonly/"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/wayonly-service-office.png?v=7af4986ee4fc894f",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/wayonly-service-office.png?v=7af4986ee4fc894f",
         "source": "https://www.facebook.com/wayonly/",
         "platform": "facebook",
         "status": "verified",
@@ -4578,7 +4714,15 @@
         "lng": 120.2019984
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11061020845",
-      "coordinateNote": "2026-10-21 OSM 完整地址查詢無結果，改以60 大成路一段、台南市、南區、台灣的結構化門牌查詢取得節點；再以節點 API 核對臺南市南區明德里6鄰大成路一段60號及數值座標，採門牌位置而非道路中心。"
+      "coordinateNote": "2026-10-21 OSM 完整地址查詢無結果，改以60 大成路一段、台南市、南區、台灣的結構化門牌查詢取得節點；再以節點 API 核對臺南市南區明德里6鄰大成路一段60號及數值座標，採門牌位置而非道路中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/fuquan-pawnshop.png?v=7195d935128a8f07",
+        "source": "https://www.facebook.com/p/富泉當舖-100072024361943/?locale=zh_TW",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；富泉當舖 | Tainan ；本站保存 512 × 512、完整置中、不放大；來源尺寸 720 × 720。"
+      }
     },
     {
       "id": "jingang-yoga",
@@ -4615,7 +4759,15 @@
         "lng": 120.2024686
       },
       "coordinateSource": "https://www.openstreetmap.org/way/566279856",
-      "coordinateNote": "2026-10-21 依使用者提供地址查詢 OSM，完整地址及去樓層自由搜尋均無結果；改以49 忠義路二段、臺南市、中西區、臺灣的結構化門牌查詢，取得建築 way 566279856。以 Nominatim 回應及 OSM API 核對臺南市中西區忠義路二段49號與數值座標，採同門牌建築位置，非道路或行政區中心；樓層依使用者提供。"
+      "coordinateNote": "2026-10-21 依使用者提供地址查詢 OSM，完整地址及去樓層自由搜尋均無結果；改以49 忠義路二段、臺南市、中西區、臺灣的結構化門牌查詢，取得建築 way 566279856。以 Nominatim 回應及 OSM API 核對臺南市中西區忠義路二段49號與數值座標，採同門牌建築位置，非道路或行政區中心；樓層依使用者提供。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/jingang-yoga.png?v=305cb9d0492fbb23",
+        "source": "https://www.facebook.com/insanalife/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；台南 金剛跳瑜伽 | Tainan ；本站保存 512 × 512、完整置中、不放大；來源尺寸 720 × 720。"
+      }
     },
     {
       "id": "chiah-ke-khong-khai-dawan",
@@ -4652,7 +4804,15 @@
         "lng": 120.2688794
       },
       "coordinateSource": "https://www.google.com/maps/place/%E5%91%B7%E9%9B%9E%E5%BA%B7%E5%87%B1-%E5%89%B5%E5%A7%8B%E5%A4%A7%E7%81%A3%E5%BA%97/@23.0095236,120.2688794,17z/data=!3m1!4b1!4m6!3m5!1s0x346e71067290b603:0xae1264eb79985f7f!8m2!3d23.0095236!4d120.2688794!16s%2Fg%2F11zd47nc1g?entry=ttu",
-      "coordinateNote": "2026-10-21 OSM 完整地址查詢無結果；改以106 大同街、臺南市、永康區、臺灣結構化查詢，僅回傳無門牌的大同街道路，未採用。改以瀏覽器查 Google Maps，核對「呷雞康凱-創始大灣店」地址為臺南市永康區大同街106號，從地點網址 !3d23.0095236 與 !4d120.2688794 取得座標，非使用 @ 地圖視窗中心。"
+      "coordinateNote": "2026-10-21 OSM 完整地址查詢無結果；改以106 大同街、臺南市、永康區、臺灣結構化查詢，僅回傳無門牌的大同街道路，未採用。改以瀏覽器查 Google Maps，核對「呷雞康凱-創始大灣店」地址為臺南市永康區大同街106號，從地點網址 !3d23.0095236 與 !4d120.2688794 取得座標，非使用 @ 地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/chiah-ke-khong-khai-dawan.png?v=f66183a02caf52f3",
+        "source": "https://www.facebook.com/people/呷雞康凱-大灣店/61556448724639/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；呷雞康凱-大灣店 | Tainan ；本站保存 512 × 512、完整置中、不放大；來源尺寸 720 × 720。"
+      }
     },
     {
       "id": "zenolai-campaign-headquarters",
@@ -4691,7 +4851,7 @@
         "source": "https://www.zenolai.tw/"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/zenolai-campaign-headquarters.png?v=e1e85502aed4bda4",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/zenolai-campaign-headquarters.png?v=e1e85502aed4bda4",
         "source": "https://www.zenolai.tw/",
         "platform": "website",
         "status": "verified",
@@ -4742,7 +4902,15 @@
         "lng": 120.3158657
       },
       "coordinateSource": "https://www.google.com/maps/place/%E8%91%89%E6%B0%8F%E8%B1%86%E5%8C%A0/@22.6664534,120.3158657,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0fd9e8ee773d:0x49b0a5eee3683ff2!8m2!3d22.6664534!4d120.3158657!16s%2Fg%2F11rpdd0s1b?entry=ttu&g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D",
-      "coordinateNote": "2026-10-22 OSM Nominatim 完整地址及街道門牌結構化查詢皆無結果；店名搜尋僅出現不相關地點，未採用。改以 Playwright 瀏覽器開啟 Google Maps 地點，核對「葉氏豆匠」、高雄市三民區鼎泰里民族一路543巷16號、官網及電話0905-172-466，從地點網址 !3d22.6664534 與 !4d120.3158657 取得座標，非使用 @ 地圖視窗中心。"
+      "coordinateNote": "2026-10-22 OSM Nominatim 完整地址及街道門牌結構化查詢皆無結果；店名搜尋僅出現不相關地點，未採用。改以 Playwright 瀏覽器開啟 Google Maps 地點，核對「葉氏豆匠」、高雄市三民區鼎泰里民族一路543巷16號、官網及電話0905-172-466，從地點網址 !3d22.6664534 與 !4d120.3158657 取得座標，非使用 @ 地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/yessoymilk-hedi.png?v=1d7e1328bfe79632",
+        "source": "https://www.instagram.com/yessoymilk2022/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；葉氏豆匠｜臺灣國產鮮濃豆漿 (@yessoymilk2022) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "howwow-dashe",
@@ -4775,7 +4943,7 @@
         "auditNote": "官方 Threads 簡介明載16:30–23:30及十月每週六店休，Instagram 簡介亦列16:30–23:30、週六公休，另提示雙十節三天店休。採本次一致的官方簡介，不採第三方較舊的16:00或17:00時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/howwow-dashe.png?v=180cb24406820857",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/howwow-dashe.png?v=180cb24406820857",
         "source": "https://www.instagram.com/howwow168/",
         "platform": "instagram",
         "status": "verified",
@@ -4821,7 +4989,7 @@
         "auditNote": "官方 Threads、Instagram 簡介皆提示營業時間以Google地圖為準。Google Maps 僅顯示部分內容，首次預覽為週六15:30開始，重新載入並展開後僅見星期四15:00–18:00，未取得一致完整週表；官方近期貼文亦有平日開攤及臨時休息公告，故不填定固定營業時間與公休日。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/bltchcake.png?v=722918219dcba6d7",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/bltchcake.png?v=722918219dcba6d7",
         "source": "https://www.instagram.com/bltchcake/",
         "platform": "instagram",
         "status": "verified",
@@ -4866,7 +5034,7 @@
         "auditNote": "本次官方 Threads 個人頁簡介明載完整週間時段及備料可能延後營業的註記；採官方現行資訊，不沿用較舊食記時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/sian-beauty.png?v=2f915025cfd0f4db",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/sian-beauty.png?v=2f915025cfd0f4db",
         "source": "https://www.instagram.com/sian.beauty/",
         "platform": "instagram",
         "status": "verified",
@@ -4914,7 +5082,7 @@
         "auditNote": "米其林店家頁列週二至週日08:30–15:30、週一休；2026年2月13日食記則列07:30–15:30、週一休且售完提早打烊。起始時間不同，Facebook 直接讀取僅見登入或暫時封鎖頁，Instagram 可讀個人頁未列可核對的完整時段；未能以官方現行資訊解消矛盾，故不填定固定營業時間與公休日。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/sm3542.png?v=ee5159b54dcbec57",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/sm3542.png?v=ee5159b54dcbec57",
         "source": "https://www.facebook.com/sm3542/",
         "platform": "facebook",
         "status": "verified",
@@ -4960,7 +5128,7 @@
         "auditNote": "官方 Facebook 首頁及詳細資料未取得完整營業週表。台南旅遊網列週三至週日05:30–13:00、16:30–20:00，週一、二休息，但店家頁更新日期為2022-12-05，其他舊彙整資料亦有不同版本；未能以官方現行資料核實，故不填定固定時段與公休日。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/56song.png?v=96d4b9f7fe2913fd",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/56song.png?v=96d4b9f7fe2913fd",
         "source": "https://www.facebook.com/56song/",
         "platform": "facebook",
         "status": "verified",
@@ -5011,7 +5179,15 @@
         "lng": 120.4808201
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11079816735",
-      "coordinateNote": "2026-10-23 OSM Nominatim 完整地址查詢無結果，改以 street=99 文中路、city=旗山區、county=高雄市、country=臺灣 結構化查詢取得門牌節點11079816735，簡寫查詢亦取得相同節點。主代理另讀取 OSM 節點 API，核對 addr:full 為高雄市旗山區竹峰里10鄰文中路99號，行政區、街道、門牌及數值座標一致，節點資料來源標示高雄市政府；採與對外營業地址相符的門牌位置。"
+      "coordinateNote": "2026-10-23 OSM Nominatim 完整地址查詢無結果，改以 street=99 文中路、city=旗山區、county=高雄市、country=臺灣 結構化查詢取得門牌節點11079816735，簡寫查詢亦取得相同節點。主代理另讀取 OSM 節點 API，核對 addr:full 為高雄市旗山區竹峰里10鄰文中路99號，行政區、街道、門牌及數值座標一致，節點資料來源標示高雄市政府；採與對外營業地址相符的門牌位置。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/changmei-qishan.png?v=b07f4506e4b51319",
+        "source": "https://www.facebook.com/p/旗山-常美冰店-100057568535067/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；旗山 常美冰店 | Kaohsiung ；本站保存 512 × 512、完整置中、不放大；來源尺寸 720 × 720。"
+      }
     },
     {
       "id": "ainagareru",
@@ -5042,7 +5218,7 @@
         "auditNote": "官方 Threads 簡介明載下午5點至午夜12點、公休一二；Instagram 自介亦列17:00–24:00、週一二公休，兩者一致。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/ainagareru.png?v=d54072cdd6fb4d66",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/ainagareru.png?v=d54072cdd6fb4d66",
         "source": "https://www.instagram.com/ainagareru/",
         "platform": "instagram",
         "status": "verified",
@@ -5085,7 +5261,7 @@
         "auditNote": "官方 Threads 簡介明載尚未正式開幕、偶爾舉辦不同主題市集，市集與開放時間另行公告；未公布固定營業週表，故不填定常態時段。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/un603un.png?v=2145f6ffd44666a0",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/un603un.png?v=2145f6ffd44666a0",
         "source": "https://www.instagram.com/un603un/",
         "platform": "instagram",
         "status": "verified",
@@ -5131,7 +5307,7 @@
         "auditNote": "官網頁尾明載 Hours / WED~SUN 13:00~18:00；查證子代理實際操作 Google Maps，核對同名同址店家營業週表一致，週一、二休息。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/shiwustudio.png?v=81ec7f024a7ea13e",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/shiwustudio.png?v=81ec7f024a7ea13e",
         "source": "https://www.instagram.com/shiwustudio/",
         "platform": "instagram",
         "status": "verified",
@@ -5178,7 +5354,7 @@
         "auditNote": "官方LINE營業週表列週二至週六10:00–20:00、週日10:00–18:00、週一休息；官方Facebook個人頁描述列週二至週六10:00–19:30、週日10:00–18:00、週一公休，並註明預約制與不定期進修另行公告。Instagram簡介亦列每週一店休。官方來源的週二至週六結束時間不一致，無法確認現行完整週表，故標為待確認並僅列一致時段，不自行選定打烊時間。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/isbl-hair.png?v=5b33711a8dc78cbf",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/isbl-hair.png?v=5b33711a8dc78cbf",
         "source": "https://www.instagram.com/isbl_hair/",
         "platform": "instagram",
         "status": "verified",
@@ -5226,7 +5402,7 @@
         "auditNote": "官方Facebook公開基本資料未列營業時間；查證子代理核對第三方Eaters與Uber Eats時段不同，無法確認現行完整週表，故標為待確認，不以第三方或外送時段自行填定。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/rozo-cafe.png?v=e85cb76feafdbe63",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/rozo-cafe.png?v=e85cb76feafdbe63",
         "source": "https://www.facebook.com/rozocafe/",
         "platform": "facebook",
         "status": "verified",
@@ -5278,7 +5454,7 @@
       "coordinateSource": "https://www.google.com/search?tbm=map&hl=zh-TW&q=%E6%A1%83%E5%9F%8E%E7%83%B9%E8%8C%B6%20%E5%98%89%E7%BE%A9%E5%B8%82%E6%96%87%E5%8C%96%E8%B7%AF168%E8%99%9F",
       "coordinateNote": "2026-10-24 先以OSM Nominatim完整地址、店名及街道門牌結構化查詢，未取得門牌結果，僅有文化路道路資料，未採用。改讀Google Maps公開搜尋頁所載入的地點JSON；查證子代理及主代理分別取得同一商家物件，店名為「嘉義必喝！桃城烹茶『耐喝系』公休請看臉書與IG」，地址為600嘉義市西區中央里文化路168號，官方網站指向taocheng.cookingtea Instagram，地點識別為0x346e9564a765edf7:0x6236a9049041a6f1（https://www.google.com/maps?cid=7077029701524498161）。採用此商家物件獨立位置欄位的23.4792071、120.44982979999999，非地圖視窗中心。實際以公開頁JSON查證，未取得含!3d與!4d的原生地點網址，亦未以瀏覽器操作取得，不宣稱已完成該網址步驟。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/taocheng-cookingtea.png?v=5ffc5cb6177981af",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/taocheng-cookingtea.png?v=5ffc5cb6177981af",
         "source": "https://www.instagram.com/taocheng.cookingtea/",
         "platform": "instagram",
         "status": "verified",
@@ -5320,7 +5496,15 @@
         "lng": 120.4571634
       },
       "coordinateSource": "https://www.google.com/maps/place/%E6%98%AD%E8%88%88%E8%82%89%E7%AB%99/@23.4791276,120.4571634,17z/data=!3m1!4b1!4m6!3m5!1s0x346e954c576bf6f7:0x87555de7cecc1029!8m2!3d23.4791276!4d120.4571634!16s%2Fg%2F11g0ldh6yl",
-      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整門牌134-22號、134之22號、134號之22及店名查詢，均無門牌結果；結構化查詢僅取得和平路道路資料，未採用道路中心。改以既有Chromium瀏覽器查詢Google Maps，查證子代理及主代理分別讀取「昭興肉站」地點，確認地址600嘉義市東區華南里和平路134-22號及電話05 278 4772，與官方Threads及Instagram相符。採地點網址!3d23.4791276、!4d120.4571634的緯經度，非@地圖視窗中心，未呼叫付費Geocoding API。"
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整門牌134-22號、134之22號、134號之22及店名查詢，均無門牌結果；結構化查詢僅取得和平路道路資料，未採用道路中心。改以既有Chromium瀏覽器查詢Google Maps，查證子代理及主代理分別讀取「昭興肉站」地點，確認地址600嘉義市東區華南里和平路134-22號及電話05 278 4772，與官方Threads及Instagram相符。採地點網址!3d23.4791276、!4d120.4571634的緯經度，非@地圖視窗中心，未呼叫付費Geocoding API。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/zhaoxing-meat.png?v=e082d95d0e4735a2",
+        "source": "https://www.instagram.com/zhaoxing_meat/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；昭興肉品 (@zhaoxing_meat) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "hohohanphang",
@@ -5358,7 +5542,15 @@
         "lng": 120.4437042
       },
       "coordinateSource": "https://www.google.com/search?tbm=map&q=%E5%A5%BD%E5%A5%BD%E5%81%9A%E7%83%98%E7%84%99+%E5%98%89%E7%BE%A9&hl=zh-TW",
-      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整官方地址、市場名稱與攤位地址變體、店名及街道／城市結構化查詢，均未取得門牌結果。改讀Google Maps公開搜尋頁的原生商家JSON，查證子代理及主代理分別確認同一商家物件：名稱「好好做烘焙（營業日依臉書公告」、地址600嘉義市西區北興公有市場一區7號、官方網站連至facebook.com/hohohanphang，地點識別0x346e95034506b867:0xe46c0ad3e1463a1a（https://www.google.com/maps?cid=16459542643266173466）。採商家物件獨立位置欄位23.4831845、120.4437042，非@地圖視窗中心；精度為Google商家標記，未驗證市場內攤位入口。環境無可用瀏覽器，實際開啟Google提供的地點頁仍為JS空殼，未完成瀏覽器地點網址!3d與!4d核對程序，如實保留此限制，未呼叫付費Geocoding API。"
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整官方地址、市場名稱與攤位地址變體、店名及街道／城市結構化查詢，均未取得門牌結果。改讀Google Maps公開搜尋頁的原生商家JSON，查證子代理及主代理分別確認同一商家物件：名稱「好好做烘焙（營業日依臉書公告」、地址600嘉義市西區北興公有市場一區7號、官方網站連至facebook.com/hohohanphang，地點識別0x346e95034506b867:0xe46c0ad3e1463a1a（https://www.google.com/maps?cid=16459542643266173466）。採商家物件獨立位置欄位23.4831845、120.4437042，非@地圖視窗中心；精度為Google商家標記，未驗證市場內攤位入口。環境無可用瀏覽器，實際開啟Google提供的地點頁仍為JS空殼，未完成瀏覽器地點網址!3d與!4d核對程序，如實保留此限制，未呼叫付費Geocoding API。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/hohohanphang.png?v=0f39aa8fb62558f8",
+        "source": "https://www.instagram.com/hohohanphang/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；好好做烘焙 (@hohohanphang) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "wanchataiwan",
@@ -5399,7 +5591,15 @@
         "lng": 120.6624926
       },
       "coordinateSource": "https://www.openstreetmap.org/node/8535011265",
-      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址（台中／臺中）查詢無結果，改用street=7 華美西街一段195巷1弄、city=臺中市、county=西區、country=Taiwan結構化查詢取得精確門牌節點8535011265。子代理及主代理分別讀取OSM節點API，核對addr:full為臺中市西區忠誠里17鄰華美西街一段195巷1弄7號，行政區、街道及門牌與官方對外地址相符；採節點數值座標，非道路中心。"
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址（台中／臺中）查詢無結果，改用street=7 華美西街一段195巷1弄、city=臺中市、county=西區、country=Taiwan結構化查詢取得精確門牌節點8535011265。子代理及主代理分別讀取OSM節點API，核對addr:full為臺中市西區忠誠里17鄰華美西街一段195巷1弄7號，行政區、街道及門牌與官方對外地址相符；採節點數值座標，非道路中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/wanchataiwan.png?v=a2b247babaf0cdf9",
+        "source": "https://www.instagram.com/wanchataiwan/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；灣茶 Wan Cha (@wanchataiwan) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "cafe-sanpo-yilan",
@@ -5432,7 +5632,7 @@
         "auditNote": "官方Instagram簡介列11:00–17:30及「店休：請看粉專」，官方Threads 2026-09-29貼文公告隔日11:00–17:30，時段一致。未確認固定每週休息日，不推定每日營業；店休日依官方粉專公告。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/cafe-sanpo-yilan.png?v=ebaf09448312bd48",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/cafe-sanpo-yilan.png?v=ebaf09448312bd48",
         "source": "https://www.threads.com/@2015cafesanpo",
         "platform": "threads",
         "status": "verified",
@@ -5487,7 +5687,7 @@
       "coordinateSource": "https://www.google.com/maps/place/%E8%B2%B3%E9%99%B8%E9%99%B8%E6%9D%89Space/@23.4817667,120.460084,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9562ef0a1e29:0x306e8240261a71f9!8m2!3d23.4817667!4d120.460084!16s%2Fg%2F11kq4s0nwg",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址、結構化街道門牌及店名查詢，未取得符合門牌結果；僅有民國路道路資料，未採用道路中心。改以既有Chromium瀏覽器查詢Google Maps，子代理及主代理分別開啟「貳陸陸杉Space」地點頁，確認地址600嘉義市東區東興里民國路182號及電話05 276 2663，與官方Threads及經營單位官網相符。採地點網址!3d23.4817667、!4d120.460084的緯經度，非@地圖視窗中心，未呼叫付費Geocoding API。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/2663space.png?v=f2fbbdb2a3950b02",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/2663space.png?v=f2fbbdb2a3950b02",
         "source": "https://www.threads.com/@2663space",
         "platform": "threads",
         "status": "verified",
@@ -5533,7 +5733,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8535014721",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，改用street=96 華美街、city=臺中市、country=Taiwan結構化查詢取得精確門牌節點8535014721。主代理讀取OSM節點API，確認addr:full為臺中市西區昇平里33鄰華美街96號，行政區、街道及門牌與官方對外地址相符；採節點數值座標，為門牌位置，非道路中心。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/thisishopein.png?v=ba1b53858ad4542a",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/thisishopein.png?v=ba1b53858ad4542a",
         "source": "https://www.instagram.com/thisishopein/",
         "platform": "instagram",
         "status": "verified",
@@ -5578,7 +5778,7 @@
       "coordinateSource": "https://www.google.com/maps/place/%E6%98%95%E6%A8%82%E3%84%A9%E3%84%9D%CB%8B%E5%8F%AF%E9%A0%8C%E5%B0%88%E8%B3%A3%E5%BA%97(%E5%8E%9F%E5%B9%B8%E7%A6%8F%E7%84%A1%E9%99%90)/@23.4776891,120.460271,15z/data=!4m6!3m5!1s0x346e95c6895b6657:0xc184a539247c20a4!8m2!3d23.4776891!4d120.460271!16s%2Fg%2F11f3rglfvn?coh=164777&entry=tt&shorturl=1",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果；結構化街道門牌查詢僅回傳延平街道路，未採道路中心。改用店家合作文所列嘉義市東區延平街9號旁的Google Maps短連結https://goo.gl/maps/JoVDpUSX6X2ZAzLh9，查證子代理及主代理核對轉址地點名「昕樂ㄩㄝˋ可頌專賣店(原幸福無限)」與官方名稱及沿革一致，地址另與官方Threads交叉核對。採轉址地點網址!3d23.4776891、!4d120.460271，非@地圖視窗中心；未取得可讀的Google Maps地址卡，未呼叫付費Geocoding API。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/felicitacroissant.png?v=4eae9c05e059ca37",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/felicitacroissant.png?v=4eae9c05e059ca37",
         "source": "https://www.instagram.com/felicitacroissant/",
         "platform": "instagram",
         "status": "verified",
@@ -5623,7 +5823,7 @@
       "coordinateSource": "https://www.google.com/maps/place/%E5%AF%8C%E5%93%81%E7%8F%8D%E8%B2%B4%E6%9C%A8%E6%9D%90%E7%A0%94%E7%A9%B6%E5%AE%A4%26Kagikaki%E6%B0%B4%E6%96%87%E5%88%A8%E5%86%B0/@23.4639749,120.4326534,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9731a2eed1e9:0xf0a020573249f0d3!8m2!3d23.4639749!4d120.4326534!16s%2Fg%2F11hdtvmtfh?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap完整地址查詢無結果；結構化門牌及簡化地址查詢僅回傳重慶路道路資料，未採道路中心。改以瀏覽器開啟官方Threads提供的Google Maps短連結，核對地點名「富品珍貴木材研究室&Kagikaki水文刨冰」、地址嘉義市西區福民里重慶路324號及電話05-2360533，與官方簡介相符。採地點網址!3d23.4639749、!4d120.4326534的緯經度，非@地圖視窗中心；主代理核對官方短連結轉址名稱、地址及地點網址參數。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/kagi-kaki-kakigori.png?v=f8114d8622414fe8",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/kagi-kaki-kakigori.png?v=f8114d8622414fe8",
         "source": "https://www.instagram.com/kagi.kaki.kakigori/",
         "platform": "instagram",
         "status": "verified",
@@ -5668,7 +5868,7 @@
       "coordinateSource": "https://www.google.com/maps/place/%E5%90%BE%E7%BE%8EYUME%E9%A3%BE%E5%93%81%EF%BD%9C%E7%A6%AE%E5%93%81%EF%BD%9C%E9%81%B8%E7%89%A9%E5%BA%97/@23.478216,120.446523,1002m/data=!3m2!1e3!4b1!4m6!3m5!1s0x346e95000fae1e8b:0x741c891a3f0a6499!8m2!3d23.478216!4d120.4490979!16s%2Fg%2F11w1k1h7dj?entry=ttu&g_ep=EgoyMDI1MDkyNC4wIKXMDSoASAFQAw%3D%3D",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址、門牌變體及結構化查詢，未取得符合門牌結果；道路中心未採用。改查合作品牌甜馨工作室官網吾美店家地址旁的Google Maps地點連結，採!3d23.478216與!4d120.4490979，非@視窗中心。子代理與主代理分別GET完整地點網址，回應200，頁面APP_INITIALIZATION_STATE的店名為吾美YUME飾品｜禮品｜選物店，地點ID及數值座標一致，並以官方社群的光彩街462號之一交叉核對合作頁門牌關聯。網頁瀏覽工具無法開啟地點頁，未操作可視瀏覽器或取得詳細地址卡；未呼叫付費Geocoding API。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/yume27-14.png?v=7a2886912c0b2cf2",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/yume27-14.png?v=7a2886912c0b2cf2",
         "source": "https://www.instagram.com/yume27.14/",
         "platform": "instagram",
         "status": "verified",
@@ -5712,7 +5912,15 @@
         "lng": 120.3884222
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11418963245",
-      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，改以三民街49號、土庫鎮、雲林縣結構化查詢取得門牌節點11418963245。主代理另讀OSM節點API，核對addr:full為雲林縣土庫鎮順天里15鄰三民街49號、資料來源為雲林縣政府，與官方Threads地址相符；採節點數值座標23.6736325、120.3884222，未使用道路中心。"
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，改以三民街49號、土庫鎮、雲林縣結構化查詢取得門牌節點11418963245。主代理另讀OSM節點API，核對addr:full為雲林縣土庫鎮順天里15鄰三民街49號、資料來源為雲林縣政府，與官方Threads地址相符；採節點數值座標23.6736325、120.3884222，未使用道路中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/ccat820.png?v=c8adfd2f058d511b",
+        "source": "https://www.facebook.com/100071066894790/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；曬月亮的貓 | Tuku ；本站保存 512 × 512、完整置中、不放大；來源尺寸 720 × 720。"
+      }
     },
     {
       "id": "ririli-pork",
@@ -5748,7 +5956,15 @@
         "lng": 120.4563322
       },
       "coordinateSource": "https://www.google.com/maps/place/日日利商號/data=!4m7!3m6!1s0x346e95004356c297:0x5743c2c0196f55b3!8m2!3d23.4779918!4d120.4563322!16s%2Fg%2F11zx40spzr!19sChIJl8JWQwCVbjQRs1VvGcDCQ1c",
-      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果；結構化查詢僅回傳文昌街道路，未採道路中心。改以Playwright瀏覽器查詢Google Maps，核對店名「日日利商號」及地址卡「600嘉義市東區民族里文昌街117號」，與使用者提供地址及PTT買肉討論相符。採地點網址!3d23.4779918、!4d120.4563322，非@地圖視窗中心；主代理另GET同一地點網址，核對店名、地點ID及數值座標一致，未呼叫付費Geocoding API。"
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果；結構化查詢僅回傳文昌街道路，未採道路中心。改以Playwright瀏覽器查詢Google Maps，核對店名「日日利商號」及地址卡「600嘉義市東區民族里文昌街117號」，與使用者提供地址及PTT買肉討論相符。採地點網址!3d23.4779918、!4d120.4563322，非@地圖視窗中心；主代理另GET同一地點網址，核對店名、地點ID及數值座標一致，未呼叫付費Geocoding API。",
+      "shopPhoto": {
+        "url": "",
+        "source": "",
+        "platform": "",
+        "status": "unavailable",
+        "checkedAt": "2026-10-25",
+        "note": "2026-10-25 依店名與嘉義市文昌街117號查找官方社群，尚未確認店家官方頭像；提及店家的個人帳號未能確認為店家官方帳號，保留待補。"
+      }
     },
     {
       "id": "jiqin-shishe",
@@ -5785,7 +6001,15 @@
         "lng": 120.2982366
       },
       "coordinateSource": "https://www.openstreetmap.org/node/12648972206",
-      "coordinateNote": "2026-10-24 查證子代理以OpenStreetMap Nominatim結構化門牌查詢取得節點12648972206；主代理另讀OSM節點API，核對addr:full為嘉義縣太保市安仁里14鄰祥和一路東段90號、資料來源為嘉義縣政府，與數位福袋及Uber Eats公開營業地址相符。採該門牌節點數值座標23.4581932、120.2982366，未使用道路中心。"
+      "coordinateNote": "2026-10-24 查證子代理以OpenStreetMap Nominatim結構化門牌查詢取得節點12648972206；主代理另讀OSM節點API，核對addr:full為嘉義縣太保市安仁里14鄰祥和一路東段90號、資料來源為嘉義縣政府，與數位福袋及Uber Eats公開營業地址相符。採該門牌節點數值座標23.4581932、120.2982366，未使用道路中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/jiqin-shishe.png?v=60a3a2aa101727c4",
+        "source": "https://www.facebook.com/p/雞禽食舍炸雞店-61573238289881/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；雞禽食舍炸雞店；本站保存 512 × 512、完整置中、不放大；來源尺寸 720 × 720。"
+      }
     },
     {
       "id": "sammi-fine-coffee",
@@ -5824,7 +6048,15 @@
         "lng": 120.2222007
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060548298",
-      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，再以門牌4號、長榮路三段50巷、東區、臺南市結構化查詢取得節點11060548298。主代理另讀OSM節點API，核對addr:full為臺南市東區大學里4鄰長榮路三段50巷4號，資料來源為臺南市政府，與官方Threads及Instagram對外營業地址相符；採該門牌數值座標22.9933835、120.2222007，未使用道路中心。"
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，再以門牌4號、長榮路三段50巷、東區、臺南市結構化查詢取得節點11060548298。主代理另讀OSM節點API，核對addr:full為臺南市東區大學里4鄰長榮路三段50巷4號，資料來源為臺南市政府，與官方Threads及Instagram對外營業地址相符；採該門牌數值座標22.9933835、120.2222007，未使用道路中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/sammi-fine-coffee.png?v=5aa913842cc2a17a",
+        "source": "https://www.instagram.com/sammi_fine_coffee/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；山米咖啡所 (@sammi_fine_coffee) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "room15-patisserie",
@@ -5858,7 +6090,7 @@
         "auditNote": "官方Instagram於2026-08-26公告9月起營業時間更改為11:30–18:30；2026-09-27另發布10月休假公告。主代理讀取兩篇官方貼文HTML確認內容及發布日期，未將月休公告推定為固定每週公休。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/room15-patisserie.png?v=e794444a86279caf",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/room15-patisserie.png?v=e794444a86279caf",
         "source": "https://www.instagram.com/room15_patisserie/",
         "platform": "instagram",
         "status": "verified",
@@ -5909,7 +6141,15 @@
         "lng": 120.455813
       },
       "coordinateSource": "https://www.google.com/maps/place/老四嬸純米攤/@23.4779256,120.455813,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9434f0468c65:0x153e10698cc2841f!8m2!3d23.4779256!4d120.455813!16s%2Fg%2F11b6v3vf5t",
-      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址、店名及結構化地址查詢；完整地址與店名無結果，結構化查詢僅回傳道路，未採道路中心。改以Playwright瀏覽器查詢Google Maps，核對店名老四嬸純米攤及地址600嘉義市東區林森里共和路130號，與嘉義異鄉人介紹相符。採地點網址!3d23.4779256、!4d120.455813，非@地圖視窗中心；主代理另讀同一地點網址確認店名、地點ID與數值座標一致，未呼叫付費Geocoding API。"
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址、店名及結構化地址查詢；完整地址與店名無結果，結構化查詢僅回傳道路，未採道路中心。改以Playwright瀏覽器查詢Google Maps，核對店名老四嬸純米攤及地址600嘉義市東區林森里共和路130號，與嘉義異鄉人介紹相符。採地點網址!3d23.4779256、!4d120.455813，非@地圖視窗中心；主代理另讀同一地點網址確認店名、地點ID與數值座標一致，未呼叫付費Geocoding API。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/lao-si-shen-rice-stall.png?v=49b48caef243b22a",
+        "source": "https://www.facebook.com/profile.php?id=100054230181070",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；老四嬸純米攤 | Chiayi ；本站保存 512 × 512、完整置中、不放大；來源尺寸 1278 × 720。"
+      }
     },
     {
       "id": "huang-jie-service-office",
@@ -5948,7 +6188,7 @@
         "source": "https://www.instagram.com/huangjie_official/"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/huang-jie-service-office.png?v=7d1e986a47fdf330",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/huang-jie-service-office.png?v=7d1e986a47fdf330",
         "source": "https://www.instagram.com/huangjie_official/",
         "platform": "instagram",
         "status": "verified",
@@ -5997,7 +6237,7 @@
         "auditNote": "查證子代理與主代理直接讀取官方社群公開自介：Threads及Instagram列11點–17點、17點最後收客及點餐；Facebook列11:00–17:30、最後點餐17:00。打烊時間有差異，故標為unverified，不填定關店時間。公休日以官方Google地圖為準，不推定固定每週營業日；未採2023年食記的10:00–18:00、週二公休或商圈頁的部分營業日。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/meet-the-old-house-coffee.png?v=76a34d76025e1d76",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/meet-the-old-house-coffee.png?v=76a34d76025e1d76",
         "source": "https://www.instagram.com/meet.the.old.house.coffee/",
         "platform": "instagram",
         "status": "verified",
@@ -6049,7 +6289,15 @@
         "lng": 120.3039957
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11081561853",
-      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢完整地址無結果，再以簡化及結構化門牌查詢取得節點11081561853。主代理另讀OSM節點API，核對addr:full為高雄市左營區新上里27鄰正心街45號，門牌、道路及行政區均與官方Threads營業地址一致，來源為高雄市政府。採門牌數值座標22.6647764、120.3039957，未使用道路中心。"
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢完整地址無結果，再以簡化及結構化門牌查詢取得節點11081561853。主代理另讀OSM節點API，核對addr:full為高雄市左營區新上里27鄰正心街45號，門牌、道路及行政區均與官方Threads營業地址一致，來源為高雄市政府。採門牌數值座標22.6647764、120.3039957，未使用道路中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/qing-xiang-yuan-hakka.png?v=b7b8a718c903f231",
+        "source": "https://www.instagram.com/hakka075575518/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；清香園客家美食 (@hakka075575518) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "fu-fu-tang-tcm",
@@ -6091,7 +6339,15 @@
         "lng": 120.2992278
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11082439785",
-      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢，透過繼光街11號、高雄市、三民區結構化地址取得節點11082439785。主代理另讀OSM節點API，核對addr:full為高雄市三民區建東里1鄰繼光街11號，門牌、道路及行政區與官方Clinic資料現址一致，來源為高雄市政府。採門牌數值座標22.6372651、120.2992278，未使用道路中心。"
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢，透過繼光街11號、高雄市、三民區結構化地址取得節點11082439785。主代理另讀OSM節點API，核對addr:full為高雄市三民區建東里1鄰繼光街11號，門牌、道路及行政區與官方Clinic資料現址一致，來源為高雄市政府。採門牌數值座標22.6372651、120.2992278，未使用道路中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/fu-fu-tang-tcm.png?v=a018984644f52f6d",
+        "source": "https://www.instagram.com/fu.fu.tang/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；福福堂中醫診所｜高雄｜健保｜自費 (@fu.fu.tang) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "chun-massage",
@@ -6130,7 +6386,7 @@
         "auditNote": "查證子代理與主代理直接讀取官方Instagram公開貼文，原文皆寫「表訂營業時間 中午10:00至晚上22:00」，另稱其他時間可LINE討論、目前暫無固定公休日並請提前預約。起始時間的「中午」與10:00有歧義，故不填定完整營業時段；保留預約制及無固定公休資訊，請先向官方LINE確認。官方Threads自介亦請至官方LINE預約。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/chun-massage.png?v=7b41a2d7d46646d3",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/chun-massage.png?v=7b41a2d7d46646d3",
         "source": "https://www.threads.com/@chun_massage",
         "platform": "threads",
         "status": "verified",
@@ -6177,7 +6433,7 @@
         "auditNote": "查證子代理核對官方Threads與Instagram自介，主代理另直接讀取官方Threads確認Hours:11：20~售完為止（最晚到15:00）。官方列有當月店休日期，故不採舊食記的固定週三公休；休假異動請以官方公告為準。"
       },
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/smoko-salad-bar.png?v=5a5bab09a3946376",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/smoko-salad-bar.png?v=5a5bab09a3946376",
         "source": "https://www.instagram.com/smokosaladbar/",
         "platform": "instagram",
         "status": "verified",
@@ -6232,7 +6488,15 @@
         "lng": 120.3229119
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11082772478",
-      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap Nominatim結構化查詢河北路206號、高雄市、苓雅區取得門牌節點11082772478。主代理另讀OSM節點API核對addr:full為高雄市苓雅區五權里12鄰河北路206號，行政區、道路與門牌均與議會服務處地址一致，資料來源為高雄市政府。採門牌數值座標22.6304584、120.3229119，未使用道路或地圖視窗中心。"
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap Nominatim結構化查詢河北路206號、高雄市、苓雅區取得門牌節點11082772478。主代理另讀OSM節點API核對addr:full為高雄市苓雅區五權里12鄰河北路206號，行政區、道路與門牌均與議會服務處地址一致，資料來源為高雄市政府。採門牌數值座標22.6304584、120.3229119，未使用道路或地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/kuo-chien-meng-service-office.png?v=b6ed9d9ada79c256",
+        "source": "https://www.instagram.com/kcc382001/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；郭建盟 (@kcc382001) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "faguozi-skewers",
@@ -6270,7 +6534,15 @@
         "lng": 120.3064522
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11082641823",
-      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢完整地址無結果，再以文化路23號、高雄市、新興區結構化查詢取得門牌節點11082641823。主代理另讀OSM節點API，核對addr:full為高雄市新興區浩然里16鄰文化路23號四樓，行政區、道路及門牌與店家資料一致，資料來源為高雄市政府。採同門牌數值座標22.623913、120.3064522；節點附帶四樓標籤，僅採門牌位置，不據以推定店家營業樓層，未使用道路或地圖視窗中心。"
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢完整地址無結果，再以文化路23號、高雄市、新興區結構化查詢取得門牌節點11082641823。主代理另讀OSM節點API，核對addr:full為高雄市新興區浩然里16鄰文化路23號四樓，行政區、道路及門牌與店家資料一致，資料來源為高雄市政府。採同門牌數值座標22.623913、120.3064522；節點附帶四樓標籤，僅採門牌位置，不據以推定店家營業樓層，未使用道路或地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/faguozi-skewers.png?v=3bc2ae47bbc9848a",
+        "source": "https://www.instagram.com/uniqueyaki/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；法果子小串烤 新興區宵夜/I人獨食首選 (@uniqueyaki) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "miss-mimi-coffee",
@@ -6311,7 +6583,15 @@
         "lng": 120.2998419
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11081639594",
-      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap自由文字地址查詢無結果，再以新勝街21號、高雄市、左營區結構化查詢取得門牌節點11081639594。主代理另讀OSM節點API，核對addr:full為高雄市左營區新下里30鄰新勝街21號，行政區、道路及門牌與商圈官方及店家會員頁地址一致，資料來源為高雄市政府。採門牌數值座標22.6688936、120.2998419，未使用道路或地圖視窗中心。"
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap自由文字地址查詢無結果，再以新勝街21號、高雄市、左營區結構化查詢取得門牌節點11081639594。主代理另讀OSM節點API，核對addr:full為高雄市左營區新下里30鄰新勝街21號，行政區、道路及門牌與商圈官方及店家會員頁地址一致，資料來源為高雄市政府。採門牌數值座標22.6688936、120.2998419，未使用道路或地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/miss-mimi-coffee.png?v=8c2a92212c9a4901",
+        "source": "https://www.instagram.com/miss.mimi.coffee/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Miss Mimi (@miss.mimi.coffee) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "zheng-song-noodles",
@@ -6350,7 +6630,15 @@
         "lng": 120.2911751
       },
       "coordinateSource": "https://www.google.com/maps/place/%E6%AD%A3%E6%9D%BE%E9%BA%B5%E8%88%96+Song%E2%80%99s+Noodles/@22.6311708,120.2911751,17z/data=!3m1!4b1!4m6!3m5!1s0x346e05ad94a368fb:0xfc342770fa7e26a2!8m2!3d22.6311708!4d120.2911751!16s%2Fg%2F11z4vl509n?entry=ttu",
-      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址及結構化門牌查詢，均無結果；再透過Playwright瀏覽Google Maps地點頁，核對正松麵舖 Song’s Noodles、801009高雄市前金區新生里自強一路83巷63號及電話07 211 0001，店家網站連至官方Instagram song202605。採地點網址!3d22.6311708、!4d120.2911751的數值座標，未使用@地圖視窗中心。"
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址及結構化門牌查詢，均無結果；再透過Playwright瀏覽Google Maps地點頁，核對正松麵舖 Song’s Noodles、801009高雄市前金區新生里自強一路83巷63號及電話07 211 0001，店家網站連至官方Instagram song202605。採地點網址!3d22.6311708、!4d120.2911751的數值座標，未使用@地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/zheng-song-noodles.png?v=5fd6c8976b24d96f",
+        "source": "https://www.instagram.com/song202605/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；正松麵舖 (@song202605) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "hway-coffee-kaohsiung",
@@ -6390,7 +6678,15 @@
         "lng": 120.3045738
       },
       "coordinateSource": "https://www.openstreetmap.org/node/5057927924",
-      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以林森一路146巷2號、高雄市結構化查詢取得咖啡店節點5057927924。主代理另讀OSM節點API，確認name為灰。咖啡、amenity為cafe、addr:full為高雄市新興區林森一路146巷2號，行政區、道路及門牌均與高雄電影節官方名單及店家Instagram簡介一致。採店家節點數值座標22.6292185、120.3045738，未使用道路或地圖視窗中心。"
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以林森一路146巷2號、高雄市結構化查詢取得咖啡店節點5057927924。主代理另讀OSM節點API，確認name為灰。咖啡、amenity為cafe、addr:full為高雄市新興區林森一路146巷2號，行政區、道路及門牌均與高雄電影節官方名單及店家Instagram簡介一致。採店家節點數值座標22.6292185、120.3045738，未使用道路或地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/hway-coffee-kaohsiung.png?v=c93c4bbfadcdea5a",
+        "source": "https://www.instagram.com/hwaycoffee.taiwan/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；灰咖啡Hway Coffee,Taiwan. (@hwaycoffee.taiwan) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "qianjin-braised-pork-rice",
@@ -6429,7 +6725,15 @@
         "lng": 120.2953692
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11082721178",
-      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以26 大同二路、高雄市、前金區結構化門牌查詢取得節點11082721178。主代理另讀OSM節點API，確認addr:full為高雄市前金區民生里10鄰大同二路26號，行政區、道路及門牌均與指定地址及店家介紹一致，門牌資料來源為高雄市政府。採門牌數值座標22.6272514、120.2953692，未使用道路或地圖視窗中心。"
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以26 大同二路、高雄市、前金區結構化門牌查詢取得節點11082721178。主代理另讀OSM節點API，確認addr:full為高雄市前金區民生里10鄰大同二路26號，行政區、道路及門牌均與指定地址及店家介紹一致，門牌資料來源為高雄市政府。採門牌數值座標22.6272514、120.2953692，未使用道路或地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/qianjin-braised-pork-rice.png?v=4509280309ec8a58",
+        "source": "https://www.facebook.com/profile.php?id=100063744920382",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；前金肉燥飯 | Kaohsiung ；本站保存 512 × 512、完整置中、不放大；來源尺寸 600 × 450。"
+      }
     },
     {
       "id": "taitai-sewing-studio",
@@ -6463,7 +6767,15 @@
         "lng": 120.2797618
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11082251113",
-      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以133 鼓山一路、高雄市、鼓山區結構化查詢取得門牌節點11082251113。主代理另讀OSM節點API，確認addr:full為高雄市鼓山區山下里13鄰鼓山一路133號、addr:housenumber為133號，資料來源為高雄市政府。採門牌數值座標22.6289071、120.2797618，非133之1號、道路中心或地圖視窗中心；此座標確認門牌位置，不代表獨立確認店家營業地址。"
+      "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以133 鼓山一路、高雄市、鼓山區結構化查詢取得門牌節點11082251113。主代理另讀OSM節點API，確認addr:full為高雄市鼓山區山下里13鄰鼓山一路133號、addr:housenumber為133號，資料來源為高雄市政府。採門牌數值座標22.6289071、120.2797618，非133之1號、道路中心或地圖視窗中心；此座標確認門牌位置，不代表獨立確認店家營業地址。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/taitai-sewing-studio.png?v=53c5ea3b6d4f7d97",
+        "source": "https://www.instagram.com/_momshandmade_/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；太太車縫室｜手作教室｜造型安撫娃娃｜客製化服務 (@_momshandmade_) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     }
   ],
   "pendingStores": []

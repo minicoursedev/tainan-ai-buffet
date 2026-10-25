@@ -61,7 +61,15 @@
         "lng": 120.3884222
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11418963245",
-      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，改以三民街49號、土庫鎮、雲林縣結構化查詢取得門牌節點11418963245。主代理另讀OSM節點API，核對addr:full為雲林縣土庫鎮順天里15鄰三民街49號、資料來源為雲林縣政府，與官方Threads地址相符；採節點數值座標23.6736325、120.3884222，未使用道路中心。"
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，改以三民街49號、土庫鎮、雲林縣結構化查詢取得門牌節點11418963245。主代理另讀OSM節點API，核對addr:full為雲林縣土庫鎮順天里15鄰三民街49號、資料來源為雲林縣政府，與官方Threads地址相符；採節點數值座標23.6736325、120.3884222，未使用道路中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/ccat820.png?v=c8adfd2f058d511b",
+        "source": "https://www.facebook.com/100071066894790/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；曬月亮的貓 | Tuku ；本站保存 512 × 512、完整置中、不放大；來源尺寸 720 × 720。"
+      }
     }
   ],
   "pendingStores": []

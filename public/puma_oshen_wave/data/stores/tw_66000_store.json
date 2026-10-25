@@ -64,7 +64,15 @@
         "lng": 120.6624926
       },
       "coordinateSource": "https://www.openstreetmap.org/node/8535011265",
-      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址（台中／臺中）查詢無結果，改用street=7 華美西街一段195巷1弄、city=臺中市、county=西區、country=Taiwan結構化查詢取得精確門牌節點8535011265。子代理及主代理分別讀取OSM節點API，核對addr:full為臺中市西區忠誠里17鄰華美西街一段195巷1弄7號，行政區、街道及門牌與官方對外地址相符；採節點數值座標，非道路中心。"
+      "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址（台中／臺中）查詢無結果，改用street=7 華美西街一段195巷1弄、city=臺中市、county=西區、country=Taiwan結構化查詢取得精確門牌節點8535011265。子代理及主代理分別讀取OSM節點API，核對addr:full為臺中市西區忠誠里17鄰華美西街一段195巷1弄7號，行政區、街道及門牌與官方對外地址相符；採節點數值座標，非道路中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/wanchataiwan.png?v=a2b247babaf0cdf9",
+        "source": "https://www.instagram.com/wanchataiwan/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；灣茶 Wan Cha (@wanchataiwan) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+      }
     },
     {
       "id": "thisishopein",
@@ -104,7 +112,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8535014721",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，改用street=96 華美街、city=臺中市、country=Taiwan結構化查詢取得精確門牌節點8535014721。主代理讀取OSM節點API，確認addr:full為臺中市西區昇平里33鄰華美街96號，行政區、街道及門牌與官方對外地址相符；採節點數值座標，為門牌位置，非道路中心。",
       "shopPhoto": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/store-avatars/thisishopein.png?v=ba1b53858ad4542a",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/thisishopein.png?v=ba1b53858ad4542a",
         "source": "https://www.instagram.com/thisishopein/",
         "platform": "instagram",
         "status": "verified",
