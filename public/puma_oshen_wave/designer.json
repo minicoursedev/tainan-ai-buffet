@@ -61,6 +61,42 @@
         "checkedAt": "2026-10-25",
         "note": "官方 Threads 個人檔案頭像，已比對個人檔案資料並確認 HTTPS 圖片可讀取；社群圖片網址可能失效，屆時需重新查證。"
       }
+    },
+    {
+      "id": "vincent-atu",
+      "name": "ATU",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/858088521_18095752799442633_4437306545637868149_n.jpg?stp=cp6_dst-jpegr_e35_tt6&_nc_cat=103&ig_cache_key=NDAxMjA0MTY2NzQ1MjU3NjQ1Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjIwNS5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=P3y7wdBABicQ7kNvwHQF4eb&_nc_oc=AdoZ7IobEpxnz8xCs6K3m8UUCOtKY58QEesv7SU3gP2oCrSZPoBDWj1ccM50CuK5s2o&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=NVG0IGjRZJ09FIfjZZvwaA&_nc_ss=7b2a8&oh=00_AQNsThUYQDkD-24_NLWIB2JdjX1QZIos8wN8Iw_HXV4R6Q&oe=6AE33607",
+          "alt": "ATU 作品參考：讀者 @miil0922 於官方貼文下分享的照片",
+          "source": "https://www.threads.com/@vincent.atu/post/DeqmBtEGXyG",
+          "checkedAt": "2026-10-25",
+          "note": "使用者提供的完整圖片網址；照片由讀者 @miil0922 發布於 ATU 官方貼文的回覆，非設計師本人發布。實際照片出處：https://www.threads.com/@miil0922/post/DetoqPMk6LI 。已確認 HTTPS 圖片可讀取；社群 CDN 簽章網址可能失效，屆時需從原貼文重新查證。"
+        },
+        {
+          "url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/856805048_17988992826112936_864457965454002324_n.jpg?stp=cp6_dst-jpegr_e35_tt6&_nc_cat=107&ig_cache_key=NDAxMzMxNzE0MTA1NTQ1NzgyMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzAyNC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=VSAHRFvo0ToQ7kNvwFI_-kx&_nc_oc=AdprmrfPa9Sf9Lv6671j0lW8HOKPTeEHZR8RZvtfjHkYvawVvPs7C3AHBQtxd2MWuVw&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=8Y9YqdSnS6SMyr0UN2BTiQ&_nc_ss=7b2a8&oh=00_AQMSLFMwpul0-9qm7c-6I-fyXlWAh9KyqoNty1GGOpsRlw&oe=6AE334A9",
+          "alt": "ATU 作品參考：讀者 @imvic999 於官方貼文下分享的照片",
+          "source": "https://www.threads.com/@vincent.atu/post/DeqmBtEGXyG",
+          "checkedAt": "2026-10-25",
+          "note": "使用者提供的完整圖片網址；照片由讀者 @imvic999 發布於 ATU 官方貼文的回覆，非設計師本人發布。實際照片出處：https://www.threads.com/@imvic999/post/DeyKq0jmMoe 。已確認 HTTPS 圖片可讀取；社群 CDN 簽章網址可能失效，屆時需從原貼文重新查證。"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@vincent.atu",
+        "ig": "https://www.instagram.com/vincent.atu/",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/446350508_977608520246752_277349806646339557_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=1SKNMED0Zw0Q7kNvwH2rZTC&_nc_oc=Adr_RFbQ6dIiDTgKAAMIp9UI5fCaITuwHSoCnHjeuotoo_i2uuHKIO-wJyG0KesuAdI&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_ss=7b20f&oh=00_AQMXHVqTUtbnStPTuVJKl_ucAUhqnkPDYhTqf1EkZPc9yw&oe=6AE34AE1",
+        "source": "https://www.threads.com/@vincent.atu",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方 Threads 個人檔案頭像；已核對個人檔案名稱 ATU、帳號 vincent.atu 及頁面頭像資料，並確認 HTTPS 圖片可讀取。社群 CDN 簽章網址可能失效，屆時需從官方個人檔案重新查證。"
+      }
     }
   ]
 }
