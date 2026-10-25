@@ -97,6 +97,27 @@
         "checkedAt": "2026-10-25",
         "note": "官方 Threads 個人檔案頭像；已核對個人檔案名稱 ATU、帳號 vincent.atu 及頁面頭像資料，並確認 HTTPS 圖片可讀取。社群 CDN 簽章網址可能失效，屆時需從官方個人檔案重新查證。"
       }
+    },
+    {
+      "id": "kting-hoooo",
+      "name": "Sou Ho",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@kting_hoooo",
+        "ig": "https://www.instagram.com/kting_hoooo/",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/358071177_655595116103433_8335373078703448704_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=106&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=eTM4NUD0M_MQ7kNvwFJjcGV&_nc_oc=AdpHX-8qhUmuZlttpKVPWhwRTwmPbm4fPKnDBcGDl_3QpcqHzrOOXu-XzyXH6REQhoI&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7f20f&oh=00_AQNFMSPFd8y0I1o-kG1Sqh--QC_46WHMYT7DukuXEVgH4Q&oe=6AE35462",
+        "source": "https://www.threads.com/@kting_hoooo",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方 Threads 個人檔案頭像；已核對個人檔案名稱 Sou Ho、帳號 kting_hoooo 與頁面頭像資料，並確認 HTTPS 圖片可讀取。社群 CDN 簽章網址可能失效，屆時需從官方個人檔案重新查證。"
+      }
     }
   ]
 }
