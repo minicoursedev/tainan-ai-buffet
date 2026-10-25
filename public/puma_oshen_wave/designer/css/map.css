@@ -1,0 +1,100 @@
+/* 設計師地圖 page (#stage-map): hall tabs, hall overview, and the hall plan (one compact row per aisle). */
+.mp-page {
+  max-width: 1180px; margin: 0 auto;
+  padding: 16px max(16px, env(safe-area-inset-right, 0px)) calc(32px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px));
+}
+.mp-title { color: var(--green-deep); margin: 0 0 10px; font-size: 22px; font-weight: 900; text-wrap: balance; }
+.mp-tools {
+  position: sticky; top: 0; z-index: 3;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0 0 12px;
+  padding: 10px 12px; border: 2.5px solid var(--line); border-radius: 8px; background: var(--paper-2); box-shadow: var(--shadow);
+}
+.mp-tabs { display: inline-flex; border: 2px solid var(--line); border-radius: 6px; overflow: hidden; box-shadow: 2px 2px 0 var(--line); background: var(--paper); }
+.mp-tabs button { border: 0; background: var(--paper); color: var(--green-deep); padding: 4px 12px; font-weight: 700; cursor: pointer; white-space: nowrap; }
+.mp-tabs button + button { border-left: 2px solid var(--line); }
+.mp-tabs button[aria-pressed="true"] { background: var(--green-deep); color: var(--paper); }
+.mp-tabs button:focus-visible { outline: 3px solid var(--pink); outline-offset: -3px; }
+.mp-jump { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 700; margin-left: auto; }
+.mp-jump select { font: inherit; font-weight: 400; max-width: 11em; padding: 3px 6px; border: 2px solid var(--line); border-radius: 6px; background: var(--paper); }
+.mp-body { padding: 0; }
+.mp-note { margin: 0 0 10px; font-size: 13px; color: var(--muted); }
+
+/* "you are here" pin */
+.mp-pin {
+  display: inline-block; padding: 0 6px; border-radius: 4px; background: var(--green-deep); color: var(--paper);
+  font-family: var(--font); font-size: 11px; font-weight: 700; line-height: 18px; white-space: nowrap;
+}
+
+/* ---------- overview */
+.mp-venue {
+  display: grid; grid-template-columns: 1fr 1.2fr 1.4fr; gap: 10px; align-items: stretch;
+  padding: 10px; border: 2.5px solid var(--line); border-radius: 8px; background: var(--paper);
+}
+.mp-hall { display: flex; flex-direction: column; gap: 8px; min-width: 0; padding: 8px; border: 2px solid var(--line); border-radius: 4px; background: var(--paper); }
+.mp-hall.is-here { border-color: var(--green); box-shadow: 4px 4px 0 var(--line); }
+.mp-hall-name {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; padding: 2px 0; border: 0; background: none; text-align: left; cursor: pointer;
+}
+.mp-hall-name b { color: var(--green-deep); font-size: 18px; font-weight: 900; }
+.mp-hall-name small { font-size: 12px; color: var(--muted); }
+.mp-hall-name:hover b { text-decoration: underline; text-underline-offset: 4px; }
+.mp-zones { display: flex; flex-wrap: wrap; gap: 6px; align-content: flex-start; flex: 1; }
+.mp-zone {
+  flex: 1 1 0; min-width: 76px; min-height: 52px; display: flex; flex-direction: column; justify-content: space-between; gap: 2px;
+  padding: 5px 7px; border: 1.5px dashed var(--line); border-radius: 4px; background: var(--paper); text-align: left; cursor: pointer;
+}
+.mp-zone b { font-size: 13px; font-weight: 700; line-height: 1.3; overflow-wrap: anywhere; }
+.mp-zone span { font-size: 11px; color: var(--muted); }
+.mp-zone:hover { border-style: solid; background-image: var(--tone); background-color: var(--paper); }
+.mp-zone:hover b { background: var(--paper); }
+.mp-zone.is-here { background: var(--pink-soft); border-style: solid; border-color: var(--pink); }
+.mp-zone-more { background: var(--paper-2); }
+.mp-door { align-self: center; margin-top: 2px; padding: 0 18px; border: 2px solid var(--line); border-bottom: 0; border-radius: 4px 4px 0 0; font-size: 11px; font-weight: 700; }
+.mp-hall-name:focus-visible, .mp-zone:focus-visible, .mp-label:focus-visible { outline: 3px solid var(--pink); outline-offset: 2px; }
+
+/* ---------- hall plan */
+.mp-plan { display: flex; flex-direction: column; gap: 3px; }
+.mp-zone-h {
+  margin: 20px 0 4px; padding: 0 0 4px; border-bottom: 2.5px solid var(--line);
+  font-size: 20px; font-weight: 900; line-height: 1.35; overflow-wrap: anywhere;
+}
+.mp-zone-h:first-child { margin-top: 0; }
+.mp-row {
+  display: grid; grid-template-columns: 96px minmax(0, 1fr); align-items: center; gap: 10px;
+  padding: 4px 6px; border: 2px solid transparent; border-radius: 6px; cursor: pointer;
+}
+.mp-row:hover { border-color: var(--line); border-style: dashed; }
+.mp-row.is-here { background: var(--pink-soft); border: 2px solid var(--pink); border-style: solid; box-shadow: 2px 2px 0 var(--line); }
+.mp-label { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 6px; padding: 0; border: 0; background: none; text-align: left; cursor: pointer; line-height: 1.3; }
+.mp-label b { font-size: 14px; font-weight: 600; }
+.mp-label small { font-size: 11px; color: var(--muted); }
+.mp-row.is-here .mp-label small { color: var(--ink); }
+.mp-label .mp-pin { margin-top: 2px; }
+.mp-strip { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.mp-side { display: flex; gap: 8px; min-width: 0; }
+.mp-isl { display: flex; gap: 1px; min-width: 0; flex: 0 1 auto; }
+.mp-isl.is-empty { height: 11px; }
+.mp-c { flex: 0 1 14px; min-width: 4px; height: 11px; border: 1.5px solid var(--green-deep); background: var(--paper); cursor: pointer; }
+.mp-c:hover { background: var(--green-deep); }
+.mp-c.is-visited { background-color: var(--paper); background-image: var(--tone); }
+.mp-c.is-near { background: var(--green-deep); }
+.mp-walk { height: 5px; margin: 1px 0; background-image: var(--tone); opacity: .55; max-width: 330px; }
+.mp-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 14px 0 0; font-size: 12px; color: var(--muted); }
+.mp-legend span { display: inline-flex; align-items: center; gap: 5px; }
+.mp-legend .mp-c { display: inline-block; width: 14px; flex: none; cursor: default; }
+.mp-key-here { display: inline-block; width: 18px; height: 12px; border: 2px solid var(--pink); border-radius: 3px; background: var(--pink-soft); }
+
+@media (max-width: 720px) {
+  .mp-venue { grid-template-columns: 1fr; }
+  .mp-zone { min-height: 44px; }
+}
+@media (max-width: 560px) {
+  .mp-tools { padding: 8px 12px; gap: 8px; }
+  .mp-tabs button { padding: 4px 9px; font-size: 13px; }
+  .mp-jump { margin-left: 0; }
+  .mp-body { padding: 10px 12px 14px; }
+  .mp-row { grid-template-columns: 58px minmax(0, 1fr); gap: 6px; padding: 4px; }
+  .mp-label small { display: none; }
+  .mp-label .mp-pin { font-size: 10px; padding: 0 4px; }
+  .mp-side { gap: 5px; }
+}

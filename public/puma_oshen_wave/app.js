@@ -54,6 +54,13 @@ function directoryLink(text, url, className) {
   return link;
 }
 function setDirectory(showDesigners, updateHistory = true) {
+  if (showDesigners) {
+    const url = new URL('./designer/', location.href);
+    const id = new URL(location.href).searchParams.get('designer');
+    url.hash = id ? `/designer/${encodeURIComponent(id)}` : '/list';
+    location.replace(url.href);
+    return;
+  }
   if (updateHistory) {
     const url = showDesigners ? designerUrl() : shopUrl(selectedId);
     if (url.href !== location.href) history.pushState(null, '', url);
@@ -61,7 +68,6 @@ function setDirectory(showDesigners, updateHistory = true) {
   byId('shops-directory').hidden = showDesigners;
   byId('designers-directory').hidden = !showDesigners;
   byId('shops-tab').setAttribute('aria-pressed', String(!showDesigners));
-  byId('designers-tab').setAttribute('aria-pressed', String(showDesigners));
   if (showDesigners) void loadDesigners();
   else {
     document.title = defaultPageTitle;
@@ -566,7 +572,6 @@ shareDialog.addEventListener('click', event => {
       (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) shareDialog.close();
 });
 byId('shops-tab').addEventListener('click', () => setDirectory(false));
-byId('designers-tab').addEventListener('click', () => setDirectory(true));
 window.addEventListener('popstate', restoreDirectory);
 restoreDirectory();
 init();

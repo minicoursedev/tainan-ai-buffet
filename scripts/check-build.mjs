@@ -6,6 +6,10 @@ const root = process.cwd();
 const requiredFiles = [
   'puma_oshen_wave/index.html',
   'puma_oshen_wave/designer.json',
+  'puma_oshen_wave/designer/index.html',
+  'puma_oshen_wave/designer/js/app.js',
+  'puma_oshen_wave/designer/js/config.js',
+  'puma_oshen_wave/designer/css/market.css',
   'CNAME', 'index.html', 'friends.html', 'sitemap.xml', 'robots.txt',
   'google0dd0e2c38ab50487.html', 'assets/site.css', 'assets/archive.js',
   'assets/friends.js', 'assets/favicon.svg', 'data/events.json',

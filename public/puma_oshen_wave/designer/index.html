@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>洋流設計師</title>
+<link rel="canonical" href="https://minicourse.dev/puma_oshen_wave/designer/">
+<meta name="theme-color" content="#f82970">
+<link rel="icon" href="data:,">
+<meta name="description" content="認識洋流設計師、探索設計師地圖。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://minicourse.dev/puma_oshen_wave/designer/">
+<meta property="og:site_name" content="MiniCourse">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:title" content="洋流設計師">
+<meta property="og:description" content="認識洋流設計師、探索設計師地圖。">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="洋流設計師">
+<meta name="twitter:description" content="認識洋流設計師、探索設計師地圖。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="css/market.css">
+<link rel="stylesheet" href="css/booth.css">
+<link rel="stylesheet" href="css/map.css">
+<link rel="stylesheet" href="css/list.css">
+<link rel="stylesheet" href="css/closed.css">
+</head>
+<body>
+<div class="app">
+  <header class="bar">
+    <a class="plaque" href="#/walk" aria-label="洋流設計師">
+      <span>洋流設計師</span>
+    </a>
+    <div class="modes" role="group" aria-label="逛法">
+      <button type="button" data-mode="walk" aria-pressed="true">逛場子</button>
+      <button type="button" data-mode="list" aria-pressed="false">設計師列表</button>
+      <button type="button" data-mode="map" aria-pressed="false">設計師地圖</button>
+    </div>
+    <span class="tag close-tag" id="close-tag" hidden></span>
+    <a class="link-btn back-to-map" href="../">返回地圖</a>
+  </header>
+
+  <main class="stage" id="stage-walk">
+    <canvas id="walk-canvas" tabindex="0" aria-label="逛場子畫面：按住拖著小人走，點設計師即可查看介紹"></canvas>
+    <button type="button" class="where" id="btn-where"><b id="where-hall">設計師館</b><span id="where-aisle"></span><span class="where-switch">換館</span></button>
+    <div class="status"><span class="tag tag-zone" id="status-zone"></span><span class="tag" id="status-count"></span></div>
+    <p class="hint" id="hint">按住畫面拖著小人走，點一下就走過去，點設計師查看介紹。電腦可以用方向鍵。</p>
+    <div class="dock">
+      <button type="button" class="btn btn-primary" id="btn-browse" disabled>靠近即可認識設計師</button>
+      <button type="button" class="btn" id="btn-next">下一攤</button>
+    </div>
+  </main>
+
+  <main class="list-mode" id="stage-list" hidden></main>
+  <main class="map-mode" id="stage-map" hidden></main>
+  <footer class="app-footer">
+    <small>© 2026 MiniCourse｜本站歸 MiniCourse 所有；收錄之設計師資料、作品與商標，其權利歸各設計師或原權利人所有。</small>
+  </footer>
+  <div class="toast" id="toast" role="status" popover="manual"></div>
+</div>
+
+<dialog id="dlg-booth" class="dlg" aria-labelledby="booth-title"></dialog>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
