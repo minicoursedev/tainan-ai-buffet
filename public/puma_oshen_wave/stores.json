@@ -4065,12 +4065,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11060978040",
       "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/dancing-sheep-coffee/logo.webp?v=f8dab9bd31e6cab0",
-        "source": "https://www.instagram.com/dancingsheepdn/",
-        "platform": "instagram",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/dancing-sheep-coffee/logo.webp?v=c1983c126c22e20a",
+        "source": "https://www.threads.com/@dancingsheepdn?xmt=AQG0pNN-9MQObzIxbIYb6H9yzHSdf5BQfxiED90kpte3g74",
+        "platform": "threads",
         "status": "verified",
-        "checkedAt": "2026-10-25",
-        "note": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1080 × 1080。",
+        "checkedAt": "2026-10-26",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；跳舞的羊咖啡屋 (@dancingsheepdn) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。",
         "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/dancing-sheep-coffee.png?v=cd0d9dcbeea88673"
       }
     },
@@ -7164,12 +7164,12 @@
       "coordinateSource": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1z5Y-w5Y2X5biC5a6J5bmz5bel5qWt5Y2A5paw5qiC6LevMS0z6Jmf!6i16!3m1!1szh-TW!5m1!1szh-TW",
       "coordinateNote": "2026-10-25 優先查OpenStreetMap完整地址及1-3號、1之3號的結構化寫法，僅道路或無結果，未採道路中心。主代理改讀Google Maps公開嵌入地點回應，查證子代理獨立核對initEmbed地址地點資料為702臺南市南區新樂路1-3號、place_id ChIJ7WsYKuF1bjQRp8yH72wlpDA、地點識別0x346e75e12a186bed:0x30a4256cef87cca7及marker座標22.9799632、120.17905。此為與官網地址相符的門牌地點標記，來源為嵌入地點資料，非!3d/!4d網址、非@地圖視窗中心，未推論店家入口。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/99iinn/logo.webp?v=1c2c860ba0afcf76",
         "source": "https://www.threads.com/@99iinn",
         "platform": "threads",
         "status": "verified",
-        "checkedAt": "2026-10-25",
-        "note": "官方Threads公開個人資料username=99iinn、full_name=玖愛印數位雲端印刷網，並明示店家現行官網。hd_profile_pic_versions明列原生320×320與640×640個人頭像，採足供Logo使用的320×320版本；查證子代理以完整原生URL記憶體讀取確認HTTP 200、Content-Type image/jpeg、JPEG實際320×320。未使用100px分享縮圖，未改寫CDN尺寸或簽章參數，未放大或轉存；新店圖片url留空。",
+        "checkedAt": "2026-10-26",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；玖愛印數位雲端印刷網 (@99iinn) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。",
         "originalUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-19/845287799_17895303669610891_447515931552795277_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fkhh1-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gGxUXsnBv8FmJnxn0vetFWQWlcKD-m_Ev5_QQ3yFefcqdmjZ8wXdCF0A6I2-IIDrgw&_nc_ohc=JQEDmD7Qm0kQ7kNvwF7ObrX&_nc_gid=6GKUAcjTRI1e-q_pk2EXOQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQOm3R-UvkpC4cflYh6ebdeB6a9Vrxm5-BLKwLMNmYSXvQ&oe=6AE45D00&_nc_sid=10d13b"
       }
     }
