@@ -103,7 +103,22 @@
       "name": "Sou Ho",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-15/863958267_17990253591117102_8127801558093494412_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=NDAxMzY3MDc5NjU5Nzg5NTY4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA2My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=MNwmMv4DtzwQ7kNvwE-bFpW&_nc_oc=Adp6RK6TwgCj0TFeRJlTHZPMI34AplUGWtvNRae72iuNAItYIOaN7yzUh7Kt_ZEqbnc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fkhh1-2.fna&_nc_gid=IqsgDNyTVlrImi6clhoq5A&_nc_ss=7a22e&oh=00_AQOwRTAR2p8lg9N2PsY8V0kgcX1rmp98RNDPxYEHyyBWjA&oe=6AE35B18",
+          "alt": "Sou Ho 作品照片 1",
+          "source": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-15/863958267_17990253591117102_8127801558093494412_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=NDAxMzY3MDc5NjU5Nzg5NTY4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA2My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=MNwmMv4DtzwQ7kNvwE-bFpW&_nc_oc=Adp6RK6TwgCj0TFeRJlTHZPMI34AplUGWtvNRae72iuNAItYIOaN7yzUh7Kt_ZEqbnc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fkhh1-2.fna&_nc_gid=IqsgDNyTVlrImi6clhoq5A&_nc_ss=7a22e&oh=00_AQOwRTAR2p8lg9N2PsY8V0kgcX1rmp98RNDPxYEHyyBWjA&oe=6AE35B18",
+          "checkedAt": "2026-10-25",
+          "note": "使用者提供，指定為此設計師作品照片；已確認 HTTPS 圖片可讀取，未獨立查證官方來源。社群 CDN 簽章網址可能過期。"
+        },
+        {
+          "url": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-15/855376065_17989733904117102_518757840425126525_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=NDAxMTQwNTIyOTYyNzI0OTk5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=7RdiPR_2OdIQ7kNvwH3KfB8&_nc_oc=AdqqAjPdjraG4ooUZqLuGCe71W4jvPos64VrbXjRia1XkYonVN3udB6IZj3OEntvb6A&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=3pSbJjmfyFxpFBeMNSAnPg&_nc_ss=7a22e&oh=00_AQMRugnCUKDqiGMgItaVFHC55S6xLZmI7mHO23CNc_fCgg&oe=6AE368CA",
+          "alt": "Sou Ho 作品照片 2",
+          "source": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-15/855376065_17989733904117102_518757840425126525_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=NDAxMTQwNTIyOTYyNzI0OTk5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=7RdiPR_2OdIQ7kNvwH3KfB8&_nc_oc=AdqqAjPdjraG4ooUZqLuGCe71W4jvPos64VrbXjRia1XkYonVN3udB6IZj3OEntvb6A&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=3pSbJjmfyFxpFBeMNSAnPg&_nc_ss=7a22e&oh=00_AQMRugnCUKDqiGMgItaVFHC55S6xLZmI7mHO23CNc_fCgg&oe=6AE368CA",
+          "checkedAt": "2026-10-25",
+          "note": "使用者提供，指定為此設計師作品照片；已確認 HTTPS 圖片可讀取，未獨立查證官方來源。社群 CDN 簽章網址可能過期。"
+        }
+      ],
       "social": {
         "fb": "",
         "threads": "https://www.threads.com/@kting_hoooo",
