@@ -159,12 +159,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8550135335",
       "coordinateNote": "2026-10-25 查證子代理先以OpenStreetMap完整19-21號地址查詢無結果，拆開門牌後以street=21 三榮北一路、city=臺中市、county=烏日區、country=Taiwan結構化查詢取得門牌節點8550135335。主代理另讀OSM節點API，確認行政區、三榮北一路及21號相符，數值座標24.1077477、120.6038748。該節點記錄七樓之1，僅採官網19-21號範圍內21號建物門牌位置，不推論店家樓層、單位或入口；非道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yuantea1983/logo.webp?v=d6437e3453e32689",
         "source": "https://www.facebook.com/61552790738076",
         "platform": "facebook",
         "status": "verified",
-        "checkedAt": "2026-10-25",
-        "note": "官網實際外連此Facebook帳號，公開頁標題為梨山原韻茶庄 | Taichung。頁內profile_name相鄰image_url的200px頭像與頁面明示720px版本具有相同圖片識別路徑399829820_122110703714093024_5569662619369640767_n.jpg，據此確認為官方個人頭像，非僅憑og:image推定。查證子代理以頁面原樣提供的完整簽章網址在記憶體核對HTTP 200、image/jpeg、720×720；主代理再次核對圖片回應並目視為原韻茶庄梨山字樣Logo。未改寫尺寸或簽章參數，未放大小圖，未下載轉存。新店尚未產生圖片網址，url留空。",
+        "checkedAt": "2026-10-26",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；梨山原韻茶庄 | Taichung ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。",
         "originalUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/399829820_122110703714093024_5569662619369640767_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=at7kkFpuAxQQ7kNvwEY9jZn&_nc_oc=AdpH6Y6lPYcssIcuqUmyNuoFqvELvh4RwCZ48k4FL3_dHx0u8FurGR60b5zVWR1qkIs&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=SNjsECdCHrQ4QSz8RwDwng&_nc_ss=7920f&oh=00_AQOYOvdTLeMs3aBoIscx_GweM3g2UKMHAkickgfyOLq_0g&oe=6AE3F96F"
       }
     }

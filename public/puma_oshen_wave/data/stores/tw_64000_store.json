@@ -1046,12 +1046,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082530182",
       "coordinateNote": "2026-10-25 查證子代理以OpenStreetMap完整地址搜尋無結果後，改用Nominatim結構化street=59 松江街、city=高雄市、county=三民區、country=Taiwan取得門牌節點11082530182；主代理另讀OSM節點API確認addr:full為高雄市三民區達仁里3鄰松江街59號、門牌59號、行政區三民區，來源為高雄市政府。座標22.6421345、120.3036707為相符門牌位置，非道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/forever-young-books-kaohsiung/logo.webp?v=1f4562821740e1ac",
         "source": "https://www.threads.com/@forever_young_books__",
         "platform": "threads",
         "status": "verified",
-        "checkedAt": "2026-10-25",
-        "note": "官方Threads個人頁的og:url與指定帳號相符；頁面明示640px頭像版本，CDN路徑t51.2885-19為個人頭像資源。已讀取原始完整簽章網址，HTTP 200、Content-Type image/jpeg，JPEG尺寸640×640；目視為印有洋洋本屋與FOREVER YOUNG BOOKS的黑白書本Logo，非貼文或封面。Instagram公開頁另僅提供100px分享縮圖，未採用或放大；未改寫圖片尺寸或簽章參數。新店尚未產生圖片網址，url留空。",
+        "checkedAt": "2026-10-26",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；洋洋本屋 Forever young Fans & Books (@forever_young_books__) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。",
         "originalUrl": "https://scontent-sin2-2.cdninstagram.com/v/t51.2885-19/483660270_943414108000450_1167850638288821745_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=b3fa00&_nc_aid=0&_nc_ohc=RPxgWL5pg9AQ7kNvwFroSa_&_nc_oc=AdpLVBzEoWqcSPWlAh4-3yj5Ykbwamp5y5qRDCF43iy5L02wkYJKlf_meFhkpCTnopk&_nc_zt=24&_nc_ht=scontent-sin2-2.cdninstagram.com&_nc_ss=7f20f&oh=00_AQNEfhWZinECPog2X2cikbpH-kjZRa7DVUVGC7ExT_wgaA&oe=6AE3DF7B"
       }
     },
@@ -1094,12 +1094,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082808037",
       "coordinateNote": "2026-10-25 查證子代理優先查詢OpenStreetMap，以Nominatim結構化street=111 文山路、city=高雄市、county=苓雅區、country=臺灣取得門牌節點11082808037；主代理另讀OSM節點API，確認addr:full為高雄市苓雅區正義里12鄰文山路111號、門牌111號及行政區苓雅區，來源為高雄市政府。座標22.6284959、120.3396082為符合官方地址的門牌位置，未採道路中心或地圖視窗中心。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/seaslugcoffee/logo.webp?v=fffcccd7e37db5e3",
         "source": "https://www.threads.com/@seaslugcoffee",
         "platform": "threads",
         "status": "verified",
-        "checkedAt": "2026-10-25",
-        "note": "官方Threads個人頁og:url與指定帳號相符；頁面原生明示640px影像，CDN的t51.2885-19路徑為個人頭像資源。查證子代理與主代理讀取原始完整簽章網址均HTTP 200、Content-Type image/jpeg，子代理解析JPEG實際尺寸640×640；主代理目視確認為棕底白色海蛞蝓圖案，附SEA SLUG COFFEE及「細絲拉格」店名的品牌Logo，非貼文或封面。Instagram僅提供100px版本，未採用或放大；未改寫CDN尺寸或簽章參數。新店圖片網址留空。",
+        "checkedAt": "2026-10-26",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；細斯拉格咖啡 (@seaslugcoffee) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。",
         "originalUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/474043141_1291737925203655_5154116615850387851_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=CLinXiwbvlQQ7kNvwGGV0ov&_nc_oc=Adr0BYmxO_cb5KkZRnx8jQRFCx4tTMNlU0Rrowid_f-nvF2Sw268-BdkxG2DTE8RabY&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_ss=7920f&oh=00_AQOJ8mz32Kqa7oU3o9U6K_3H64Xg1gEnKluiFBWrAJXudQ&oe=6AE3E61D"
       }
     }
