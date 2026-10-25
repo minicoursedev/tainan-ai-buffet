@@ -9,7 +9,10 @@
         {
           "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/wolfsignal-tw/1.webp?v=e2f05e3cc4aaca46",
           "alt": "野狼信號作品參考：黃色 CHAMPION 狼頭圖案",
-          "originalUrl": "./assets/designers/wolfsignal-tw/prod_image.png"
+          "originalUrl": "./assets/designers/wolfsignal-tw/prod_image.png",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/designers/wolfsignal-tw/prod_image.png",
+          "checkedAt": "2026-10-25",
+          "note": "由既有作品圖片重製 WebP，保留原檔來源。"
         },
         {
           "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/wolfsignal-tw/2.webp?v=637c6e30abfbc745",
