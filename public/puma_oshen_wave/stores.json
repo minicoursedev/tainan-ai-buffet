@@ -7123,6 +7123,55 @@
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；梨山原韻茶庄 | Taichung ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。",
         "originalUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/399829820_122110703714093024_5569662619369640767_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=at7kkFpuAxQQ7kNvwEY9jZn&_nc_oc=AdpH6Y6lPYcssIcuqUmyNuoFqvELvh4RwCZ48k4FL3_dHx0u8FurGR60b5zVWR1qkIs&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=SNjsECdCHrQ4QSz8RwDwng&_nc_ss=7920f&oh=00_AQOYOvdTLeMs3aBoIscx_GweM3g2UKMHAkickgfyOLq_0g&oe=6AE3F96F"
       }
+    },
+    {
+      "id": "99iinn",
+      "verification": false,
+      "category": "其它",
+      "giftStatus": "可能有小物",
+      "name": "玖愛印數位雲端印刷網",
+      "address": "臺南市南區新樂路1之3號",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/99iinn/",
+        "threads": "https://www.threads.com/@99iinn"
+      },
+      "sources": [
+        "https://www.threads.com/@99iinn",
+        "https://www.instagram.com/99iinn/",
+        "https://www.9i-in.com.tw/",
+        "https://www.9i-in.com.tw/news/holiday-1",
+        "https://www.9i-in.com.tw/api/news/holiday-1",
+        "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1z5Y-w5Y2X5biC5a6J5bmz5bel5qWt5Y2A5paw5qiC6LevMS0z6Jmf!6i16!3m1!1szh-TW!5m1!1szh-TW"
+      ],
+      "verifiedAt": "2026-10-25",
+      "verificationNote": "使用者指定Threads帳號收錄；新增店家verification依本次指示設為JSON布林值false。查證子代理與主代理核對官方Threads公開個人資料，店名為玖愛印數位雲端印刷網，bio_links明示官網https://www.9i-in.com.tw/。現官網聯絡區列臺南市南區新樂路1之3號、06-2921999，2026-10-19門市休假公告明示門市與自取件服務，佐證對外營業，非僅依公司登記。Instagram公開簡介電話與LINE帳號均與官網一致，公開貼文明確連結同一官網及商品頁，非猜測帳號。提供名片、海報、大圖輸出與客製印刷，依規則歸其它。已比對全部159筆既有紀錄（含disabled）的店名、地址、社群及電話，未發現重複。搜尋快取另見大勇街66號、06-2226061及舊時段，未沿用；採Threads明示的現行官網。未確認官方Facebook，留空。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週一至週五 09:00–12:00、13:00–18:00。\n例假日公休；特殊休假請依官方公告。",
+        "sources": [
+          "https://www.9i-in.com.tw/"
+        ],
+        "checkedAt": "2026-10-25",
+        "auditNote": "現行官網明載週一至週五09:00～18:00，午休12:00～13:00／例假日公休。查證子代理與主代理直接核對；未採舊網站或搜尋快取的週六時段。個別連假公告不作固定週表。"
+      },
+      "visitNote": "服務專線06-2921999／0800-666-345；LINE客服@9iin（https://line.me/R/ti/p/@9iin）。",
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9799632,
+        "lng": 120.17905
+      },
+      "coordinateSource": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1z5Y-w5Y2X5biC5a6J5bmz5bel5qWt5Y2A5paw5qiC6LevMS0z6Jmf!6i16!3m1!1szh-TW!5m1!1szh-TW",
+      "coordinateNote": "2026-10-25 優先查OpenStreetMap完整地址及1-3號、1之3號的結構化寫法，僅道路或無結果，未採道路中心。主代理改讀Google Maps公開嵌入地點回應，查證子代理獨立核對initEmbed地址地點資料為702臺南市南區新樂路1-3號、place_id ChIJ7WsYKuF1bjQRp8yH72wlpDA、地點識別0x346e75e12a186bed:0x30a4256cef87cca7及marker座標22.9799632、120.17905。此為與官網地址相符的門牌地點標記，來源為嵌入地點資料，非!3d/!4d網址、非@地圖視窗中心，未推論店家入口。",
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.threads.com/@99iinn",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方Threads公開個人資料username=99iinn、full_name=玖愛印數位雲端印刷網，並明示店家現行官網。hd_profile_pic_versions明列原生320×320與640×640個人頭像，採足供Logo使用的320×320版本；查證子代理以完整原生URL記憶體讀取確認HTTP 200、Content-Type image/jpeg、JPEG實際320×320。未使用100px分享縮圖，未改寫CDN尺寸或簽章參數，未放大或轉存；新店圖片url留空。",
+        "originalUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-19/845287799_17895303669610891_447515931552795277_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fkhh1-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gGxUXsnBv8FmJnxn0vetFWQWlcKD-m_Ev5_QQ3yFefcqdmjZ8wXdCF0A6I2-IIDrgw&_nc_ohc=JQEDmD7Qm0kQ7kNvwF7ObrX&_nc_gid=6GKUAcjTRI1e-q_pk2EXOQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQOm3R-UvkpC4cflYh6ebdeB6a9Vrxm5-BLKwLMNmYSXvQ&oe=6AE45D00&_nc_sid=10d13b"
+      }
     }
   ],
   "pendingStores": []
