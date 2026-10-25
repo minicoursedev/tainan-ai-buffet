@@ -6815,12 +6815,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11192106082",
       "coordinateNote": "2026-10-25 查證子代理以OpenStreetMap完整地址查詢無結果，再以450 延平路、中壢區、桃園市結構化查詢取得門牌節點11192106082。主代理另讀OSM節點API，確認行政區、延平路及450號門牌相符，資料來源為桃園市政府，座標24.9583341、121.2239818。該節點樓層標為12樓，僅採同大樓門牌位置供6樓使用；店家6樓取自實體課程場地資料，不把門牌節點視為店家POI，未採道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/trillion-coworking-zhongli.png?v=3848684a906d873c",
         "source": "https://www.facebook.com/p/Trillion日兆共享商務空間-61559798486162/",
         "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方公開頁profile分享上下文明示店名及頭像image_url，與頁面og:image的照片ID442502893_10161091754045890_7445272125095629503一致；查證子代理目視為白底青綠圖案、Trillion及日兆商務共享空間字樣的Logo。採官方頁直接提供的489×489版本，HTTP200、Content-Type image/jpeg，記憶體解碼確認原生489×489，符合256px來源需求；未改寫CDN尺寸或簽章參數，未採100px分享縮圖。新店圖片網址留空，待固定流程處理。"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Trillion日兆共享商務空間；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 489 × 489。"
       }
     }
   ],
