@@ -772,7 +772,7 @@
       "social": {
         "facebook": "https://www.facebook.com/miss.mimi.cafe/",
         "instagram": "https://www.instagram.com/miss.mimi.coffee/",
-        "threads": "https://www.threads.com/@miss.mimi.coffee"
+        "threads": "https://www.threads.com/@miss.mimi2.0"
       },
       "sources": [
         "https://www.facebook.com/miss.mimi.cafe/?locale=zh_TW",
@@ -780,10 +780,15 @@
         "https://www.khafterparty.tw/Store/Detail/zKjmRwAJ241B?cateId=32",
         "https://jtk-point.com/p/406-1142-12292,r487.php?Lang=zh-tw",
         "https://sport.ftvnews.com.tw/news/detail/2026827W0274",
-        "https://www.openstreetmap.org/node/11081639594"
+        "https://www.openstreetmap.org/node/11081639594",
+        "https://www.threads.com/@miss.mimi2.0",
+        "https://www.instagram.com/p/DevcBbYNl4v/",
+        "https://www.instagram.com/p/DerXupFN_-i/",
+        "https://www.instagram.com/p/De4NC_Hmjx4/",
+        "https://www.threads.com/@miss.mimi2.0/post/De4M8T7E23_"
       ],
-      "verifiedAt": "2026-10-24",
-      "verificationNote": "使用者提供Facebook指定收錄，verification依本次指示設為JSON布林值false。查證子代理與主代理核對高雄商圈夜市優惠券官方店家頁及揪攤集店家頁，兩者均列高雄市左營區新勝街21號，並連至使用者提供的Facebook；會員頁另連至miss.mimi.coffee官方Instagram。直接讀取Facebook與Instagram個人頁HTML，確認Miss Mimi Coffee蔬食咖啡館名稱、蔬食餐點與咖啡甜點介紹，沿用咖啡廳分類。Threads的miss.mimi.coffee帳號由2026-08-27民視報導及其嵌入貼文間接核對，未宣稱已直接讀取Threads個人頁。已比對全部150筆既有紀錄（含disabled）的店名、地址及社群，未發現重複；Instagram提及同經營者的癒見老宅咖啡為三民區三鳳中街另一營業地址，保留原紀錄。本次未取得可確認且驗證可存取的官方個人頭像，不填入shopPhoto。",
+      "verifiedAt": "2026-10-25",
+      "verificationNote": "2026-10-25 依使用者指定Threads，由查證子代理與主代理核對公開官方頁面後，確認為既有Miss Mimi店家，更新Threads為miss.mimi2.0，不新增紀錄。既有官方Instagram的DevcBbYNl4v及DerXupFN_-i貼文明示「排版：@miss.mimi2.0」「隆貓：@miss.mimi_one.ear」；指定Threads自介同列店經理miss.mimi_one.ear，公開貼文以經營者口吻介紹供餐、檸檬塔及高雄左楠地區，並標記與既有官方Facebook一致的店名「Miss Mimi Coffee｜蔬食咖啡館｜寵物友善｜」。子代理另核對官方Instagram的De4NC_Hmjx4與指定Threads的De4M8T7E23_為同一店家公告。以上交叉證據確認帳號關聯，不推定原miss.mimi.coffee帳號已更名。既有地址高雄市左營區新勝街21號未變，保留分類及已存門牌座標；已比對本次快照全部156筆紀錄（含disabled）的店名、地址及社群，僅有此既有店家。保留原verification、disabled與shopPhoto各欄位及既有圖片網址，頭像仍採既有官方Facebook來源。營業時間與公休日尚未取得足以消除來源差異的最新完整週表，維持待確認。",
       "openingHours": {
         "status": "unverified",
         "text": "營業時間與公休日待確認，請以店家Google地圖及官方公告為準。",
@@ -792,8 +797,8 @@
           "https://www.facebook.com/miss.mimi.cafe/?locale=zh_TW",
           "https://jtk-point.com/p/406-1142-12292,r487.php?Lang=zh-tw"
         ],
-        "checkedAt": "2026-10-24",
-        "auditNote": "查證子代理與主代理直接讀取官方Instagram個人頁meta description，列週一至週五09:00–20:00、假日09:00–18:00；揪攤集店家頁則列平日09:00–21:00、週六日09:00–18:00，平日閉店時間不同。官方Facebook個人頁og:description明示營業時間見Google地圖商家最準確；本次未核對Google地圖當前營業時段與公休日，故保留待確認，不將矛盾來源填為已確認時間。"
+        "checkedAt": "2026-10-25",
+        "auditNote": "2026-10-25 查證子代理再次核對官方Instagram公開簡介，仍列週一至週五09:00–20:00、假日09:00–18:00；既有揪攤集店家資料列平日09:00–21:00、週六日09:00–18:00，平日閉店時間不同。主代理與子代理核對官方Facebook，簡介仍明示營業時間以Google地圖商家為準；本次未取得Google地圖當前完整營業時段及公休日，故不填定固定週表，維持unverified。"
       },
       "disabled": false,
       "latlng": {
