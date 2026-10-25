@@ -62,12 +62,12 @@
         "source": "https://www.zenolai.tw/"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/zenolai-campaign-headquarters.png?v=e1e85502aed4bda4",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/zenolai-campaign-headquarters.png?v=d69c0bb8bcc0c228",
         "source": "https://www.zenolai.tw/",
         "platform": "website",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "已確認官方網站「認識瑞隆」既有頭像位置 .about_left img；本站保存 512 × 512、完整置中、不放大；來源尺寸 1302 × 1418。"
+        "note": "已確認官方網站「認識瑞隆」既有頭像位置 .about_left img；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1302 × 1418。"
       },
       "disabled": false,
       "latlng": {
@@ -115,12 +115,12 @@
       "coordinateSource": "https://www.google.com/maps/place/%E8%91%89%E6%B0%8F%E8%B1%86%E5%8C%A0/@22.6664534,120.3158657,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0fd9e8ee773d:0x49b0a5eee3683ff2!8m2!3d22.6664534!4d120.3158657!16s%2Fg%2F11rpdd0s1b?entry=ttu&g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D",
       "coordinateNote": "2026-10-22 OSM Nominatim 完整地址及街道門牌結構化查詢皆無結果；店名搜尋僅出現不相關地點，未採用。改以 Playwright 瀏覽器開啟 Google Maps 地點，核對「葉氏豆匠」、高雄市三民區鼎泰里民族一路543巷16號、官網及電話0905-172-466，從地點網址 !3d22.6664534 與 !4d120.3158657 取得座標，非使用 @ 地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/yessoymilk-hedi.png?v=1d7e1328bfe79632",
-        "source": "https://www.instagram.com/yessoymilk2022/",
-        "platform": "instagram",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/yessoymilk-hedi.png?v=26853b485573dd26",
+        "source": "https://www.threads.com/@yessoymilk2022",
+        "platform": "threads",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；葉氏豆匠｜臺灣國產鮮濃豆漿 (@yessoymilk2022) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+        "note": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 640 × 640。"
       }
     },
     {
@@ -154,12 +154,12 @@
         "auditNote": "官方 Threads 簡介明載16:30–23:30及十月每週六店休，Instagram 簡介亦列16:30–23:30、週六公休，另提示雙十節三天店休。採本次一致的官方簡介，不採第三方較舊的16:00或17:00時段。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/howwow-dashe.png?v=180cb24406820857",
-        "source": "https://www.instagram.com/howwow168/",
-        "platform": "instagram",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/howwow-dashe.png?v=0d2009fede8dbd80",
+        "source": "https://www.facebook.com/howwow168/",
+        "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；好窩「大社創始店」 (@howwow168) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+        "note": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 581 × 573。"
       },
       "disabled": false,
       "latlng": {
@@ -200,12 +200,12 @@
         "auditNote": "官方 Threads、Instagram 簡介皆提示營業時間以Google地圖為準。Google Maps 僅顯示部分內容，首次預覽為週六15:30開始，重新載入並展開後僅見星期四15:00–18:00，未取得一致完整週表；官方近期貼文亦有平日開攤及臨時休息公告，故不填定固定營業時間與公休日。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/bltchcake.png?v=722918219dcba6d7",
-        "source": "https://www.instagram.com/bltchcake/",
-        "platform": "instagram",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/bltchcake.png?v=66823d1d6e95d93f",
+        "source": "https://www.facebook.com/bltchcake4/",
+        "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；賤人雞蛋糕feat.高雄打狗燒 (@bltchcake) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+        "note": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 719 × 720。"
       },
       "disabled": false,
       "latlng": {
@@ -245,12 +245,12 @@
         "auditNote": "本次官方 Threads 個人頁簡介明載完整週間時段及備料可能延後營業的註記；採官方現行資訊，不沿用較舊食記時段。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/sian-beauty.png?v=2f915025cfd0f4db",
-        "source": "https://www.instagram.com/sian.beauty/",
-        "platform": "instagram",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/sian-beauty.png?v=17bb7d9679cd03fe",
+        "source": "https://www.threads.com/@sian.beauty",
+        "platform": "threads",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；鮮丼生魚片龍華市場141攤 (@sian.beauty) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+        "note": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 486 × 486。"
       },
       "disabled": false,
       "latlng": {
@@ -293,12 +293,12 @@
         "auditNote": "米其林店家頁列週二至週日08:30–15:30、週一休；2026年2月13日食記則列07:30–15:30、週一休且售完提早打烊。起始時間不同，Facebook 直接讀取僅見登入或暫時封鎖頁，Instagram 可讀個人頁未列可核對的完整時段；未能以官方現行資訊解消矛盾，故不填定固定營業時間與公休日。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/sm3542.png?v=ee5159b54dcbec57",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/sm3542.png?v=1164949d0cebf183",
         "source": "https://www.facebook.com/sm3542/",
         "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；旗山秀明豬心冬粉 | Kaohsiung ；本站保存 512 × 512、完整置中、不放大；來源尺寸 720 × 716。"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；旗山秀明豬心冬粉 | Kaohsiung ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 716。"
       },
       "disabled": false,
       "latlng": {
@@ -346,12 +346,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11079816735",
       "coordinateNote": "2026-10-23 OSM Nominatim 完整地址查詢無結果，改以 street=99 文中路、city=旗山區、county=高雄市、country=臺灣 結構化查詢取得門牌節點11079816735，簡寫查詢亦取得相同節點。主代理另讀取 OSM 節點 API，核對 addr:full 為高雄市旗山區竹峰里10鄰文中路99號，行政區、街道、門牌及數值座標一致，節點資料來源標示高雄市政府；採與對外營業地址相符的門牌位置。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/changmei-qishan.png?v=b07f4506e4b51319",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/changmei-qishan.png?v=cad6f8bf167735b2",
         "source": "https://www.facebook.com/p/旗山-常美冰店-100057568535067/",
         "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；旗山 常美冰店 | Kaohsiung ；本站保存 512 × 512、完整置中、不放大；來源尺寸 720 × 720。"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；旗山 常美冰店 | Kaohsiung ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
       }
     },
     {
@@ -391,12 +391,12 @@
         "source": "https://www.instagram.com/huangjie_official/"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/huang-jie-service-office.png?v=7d1e986a47fdf330",
-        "source": "https://www.instagram.com/huangjie_official/",
-        "platform": "instagram",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/huang-jie-service-office.png?v=4e537054c71c87ea",
+        "source": "https://www.threads.com/@huangjie_official",
+        "platform": "threads",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；黃捷HuangJie (@huangjie_official) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+        "note": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 640 × 640。"
       },
       "disabled": false,
       "latlng": {
@@ -440,12 +440,12 @@
         "auditNote": "查證子代理與主代理直接讀取官方社群公開自介：Threads及Instagram列11點–17點、17點最後收客及點餐；Facebook列11:00–17:30、最後點餐17:00。打烊時間有差異，故標為unverified，不填定關店時間。公休日以官方Google地圖為準，不推定固定每週營業日；未採2023年食記的10:00–18:00、週二公休或商圈頁的部分營業日。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/meet-the-old-house-coffee.png?v=76a34d76025e1d76",
-        "source": "https://www.instagram.com/meet.the.old.house.coffee/",
-        "platform": "instagram",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/meet-the-old-house-coffee.png?v=3405ad7fc27f3768",
+        "source": "https://www.facebook.com/meet.the.old.house.coffee/",
+        "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；癒見老宅咖啡-高雄咖啡 高雄美食 寵物友善 (@meet.the.old.house.coffee) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+        "note": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
       },
       "disabled": false,
       "latlng": {
@@ -494,12 +494,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11081561853",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢完整地址無結果，再以簡化及結構化門牌查詢取得節點11081561853。主代理另讀OSM節點API，核對addr:full為高雄市左營區新上里27鄰正心街45號，門牌、道路及行政區均與官方Threads營業地址一致，來源為高雄市政府。採門牌數值座標22.6647764、120.3039957，未使用道路中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/qing-xiang-yuan-hakka.png?v=b7b8a718c903f231",
-        "source": "https://www.instagram.com/hakka075575518/",
-        "platform": "instagram",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/qing-xiang-yuan-hakka.png?v=c75b9f21016f8aea",
+        "source": "https://www.facebook.com/people/清香園客家美食/100063877627832/",
+        "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；清香園客家美食 (@hakka075575518) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+        "note": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
       }
     },
     {
@@ -544,12 +544,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082439785",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢，透過繼光街11號、高雄市、三民區結構化地址取得節點11082439785。主代理另讀OSM節點API，核對addr:full為高雄市三民區建東里1鄰繼光街11號，門牌、道路及行政區與官方Clinic資料現址一致，來源為高雄市政府。採門牌數值座標22.6372651、120.2992278，未使用道路中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/fu-fu-tang-tcm.png?v=a018984644f52f6d",
-        "source": "https://www.instagram.com/fu.fu.tang/",
-        "platform": "instagram",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/fu-fu-tang-tcm.png?v=8d7f0d884800bcbb",
+        "source": "https://www.threads.com/@fu.fu.tang",
+        "platform": "threads",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；福福堂中醫診所｜高雄｜健保｜自費 (@fu.fu.tang) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+        "note": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 640 × 640。"
       }
     },
     {
@@ -589,12 +589,12 @@
         "auditNote": "查證子代理與主代理直接讀取官方Instagram公開貼文，原文皆寫「表訂營業時間 中午10:00至晚上22:00」，另稱其他時間可LINE討論、目前暫無固定公休日並請提前預約。起始時間的「中午」與10:00有歧義，故不填定完整營業時段；保留預約制及無固定公休資訊，請先向官方LINE確認。官方Threads自介亦請至官方LINE預約。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/chun-massage.png?v=7b41a2d7d46646d3",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/chun-massage.png?v=db65e937692a9e8d",
         "source": "https://www.threads.com/@chun_massage",
         "platform": "threads",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；春·舒壓按摩工作室chun_massage (@chun_massage) • Threads, Say more；本站保存 512 × 512、完整置中、不放大；來源尺寸 640 × 640。"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；春·舒壓按摩工作室chun_massage (@chun_massage) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 640 × 640。"
       },
       "disabled": false,
       "latlng": {
@@ -636,12 +636,12 @@
         "auditNote": "查證子代理核對官方Threads與Instagram自介，主代理另直接讀取官方Threads確認Hours:11：20~售完為止（最晚到15:00）。官方列有當月店休日期，故不採舊食記的固定週三公休；休假異動請以官方公告為準。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/smoko-salad-bar.png?v=5a5bab09a3946376",
-        "source": "https://www.instagram.com/smokosaladbar/",
-        "platform": "instagram",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/smoko-salad-bar.png?v=ab1e246ea163c6b0",
+        "source": "https://www.facebook.com/smokosaladbar/",
+        "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Smoko Salad Bar (@smokosaladbar) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+        "note": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
       },
       "disabled": false,
       "latlng": {
@@ -693,12 +693,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082772478",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap Nominatim結構化查詢河北路206號、高雄市、苓雅區取得門牌節點11082772478。主代理另讀OSM節點API核對addr:full為高雄市苓雅區五權里12鄰河北路206號，行政區、道路與門牌均與議會服務處地址一致，資料來源為高雄市政府。採門牌數值座標22.6304584、120.3229119，未使用道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/kuo-chien-meng-service-office.png?v=b6ed9d9ada79c256",
-        "source": "https://www.instagram.com/kcc382001/",
-        "platform": "instagram",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/kuo-chien-meng-service-office.png?v=1b48eff7f96ca5c2",
+        "source": "https://www.facebook.com/GaoXiongShiYiYuanGuoJianMeng/",
+        "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；郭建盟 (@kcc382001) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+        "note": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
       }
     },
     {
@@ -739,12 +739,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082641823",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢完整地址無結果，再以文化路23號、高雄市、新興區結構化查詢取得門牌節點11082641823。主代理另讀OSM節點API，核對addr:full為高雄市新興區浩然里16鄰文化路23號四樓，行政區、道路及門牌與店家資料一致，資料來源為高雄市政府。採同門牌數值座標22.623913、120.3064522；節點附帶四樓標籤，僅採門牌位置，不據以推定店家營業樓層，未使用道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/faguozi-skewers.png?v=3bc2ae47bbc9848a",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/faguozi-skewers.png?v=66d1223a554f058b",
         "source": "https://www.instagram.com/uniqueyaki/",
         "platform": "instagram",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；法果子小串烤 新興區宵夜/I人獨食首選 (@uniqueyaki) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+        "note": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1080 × 1080。"
       }
     },
     {
@@ -788,12 +788,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11081639594",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap自由文字地址查詢無結果，再以新勝街21號、高雄市、左營區結構化查詢取得門牌節點11081639594。主代理另讀OSM節點API，核對addr:full為高雄市左營區新下里30鄰新勝街21號，行政區、道路及門牌與商圈官方及店家會員頁地址一致，資料來源為高雄市政府。採門牌數值座標22.6688936、120.2998419，未使用道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/miss-mimi-coffee.png?v=8c2a92212c9a4901",
-        "source": "https://www.instagram.com/miss.mimi.coffee/",
-        "platform": "instagram",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/miss-mimi-coffee.png?v=4b0d506663ae1f0a",
+        "source": "https://www.facebook.com/miss.mimi.cafe/",
+        "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Miss Mimi (@miss.mimi.coffee) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+        "note": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 960 × 679。"
       }
     },
     {
@@ -835,12 +835,12 @@
       "coordinateSource": "https://www.google.com/maps/place/%E6%AD%A3%E6%9D%BE%E9%BA%B5%E8%88%96+Song%E2%80%99s+Noodles/@22.6311708,120.2911751,17z/data=!3m1!4b1!4m6!3m5!1s0x346e05ad94a368fb:0xfc342770fa7e26a2!8m2!3d22.6311708!4d120.2911751!16s%2Fg%2F11z4vl509n?entry=ttu",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址及結構化門牌查詢，均無結果；再透過Playwright瀏覽Google Maps地點頁，核對正松麵舖 Song’s Noodles、801009高雄市前金區新生里自強一路83巷63號及電話07 211 0001，店家網站連至官方Instagram song202605。採地點網址!3d22.6311708、!4d120.2911751的數值座標，未使用@地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/zheng-song-noodles.png?v=5fd6c8976b24d96f",
-        "source": "https://www.instagram.com/song202605/",
-        "platform": "instagram",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/zheng-song-noodles.png?v=bac8e35aa0d4d4f6",
+        "source": "https://www.threads.com/@song202605?xmt=AQG0GiYHjVSqSr6Ld9FSjdcPoKCi9TuQSCrk2s4TVXOr_ME",
+        "platform": "threads",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；正松麵舖 (@song202605) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；正松麵舖 (@song202605) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 640 × 640。"
       }
     },
     {
@@ -883,12 +883,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/5057927924",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以林森一路146巷2號、高雄市結構化查詢取得咖啡店節點5057927924。主代理另讀OSM節點API，確認name為灰。咖啡、amenity為cafe、addr:full為高雄市新興區林森一路146巷2號，行政區、道路及門牌均與高雄電影節官方名單及店家Instagram簡介一致。採店家節點數值座標22.6292185、120.3045738，未使用道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/hway-coffee-kaohsiung.png?v=c93c4bbfadcdea5a",
-        "source": "https://www.instagram.com/hwaycoffee.taiwan/",
-        "platform": "instagram",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/hway-coffee-kaohsiung.png?v=bb4351c7a6f0d685",
+        "source": "https://www.facebook.com/hwaycoffee.taiwan/",
+        "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；灰咖啡Hway Coffee,Taiwan. (@hwaycoffee.taiwan) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+        "note": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 467 × 466。"
       }
     },
     {
@@ -930,12 +930,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082721178",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以26 大同二路、高雄市、前金區結構化門牌查詢取得節點11082721178。主代理另讀OSM節點API，確認addr:full為高雄市前金區民生里10鄰大同二路26號，行政區、道路及門牌均與指定地址及店家介紹一致，門牌資料來源為高雄市政府。採門牌數值座標22.6272514、120.2953692，未使用道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/qianjin-braised-pork-rice.png?v=4509280309ec8a58",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/qianjin-braised-pork-rice.png?v=baa68db3dab3b097",
         "source": "https://www.facebook.com/profile.php?id=100063744920382",
         "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；前金肉燥飯 | Kaohsiung ；本站保存 512 × 512、完整置中、不放大；來源尺寸 600 × 450。"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；前金肉燥飯 | Kaohsiung ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 600 × 450。"
       }
     },
     {
@@ -972,12 +972,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082251113",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以133 鼓山一路、高雄市、鼓山區結構化查詢取得門牌節點11082251113。主代理另讀OSM節點API，確認addr:full為高雄市鼓山區山下里13鄰鼓山一路133號、addr:housenumber為133號，資料來源為高雄市政府。採門牌數值座標22.6289071、120.2797618，非133之1號、道路中心或地圖視窗中心；此座標確認門牌位置，不代表獨立確認店家營業地址。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/taitai-sewing-studio.png?v=53c5ea3b6d4f7d97",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/taitai-sewing-studio.png?v=3562d3e0bc71b4f5",
         "source": "https://www.instagram.com/_momshandmade_/",
         "platform": "instagram",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；太太車縫室｜手作教室｜造型安撫娃娃｜客製化服務 (@_momshandmade_) • Instagram photos and videos；本站保存 512 × 512、完整置中、不放大；來源尺寸 100 × 100。"
+        "note": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1080 × 1080。"
       }
     }
   ],
