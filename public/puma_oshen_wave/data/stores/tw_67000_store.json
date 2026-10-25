@@ -22,7 +22,8 @@
     "美髮",
     "農業",
     "洋流服務站",
-    "其它"
+    "其它",
+    "咖啡豆"
   ],
   "stores": [
     {
@@ -4029,7 +4030,7 @@
     {
       "id": "dancing-sheep-coffee",
       "verification": true,
-      "category": "咖啡廳",
+      "category": "咖啡豆",
       "giftStatus": "可能有小物",
       "disabled": false,
       "name": "跳舞的羊咖啡豆專賣店",
