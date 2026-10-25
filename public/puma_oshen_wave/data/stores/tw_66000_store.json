@@ -66,12 +66,13 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8535011265",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址（台中／臺中）查詢無結果，改用street=7 華美西街一段195巷1弄、city=臺中市、county=西區、country=Taiwan結構化查詢取得精確門牌節點8535011265。子代理及主代理分別讀取OSM節點API，核對addr:full為臺中市西區忠誠里17鄰華美西街一段195巷1弄7號，行政區、街道及門牌與官方對外地址相符；採節點數值座標，非道路中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/wanchataiwan.png?v=b7b8157b1eb8aea8",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/wanchataiwan/logo.webp?v=91e57d2a06f813a1",
         "source": "https://www.facebook.com/WanChaTaiwan/",
         "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 522 × 522。"
+        "note": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 522 × 522。",
+        "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/wanchataiwan.png?v=b7b8157b1eb8aea8"
       }
     },
     {
@@ -112,12 +113,13 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8535014721",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，改用street=96 華美街、city=臺中市、country=Taiwan結構化查詢取得精確門牌節點8535014721。主代理讀取OSM節點API，確認addr:full為臺中市西區昇平里33鄰華美街96號，行政區、街道及門牌與官方對外地址相符；採節點數值座標，為門牌位置，非道路中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/thisishopein.png?v=640c594f7fc1fa83",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/thisishopein/logo.webp?v=64b2ff29cdd34c55",
         "source": "https://www.threads.com/@thisishopein",
         "platform": "threads",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 640 × 640。"
+        "note": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 640 × 640。",
+        "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/thisishopein.png?v=640c594f7fc1fa83"
       }
     }
   ],

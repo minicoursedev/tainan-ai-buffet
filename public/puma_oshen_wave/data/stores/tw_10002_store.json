@@ -56,12 +56,13 @@
         "auditNote": "官方Instagram簡介列11:00–17:30及「店休：請看粉專」，官方Threads 2026-09-29貼文公告隔日11:00–17:30，時段一致。未確認固定每週休息日，不推定每日營業；店休日依官方粉專公告。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/cafe-sanpo-yilan.png?v=5a1bc09b5994fcb9",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/cafe-sanpo-yilan/logo.webp?v=fc3e3651b969af6f",
         "source": "https://www.threads.com/@2015cafesanpo",
         "platform": "threads",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；散步咖啡 (@2015cafesanpo) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 640 × 640。"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；散步咖啡 (@2015cafesanpo) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 640 × 640。",
+        "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/cafe-sanpo-yilan.png?v=5a1bc09b5994fcb9"
       },
       "disabled": false,
       "latlng": {
