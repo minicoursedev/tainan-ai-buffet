@@ -1054,6 +1054,54 @@
         "note": "官方Threads個人頁的og:url與指定帳號相符；頁面明示640px頭像版本，CDN路徑t51.2885-19為個人頭像資源。已讀取原始完整簽章網址，HTTP 200、Content-Type image/jpeg，JPEG尺寸640×640；目視為印有洋洋本屋與FOREVER YOUNG BOOKS的黑白書本Logo，非貼文或封面。Instagram公開頁另僅提供100px分享縮圖，未採用或放大；未改寫圖片尺寸或簽章參數。新店尚未產生圖片網址，url留空。",
         "originalUrl": "https://scontent-sin2-2.cdninstagram.com/v/t51.2885-19/483660270_943414108000450_1167850638288821745_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=b3fa00&_nc_aid=0&_nc_ohc=RPxgWL5pg9AQ7kNvwFroSa_&_nc_oc=AdpLVBzEoWqcSPWlAh4-3yj5Ykbwamp5y5qRDCF43iy5L02wkYJKlf_meFhkpCTnopk&_nc_zt=24&_nc_ht=scontent-sin2-2.cdninstagram.com&_nc_ss=7f20f&oh=00_AQNEfhWZinECPog2X2cikbpH-kjZRa7DVUVGC7ExT_wgaA&oe=6AE3DF7B"
       }
+    },
+    {
+      "id": "seaslugcoffee",
+      "verification": false,
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "細斯拉格咖啡 Seaslug Coffee",
+      "address": "高雄市苓雅區文山路111號",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/seaslugcoffee/",
+        "threads": "https://www.threads.com/@seaslugcoffee"
+      },
+      "sources": [
+        "https://www.threads.com/@seaslugcoffee",
+        "https://www.instagram.com/seaslugcoffee/",
+        "https://devonsusu.com/seaslugcoffee/",
+        "https://myship.7-11.com.tw/general/detail/GM2201031594754",
+        "https://www.openstreetmap.org/node/11082808037"
+      ],
+      "verifiedAt": "2026-10-25",
+      "verificationNote": "使用者指定Threads帳號收錄，新增店家verification依本次指示設為JSON布林值false。查證子代理及主代理核對官方Threads、Instagram公開頁與實際外連，Threads簡介明列店面Seaslug Coffee及高雄市苓雅區文山路111號；官方展示名稱與食記使用「細斯拉格咖啡」，Threads簡介另作「細絲拉格咖啡」。Instagram由食記實際外連確認，官方簡介說明以海蛞蝓為主題、提供咖啡豆與現場咖啡品嘗，分類咖啡廳。已比對全部157筆既有紀錄（含disabled）的店名、地址與社群，未發現重複。未確認官方Facebook，留空。",
+      "openingHours": {
+        "status": "verified",
+        "text": "10:00–19:00。\n公休日未明示，請以官方社群公告為準。",
+        "sources": [
+          "https://www.instagram.com/seaslugcoffee/",
+          "https://devonsusu.com/seaslugcoffee/"
+        ],
+        "checkedAt": "2026-10-25",
+        "auditNote": "官方Instagram公開資料簡介明列「營業時間：早上十點到晚上七點」，2026-02-14食記同列10:00–19:00。官方資料未明示固定營業日或公休日，不推定全年無休；食記春節特殊營業公告不作一般週表。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6284959,
+        "lng": 120.3396082
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11082808037",
+      "coordinateNote": "2026-10-25 查證子代理優先查詢OpenStreetMap，以Nominatim結構化street=111 文山路、city=高雄市、county=苓雅區、country=臺灣取得門牌節點11082808037；主代理另讀OSM節點API，確認addr:full為高雄市苓雅區正義里12鄰文山路111號、門牌111號及行政區苓雅區，來源為高雄市政府。座標22.6284959、120.3396082為符合官方地址的門牌位置，未採道路中心或地圖視窗中心。",
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.threads.com/@seaslugcoffee",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方Threads個人頁og:url與指定帳號相符；頁面原生明示640px影像，CDN的t51.2885-19路徑為個人頭像資源。查證子代理與主代理讀取原始完整簽章網址均HTTP 200、Content-Type image/jpeg，子代理解析JPEG實際尺寸640×640；主代理目視確認為棕底白色海蛞蝓圖案，附SEA SLUG COFFEE及「細絲拉格」店名的品牌Logo，非貼文或封面。Instagram僅提供100px版本，未採用或放大；未改寫CDN尺寸或簽章參數。新店圖片網址留空。",
+        "originalUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/474043141_1291737925203655_5154116615850387851_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=CLinXiwbvlQQ7kNvwGGV0ov&_nc_oc=Adr0BYmxO_cb5KkZRnx8jQRFCx4tTMNlU0Rrowid_f-nvF2Sw268-BdkxG2DTE8RabY&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_ss=7920f&oh=00_AQOJ8mz32Kqa7oU3o9U6K_3H64Xg1gEnKluiFBWrAJXudQ&oe=6AE3E61D"
+      }
     }
   ],
   "pendingStores": []
