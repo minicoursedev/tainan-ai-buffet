@@ -3506,10 +3506,10 @@
       "discoveryVersion": 3
     },
     "dancing-sheep-coffee": {
-      "lastAttempt": "2026-10-25T11:01:50+08:00",
+      "lastAttempt": "2026-10-26T07:27:57+08:00",
       "result": "updated",
-      "reason": "取得較高解析度官方頭像",
-      "sha256": "f8dab9bd31e6cab0b7bc4eebd657e70e6f1103fb61d5caf5cdae5542bc70b9f2",
+      "reason": "來源頭像內容改變",
+      "sha256": "c1983c126c22e20a7bae93064d36435bccf38db8cb0daf3a89bfb1bbf8ee16ed",
       "contentBox": [
         0,
         0,
@@ -3517,29 +3517,52 @@
         256
       ],
       "sourceSize": [
-        1080,
-        1080
+        320,
+        320
       ],
       "imageValidators": {
-        "last-modified": "Mon, 13 Oct 2025 07:18:11 GMT"
+        "last-modified": "Mon, 13 Oct 2025 07:37:45 GMT"
       },
-      "source": "https://www.instagram.com/dancingsheepdn/",
-      "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/563323927_17846667567583434_315822764943055491_n.jpg?_nc_cat=104&ig_cache_key=GBekkyHKUMoYc2c-AIOaaaQhB2IEbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=K219vogez3oQ7kNvwGTWCCB&_nc_oc=AdpO8Sq-iY-GuVIZtpJ7rEsQ3ZnQq4V9ojdHOCOFn4F1bTV4h75tBo-1z1wxvGhpWPg&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=TU7djyakEL28l6W60v_1JQ&_nc_ss=7b6a8&oh=00_AQPk4zGG838Fxi3FrCAI42FVFgZ-ROv6-WZUD6LEb2hnCQ&oe=6AE335A8",
-      "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
+      "source": "https://www.threads.com/@dancingsheepdn?xmt=AQG0pNN-9MQObzIxbIYb6H9yzHSdf5BQfxiED90kpte3g74",
+      "imageUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-19/562275664_17847524547580221_8881379629738511539_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fkhh1-2.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gGNkFItFVEaS5klK3_L2GaVs5iKbUMi9kGXavO8SJX3RtuVMOR8xxlec7zio090M7k&_nc_ohc=fZMwz082qEwQ7kNvwHNuhUA&_nc_gid=Dmk6MASA7uIFP534yxKTNA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQOKW1wDYn5ezyCyaL_aCn8-0KlKhWufSjj2oXGj7OSs3g&oe=6AE457F2&_nc_sid=10d13b",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；跳舞的羊咖啡屋 (@dancingsheepdn) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
       "filename": "dancing-sheep-coffee/logo.webp",
-      "lastSuccess": "2026-10-25T11:01:50+08:00",
+      "lastSuccess": "2026-10-26T07:27:57+08:00",
       "sourceValidators": {},
       "qualityChecks": [
         {
           "source": "https://www.instagram.com/dancingsheepdn/",
           "platform": "instagram",
-          "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/563323927_17846667567583434_315822764943055491_n.jpg?_nc_cat=104&ig_cache_key=GBekkyHKUMoYc2c-AIOaaaQhB2IEbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=K219vogez3oQ7kNvwGTWCCB&_nc_oc=AdpO8Sq-iY-GuVIZtpJ7rEsQ3ZnQq4V9ojdHOCOFn4F1bTV4h75tBo-1z1wxvGhpWPg&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=TU7djyakEL28l6W60v_1JQ&_nc_ss=7b6a8&oh=00_AQPk4zGG838Fxi3FrCAI42FVFgZ-ROv6-WZUD6LEb2hnCQ&oe=6AE335A8",
+          "imageUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/563323927_17846667567583434_315822764943055491_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=K219vogez3oQ7kNvwGTWCCB&_nc_oc=AdpO8Sq-iY-GuVIZtpJ7rEsQ3ZnQq4V9ojdHOCOFn4F1bTV4h75tBo-1z1wxvGhpWPg&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=t5I8j8kxkocISAXE_EpQTQ&_nc_ss=7d60f&oh=00_AQMLFoJioSXCzWoih5ATWrVbLfQ-JMSjppLieBMfz4QPaQ&oe=6AE44EE8",
           "size": [
-            1080,
-            1080
+            150,
+            150
           ],
-          "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-          "result": "sufficient"
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；跳舞的羊咖啡屋 (@dancingsheepdn) • Instagram photos and videos；相同帳號公開資料 profile_pic_url",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.instagram.com/dancingsheepdn/",
+          "platform": "instagram",
+          "imageUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/563323927_17846667567583434_315822764943055491_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=104&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=K219vogez3oQ7kNvwGTWCCB&_nc_oc=AdpO8Sq-iY-GuVIZtpJ7rEsQ3ZnQq4V9ojdHOCOFn4F1bTV4h75tBo-1z1wxvGhpWPg&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=wPwFTGDTxrU45lnCsc2tpA&_nc_ss=7d689&oh=00_AQOb0xmF4Gmm4jV72Y47QD-mZT39bd7WDomxhfGiIIWagg&oe=6AE44EE8",
+          "size": [
+            100,
+            100
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；跳舞的羊咖啡屋 (@dancingsheepdn) • Instagram photos and videos",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.threads.com/@dancingsheepdn?xmt=AQG0pNN-9MQObzIxbIYb6H9yzHSdf5BQfxiED90kpte3g74",
+          "platform": "threads",
+          "imageUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-19/562275664_17847524547580221_8881379629738511539_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fkhh1-2.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gGNkFItFVEaS5klK3_L2GaVs5iKbUMi9kGXavO8SJX3RtuVMOR8xxlec7zio090M7k&_nc_ohc=fZMwz082qEwQ7kNvwHNuhUA&_nc_gid=Dmk6MASA7uIFP534yxKTNA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQOKW1wDYn5ezyCyaL_aCn8-0KlKhWufSjj2oXGj7OSs3g&oe=6AE457F2&_nc_sid=10d13b",
+          "size": [
+            320,
+            320
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；跳舞的羊咖啡屋 (@dancingsheepdn) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+          "result": "sufficient",
+          "linkedFrom": "https://www.instagram.com/dancingsheepdn/"
         }
       ],
       "discoveryVersion": 3
@@ -4809,19 +4832,19 @@
         "last-modified": "Wed, 09 Sep 2026 12:29:04 GMT"
       },
       "source": "https://www.facebook.com/rozocafe/",
-      "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/801786073_1514160460727494_7905195359637346417_n.jpg?stp=dst-jpg_tt6&cstp=mx1417x1417&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Bw_oqxWRRkAQ7kNvwEvZFHC&_nc_oc=AdpEX06rXNEE2o5uUAqXJKfpk2MI9Cz-0Aoz1SIX5IsYC41pZRHS12TFBGercvSwR2w&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=vH9beQPFIzYHF2KaEVM7wQ&_nc_ss=7320f&oh=00_AQOSpMXvFixuS1jUZMag4J0w50f06WZ2XLbRgdPlunPaoQ&oe=6AE331C7",
+      "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/801786073_1514160460727494_7905195359637346417_n.jpg?stp=dst-jpg_tt6&cstp=mx1417x1417&ctp=s720x720&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zlT1NHvvhmEQ7kNvwGO9bcA&_nc_oc=Ado9lTo56SwN3LGs966EenhSR93xcbDhx3XGYblVsZS-zcCx1wdCUHTbuE21pT1uptE&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=7IXF7XCaeU8ccpOVURSHOw&_nc_ss=7920f&oh=00_AQMmQKB70i7dEXG3Ptd-emeVFuIxnG4Q0wUEI3OyyCIEDw&oe=6AE44B07",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；般若咖啡 Rozo cafe | Tainan ",
       "filename": "rozo-cafe/logo.webp",
-      "lastSuccess": "2026-10-25T11:02:42+08:00",
+      "lastSuccess": "2026-10-26T07:27:58+08:00",
       "sourceValidators": {},
-      "lastAttempt": "2026-10-25T11:02:42+08:00",
-      "result": "updated",
-      "reason": "來源頭像內容改變",
+      "lastAttempt": "2026-10-26T07:27:58+08:00",
+      "result": "unchanged",
+      "reason": "像素內容相同或僅有輕微轉碼差異",
       "qualityChecks": [
         {
           "source": "https://www.facebook.com/rozocafe/",
           "platform": "facebook",
-          "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/801786073_1514160460727494_7905195359637346417_n.jpg?stp=dst-jpg_tt6&cstp=mx1417x1417&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Bw_oqxWRRkAQ7kNvwEvZFHC&_nc_oc=AdpEX06rXNEE2o5uUAqXJKfpk2MI9Cz-0Aoz1SIX5IsYC41pZRHS12TFBGercvSwR2w&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=vH9beQPFIzYHF2KaEVM7wQ&_nc_ss=7320f&oh=00_AQOSpMXvFixuS1jUZMag4J0w50f06WZ2XLbRgdPlunPaoQ&oe=6AE331C7",
+          "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/801786073_1514160460727494_7905195359637346417_n.jpg?stp=dst-jpg_tt6&cstp=mx1417x1417&ctp=s720x720&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zlT1NHvvhmEQ7kNvwGO9bcA&_nc_oc=Ado9lTo56SwN3LGs966EenhSR93xcbDhx3XGYblVsZS-zcCx1wdCUHTbuE21pT1uptE&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=7IXF7XCaeU8ccpOVURSHOw&_nc_ss=7920f&oh=00_AQMmQKB70i7dEXG3Ptd-emeVFuIxnG4Q0wUEI3OyyCIEDw&oe=6AE44B07",
           "size": [
             720,
             720
@@ -6105,6 +6128,45 @@
       "discoveryVersion": 3,
       "sourceValidators": {},
       "lastAttempt": "2026-10-26T00:09:04+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "99iinn": {
+      "qualityChecks": [
+        {
+          "source": "https://www.threads.com/@99iinn",
+          "platform": "threads",
+          "imageUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-19/845287799_17895303669610891_447515931552795277_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMxIn0&_nc_ht=instagram.fkhh1-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gH3qHQneF0G2MtK7_5K_hKnoXyFZbH44glYe7fl19enOXnEXB2ZF7T8cZ0mwu2En2E&_nc_ohc=JQEDmD7Qm0kQ7kNvwF7ObrX&_nc_gid=NyL-UTnFYaRE0Y2SCi8fMg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQNMyRFL9mYVcO4vr9daEErDKyKfGtLvTjTtHmch6WW_1A&oe=6AE45D00&_nc_sid=10d13b",
+          "size": [
+            320,
+            320
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；玖愛印數位雲端印刷網 (@99iinn) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "1c2c860ba0afcf76fd94beb375bc344f527453624b3e8c9ac249f1cba2a130ee",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        320,
+        320
+      ],
+      "imageValidators": {
+        "last-modified": "Mon, 12 Oct 2026 14:53:51 GMT"
+      },
+      "source": "https://www.threads.com/@99iinn",
+      "imageUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-19/845287799_17895303669610891_447515931552795277_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMxIn0&_nc_ht=instagram.fkhh1-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gH3qHQneF0G2MtK7_5K_hKnoXyFZbH44glYe7fl19enOXnEXB2ZF7T8cZ0mwu2En2E&_nc_ohc=JQEDmD7Qm0kQ7kNvwF7ObrX&_nc_gid=NyL-UTnFYaRE0Y2SCi8fMg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQNMyRFL9mYVcO4vr9daEErDKyKfGtLvTjTtHmch6WW_1A&oe=6AE45D00&_nc_sid=10d13b",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；玖愛印數位雲端印刷網 (@99iinn) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+      "filename": "99iinn/logo.webp",
+      "lastSuccess": "2026-10-26T07:28:01+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-26T07:28:01+08:00",
       "result": "updated",
       "reason": "首次保存"
     }
