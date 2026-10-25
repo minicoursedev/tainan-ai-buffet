@@ -57,7 +57,7 @@ function setDirectory(showDesigners, updateHistory = true) {
   if (showDesigners) {
     const url = new URL('./designer/', location.href);
     const id = new URL(location.href).searchParams.get('designer');
-    url.hash = id ? `/designer/${encodeURIComponent(id)}` : '/list';
+    if (id) url.hash = `/designer/${encodeURIComponent(id)}`;
     location.replace(url.href);
     return;
   }
