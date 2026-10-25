@@ -121,6 +121,52 @@
         "note": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 640 × 640。",
         "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/thisishopein.png?v=640c594f7fc1fa83"
       }
+    },
+    {
+      "id": "yuantea1983",
+      "verification": false,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "原韻茶庄",
+      "address": "台中市烏日區三榮北一路19-21號",
+      "social": {
+        "facebook": "https://www.facebook.com/61552790738076",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://yuantea1983.my1shop.com/",
+        "https://www.facebook.com/61552790738076",
+        "https://www.openstreetmap.org/node/8550135335"
+      ],
+      "verifiedAt": "2026-10-25",
+      "verificationNote": "使用者提供官網指定收錄，新增店家verification依本次指示設為JSON布林值false。查證子代理及主代理核對官網，店名為原韻茶庄，頁尾明列烏日區三榮北一路19-21號為品茶地址，並要求提前預約；非僅以公司登記推定對外地址。官網「追蹤原韻茶庄」實際連至Facebook帳號61552790738076，該頁名稱為梨山原韻茶庄，與官網及Logo相符。依茶葉、茶包與茶具販售及預約品茶內容歸甜點飲料。已比對全部157筆既有紀錄（含disabled）的店名、地址與社群，未發現重複。未找到可確認的官方Instagram或Threads，留空。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週一至週六 09:30–22:00；週日公休。\n品茶請提前預約。",
+        "sources": [
+          "https://yuantea1983.my1shop.com/"
+        ],
+        "checkedAt": "2026-10-25",
+        "auditNote": "官方頁尾明載營業時間9:30–22:00、週日公休，並明示品茶請提前預約；查證子代理與主代理均直接核對官網。"
+      },
+      "visitNote": "品茶請提前預約；官網客服專線0905-806-881。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1077477,
+        "lng": 120.6038748
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8550135335",
+      "coordinateNote": "2026-10-25 查證子代理先以OpenStreetMap完整19-21號地址查詢無結果，拆開門牌後以street=21 三榮北一路、city=臺中市、county=烏日區、country=Taiwan結構化查詢取得門牌節點8550135335。主代理另讀OSM節點API，確認行政區、三榮北一路及21號相符，數值座標24.1077477、120.6038748。該節點記錄七樓之1，僅採官網19-21號範圍內21號建物門牌位置，不推論店家樓層、單位或入口；非道路或地圖視窗中心。",
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.facebook.com/61552790738076",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官網實際外連此Facebook帳號，公開頁標題為梨山原韻茶庄 | Taichung。頁內profile_name相鄰image_url的200px頭像與頁面明示720px版本具有相同圖片識別路徑399829820_122110703714093024_5569662619369640767_n.jpg，據此確認為官方個人頭像，非僅憑og:image推定。查證子代理以頁面原樣提供的完整簽章網址在記憶體核對HTTP 200、image/jpeg、720×720；主代理再次核對圖片回應並目視為原韻茶庄梨山字樣Logo。未改寫尺寸或簽章參數，未放大小圖，未下載轉存。新店尚未產生圖片網址，url留空。",
+        "originalUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/399829820_122110703714093024_5569662619369640767_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=at7kkFpuAxQQ7kNvwEY9jZn&_nc_oc=AdpH6Y6lPYcssIcuqUmyNuoFqvELvh4RwCZ48k4FL3_dHx0u8FurGR60b5zVWR1qkIs&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=SNjsECdCHrQ4QSz8RwDwng&_nc_ss=7920f&oh=00_AQOYOvdTLeMs3aBoIscx_GweM3g2UKMHAkickgfyOLq_0g&oe=6AE3F96F"
+      }
     }
   ],
   "pendingStores": []
