@@ -182,8 +182,8 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     const old = [...imgs.entries()].filter(([, e]) => e.used < frameNo - 1 && e.st !== 'loading' && !e.keep).sort((a, b) => a[1].used - b[1].used);
     for (let i = 0; i < old.length && imgs.size > IMG_MAX - 40; i++) imgs.delete(old[i][0]);
   }
-  function drawFit(cv, x, y, w, h, squash) {
-    const ar = w / (h / squash), iar = cv.width / cv.height;
+  function drawFit(cv, x, y, w, h) {
+    const ar = w / h, iar = cv.width / cv.height;
     let sx = 0, sy = 0, sw = cv.width, sh = cv.height;
     if (iar > ar) { sw = sh * ar; sx = (cv.width - sw) / 2; } else { sh = sw / ar; sy = (cv.height - sh) * 0.3; }
     c.drawImage(cv, sx, sy, sw, sh, x, y, w, h);
@@ -324,14 +324,20 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     c.fillStyle = PAPER; c.fill(); c.strokeStyle = INK; c.lineWidth = 1.2; c.stroke();
     line(x + w * 0.22, y + h * 0.8, x + w * 0.78, y + h * 0.62);
   }
-  function cover(w, x, y, wd, ht, squash = 1) {
+  function cover(w, x, y, wd, ht, contain = false) {
     if (!w) {
       c.fillStyle = PAPER2; c.fillRect(x, y, wd, ht);
       c.strokeStyle = INK; c.lineWidth = 1.2; c.strokeRect(x, y, wd, ht);
       return;
     }
     const img = getImg(w.cover);
-    if (img) drawFit(img, x, y, wd, ht, squash); else blank(x, y, wd, ht);
+    if (img && contain) {
+      const ratio = Math.min(wd / img.width, ht / img.height);
+      const iw = img.width * ratio, ih = img.height * ratio;
+      c.fillStyle = PAPER; c.fillRect(x, y, wd, ht);
+      c.drawImage(img, x + (wd - iw) / 2, y + (ht - ih) / 2, iw, ih);
+    } else if (img) drawFit(img, x, y, wd, ht);
+    else blank(x, y, wd, ht);
     c.strokeStyle = INK; c.lineWidth = 1.5; c.strokeRect(x, y, wd, ht);
   }
   function stamp(x, y) {
@@ -348,7 +354,14 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     if (isVisited(b.id)) stamp(cx - w / 2 + 1, cy - h / 2 + 1);
   }
   const storeName = b => (data.stores[b.store] && data.stores[b.store].name) || '';
-  const three = works => [works[0], works[1], works[2]];
+  const logoOf = b => data.stores[b.store]?.avatar || '';
+  function squareDisplay(b, x, y, size) {
+    const gap = 4, small = (size - gap) / 2;
+    const logo = logoOf(b);
+    cover(logo ? { cover: logo } : null, x, y, size, size, true);
+    cover(b.works[0], x + size + gap, y, small, small);
+    cover(b.works[1], x + size + gap, y + small + gap, small, small);
+  }
 
   function tableDecor(B) {
     const { x, h } = B;
@@ -381,13 +394,9 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     c.lineWidth = 1.4; line(px, py + 15, px + pw, py + 15);
     c.fillStyle = INK; c.font = `700 10.5px ${FONT}`;
     c.fillText(fit(storeName(b), pw - 8), cx, py + 8.5);
-    const ws = three(b.works);
-    const gx = px + 4, gy = py + 19, gh = ph - 23;
-    const bigW = Math.round(gh * 0.7);
-    const sw = pw - 8 - bigW - 4, sh = (gh - 4) / 2;
-    cover(ws[0], gx, gy, bigW, gh);
-    cover(ws[1], gx + bigW + 4, gy, sw, sh);
-    cover(ws[2], gx + bigW + 4, gy + sh + 4, sw, sh);
+    const size = Math.min(ph - 23, (pw - 10) * 2 / 3);
+    const width = size + 4 + (size - 4) / 2;
+    squareDisplay(b, cx - width / 2, py + 19 + (ph - 23 - size) / 2, size);
     // table top
     poly([[x + 1, Y.TABLE_N], [x + BW - 1, Y.TABLE_N], [x + BW - 6, Y.BACK], [x + 6, Y.BACK]]);
     c.fillStyle = PAPER; c.fill(); c.strokeStyle = INK; c.lineWidth = 2; c.stroke();
@@ -402,7 +411,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     plate(cx, 181, b, full, near);
   }
   function boothS(B) {
-    const { b, x, cx, h } = B;
+    const { b, x, cx } = B;
     const near = nearId === b.id, full = near || hover === b.id;
     // front of the table, seen at a steep angle
     c.fillStyle = B.h % 2 ? GREEN_SOFT : PINK_SOFT; c.fillRect(x + 1, Y.AISLE_BOT, BW - 2, Y.FRONT_S - Y.AISLE_BOT);
@@ -410,18 +419,10 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     // table top
     c.fillStyle = PAPER; c.fillRect(x + 1, Y.FRONT_S, BW - 2, Y.TABLE_S - Y.FRONT_S);
     c.strokeRect(x + 1, Y.FRONT_S, BW - 2, Y.TABLE_S - Y.FRONT_S);
-    // three covers lying flat, a little foreshortened and hand placed
-    const ws = three(b.works);
-    const cw = 27, ch = 31, gap = 8, sx = cx - (3 * cw + 2 * gap) / 2;
-    for (let i = 0; i < 3; i++) {
-      if (!ws[i]) continue;
-      const ox = sx + i * (cw + gap) + cw / 2, oy = Y.FRONT_S + 9 + ch / 2;
-      const rot = (((h >>> (i * 4)) & 15) - 7.5) * 0.006;
-      c.save(); c.translate(ox, oy); c.rotate(rot);
-      c.fillStyle = T.t3; c.fillRect(-cw / 2 + 2.5, -ch / 2 + 2.5, cw, ch);
-      cover(ws[i], -cw / 2, -ch / 2, cw, ch, 0.78);
-      c.restore();
-    }
+    // The same square logo and work frames on the south table top.
+    const size = Y.TABLE_S - Y.FRONT_S - 28;
+    const width = size + 4 + (size - 4) / 2;
+    squareDisplay(b, cx - width / 2, Y.FRONT_S + 6, size);
     // name card at the back of the table
     c.fillStyle = PAPER; c.fillRect(x + 9, Y.TABLE_S - 20, BW - 18, 14);
     c.strokeStyle = INK; c.lineWidth = 1.2; c.strokeRect(x + 9, Y.TABLE_S - 20, BW - 18, 14);
@@ -666,7 +667,8 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
   function prefetch(x0, x1) {
     for (const B of L.booths) {
       if (B.x + BW < x0 || B.x > x1) continue;
-      for (const w of three(B.b.works)) { if (w) getImg(w.cover); }
+      getImg(logoOf(B.b));
+      for (const w of B.b.works.slice(0, 2)) getImg(w.cover);
     }
   }
 
