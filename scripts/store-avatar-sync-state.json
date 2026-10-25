@@ -3256,9 +3256,9 @@
       "discoveryVersion": 3
     },
     "wafting-coffee": {
-      "lastAttempt": "2026-10-25T11:01:41+08:00",
-      "result": "updated",
-      "reason": "取得較高解析度官方頭像",
+      "lastAttempt": "2026-10-25T11:35:21+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 150 px），保留舊圖，待補足夠清晰的 Logo 來源",
       "sha256": "7a6802d15cf3f0c5ed4baf53f2415982d3d4e457d56c948c877b00ed882088b4",
       "contentBox": [
         0,
@@ -3283,13 +3283,29 @@
         {
           "source": "https://www.instagram.com/wafting_coffee/",
           "platform": "instagram",
-          "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/583611057_17893227738361601_41442608400443891_n.jpg?_nc_cat=107&ig_cache_key=GLEyySIB7zq7y5E-APMpRjDVO5MAbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=tZVMySWamSgQ7kNvwHiJPeV&_nc_oc=AdranP8ehZfsdFGe_JbUehOB3DM_0_8BV7O9U5gmXwmMf8e4j52S1sINdgTwYKdihUk&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=z8ULcubsTYC5dNwH8alTBA&_nc_ss=7b6a8&oh=00_AQN0jK4bpdHsO4UixleYTnpz5pG5VHusiz3QXhhqxsyaiw&oe=6AE34801",
+          "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/583611057_17893227738361601_41442608400443891_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=tZVMySWamSgQ7kNvwHiJPeV&_nc_oc=AdranP8ehZfsdFGe_JbUehOB3DM_0_8BV7O9U5gmXwmMf8e4j52S1sINdgTwYKdihUk&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=iDpSIVBn6o0trkcwLIPQKg&_nc_ss=7d60f&oh=00_AQPN3yzr9JWyRUAnnmVGN5DEMyMLgxShsM32SoKxEGr5TA&oe=6AE34801",
           "size": [
-            1080,
-            1080
+            150,
+            150
           ],
-          "evidence": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
-          "result": "sufficient"
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；裊淡咖啡 (@wafting_coffee) • Instagram photos and videos；相同帳號公開資料 profile_pic_url",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.instagram.com/wafting_coffee/",
+          "platform": "instagram",
+          "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/583611057_17893227738361601_41442608400443891_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=107&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=tZVMySWamSgQ7kNvwHiJPeV&_nc_oc=AdranP8ehZfsdFGe_JbUehOB3DM_0_8BV7O9U5gmXwmMf8e4j52S1sINdgTwYKdihUk&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Ksnk4iuX--MiN2qWFZXLnA&_nc_ss=7d689&oh=00_AQN8L033H6PlOLZAmoi8XyAxMcPxzuPiqOJ7hMLgA9DdOg&oe=6AE34801",
+          "size": [
+            100,
+            100
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；裊淡咖啡 (@wafting_coffee) • Instagram photos and videos",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.threads.com/@wafting_coffee",
+          "result": "failed",
+          "reason": "圖片網址不是官方社群圖片網域"
         }
       ],
       "discoveryVersion": 3
