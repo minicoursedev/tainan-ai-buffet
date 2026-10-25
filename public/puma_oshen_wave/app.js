@@ -121,7 +121,7 @@ function designerProducts(designer) {
   const section = node('section', undefined, 'designer-products');
   section.hidden = true;
   const images = node('div', undefined, 'designer-product-images');
-  for (const product of designer.productImages.slice(0, 2)) {
+  for (const product of designer.productImages) {
     if (typeof product?.url !== 'string' || !product.url.trim()) continue;
     try {
       const url = new URL(product.url, location.href);
