@@ -6776,6 +6776,52 @@
         "checkedAt": "2026-10-25",
         "note": "人工核對該店官方 instagram 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1080 × 1080。"
       }
+    },
+    {
+      "id": "trillion-coworking-zhongli",
+      "verification": true,
+      "category": "其它",
+      "giftStatus": "可能有小物",
+      "name": "Trillion日兆共享商務空間",
+      "address": "桃園市中壢區延平路450號6樓",
+      "social": {
+        "facebook": "https://www.facebook.com/p/Trillion日兆共享商務空間-61559798486162/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/share/1EktLECoNd/?mibextid=wwXIfr",
+        "https://www.facebook.com/p/Trillion日兆共享商務空間-61559798486162/",
+        "https://www.accupass.com/event/2507310317484476881240",
+        "https://littlehandart.com/news-item?nid=21",
+        "https://www.openstreetmap.org/node/11192106082"
+      ],
+      "verifiedAt": "2026-10-25",
+      "verificationNote": "使用者提供Facebook分享連結指定收錄，新增店家verification依指示設為JSON布林值true。查證子代理與主代理未登入讀取分享頁轉址及官方頁metadata，確認店名與Facebook帳號61559798486162；官方簡介列共享辦公桌、獨立辦公室、多功能會議室及工商登記，歸其它。活動主辦方小手藝術的ACCUPASS課程頁明列本店為實體上課場地，地址為中壢區延平路450號6樓；主辦方官網同列該店名及地址，非僅以公司登記推定對外地址。已比對全部既有紀錄（含disabled）的店名、地址及社群，未發現重複。官方Instagram與Threads尚未確認，留空。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間、公休日與到訪方式待確認，出發前請洽官方Facebook。",
+        "sources": [
+          "https://www.facebook.com/p/Trillion日兆共享商務空間-61559798486162/"
+        ],
+        "checkedAt": "2026-10-25",
+        "auditNote": "官方公開頁未取得可確認的固定營業週表；課程活動時段不代表店家日常營業時間，不推定預約制。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.9583341,
+        "lng": 121.2239818
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11192106082",
+      "coordinateNote": "2026-10-25 查證子代理以OpenStreetMap完整地址查詢無結果，再以450 延平路、中壢區、桃園市結構化查詢取得門牌節點11192106082。主代理另讀OSM節點API，確認行政區、延平路及450號門牌相符，資料來源為桃園市政府，座標24.9583341、121.2239818。該節點樓層標為12樓，僅採同大樓門牌位置供6樓使用；店家6樓取自實體課程場地資料，不把門牌節點視為店家POI，未採道路或地圖視窗中心。",
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.facebook.com/p/Trillion日兆共享商務空間-61559798486162/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方公開頁profile分享上下文明示店名及頭像image_url，與頁面og:image的照片ID442502893_10161091754045890_7445272125095629503一致；查證子代理目視為白底青綠圖案、Trillion及日兆商務共享空間字樣的Logo。採官方頁直接提供的489×489版本，HTTP200、Content-Type image/jpeg，記憶體解碼確認原生489×489，符合256px來源需求；未改寫CDN尺寸或簽章參數，未採100px分享縮圖。新店圖片網址留空，待固定流程處理。"
+      }
     }
   ],
   "pendingStores": []
