@@ -6,3 +6,5 @@
 4. 發布順序為：準備圖片與候選資料 → 提交／推送圖片與同步紀錄 → 執行 `python3 scripts/store-avatar-sync.py apply` 驗證所有 GitHub Raw 圖片 → 檢查 JSON 差異與縣市分檔 → 提交／推送資料。禁止直接用 `.avatar-sync/stores.candidate.json` 取代正式資料或跳過公開驗證。
 5. 純頭像、同步紀錄、店家主檔及縣市 JSON 更新已由部署 workflow 的 paths-ignore 排除；提交／推送即可公開，無須建置、手動觸發或等待 GitHub Pages 部署。Raw 快取尚未更新時保留舊資料，稍後重試 apply。
 6. 完整命令、依賴、來源驗證與失敗處理見本目錄 README 的「店家頭像同步與資料發布」。缺來源／無法確認的頭像須保留待辦，不自行用其他圖片補位。
+
+7. Logo 發布規格為最長邊 256 px，來源達 256 px 即足夠；不追求最大原圖、不放大小圖、不將小圖補進固定 512 px 透明畫布。較大來源僅用於本機縮圖。人工瀏覽器候選須保存官方帳號／頭像證據與原檔 SHA-256，使用 `--reviewed-sources` 驗證後才整合。

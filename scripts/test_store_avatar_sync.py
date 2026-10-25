@@ -52,27 +52,28 @@ class AvatarTests(unittest.TestCase):
         self.store = {'id': 'example-shop', 'name': '範例店', 'address': '原地址',
                       'shopPhoto': {'url': IMAGE_URL, 'source': SOURCE, 'platform': 'instagram',
                                     'status': 'verified', 'checkedAt': '2026-10-19', 'note': '已確認'}}
-        self.image = Image.new('RGBA', (120, 80), (255, 80, 0, 255))
+        self.image = Image.new('RGBA', (600, 400), (255, 80, 0, 255))
 
     def migrate(self):
         client = FakeClient([(200, html(), {}, SOURCE), (200, png(self.image), {'etag': 'image-v1'}, IMAGE_URL)])
         return sync.sync_one(self.store, {}, client, self.assets)
 
     def test_dimensions_no_upscale_and_alpha(self):
+        self.image = Image.new('RGBA', (120, 80), (255, 80, 0, 255))
         self.image.putpixel((0, 0), (0, 100, 0, 100))
         data, box = sync.render(self.image)
         result = sync.decode(data)
-        self.assertEqual(result.size, (512, 512))
-        self.assertEqual(box, [196, 216, 316, 296])
-        self.assertEqual(result.getpixel((196, 216)), (0, 100, 0, 100))
+        self.assertEqual(result.size, (120, 120))
+        self.assertEqual(box, [0, 20, 120, 100])
+        self.assertEqual(result.getpixel((0, 20)), (0, 100, 0, 100))
         self.assertEqual(result.getpixel((0, 0))[3], 0)
 
     def test_large_wide_image_is_not_cropped(self):
         image = Image.new('RGBA', (1200, 600), 'red')
         ImageDraw.Draw(image).rectangle((0, 0, 100, 599), fill='blue')
         data, box = sync.render(image)
-        self.assertEqual(box, [0, 128, 512, 384])
-        self.assertEqual(sync.decode(data).getpixel((0, 256))[:3], (0, 0, 255))
+        self.assertEqual(box, [0, 64, 256, 192])
+        self.assertEqual(sync.decode(data).getpixel((0, 128))[:3], (0, 0, 255))
 
     def test_metadata_and_transcoding_do_not_change_content(self):
         metadata = PngImagePlugin.PngInfo()
@@ -103,7 +104,7 @@ class AvatarTests(unittest.TestCase):
     def test_changed_avatar_overwrites_same_file_and_changes_version(self):
         state, first, _, _ = self.migrate()
         self.store['shopPhoto'] = first['after']
-        changed = Image.new('RGBA', (120, 80), 'blue')
+        changed = Image.new('RGBA', (600, 400), 'blue')
         client = FakeClient([(200, html(), {}, SOURCE), (200, png(changed), {}, IMAGE_URL)])
         updated, second, outcome, _ = sync.sync_one(self.store, state, client, self.assets)
         self.assertEqual(outcome, 'updated')
@@ -167,11 +168,13 @@ class AvatarTests(unittest.TestCase):
         before = copy.deepcopy(self.store)
         original = (self.assets / 'example-shop.png').read_bytes()
         for failure in [ValueError('HTTP 403'), ValueError('HTTP 429'), ValueError('timeout')]:
-            with self.assertRaises(ValueError):
-                sync.sync_one(self.store, state, FakeClient([failure]), self.assets)
+            _, patch, outcome, _ = sync.sync_one(self.store, state, FakeClient([failure]), self.assets)
+            self.assertIsNone(patch)
+            self.assertEqual(outcome, 'failed')
         client = FakeClient([(200, html(), {}, SOURCE), (200, b'<html>Login</html>', {}, IMAGE_URL)])
-        with self.assertRaises(ValueError):
-            sync.sync_one(self.store, state, client, self.assets)
+        _, proposed, outcome, _ = sync.sync_one(self.store, state, client, self.assets)
+        self.assertIsNone(proposed)
+        self.assertEqual(outcome, 'failed')
         self.assertEqual(original, (self.assets / 'example-shop.png').read_bytes())
         self.assertEqual(before, self.store)
 
@@ -182,6 +185,117 @@ class AvatarTests(unittest.TestCase):
         self.assertEqual(outcome, 'missing-source')
         self.assertIsNone(proposed)
         self.assertFalse(client.calls)
+
+    def test_small_source_is_pending_and_does_not_create_or_downgrade_asset(self):
+        small = png(Image.new('RGBA', (100, 100), 'blue'))
+        replies = [(200, html(), {}, SOURCE), (200, small, {}, IMAGE_URL)]
+        _, proposed, outcome, _ = sync.sync_one(self.store, {}, FakeClient(replies), self.assets)
+        self.assertIsNone(proposed)
+        self.assertEqual(outcome, 'low-resolution')
+        self.assertFalse((self.assets / 'example-shop.png').exists())
+        state, proposed, _, _ = self.migrate()
+        self.store['shopPhoto'] = proposed['after']
+        original = (self.assets / 'example-shop.png').read_bytes()
+        updated, proposed, outcome, _ = sync.sync_one(self.store, state, FakeClient(replies), self.assets)
+        self.assertEqual(outcome, 'low-resolution')
+        self.assertIsNone(proposed)
+        self.assertEqual(updated['sha256'], state['sha256'])
+        self.assertEqual(updated['imageUrl'], state['imageUrl'])
+        self.assertEqual((self.assets / 'example-shop.png').read_bytes(), original)
+
+    def test_same_logo_at_higher_resolution_replaces_old_padded_thumbnail(self):
+        small = Image.new('RGBA', (100, 100), 'red')
+        data, box = sync.render(small)
+        (self.assets / 'example-shop.png').write_bytes(data)
+        state = {'source': SOURCE, 'sourceSize': [100, 100], 'sha256': sync.sha(data), 'contentBox': box}
+        large = Image.new('RGBA', (640, 640), 'red')
+        self.assertTrue(sync.same_content(small, large))
+        client = FakeClient([(200, html(), {}, SOURCE), (200, png(large), {}, IMAGE_URL)])
+        updated, proposed, outcome, _ = sync.sync_one(self.store, state, client, self.assets)
+        self.assertEqual(outcome, 'updated')
+        self.assertEqual(updated['sourceSize'], [640, 640])
+        self.assertEqual(updated['contentBox'], [0, 0, 256, 256])
+        self.assertNotEqual(updated['sha256'], state['sha256'])
+        self.assertIsNotNone(proposed)
+
+    def test_embedded_hd_image_must_belong_to_same_official_account(self):
+        hd = IMAGE_URL.replace('avatar.jpg', 'hd.jpg')
+        other = IMAGE_URL.replace('avatar.jpg', 'other.jpg')
+        nodes = [{'username': 'unrelated', 'profile_pic_url_hd': other},
+                 {'username': 'example_shop', 'hd_profile_pic_url_info': {'url': hd}}]
+        body = html() + ('<script type="application/json">' + json.dumps(nodes) + '</script>').encode()
+        candidates = sync.discover_candidates(self.store['shopPhoto'], body, SOURCE)
+        self.assertEqual([row[0] for row in candidates], [hd, IMAGE_URL])
+        client = FakeClient([(200, body, {}, SOURCE), (200, png(self.image), {}, hd)])
+        state, _, outcome, _ = sync.sync_one(self.store, {}, client, self.assets)
+        self.assertEqual(outcome, 'updated')
+        self.assertEqual(state['imageUrl'], hd)
+
+    def test_prefers_smallest_sufficient_official_version(self):
+        urls = [IMAGE_URL + '&stp=dst-jpg_s' + str(edge) + 'x' + str(edge) for edge in (640, 150, 320)]
+        node = {'username': 'example_shop', 'hd_profile_pic_versions': [{'url': url} for url in urls]}
+        body = html() + ('<script type="application/json">' + json.dumps(node) + '</script>').encode()
+        self.assertEqual(sync.discover_candidates(self.store['shopPhoto'], body, SOURCE)[0][0], urls[2])
+
+    def test_low_resolution_primary_tries_reviewed_official_alternative(self):
+        source = 'https://www.threads.com/@example_shop'
+        image_url = IMAGE_URL.replace('avatar.jpg', 'threads.jpg')
+        self.store['social'] = {'threads': source}
+        body = html(image_url).replace(SOURCE.encode(), source.encode()).replace(b'Instagram', b'Threads')
+        client = FakeClient([(200, html(), {}, SOURCE),
+                             (200, png(Image.new('RGBA', (100, 100), 'red')), {}, IMAGE_URL),
+                             (200, body, {}, source), (200, png(self.image), {}, image_url)])
+        state, proposed, outcome, _ = sync.sync_one(self.store, {}, client, self.assets)
+        self.assertEqual(outcome, 'updated')
+        self.assertEqual(proposed['after']['source'], source)
+        self.assertEqual(proposed['after']['platform'], 'threads')
+        self.assertEqual(state['sourceSize'], [600, 400])
+
+    def test_reviewed_browser_source_requires_fresh_identity_and_matching_bytes(self):
+        data = png(self.image)
+        reviewed = {'id': self.store['id'], 'source': SOURCE, 'platform': 'instagram',
+                    'imageUrl': IMAGE_URL, 'checkedAt': sync.now()[:10],
+                    'sha256': sync.sha(data), 'evidence': '人工檢視官方頁可見個人頭像'}
+        client = FakeClient([(200, data, {}, IMAGE_URL)])
+        state, proposed, outcome, _ = sync.sync_one(self.store, {}, client, self.assets, reviewed)
+        self.assertEqual(outcome, 'updated')
+        self.assertEqual(len(client.calls), 1)
+        self.assertEqual(sync.decode((self.assets / 'example-shop.png').read_bytes()).size, (256, 256))
+        for invalid in [{**reviewed, 'id': 'another-shop'}, {**reviewed, 'checkedAt': '2000-01-01'}]:
+            with self.assertRaises(ValueError):
+                sync.sync_one(self.store, {}, FakeClient([]), self.assets, invalid)
+        wrong = FakeClient([(200, png(Image.new('RGBA', (600, 600), 'blue')), {}, IMAGE_URL),
+                            ValueError('official page unavailable')])
+        _, proposed, outcome, _ = sync.sync_one(self.store, state, wrong, self.assets, reviewed)
+        self.assertEqual(outcome, 'failed')
+        self.assertIsNone(proposed)
+        self.assertEqual(state['sha256'], sync.sha((self.assets / 'example-shop.png').read_bytes()))
+
+    def test_line_uses_explicit_original_field_and_checks_account(self):
+        source = 'https://page.line.me/example'
+        original = 'https://profile.line-scdn.net/actual-avatar'
+        photo = {'source': source, 'platform': 'line'}
+        data = {'props': {'pageProps': {'initialDataString': json.dumps({
+            'requestedSearchId': 'example', 'profile': {'profileImg': {'original': original}}})}}}
+        body = ('<img alt="Show profile photo" src="' + original + '/preview">'
+                '<script type="application/json">' + json.dumps(data) + '</script>').encode()
+        self.assertEqual(sync.discover_candidates(photo, body, source)[0][0], original)
+        wrong = body.replace(b'example', b'other-account')
+        self.assertEqual(sync.discover_candidates(photo, wrong, source)[0][0], original + '/preview')
+
+    def test_existing_512_asset_is_resized_even_when_remote_returns_304(self):
+        image = Image.new('RGBA', (512, 512), 'red')
+        data = png(image)
+        (self.assets / 'example-shop.png').write_bytes(data)
+        state = {'source': SOURCE, 'imageUrl': IMAGE_URL, 'sourceSize': [1080, 1080],
+                 'sha256': sync.sha(data), 'contentBox': [0, 0, 512, 512],
+                 'discoveryVersion': sync.DISCOVERY_VERSION, 'evidence': 'same official profile'}
+        client = FakeClient([(304, b'', {}, SOURCE), (304, b'', {}, IMAGE_URL)])
+        updated, proposed, outcome, _ = sync.sync_one(self.store, state, client, self.assets)
+        self.assertEqual(outcome, 'updated')
+        self.assertEqual(updated['sourceSize'], [1080, 1080])
+        self.assertEqual(updated['contentBox'], [0, 0, 256, 256])
+        self.assertIsNotNone(proposed)
 
     def test_pages_to_raw_migration_keeps_asset_and_is_repeatable(self):
         state, proposed, _, _ = self.migrate()
@@ -220,7 +334,7 @@ class AvatarTests(unittest.TestCase):
             sync.verify_plan(plan, client, self.assets)
         data = (self.assets / 'example-shop.png').read_bytes()
         client = FakeClient([(200, data, {}, proposed['after']['url'])])
-        self.assertEqual(sync.verify_plan(plan, client, self.assets)[0]['size'], [512, 512])
+        self.assertEqual(sync.verify_plan(plan, client, self.assets)[0]['size'], [256, 256])
 
     def test_apply_failure_keeps_catalog_and_success_preserves_other_fields(self):
         _, proposed, _, _ = self.migrate()

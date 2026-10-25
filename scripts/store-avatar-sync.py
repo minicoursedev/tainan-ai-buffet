@@ -26,6 +26,11 @@ PUBLIC_BASE = ('https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet
 STATE = ROOT / 'scripts/store-avatar-sync-state.json'
 WORK = ROOT / '.avatar-sync'
 Image.MAX_IMAGE_PIXELS = 25_000_000
+DISCOVERY_VERSION = 3
+TARGET_EDGE = 256
+MIN_SOURCE_EDGE = 256
+NAVIGATION_UA = ('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '
+                 '(KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36')
 
 
 def now():
@@ -80,6 +85,11 @@ class Client:
                         '--max-time', str(self.timeout), '--max-filesize', str(limit),
                         '--user-agent', 'Mozilla/5.0', '--dump-header', str(header),
                         '--output', str(body), '--write-out', '%{http_code}\n%{url_effective}']
+                if (urlsplit(url).hostname or '') in ('www.instagram.com', 'instagram.com',
+                                                      'www.threads.com', 'www.threads.net'):
+                    args += ['--user-agent', NAVIGATION_UA, '--header', 'Accept: text/html',
+                             '--header', 'Sec-Fetch-Dest: document',
+                             '--header', 'Sec-Fetch-Mode: navigate', '--header', 'Sec-Fetch-Site: none']
                 for name, value in (validators or {}).items():
                     if name in ('etag', 'last-modified') and value and '\n' not in value and '\r' not in value:
                         key = 'If-None-Match' if name == 'etag' else 'If-Modified-Since'
@@ -114,11 +124,16 @@ class Client:
 class Page(HTMLParser):
     def __init__(self, html):
         super().__init__(convert_charrefs=True)
-        self.meta, self.images, self.div_classes = {}, [], []
+        self.meta, self.images, self.div_classes, self.links = {}, [], [], []
+        self.json_blocks, self.script_parts = [], None
         self.feed(html)
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == 'script' and attrs.get('type') == 'application/json':
+            self.script_parts = []
+        if tag == 'a' and attrs.get('href'):
+            self.links.append(attrs['href'])
         if tag == 'div':
             self.div_classes.append(attrs.get('class', ''))
         if tag == 'meta':
@@ -130,8 +145,18 @@ class Page(HTMLParser):
             self.images.append(attrs)
 
     def handle_endtag(self, tag):
+        if tag == 'script' and self.script_parts is not None:
+            try:
+                self.json_blocks.append(json.loads(''.join(self.script_parts)))
+            except (ValueError, RecursionError):
+                pass
+            self.script_parts = None
         if tag == 'div' and self.div_classes:
             self.div_classes.pop()
+
+    def handle_data(self, data):
+        if self.script_parts is not None:
+            self.script_parts.append(data)
 
     def get(self, key):
         return next(iter(self.meta.get(key, [])), '')
@@ -212,6 +237,87 @@ def validators(headers):
     return {key: headers[key] for key in ('etag', 'last-modified') if headers.get(key)}
 
 
+def discover_candidates(photo, body, final_url, expected_name=''):
+    """Use only URLs actually supplied by the verified profile, never rewrite CDN URLs."""
+    fallback, evidence = discover(photo, body, final_url, expected_name)
+    candidates = []
+    if photo.get('platform') == 'line':
+        page = Page(body.decode('utf-8', errors='replace'))
+        for block in page.json_blocks:
+            try:
+                data = json.loads(block['props']['pageProps']['initialDataString'])
+                original = data['profile']['profileImg']['original']
+                if (data['requestedSearchId'].lstrip('@') == profile_key(photo['source'])
+                        and urlsplit(original).hostname == 'profile.line-scdn.net'):
+                    candidates.append((https_url(original), evidence + '；官方頁 profile.profileImg.original'))
+            except (KeyError, TypeError, ValueError):
+                continue
+    if photo.get('platform') in ('instagram', 'threads'):
+        page = Page(body.decode('utf-8', errors='replace'))
+        stack = list(page.json_blocks)
+        while stack:
+            node = stack.pop()
+            if isinstance(node, dict):
+                stack.extend(value for value in node.values() if isinstance(value, (dict, list)))
+                if str(node.get('username', '')).lower() != profile_key(photo['source']):
+                    continue
+                entries = [(node.get('profile_pic_url_hd'), 'profile_pic_url_hd')]
+                info = node.get('hd_profile_pic_url_info')
+                if isinstance(info, dict):
+                    entries.append((info.get('url'), 'hd_profile_pic_url_info'))
+                versions = node.get('hd_profile_pic_versions')
+                if isinstance(versions, list):
+                    entries.extend((version.get('url'), 'hd_profile_pic_versions')
+                                   for version in versions if isinstance(version, dict))
+                entries.append((node.get('profile_pic_url'), 'profile_pic_url'))
+                for url, field in entries:
+                    if not isinstance(url, str):
+                        continue
+                    host = urlsplit(url).hostname or ''
+                    if (any(host == h or host.endswith('.' + h) for h in ('cdninstagram.com', 'fbcdn.net'))
+                            and re.search(r'/t\d+(?:\.\d+)*-(?:19|1)/', urlsplit(url).path)):
+                        candidates.append((https_url(url), evidence + '；相同帳號公開資料 ' + field))
+            elif isinstance(node, list):
+                stack.extend(node)
+    candidates.append((fallback, evidence))
+    candidates = list({url: (url, proof) for url, proof in candidates}.values())
+    def priority(candidate):
+        url, proof = candidate
+        size = re.search(r'(?:s|p)(\d+)x(\d+)', url)
+        edge = max(map(int, size.groups())) if size else None
+        # URL hints only order downloads; decoded pixels decide acceptance.
+        # Prefer the smallest sufficient version, not the biggest original.
+        if edge is not None and edge >= MIN_SOURCE_EDGE:
+            return (0, edge)
+        if edge is None and any(key in proof for key in ('hd_profile_pic', 'profile_pic_url_hd', '.original')):
+            return (1, 0)
+        return (2, -edge) if edge is not None else (3, 0)
+    return sorted(candidates, key=priority)
+
+
+def official_sources(store):
+    photo = store['shopPhoto']
+    sources = [photo]
+    # These are the catalog's reviewed official accounts, not guessed handles.
+    for platform in ('threads', 'facebook', 'instagram'):
+        source = (store.get('social') or {}).get(platform)
+        if source and not any(row['source'] == source for row in sources):
+            sources.append({**photo, 'source': source, 'platform': platform})
+    return sources
+
+
+def linked_official_sources(photo, body):
+    """Follow the same account's explicit Threads link, not a guessed matching handle."""
+    if photo.get('platform') != 'instagram':
+        return []
+    page = Page(body.decode('utf-8', errors='replace'))
+    return [{**photo, 'source': url, 'platform': 'threads', 'linkedFrom': photo['source']}
+            for url in page.links
+            if urlsplit(url).scheme == 'https'
+            and urlsplit(url).hostname in ('www.threads.com', 'www.threads.net', 'threads.com', 'threads.net')
+            and profile_key(url) == profile_key(photo['source'])]
+
+
 def decode(data):
     try:
         with Image.open(io.BytesIO(data)) as image:
@@ -250,61 +356,130 @@ def same_content(left, right):
 
 def render(image):
     content = image.copy()
-    content.thumbnail((512, 512), Image.Resampling.LANCZOS)  # Never upscale.
-    canvas = Image.new('RGBA', (512, 512), (0, 0, 0, 0))
-    x, y = (512 - content.width) // 2, (512 - content.height) // 2
+    content.thumbnail((TARGET_EDGE, TARGET_EDGE), Image.Resampling.LANCZOS)  # Never upscale.
+    edge = max(content.size)
+    canvas = Image.new('RGBA', (edge, edge), (0, 0, 0, 0))
+    x, y = (edge - content.width) // 2, (edge - content.height) // 2
     canvas.paste(content, (x, y))
     stream = io.BytesIO()
     canvas.save(stream, format='PNG', optimize=True)
     return stream.getvalue(), [x, y, x + content.width, y + content.height]
 
 
-def sync_one(store, previous, client, assets=ASSETS):
+def sync_one(store, previous, client, assets=ASSETS, reviewed=None):
     photo = store.get('shopPhoto') or {}
     if not photo.get('source'):
         return previous, None, 'missing-source', '沒有官方頭像來源'
     if photo.get('status') != 'verified':
         return previous, None, 'needs-review', '既有頭像未確認為官方頭像'
-    record = copy.deepcopy(previous)
-    matching_source = record.get('source') == photo['source']
-    status, body, headers, final = client.get(photo['source'], record.get('sourceValidators') if matching_source else None)
-    if status == 304:
-        if not matching_source or not record.get('imageUrl'):
-            raise ValueError('來源回傳 304，但沒有可重用的已確認頭像資訊')
-        image_url, evidence = record['imageUrl'], record['evidence']
-    else:
-        image_url, evidence = discover(photo, body, final, store['name'])
     path = assets / (store['id'] + '.png')
-    old_valid = path.exists() and record.get('sha256') == sha(path.read_bytes()) and record.get('contentBox')
-    image_validators = record.get('imageValidators') if matching_source and old_valid and image_url == record.get('imageUrl') else None
-    # Validators belong to the exact URL. A changed signature requires temporary
-    # content comparison, never a last-modified shortcut across different resources.
-    image_status, image_body, image_headers, _ = client.get(image_url, image_validators)
+    old_valid = path.exists() and previous.get('sha256') == sha(path.read_bytes()) and previous.get('contentBox')
+    attempts, selected = [], None
+    sources = official_sources(store)
+    if reviewed:
+        if (reviewed.get('id') != store['id'] or reviewed.get('checkedAt') != now()[:10]
+                or not reviewed.get('evidence') or not re.fullmatch(r'[a-f0-9]{64}', reviewed.get('sha256', ''))
+                or reviewed.get('platform') not in ('instagram', 'threads', 'facebook', 'line', 'website')):
+            raise ValueError('人工查證候選需有相同店家 ID、當日日期、官方頭像證據及原檔 SHA-256')
+        https_url(reviewed['source'])
+        https_url(reviewed['imageUrl'])
+        sources.insert(0, {**photo, **reviewed, '_reviewed': True})
+    for source_photo in sources:
+        matching_source = previous.get('source') == source_photo['source']
+        reusable = matching_source and previous.get('discoveryVersion') == DISCOVERY_VERSION
+        source_validators = previous.get('sourceValidators') if reusable else None
+        try:
+            if source_photo.get('_reviewed'):
+                status, headers = 200, {}
+                candidates = [(source_photo['imageUrl'], source_photo['evidence'])]
+            else:
+                status, body, headers, final = client.get(source_photo['source'], source_validators)
+            if source_photo.get('_reviewed'):
+                pass
+            elif status == 304:
+                if not reusable or not previous.get('imageUrl'):
+                    raise ValueError('來源回傳 304，但沒有目前版本已確認的頭像資訊')
+                candidates = [(previous['imageUrl'], previous['evidence'])]
+            else:
+                candidates = discover_candidates(source_photo, body, final, store['name'])
+                for linked in linked_official_sources(source_photo, body):
+                    if not any(row['platform'] == linked['platform'] and
+                               profile_key(row['source']) == profile_key(linked['source']) for row in sources):
+                        sources.append(linked)
+            for image_url, evidence in candidates:
+                image_validators = (previous.get('imageValidators') if matching_source and old_valid
+                                    and not source_photo.get('_reviewed')
+                                    and image_url == previous.get('imageUrl') else None)
+                try:
+                    image_status, image_body, image_headers, _ = client.get(image_url, image_validators)
+                    if image_status == 304:
+                        if not old_valid:
+                            raise ValueError('圖片回傳 304，但正式圖片不存在或指紋不符')
+                        image, size = None, previous['sourceSize']
+                    else:
+                        if source_photo.get('_reviewed') and sha(image_body) != source_photo['sha256']:
+                            raise ValueError('人工查證候選下載內容與已審核原圖指紋不符')
+                        image = decode(image_body)
+                        size = list(image.size)
+                    attempts.append({'source': source_photo['source'], 'platform': source_photo['platform'],
+                                     'imageUrl': image_url, 'size': size, 'evidence': evidence,
+                                     'result': 'sufficient' if max(size) >= MIN_SOURCE_EDGE else 'low-resolution'})
+                    if source_photo.get('linkedFrom'):
+                        attempts[-1]['linkedFrom'] = source_photo['linkedFrom']
+                    if max(size) >= MIN_SOURCE_EDGE:
+                        selected = (source_photo, status, headers, image_url, evidence,
+                                    image_status, image, image_headers)
+                        break
+                except (ValueError, OSError, subprocess.TimeoutExpired) as error:
+                    attempts.append({'source': source_photo['source'], 'imageUrl': image_url,
+                                     'result': 'failed', 'reason': str(error)})
+            if selected:
+                break
+        except (ValueError, OSError, subprocess.TimeoutExpired) as error:
+            attempts.append({'source': source_photo['source'], 'result': 'failed', 'reason': str(error)})
+    record = copy.deepcopy(previous)
+    record['qualityChecks'] = attempts
+    if not selected:
+        small = [row['size'] for row in attempts if row['result'] == 'low-resolution']
+        reason = ('官方來源僅取得小圖（最大 ' + str(max(max(size) for size in small)) +
+                  ' px），保留舊圖，待補足夠清晰的 Logo 來源' if small else '未取得可驗證的官方頭像，保留舊圖')
+        return record, None, ('low-resolution' if small else 'failed'), reason
+    source_photo, status, headers, image_url, evidence, image_status, image, image_headers = selected
     if image_status == 304:
-        if not old_valid:
-            raise ValueError('圖片回傳 304，但正式圖片不存在或指紋不符')
-        changed, reason = False, 'HTTP 304，內容未變'
+        old = decode(path.read_bytes())
+        content = old.crop(tuple(record['contentBox']))
+        changed = old.size != (min(TARGET_EDGE, max(content.size)),) * 2
+        if changed:
+            data, box = render(content)
+            atomic_write(path, data)
+            record.update(sha256=sha(data), contentBox=box)
+        reason = '依 Logo 尺寸縮小既有圖片' if changed else 'HTTP 304，內容未變'
     else:
-        image = decode(image_body)
-        changed = True
+        changed, upgrade, resize = True, False, False
         if old_valid:
-            old_image = decode(path.read_bytes()).crop(tuple(record['contentBox']))
-            changed = not same_content(old_image, image)
+            old = decode(path.read_bytes())
+            old_image = old.crop(tuple(record['contentBox']))
+            upgrade = max(old_image.size) < min(TARGET_EDGE, max(image.size))
+            resize = old.size != (min(TARGET_EDGE, max(image.size)),) * 2
+            changed = resize or upgrade or not same_content(old_image, image)
         if changed:
             data, box = render(image)
             atomic_write(path, data)
             record.update(sha256=sha(data), contentBox=box, sourceSize=list(image.size))
-        reason = '首次保存' if not old_valid else ('來源頭像內容改變' if changed else '像素內容相同或僅有輕微轉碼差異')
+        reason = ('首次保存' if not old_valid else '取得較高解析度官方頭像' if upgrade else
+                  '依 Logo 尺寸縮小既有圖片' if resize else
+                  '來源頭像內容改變' if changed else '像素內容相同或僅有輕微轉碼差異')
         record['imageValidators'] = validators(image_headers)
-    record.update(source=photo['source'], imageUrl=image_url, evidence=evidence,
-                  filename=path.name, lastSuccess=now())
+    record.update(source=source_photo['source'], imageUrl=image_url, evidence=evidence,
+                  filename=path.name, lastSuccess=now(), discoveryVersion=DISCOVERY_VERSION)
     if status != 304:
         record['sourceValidators'] = validators(headers)
     url = PUBLIC_BASE + path.name + '?v=' + record['sha256'][:16]
     updated = copy.deepcopy(photo)
-    if photo.get('url') != url:
-        updated.update(url=url, checkedAt=now()[:10],
-                       note=evidence + '；本站保存 512 × 512、完整置中、不放大；來源尺寸 ' +
+    if photo.get('url') != url or photo['source'] != source_photo['source']:
+        updated.update(url=url, source=source_photo['source'], platform=source_photo['platform'],
+                       checkedAt=now()[:10],
+                       note=evidence + '；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 ' +
                        ' × '.join(map(str, record['sourceSize'])) + '。')
     patch = None if updated == photo else {'id': store['id'], 'before': photo, 'after': updated,
                                            'sha256': record['sha256'], 'filename': path.name}
@@ -328,11 +503,15 @@ def prepare(args):
     if selected and not selected.issubset({store['id'] for store in stores}):
         raise ValueError('--only 必須是啟用店家的 ID')
     client = Client(args.interval, args.timeout)
+    reviewed_rows = read_json(getattr(args, 'reviewed_sources', None), []) if getattr(args, 'reviewed_sources', None) else []
+    reviewed = {row['id']: row for row in reviewed_rows}
+    if len(reviewed) != len(reviewed_rows) or not set(reviewed).issubset(set(ids)):
+        raise ValueError('人工查證候選含重複或不存在的店家 ID')
     if args.command == 'retry':
         report = read_json(args.work_dir / 'plan.json')
         if not report or report.get('partial') or not report.get('completedAt') or report['catalogGuard'] != catalog_guard(catalog):
             raise ValueError('retry 需要完整且店家頭像／啟用狀態未變更的檢查紀錄；否則重新 prepare')
-        selected = {row['id'] for row in report['results'] if row['result'] == 'failed'}
+        selected = {row['id'] for row in report['results'] if row['result'] in ('failed', 'low-resolution')}
         if not selected:
             print('沒有失敗項目需要重試。')
             return
@@ -349,7 +528,7 @@ def prepare(args):
         report['results'] = [row for row in report['results'] if row['id'] != key]
         report['patches'] = [row for row in report['patches'] if row['id'] != key]
         try:
-            record, patch, outcome, reason = sync_one(store, previous, client)
+            record, patch, outcome, reason = sync_one(store, previous, client, reviewed=reviewed.get(key))
             if patch:
                 report['patches'].append(patch)
         except (ValueError, OSError, subprocess.TimeoutExpired) as error:
@@ -391,10 +570,11 @@ def verify_plan(plan, client, assets=ASSETS):
         if (status != 200 or urlsplit(final)[:3] != urlsplit(expected)[:3]
                 or sha(body) != patch['sha256']):
             raise ValueError('GitHub Raw 圖片尚未更新或內容不符，停止更新 JSON：' + patch['id'])
-        if decode(body).size != (512, 512):
+        dimensions = decode(body).size
+        if dimensions[0] != dimensions[1] or not 1 <= dimensions[0] <= TARGET_EDGE:
             raise ValueError('公開圖片尺寸錯誤：' + patch['id'])
         evidence.append({'id': patch['id'], 'url': expected, 'httpStatus': status,
-                         'sha256': sha(body), 'size': [512, 512], 'verifiedAt': now()})
+                         'sha256': sha(body), 'size': list(dimensions), 'bytes': len(body), 'verifiedAt': now()})
         print('公開圖片驗證通過：' + patch['id'], flush=True)
     return evidence
 
@@ -428,6 +608,7 @@ def main():
     parser.add_argument('--state', type=Path, default=STATE)
     parser.add_argument('--work-dir', type=Path, default=WORK)
     parser.add_argument('--only', help='僅診斷指定 ID（逗號分隔）；局部結果不能 apply')
+    parser.add_argument('--reviewed-sources', type=Path, help='當日已人工核對官方頭像的 JSON 候選清單')
     parser.add_argument('--interval', type=float, default=0.6)
     parser.add_argument('--timeout', type=int, default=20)
     args = parser.parse_args()
