@@ -6410,8 +6410,8 @@
         "https://www.ubereats.com/tw/store/清香園客家美食/kA-7NPguQyekJfYFhl_q5Q",
         "https://www.openstreetmap.org/node/11081561853"
       ],
-      "verifiedAt": "2026-10-24",
-      "verificationNote": "使用者指定收錄，verification依本次指示設為JSON布林值false。查證子代理與主代理核對官方Threads，店名為清香園客家美食，自介明列高雄市左營區正心街45號、平日午晚餐時段及販售便當，沿用正餐分類。Instagram為同名同帳號；Facebook同名粉專列相同營業時段與電話07-5575518，與帳號及外送平台資訊相符。已比對全部144筆既有紀錄（含disabled）的店名、地址與社群，未發現重複。未確認官方個人頭像，未填入。",
+      "verifiedAt": "2026-10-25",
+      "verificationNote": "使用者指定官方Threads帳號重新整理，對應既有清香園客家美食，保留原verification布林值false。查證子代理與主代理未登入讀取官方Threads公開自介，確認店名、高雄市左營區正心街45號、販售便當及平日午晚餐時段，維持正餐分類；官方Instagram同名同帳號，Facebook個人頁名稱及電話07-5575518與既有資料一致。比對全部156筆既有紀錄（含disabled）及pendingStores的店名、地址與社群，僅既有本筆符合，不重複新增。地址未變，沿用既有門牌座標；disabled與既有頭像網址保持原值。官方Facebook個人檔案頭像及足夠尺寸版本已於本次確認，詳見shopPhoto。",
       "openingHours": {
         "status": "verified",
         "text": "週一至週五 11:00–14:00、17:00–20:00；週六、週日公休。官方提醒晚餐時段常於19:30收店，建議提早前往。",
@@ -6419,8 +6419,8 @@
           "https://www.threads.com/@hakka075575518",
           "https://www.facebook.com/people/清香園客家美食/100063877627832/"
         ],
-        "checkedAt": "2026-10-24",
-        "auditNote": "查證子代理與主代理直接讀取官方Threads公開自介，列週一至週五、週休二日、11:00–14:00及17:00–20:00，並註明常常19:30收；Facebook公開自介亦列相同平日午晚餐時段。保留官方提早收店提醒。"
+        "checkedAt": "2026-10-25",
+        "auditNote": "查證子代理與主代理未登入讀取官方Threads公開自介，明列週一至週五、週休二日、11:00–14:00及17:00–20:00，並註明常常19:30收；查證子代理核對官方Facebook公開簡介，同列平日午晚餐時段及電話07-5575518。保留官方提早收店提醒。"
       },
       "disabled": false,
       "latlng": {
@@ -6435,7 +6435,7 @@
         "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-25",
-        "note": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。",
+        "note": "查證子代理未登入讀取官方Facebook個人頁，profile_name為「清香園客家美食 | Kaohsiung」、userID為100063877627832；profile介面image_url與頁面og:image對應同一頭像檔名556982541_1265051612300748_3539218636502618439_n.jpg，據此確認為個人檔案頭像。官方頁明示720×720版本，實際HTTP 200、Content-Type image/jpeg，於記憶體解析JPEG確認720×720；足供256px Logo使用，未改寫CDN尺寸或簽章參數。沿用既有圖片網址。",
         "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/qing-xiang-yuan-hakka.png?v=c75b9f21016f8aea"
       }
     },
