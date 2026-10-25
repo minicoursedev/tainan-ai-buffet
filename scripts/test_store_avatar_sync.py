@@ -183,6 +183,35 @@ class AvatarTests(unittest.TestCase):
         self.assertIsNone(proposed)
         self.assertFalse(client.calls)
 
+    def test_pages_to_raw_migration_keeps_asset_and_is_repeatable(self):
+        state, proposed, _, _ = self.migrate()
+        self.store['shopPhoto'] = proposed['after']
+        self.store['shopPhoto']['url'] = ('https://minicourse.dev/puma_oshen_wave/assets/store-avatars/'
+                                         'example-shop.png?v=' + state['sha256'][:16])
+        path = self.assets / 'example-shop.png'
+        original, mtime = path.read_bytes(), path.stat().st_mtime_ns
+        client = FakeClient([(304, b'', {}, SOURCE), (304, b'', {}, IMAGE_URL)])
+        _, migrated, outcome, _ = sync.sync_one(self.store, state, client, self.assets)
+        self.assertEqual(outcome, 'unchanged')
+        self.assertTrue(migrated['after']['url'].startswith(
+            'https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/'))
+        self.assertTrue(migrated['after']['url'].endswith('example-shop.png?v=' + state['sha256'][:16]))
+        self.assertEqual(path.read_bytes(), original)
+        self.assertEqual(path.stat().st_mtime_ns, mtime)
+        self.store['shopPhoto'] = migrated['after']
+        _, repeat, _, _ = sync.sync_one(self.store, state,
+            FakeClient([(304, b'', {}, SOURCE), (304, b'', {}, IMAGE_URL)]), self.assets)
+        self.assertIsNone(repeat)
+
+    def test_public_verification_rejects_pages_and_other_raw_repository(self):
+        _, proposed, _, _ = self.migrate()
+        data = (self.assets / 'example-shop.png').read_bytes()
+        for final in ['https://minicourse.dev/puma_oshen_wave/assets/store-avatars/example-shop.png',
+                      proposed['after']['url'].replace('/minicoursedev/', '/another-owner/')]:
+            with self.subTest(final=final):
+                with self.assertRaises(ValueError):
+                    sync.verify_plan({'patches': [proposed]}, FakeClient([(200, data, {}, final)]), self.assets)
+
     def test_public_verification_requires_correct_bytes(self):
         _, proposed, _, _ = self.migrate()
         plan = {'patches': [proposed]}

@@ -6,6 +6,9 @@ on:
     paths-ignore:
       - public/puma_oshen_wave/stores.json
       - public/puma_oshen_wave/designer.json
+      - public/puma_oshen_wave/assets/store-avatars/*.png
+      - public/puma_oshen_wave/data/stores/tw_*_store.json
+      - scripts/store-avatar-sync-state.json
   workflow_dispatch:
 
 permissions:

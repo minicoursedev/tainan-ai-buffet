@@ -21,7 +21,8 @@ from PIL import Image, ImageChops, ImageOps, ImageStat, UnidentifiedImageError
 ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / 'public/puma_oshen_wave/stores.json'
 ASSETS = ROOT / 'public/puma_oshen_wave/assets/store-avatars'
-PUBLIC_BASE = 'https://minicourse.dev/puma_oshen_wave/assets/store-avatars/'
+PUBLIC_BASE = ('https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/'
+               'main/public/puma_oshen_wave/assets/store-avatars/')
 STATE = ROOT / 'scripts/store-avatar-sync-state.json'
 WORK = ROOT / '.avatar-sync'
 Image.MAX_IMAGE_PIXELS = 25_000_000
@@ -371,7 +372,7 @@ def prepare(args):
             store['shopPhoto'] = patches[store['id']]['after']
     write_json(args.work_dir / 'stores.candidate.json', candidate)
     print(json.dumps({key: report[key] for key in ('counts', 'requests', 'downloadedBytes')}, ensure_ascii=False))
-    print('正式 stores.json 未變更。先發布 assets/store-avatars/，再執行 apply 驗證公開圖片。')
+    print('正式 stores.json 未變更。先提交並推送 assets/store-avatars/，再執行 apply 驗證 GitHub Raw 圖片；無須部署網站。')
 
 
 def verify_plan(plan, client, assets=ASSETS):
@@ -387,8 +388,9 @@ def verify_plan(plan, client, assets=ASSETS):
         if patch['after']['url'] != expected:
             raise ValueError('待發布網址與指紋不符')
         status, body, _, final = client.get(expected)
-        if status != 200 or urlsplit(final).hostname != 'minicourse.dev' or sha(body) != patch['sha256']:
-            raise ValueError('公開圖片尚未部署或內容不符，停止更新 JSON：' + patch['id'])
+        if (status != 200 or urlsplit(final)[:3] != urlsplit(expected)[:3]
+                or sha(body) != patch['sha256']):
+            raise ValueError('GitHub Raw 圖片尚未更新或內容不符，停止更新 JSON：' + patch['id'])
         if decode(body).size != (512, 512):
             raise ValueError('公開圖片尺寸錯誤：' + patch['id'])
         evidence.append({'id': patch['id'], 'url': expected, 'httpStatus': status,
