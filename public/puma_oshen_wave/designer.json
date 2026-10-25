@@ -176,6 +176,42 @@
         "checkedAt": "2026-10-25",
         "note": "官方 Instagram 個人檔案頭像；已核對官方 Linktree 所連結的帳號 koi.design.studio、個人檔案名稱及頭像來源，並確認 HTTPS 圖片可讀取。社群 CDN 簽章網址可能過期，屆時需從官方個人檔案重新查證。"
       }
+    },
+    {
+      "id": "lakubox",
+      "name": "駱 乃康 Lo NaiKang",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/865098632_2318385715368244_7019660964604015730_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=106&ccb=1-7&_nc_sid=9f807c&_nc_ohc=IuvGVL8arn8Q7kNvwG_Xe1_&_nc_oc=AdqrlmB3wb-asO7f0yb-EfqRhc8a1j_oWzd8DKgNI96pC1eE8RLKAafAKoExp1YcG-g&_nc_zt=23&_nc_ht=scontent-lax3-2.xx&_nc_ss=7b2a8&oh=03_Q7cD6gEtjOmxcRFLyN26plAGHFig7CzC3bjlJstkjAs7CNCjGw&oe=6B057038",
+          "alt": "駱 乃康 Lo NaiKang 作品照片 1",
+          "source": "https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/865098632_2318385715368244_7019660964604015730_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=106&ccb=1-7&_nc_sid=9f807c&_nc_ohc=IuvGVL8arn8Q7kNvwG_Xe1_&_nc_oc=AdqrlmB3wb-asO7f0yb-EfqRhc8a1j_oWzd8DKgNI96pC1eE8RLKAafAKoExp1YcG-g&_nc_zt=23&_nc_ht=scontent-lax3-2.xx&_nc_ss=7b2a8&oh=03_Q7cD6gEtjOmxcRFLyN26plAGHFig7CzC3bjlJstkjAs7CNCjGw&oe=6B057038",
+          "checkedAt": "2026-10-25",
+          "note": "使用者提供，指定為此設計師作品照片"
+        },
+        {
+          "url": "https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/865787207_1154783870564073_2602218275223878912_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_ohc=lHPVqyfJYJgQ7kNvwFZ3lCk&_nc_oc=Adq-PzWfRww7IxI8W0gn90X4-PkretKokf9GUvyBjn899qR7WcUiSbWXLeBKjEMOuMo&_nc_zt=23&_nc_ht=scontent-lax3-2.xx&_nc_ss=7b2a8&oh=03_Q7cD6gGBs6kgQUEu1F-PFPARZ4hamJhi5K_puPimUOm3H4bMnQ&oe=6B058DBC",
+          "alt": "駱 乃康 Lo NaiKang 作品照片 2",
+          "source": "https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/865787207_1154783870564073_2602218275223878912_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_ohc=lHPVqyfJYJgQ7kNvwFZ3lCk&_nc_oc=Adq-PzWfRww7IxI8W0gn90X4-PkretKokf9GUvyBjn899qR7WcUiSbWXLeBKjEMOuMo&_nc_zt=23&_nc_ht=scontent-lax3-2.xx&_nc_ss=7b2a8&oh=03_Q7cD6gGBs6kgQUEu1F-PFPARZ4hamJhi5K_puPimUOm3H4bMnQ&oe=6B058DBC",
+          "checkedAt": "2026-10-25",
+          "note": "使用者提供，指定為此設計師作品照片"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@lakubox",
+        "ig": "https://www.instagram.com/lakubox/",
+        "web": "https://www.behance.net/gunjo"
+      },
+      "logo": {
+        "url": "https://scontent-lax3-1.cdninstagram.com/v/t51.2885-19/75200979_957527824620293_8166092259859628032_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=110&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43NjguQzMifQ%3D%3D&_nc_ohc=fu8Wlz-VkTAQ7kNvwHlvvPU&_nc_oc=Adr8YngTYp7WTZs2j7FlUZEfDCiJzeuCwsLgGoqjw8GvHvGMDmogFbBIpUlf8ix5qRQ&_nc_zt=24&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_ss=7960f&oh=00_AQM6WuDABDpkxnQzJ8uZXT4-pSQWHS7v1mVGPee7-AdIbQ&oe=6AE3E35A",
+        "source": "https://www.instagram.com/lakubox/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方 Instagram 個人檔案頭像；已核對帳號 lakubox、個人檔案名稱及 og:image 頭像來源，並確認 HTTPS 圖片可讀取。"
+      }
     }
   ]
 }
