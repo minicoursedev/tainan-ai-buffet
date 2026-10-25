@@ -5501,9 +5501,9 @@
       "discoveryVersion": 3
     },
     "qing-xiang-yuan-hakka": {
-      "lastAttempt": "2026-10-25T11:03:06+08:00",
-      "result": "updated",
-      "reason": "取得較高解析度官方頭像",
+      "lastAttempt": "2026-10-26T00:08:54+08:00",
+      "result": "unchanged",
+      "reason": "像素內容相同或僅有輕微轉碼差異",
       "sha256": "dd4d506c79423397b69559b8c957536c6e5dcbb3308c61c4037d5bcc90bb84ca",
       "contentBox": [
         0,
@@ -5519,21 +5519,21 @@
         "last-modified": "Wed, 08 Oct 2025 04:56:23 GMT"
       },
       "source": "https://www.facebook.com/people/清香園客家美食/100063877627832/",
-      "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/556982541_1265051612300748_3539218636502618439_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1440&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lD5P1bAyimIQ7kNvwHqUUur&_nc_oc=AdrrOu262BUpWPfd6FORUM7d_g_4dGRcHczROKK66p0UeRbCyvpWHdmiYIEqEL9_fzE&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=cceSSY-vTB6urwpHY-9xqA&_nc_ss=7320f&oh=00_AQN-nHsGKaWwrpfliC_SP72K9NDIOOfONdpr6XLUcuhHKA&oe=6AE35C37",
-      "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
+      "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/556982541_1265051612300748_3539218636502618439_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1440&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lD5P1bAyimIQ7kNvwHqUUur&_nc_oc=AdrrOu262BUpWPfd6FORUM7d_g_4dGRcHczROKK66p0UeRbCyvpWHdmiYIEqEL9_fzE&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=xuJj4_Ysa-UZCEjudM4_FA&_nc_ss=7920f&oh=00_AQM4lgL1KiIkiferJyxyFqwEabHiP_xpBaOyI7SjKGqnMg&oe=6AE404F7",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；清香園客家美食 | Kaohsiung ",
       "filename": "qing-xiang-yuan-hakka/logo.webp",
-      "lastSuccess": "2026-10-25T11:03:06+08:00",
+      "lastSuccess": "2026-10-26T00:08:54+08:00",
       "sourceValidators": {},
       "qualityChecks": [
         {
           "source": "https://www.facebook.com/people/清香園客家美食/100063877627832/",
           "platform": "facebook",
-          "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/556982541_1265051612300748_3539218636502618439_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1440&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lD5P1bAyimIQ7kNvwHqUUur&_nc_oc=AdrrOu262BUpWPfd6FORUM7d_g_4dGRcHczROKK66p0UeRbCyvpWHdmiYIEqEL9_fzE&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=cceSSY-vTB6urwpHY-9xqA&_nc_ss=7320f&oh=00_AQN-nHsGKaWwrpfliC_SP72K9NDIOOfONdpr6XLUcuhHKA&oe=6AE35C37",
+          "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/556982541_1265051612300748_3539218636502618439_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1440&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lD5P1bAyimIQ7kNvwHqUUur&_nc_oc=AdrrOu262BUpWPfd6FORUM7d_g_4dGRcHczROKK66p0UeRbCyvpWHdmiYIEqEL9_fzE&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=xuJj4_Ysa-UZCEjudM4_FA&_nc_ss=7920f&oh=00_AQM4lgL1KiIkiferJyxyFqwEabHiP_xpBaOyI7SjKGqnMg&oe=6AE404F7",
           "size": [
             720,
             720
           ],
-          "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；清香園客家美食 | Kaohsiung ",
           "result": "sufficient"
         }
       ],
@@ -5735,7 +5735,7 @@
       "discoveryVersion": 3
     },
     "miss-mimi-coffee": {
-      "lastAttempt": "2026-10-25T23:56:06+08:00",
+      "lastAttempt": "2026-10-26T00:08:56+08:00",
       "result": "unchanged",
       "reason": "像素內容相同或僅有輕微轉碼差異",
       "sha256": "d966d5f01ef7ce82948d98c665c0e00267a7aa3b9d17e274656404f88cede3fa",
@@ -5753,16 +5753,16 @@
         "last-modified": "Mon, 29 Apr 2024 13:56:13 GMT"
       },
       "source": "https://www.facebook.com/miss.mimi.cafe/",
-      "imageUrl": "https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-1/439864732_7715897811801847_6939266030158259964_n.jpg?stp=dst-jpg_tt6&cstp=mx1754x1240&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bkl-j96mt10Q7kNvwFn_Bvx&_nc_oc=AdoSJdEAT0IJLcEhd3zQbNJ1P2d-lacUBVSP-6haLg6LQnnHNfCTBaMoCP-cWT24NYk&_nc_zt=24&_nc_ht=scontent-sin6-3.xx&_nc_gid=04cvoGo88iNkjUHh51Ox0g&_nc_ss=7920f&oh=00_AQPWpDf-a2vDKBCq_q4Iq-EbDigj4MAdHX42ZKo3LMfzuQ&oe=6AE3FE8D",
+      "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/439864732_7715897811801847_6939266030158259964_n.jpg?stp=dst-jpg_tt6&cstp=mx1754x1240&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bkl-j96mt10Q7kNvwFn_Bvx&_nc_oc=AdoSJdEAT0IJLcEhd3zQbNJ1P2d-lacUBVSP-6haLg6LQnnHNfCTBaMoCP-cWT24NYk&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=2gjX4xMkHElO5Qjhfihy3A&_nc_ss=7920f&oh=00_AQMz3kuP-XM4IuPSs3n0k0mCg3mQXIunJz9Gu6SXLzeM4w&oe=6AE3FE8D",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Miss Mimi Coffee｜蔬食咖啡館｜寵物友善｜ | Kaohsiung ",
       "filename": "miss-mimi-coffee/logo.webp",
-      "lastSuccess": "2026-10-25T23:56:06+08:00",
+      "lastSuccess": "2026-10-26T00:08:56+08:00",
       "sourceValidators": {},
       "qualityChecks": [
         {
           "source": "https://www.facebook.com/miss.mimi.cafe/",
           "platform": "facebook",
-          "imageUrl": "https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-1/439864732_7715897811801847_6939266030158259964_n.jpg?stp=dst-jpg_tt6&cstp=mx1754x1240&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bkl-j96mt10Q7kNvwFn_Bvx&_nc_oc=AdoSJdEAT0IJLcEhd3zQbNJ1P2d-lacUBVSP-6haLg6LQnnHNfCTBaMoCP-cWT24NYk&_nc_zt=24&_nc_ht=scontent-sin6-3.xx&_nc_gid=04cvoGo88iNkjUHh51Ox0g&_nc_ss=7920f&oh=00_AQPWpDf-a2vDKBCq_q4Iq-EbDigj4MAdHX42ZKo3LMfzuQ&oe=6AE3FE8D",
+          "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/439864732_7715897811801847_6939266030158259964_n.jpg?stp=dst-jpg_tt6&cstp=mx1754x1240&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bkl-j96mt10Q7kNvwFn_Bvx&_nc_oc=AdoSJdEAT0IJLcEhd3zQbNJ1P2d-lacUBVSP-6haLg6LQnnHNfCTBaMoCP-cWT24NYk&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=2gjX4xMkHElO5Qjhfihy3A&_nc_ss=7920f&oh=00_AQMz3kuP-XM4IuPSs3n0k0mCg3mQXIunJz9Gu6SXLzeM4w&oe=6AE3FE8D",
           "size": [
             960,
             679
@@ -5988,6 +5988,123 @@
       "discoveryVersion": 3,
       "sourceValidators": {},
       "lastAttempt": "2026-10-25T21:56:56+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "forever-young-books-kaohsiung": {
+      "qualityChecks": [
+        {
+          "source": "https://www.threads.com/@forever_young_books__",
+          "platform": "threads",
+          "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/483660270_943414108000450_1167850638288821745_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gH4ZTK9iFutj-ONC0mM_oMPRpFrsetESdYeXNdOD5Rug86MdXTKhfp_hmg3kOIYKkM&_nc_ohc=MD1rGceUWOAQ7kNvwHKfULS&_nc_gid=bvujCgPnypcj8LxrUQOmnQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQPxNjaVqt0by1R_H6kEzHFUqEOItanaBleQfb7OYFN0ww&oe=6AE417BB&_nc_sid=10d13b",
+          "size": [
+            320,
+            320
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；洋洋本屋 Forever young Fans & Books (@forever_young_books__) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "1f4562821740e1ac5e4ec66057c1ceb155d70af1d90f86c2aa4a0a226e1e65a1",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        320,
+        320
+      ],
+      "imageValidators": {
+        "last-modified": "Mon, 10 Mar 2025 02:50:59 GMT"
+      },
+      "source": "https://www.threads.com/@forever_young_books__",
+      "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/483660270_943414108000450_1167850638288821745_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gH4ZTK9iFutj-ONC0mM_oMPRpFrsetESdYeXNdOD5Rug86MdXTKhfp_hmg3kOIYKkM&_nc_ohc=MD1rGceUWOAQ7kNvwHKfULS&_nc_gid=bvujCgPnypcj8LxrUQOmnQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQPxNjaVqt0by1R_H6kEzHFUqEOItanaBleQfb7OYFN0ww&oe=6AE417BB&_nc_sid=10d13b",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；洋洋本屋 Forever young Fans & Books (@forever_young_books__) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+      "filename": "forever-young-books-kaohsiung/logo.webp",
+      "lastSuccess": "2026-10-26T00:08:59+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-26T00:08:59+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "seaslugcoffee": {
+      "qualityChecks": [
+        {
+          "source": "https://www.threads.com/@seaslugcoffee",
+          "platform": "threads",
+          "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/474043141_1291737925203655_5154116615850387851_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMxIn0&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gH7rvm62Xms2nVTNFTKBnmJ7N3FGwThYWbMvf0Knijw9hSwe37W845Yoql_6Q5bb-8&_nc_ohc=GxtiqhGXNSAQ7kNvwEfN9fn&_nc_gid=sTTFeKF4M5O0XGnQtmECZA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQPxGr4ElqtDZwbopCo7h1GHls6iguBrnCjBiy7YcLLu_Q&oe=6AE3E61D&_nc_sid=10d13b",
+          "size": [
+            320,
+            320
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；細斯拉格咖啡 (@seaslugcoffee) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "fffcccd7e37db5e39c25bb200aa2d4ef276efdaa6ed2214b513c1a1c5a22a759",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        320,
+        320
+      ],
+      "imageValidators": {
+        "last-modified": "Fri, 17 Jan 2025 11:07:00 GMT"
+      },
+      "source": "https://www.threads.com/@seaslugcoffee",
+      "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/474043141_1291737925203655_5154116615850387851_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMxIn0&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gH7rvm62Xms2nVTNFTKBnmJ7N3FGwThYWbMvf0Knijw9hSwe37W845Yoql_6Q5bb-8&_nc_ohc=GxtiqhGXNSAQ7kNvwEfN9fn&_nc_gid=sTTFeKF4M5O0XGnQtmECZA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQPxGr4ElqtDZwbopCo7h1GHls6iguBrnCjBiy7YcLLu_Q&oe=6AE3E61D&_nc_sid=10d13b",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；細斯拉格咖啡 (@seaslugcoffee) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+      "filename": "seaslugcoffee/logo.webp",
+      "lastSuccess": "2026-10-26T00:09:02+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-26T00:09:02+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "yuantea1983": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/61552790738076",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/399829820_122110703714093024_5569662619369640767_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=at7kkFpuAxQQ7kNvwEY9jZn&_nc_oc=AdpH6Y6lPYcssIcuqUmyNuoFqvELvh4RwCZ48k4FL3_dHx0u8FurGR60b5zVWR1qkIs&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=OXXr-1FZ5p68EJxJ3GIF7w&_nc_ss=7920f&oh=00_AQMyKICVRWYtxVusLIgnWEm2I7VrHxhM7zs_rGW1_bkrmw&oe=6AE3F96F",
+          "size": [
+            720,
+            720
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；梨山原韻茶庄 | Taichung ",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "d6437e3453e32689244adcac7e8278355cb9df1bb126a374cf4778048dacf9ce",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Sat, 11 Nov 2023 15:18:35 GMT"
+      },
+      "source": "https://www.facebook.com/61552790738076",
+      "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/399829820_122110703714093024_5569662619369640767_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=at7kkFpuAxQQ7kNvwEY9jZn&_nc_oc=AdpH6Y6lPYcssIcuqUmyNuoFqvELvh4RwCZ48k4FL3_dHx0u8FurGR60b5zVWR1qkIs&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=OXXr-1FZ5p68EJxJ3GIF7w&_nc_ss=7920f&oh=00_AQMyKICVRWYtxVusLIgnWEm2I7VrHxhM7zs_rGW1_bkrmw&oe=6AE3F96F",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；梨山原韻茶庄 | Taichung ",
+      "filename": "yuantea1983/logo.webp",
+      "lastSuccess": "2026-10-26T00:09:04+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-26T00:09:04+08:00",
       "result": "updated",
       "reason": "首次保存"
     }
