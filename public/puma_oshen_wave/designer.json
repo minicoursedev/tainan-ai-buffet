@@ -32,6 +32,35 @@
         "checkedAt": "2026-10-24",
         "note": "官方 Instagram 個人檔案頭像；社群圖片網址可能失效，屆時需更新。"
       }
+    },
+    {
+      "id": "tigoon-788",
+      "name": "TIGOON 天滾宮",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://instagram.fkhh1-1.fna.fbcdn.net/v/t51.82787-15/793595091_17906634627542341_8266364017161249119_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=Mzk3NzcwMTA1MjUwMTkzMDcyNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNDAyOS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=S0BjYFMeb28Q7kNvwG3qIrJ&_nc_oc=AdqOdMbNqRk4VgyLli3iQFJhxrsViguvtx7lOfTk90MeOcxxiEh2Jd1H13jv0GLkarY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fkhh1-1.fna&_nc_gid=9-fJM6tsdQFQGT-WWTnyYQ&_nc_ss=7a20f&oh=00_AQOBY3AlrrUtg_W5Vs9IsZcu8cDK5ip3IZ153RvPdKzGhQ&oe=6AE329FE",
+          "alt": "TIGOON 天滾宮作品參考：黑虎尊、金炫虎與墨玄虎",
+          "source": "https://www.threads.com/@tigoon.788/post/DczoghREzLl/media",
+          "checkedAt": "2026-10-25",
+          "note": "官方 Threads 貼文照片；已確認 HTTPS 圖片可讀取。社群圖片網址可能失效，屆時需從官方貼文重新查證。"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@tigoon.788",
+        "ig": "https://www.instagram.com/tigoon.788/",
+        "web": "https://lin.ee/Xi08kOX"
+      },
+      "logo": {
+        "url": "https://scontent.cdninstagram.com/v/t51.82787-19/778735647_17903905740542341_5482137880925156576_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=HEeLP1mF5TwQ7kNvwEAzuTx&_nc_oc=Ado_ymKOyD1FUiyrVUWpPrAVJySQ2SX4KbcFVtdUtQ4Hman8fXPDO5TxKtRwuW7oUp4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Kv3gpILhItL_-o0hcdAQTw&_nc_ss=7920f&oh=00_AQMY4QGMrMEOSlSG37pb_PMxHAQe3vJFQ_Q6a46GeLuheQ&oe=6AE3252A",
+        "source": "https://www.threads.com/@tigoon.788",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方 Threads 個人檔案頭像，已比對個人檔案資料並確認 HTTPS 圖片可讀取；社群圖片網址可能失效，屆時需重新查證。"
+      }
     }
   ]
 }
