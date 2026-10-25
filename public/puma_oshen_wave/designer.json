@@ -233,6 +233,45 @@
         "note": "官方 Instagram 個人檔案頭像；已核對帳號 lakubox、個人檔案名稱及 og:image 頭像來源，並確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent-lax3-1.cdninstagram.com/v/t51.2885-19/75200979_957527824620293_8166092259859628032_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=110&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43NjguQzMifQ%3D%3D&_nc_ohc=fu8Wlz-VkTAQ7kNvwHlvvPU&_nc_oc=Adr8YngTYp7WTZs2j7FlUZEfDCiJzeuCwsLgGoqjw8GvHvGMDmogFbBIpUlf8ix5qRQ&_nc_zt=24&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_ss=7960f&oh=00_AQM6WuDABDpkxnQzJ8uZXT4-pSQWHS7v1mVGPee7-AdIbQ&oe=6AE3E35A"
       }
+    },
+    {
+      "id": "giko-ig",
+      "name": "GIKO吉可小賣部｜招財木牌·台灣文字設計",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/giko-ig/1.webp?v=aaaa759496703436",
+          "alt": "GIKO吉可小賣部作品照片 1",
+          "source": "https://www.threads.com/@giko_ig/post/De6ynOpGW4J/media",
+          "checkedAt": "2026-10-25",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://scontent-sin11-2.cdninstagram.com/v/t51.82787-15/864655224_17965453356238715_8936120371575593468_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=NDAxNTc0NDQ4NTcyOTkzMjk1OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzAyNC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2mxihdaDIeIQ7kNvwHBqsks&_nc_oc=Ado5G6J1VCnCLdwurvcAo389ytGYjgyvczZkOtU0t28XUWzCPFVvQil-kfXX6cyQf7M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sin11-2.cdninstagram.com&_nc_gid=rILFE1TOS16FwqbIt7GwTQ&_nc_ss=7a20f&oh=00_AQNcv16jD_xWy7jZ8-mDHjn3xIKYY8Us6ba9JRoz4L3Llw&oe=6AE402B2"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/giko-ig/2.webp?v=b42714fcceb13cc1",
+          "alt": "GIKO吉可小賣部作品照片 2",
+          "source": "https://www.threads.com/@giko_ig/post/De51SzHmdBo/media",
+          "checkedAt": "2026-10-25",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://scontent-sin6-2.cdninstagram.com/v/t51.82787-15/866979783_17965375986238715_4670366317575335727_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=NDAxNTQ3MzIzNDI5MzY1OTAxMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzAyNC5zZHIucmVndWxhcl9waG90by5DMiJ9&_nc_ohc=ws0xxXSLeKIQ7kNvwG_oNnc&_nc_oc=AdrRvVBsCphKlAx7CzY17upQbmJSUDxxwRgonJNTjGOehNQqp0OKwYMtsbzVH6V0B_o&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-sin6-2.cdninstagram.com&_nc_gid=N_vwdHDA67SfYg_9cZD85Q&_nc_ss=7a20f&oh=00_AQO57oC_E98FqQ2i6D2sE1fAtmSISHvVt_Ms2yj4M05asg&oe=6AE3FE0E"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/GIKOPresident/",
+        "threads": "https://www.threads.com/@giko_ig",
+        "ig": "https://www.instagram.com/giko_ig/",
+        "web": "https://linktr.ee/giko_ig"
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/giko-ig/logo.webp?v=66f450e6863689a2",
+        "source": "https://www.threads.com/@giko_ig",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "官方 Threads 個人檔案頭像；已核對帳號、個人檔案名稱與 og:image，並確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent-sin6-3.cdninstagram.com/v/t51.2885-19/448845068_349086058217093_451383421616534875_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=fkH3G0szPzIQ7kNvwGvMTzN&_nc_oc=Ado5OK_IMjC8hDpgxDpsYPUtEwNkR5wkMVxLwFgyGLc4Wst8v_CvS49mWPn1y8EZ8pM&_nc_zt=24&_nc_ht=scontent-sin6-3.cdninstagram.com&_nc_ss=7920f&oh=00_AQMTQPSjz17Ic6Rdyb5-uTWH9x_W7udjmDqiXHycZWvxHQ&oe=6AE40F5F"
+      }
     }
   ]
 }
