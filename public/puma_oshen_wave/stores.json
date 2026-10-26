@@ -7220,6 +7220,11 @@
         "checkedAt": "2026-10-26",
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；王定宇；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。",
         "originalUrl": "https://scontent-lax7-1.xx.fbcdn.net/v/t39.30808-1/424768318_935517214597099_9160757821042262939_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aqu8iC0aiiEQ7kNvwHsXFR9&_nc_oc=AdoQhgmQHlcQrCErFfCkOuExDLxjOvYFYKXsSsNstK3l7-iRVYmr5-Y0l6gPsAmj0nc&_nc_zt=24&_nc_ht=scontent-lax7-1.xx&_nc_gid=nTd8D5QwxHsT_Zff5KS6Sg&_nc_ss=7f20f&oh=00_AQNx1NNV3fYgAQ1lFAerhx3L7kJSPvUMo9une8FfWXjvXA&oe=6AE518FC"
+      },
+      "mapMarker": {
+        "label": "王定宇",
+        "image": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/wang-ting-yu-xinfeng-service-office/logo.webp?v=b0d4e3a5e59406e6",
+        "source": "https://www.facebook.com/wdy19690305/"
       }
     },
     {
@@ -7270,7 +7275,12 @@
         "lng": 120.2285723
       },
       "coordinateSource": "https://www.google.com/maps/place/立委王定宇東區服務處/@22.9861897,120.2285723,17z/data=!3m1!4b1!4m6!3m5!1s0x346e77a8af55f06f:0x9015c72b13e56aa6!8m2!3d22.9861897!4d120.2285723!16s%2Fg%2F11h194vvhv?hl=zh-TW",
-      "coordinateNote": "2026-10-26 查證子代理先以OpenStreetMap查詢完整地址、街道門牌結構化查詢及296號之21寫法，均無結果；再操作瀏覽器查詢Google Maps，地點卡片為「立委王定宇東區服務處」、地址701臺南市東區富強里裕農路296-21號、電話06-238-8088，與立法院及使用者提供地址一致。從實際地點網址!3d22.9861897及!4d120.2285723取得數值座標，非@地圖視窗中心、非道路中心。"
+      "coordinateNote": "2026-10-26 查證子代理先以OpenStreetMap查詢完整地址、街道門牌結構化查詢及296號之21寫法，均無結果；再操作瀏覽器查詢Google Maps，地點卡片為「立委王定宇東區服務處」、地址701臺南市東區富強里裕農路296-21號、電話06-238-8088，與立法院及使用者提供地址一致。從實際地點網址!3d22.9861897及!4d120.2285723取得數值座標，非@地圖視窗中心、非道路中心。",
+      "mapMarker": {
+        "label": "王定宇",
+        "image": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/wang-ting-yu-xinfeng-service-office/logo.webp?v=b0d4e3a5e59406e6",
+        "source": "https://www.facebook.com/wdy19690305/"
+      }
     }
   ],
   "pendingStores": []
