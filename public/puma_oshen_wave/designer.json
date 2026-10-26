@@ -706,6 +706,53 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/591152634_17930976786117350_3915922176714528028_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=Nw2aZEzy76EQ7kNvwFlsWFH&_nc_oc=AdpsE3mo30zziODnRi51mxPZs9MAQEi0W137qWxpioWPvSuZ-QsS9yiLd-m8YJs6u84&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Wy2ZwCX-hB7EUZ-qnoy_EQ&_nc_ss=7920f&oh=00_AQMVqi_JhYtKZxzksRsMDl0DUu_m6zPOyhTpf6eEBhivhw&oe=6AE4AF5A"
       }
+    },
+    {
+      "id": "hope-huang17",
+      "name": "黃千倫",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hope-huang17/1.webp?v=87fe6ff722b9bee7",
+          "alt": "黃千倫作品照片 1",
+          "source": "https://drive.google.com/file/d/1JJATtM3ZZDSX7rL_sMvlj3HJh3SjPk1d/view?usp=sharing",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://drive.usercontent.google.com/download?id=1JJATtM3ZZDSX7rL_sMvlj3HJh3SjPk1d&export=download"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hope-huang17/2.webp?v=6e1e296201c7a145",
+          "alt": "黃千倫作品照片 2",
+          "source": "https://drive.google.com/file/d/1TQO_jYL0Iax2nc5TaLXCNmtqE_okihtc/view?usp=sharing",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://drive.usercontent.google.com/download?id=1TQO_jYL0Iax2nc5TaLXCNmtqE_okihtc&export=download"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hope-huang17/3.webp?v=02772ac54b474e2e",
+          "alt": "黃千倫作品照片 3",
+          "source": "https://drive.google.com/file/d/11YeOegd9_02xYYXlKIVerZ8U7vrHZC7q/view?usp=sharing",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://drive.usercontent.google.com/download?id=11YeOegd9_02xYYXlKIVerZ8U7vrHZC7q&export=download"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@hope.huang17",
+        "ig": "https://www.instagram.com/hope.huang17/",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hope-huang17/logo.webp?v=442724568f0c065b",
+        "source": "https://www.threads.com/@hope.huang17",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-26",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/783240991_17922708855408451_1702325524904049941_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=5NsGMue6PXgQ7kNvwFBmC7p&_nc_oc=AdryoXHg0QWKSxbManMGYmQ5oDSHdwZJAPHH_dmfdHEteAjVX4lg9H6vrnNkmU9J3qY&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=clXxXtE9UJhwXJM_2K9IAg&_nc_ss=7920f&oh=00_AQNNW39Jal593jNuuYCXFh4G0PfpnJJlXBB82hnAMO0TqA&oe=6AE4AB95"
+      }
     }
   ]
 }
