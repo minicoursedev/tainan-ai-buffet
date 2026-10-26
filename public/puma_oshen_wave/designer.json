@@ -690,7 +690,22 @@
       "name": "claire chien",
       "disabled": false,
       "verification": true,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/clairehandwriting/1.webp?v=30ed57f5fc60be0e",
+          "alt": "claire chien 作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/clairehandwriting/1.webp?v=30ed57f5fc60be0e",
+          "checkedAt": "2026-10-26",
+          "note": "使用者上傳並指定為此設計師作品照片；來源附件：856149822_1434038568902679_1884585533943767798_n.jpg。此網址為附件轉製的保存副本。"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/clairehandwriting/2.webp?v=2259f3dd6f262b9c",
+          "alt": "claire chien 作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/clairehandwriting/2.webp?v=2259f3dd6f262b9c",
+          "checkedAt": "2026-10-26",
+          "note": "使用者上傳並指定為此設計師作品照片；來源附件：862875485_1147080001221273_7393297315731903039_n.jpg。此網址為附件轉製的保存副本。"
+        }
+      ],
       "social": {
         "fb": "",
         "threads": "https://www.threads.com/@clairehandwriting",
