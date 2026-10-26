@@ -1,9 +1,9 @@
 // 設計師列表模式 <main id="stage-list">: filter the search rows in memory, render 60 cards at a time,
 // Fill each card’s logo and product images as it scrolls into view.
 import { state, toast, findBoothIn } from '../state.js';
-import { loadSearch, loadAisle, aisleOfBooth } from '../data.js?v=20261026-video2';
-import { goToBooth } from '../nav.js';
-import { openBooth } from './booth.js?v=20261026-video2';
+import { loadSearch, loadAisle, aisleOfBooth } from '../data.js?v=20261026-video3';
+import { goToBooth } from '../nav.js?v=20261026-video3';
+import { openBooth } from './booth.js?v=20261026-video3';
 import { thumbnailUrl, retryOriginal } from '../images.js';
 
 const PAGE = 60;
