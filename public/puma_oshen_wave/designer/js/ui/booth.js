@@ -38,12 +38,14 @@ function failHtml(boothId, text) {
 function coverHtml(src, label) {
   const url = safeUrl(src);
   if (!url) return `<span class="bo-cover bo-cover-none" aria-hidden="true"></span>`;
-  return `<span class="bo-cover"><img src="${esc(thumbnailUrl(url))}" data-original="${esc(url)}" alt="" loading="lazy" decoding="async" data-label="${esc(label)}"></span>`;
+  return `<span class="bo-cover"><img src="${esc(thumbnailUrl(url))}" data-original="${esc(url)}" alt="${esc(label)}" loading="lazy" decoding="async" data-label="${esc(label)}"></span>`;
 }
 
 function workHtml(w) {
   const url = safeUrl(w.url);
-  const inner = `${coverHtml(w.cover, w.name)}<span class="bo-name">${esc(w.name || '未命名作品')}</span>`;
+  const generic = /作品(?:照片|參考)\s*\d+$/.test(w.name || '');
+  const caption = generic ? '' : `<span class="bo-name">${esc(w.name || '未命名作品')}</span>`;
+  const inner = `${coverHtml(w.cover, w.name)}${caption}`;
   return url
     ? `<li><a class="bo-work" href="${esc(url)}" target="_blank" rel="noopener">${inner}</a></li>`
     : `<li><span class="bo-work">${inner}</span></li>`;
