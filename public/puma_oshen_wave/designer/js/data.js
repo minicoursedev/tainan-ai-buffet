@@ -24,6 +24,17 @@ function externalUrl(value) {
   } catch { return ''; }
 }
 
+// Image provenance is not a product page. Uploaded files stay non-clickable.
+function productLink(product) {
+  const source = externalUrl(product?.source);
+  if (!source) return '';
+  const url = new URL(source);
+  if (source === product?.url || source === product?.originalUrl
+    || /\.(?:avif|gif|jpe?g|png|svg|webp)$/i.test(url.pathname)
+    || /(^|\.)(?:discordapp\.(?:com|net)|discord\.com|fbcdn\.net|cdninstagram\.com)$/.test(url.hostname)) return '';
+  return source;
+}
+
 export function createCatalogue(data) {
   if (!Array.isArray(data?.designers)) throw new Error('Invalid designer list');
   const ids = new Set();
@@ -55,7 +66,7 @@ export function createCatalogue(data) {
           id: `${designer.id}-${i + 1}`,
           name: typeof product?.alt === 'string' && product.alt.trim() ? product.alt : `${designer.name} 作品參考 ${i + 1}`,
           cover: imageUrl(product?.url),
-          url: externalUrl(product?.source),
+          url: productLink(product),
         })).filter(work => work.cover);
       stores[designer.id] = {
         id: designer.id, name: designer.name, owner: designer.name,
