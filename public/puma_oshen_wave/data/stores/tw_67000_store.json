@@ -5348,6 +5348,55 @@
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；玖愛印數位雲端印刷網 (@99iinn) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。",
         "originalUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-19/845287799_17895303669610891_447515931552795277_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fkhh1-2.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2gGxUXsnBv8FmJnxn0vetFWQWlcKD-m_Ev5_QQ3yFefcqdmjZ8wXdCF0A6I2-IIDrgw&_nc_ohc=JQEDmD7Qm0kQ7kNvwF7ObrX&_nc_gid=6GKUAcjTRI1e-q_pk2EXOQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQOm3R-UvkpC4cflYh6ebdeB6a9Vrxm5-BLKwLMNmYSXvQ&oe=6AE45D00&_nc_sid=10d13b"
       }
+    },
+    {
+      "id": "wang-ting-yu-xinfeng-service-office",
+      "verification": false,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "王定宇新豐服務處",
+      "address": "台南市歸仁區中山路三段70號",
+      "social": {
+        "facebook": "https://www.facebook.com/wdy19690305/",
+        "instagram": "",
+        "threads": "https://www.threads.com/@tingyu_wang1969"
+      },
+      "sources": [
+        "https://www.threads.com/@tingyu_wang1969",
+        "https://www.facebook.com/wdy19690305/",
+        "https://ocacnews.net/article/223691",
+        "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46760",
+        "https://www.openstreetmap.org/node/11060162670"
+      ],
+      "verifiedAt": "2026-10-26",
+      "verificationNote": "使用者指定「王定宇新豐服務處」及地址，收錄為洋流服務站；新增店家verification依本次指示設為JSON布林值false。查證子代理查閱立法院第11屆王定宇委員官方頁，主代理另讀原頁核對：南關線服務處地址為台南市歸仁區中山路三段70號，電話06-330-2318，頁面明示資料由委員研究室提供；保留使用者指定店名，不以官方頁的服務處稱呼取代。已比對全部160筆既有紀錄（含disabled）及待查資料的店名、地址與社群，未發現重複。查證子代理核對使用者指定Threads公開頁名稱王定宇及國會議員自介；Facebook公開頁名稱王定宇、類別政治人物，僑務委員會新聞亦明列同一wdy19690305帳號為立委王定宇臉書，主代理另讀新聞確認。未取得足夠官方連結證明Instagram帳號，留空。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽官方社群或致電06-330-2318確認。",
+        "sources": [
+          "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46760",
+          "https://www.threads.com/@tingyu_wang1969"
+        ],
+        "checkedAt": "2026-10-26",
+        "auditNote": "未取得可確認為此服務處的完整固定服務時間，不以其他服務處或特定活動時段推定。"
+      },
+      "visitNote": "服務專線06-330-2318；立法院官方頁稱此地址為南關線服務處。",
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9677713,
+        "lng": 120.2862313
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060162670",
+      "coordinateNote": "2026-10-26 查證子代理優先查詢OpenStreetMap，完整地址無結果，再以street=70 中山路三段、city=歸仁區、county=臺南市、country=Taiwan結構化查詢取得門牌節點11060162670；主代理另讀OSM節點API，確認addr:full為臺南市歸仁區南保里13鄰中山路三段70號，行政區、路段及70號門牌均與指定地址及立法院官方現址相符，來源為臺南市政府。採門牌座標22.9677713、120.2862313，未使用道路中心或地圖視窗中心。",
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.facebook.com/wdy19690305/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-26",
+        "note": "查證子代理核對官方Facebook王定宇個人頁：ProfilePlusCometLoggedOutRouteRoot的upsellConfig.surface=profile、profile_name=王定宇、image_url標示個人檔案圖；其照片ID935517214597099與同頁原生720×720 og:image一致，非僅以分享圖判定頭像。圖片回應HTTP200、Content-Type image/jpeg，實測720×720；保留官方頁原始完整CDN網址，未修改尺寸或簽章參數。來源原生尺寸足供Logo使用，圖片網址由批次固定流程填入。",
+        "originalUrl": "https://scontent-lax7-1.xx.fbcdn.net/v/t39.30808-1/424768318_935517214597099_9160757821042262939_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aqu8iC0aiiEQ7kNvwHsXFR9&_nc_oc=AdoQhgmQHlcQrCErFfCkOuExDLxjOvYFYKXsSsNstK3l7-iRVYmr5-Y0l6gPsAmj0nc&_nc_zt=24&_nc_ht=scontent-lax7-1.xx&_nc_gid=nTd8D5QwxHsT_Zff5KS6Sg&_nc_ss=7f20f&oh=00_AQNx1NNV3fYgAQ1lFAerhx3L7kJSPvUMo9une8FfWXjvXA&oe=6AE518FC"
+      }
     }
   ],
   "pendingStores": []
