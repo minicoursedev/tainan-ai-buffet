@@ -941,6 +941,45 @@
         "note": "官方 Threads 個人頁頭像。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/564016850_17844022236594334_2448587910628797339_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=58GBolj7BbIQ7kNvwEtfw_H&_nc_oc=Adq7NiowPg0iin_ecu1u_RR05acYIl0KyOLR2mDNMKAjxv3oyFPb1p0qaVVf_4RLFC8&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=COVlm8gwQkX75akGhHyBWQ&_nc_ss=7920f&oh=00_AQOtvshEL237leDB-n0aDnWoRWdAhaUGtcoZl2Cq_bOv3g&oe=6AE4CE99"
       }
+    },
+    {
+      "id": "angelake",
+      "name": "柯林廣告 Design",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/angelake/1.webp?v=f3c4518dce257e6f",
+          "alt": "柯林廣告 Design 作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/angelake/1.webp?v=f3c4518dce257e6f",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564171190975602698/866591192_17993483742106851_7879782672626995905_n.png?ex=6ae04b70&is=6adef9f0&hm=eb18db503f17010d6b1008eca8fde0f3b189a6e5b7fd1128c4e9d3d438f2e910&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/angelake/2.webp?v=fb38a2117d250f86",
+          "alt": "柯林廣告 Design 作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/angelake/2.webp?v=fb38a2117d250f86",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564171191357276160/864824728_17993483769106851_8162836376038884505_n.png?ex=6ae04b70&is=6adef9f0&hm=4b6ce6510941c52568c730a775190dcd61b97fd5fd0b2ddb45bc8ec4dbe0c0ac&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "",
+        "ig": "",
+        "web": "https://www.behance.net/angelake"
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/angelake/logo.webp?v=0acc4b85a1171e43",
+        "source": "https://www.behance.net/angelake",
+        "platform": "behance",
+        "status": "verified",
+        "checkedAt": "2026-10-26",
+        "note": "官方 Behance 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://pps.services.adobe.com/api/profile/5FA795A15ABF0C570A495DCF@AdobeID/image/b2b1c7a3-790a-45e2-b7a3-2e9a69ddc875/276"
+      }
     }
   ]
 }
