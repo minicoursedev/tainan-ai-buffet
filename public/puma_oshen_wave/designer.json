@@ -333,7 +333,24 @@
       "name": "皮皮手作🎗️",
       "disabled": false,
       "verification": true,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/suede-ydmd/1.webp?v=6832448660c88e6f",
+          "alt": "皮皮手作🎗️作品照片 1",
+          "source": "https://scontent-tpe1-1.xx.fbcdn.net/v/t1.15752-9/869026616_1098461572975976_8909065076775383444_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_ohc=ur5KguoXGdMQ7kNvwERjpWL&_nc_oc=AdpthxgMaEbsAPL8T2ltMxYYTAa1MRXCoz_iOPlF6z4EB6sGZI4L2b1-3fpDj-gs6Oc&_nc_zt=23&_nc_ht=scontent-tpe1-1.xx&_nc_ss=7b2a8&oh=03_Q7cD6gGBLjzPw9QUJxIVpJLJc0kFWhWXhUQbwcGnnC1-RGqb2Q&oe=6B0609EA",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t1.15752-9/869026616_1098461572975976_8909065076775383444_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_ohc=ur5KguoXGdMQ7kNvwERjpWL&_nc_oc=AdpthxgMaEbsAPL8T2ltMxYYTAa1MRXCoz_iOPlF6z4EB6sGZI4L2b1-3fpDj-gs6Oc&_nc_zt=23&_nc_ht=scontent-tpe1-1.xx&_nc_ss=7b2a8&oh=03_Q7cD6gGBLjzPw9QUJxIVpJLJc0kFWhWXhUQbwcGnnC1-RGqb2Q&oe=6B0609EA"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/suede-ydmd/2.webp?v=f6d7b8080c90b92c",
+          "alt": "皮皮手作🎗️作品照片 2",
+          "source": "https://scontent-tpe5-1.xx.fbcdn.net/v/t1.15752-9/868866578_1808278243655110_2341425147973198994_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=AgGEIzOC0mkQ7kNvwEREIXF&_nc_oc=Adr5EJvQm-CsF4FFlWiHXOmTLpiRGgpi_pntpN-iiVvqcl8Gq9BHcy3qU5ZrWnF1FMQ&_nc_zt=23&_nc_ht=scontent-tpe5-1.xx&_nc_ss=7b2a8&oh=03_Q7cD6gEsLxgMHsEkqhjWl6vsKqWex8mJVfW9B-F05Rvc6csziA&oe=6B061829",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t1.15752-9/868866578_1808278243655110_2341425147973198994_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=AgGEIzOC0mkQ7kNvwEREIXF&_nc_oc=Adr5EJvQm-CsF4FFlWiHXOmTLpiRGgpi_pntpN-iiVvqcl8Gq9BHcy3qU5ZrWnF1FMQ&_nc_zt=23&_nc_ht=scontent-tpe5-1.xx&_nc_ss=7b2a8&oh=03_Q7cD6gEsLxgMHsEkqhjWl6vsKqWex8mJVfW9B-F05Rvc6csziA&oe=6B061829"
+        }
+      ],
       "social": {
         "fb": "",
         "threads": "https://www.threads.com/@suede_ydmd",
@@ -348,7 +365,21 @@
         "checkedAt": "2026-10-26",
         "note": "使用者指定為此設計師 Logo",
         "originalUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t1.15752-9/868072102_1144810161379083_5260541385234566497_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=9f807c&_nc_ohc=XRRJtv8QjkYQ7kNvwHssuC9&_nc_oc=AdrcWeN-E-YC1FXRnjiH9XbMhApoV2kmT9tmqqZGxGmIcLo5QyNsHNGxnnPyIWv38PM&_nc_zt=23&_nc_ht=scontent.fkhh1-1.fna&_nc_ss=7b2a8&oh=03_Q7cD6gGyaHLNZOi82j9YTeA2-43iYOlFFzNuLwrg7R_IB8VZbA&oe=6B0606A2"
-      }
+      },
+      "links": [
+        {
+          "label": "領巾",
+          "url": "https://drive.google.com/drive/folders/1U2cAZS1_W4tXZYfhhEVfLpM3Vix0M_8-"
+        },
+        {
+          "label": "飄帶",
+          "url": "https://drive.google.com/drive/folders/1e7YztbFFkmf-D_joe7HZadG1tJhcJeef"
+        },
+        {
+          "label": "大旗",
+          "url": "https://drive.google.com/drive/folders/1QIHava7pKKEC2ZOqZ5XF-lIZQGzKWuhD"
+        }
+      ]
     },
     {
       "id": "dearestmiranda",
