@@ -1539,6 +1539,53 @@
         "note": "官方 Portaly 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://img.portaly.cc/PwMaZP_15aHCENBKljj1kJ9fWsxlk_N3vYk4iQNF8PI/rs:fill:3840/q:75/aHR0cHM6Ly9maXJlYmFzZXN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vdjAvYi9wb3J0YWx5LWNhOWUxLmFwcHNwb3QuY29tL28vQnJmY2huc2dLc1d3SWFMbDdsSWolMkZhdmF0YXI_YWx0PW1lZGlhJnRva2VuPTJkMjIzYjc0LWM5MGItNDBkOC1hYzMxLTE0YzJlZGFlNTdmMQ"
       }
+    },
+    {
+      "id": "ys0u0",
+      "name": "Cindy",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/ys0u0/1.webp?v=d13bda92534705b4",
+          "alt": "Cindy作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/ys0u0/1.webp?v=d13bda92534705b4",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564338342290653317/867925426_17973888282153683_8785422651693092379_n.png?ex=6ae0e71c&is=6adf959c&hm=acec7370071a2b1d205e2c236e025cb6ae28ecb192f6f37e0400c94dca8ff5be&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/ys0u0/2.webp?v=a0f67deef41c7329",
+          "alt": "Cindy作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/ys0u0/2.webp?v=a0f67deef41c7329",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564338343234244698/867806700_17973861783153683_9150932666523418904_n.png?ex=6ae0e71d&is=6adf959d&hm=1897b05ba4bd7efcb4149e9eb8725a3c60b93d3f492a691904958dabab58d19c&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/ys0u0/3.webp?v=29b44e4b965c0614",
+          "alt": "Cindy作品照片 3",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/ys0u0/3.webp?v=29b44e4b965c0614",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564338344044007424/866098749_17973580434153683_5232916950442855038_n.png?ex=6ae0e71d&is=6adf959d&hm=7145eb2b43cb64c0651162522b3270c135f6fd61ee45d3588938e792feffbbb6&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@ys0u0",
+        "ig": "https://www.instagram.com/ys0u0/",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/ys0u0/logo.webp?v=4111d0500d320f12",
+        "source": "https://www.threads.com/@ys0u0",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/849771934_17972392419153683_5575889971214122011_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=CNsiajzU6hIQ7kNvwGuqSzk&_nc_oc=AdqXrzuTD81zLLEFjrqEbjUolxN8CVdOdxtgdTcXFqXsCdh6Ai3YzHswkK1cf1uEH_U&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=kivnpvtnNhWJ8bOmcMv5Ng&_nc_ss=7920f&oh=00_AQMyXYGrlio5qrBuHpLQCFW-Yphvo15nj49SDplKAFjtGw&oe=6AE582D1"
+      }
     }
   ]
 }
