@@ -1492,6 +1492,53 @@
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564241714246459402/858297917_17910342540589388_4607388451060198558_n.png?ex=6ae08d1e&is=6adf3b9e&hm=943401786472c87ef12e12453f67d9e100702a354efdec7a110d381e18521fe1&"
         }
       ]
+    },
+    {
+      "id": "moonlight432hz",
+      "name": "慢來",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/moonlight432hz/1.webp?v=8747f0871470741a",
+          "alt": "慢來作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/moonlight432hz/1.webp?v=8747f0871470741a",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564336277489455155/861646344_1121396930248309_6788748782639836888_n.png?ex=6ae0e530&is=6adf93b0&hm=9930d50527bd6b76ba896d5c18d77fee1a5ee26f1532289cfb97d07605e14239&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/moonlight432hz/2.webp?v=7061849b20e780f0",
+          "alt": "慢來作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/moonlight432hz/2.webp?v=7061849b20e780f0",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564336285198454935/867538381_1405273844676769_8671873047054135155_n.png?ex=6ae0e532&is=6adf93b2&hm=4eba4b3fb461908cee475a8cb3f9ca644d10bcd194da624f26f82805db674f21&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/moonlight432hz/3.webp?v=bb0c0de9ba574e5f",
+          "alt": "慢來作品照片 3",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/moonlight432hz/3.webp?v=bb0c0de9ba574e5f",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564336285664018492/866472794_951420487688130_5952602084059203606_n.png?ex=6ae0e532&is=6adf93b2&hm=4a9cfb65e9251372ab91210469f83c6097daa78b209d6d669dcb546e968a0656&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@moonlight432hz",
+        "ig": "https://www.instagram.com/moonlight432hz",
+        "web": "https://portaly.cc/moonlight432Hz"
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/moonlight432hz/logo.webp?v=df77a512ff29ab2f",
+        "source": "https://portaly.cc/moonlight432Hz",
+        "platform": "portaly",
+        "status": "verified",
+        "checkedAt": "2026-10-26",
+        "note": "官方 Portaly 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://img.portaly.cc/PwMaZP_15aHCENBKljj1kJ9fWsxlk_N3vYk4iQNF8PI/rs:fill:3840/q:75/aHR0cHM6Ly9maXJlYmFzZXN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vdjAvYi9wb3J0YWx5LWNhOWUxLmFwcHNwb3QuY29tL28vQnJmY2huc2dLc1d3SWFMbDdsSWolMkZhdmF0YXI_YWx0PW1lZGlhJnRva2VuPTJkMjIzYjc0LWM5MGItNDBkOC1hYzMxLTE0YzJlZGFlNTdmMQ"
+      }
     }
   ]
 }
