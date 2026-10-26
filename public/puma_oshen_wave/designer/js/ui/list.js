@@ -1,5 +1,5 @@
 // 設計師列表模式 <main id="stage-list">: filter the search rows in memory, render 60 cards at a time,
-// Fill each card's three images from the shared catalogue as it scrolls into view.
+// Fill each card’s logo and product images as it scrolls into view.
 import { state, toast, findBoothIn } from '../state.js';
 import { loadSearch, loadAisle, aisleOfBooth } from '../data.js';
 import { goToBooth } from '../nav.js';
@@ -121,9 +121,9 @@ export function mountList(container) {
   function cardHtml(r) {
     const where = r.zone;
     return `<article class="lc" data-id="${esc(r.id)}">
-      <div class="lc-covers" aria-hidden="true"><span class="lc-cv"></span><span class="lc-cv"></span><span class="lc-cv"></span></div>
+      <div class="lc-heading"><span class="lc-logo lc-cv" aria-hidden="true"></span><h3 class="lc-name"><button type="button" class="lc-open">${esc(r.store)}</button></h3></div>
+      <div class="lc-covers" aria-hidden="true"></div>
       <div class="lc-meta"><span class="lc-id mono">${esc(r.id)}</span>${r.type ? `<span class="lc-type">${esc(r.type)}</span>` : ''}</div>
-      <h3 class="lc-name"><button type="button" class="lc-open">${esc(r.store)}</button></h3>
       <p class="lc-owner">設計師 ${esc(r.owner)}</p>
       <p class="lc-zone">${esc(hallName(r.hall))}・${esc(where)}</p>
       <button type="button" class="btn lc-go">看設計師</button>
@@ -142,7 +142,7 @@ export function mountList(container) {
   }
 
   function slotFill(slot, w) {
-    slot.className = 'lc-cv';
+    slot.classList.remove('is-none', 'is-blank', 'is-loaded');
     slot.textContent = '';
     if (!w) { slot.classList.add('is-none'); return; }
     if (!w.cover) { slot.classList.add('is-blank'); return; }
@@ -162,13 +162,25 @@ export function mountList(container) {
     const id = card.dataset.id;
     const code = aisleOfBooth(id);
     let booth = null;
+    let aisle;
     try {
-      booth = findBoothIn(await loadAisle(code), id);
+      aisle = await loadAisle(code);
+      booth = findBoothIn(aisle, id);
     } catch { return; }
     if (!booth || !card.isConnected) return;
-    const slots = card.querySelectorAll('.lc-cv');
+    const avatar = aisle.stores[booth.store]?.avatar;
+    const logo = card.querySelector('.lc-logo');
+    logo.hidden = !avatar;
+    if (avatar) slotFill(logo, { cover: avatar });
+    const covers = card.querySelector('.lc-covers');
     const works = booth.works || [];
-    slots.forEach((s, i) => slotFill(s, works[i]));
+    covers.hidden = !works.length;
+    for (const work of works) {
+      const slot = document.createElement('span');
+      slot.className = 'lc-cv';
+      covers.append(slot);
+      slotFill(slot, work);
+    }
     card.dataset.filled = '1';
   }
 
