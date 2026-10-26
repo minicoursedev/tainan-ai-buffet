@@ -457,7 +457,13 @@
         "checkedAt": "2026-10-26",
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/658254199_17953242480118199_6164065948072160387_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=aBgCYxA9ensQ7kNvwGo_SSU&_nc_oc=AdrtRNDBMfXxRcudjUU5ESriXVWHvrSJWVEANYrW7nImRf9dCKdHYz-3QuxLbIIUxG4&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=RlM-UKDbsZMljl2OR6gbTA&_nc_ss=7920f&oh=00_AQMXIZ4kPrHAhZKtc8TUWaCmcZ7juYzQsbFd1N8SSa1xuw&oe=6AE484D8"
-      }
+      },
+      "links": [
+        {
+          "label": "賣場",
+          "url": "https://l.threads.com/?u=https%3A%2F%2Fmyship.7-11.com.tw%2Fgeneral%2Fdetail%2FGM2605300172502&e=AUDXH_Ddi-RLwdcuvbrY3G7aib0x2h3z2kGAy8st0JiG_hnSeo92fpizBIsOTVis3Aa0rk1nXGs5lTWsVvp1lBYb3nWFmshzHtx98lL2f6-2i-nGKkhJvTtiRwjaZxAFLGECNML46soU"
+        }
+      ]
     }
   ]
 }
