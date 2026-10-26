@@ -1,11 +1,11 @@
 // Boot and wiring: header, dock, walk view, dialogs, list and map pages, routes (#/walk/<aisle or booth>, #/list, #/map).
 import { state, on, emit, visitedCount, toast } from './state.js';
-import { loadIndex, aisleOfBooth, loadBoothForDesigner } from './data.js';
+import { loadIndex, aisleOfBooth, loadBoothForDesigner } from './data.js?v=20261026-video2';
 import { goToAisle, designerBoothUrl } from './nav.js';
 import { createWalkView } from './walk.js?v=20261025-square-logos';
-import { openBooth } from './ui/booth.js?v=20261026-video';
+import { openBooth } from './ui/booth.js?v=20261026-video2';
 import { mountMap } from './ui/map.js';
-import { mountList } from './ui/list.js?v=20261026-video';
+import { mountList } from './ui/list.js?v=20261026-video2';
 import { loadSchedule, isClosed, closeTagText, msLeft, lastOpenLabel } from './schedule.js';
 import { loadCats, loadChatter } from './cats.js';
 import { showClosed } from './ui/closed.js';
