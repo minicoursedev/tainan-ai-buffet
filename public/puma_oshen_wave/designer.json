@@ -558,6 +558,85 @@
         "note": "官方 Threads 個人檔案頭像；已核對名稱 LiAn、帳號 fabliansohappy 與個人檔案頁面圖片，並確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/470917088_1256114148977303_8655405289533520509_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=H7PqNTmGEeMQ7kNvwGfi4Sq&_nc_oc=AdrYejwW-wcaigJCRLoENI_ZBBjkSKa1FExh_sf6e-sz1Hm5cp1pdUhzjmNkmTONgqE&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_ss=7f20f&oh=00_AQNZlWfLn6aKot3Nmx72jVNnoORJooI3uLwNCXBRgDDOIw&oe=6AE4A94C"
       }
+    },
+    {
+      "id": "yuan-art-space",
+      "name": "Yuan Art & Space | 沅藝術空間",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yuan-art-space/1.webp?v=dcc146307d7af8be",
+          "alt": "Yuan Art & Space | 沅藝術空間作品照片 1",
+          "source": "https://www.threads.com/@mu.von/post/De8WAJGE-9t/media",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://instagram.fkhh1-1.fna.fbcdn.net/v/t51.82787-15/858281161_17909246322594334_7112900060483667265_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAxNjE4MDYwMTU3Njg1MTAyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=d5gJmJCleu0Q7kNvwEsYfo3&_nc_oc=AdrJTCPAo7LNP2MdLq1StmHLmOfy8XcrzQtJ_MWokNeYXot3Ud2jGOkF2A22kcM9On0&_nc_zt=23&_nc_ht=instagram.fkhh1-1.fna&_nc_gid=lyWZzkiXiMAUM8_B4s9N6w&_nc_ss=7b20f&oh=00_AQPk6Qn8etPWal5ShJQRYvKghIjKv11Qne_bs63lSysMaA&oe=6AE48D8E"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yuan-art-space/2.webp?v=d4082a18e6cf12ab",
+          "alt": "Yuan Art & Space | 沅藝術空間作品照片 2",
+          "source": "https://www.threads.com/@mu.von/post/De8WAJGE-9t/media",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://instagram.fkhh1-1.fna.fbcdn.net/v/t51.82787-15/862959366_17909246349594334_3782154550116454194_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=NDAxNjE4MDYyNDIyNTk5Njc4Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9AMwo_y5VnMQ7kNvwH10jqy&_nc_oc=AdonBB4yckSZX_I2DW1lJOdYVmwQlLSkFhSE0RZ5Ht5t8EjTP2shTmgqFcPwO3SiQUE&_nc_zt=23&_nc_ht=instagram.fkhh1-1.fna&_nc_gid=lyWZzkiXiMAUM8_B4s9N6w&_nc_ss=7b20f&oh=00_AQONsqPZYlChCDwu6HmFIT0KvbltvgRBuN6CrlIZtOc6NQ&oe=6AE489A3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yuan-art-space/3.webp?v=db086cacf46c95bd",
+          "alt": "Yuan Art & Space | 沅藝術空間作品照片 3",
+          "source": "https://www.threads.com/@mu.von/post/De8WAJGE-9t/media",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-15/866413856_17909246373594334_3414693133392557388_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=NDAxNjE4MDY0Nzk1NzM2NTMwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNDAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=4qEfN4GuHrAQ7kNvwGIMv7o&_nc_oc=AdrV9rVOo2BhevIFQiizpkl09CdXs_e-auIbFQJVRh132XQXqcRNicME_d-uh0CGkH4&_nc_zt=23&_nc_ht=instagram.fkhh1-2.fna&_nc_gid=lyWZzkiXiMAUM8_B4s9N6w&_nc_ss=7b20f&oh=00_AQNPcsmZTPtmP2Wp4qgDQzMPBmkXKbtxkUoxtQy9cLb2iw&oe=6AE4BCB9"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yuan-art-space/4.webp?v=3f2e5cf772cfc55a",
+          "alt": "Yuan Art & Space | 沅藝術空間作品照片 4",
+          "source": "https://www.threads.com/@mu.von/post/De8WAJGE-9t/media",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://instagram.fkhh1-1.fna.fbcdn.net/v/t51.82787-15/862994697_17909246397594334_3580812762981059920_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=NDAxNjE4MDY3MTc0NzUzMTMzNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNDAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Y1ZaMWieo-4Q7kNvwFb3GTz&_nc_oc=Adqr9v8bJ8LIG5NoAbLagOgNITYLvB4RRl6ES7Nx65x2cd3BBWogKvwz0RnacAg_2QM&_nc_zt=23&_nc_ht=instagram.fkhh1-1.fna&_nc_gid=lyWZzkiXiMAUM8_B4s9N6w&_nc_ss=7b20f&oh=00_AQNy_IpmiueuAeG4N3EteCHIkKwG-HmtJcakHYtLEo4SMg&oe=6AE49249"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yuan-art-space/5.webp?v=5cae99cf007d8022",
+          "alt": "Yuan Art & Space | 沅藝術空間作品照片 5",
+          "source": "https://www.threads.com/@mu.von/post/De8WAJGE-9t/media",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://instagram.fkhh1-1.fna.fbcdn.net/v/t51.82787-15/866992477_17909246421594334_3888888727813320365_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ig_cache_key=NDAxNjE4MDY5NjM1MTM1MzgzMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=6saiIrARy-sQ7kNvwFGG6Au&_nc_oc=AdoLWJ3dSA6nkJwDTnLAFZM9N1zBo4uHxNvp4z53Ep5hzL485_lDhA5qLRy1I91sPPw&_nc_zt=23&_nc_ht=instagram.fkhh1-1.fna&_nc_gid=lyWZzkiXiMAUM8_B4s9N6w&_nc_ss=7b20f&oh=00_AQPwumNnNZ1dImaAT0lXPbVKDx9f2EoJk7PWP5VZEQAo9g&oe=6AE4AB4A"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yuan-art-space/6.webp?v=fcb015d482cc926e",
+          "alt": "Yuan Art & Space | 沅藝術空間作品照片 6",
+          "source": "https://www.threads.com/@mu.von/post/De8WAJGE-9t/media",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-15/863069334_17909246634594334_3617784308259034262_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=NDAxNjE4MTQ2ODA2OTc4Njk0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=NdA3HBKjq_wQ7kNvwGlASCv&_nc_oc=Ado4hKYS5SgRvNeSwJV0llv7oFJ2OKb4I6k-gGXOuV5iJuP53T02lc9o11BJ11V2pEM&_nc_zt=23&_nc_ht=instagram.fkhh1-2.fna&_nc_gid=lyWZzkiXiMAUM8_B4s9N6w&_nc_ss=7b20f&oh=00_AQOTDrOFXstNFMcGjfZhYujLrnyeYi4qZrO8zbTOT8Ec3A&oe=6AE4B474"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yuan-art-space/7.webp?v=258aa127fd945b4b",
+          "alt": "Yuan Art & Space | 沅藝術空間作品照片 7",
+          "source": "https://www.threads.com/@mu.von/post/De8WAJGE-9t/media",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://instagram.fkhh1-1.fna.fbcdn.net/v/t51.82787-15/866086369_17909246658594334_8839431914467829885_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=NDAxNjE4MTQ4OTExNjg1MzU4MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=nu_aA8xhEvQQ7kNvwEEuGdY&_nc_oc=AdqUBFvqdPVxr4a9km8lT7qWqSGnElij_KmFn-kM9y-vl63a1WA3-07rBJYEnlOodF8&_nc_zt=23&_nc_ht=instagram.fkhh1-1.fna&_nc_gid=lyWZzkiXiMAUM8_B4s9N6w&_nc_ss=7b20f&oh=00_AQPpbsjSZ-84ZfyRA5TV0UlYN8Y1J5fKpDcfHWlDBRKu5g&oe=6AE48BBA"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/profile.php?id=100051575187294",
+        "threads": "https://www.threads.com/@yuan_art_space",
+        "ig": "https://www.instagram.com/yuan_art_space/",
+        "web": "https://linktr.ee/wendy31303"
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yuan-art-space/logo.webp?v=44b5def5014f696f",
+        "source": "https://www.instagram.com/yuan_art_space/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-26",
+        "note": "官方 Instagram 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/482172631_656221263545651_1943106968235693016_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=107&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=8rtvkD206AoQ7kNvwE5zRe2&_nc_oc=AdpNrrjuhnr9bo4KiL7WKbF7Fy7C21QlVpHdko61lE-8JV1q-srVyNH1QpLFe8JhucY&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7960f&oh=00_AQNAKY20gs21x0oke7RxLOTjvHb3GZpFEzmbrn56hAJ0pg&oe=6AE4A1E7"
+      }
     }
   ]
 }
