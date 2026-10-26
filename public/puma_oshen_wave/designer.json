@@ -760,6 +760,53 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/783240991_17922708855408451_1702325524904049941_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=5NsGMue6PXgQ7kNvwFBmC7p&_nc_oc=AdryoXHg0QWKSxbManMGYmQ5oDSHdwZJAPHH_dmfdHEteAjVX4lg9H6vrnNkmU9J3qY&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=clXxXtE9UJhwXJM_2K9IAg&_nc_ss=7920f&oh=00_AQNNW39Jal593jNuuYCXFh4G0PfpnJJlXBB82hnAMO0TqA&oe=6AE4AB95"
       }
+    },
+    {
+      "id": "coya-art",
+      "name": "COYA · 插畫",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/coya-art/1.webp?v=b7ff5fdee0e624bb",
+          "alt": "COYA · 插畫作品照片 1",
+          "source": "https://www.threads.com/@coya.art/post/DZU6aqYoOgq/media",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://instagram.fkhh1-1.fna.fbcdn.net/v/t51.82787-15/720057694_17932250823280097_3758055616278535500_n.webp?_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=MzkxNTAxMDg5NTAwNjE5NzgwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTI3NS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=l9konur8sskQ7kNvwHrPToo&_nc_oc=AdpBpKss6xSFsOYIHwVzDXEWv5jzHNdW4GMMtV8ppMw82SgTRKPDFybU5Icx8P0SNEo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fkhh1-1.fna&_nc_gid=OxV5l857hD2EQIuaXC9MtQ&_nc_ss=7a20f&oh=00_AQNifKfqw-v2iNy3jukfk1FBt0-AUlESVMIyspFxVnajbw&oe=6AE4BB4E"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/coya-art/2.webp?v=898c86fa0d6183b6",
+          "alt": "COYA · 插畫作品照片 2",
+          "source": "https://www.threads.com/@coya.art/post/DezLJuaE8rS/media",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-15/858088567_17953450527280097_3607236073448325513_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=NDAxMzYwMDczOTczMzc4NTI5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTcyMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=im-9lxG5KQMQ7kNvwE0i1vu&_nc_oc=Adr-MDcRbv9XJ7tEqHp04S-mn_AZ41vfnTpsJaKWQjVsfF1XbWk6SnFL9k3Le2qmYOk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fkhh1-2.fna&_nc_gid=7hSvw5Vh75lDb7Qf-ufzjg&_nc_ss=7a20f&oh=00_AQPZA8NGz-2EVMEJV8JRiegFxc0JOLSJeVMHn34Ejr_2bw&oe=6AE4DCFC"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/coya-art/3.webp?v=d94e80b79367b131",
+          "alt": "COYA · 插畫作品照片 3",
+          "source": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-15/785325030_17945316714280097_5638296047095823416_n.jpg?stp=cp6_dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=Mzk3NDQyODY4NDAxMTQ5MzA5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=S-9ThJ-DAYYQ7kNvwGyoKAo&_nc_oc=AdpY7islH9400N5RibAm0_lkHAKwdK-Fz5lUGrXbYhbXeugo8MNfwswhp5aKAeDRMoo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=PEmP-slROk47eLAz1onu_A&_nc_ss=7a22e&oh=00_AQNFigbGjePuJl7I9etGavIdcbJ8q-u92rL1B90MSe3vDg&oe=6AE4C8C8",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-15/785325030_17945316714280097_5638296047095823416_n.jpg?stp=cp6_dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=Mzk3NDQyODY4NDAxMTQ5MzA5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=S-9ThJ-DAYYQ7kNvwGyoKAo&_nc_oc=AdpY7islH9400N5RibAm0_lkHAKwdK-Fz5lUGrXbYhbXeugo8MNfwswhp5aKAeDRMoo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=PEmP-slROk47eLAz1onu_A&_nc_ss=7a22e&oh=00_AQNFigbGjePuJl7I9etGavIdcbJ8q-u92rL1B90MSe3vDg&oe=6AE4C8C8"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/COYAART/",
+        "threads": "https://www.threads.com/@coya.art",
+        "ig": "https://www.instagram.com/coya.art/",
+        "web": "https://www.behance.net/coya1028ac51"
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/coya-art/logo.webp?v=f0c046252844b10a",
+        "source": "https://www.threads.com/@coya.art",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-26",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/457391020_1633409947227347_2751332180879783784_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=e7SHKl7M__sQ7kNvwEiF4qj&_nc_oc=AdoAg4-xBYw26P_rr9iU75s4ISJ3zFIzXs956Kbg9fUdvMmd448E1oJxNNSO8n9JXvI&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7920f&oh=00_AQOmkaglbrPd7fUI6wAexEU8Va4F3vRNOvHL20fYsAQiAQ&oe=6AE4C42A"
+      }
     }
   ]
 }
