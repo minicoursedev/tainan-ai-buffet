@@ -7213,12 +7213,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11060162670",
       "coordinateNote": "2026-10-26 查證子代理優先查詢OpenStreetMap，完整地址無結果，再以street=70 中山路三段、city=歸仁區、county=臺南市、country=Taiwan結構化查詢取得門牌節點11060162670；主代理另讀OSM節點API，確認addr:full為臺南市歸仁區南保里13鄰中山路三段70號，行政區、路段及70號門牌均與指定地址及立法院官方現址相符，來源為臺南市政府。採門牌座標22.9677713、120.2862313，未使用道路中心或地圖視窗中心。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/wang-ting-yu-xinfeng-service-office/logo.webp?v=b0d4e3a5e59406e6",
         "source": "https://www.facebook.com/wdy19690305/",
         "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-26",
-        "note": "查證子代理核對官方Facebook王定宇個人頁：ProfilePlusCometLoggedOutRouteRoot的upsellConfig.surface=profile、profile_name=王定宇、image_url標示個人檔案圖；其照片ID935517214597099與同頁原生720×720 og:image一致，非僅以分享圖判定頭像。圖片回應HTTP200、Content-Type image/jpeg，實測720×720；保留官方頁原始完整CDN網址，未修改尺寸或簽章參數。來源原生尺寸足供Logo使用，圖片網址由批次固定流程填入。",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；王定宇；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。",
         "originalUrl": "https://scontent-lax7-1.xx.fbcdn.net/v/t39.30808-1/424768318_935517214597099_9160757821042262939_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aqu8iC0aiiEQ7kNvwHsXFR9&_nc_oc=AdoQhgmQHlcQrCErFfCkOuExDLxjOvYFYKXsSsNstK3l7-iRVYmr5-Y0l6gPsAmj0nc&_nc_zt=24&_nc_ht=scontent-lax7-1.xx&_nc_gid=nTd8D5QwxHsT_Zff5KS6Sg&_nc_ss=7f20f&oh=00_AQNx1NNV3fYgAQ1lFAerhx3L7kJSPvUMo9une8FfWXjvXA&oe=6AE518FC"
       }
     },
