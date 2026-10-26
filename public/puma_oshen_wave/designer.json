@@ -1445,6 +1445,53 @@
           "note": "使用者指定影片，轉製 854×480 H.264 MP4，封面為影片第一幀。"
         }
       ]
+    },
+    {
+      "id": "tr-hsin-yi",
+      "name": "我喜歡工作室",
+      "disabled": false,
+      "verification": true,
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@tr_hsin_yi",
+        "ig": "https://www.instagram.com/tsai_c.e/",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/tr-hsin-yi/logo.webp?v=a270964e23b79f12",
+        "source": "https://www.threads.com/@tr_hsin_yi",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-26",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取；名稱依官方 Threads 簡介及其連結的 Instagram 個人檔案確認為「我喜歡工作室」。",
+        "originalUrl": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-19/558898826_17843725680589388_6298567204316232280_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=106&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=G_Y-y_JP5fAQ7kNvwG3Qdjz&_nc_oc=AdqE2pTaL3bUxb5daCXUFbn2bK4XO_7v2uHglQyGK1e335sN9OFtFjbs2Ap7-QBLlSo&_nc_zt=24&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=ED_EcTkDOP7qFjyynJz_sg&_nc_ss=7920f&oh=00_AQOWfyFN6P7sALsfkVBc78zOJY8dc1tzESgMa1SWbY_DRA&oe=6AE52887"
+      },
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/tr-hsin-yi/1.webp?v=0f5eb686cc858c39",
+          "alt": "我喜歡工作室 作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/tr-hsin-yi/1.webp?v=0f5eb686cc858c39",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564241712388251760/825324742_17906803122589388_4530467142403935382_n.png?ex=6ae08d1e&is=6adf3b9e&hm=ce1aa96fb673292d00d79ff7841ff60287e0d8d669063f861d58215b3e86030d&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/tr-hsin-yi/2.webp?v=5f4cc0f39d742eba",
+          "alt": "我喜歡工作室 作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/tr-hsin-yi/2.webp?v=5f4cc0f39d742eba",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564241713135095879/839663547_17908262403484139_8413782900087684537_n.png?ex=6ae08d1e&is=6adf3b9e&hm=c362eede23ecf7285bad40c72aa6ed7305fb5af7bd48717be2a7df037b73947c&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/tr-hsin-yi/3.webp?v=3f0a87e2770cf85b",
+          "alt": "我喜歡工作室 作品照片 3",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/tr-hsin-yi/3.webp?v=3f0a87e2770cf85b",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564241714246459402/858297917_17910342540589388_4607388451060198558_n.png?ex=6ae08d1e&is=6adf3b9e&hm=943401786472c87ef12e12453f67d9e100702a354efdec7a110d381e18521fe1&"
+        }
+      ]
     }
   ]
 }
