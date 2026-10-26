@@ -472,16 +472,8 @@
       "verification": true,
       "productImages": [
         {
-          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hashimotoarina/3.webp?v=6aa675cce64c461c",
-          "alt": "Arina Hashimoto 作品照片 1",
-          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hashimotoarina/3.webp?v=6aa675cce64c461c",
-          "checkedAt": "2026-10-26",
-          "note": "使用者提供，指定為此設計師作品照片。來源網址為 GitHub 保存副本，原始圖片網址保留於 originalUrl。",
-          "originalUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-15/861744738_18102523955339734_8604467904479812543_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=NDAxNDc1ODY1NzEyMDMzNDY1Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTE4OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=lctzEE4iHX4Q7kNvwFiCSYi&_nc_oc=AdoNIU5EEqUnyyuzxOvZycFLzpWeL2KqYMDRCUxukRWQ65sIGV-_G0HEGJRD0uEvIUM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fkhh1-2.fna&_nc_gid=HCV3LFgACO2tQI5kCtaA8w&_nc_ss=7a22e&oh=00_AQNOV-33eV7bLUksMYeQ3tlglppRvEf11fN1SLGaGJ-9DA&oe=6AE49BAF"
-        },
-        {
           "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hashimotoarina/4.webp?v=1b5e0ccdf0ce568b",
-          "alt": "Arina Hashimoto 作品照片 2",
+          "alt": "Arina Hashimoto 作品照片 1",
           "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hashimotoarina/4.webp?v=1b5e0ccdf0ce568b",
           "checkedAt": "2026-10-26",
           "note": "使用者提供，指定為此設計師作品照片。來源網址為 GitHub 保存副本，原始圖片網址保留於 originalUrl。",
@@ -489,7 +481,7 @@
         },
         {
           "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hashimotoarina/1.webp?v=e80cf146cc80a4f2",
-          "alt": "Arina Hashimoto 作品照片 3",
+          "alt": "Arina Hashimoto 作品照片 2",
           "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hashimotoarina/1.webp?v=e80cf146cc80a4f2",
           "checkedAt": "2026-10-26",
           "note": "使用者提供，指定為此設計師作品照片",
@@ -497,7 +489,7 @@
         },
         {
           "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hashimotoarina/2.webp?v=496129bdb588c520",
-          "alt": "Arina Hashimoto 作品照片 4",
+          "alt": "Arina Hashimoto 作品照片 3",
           "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hashimotoarina/2.webp?v=496129bdb588c520",
           "checkedAt": "2026-10-26",
           "note": "使用者提供，指定為此設計師作品照片",
@@ -505,7 +497,7 @@
         },
         {
           "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hashimotoarina/5.webp?v=fc2c02792309c923",
-          "alt": "Arina Hashimoto 作品照片 5",
+          "alt": "Arina Hashimoto 作品照片 4",
           "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hashimotoarina/5.webp?v=fc2c02792309c923",
           "checkedAt": "2026-10-26",
           "note": "使用者提供，指定為此設計師作品照片",
