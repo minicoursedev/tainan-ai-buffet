@@ -1264,6 +1264,53 @@
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564192463306891305/7.png?ex=6ae05f40&is=6adf0dc0&hm=92496199b50150bb459b2aa7d8aa4799c5718ef220d6bf40721fa68c00ad0dc4&"
         }
       ]
+    },
+    {
+      "id": "shen-illust",
+      "name": "Shen Chia Hua",
+      "disabled": false,
+      "verification": true,
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@shen_illust",
+        "ig": "https://www.instagram.com/shen_illust/",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/shen-illust/logo.webp?v=cf18bc1645927f6b",
+        "source": "https://www.threads.com/@shen_illust",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-26",
+        "note": "官方 Threads 個人檔案頭像；已核對帳號 shen_illust、名稱 Shen Chia Hua 與個人檔案 og:image，並確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/763597226_17950064607241679_321091256461757585_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=k2zlX9OUJW8Q7kNvwEJWR9j&_nc_oc=AdpMEfRRAmU9asSuiHF76BG0d5OYmtd9MvjSwU8vTLUi5bX0OOMgjtl7b20gCIFx46c&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=-39LDnyn9qbnIyiMmDuuyQ&_nc_ss=7920f&oh=00_AQMku7QFHTVoI61rif66imEA7X57ujGEea6kNRRi-0DP0Q&oe=6AE4EADA"
+      },
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/shen-illust/1.webp?v=54143bdc2ef7380e",
+          "alt": "Shen Chia Hua 作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/shen-illust/1.webp?v=54143bdc2ef7380e",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564217056931479685/860870739_17962590219241679_4540698264354610836_n.png?ex=6ae07628&is=6adf24a8&hm=e9210123b7283513f6504593b6e126e1d1918587f824f3636a4b74dfc7c5d8de&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/shen-illust/2.webp?v=1baea280025249df",
+          "alt": "Shen Chia Hua 作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/shen-illust/2.webp?v=1baea280025249df",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564217057216696380/789108568_17954073378241679_3281958838142138095_n.png?ex=6ae07628&is=6adf24a8&hm=f8bc1e866045067c8c97ec23603c045a26bc5ba6f251e1b8e78d65f456f84bc0&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/shen-illust/3.webp?v=1966257dd667eb98",
+          "alt": "Shen Chia Hua 作品照片 3",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/shen-illust/3.webp?v=1966257dd667eb98",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564217057933926420/741324521_17945447355241679_3685225530698787995_n.png?ex=6ae07628&is=6adf24a8&hm=dd259be9a98e89b5e62fffb704dc445d0c7533f2355f1524572b300a24b1c141&"
+        }
+      ]
     }
   ]
 }
