@@ -684,6 +684,28 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/825324760_17973209730132944_1490542322058724879_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=_C0c_UjFlZYQ7kNvwG6PZ_j&_nc_oc=AdpScMNgmFmqRWRbaVwmK0vK2fxWx09bFTQpucFdlljA64TK-Lk9wBr6ups-CPh2_T0&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=qbGNmtjGfhbXZPCzvcDfvw&_nc_ss=7920f&oh=00_AQMPXYD4ndQswykOFtwWh5-H1-q3d4Zo44OAwm0fJaY6_w&oe=6AE49447"
       }
+    },
+    {
+      "id": "clairehandwriting",
+      "name": "claire chien",
+      "disabled": false,
+      "verification": true,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@clairehandwriting",
+        "ig": "https://www.instagram.com/clairehandwriting/",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/clairehandwriting/logo.webp?v=a22e02bcba7810dc",
+        "source": "https://www.threads.com/@clairehandwriting",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-26",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/591152634_17930976786117350_3915922176714528028_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=Nw2aZEzy76EQ7kNvwFlsWFH&_nc_oc=AdpsE3mo30zziODnRi51mxPZs9MAQEi0W137qWxpioWPvSuZ-QsS9yiLd-m8YJs6u84&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Wy2ZwCX-hB7EUZ-qnoy_EQ&_nc_ss=7920f&oh=00_AQMVqi_JhYtKZxzksRsMDl0DUu_m6zPOyhTpf6eEBhivhw&oe=6AE4AF5A"
+      }
     }
   ]
 }
