@@ -1035,6 +1035,45 @@
           "originalUrl": "https://cdn.prod.website-files.com/6219dd240415facbc1d0ed7a/63cb6fba3f5ddf31fa7351eb_01.jpg"
         }
       ]
+    },
+    {
+      "id": "rio-ouo",
+      "name": "Rio.ouo 哩喔",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/rio-ouo/1.webp?v=46ddbfaa23078788",
+          "alt": "Rio.ouo 哩喔作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/rio-ouo/1.webp?v=46ddbfaa23078788",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564175124800868353/866059697_1794565591448172_7566693183397474160_n.png?ex=6ae04f1a&is=6adefd9a&hm=8110573fe10e2a2098853733ae6ae62b92613e7cf705fcf5615b3ef563c78e77&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/rio-ouo/2.webp?v=83ef37cdde313a2e",
+          "alt": "Rio.ouo 哩喔作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/rio-ouo/2.webp?v=83ef37cdde313a2e",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564175125182423051/867452908_1838187904271814_4703335533236146561_n.png?ex=6ae04f1a&is=6adefd9a&hm=580b987b6205ab4fd8258bb32b5f1dbd8213c46ea4b7e8acefff4675753ad0af&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@rio.ouo",
+        "ig": "https://www.instagram.com/rio.ouo/",
+        "web": "https://docs.google.com/presentation/d/1K2FhnFsxkYAvKVfVxjUru1wMp9zc0y1GjpyLATHxaxU/edit?usp=sharing"
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/rio-ouo/logo.webp?v=801d2672eec2b739",
+        "source": "https://www.threads.com/@rio.ouo",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-26",
+        "note": "官方 Threads 個人檔案頭像；已核對帳號 rio.ouo 與名稱 Rio.ouo 哩喔，並確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/420376087_729778712196036_5411178471358481415_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=m6CiD0PPvywQ7kNvwG_GcSC&_nc_oc=AdomwOLza76iu1MwQhqAWNNKSmgrvjICnDJQuQyKsdi-QtesnE_omthRg6g3ux2HsEo&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_ss=7f20f&oh=00_AQMJJtmygMRKSGBfPNWHF_DTUnn6bjs5c8DW_fIOyYrJXw&oe=6AE4BEB2"
+      }
     }
   ]
 }
