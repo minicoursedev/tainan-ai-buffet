@@ -1366,6 +1366,45 @@
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564222117665443911/610563599_17899981929358958_4433741692829910452_n.png?ex=6ae07ade&is=6adf295e&hm=100616e843e656b232185dd982b2a0435c892d14a2ed39cf28a6a42d82a5a598&"
         }
       ]
+    },
+    {
+      "id": "rareone-design",
+      "name": "奇物設計 rare one design",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/rareone-design/1.webp?v=7e0dcd022b85e8bc",
+          "alt": "奇物設計 rare one design作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/rareone-design/1.webp?v=7e0dcd022b85e8bc",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564236909759434913/864755286_1148403887610368_7452574127791075808_n.png?ex=6ae088a5&is=6adf3725&hm=b80aad3e5c922a47d743c233a2ed9060627d70e2a8b7a6e1f2733570979ee147&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/rareone-design/2.webp?v=e4b4c9ae2e16988a",
+          "alt": "奇物設計 rare one design作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/rareone-design/2.webp?v=e4b4c9ae2e16988a",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564236910178861156/861124870_2302918110540929_6564737466820309241_n.png?ex=6ae088a5&is=6adf3725&hm=5c252c06d77599c0199a65d7df5cf8dc162d9a56a5635049c3ba39a8e0eeb0fb&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "",
+        "ig": "",
+        "web": "https://rareone.design/"
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/rareone-design/logo.webp?v=ccb345c868315bbd",
+        "source": "https://www.youtube.com/channel/UCwisbLtg4Zvia1-6BIgG5-g",
+        "platform": "youtube",
+        "status": "verified",
+        "checkedAt": "2026-10-26",
+        "note": "官方網站 https://rareone.design/ 連結的 YouTube 頻道 rare one design 個人檔案頭像；已核對頻道名稱、介紹與官網連結，並確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://yt3.googleusercontent.com/FYGL7bhQtOzGo1gE4iRbOWR_cvdo974ee4MXCqpmRX7oSmN1gQr_iYafr_6ENA1dV7wIVaVJfDs=s900-c-k-c0x00ffffff-no-rj"
+      }
     }
   ]
 }
