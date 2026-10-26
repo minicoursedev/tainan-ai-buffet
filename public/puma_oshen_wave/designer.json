@@ -1160,20 +1160,36 @@
       },
       "productImages": [
         {
-          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/halfawakedept/1.webp?v=b1a69473813a3aad",
-          "alt": "龍元宮200周年 LONGYUAN TEMPLE 200th 視覺設計",
-          "source": "https://www.behance.net/gallery/221083729/200-LONGYUAN-TEMPLE-200th",
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/halfawakedept/1.webp?v=70681b8c685c19bd",
+          "alt": "半醒出張所 作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/halfawakedept/1.webp?v=70681b8c685c19bd",
           "checkedAt": "2026-10-26",
-          "note": "圖片取自使用者指定的 Behance 帳號 jimmy5566207a8 公開作品列表；已核對作品標題「龍元宮200周年-LONGYUAN TEMPLE 200th」與作者 ming-cheng chiang，並確認 HTTPS 圖片可讀取。",
-          "originalUrl": "https://mir-s3-cdn-cf.behance.net/projects/404/cadd57221083729.Y3JvcCwzNjY0LDI4NjYsMTQ3OCwxMjc5.jpg"
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564186997080465490/864121717_1457947436265485_9142412027786331692_n.png?ex=6ae05a29&is=6adf08a9&hm=c3b0bfcb0484963521480c3c5e0f70f9303ee1d3b20e13af11148efe63a34fce&"
         },
         {
-          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/halfawakedept/2.webp?v=4fcb8aaf458b7490",
-          "alt": "T-T TRUE-TAOYUAN 桃園觀旅局手冊提案",
-          "source": "https://www.behance.net/gallery/221069901/T-TTRUE-TAOYUAN-",
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/halfawakedept/2.webp?v=de598fbc39f87b57",
+          "alt": "半醒出張所 作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/halfawakedept/2.webp?v=de598fbc39f87b57",
           "checkedAt": "2026-10-26",
-          "note": "圖片取自使用者指定的 Behance 帳號 jimmy5566207a8 公開作品列表；已核對作品標題「T-T｜TRUE-TAOYUAN 桃園觀旅局手冊提案」與作者 ming-cheng chiang，並確認 HTTPS 圖片可讀取。",
-          "originalUrl": "https://mir-s3-cdn-cf.behance.net/projects/404/d41353221069901.Y3JvcCwzMTc3LDI0ODUsMTQxLDA.png"
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564186997449302078/868658648_2967003920317544_2506183127307864115_n.png?ex=6ae05a29&is=6adf08a9&hm=1475bf4d6bbfc3c69f6db10cf42d1765ff9a35c72a175b7984bb7c2a80db74ef&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/halfawakedept/3.webp?v=5c04e1a0e6dc0b6f",
+          "alt": "半醒出張所 作品照片 3",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/halfawakedept/3.webp?v=5c04e1a0e6dc0b6f",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564186997751283863/864782131_1464388105891571_1042670993046900544_n.png?ex=6ae05a29&is=6adf08a9&hm=15009dcf6dc287bd133f04054434510b76ca71e6a868c8fd300f25dd2857ea98&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/halfawakedept/4.webp?v=00e43edc9b67356c",
+          "alt": "半醒出張所 作品照片 4",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/halfawakedept/4.webp?v=00e43edc9b67356c",
+          "checkedAt": "2026-10-26",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564186998024044584/864680574_1767402781188523_997576580116177570_n.png?ex=6ae05a29&is=6adf08a9&hm=b8d03271d5ac88addf5ab969302d8435684a1011f23a0096c6c80c1305267348&"
         }
       ]
     }
