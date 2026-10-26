@@ -6169,6 +6169,50 @@
       "lastAttempt": "2026-10-26T07:28:01+08:00",
       "result": "updated",
       "reason": "首次保存"
+    },
+    "wang-ting-yu-xinfeng-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/wdy19690305/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/424768318_935517214597099_9160757821042262939_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aqu8iC0aiiEQ7kNvwHsXFR9&_nc_oc=AdoQhgmQHlcQrCErFfCkOuExDLxjOvYFYKXsSsNstK3l7-iRVYmr5-Y0l6gPsAmj0nc&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=8iF_FZgwEuHali91wwwBJw&_nc_ss=7920f&oh=00_AQPB9r5HOhEXTnP-DMrA00m52t6Lm58XYNqiBNuz8prI-Q&oe=6AE518FC",
+          "size": [
+            720,
+            720
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；王定宇",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "b0d4e3a5e59406e68c3b8b421136829267752c0f93e097f867936bfa74fda131",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Thu, 01 Feb 2024 06:36:44 GMT"
+      },
+      "source": "https://www.facebook.com/wdy19690305/",
+      "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/424768318_935517214597099_9160757821042262939_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aqu8iC0aiiEQ7kNvwHsXFR9&_nc_oc=AdoQhgmQHlcQrCErFfCkOuExDLxjOvYFYKXsSsNstK3l7-iRVYmr5-Y0l6gPsAmj0nc&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=8iF_FZgwEuHali91wwwBJw&_nc_ss=7920f&oh=00_AQPB9r5HOhEXTnP-DMrA00m52t6Lm58XYNqiBNuz8prI-Q&oe=6AE518FC",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；王定宇",
+      "filename": "wang-ting-yu-xinfeng-service-office/logo.webp",
+      "lastSuccess": "2026-10-26T19:45:31+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-26T19:45:31+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "wang-ting-yu-east-service-office": {
+      "lastAttempt": "2026-10-26T19:45:31+08:00",
+      "result": "needs-review",
+      "reason": "既有頭像未確認為官方頭像"
     }
   }
 }
