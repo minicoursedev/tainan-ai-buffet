@@ -1405,6 +1405,46 @@
         "note": "官方網站 https://rareone.design/ 連結的 YouTube 頻道 rare one design 個人檔案頭像；已核對頻道名稱、介紹與官網連結，並確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://yt3.googleusercontent.com/FYGL7bhQtOzGo1gE4iRbOWR_cvdo974ee4MXCqpmRX7oSmN1gQr_iYafr_6ENA1dV7wIVaVJfDs=s900-c-k-c0x00ffffff-no-rj"
       }
+    },
+    {
+      "id": "olopaskoni",
+      "name": "Lopas",
+      "disabled": false,
+      "verification": true,
+      "social": {
+        "threads": "https://www.threads.com/@olopaskoni",
+        "ig": "",
+        "fb": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/olopaskoni/logo.webp?v=a8fb9d1923e08fdc",
+        "source": "https://www.threads.com/@olopaskoni",
+        "originalUrl": "https://scontent-lax3-2.cdninstagram.com/v/t51.2885-19/419279673_1324491622285012_5978917142220254660_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=106&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=PcegUm-psuYQ7kNvwHmxlxF&_nc_oc=AdppHM9xLUCURnCKwKXwjs5L5uKo1YFfoBa3-oALA7o1L58loMkMfa65SNad3mYTC4U&_nc_zt=24&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_ss=7f20f&oh=00_AQOunsQaq7V00VG7q1AF-kB1qREQ2Lz3lzqEmIzoOEd1wg&oe=6AE4F4B0",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-26",
+        "note": "官方 Threads 個人頁頭像。"
+      },
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/olopaskoni/1.webp?v=f13a3dffffd7b947",
+          "alt": "Lopas 作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/olopaskoni/1.webp?v=f13a3dffffd7b947",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564236793229090946/f0088997ac685cca.png?ex=6ae08889&is=6adf3709&hm=f2c4d02c081a7564134b58b83f57b274b67e99c0dd06d49fab57089c0fe47012&",
+          "checkedAt": "2026-10-26",
+          "note": "使用者指定作品照片。"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/olopaskoni/2.webp?v=58c87f2805611504",
+          "videoUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/olopaskoni/2.mp4?v=8bc65359b14f6796",
+          "alt": "8bit 作品影片",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/olopaskoni/2.webp?v=58c87f2805611504",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564236794122473502/8bit.mp4?ex=6ae08889&is=6adf3709&hm=a989779f6b59bd9e819e3ca54472830e369c1ed67a0aac999578d144e886b9fa&",
+          "checkedAt": "2026-10-26",
+          "note": "使用者指定影片，轉製 854×480 H.264 MP4，封面為影片第一幀。"
+        }
+      ]
     }
   ]
 }

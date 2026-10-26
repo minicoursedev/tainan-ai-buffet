@@ -66,6 +66,7 @@ export function createCatalogue(data) {
           id: `${designer.id}-${i + 1}`,
           name: typeof product?.alt === 'string' && product.alt.trim() ? product.alt : `${designer.name} 作品參考 ${i + 1}`,
           cover: imageUrl(product?.url),
+          video: imageUrl(product?.videoUrl),
           url: productLink(product),
         })).filter(work => work.cover);
       stores[designer.id] = {

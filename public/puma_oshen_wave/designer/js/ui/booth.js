@@ -42,6 +42,8 @@ function coverHtml(src, label) {
 }
 
 function workHtml(w) {
+  const video = safeUrl(w.video);
+  if (video) return `<li><div class="bo-work"><video controls playsinline preload="metadata" poster="${esc(safeUrl(w.cover))}" aria-label="${esc(w.name)}" style="display:block;width:100%;max-height:400px" src="${esc(video)}"></video></div></li>`;
   const url = safeUrl(w.url);
   const generic = /作品(?:照片|參考)\s*\d+$/.test(w.name || '');
   const caption = generic ? '' : `<span class="bo-name">${esc(w.name || '未命名作品')}</span>`;

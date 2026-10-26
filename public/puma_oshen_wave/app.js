@@ -126,6 +126,17 @@ function designerProducts(designer) {
     try {
       const url = new URL(product.url, location.href);
       if (url.protocol !== 'https:' && url.origin !== location.origin) continue;
+      if (product.videoUrl) {
+        const videoUrl = new URL(product.videoUrl, location.href);
+        if (videoUrl.protocol !== 'https:' && videoUrl.origin !== location.origin) continue;
+        const video = node('video');
+        video.controls = true; video.playsInline = true; video.preload = 'metadata';
+        video.poster = url.href; video.src = videoUrl.href;
+        video.setAttribute('aria-label', product.alt || '作品影片');
+        video.style.cssText = 'width:300px;max-width:100%;height:auto';
+        images.append(video); section.hidden = false;
+        continue;
+      }
       const photo = node('img');
       photo.alt = product.alt || `${designer.name} 作品參考`;
       photo.width = 300; photo.height = 300;
