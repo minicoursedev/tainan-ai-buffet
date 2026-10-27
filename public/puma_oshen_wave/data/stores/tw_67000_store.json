@@ -5499,17 +5499,17 @@
       "coordinateNote": "2026-10-27 查證子代理優先以OpenStreetMap Nominatim結構化街道門牌查詢取得節點11060982104；主代理另直接讀OSM節點API，核對addr:full為臺南市中西區大涼里16鄰永華路一段305號，行政區、路段與305號門牌均與使用者及官方地址相符，來源為臺南市政府。採門牌數值座標22.9886184、120.1881130，非道路中心或地圖視窗中心。",
       "shopPhoto": {
         "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/letsgolin-service-office/logo.webp?v=b8870a66622241cb",
-        "source": "https://page.line.me/pud0181n",
-        "platform": "line",
+        "source": "https://www.threads.com/@letsgolin?hl=zh-tw",
+        "platform": "threads",
         "status": "verified",
         "checkedAt": "2026-10-27",
-        "note": "2026-10-27查證子代理核對林俊憲LINE官方認證帳號（badgeType為certified），頁面個人頭像標示Show profile photo並連至/pud0181n/profile/img；內嵌profile.profileImg.original明示既有originalUrl。原生圖片HTTP 200、Content-Type為image/jpeg、尺寸1149×1149，已確認可存取且足供256px Logo，不改寫尺寸或簽章參數；保留既有圖片網址。",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；林俊憲（@letsgolin） • Threads，暢所欲言；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。",
         "originalUrl": "https://profile.line-scdn.net/0h74AxtuNSaBt8AULk4UEXTEBEZnYLL25TBGIvKFlUMyhUMCYeFG90LgoCMSJVYStIFDJ0L18CYixR"
       },
       "mapMarker": {
         "label": "林俊憲",
         "image": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/letsgolin-service-office/logo.webp?v=b8870a66622241cb",
-        "source": "https://page.line.me/pud0181n"
+        "source": "https://www.threads.com/@letsgolin?hl=zh-tw"
       }
     }
   ],
