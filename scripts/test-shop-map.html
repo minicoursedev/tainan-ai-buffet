@@ -18,8 +18,10 @@
 import {createShopMap} from '../public/puma_oshen_wave/shop-map.js';
 
 const station = {lat:22.997137,lng:120.21295};
-const ids = ['a','b','c','chen-ting-fei-campaign-headquarters'];
+const ids = ['a','b','c','d'];
+const serviceIds = ['chen-ting-fei-campaign-headquarters','service-without-artwork'];
 const shops = ids.map(id => ({id, name:id, category:'咖啡廳', latlng:station}));
+shops.push(...serviceIds.map(id => ({id, name:id, category:'洋流服務站', latlng:station})));
 shops.push({id:'invalid', name:'invalid', coordinates:{lat:99,lng:0}});
 const container = document.querySelector('#fixture');
 const status = document.querySelector('#map-status');
@@ -47,7 +49,7 @@ const api = createShopMap({container,status,onSelect:shop => {
 try {
   await check('有效座標完整聚合，略過無效座標', async () => {
     assert(await api.load(shops),'Map did not load');
-    assert(positions.size===4,'Unexpected position count');
+    assert(positions.size===6,'Unexpected position count');
     assert(container.querySelector('.osm-cluster')?.textContent==='4','Expected one cluster of four');
   });
   let group;
@@ -82,11 +84,18 @@ try {
     await waitFor(() => container.querySelector('.is-selected')?.parentElement.title==='a');
     assert(clicked==='a' && group.getLayers().length===3,'Expanded marker cannot be selected');
   });
-  await check('服務站圖示大小可隨分類調整', () => {
-    const id=ids[3]; api.filter([id],'洋流服務站'); api.focus(id);
-    const large=container.querySelector('.osm-artwork-pin').style.width;
-    api.filter(ids); const small=container.querySelector('.osm-artwork-pin').style.width;
-    assert(parseFloat(large)>parseFloat(small),'Service marker failed to resize');
+  await check('服務站僅在服務站分類顯示，且不混入其它分類聚合數量', () => {
+    api.focus(null); api.filter(serviceIds,'洋流服務站');
+    assert(group.getLayers().length===2 && container.querySelector('.osm-cluster')?.textContent==='2','Service category lost markers');
+    api.focus(serviceIds[0]);
+    assert(parseFloat(container.querySelector('.osm-artwork-pin').style.width)>24,'Service marker failed to resize');
+    for (const category of ['', '咖啡廳']) {
+      api.filter([...ids,...serviceIds],category);
+      assert(group.getLayers().length===4,'Service stations leaked into cluster counts');
+      assert(!container.querySelector('.osm-artwork-pin') && !container.querySelector('.is-selected'),'Selected service station remains visible');
+      api.focus(serviceIds[1]);
+      assert(!container.querySelector('.is-selected'),'Service station without artwork remains visible');
+    }
   });
   await check('我的位置及幸運星不加入店家數量', async () => {
     api.focus(null); api.filter(ids);

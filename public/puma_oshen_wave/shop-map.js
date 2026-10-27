@@ -5,6 +5,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
   let userMarker, starMarker, markerCluster, selectedMarker;
   let map, selected = null, loading, visibleIds = null, largeServiceMarkers = false;
   const markers = new Map(), positions = new Map(), visuals = new Map(), iconFactories = new Map();
+  const serviceStationIds = new Set();
   const syncMarkers = () => {
     selectedMarker?.remove();
     selectedMarker = null;
@@ -12,6 +13,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
     const clustered = [];
     for (const [id, marker] of markers) {
       if (visibleIds && !visibleIds.has(id)) continue;
+      if (!largeServiceMarkers && serviceStationIds.has(id)) continue;
       // Keep the chosen shop visible without changing the user's zoom level.
       if (id === selected) selectedMarker = marker.addTo(map);
       else clustered.push(marker);
@@ -101,6 +103,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         if (!position || !Number.isFinite(position.lat) || !Number.isFinite(position.lng)
             || Math.abs(position.lat)>90 || Math.abs(position.lng)>180) continue;
         positions.set(shop.id, position);
+        if (shop.category === '洋流服務站') serviceStationIds.add(shop.id);
         const markerArtwork = {
           'tsai-li-ching-guoan-haidian': {file:'tsai-li-ching-marker-1-type-v1.webp', label:'① 蔡麗青', type:'第6選區市議員', blankTypeFooter:true, width:120, height:169},
           'chen-ting-fei-campaign-headquarters': {file:'chen-ting-fei-marker-3-type-v1.webp', label:'③ 陳亭妃', type:'市長候選人', height:135},
