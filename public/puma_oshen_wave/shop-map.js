@@ -148,7 +148,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         } else badge.textContent = '●';
         const createIcon = () => {
           // Keep artwork proportions and its click target within the normal 24 × 30 pin size.
-          const sizeScale = largeServiceMarkers ? .8 : Math.min(1, 24 / fullWidth, 30 / fullHeight);
+          const sizeScale = largeServiceMarkers ? .56 : Math.min(1, 24 / fullWidth, 30 / fullHeight);
           const width = fullWidth * sizeScale, height = fullHeight * sizeScale;
           badge.style.width = `${width}px`;
           badge.style.height = `${height}px`;
