@@ -6263,6 +6263,1032 @@
       "lastAttempt": "2026-10-27T13:05:40+08:00",
       "result": "unchanged",
       "reason": "像素內容相同或僅有輕微轉碼差異"
+    },
+    "shen-chia-feng-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=EF4DD312-3189-4C86-A724-59982456F7A8",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/2EA7C45E-0A30-47A1-B6E8-903F9106F680/%E6%B2%88%E5%AE%B6%E9%B3%B3.jpg",
+          "size": [
+            693,
+            768
+          ],
+          "evidence": "議會個人頁 img alt=\"沈家鳳議員\"",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "9478e63f0889f9e869fd08a11ccb8841145eb98e1004b60a6e0105e884bdf0d6",
+      "contentBox": [
+        12,
+        0,
+        243,
+        256
+      ],
+      "sourceSize": [
+        693,
+        768
+      ],
+      "imageValidators": {
+        "etag": "\"8037a215f1ad91:0\"",
+        "last-modified": "Wed, 28 Dec 2022 01:53:07 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=EF4DD312-3189-4C86-A724-59982456F7A8",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/2EA7C45E-0A30-47A1-B6E8-903F9106F680/%E6%B2%88%E5%AE%B6%E9%B3%B3.jpg",
+      "evidence": "議會個人頁 img alt=\"沈家鳳議員\"",
+      "filename": "shen-chia-feng-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:30+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:30+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "wang-hsuan-mao-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=C7939C21-E9F9-4C8C-85F1-8400A042C863",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/2EA7C45E-0A30-47A1-B6E8-903F9106F680/%E7%8E%8B%E5%AE%A3%E8%B2%BF.jpg",
+          "size": [
+            693,
+            768
+          ],
+          "evidence": "議會個人頁 img alt=\"王宣貿議員\"",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "7cae2d06424ffd162f9df277c784252585c8ff8e55c100c11dceb2e6b4b41ebb",
+      "contentBox": [
+        12,
+        0,
+        243,
+        256
+      ],
+      "sourceSize": [
+        693,
+        768
+      ],
+      "imageValidators": {
+        "etag": "\"04a96a75f1ad91:0\"",
+        "last-modified": "Wed, 28 Dec 2022 01:56:52 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=C7939C21-E9F9-4C8C-85F1-8400A042C863",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/2EA7C45E-0A30-47A1-B6E8-903F9106F680/%E7%8E%8B%E5%AE%A3%E8%B2%BF.jpg",
+      "evidence": "議會個人頁 img alt=\"王宣貿議員\"",
+      "filename": "wang-hsuan-mao-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:31+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:31+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "lee-tsung-han-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=822C2918-D63C-4582-AE22-25FD645D0C13",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/56CC6C3B-1814-482B-92C8-D21AD0106264/%E6%9D%8E%E5%AE%97%E7%BF%B0%E8%AD%B0%E5%93%A1.png",
+          "size": [
+            995,
+            1200
+          ],
+          "evidence": "議會個人頁 img alt=\"李宗翰議員\"",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "2a31fc61641625848ca0a09164c90b54262b3d42f27a9b60dddad7f2b52a99ec",
+      "contentBox": [
+        22,
+        0,
+        234,
+        256
+      ],
+      "sourceSize": [
+        995,
+        1200
+      ],
+      "imageValidators": {
+        "etag": "\"e1ddfa69313d91:0\"",
+        "last-modified": "Mon, 19 Dec 2022 10:21:26 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=822C2918-D63C-4582-AE22-25FD645D0C13",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/56CC6C3B-1814-482B-92C8-D21AD0106264/%E6%9D%8E%E5%AE%97%E7%BF%B0%E8%AD%B0%E5%93%A1.png",
+      "evidence": "議會個人頁 img alt=\"李宗翰議員\"",
+      "filename": "lee-tsung-han-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:31+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:31+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "tsai-chiu-lan-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=7F271C1B-B758-4513-B2EB-EEF80CB9BB1B",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/4CDD95F2-672B-4164-9CED-E2B01A1D11D6/%E8%94%A1%E7%A7%8B%E8%98%AD%E8%AD%B0%E5%93%A1.jpg",
+          "size": [
+            917,
+            1200
+          ],
+          "evidence": "議會個人頁 img alt=\"蔡秋蘭議員\"",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "a10ddcc1086f7a94b50146ef16b04aba544ba2cee2d975799f79155cb12479d3",
+      "contentBox": [
+        30,
+        0,
+        226,
+        256
+      ],
+      "sourceSize": [
+        917,
+        1200
+      ],
+      "imageValidators": {
+        "etag": "\"96be96d89313d91:0\"",
+        "last-modified": "Mon, 19 Dec 2022 10:22:49 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=7F271C1B-B758-4513-B2EB-EEF80CB9BB1B",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/4CDD95F2-672B-4164-9CED-E2B01A1D11D6/%E8%94%A1%E7%A7%8B%E8%98%AD%E8%AD%B0%E5%93%A1.jpg",
+      "evidence": "議會個人頁 img alt=\"蔡秋蘭議員\"",
+      "filename": "tsai-chiu-lan-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:32+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:32+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "tsai-su-chiu-chin-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=69F36580-A155-4D4C-AA22-63607138A39A",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/4CDD95F2-672B-4164-9CED-E2B01A1D11D6/%E8%94%A1%E8%98%87%E7%A7%8B%E9%87%91%E8%AD%B0%E5%93%A1.jpg",
+          "size": [
+            889,
+            1124
+          ],
+          "evidence": "議會個人頁 img alt=\"蔡蘇秋金議員\"",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "5c619f455069d64c638e0811716e6a8508ea346fad448b1c5bec39860769f411",
+      "contentBox": [
+        27,
+        0,
+        229,
+        256
+      ],
+      "sourceSize": [
+        889,
+        1124
+      ],
+      "imageValidators": {
+        "etag": "\"934c57fb9313d91:0\"",
+        "last-modified": "Mon, 19 Dec 2022 10:23:48 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=69F36580-A155-4D4C-AA22-63607138A39A",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/4CDD95F2-672B-4164-9CED-E2B01A1D11D6/%E8%94%A1%E8%98%87%E7%A7%8B%E9%87%91%E8%AD%B0%E5%93%A1.jpg",
+      "evidence": "議會個人頁 img alt=\"蔡蘇秋金議員\"",
+      "filename": "tsai-su-chiu-chin-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:33+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:33+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "hsieh-shu-fan-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=0986A206-7F6A-4880-A070-3992A80B0B74",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/7D86624A-5FF3-4E34-B1D6-3899EEA0E90D/%E8%AC%9D%E8%88%92%E5%87%A1.jpg",
+          "size": [
+            693,
+            768
+          ],
+          "evidence": "議會個人頁 img alt=\"謝舒凡議員\"",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "037d9b60f520eadeb5c5c8cccbe4ba561e9846bcfd08b434269bd8b79dc8e4cf",
+      "contentBox": [
+        12,
+        0,
+        243,
+        256
+      ],
+      "sourceSize": [
+        693,
+        768
+      ],
+      "imageValidators": {
+        "etag": "\"0511aa6621ad91:0\"",
+        "last-modified": "Wed, 28 Dec 2022 02:18:18 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=0986A206-7F6A-4880-A070-3992A80B0B74",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/7D86624A-5FF3-4E34-B1D6-3899EEA0E90D/%E8%AC%9D%E8%88%92%E5%87%A1.jpg",
+      "evidence": "議會個人頁 img alt=\"謝舒凡議員\"",
+      "filename": "hsieh-shu-fan-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:33+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:33+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "wu-tung-lung-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=2BFF5285-201B-4C9D-BD59-2BE6785A28C0",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/ECECDC5D-54AC-41D9-9C64-C7B6C971C673/%E5%90%B3%E9%80%9A%E9%BE%8D.jpg",
+          "size": [
+            693,
+            768
+          ],
+          "evidence": "議會個人頁 img alt=\"吳通龍議員\"",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "63f50e7467b305c275b8755c9c396249fac540128805b2bf87ac2de7cee64798",
+      "contentBox": [
+        12,
+        0,
+        243,
+        256
+      ],
+      "sourceSize": [
+        693,
+        768
+      ],
+      "imageValidators": {
+        "etag": "\"0d1dd6f641ad91:0\"",
+        "last-modified": "Wed, 28 Dec 2022 02:31:06 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=2BFF5285-201B-4C9D-BD59-2BE6785A28C0",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/ECECDC5D-54AC-41D9-9C64-C7B6C971C673/%E5%90%B3%E9%80%9A%E9%BE%8D.jpg",
+      "evidence": "議會個人頁 img alt=\"吳通龍議員\"",
+      "filename": "wu-tung-lung-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:34+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:34+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chen-chiu-hung-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=9CBCB90A-A821-4FAD-A45D-79491B3EE5B2",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/ECECDC5D-54AC-41D9-9C64-C7B6C971C673/%E9%99%B3%E7%A7%8B%E5%AE%8F.jpg",
+          "size": [
+            693,
+            768
+          ],
+          "evidence": "議會個人頁 img alt=\"陳秋宏議員\"",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "dfdddb49ebe5893837edcbd35f6850c381f0ff4c8111cdf132b3c8c824f5de6e",
+      "contentBox": [
+        12,
+        0,
+        243,
+        256
+      ],
+      "sourceSize": [
+        693,
+        768
+      ],
+      "imageValidators": {
+        "etag": "\"804cadf5631ad91:0\"",
+        "last-modified": "Wed, 28 Dec 2022 02:27:41 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=9CBCB90A-A821-4FAD-A45D-79491B3EE5B2",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/ECECDC5D-54AC-41D9-9C64-C7B6C971C673/%E9%99%B3%E7%A7%8B%E5%AE%8F.jpg",
+      "evidence": "議會個人頁 img alt=\"陳秋宏議員\"",
+      "filename": "chen-chiu-hung-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:34+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:34+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "lai-mao-ching-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/photo/?fbid=122130697995167021&set=a.122116647777167021",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-6/867687582_122130697977167021_8487680272310536131_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=KWNWU_Kn0YwQ7kNvwGtQ-qj&_nc_oc=Adp6UZJPc4CrAyABHQBI7yaiI9h98F9kbYUwsPqP1VFo3liIe5XE5nhPuOIsGOzY2Ag&_nc_zt=23&_nc_ht=scontent-tpe5-1.xx&_nc_gid=nqo4pOB35UL6GlnxMykSSw&_nc_ss=7b289&oh=00_AQNr77R2MHWxY55QmJY2LCLfNiLh3oNYO-LTRAMYnzePsg&oe=6AE65CA6",
+          "size": [
+            2048,
+            2048
+          ],
+          "evidence": "官方政治候選人頁點選人像 → 查看大頭貼照；照片文字為懇請支持1號賴懋慶；已目視確認為單人正面上半身照，左側含1號。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "494a7e8d45f6d3812618164b0e1c70f9dbf5e4ea5e5c9f1024c44960e56b3488",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "imageValidators": {
+        "last-modified": "Tue, 27 Oct 2026 05:04:07 GMT"
+      },
+      "source": "https://www.facebook.com/photo/?fbid=122130697995167021&set=a.122116647777167021",
+      "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-6/867687582_122130697977167021_8487680272310536131_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=KWNWU_Kn0YwQ7kNvwGtQ-qj&_nc_oc=Adp6UZJPc4CrAyABHQBI7yaiI9h98F9kbYUwsPqP1VFo3liIe5XE5nhPuOIsGOzY2Ag&_nc_zt=23&_nc_ht=scontent-tpe5-1.xx&_nc_gid=nqo4pOB35UL6GlnxMykSSw&_nc_ss=7b289&oh=00_AQNr77R2MHWxY55QmJY2LCLfNiLh3oNYO-LTRAMYnzePsg&oe=6AE65CA6",
+      "evidence": "官方政治候選人頁點選人像 → 查看大頭貼照；照片文字為懇請支持1號賴懋慶；已目視確認為單人正面上半身照，左側含1號。",
+      "filename": "lai-mao-ching-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:35+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:35+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chen-pi-yu-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=EED1C3A7-E6DA-40AF-B184-38ADCC794C74",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/11EA1727-57A4-4D44-9A91-51298F0F909E/%E9%99%B3%E7%A2%A7%E7%8E%89.jpg",
+          "size": [
+            693,
+            768
+          ],
+          "evidence": "議會個人頁標示「陳碧玉議員」的個人肖像",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "e05e9a90eca7405ac7da81d9046189640c6e452f07c264a236cc5d0a0fbe28bd",
+      "contentBox": [
+        12,
+        0,
+        243,
+        256
+      ],
+      "sourceSize": [
+        693,
+        768
+      ],
+      "imageValidators": {
+        "etag": "\"80f79799661ad91:0\"",
+        "last-modified": "Wed, 28 Dec 2022 02:46:35 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=EED1C3A7-E6DA-40AF-B184-38ADCC794C74",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/11EA1727-57A4-4D44-9A91-51298F0F909E/%E9%99%B3%E7%A2%A7%E7%8E%89.jpg",
+      "evidence": "議會個人頁標示「陳碧玉議員」的個人肖像",
+      "filename": "chen-pi-yu-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:36+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:36+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "lee-wei-chih-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=4E55DF62-30D2-4B1E-B4C4-6B6A75A6DBED",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/859D8983-7ADB-47AA-9732-37E6396EA738/%E6%9D%8E%E5%81%89%E6%99%BA.png",
+          "size": [
+            751,
+            1000
+          ],
+          "evidence": "議會個人頁標示「李偉智議員」的個人肖像",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "85b6aa273928034e8ea4bd2ccd3a770f93215ca4a65b4406146dabe4c6f70049",
+      "contentBox": [
+        32,
+        0,
+        224,
+        256
+      ],
+      "sourceSize": [
+        751,
+        1000
+      ],
+      "imageValidators": {
+        "etag": "\"8c4f6eb3e65d91:0\"",
+        "last-modified": "Fri, 02 Dec 2022 00:40:39 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=4E55DF62-30D2-4B1E-B4C4-6B6A75A6DBED",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/859D8983-7ADB-47AA-9732-37E6396EA738/%E6%9D%8E%E5%81%89%E6%99%BA.png",
+      "evidence": "議會個人頁標示「李偉智議員」的個人肖像",
+      "filename": "lee-wei-chih-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:36+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:36+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "lin-chih-chan-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=649D4023-23D8-46AF-99F2-A359E3756000",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/859D8983-7ADB-47AA-9732-37E6396EA738/97987823-0386-495A-AC88-674866CB3A63.jpg",
+          "size": [
+            829,
+            829
+          ],
+          "evidence": "議會個人頁標示「林志展議員」的個人肖像",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "98a0befabefb6a61435e0d802cae238a68d71e9cae08ca9a5da967ee0879c04e",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        829,
+        829
+      ],
+      "imageValidators": {
+        "etag": "\"3de352dc8677d61:0\"",
+        "last-modified": "Fri, 21 Aug 2020 06:46:55 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=649D4023-23D8-46AF-99F2-A359E3756000",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/859D8983-7ADB-47AA-9732-37E6396EA738/97987823-0386-495A-AC88-674866CB3A63.jpg",
+      "evidence": "議會個人頁標示「林志展議員」的個人肖像",
+      "filename": "lin-chih-chan-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:37+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:37+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "yu-chu-ching-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=880414F4-8F11-4D0C-AFEA-CBA8B9AA9373",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/11EA1727-57A4-4D44-9A91-51298F0F909E/%E4%BD%99%E6%9F%B7%E9%9D%92.jpg",
+          "size": [
+            693,
+            768
+          ],
+          "evidence": "議會個人頁標示「余柷青議員」的個人肖像",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "58c61213ca3f88395a64d8959274ddb37ae1d66c2a8f1dd62269a10d8368c1f3",
+      "contentBox": [
+        12,
+        0,
+        243,
+        256
+      ],
+      "sourceSize": [
+        693,
+        768
+      ],
+      "imageValidators": {
+        "etag": "\"80eaf525661ad91:0\"",
+        "last-modified": "Wed, 28 Dec 2022 02:43:21 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=880414F4-8F11-4D0C-AFEA-CBA8B9AA9373",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/11EA1727-57A4-4D44-9A91-51298F0F909E/%E4%BD%99%E6%9F%B7%E9%9D%92.jpg",
+      "evidence": "議會個人頁標示「余柷青議員」的個人肖像",
+      "filename": "yu-chu-ching-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:37+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:37+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kuo-pin-chen-service-office": {
+      "lastAttempt": "2026-10-27T19:25:37+08:00",
+      "result": "missing-source",
+      "reason": "沒有官方頭像來源"
+    },
+    "chu-cheng-hsuan-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=201C5B83-A1D0-4226-8FE3-78B01D957E4F",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/775CE00E-4BA7-40AA-A45E-EA973CFB28BA/%E6%9C%B1%E6%AD%A3%E8%BB%92.jpg",
+          "size": [
+            693,
+            768
+          ],
+          "evidence": "議會個人頁標示「朱正軒議員」的個人肖像",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "d865f4e3c01881586c46e35b1915f069350db9db4195befc67e1b144a3a29eec",
+      "contentBox": [
+        12,
+        0,
+        243,
+        256
+      ],
+      "sourceSize": [
+        693,
+        768
+      ],
+      "imageValidators": {
+        "etag": "\"8036b8b4691ad91:0\"",
+        "last-modified": "Wed, 28 Dec 2022 03:08:49 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=201C5B83-A1D0-4226-8FE3-78B01D957E4F",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/775CE00E-4BA7-40AA-A45E-EA973CFB28BA/%E6%9C%B1%E6%AD%A3%E8%BB%92.jpg",
+      "evidence": "議會個人頁標示「朱正軒議員」的個人肖像",
+      "filename": "chu-cheng-hsuan-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:38+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:38+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chen-chiu-ping-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=E011C49C-9B47-40DB-9E85-3219DCDEF1CB",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/2A157807-E7F9-49DA-8CEC-CE93D94839CF/16F679FF-C95D-454B-83D0-CC6580B67323.png",
+          "size": [
+            961,
+            961
+          ],
+          "evidence": "議會個人頁標示「陳秋萍議員」的個人肖像",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "fece3e8485a5621410351f4e0558ab82bb607c9b771718bef194c4a04a1011f4",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        961,
+        961
+      ],
+      "imageValidators": {
+        "etag": "\"8df8807c8777d61:0\"",
+        "last-modified": "Fri, 21 Aug 2020 06:51:24 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=E011C49C-9B47-40DB-9E85-3219DCDEF1CB",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/2A157807-E7F9-49DA-8CEC-CE93D94839CF/16F679FF-C95D-454B-83D0-CC6580B67323.png",
+      "evidence": "議會個人頁標示「陳秋萍議員」的個人肖像",
+      "filename": "chen-chiu-ping-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:39+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:39+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "huang-chao-hui-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=C5B62F03-2580-4ED5-94F5-9A7BDF6218A8",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/775CE00E-4BA7-40AA-A45E-EA973CFB28BA/%E9%BB%83%E8%82%87%E8%BC%9D.jpg",
+          "size": [
+            693,
+            768
+          ],
+          "evidence": "議會個人頁正式標題為黄肇輝，圖片標示為黃肇輝議員",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "ec8cbcf3063da296f5c400e49649f95f62916b15f8eb4e99aa13822aebc0a532",
+      "contentBox": [
+        12,
+        0,
+        243,
+        256
+      ],
+      "sourceSize": [
+        693,
+        768
+      ],
+      "imageValidators": {
+        "etag": "\"0bea41a6a1ad91:0\"",
+        "last-modified": "Wed, 28 Dec 2022 03:11:40 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=C5B62F03-2580-4ED5-94F5-9A7BDF6218A8",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/775CE00E-4BA7-40AA-A45E-EA973CFB28BA/%E9%BB%83%E8%82%87%E8%BC%9D.jpg",
+      "evidence": "議會個人頁正式標題為黄肇輝，圖片標示為黃肇輝議員",
+      "filename": "huang-chao-hui-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:39+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:39+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chiu-li-li-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=4A10A4A3-190C-47E8-9214-B75A23CBE882",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/E9E12C20-847F-4FAB-B514-09D7D1F18CF6/%E9%82%B1%E8%8E%89%E8%8E%89.jpg",
+          "size": [
+            693,
+            768
+          ],
+          "evidence": "邱莉莉議會官方介紹頁，img alt 明示為議員個人照",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "644ede5ab1470097db06312546da10a58888ed5c681a51ee33247d2435bfc389",
+      "contentBox": [
+        12,
+        0,
+        243,
+        256
+      ],
+      "sourceSize": [
+        693,
+        768
+      ],
+      "imageValidators": {
+        "etag": "\"0ca488e6e1ad91:0\"",
+        "last-modified": "Wed, 28 Dec 2022 03:43:32 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=4A10A4A3-190C-47E8-9214-B75A23CBE882",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/E9E12C20-847F-4FAB-B514-09D7D1F18CF6/%E9%82%B1%E8%8E%89%E8%8E%89.jpg",
+      "evidence": "邱莉莉議會官方介紹頁，img alt 明示為議員個人照",
+      "filename": "chiu-li-li-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:40+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:40+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "lin-chien-nan-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/photo/?fbid=1470307598437379&set=a.201825921952226",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/606300068_1470307601770712_2273878086216937883_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=guYLF3J4-AwQ7kNvwGLZ91M&_nc_oc=AdpHdUMP67TBRg586skQTFGOA4VjPkzf06CXi5s3D3akAK9ZUn0jzSP4KZfuXDOq7dY&_nc_zt=23&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=Wg8DzvHt7XVwggNqBlfcXg&_nc_ss=7b2a8&oh=00_AQOxBNgwVXw2KTY7o3aJ7fSFnXlDV3ejjEAWRyMS02fMXw&oe=6AE65093",
+          "size": [
+            960,
+            960
+          ],
+          "evidence": "官方林建南-南爸One粉絲頁之個人檔案相簿；2026-01-02單人正式照片，灰底淺藍襯衫、眼鏡、舉右手。已實際開啟圖片核對，推薦此單人圖製圖。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "a5c58cad4f5552f536326ee698974e164c70647674533cbfc326213f558177a6",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        960,
+        960
+      ],
+      "imageValidators": {
+        "last-modified": "Fri, 02 Jan 2026 05:39:05 GMT"
+      },
+      "source": "https://www.facebook.com/photo/?fbid=1470307598437379&set=a.201825921952226",
+      "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/606300068_1470307601770712_2273878086216937883_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=guYLF3J4-AwQ7kNvwGLZ91M&_nc_oc=AdpHdUMP67TBRg586skQTFGOA4VjPkzf06CXi5s3D3akAK9ZUn0jzSP4KZfuXDOq7dY&_nc_zt=23&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=Wg8DzvHt7XVwggNqBlfcXg&_nc_ss=7b2a8&oh=00_AQOxBNgwVXw2KTY7o3aJ7fSFnXlDV3ejjEAWRyMS02fMXw&oe=6AE65093",
+      "evidence": "官方林建南-南爸One粉絲頁之個人檔案相簿；2026-01-02單人正式照片，灰底淺藍襯衫、眼鏡、舉右手。已實際開啟圖片核對，推薦此單人圖製圖。",
+      "filename": "lin-chien-nan-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:40+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:40+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "lee-chi-wei-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=ADADD8CA-4B20-49AB-A056-B3BD47F3DFE0",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/79141F01-4A9D-42E6-9D4B-10A70D4D8EBF/68A3E31D-BB68-49B4-85E7-8D9F7DB67832.jpg",
+          "size": [
+            888,
+            888
+          ],
+          "evidence": "李啟維議會官方介紹頁，img alt 明示為議員個人照",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "3e4470e414711006d788096e50d3cebd2836f95263b31e72b78ea73bd2888516",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        888,
+        888
+      ],
+      "imageValidators": {
+        "etag": "\"87653d268877d61:0\"",
+        "last-modified": "Fri, 21 Aug 2020 06:56:09 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=ADADD8CA-4B20-49AB-A056-B3BD47F3DFE0",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/79141F01-4A9D-42E6-9D4B-10A70D4D8EBF/68A3E31D-BB68-49B4-85E7-8D9F7DB67832.jpg",
+      "evidence": "李啟維議會官方介紹頁，img alt 明示為議員個人照",
+      "filename": "lee-chi-wei-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:41+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:41+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chou-li-chin-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=C74D9364-882E-4430-A50E-439825B1EBB5",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/79141F01-4A9D-42E6-9D4B-10A70D4D8EBF/7F4F4215-9B10-43B6-99FC-72A04D87B876.jpg",
+          "size": [
+            417,
+            462
+          ],
+          "evidence": "周麗津議會官方介紹頁，img alt 明示為議員個人照",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "2dc7c99719ef74bacd5c11573ac703790093ae625ac4f088bf9873a012e6f964",
+      "contentBox": [
+        12,
+        0,
+        243,
+        256
+      ],
+      "sourceSize": [
+        417,
+        462
+      ],
+      "imageValidators": {
+        "etag": "\"9f5628e0e879d61:0\"",
+        "last-modified": "Mon, 24 Aug 2020 07:33:35 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=C74D9364-882E-4430-A50E-439825B1EBB5",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/79141F01-4A9D-42E6-9D4B-10A70D4D8EBF/7F4F4215-9B10-43B6-99FC-72A04D87B876.jpg",
+      "evidence": "周麗津議會官方介紹頁，img alt 明示為議員個人照",
+      "filename": "chou-li-chin-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:42+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:42+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "lu-wei-yin-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=4348ACF1-8957-4133-B99E-19B26D9E2DCE",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/79141F01-4A9D-42E6-9D4B-10A70D4D8EBF/227D574D-B1C7-45C7-9676-C794A0A0158F.jpg",
+          "size": [
+            993,
+            993
+          ],
+          "evidence": "呂維胤議會官方介紹頁，img alt 明示為議員個人照",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "02634a147d557a583b3d07925f12d960593f0199a8633620fd0f2f1cc0170196",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        993,
+        993
+      ],
+      "imageValidators": {
+        "etag": "\"2fce4dee8777d61:0\"",
+        "last-modified": "Fri, 21 Aug 2020 06:54:35 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=4348ACF1-8957-4133-B99E-19B26D9E2DCE",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/79141F01-4A9D-42E6-9D4B-10A70D4D8EBF/227D574D-B1C7-45C7-9676-C794A0A0158F.jpg",
+      "evidence": "呂維胤議會官方介紹頁，img alt 明示為議員個人照",
+      "filename": "lu-wei-yin-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:42+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:42+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "tsai-hsiao-wei-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=78191C86-FE9E-442F-84D9-47CF93743FE9",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/B9A563CB-864A-40B8-9BAF-CD77404D2161/%E8%94%A1%E7%AD%B1%E8%96%87.jpg",
+          "size": [
+            693,
+            768
+          ],
+          "evidence": "蔡筱薇議會官方介紹頁，img alt 明示為議員個人照",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "d0534b2e47ace673f707e01110d9c9aff1999615d704f9761bc952541f00c491",
+      "contentBox": [
+        12,
+        0,
+        243,
+        256
+      ],
+      "sourceSize": [
+        693,
+        768
+      ],
+      "imageValidators": {
+        "etag": "\"07f8f6a821ad91:0\"",
+        "last-modified": "Wed, 28 Dec 2022 06:05:42 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=78191C86-FE9E-442F-84D9-47CF93743FE9",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/B9A563CB-864A-40B8-9BAF-CD77404D2161/%E8%94%A1%E7%AD%B1%E8%96%87.jpg",
+      "evidence": "蔡筱薇議會官方介紹頁，img alt 明示為議員個人照",
+      "filename": "tsai-hsiao-wei-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:43+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:43+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chen-chin-chung-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/2019/tnccp2/ccp_01a.asp?CName=%E9%99%B3%E9%87%91%E9%90%98",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/200000/%E9%99%B3%E9%87%91%E9%90%98.bmp",
+          "result": "failed",
+          "reason": "不支援的圖片格式"
+        },
+        {
+          "source": "https://www.tncc.gov.tw/2019/tnccp2/ccp_01a.asp?CName=%E9%99%B3%E9%87%91%E9%90%98",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/profile.php?id=100001616792189",
+          "result": "failed",
+          "reason": "官方來源轉至不同帳號或登入頁，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T19:25:45+08:00",
+      "result": "failed",
+      "reason": "未取得可驗證的官方頭像，保留舊圖"
+    },
+    "chen-huang-yu-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=CBAF0322-27BB-4242-BDFE-2BE6814FD6BD",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/CE4A0D3B-E8AF-4EB2-979A-2542DC560C18/%E9%99%B3%E7%9A%87%E5%AE%87.jpg",
+          "size": [
+            693,
+            768
+          ],
+          "evidence": "陳皇宇議會官方介紹頁，img alt 明示為議員個人照",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "834ea597e9b97b574578b4741618ddeafac13c797d025d559c6ff475fca7f4ac",
+      "contentBox": [
+        12,
+        0,
+        243,
+        256
+      ],
+      "sourceSize": [
+        693,
+        768
+      ],
+      "imageValidators": {
+        "etag": "\"804779e1831ad91:0\"",
+        "last-modified": "Wed, 28 Dec 2022 06:16:11 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=CBAF0322-27BB-4242-BDFE-2BE6814FD6BD",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/CE4A0D3B-E8AF-4EB2-979A-2542DC560C18/%E9%99%B3%E7%9A%87%E5%AE%87.jpg",
+      "evidence": "陳皇宇議會官方介紹頁，img alt 明示為議員個人照",
+      "filename": "chen-huang-yu-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:45+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:45+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kuo-hung-yi-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=D02F8D8F-F1DF-4F8A-BA84-EE5B5FA5F147",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/CE4A0D3B-E8AF-4EB2-979A-2542DC560C18/%E9%83%AD%E9%B4%BB%E5%84%80.jpg",
+          "size": [
+            693,
+            768
+          ],
+          "evidence": "郭鴻儀議會官方介紹頁，img alt 明示為議員個人照",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "bce4bcf7299700a94081fb3894cd2f38bc3b53000547ad2628dc151a2aca05bc",
+      "contentBox": [
+        12,
+        0,
+        243,
+        256
+      ],
+      "sourceSize": [
+        693,
+        768
+      ],
+      "imageValidators": {
+        "etag": "\"80f64aa2831ad91:0\"",
+        "last-modified": "Wed, 28 Dec 2022 06:14:25 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=D02F8D8F-F1DF-4F8A-BA84-EE5B5FA5F147",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/CE4A0D3B-E8AF-4EB2-979A-2542DC560C18/%E9%83%AD%E9%B4%BB%E5%84%80.jpg",
+      "evidence": "郭鴻儀議會官方介紹頁，img alt 明示為議員個人照",
+      "filename": "kuo-hung-yi-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:46+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:46+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "cheng-chia-hsin-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=0DB92A60-047F-4559-A8EE-03183D3CBFA0",
+          "platform": "website",
+          "imageUrl": "https://www.tncc.gov.tw/warehouse/CE4A0D3B-E8AF-4EB2-979A-2542DC560C18/%E9%84%AD%E4%BD%B3%E6%AC%A3.jpg",
+          "size": [
+            693,
+            768
+          ],
+          "evidence": "鄭佳欣議會官方介紹頁，img alt 明示為議員個人照",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "ffee458fd9a4aef8721fe071eb721b2600bb45f6e50023a7b6c7a073e8b3f6e5",
+      "contentBox": [
+        12,
+        0,
+        243,
+        256
+      ],
+      "sourceSize": [
+        693,
+        768
+      ],
+      "imageValidators": {
+        "etag": "\"80a753bb831ad91:0\"",
+        "last-modified": "Wed, 28 Dec 2022 06:15:07 GMT"
+      },
+      "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=0DB92A60-047F-4559-A8EE-03183D3CBFA0",
+      "imageUrl": "https://www.tncc.gov.tw/warehouse/CE4A0D3B-E8AF-4EB2-979A-2542DC560C18/%E9%84%AD%E4%BD%B3%E6%AC%A3.jpg",
+      "evidence": "鄭佳欣議會官方介紹頁，img alt 明示為議員個人照",
+      "filename": "cheng-chia-hsin-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T19:25:47+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T19:25:47+08:00",
+      "result": "updated",
+      "reason": "首次保存"
     }
   }
 }
