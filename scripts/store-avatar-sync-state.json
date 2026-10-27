@@ -11760,6 +11760,45 @@
       "lastAttempt": "2026-10-27T20:42:34+08:00",
       "result": "low-resolution",
       "reason": "官方來源僅取得小圖（最大 237 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "twocatsapartment-tainan": {
+      "qualityChecks": [
+        {
+          "source": "https://www.threads.com/@twocatsapartment",
+          "platform": "threads",
+          "imageUrl": "https://scontent-lax3-1.cdninstagram.com/v/t51.2885-19/429776697_1534952310783897_4875040226063487250_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHQTK1frBnkPcMliHiocORbDMhZR3_BjucLabADvOM2qNbrpcSzMqPfMmQC7SkTZLw&_nc_ohc=9VFehsZ1bp8Q7kNvwGTS4Zf&_nc_gid=SSA7qQ8lzCIP9dNvgC8fOg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQNn6F7hsV8gNVv-0rXLm3iRHfjBlmXgBf9ENQCFDo6zOg&oe=6AE68590&_nc_sid=10d13b",
+          "size": [
+            320,
+            320
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；二貓公寓 (@twocatsapartment) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "9c12bcf30acf8b6ad736c20313a1a9224bfc9429657a4ae6b5f39f4f68d621db",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        320,
+        320
+      ],
+      "imageValidators": {
+        "last-modified": "Mon, 26 Feb 2024 09:24:01 GMT"
+      },
+      "source": "https://www.threads.com/@twocatsapartment",
+      "imageUrl": "https://scontent-lax3-1.cdninstagram.com/v/t51.2885-19/429776697_1534952310783897_4875040226063487250_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHQTK1frBnkPcMliHiocORbDMhZR3_BjucLabADvOM2qNbrpcSzMqPfMmQC7SkTZLw&_nc_ohc=9VFehsZ1bp8Q7kNvwGTS4Zf&_nc_gid=SSA7qQ8lzCIP9dNvgC8fOg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQNn6F7hsV8gNVv-0rXLm3iRHfjBlmXgBf9ENQCFDo6zOg&oe=6AE68590&_nc_sid=10d13b",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；二貓公寓 (@twocatsapartment) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+      "filename": "twocatsapartment-tainan/logo.webp",
+      "lastSuccess": "2026-10-27T22:50:03+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T22:50:03+08:00",
+      "result": "updated",
+      "reason": "首次保存"
     }
   }
 }
