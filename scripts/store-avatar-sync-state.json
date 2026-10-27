@@ -7289,6 +7289,4477 @@
       "lastAttempt": "2026-10-27T19:25:47+08:00",
       "result": "updated",
       "reason": "首次保存"
+    },
+    "pingtung-fang-wen-zheng-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=8de36599-83ac-8c40-ef11-be917d8e72cd",
+          "platform": "website",
+          "imageUrl": "https://www.ptcc.gov.tw/upload/upimage/c7ece281-a25b-c278-3957-6e6ff245f76b-S.jpg",
+          "size": [
+            176,
+            235
+          ],
+          "evidence": "屏東縣議會個人介紹頁姓名與img alt相片標示相符，官方原圖未加工。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=8de36599-83ac-8c40-ef11-be917d8e72cd",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:55+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 235 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "kaohsiung-zheng-guang-feng-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2220/e825777d-1c91-47d7-9b7e-e5c40409a991.png",
+          "size": [
+            487,
+            613
+          ],
+          "evidence": "高雄市議會官方本屆名錄的姓名與img alt「鄭光峰_大頭照」明確對應。沿用已逐頁核對15名的官方CDN原圖/縮圖規則，去除@50x67尺寸派生後成功下載同檔名原圖；個人頁本次逾時。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "3e13f30b870842a42c65442cb1acc46a76d93e102e2f6e144094abb8844a07a4",
+      "contentBox": [
+        26,
+        0,
+        229,
+        256
+      ],
+      "sourceSize": [
+        487,
+        613
+      ],
+      "imageValidators": {
+        "etag": "\"1D916793B8B9E80\"",
+        "last-modified": "Fri, 23 Dec 2022 02:49:53 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2220/e825777d-1c91-47d7-9b7e-e5c40409a991.png",
+      "evidence": "高雄市議會官方本屆名錄的姓名與img alt「鄭光峰_大頭照」明確對應。沿用已逐頁核對15名的官方CDN原圖/縮圖規則，去除@50x67尺寸派生後成功下載同檔名原圖；個人頁本次逾時。",
+      "filename": "kaohsiung-zheng-guang-feng-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:27+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:27+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-jiang-rui-hong-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2190",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2190/081a610e-9ee8-41f9-a434-7ec28ae6966c.jpg",
+          "size": [
+            1062,
+            1352
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "7e6742331269ea8be9ce7d7db5119148b7f8501e78333b815bc21638c99afab2",
+      "contentBox": [
+        27,
+        0,
+        228,
+        256
+      ],
+      "sourceSize": [
+        1062,
+        1352
+      ],
+      "imageValidators": {
+        "etag": "\"1D9167477703500\"",
+        "last-modified": "Fri, 23 Dec 2022 02:15:46 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2190",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2190/081a610e-9ee8-41f9-a434-7ec28ae6966c.jpg",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "kaohsiung-jiang-rui-hong-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:19+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:19+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-zhang-yao-zhong-service-office-linyuan": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/photo/?fbid=122148761870737363&set=a.122102580584737363",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/558904850_122148761882737363_2377852590634687351_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=VlKSLFs21AEQ7kNvwF-zVR_&_nc_oc=AdoEoO6YtSJrBAznFjVrDe61uauqSyQW4e06ONnFLqoA6CXyIRxQxMCp9M3b68kbJ4I&_nc_zt=23&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=wu0otmknoTEIgAqq5gFcwQ&_nc_ss=7b2a8&oh=00_AQOFNrSIV5u0q_-ZLy0XXDKR0tRBW5bsyLZ0GQOQz1BTbw&oe=6AE66F19",
+          "size": [
+            960,
+            960
+          ],
+          "evidence": "官方粉絲頁厝邊阿中張耀中，簡介第11選區大寮林園、陳其邁隨行秘書。從本人頭像選單開啟原圖，2025-10-11照片；已核對為高雄年輕候選人，非台中同名者。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "12b917c9ea83f3b856a0a080b84c1a3e2be2476a0661676b68321342bbd89a95",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        960,
+        960
+      ],
+      "imageValidators": {
+        "last-modified": "Fri, 10 Oct 2025 22:50:22 GMT"
+      },
+      "source": "https://www.facebook.com/photo/?fbid=122148761870737363&set=a.122102580584737363",
+      "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/558904850_122148761882737363_2377852590634687351_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=VlKSLFs21AEQ7kNvwF-zVR_&_nc_oc=AdoEoO6YtSJrBAznFjVrDe61uauqSyQW4e06ONnFLqoA6CXyIRxQxMCp9M3b68kbJ4I&_nc_zt=23&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=wu0otmknoTEIgAqq5gFcwQ&_nc_ss=7b2a8&oh=00_AQOFNrSIV5u0q_-ZLy0XXDKR0tRBW5bsyLZ0GQOQz1BTbw&oe=6AE66F19",
+      "evidence": "官方粉絲頁厝邊阿中張耀中，簡介第11選區大寮林園、陳其邁隨行秘書。從本人頭像選單開啟原圖，2025-10-11照片；已核對為高雄年輕候選人，非台中同名者。",
+      "filename": "kaohsiung-zhang-yao-zhong-service-office-linyuan/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:29+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:29+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "pingtung-pan-fang-quan-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=f3728c99-9bb4-0975-89cb-7dd3c22149d4",
+          "platform": "website",
+          "imageUrl": "https://www.ptcc.gov.tw/upload/upimage/ef08a324-34f0-b14e-1f49-4f2bd5bc3966-S.jpg",
+          "size": [
+            156,
+            235
+          ],
+          "evidence": "屏東縣議會個人介紹頁姓名與img alt相片標示相符，官方原圖未加工。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=f3728c99-9bb4-0975-89cb-7dd3c22149d4",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:59+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 235 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "miaoli-chen-guang-xuan-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2603",
+          "platform": "website",
+          "imageUrl": "https://www.mcc.gov.tw/admin/upload/twgov_img_202504211405481.jpg",
+          "size": [
+            200,
+            237
+          ],
+          "evidence": "苗栗縣議會該選區議員名錄照片，img alt為「陳光軒」，採用其連結原尺寸圖片。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2603",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:38+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 237 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "taichung-zheng-gong-jin-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=48",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852448440048(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/鄭功進.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=48",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/profile.php?id=100000988841194",
+          "result": "failed",
+          "reason": "官方來源轉至不同帳號或登入頁，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:41:58+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 192 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "kaohsiung-huang-fei-feng-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2194",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2194/eea61abc-246a-46d7-973c-0af2e8b6dd2f.png",
+          "size": [
+            520,
+            745
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "a83d987b27265a495c5478f616b561ef388e2242fa5e99fb6f77a5e880360c17",
+      "contentBox": [
+        38,
+        0,
+        217,
+        256
+      ],
+      "sourceSize": [
+        520,
+        745
+      ],
+      "imageValidators": {
+        "etag": "\"1D91674FF563F00\"",
+        "last-modified": "Fri, 23 Dec 2022 02:19:34 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2194",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2194/eea61abc-246a-46d7-973c-0af2e8b6dd2f.png",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "kaohsiung-huang-fei-feng-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:17+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:17+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-chen-lin-jie-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/photo/?fbid=122169655892413778&set=a.122095496966413778",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/864383616_122169655898413778_5524274893050937184_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s886x886&_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=6bu0R6WSkD4Q7kNvwHz6Z7Z&_nc_oc=AdqlGEnVKa4Yn1njeihaTSH75B-9Os1dbAibkgcdW7sAtVOkrXZ9yXZFjAwaABXz04g&_nc_zt=23&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=zMnkrEW-ABbnA7sKbDpBoA&_nc_ss=7b2a8&oh=00_AQOz0ftxGggKg3WiUBz3CLe2xmBSlBYNT82-UzKm6hHdPQ&oe=6AE682E6",
+          "size": [
+            886,
+            886
+          ],
+          "evidence": "本人已驗證Facebook個人檔案，簡介「DPP高雄市第二選區市議員候選人第④號」與名單一致；2026-10-27更新大頭貼，白西裝本人手持4號牌，已視覺確認。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "7421fc9527150454dd218feb86d92e2d5e0e3509f5a514810887f72d0c046422",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        886,
+        886
+      ],
+      "imageValidators": {
+        "last-modified": "Tue, 27 Oct 2026 11:05:13 GMT"
+      },
+      "source": "https://www.facebook.com/photo/?fbid=122169655892413778&set=a.122095496966413778",
+      "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/864383616_122169655898413778_5524274893050937184_n.jpg?stp=dst-jpg_tt6&cstp=mx886x886&ctp=s886x886&_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=6bu0R6WSkD4Q7kNvwHz6Z7Z&_nc_oc=AdqlGEnVKa4Yn1njeihaTSH75B-9Os1dbAibkgcdW7sAtVOkrXZ9yXZFjAwaABXz04g&_nc_zt=23&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=zMnkrEW-ABbnA7sKbDpBoA&_nc_ss=7b2a8&oh=00_AQOz0ftxGggKg3WiUBz3CLe2xmBSlBYNT82-UzKm6hHdPQ&oe=6AE682E6",
+      "evidence": "本人已驗證Facebook個人檔案，簡介「DPP高雄市第二選區市議員候選人第④號」與名單一致；2026-10-27更新大頭貼，白西裝本人手持4號牌，已視覺確認。",
+      "filename": "kaohsiung-chen-lin-jie-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:12+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:12+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-xiao-long-ze-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=23",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852420350023(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/蕭隆澤.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=23",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/lungtze",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.6435-1/75478463_2798065413594752_4767936443324563456_n.jpg?stp=dst-jpg_tt6&cstp=mx859x859&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8WlIfc0oTyIQ7kNvwH7Hjd9&_nc_oc=Adozwt-QimBwMfVt16xNGPoSjfR9wGWxNQPsxjGqpCB2yVXFvVVFLONZhKstNemvGqU&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=1PHy4c562nvZyQ-WGDKgjw&_nc_ss=7320f&oh=00_AQMLfsWKUSDl_kuyt0syuk3wUp070zyiZKGLv30Qe_Ag7g&oe=6B082362",
+          "size": [
+            720,
+            720
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；蕭隆澤",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "d7a1a9d5cb6886eb01bd76409b09c4bdd2155e369fee09b49ba8833f9f13da84",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Tue, 24 Dec 2019 16:23:38 GMT"
+      },
+      "source": "https://www.facebook.com/lungtze",
+      "imageUrl": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.6435-1/75478463_2798065413594752_4767936443324563456_n.jpg?stp=dst-jpg_tt6&cstp=mx859x859&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8WlIfc0oTyIQ7kNvwH7Hjd9&_nc_oc=Adozwt-QimBwMfVt16xNGPoSjfR9wGWxNQPsxjGqpCB2yVXFvVVFLONZhKstNemvGqU&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=1PHy4c562nvZyQ-WGDKgjw&_nc_ss=7320f&oh=00_AQMLfsWKUSDl_kuyt0syuk3wUp070zyiZKGLv30Qe_Ag7g&oe=6B082362",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；蕭隆澤",
+      "filename": "taichung-xiao-long-ze-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:37+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:37+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chiayi-city-huang-ying-zhi-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1151",
+          "platform": "website",
+          "imageUrl": "https://www.cycc.gov.tw/_admin/_upload/UnitStaff/1021/images/黃盈智1.jpg",
+          "size": [
+            123,
+            130
+          ],
+          "evidence": "官方議會個人介紹頁人像；<img src=\"/_admin/_upload/UnitStaff/1021/images/黃盈智1.jpg\" alt=\"黃議員盈智(大頭照)\" width='100%'>",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1151",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/CYC201903/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/316966324_566106618853766_1715385085526217284_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HQItsiJr4S8Q7kNvwH7wpdr&_nc_oc=AdoXxgHCq5k03bXM1wqDHzC12Optb-F2IwWNT0DB-BoHlXhEXllKwaqAovXsCEo7Tyo&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=ENyQLZMXxIBzKirqhDVkkw&_nc_ss=7320f&oh=00_AQPkStOONQs9FeF166O85T7EAjSbp5lwCB0wgYmEw7FP8w&oe=6AE6628B",
+          "size": [
+            720,
+            720
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；嘉義新生活 黃盈智",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "a334f62265fef40470cd5e98d52ed180120f00fd408ae9b7c6dd9e300171f07c",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Sat, 26 Nov 2022 07:49:03 GMT"
+      },
+      "source": "https://www.facebook.com/CYC201903/",
+      "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/316966324_566106618853766_1715385085526217284_n.jpg?stp=dst-jpg_tt6&cstp=mx1250x1250&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HQItsiJr4S8Q7kNvwH7wpdr&_nc_oc=AdoXxgHCq5k03bXM1wqDHzC12Optb-F2IwWNT0DB-BoHlXhEXllKwaqAovXsCEo7Tyo&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=ENyQLZMXxIBzKirqhDVkkw&_nc_ss=7320f&oh=00_AQPkStOONQs9FeF166O85T7EAjSbp5lwCB0wgYmEw7FP8w&oe=6AE6628B",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；嘉義新生活 黃盈智",
+      "filename": "chiayi-city-huang-ying-zhi-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:13+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:13+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taitung-jian-wei-guo-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.taitungcc.gov.tw/1/member/detail/35",
+          "platform": "website",
+          "imageUrl": "https://www.taitungcc.gov.tw/upload/up/a15e34c4-f667-4830-b5a2-bd6fd534c34f/26036dgph533",
+          "size": [
+            250,
+            314
+          ],
+          "evidence": "臺東縣議會官方個人頁由公開/api/member/35提供；member欄姓名吻合，pic01為議員介紹頭像，官方member.js組出此圖片網址。原檔名：簡維國_2026.png",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "c4a49c39f590f7de1a710fe1d551361110fc2756dddd60b5c4d984b21e134f1e",
+      "contentBox": [
+        26,
+        0,
+        230,
+        256
+      ],
+      "sourceSize": [
+        250,
+        314
+      ],
+      "imageValidators": {
+        "etag": "\"a6c6d3bdabbadc1:0\"",
+        "last-modified": "Mon, 23 Mar 2026 09:59:30 GMT"
+      },
+      "source": "https://www.taitungcc.gov.tw/1/member/detail/35",
+      "imageUrl": "https://www.taitungcc.gov.tw/upload/up/a15e34c4-f667-4830-b5a2-bd6fd534c34f/26036dgph533",
+      "evidence": "臺東縣議會官方個人頁由公開/api/member/35提供；member欄姓名吻合，pic01為議員介紹頭像，官方member.js組出此圖片網址。原檔名：簡維國_2026.png",
+      "filename": "taitung-jian-wei-guo-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:03+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:03+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-huang-qiu-ying-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2177",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2177/d4f8291d-b230-49b9-8750-c3010c22b00e.png",
+          "size": [
+            425,
+            546
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "36e4d3657d3b3ba29ea4776b6d0d467a0fb3f49af6e5bf2bb5a97ddbac164fa0",
+      "contentBox": [
+        28,
+        0,
+        227,
+        256
+      ],
+      "sourceSize": [
+        425,
+        546
+      ],
+      "imageValidators": {
+        "etag": "\"1D91672E3EA3480\"",
+        "last-modified": "Fri, 23 Dec 2022 02:04:29 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2177",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2177/d4f8291d-b230-49b9-8750-c3010c22b00e.png",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "kaohsiung-huang-qiu-ying-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:13+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:13+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-ceng-wei-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=69",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=16709330950069(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/曾威.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=69",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:41:32+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 192 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "kaohsiung-kang-yu-cheng-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2201/051d1919-6678-4416-b89d-fa8525bace40.jpg",
+          "size": [
+            957,
+            1221
+          ],
+          "evidence": "高雄市議會官方本屆名錄的姓名與img alt「康裕成_大頭照」明確對應。沿用已逐頁核對15名的官方CDN原圖/縮圖規則，去除@50x67尺寸派生後成功下載同檔名原圖；個人頁本次逾時。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "dec37a414b580d8dc29fa4cb7e66e383b6fcae5f401bae037dc14af2c592b9a1",
+      "contentBox": [
+        27,
+        0,
+        228,
+        256
+      ],
+      "sourceSize": [
+        957,
+        1221
+      ],
+      "imageValidators": {
+        "etag": "\"1D9846BA47A8400\"",
+        "last-modified": "Fri, 12 May 2023 00:49:44 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2201/051d1919-6678-4416-b89d-fa8525bace40.jpg",
+      "evidence": "高雄市議會官方本屆名錄的姓名與img alt「康裕成_大頭照」明確對應。沿用已逐頁核對15名的官方CDN原圖/縮圖規則，去除@50x67尺寸派生後成功下載同檔名原圖；個人頁本次逾時。",
+      "filename": "kaohsiung-kang-yu-cheng-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:22+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:22+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kinmen-cai-qi-yong-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kmcc.gov.tw/8844/54357/55476/55495/",
+          "platform": "website",
+          "imageUrl": "https://www.kmcc.gov.tw/media/24312/蔡其雍.jpg",
+          "size": [
+            208,
+            257
+          ],
+          "evidence": "金門縣議會蔡其雍個人介紹頁，照片alt蔡其雍。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "2cd3fb9397b2e747f0907159abc47c2613ef8ae1f31cd6a7af873316f592bb98",
+      "contentBox": [
+        24,
+        0,
+        231,
+        256
+      ],
+      "sourceSize": [
+        208,
+        257
+      ],
+      "imageValidators": {
+        "etag": "\"ad3340a71e2bd91:0\"",
+        "last-modified": "Wed, 18 Jan 2023 09:24:23 GMT"
+      },
+      "source": "https://www.kmcc.gov.tw/8844/54357/55476/55495/",
+      "imageUrl": "https://www.kmcc.gov.tw/media/24312/蔡其雍.jpg",
+      "evidence": "金門縣議會蔡其雍個人介紹頁，照片alt蔡其雍。",
+      "filename": "kinmen-cai-qi-yong-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:04+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:04+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-xie-zhi-zhong-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=16",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852392360016(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/謝志忠.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=16",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:41:34+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 192 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "kaohsiung-jian-huan-zong-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2197",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2197/76d08052-0d63-41af-bc52-ff15f178130f.png",
+          "size": [
+            297,
+            384
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "c1f9e5ffed175d937b25f9f359108bf42ea0c07fa359a26047eeff7e41442cf6",
+      "contentBox": [
+        29,
+        0,
+        227,
+        256
+      ],
+      "sourceSize": [
+        297,
+        384
+      ],
+      "imageValidators": {
+        "etag": "\"1D9167583A8C200\"",
+        "last-modified": "Fri, 23 Dec 2022 02:23:16 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2197",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2197/76d08052-0d63-41af-bc52-ff15f178130f.png",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "kaohsiung-jian-huan-zong-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:20+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:20+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-xie-jia-yi-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=74",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=16709388950074(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/謝家宜.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=74",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:41:47+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 192 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "taichung-cai-yi-xuan-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/syuan0701/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/614156411_872268655558186_7103816589384940022_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=TskHNyNzuNYQ7kNvwGlLAPi&_nc_oc=AdpH_Ffi_8cKYlVuIaPxL1xRN_0ZAEiKh3S1nAmcXyc4H57ZmGKnJcVrFtwATPfIrqU&_nc_zt=23&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=kC1vce5N_NW-MBnvdFb-ZQ&_nc_ss=7b2a8&oh=00_AQNwvLdLNVuzaDBgxfaJFkw3dZHBmUYJBi9aO5W96z7Wjg&oe=6AE679B9",
+          "size": [
+            960,
+            960
+          ],
+          "evidence": "本人官方粉專蔡怡萱（蔡ㄟ），簡介明確臺中市議員第4選區候選人3號；點選大頭照後取得原始相片頁。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "eebda66bf6a87f778f354b3158c0cfb6e053866c08a302fa7e74e93dd9b9fb45",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        960,
+        960
+      ],
+      "imageValidators": {
+        "last-modified": "Sat, 10 Jan 2026 11:27:49 GMT"
+      },
+      "source": "https://www.facebook.com/syuan0701/",
+      "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/614156411_872268655558186_7103816589384940022_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=TskHNyNzuNYQ7kNvwGlLAPi&_nc_oc=AdpH_Ffi_8cKYlVuIaPxL1xRN_0ZAEiKh3S1nAmcXyc4H57ZmGKnJcVrFtwATPfIrqU&_nc_zt=23&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=kC1vce5N_NW-MBnvdFb-ZQ&_nc_ss=7b2a8&oh=00_AQNwvLdLNVuzaDBgxfaJFkw3dZHBmUYJBi9aO5W96z7Wjg&oe=6AE679B9",
+      "evidence": "本人官方粉專蔡怡萱（蔡ㄟ），簡介明確臺中市議員第4選區候選人3號；點選大頭照後取得原始相片頁。",
+      "filename": "taichung-cai-yi-xuan-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:32+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:32+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-he-quan-feng-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2204",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2204/05c5ef49-1486-45e1-96b6-834ed27c2d5a.png",
+          "size": [
+            1040,
+            1336
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "0e6d1a3e09ce3416d35de33f97e72ea7a07f83e3d647bd0f17b8e0c94ce9a55c",
+      "contentBox": [
+        28,
+        0,
+        227,
+        256
+      ],
+      "sourceSize": [
+        1040,
+        1336
+      ],
+      "imageValidators": {
+        "etag": "\"1D916766FB19000\"",
+        "last-modified": "Fri, 23 Dec 2022 02:29:52 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2204",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2204/05c5ef49-1486-45e1-96b6-834ed27c2d5a.png",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "kaohsiung-he-quan-feng-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:22+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:22+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chiayi-county-jiang-zhi-ming-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14203",
+          "platform": "website",
+          "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14203/682ba321-c7b5-451c-9e87-0337201ea4ca.jpg",
+          "size": [
+            1387,
+            1626
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "cd2c2abf373875b97aee853d3770543f85677532ae96d66ee4fce3dc45278063",
+      "contentBox": [
+        19,
+        0,
+        237,
+        256
+      ],
+      "sourceSize": [
+        1387,
+        1626
+      ],
+      "imageValidators": {
+        "etag": "\"52f6e4cb17bdb1:0\"",
+        "last-modified": "Mon, 10 Feb 2025 11:45:35 GMT"
+      },
+      "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14203",
+      "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14203/682ba321-c7b5-451c-9e87-0337201ea4ca.jpg",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "chiayi-county-jiang-zhi-ming-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:43+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:43+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-zhang-yao-zhong-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/TaichungBetter/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.99422-6/868853641_30000578652864186_3695743448458640668_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ZI5DDCF0D9QQ7kNvwHbK887&_nc_oc=AdoL-MBKo6r2Jw1-U0Sr1HpnD9NcmUfmIW6lr8xv4Mj4viDQEjoIqIiFpfd7sw7ZxIA&_nc_zt=14&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=qyON6HYg-eKShG6-O67DiQ&_nc_ss=7b2a8&oh=00_AQNT5Xk7BggfmeF5wFa_O9DTFTb0M-D4DB3RCh1N96d4Fw&oe=6AE6821C",
+          "size": [
+            2048,
+            2048
+          ],
+          "evidence": "張耀中本人公開帳號ChangYaoChung直接連出TaichungBetter服務粉專；該粉專明確南屯大墩七街111號與2號候選人，確定不是高雄同名人物。此圖是官方粉專當前大頭照。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "545a2efc15924ee1a776caf918466b251f893ee9e436ae7f4f2b78cd76180dd9",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "imageValidators": {
+        "last-modified": "Tue, 27 Oct 2026 01:25:41 GMT"
+      },
+      "source": "https://www.facebook.com/TaichungBetter/",
+      "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.99422-6/868853641_30000578652864186_3695743448458640668_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ZI5DDCF0D9QQ7kNvwHbK887&_nc_oc=AdoL-MBKo6r2Jw1-U0Sr1HpnD9NcmUfmIW6lr8xv4Mj4viDQEjoIqIiFpfd7sw7ZxIA&_nc_zt=14&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=qyON6HYg-eKShG6-O67DiQ&_nc_ss=7b2a8&oh=00_AQNT5Xk7BggfmeF5wFa_O9DTFTb0M-D4DB3RCh1N96d4Fw&oe=6AE6821C",
+      "evidence": "張耀中本人公開帳號ChangYaoChung直接連出TaichungBetter服務粉專；該粉專明確南屯大墩七街111號與2號候選人，確定不是高雄同名人物。此圖是官方粉專當前大頭照。",
+      "filename": "taichung-zhang-yao-zhong-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:44+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:44+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "pingtung-li-ba-kui-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=eba79364-b4a8-29c9-d54e-6bba9e79d240",
+          "platform": "website",
+          "imageUrl": "https://www.ptcc.gov.tw/upload/upimage/f07104f4-8470-afcf-2127-ef62dee95073-S.jpg",
+          "size": [
+            156,
+            235
+          ],
+          "evidence": "屏東縣議會個人介紹頁姓名與img alt相片標示相符，官方原圖未加工。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=eba79364-b4a8-29c9-d54e-6bba9e79d240",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:51+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 235 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "kaohsiung-lin-fu-bao-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2171",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2171/60ccce90-0d79-44b0-b8db-9565bbe80cd8.png",
+          "size": [
+            501,
+            636
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "0a3d15b14c74a655c2610b8ed7e4f91aa89fbd263cd69fb8f7925e2f76d3ea4d",
+      "contentBox": [
+        27,
+        0,
+        229,
+        256
+      ],
+      "sourceSize": [
+        501,
+        636
+      ],
+      "imageValidators": {
+        "etag": "\"1D91671E5FFC380\"",
+        "last-modified": "Fri, 23 Dec 2022 01:57:23 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2171",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2171/60ccce90-0d79-44b0-b8db-9565bbe80cd8.png",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "kaohsiung-lin-fu-bao-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:11+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:11+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-zhang-xiao-yun-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1007",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638058385687533412%E4%B8%AD%E5%A3%A2%E5%8D%809%E5%BC%B5%E6%9B%89%E6%98%80.jpeg",
+          "size": [
+            1021,
+            1291
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/張曉昀.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "332840fd218da8e53af93bb530f8c66a85677dd3b77289a4bbf6790c09a1c788",
+      "contentBox": [
+        27,
+        0,
+        229,
+        256
+      ],
+      "sourceSize": [
+        1021,
+        1291
+      ],
+      "imageValidators": {
+        "etag": "\"07e218f6b8d91:0\"",
+        "last-modified": "Mon, 05 Dec 2022 05:36:44 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1007",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638058385687533412%E4%B8%AD%E5%A3%A2%E5%8D%809%E5%BC%B5%E6%9B%89%E6%98%80.jpeg",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/張曉昀.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-zhang-xiao-yun-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:16+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:16+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-cai-yao-xie-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=54",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852463700054(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/蔡耀頡.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=54",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/蔡耀頡承擔青新世代-658507204537241/",
+          "result": "failed",
+          "reason": "官方來源轉至不同帳號或登入頁，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:01+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 192 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "yilan-lin-li-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2005&clique=DDP&pic=1",
+          "platform": "website",
+          "imageUrl": "https://www.ilcc.gov.tw/pictures/people/A2005.JPG",
+          "size": [
+            577,
+            744
+          ],
+          "evidence": "官方議會個人介紹頁人像；<img src=\"../../pictures/people/A2005.JPG\" alt=\"林　麗議員\" width=\"100\" height=\"135\">",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "99af692e0a70435740a9b973147780eea3ec3e026863ef35f8295b221aaac69c",
+      "contentBox": [
+        28,
+        0,
+        227,
+        256
+      ],
+      "sourceSize": [
+        577,
+        744
+      ],
+      "imageValidators": {
+        "etag": "\"3ea8964c29cd41:0\"",
+        "last-modified": "Wed, 26 Dec 2018 02:26:22 GMT"
+      },
+      "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2005&clique=DDP&pic=1",
+      "imageUrl": "https://www.ilcc.gov.tw/pictures/people/A2005.JPG",
+      "evidence": "官方議會個人介紹頁人像；<img src=\"../../pictures/people/A2005.JPG\" alt=\"林　麗議員\" width=\"100\" height=\"135\">",
+      "filename": "yilan-lin-li-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:59+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:59+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-chen-zhi-wen-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=999",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a634641658072119151%E9%99%B3%E6%B2%BB%E6%96%87%E8%AD%B0%E5%93%A1.jpg",
+          "size": [
+            115,
+            133
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/陳治文.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=999",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "http://www.facebook.com/profile.php?id=100001891607924",
+          "result": "failed",
+          "reason": "來源或圖片必須是完整 HTTPS 網址"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:41:14+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 133 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "taichung-chen-shu-hua-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=28",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852425300028(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/陳淑華.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=28",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/chenshuhua1970",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/458605767_2508008432722928_7943430204600431983_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hUSGmxlCbxkQ7kNvwE-cfvc&_nc_oc=AdoNLd3P2tvtuma1Oi38yJbw3Eu21W3ZxD_LVhkbr6uUwvsPPJeBmDBOrHMpb-bnDFM&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=LBzMHRSeqDVQuDj6k3KhiA&_nc_ss=7320f&oh=00_AQMWfsRMrVsuiNE_HIdCJqv8JNaLQZLtYujwCUU7L3s_oQ&oe=6AE68025",
+          "size": [
+            720,
+            720
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；陳淑華",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "3c9f796d9b3c5e35295eba68327a32633c3aadd963e787d0d95d3507bac99e0a",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Sat, 07 Sep 2024 15:36:14 GMT"
+      },
+      "source": "https://www.facebook.com/chenshuhua1970",
+      "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/458605767_2508008432722928_7943430204600431983_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hUSGmxlCbxkQ7kNvwE-cfvc&_nc_oc=AdoNLd3P2tvtuma1Oi38yJbw3Eu21W3ZxD_LVhkbr6uUwvsPPJeBmDBOrHMpb-bnDFM&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=LBzMHRSeqDVQuDj6k3KhiA&_nc_ss=7320f&oh=00_AQMWfsRMrVsuiNE_HIdCJqv8JNaLQZLtYujwCUU7L3s_oQ&oe=6AE68025",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；陳淑華",
+      "filename": "taichung-chen-shu-hua-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:44+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:44+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "miaoli-xu-ying-ping-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=&typeid=2580&typeid2=2599",
+          "platform": "website",
+          "imageUrl": "https://www.mcc.gov.tw/admin/upload/twgov_img_202504211330451.jpg",
+          "size": [
+            200,
+            237
+          ],
+          "evidence": "苗栗縣議會該選區議員名錄照片，img alt為「許櫻萍」，採用其連結原尺寸圖片。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=&typeid=2580&typeid2=2599",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:30+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 237 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "chiayi-city-lin-wei-xuan-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1156",
+          "platform": "website",
+          "imageUrl": "https://www.cycc.gov.tw/_admin/_upload/UnitStaff/1021/images/林煒軒.jpg",
+          "size": [
+            302,
+            453
+          ],
+          "evidence": "官方議會個人介紹頁人像；<img src=\"/_admin/_upload/UnitStaff/1021/images/林煒軒.jpg\" alt=\"林議員煒軒(大頭照)\" width='100%'>",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "22b0aa80a443b7187a0e2cff666867f01de5387ee4dfc4fab153b8662d7fe410",
+      "contentBox": [
+        42,
+        0,
+        213,
+        256
+      ],
+      "sourceSize": [
+        302,
+        453
+      ],
+      "imageValidators": {
+        "etag": "\"bb497d8494ed91:0\"",
+        "last-modified": "Tue, 13 Dec 2022 01:45:02 GMT"
+      },
+      "source": "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1156",
+      "imageUrl": "https://www.cycc.gov.tw/_admin/_upload/UnitStaff/1021/images/林煒軒.jpg",
+      "evidence": "官方議會個人介紹頁人像；<img src=\"/_admin/_upload/UnitStaff/1021/images/林煒軒.jpg\" alt=\"林議員煒軒(大頭照)\" width='100%'>",
+      "filename": "chiayi-city-lin-wei-xuan-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:13+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:13+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-wei-yun-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1001",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638058384845115010%E4%B8%AD%E5%A3%A2%E5%8D%803%E9%AD%8F%E7%AD%A0.jpg",
+          "size": [
+            960,
+            959
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/魏筠.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "d6408255301ddae8daf71113544d503f9d9da7a125551f452e64f3570bf26479",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        960,
+        959
+      ],
+      "imageValidators": {
+        "etag": "\"80e7888e6b8d91:0\"",
+        "last-modified": "Mon, 05 Dec 2022 05:36:43 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1001",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638058384845115010%E4%B8%AD%E5%A3%A2%E5%8D%803%E9%AD%8F%E7%AD%A0.jpg",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/魏筠.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-wei-yun-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:15+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:15+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "hsinchu-shi-nai-ru-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=16&mid=39",
+          "platform": "website",
+          "imageUrl": "https://www.hsinchu-cc.gov.tw/upload/103/2024052711593128129.png",
+          "size": [
+            961,
+            1080
+          ],
+          "evidence": "官方議會個人介紹頁人像；<img id=\"ltImg\" class=\"member-img\" src=\"/upload/103/2024052711593128129.png\" alt=\"施乃如 議員\" border=\"0\" />",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "6218b7fd33f9a641fb1bc1aee0fb668bdb61a4a592b02c628f2bbdbc6b80def4",
+      "contentBox": [
+        14,
+        0,
+        242,
+        256
+      ],
+      "sourceSize": [
+        961,
+        1080
+      ],
+      "imageValidators": {
+        "etag": "\"ff97a447eaafda1:0\"",
+        "last-modified": "Mon, 27 May 2024 03:59:32 GMT"
+      },
+      "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=16&mid=39",
+      "imageUrl": "https://www.hsinchu-cc.gov.tw/upload/103/2024052711593128129.png",
+      "evidence": "官方議會個人介紹頁人像；<img id=\"ltImg\" class=\"member-img\" src=\"/upload/103/2024052711593128129.png\" alt=\"施乃如 議員\" border=\"0\" />",
+      "filename": "hsinchu-shi-nai-ru-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:05+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:05+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-he-yi-ling-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/mingchen4417/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/644114111_1500148938778098_4201326938587943748_n.jpg?stp=dst-jpg_tt6&cstp=mx1366x2048&ctp=s1366x2048&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=A8yptfssQGEQ7kNvwES2HFT&_nc_oc=Adq-HPMS3bzsebc-lRKGC--bZdc48HwW5mMZOVJNfcBFN1BB_5fkFqOvXTJBSkW3O-s&_nc_zt=23&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=m2Yj7MMsD0y7LzE7WsUXvA&_nc_ss=7b2a8&oh=00_AQNcPRqbF76Fp5aFaOva29r6ZxKUQxc8iI_BS32HMnvyIw&oe=6AE675C5",
+          "size": [
+            1366,
+            2048
+          ],
+          "evidence": "本人粉專何翊綾，簡介明確2026民進黨臺中市東南區議員參選人；點大頭照取得相片頁及原始公開圖片。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "24c5f355bfbcdc8fa5383eeff170911f18fe549ee9e234a102cb636f172c8a35",
+      "contentBox": [
+        42,
+        0,
+        213,
+        256
+      ],
+      "sourceSize": [
+        1366,
+        2048
+      ],
+      "imageValidators": {
+        "last-modified": "Thu, 26 Feb 2026 06:35:50 GMT"
+      },
+      "source": "https://www.facebook.com/mingchen4417/",
+      "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/644114111_1500148938778098_4201326938587943748_n.jpg?stp=dst-jpg_tt6&cstp=mx1366x2048&ctp=s1366x2048&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=A8yptfssQGEQ7kNvwES2HFT&_nc_oc=Adq-HPMS3bzsebc-lRKGC--bZdc48HwW5mMZOVJNfcBFN1BB_5fkFqOvXTJBSkW3O-s&_nc_zt=23&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=m2Yj7MMsD0y7LzE7WsUXvA&_nc_ss=7b2a8&oh=00_AQNcPRqbF76Fp5aFaOva29r6ZxKUQxc8iI_BS32HMnvyIw&oe=6AE675C5",
+      "evidence": "本人粉專何翊綾，簡介明確2026民進黨臺中市東南區議員參選人；點大頭照取得相片頁及原始公開圖片。",
+      "filename": "taichung-he-yi-ling-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:58+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:58+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-li-qiao-ru-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2195",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2195/1f30a67c-065e-4eab-9da2-cfb46a8822b1.png",
+          "size": [
+            890,
+            1148
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "fc43eaa5d5f09c4533bb27151a45184255dde89db484e501a7a9a037ac38494a",
+      "contentBox": [
+        29,
+        0,
+        227,
+        256
+      ],
+      "sourceSize": [
+        890,
+        1148
+      ],
+      "imageValidators": {
+        "etag": "\"1D916752D3B8380\"",
+        "last-modified": "Fri, 23 Dec 2022 02:20:51 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2195",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2195/1f30a67c-065e-4eab-9da2-cfb46a8822b1.png",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "kaohsiung-li-qiao-ru-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:21+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:21+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chiayi-county-weng-cong-xian-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14214",
+          "platform": "website",
+          "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14214/6dad8a49-e414-48f8-9943-bad0ba3aaa55.jpg",
+          "size": [
+            1387,
+            1626
+          ],
+          "evidence": "官方議會個人頁姓名對應之個人肖像；嘉義頁屆別第20屆；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "9a0ad2b8fb8ad613be96d5bc8ee58d0d4027cdf17f2a9b5feed930c4edbc89e7",
+      "contentBox": [
+        19,
+        0,
+        237,
+        256
+      ],
+      "sourceSize": [
+        1387,
+        1626
+      ],
+      "imageValidators": {
+        "etag": "\"b277c15eb17bdb1:0\"",
+        "last-modified": "Mon, 10 Feb 2025 11:46:06 GMT"
+      },
+      "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14214",
+      "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14214/6dad8a49-e414-48f8-9943-bad0ba3aaa55.jpg",
+      "evidence": "官方議會個人頁姓名對應之個人肖像；嘉義頁屆別第20屆；來源HTML已保存。",
+      "filename": "chiayi-county-weng-cong-xian-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:45+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:45+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "pingtung-li-shi-bin-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=83e4c59b-1c6e-55f8-864f-90d346ecd8c8",
+          "platform": "website",
+          "imageUrl": "https://www.ptcc.gov.tw/upload/upimage/eeb653ad-1f00-54b9-b030-4f960257951d-S.jpg",
+          "size": [
+            156,
+            235
+          ],
+          "evidence": "屏東縣議會個人介紹頁姓名與img alt相片標示相符，官方原圖未加工。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=83e4c59b-1c6e-55f8-864f-90d346ecd8c8",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:48+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 235 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "taichung-zhou-yong-hong-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=24",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852421270024(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/周永鴻.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=24",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/chouyunghong/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/862861700_1725691309557147_6731839815572598549_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3XzEqgV2jrYQ7kNvwFIzZqL&_nc_oc=AdqftUA0TDln-f-wZM34xHtB1XVomgKG8Oatc-EtE6B2t0v5wmeKPHnO3pJaV9kLIE4&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=3QPPEPI7Oh45vP6KX7MOtQ&_nc_ss=7320f&oh=00_AQPQlQRSstiXNCVWT4yZoQ_HvhbkmD-282lEGNoK8TWteQ&oe=6AE67964",
+          "size": [
+            720,
+            720
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；周永鴻 台中市議員",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "bfc40fa94ecf44fe0b76966213a83f072ebc644a8fd20a271708716e3dcf66b8",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Tue, 27 Oct 2026 04:18:04 GMT"
+      },
+      "source": "https://www.facebook.com/chouyunghong/",
+      "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/862861700_1725691309557147_6731839815572598549_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3XzEqgV2jrYQ7kNvwFIzZqL&_nc_oc=AdqftUA0TDln-f-wZM34xHtB1XVomgKG8Oatc-EtE6B2t0v5wmeKPHnO3pJaV9kLIE4&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=3QPPEPI7Oh45vP6KX7MOtQ&_nc_ss=7320f&oh=00_AQPQlQRSstiXNCVWT4yZoQ_HvhbkmD-282lEGNoK8TWteQ&oe=6AE67964",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；周永鴻 台中市議員",
+      "filename": "taichung-zhou-yong-hong-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:39+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:39+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-zhang-yao-zhong-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/photo/?fbid=122148761870737363&set=a.122102580584737363",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/558904850_122148761882737363_2377852590634687351_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=VlKSLFs21AEQ7kNvwF-zVR_&_nc_oc=AdoEoO6YtSJrBAznFjVrDe61uauqSyQW4e06ONnFLqoA6CXyIRxQxMCp9M3b68kbJ4I&_nc_zt=23&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=wu0otmknoTEIgAqq5gFcwQ&_nc_ss=7b2a8&oh=00_AQOFNrSIV5u0q_-ZLy0XXDKR0tRBW5bsyLZ0GQOQz1BTbw&oe=6AE66F19",
+          "size": [
+            960,
+            960
+          ],
+          "evidence": "官方粉絲頁厝邊阿中張耀中，簡介第11選區大寮林園、陳其邁隨行秘書。從本人頭像選單開啟原圖，2025-10-11照片；已核對為高雄年輕候選人，非台中同名者。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "12b917c9ea83f3b856a0a080b84c1a3e2be2476a0661676b68321342bbd89a95",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        960,
+        960
+      ],
+      "imageValidators": {
+        "last-modified": "Fri, 10 Oct 2025 22:50:22 GMT"
+      },
+      "source": "https://www.facebook.com/photo/?fbid=122148761870737363&set=a.122102580584737363",
+      "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/558904850_122148761882737363_2377852590634687351_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=VlKSLFs21AEQ7kNvwF-zVR_&_nc_oc=AdoEoO6YtSJrBAznFjVrDe61uauqSyQW4e06ONnFLqoA6CXyIRxQxMCp9M3b68kbJ4I&_nc_zt=23&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=wu0otmknoTEIgAqq5gFcwQ&_nc_ss=7b2a8&oh=00_AQOFNrSIV5u0q_-ZLy0XXDKR0tRBW5bsyLZ0GQOQz1BTbw&oe=6AE66F19",
+      "evidence": "官方粉絲頁厝邊阿中張耀中，簡介第11選區大寮林園、陳其邁隨行秘書。從本人頭像選單開啟原圖，2025-10-11照片；已核對為高雄年輕候選人，非台中同名者。",
+      "filename": "kaohsiung-zhang-yao-zhong-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:28+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:28+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "pingtung-zhou-bi-yun-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=86a21ec5-3443-98aa-8aa5-93af63edea3c",
+          "platform": "website",
+          "imageUrl": "https://www.ptcc.gov.tw/upload/upimage/bf71ba46-5fee-8a63-1218-1123f1727c5c-S.jpg",
+          "size": [
+            156,
+            235
+          ],
+          "evidence": "屏東縣議會個人介紹頁姓名與img alt相片標示相符，官方原圖未加工。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=86a21ec5-3443-98aa-8aa5-93af63edea3c",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:57+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 235 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "chiayi-county-lin-shu-wan-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14200",
+          "platform": "website",
+          "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14200/b0d1918d-2f9e-4dea-b54f-7e495d67e8b0.jpg",
+          "size": [
+            1387,
+            1626
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "9e8369db472172622b02028e4c806f9f246ccc1ccb8f4ed3e3d115fb51d2f99e",
+      "contentBox": [
+        19,
+        0,
+        237,
+        256
+      ],
+      "sourceSize": [
+        1387,
+        1626
+      ],
+      "imageValidators": {
+        "etag": "\"42252447b17bdb1:0\"",
+        "last-modified": "Mon, 10 Feb 2025 11:45:27 GMT"
+      },
+      "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14200",
+      "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14200/b0d1918d-2f9e-4dea-b54f-7e495d67e8b0.jpg",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "chiayi-county-lin-shu-wan-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:42+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:42+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-huang-wen-zhi-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2185",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2185/35e71b27-65bb-4e79-aa7b-b0f9bc9c5ffb.png",
+          "size": [
+            1984,
+            2304
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "330072aa0d9f20684e6f215c30ead0cda1583ac50b9a3f585b5da951678c33fb",
+      "contentBox": [
+        18,
+        0,
+        238,
+        256
+      ],
+      "sourceSize": [
+        1984,
+        2304
+      ],
+      "imageValidators": {
+        "etag": "\"1D91673E305D280\"",
+        "last-modified": "Fri, 23 Dec 2022 02:11:37 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2185",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2185/35e71b27-65bb-4e79-aa7b-b0f9bc9c5ffb.png",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "kaohsiung-huang-wen-zhi-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:16+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:16+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "miaoli-weng-jie-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2601",
+          "platform": "website",
+          "imageUrl": "https://www.mcc.gov.tw/admin/upload/twgov_img_202504211441201.jpg",
+          "size": [
+            200,
+            237
+          ],
+          "evidence": "苗栗縣議會該選區議員名錄照片，img alt為「翁　杰」，採用其連結原尺寸圖片。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2601",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:35+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 237 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "kaohsiung-lin-zhi-cheng-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2178",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2178/6a033432-d344-443d-8416-92b54d859ee6.png",
+          "size": [
+            886,
+            1138
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "61995a2608e9c4358931fdbc55812ae7e1df1a83c43d0033645bb30900a04998",
+      "contentBox": [
+        28,
+        0,
+        227,
+        256
+      ],
+      "sourceSize": [
+        886,
+        1138
+      ],
+      "imageValidators": {
+        "etag": "\"1D9167291A91380\"",
+        "last-modified": "Fri, 23 Dec 2022 02:02:11 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2178",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2178/6a033432-d344-443d-8416-92b54d859ee6.png",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "kaohsiung-lin-zhi-cheng-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:14+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:14+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "hsinchu-lin-ying-che-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=30",
+          "platform": "website",
+          "imageUrl": "https://www.hsinchu-cc.gov.tw/upload/103/2024052713412632367.jpg",
+          "size": [
+            961,
+            1080
+          ],
+          "evidence": "官方議會個人介紹頁人像；<img id=\"ltImg\" class=\"member-img\" src=\"/upload/103/2024052713412632367.jpg\" alt=\"林盈徹 議員\" border=\"0\" />",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "4ecf43e5d34ed967772bb38a95a244dffd6964825f0d8b70ff2aee9969afd68c",
+      "contentBox": [
+        14,
+        0,
+        242,
+        256
+      ],
+      "sourceSize": [
+        961,
+        1080
+      ],
+      "imageValidators": {
+        "etag": "\"ba4a6d84f8afda1:0\"",
+        "last-modified": "Mon, 27 May 2024 05:41:26 GMT"
+      },
+      "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=30",
+      "imageUrl": "https://www.hsinchu-cc.gov.tw/upload/103/2024052713412632367.jpg",
+      "evidence": "官方議會個人介紹頁人像；<img id=\"ltImg\" class=\"member-img\" src=\"/upload/103/2024052713412632367.jpg\" alt=\"林盈徹 議員\" border=\"0\" />",
+      "filename": "hsinchu-lin-ying-che-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:07+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:07+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "yilan-lin-pei-ying-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2024&clique=DDP&pic=8",
+          "platform": "website",
+          "imageUrl": "https://www.ilcc.gov.tw/pictures/people/A2024.JPG",
+          "size": [
+            659,
+            894
+          ],
+          "evidence": "官方議會個人介紹頁人像；<img src=\"../../pictures/people/A2024.JPG\" alt=\"林佩螢議員\" width=\"100\" height=\"135\">",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "c5bddb026e37ebde97774ed0975b7c27797936fae9f245c7431500f421489b5a",
+      "contentBox": [
+        33,
+        0,
+        222,
+        256
+      ],
+      "sourceSize": [
+        659,
+        894
+      ],
+      "imageValidators": {
+        "etag": "\"f7b7894af818d91:0\"",
+        "last-modified": "Mon, 26 Dec 2022 07:04:26 GMT"
+      },
+      "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2024&clique=DDP&pic=8",
+      "imageUrl": "https://www.ilcc.gov.tw/pictures/people/A2024.JPG",
+      "evidence": "官方議會個人介紹頁人像；<img src=\"../../pictures/people/A2024.JPG\" alt=\"林佩螢議員\" width=\"100\" height=\"135\">",
+      "filename": "yilan-lin-pei-ying-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:01+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:01+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-zheng-meng-ru-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2203",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2203/d2e1c770-a583-4e80-968d-836873f8a618.png",
+          "size": [
+            703,
+            904
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "7b1e9c18747ac13921f931ae1498cd148e3c6339fba930092c7b999dafe7c08a",
+      "contentBox": [
+        28,
+        0,
+        227,
+        256
+      ],
+      "sourceSize": [
+        703,
+        904
+      ],
+      "imageValidators": {
+        "etag": "\"1D92959A323C980\"",
+        "last-modified": "Mon, 16 Jan 2023 03:21:35 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2203",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2203/d2e1c770-a583-4e80-968d-836873f8a618.png",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "kaohsiung-zheng-meng-ru-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:23+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:23+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "miaoli-xu-xiao-jing-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=&typeid=2580&typeid2=2599",
+          "platform": "website",
+          "imageUrl": "https://www.mcc.gov.tw/admin/upload/twgov_img_202504211349271.jpg",
+          "size": [
+            200,
+            237
+          ],
+          "evidence": "苗栗縣議會該選區議員名錄照片，img alt為「徐筱菁」，採用其連結原尺寸圖片。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=&typeid=2580&typeid2=2599",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/profile.php?id=100068987386954",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/277582749_282925680683676_3044330939484854857_n.jpg?stp=dst-jpg_tt6&cstp=mx960x540&ctp=s960x540&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IkdjHhJFxPkQ7kNvwEVVKU_&_nc_oc=AdpYrACU8ceLGMD5KVTZdhYp5_yYC5I8W4GUccCrvjNpQ80SdPdttRkc2JEqWw7tpoo&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=T7RMxRAsw_mpc_T5rUIDQw&_nc_ss=7320f&oh=00_AQP177LNajNNk_--B7floajQUCl4ZoywskjJmhud0gZq-Q&oe=6AE66288",
+          "size": [
+            960,
+            540
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；苗栗縣議員徐筱菁服務處 | Miaoli ",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "f60f7715040129063c361aab9c8c349546b437ff590c6ca1164dceb4568127f1",
+      "contentBox": [
+        0,
+        56,
+        256,
+        200
+      ],
+      "sourceSize": [
+        960,
+        540
+      ],
+      "imageValidators": {
+        "last-modified": "Tue, 05 Apr 2022 14:16:40 GMT"
+      },
+      "source": "https://www.facebook.com/profile.php?id=100068987386954",
+      "imageUrl": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/277582749_282925680683676_3044330939484854857_n.jpg?stp=dst-jpg_tt6&cstp=mx960x540&ctp=s960x540&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IkdjHhJFxPkQ7kNvwEVVKU_&_nc_oc=AdpYrACU8ceLGMD5KVTZdhYp5_yYC5I8W4GUccCrvjNpQ80SdPdttRkc2JEqWw7tpoo&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=T7RMxRAsw_mpc_T5rUIDQw&_nc_ss=7320f&oh=00_AQP177LNajNNk_--B7floajQUCl4ZoywskjJmhud0gZq-Q&oe=6AE66288",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；苗栗縣議員徐筱菁服務處 | Miaoli ",
+      "filename": "miaoli-xu-xiao-jing-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:33+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:33+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-chen-yu-rong-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=75",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=16709330130075(1).png&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            157,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/陳俞融.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=75",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:41:49+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 192 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "taoyuan-peng-jun-hao-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1000",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a636810033822357359%E5%BD%AD%E4%BF%8A%E8%B1%AAS.jpg",
+          "size": [
+            1597,
+            1597
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/彭俊豪.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "ab699596099467f9d6168e1ffb235ab4c4598b97d4e0887a836b81399b119148",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        1597,
+        1597
+      ],
+      "imageValidators": {
+        "etag": "\"0ccd5dfff98d41:0\"",
+        "last-modified": "Fri, 21 Dec 2018 07:36:24 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1000",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a636810033822357359%E5%BD%AD%E4%BF%8A%E8%B1%AAS.jpg",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/彭俊豪.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-peng-jun-hao-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:15+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:15+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chiayi-county-chen-bai-lin-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14218",
+          "platform": "website",
+          "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14218/24fb407b-78d9-49fd-a7d2-5b5076d33cdd.jpg",
+          "size": [
+            1387,
+            1626
+          ],
+          "evidence": "官方議會個人頁姓名對應之個人肖像；嘉義頁屆別第20屆；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "851be48f117388df9a935a51499bfd166feca72ba8ba5eca65dd98af2777a66d",
+      "contentBox": [
+        19,
+        0,
+        237,
+        256
+      ],
+      "sourceSize": [
+        1387,
+        1626
+      ],
+      "imageValidators": {
+        "etag": "\"4d3ee265b17bdb1:0\"",
+        "last-modified": "Mon, 10 Feb 2025 11:46:18 GMT"
+      },
+      "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14218",
+      "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14218/24fb407b-78d9-49fd-a7d2-5b5076d33cdd.jpg",
+      "evidence": "官方議會個人頁姓名對應之個人肖像；嘉義頁屆別第20屆；來源HTML已保存。",
+      "filename": "chiayi-county-chen-bai-lin-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:45+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:45+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "pingtung-xu-zhan-wei-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=f7182d89-30b1-e86b-40a1-e2527c353e48",
+          "platform": "website",
+          "imageUrl": "https://www.ptcc.gov.tw/upload/upimage/0f198cc1-9905-4cd6-7149-453f2368a932-S.jpg",
+          "size": [
+            156,
+            235
+          ],
+          "evidence": "屏東縣議會個人介紹頁姓名與img alt相片標示相符，官方原圖未加工。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=f7182d89-30b1-e86b-40a1-e2527c353e48",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:53+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 235 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "chiayi-county-jiang-pei-ye-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14193",
+          "platform": "website",
+          "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14193/df1d542f-2e41-4193-b98a-ce21f61abd60.jpg",
+          "size": [
+            1387,
+            1626
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "8cc7d543897ce76d8e4383532a1cc4dc6a0bdf82991fb9d27dcba2d2424ae633",
+      "contentBox": [
+        19,
+        0,
+        237,
+        256
+      ],
+      "sourceSize": [
+        1387,
+        1626
+      ],
+      "imageValidators": {
+        "etag": "\"9e8d6b3bb17bdb1:0\"",
+        "last-modified": "Mon, 10 Feb 2025 11:45:07 GMT"
+      },
+      "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14193",
+      "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14193/df1d542f-2e41-4193-b98a-ce21f61abd60.jpg",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "chiayi-county-jiang-pei-ye-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:40+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:40+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "pingtung-huang-jian-yi-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=0ebeb91d-3321-7199-60f1-25f39143e864",
+          "platform": "website",
+          "imageUrl": "https://www.ptcc.gov.tw/upload/upimage/79120cd4-875f-5d3b-39ae-d860d33c84f9-S.jpg",
+          "size": [
+            139,
+            235
+          ],
+          "evidence": "屏東縣議會個人介紹頁姓名與img alt相片標示相符，官方原圖未加工。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=0ebeb91d-3321-7199-60f1-25f39143e864",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:50+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 235 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "taoyuan-chen-rui-sheng-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1023",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638058388681543822%E6%96%B0%E5%B1%8B%E5%8D%80%20%E9%99%B3%E7%9D%BF%E7%94%9F.jpeg",
+          "size": [
+            551,
+            709
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/陳睿生.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "8af83f93b26c8c27e8feeb66276603c7f353921827f416539a1110ec80ec944d",
+      "contentBox": [
+        28,
+        0,
+        227,
+        256
+      ],
+      "sourceSize": [
+        551,
+        709
+      ],
+      "imageValidators": {
+        "etag": "\"803d79c6b8d91:0\"",
+        "last-modified": "Mon, 05 Dec 2022 05:37:07 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1023",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638058388681543822%E6%96%B0%E5%B1%8B%E5%8D%80%20%E9%99%B3%E7%9D%BF%E7%94%9F.jpeg",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/陳睿生.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-chen-rui-sheng-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:22+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:22+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "pingtung-luo-ping-dao-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=bb3e2d73-cd78-d552-18de-5bc5248a88b1",
+          "platform": "website",
+          "imageUrl": "https://www.ptcc.gov.tw/upload/upimage/5cef98b9-46d7-6bb7-d802-f043e9e87167-S.jpg",
+          "size": [
+            176,
+            235
+          ],
+          "evidence": "屏東縣議會個人介紹頁姓名與img alt相片標示相符，官方原圖未加工。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=bb3e2d73-cd78-d552-18de-5bc5248a88b1",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:56+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 235 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "chiayi-county-huang-qi-hao-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14197",
+          "platform": "website",
+          "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14197/8cd770d8-8297-492a-b080-232d04d89079.jpg",
+          "size": [
+            1387,
+            1626
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "13e25297c63d68297e1dfa07b1c3c593b38cedc714e0e993321c3b8433e9e87a",
+      "contentBox": [
+        19,
+        0,
+        237,
+        256
+      ],
+      "sourceSize": [
+        1387,
+        1626
+      ],
+      "imageValidators": {
+        "etag": "\"b0e0342b17bdb1:0\"",
+        "last-modified": "Mon, 10 Feb 2025 11:45:18 GMT"
+      },
+      "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14197",
+      "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14197/8cd770d8-8297-492a-b080-232d04d89079.jpg",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "chiayi-county-huang-qi-hao-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:41+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:41+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "yilan-lu-hui-qing-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A1919&clique=DDP&pic=6",
+          "platform": "website",
+          "imageUrl": "https://www.ilcc.gov.tw/pictures/people/A2020.JPG",
+          "size": [
+            1367,
+            1582
+          ],
+          "evidence": "官方議會個人介紹頁人像；<img src=\"../../pictures/people/A2020.JPG\" alt=\"呂惠卿議員\" width=\"100\" height=\"135\">",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "4fb1e37d18836fb71c166e09ae20554dfd250baf6a13ac29c773fa1e8cb1721d",
+      "contentBox": [
+        17,
+        0,
+        238,
+        256
+      ],
+      "sourceSize": [
+        1367,
+        1582
+      ],
+      "imageValidators": {
+        "etag": "\"81d7abaaff18d91:0\"",
+        "last-modified": "Mon, 26 Dec 2022 07:57:14 GMT"
+      },
+      "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A1919&clique=DDP&pic=6",
+      "imageUrl": "https://www.ilcc.gov.tw/pictures/people/A2020.JPG",
+      "evidence": "官方議會個人介紹頁人像；<img src=\"../../pictures/people/A2020.JPG\" alt=\"呂惠卿議員\" width=\"100\" height=\"135\">",
+      "filename": "yilan-lu-hui-qing-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:01+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:01+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "miaoli-qiu-yu-xing-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2602",
+          "platform": "website",
+          "imageUrl": "https://www.mcc.gov.tw/admin/upload/twgov_img_202504211409581.jpg",
+          "size": [
+            200,
+            237
+          ],
+          "evidence": "苗栗縣議會該選區議員名錄照片，img alt為「邱毓興」，採用其連結原尺寸圖片。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2602",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:37+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 237 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "yilan-xie-jia-lun-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2016&clique=DDP&pic=6",
+          "platform": "website",
+          "imageUrl": "https://www.ilcc.gov.tw/pictures/people/A2016.JPG",
+          "size": [
+            814,
+            1054
+          ],
+          "evidence": "官方議會個人介紹頁人像；<img src=\"../../pictures/people/A2016.JPG\" alt=\"謝家倫議員\" width=\"100\" height=\"135\">",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "8d4df1dde55339f3ac7e7ccab8f4e5309aea5a3ae8300b56efc90c8c1fd51cac",
+      "contentBox": [
+        29,
+        0,
+        227,
+        256
+      ],
+      "sourceSize": [
+        814,
+        1054
+      ],
+      "imageValidators": {
+        "etag": "\"865595d5fa18d91:0\"",
+        "last-modified": "Mon, 26 Dec 2022 07:22:38 GMT"
+      },
+      "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2016&clique=DDP&pic=6",
+      "imageUrl": "https://www.ilcc.gov.tw/pictures/people/A2016.JPG",
+      "evidence": "官方議會個人介紹頁人像；<img src=\"../../pictures/people/A2016.JPG\" alt=\"謝家倫議員\" width=\"100\" height=\"135\">",
+      "filename": "yilan-xie-jia-lun-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:00+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:00+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chiayi-city-huang-lu-hui-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1176",
+          "platform": "website",
+          "imageUrl": "https://www.cycc.gov.tw/_admin/_upload/UnitStaff/1021/images/黃露慧 .jpg",
+          "size": [
+            127,
+            123
+          ],
+          "evidence": "嘉義市議會現屆議員黃露慧個人頁；img alt黃議員露慧(大頭照)。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1176",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/lulumi.huang.7",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t1.6435-1/32533558_1671300379650721_8677359862490857472_n.jpg?stp=dst-jpg_tt6&cstp=mx1089x1087&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Vb6dbsiumPwQ7kNvwGySoyC&_nc_oc=AdrudRxREgTUTnleOBZqomJNsHT6Ju21o0x09EGoLiKHrzOXpUNfgHKIneMbLNVIMRo&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=RYWxXlSYys0cXImojrgPFQ&_nc_ss=7320f&oh=00_AQMCRCQqLXRtda_PRVKeptxAf2PDMYZXVXJksWfBy3y1BA&oe=6B08098E",
+          "size": [
+            720,
+            719
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；黃露慧",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "2bebd72c0adfbe7b9591dc75a9836d1c764e679ded6c624bcd51b7ed0f88a1d1",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        719
+      ],
+      "imageValidators": {
+        "last-modified": "Tue, 15 May 2018 15:03:25 GMT"
+      },
+      "source": "https://www.facebook.com/lulumi.huang.7",
+      "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t1.6435-1/32533558_1671300379650721_8677359862490857472_n.jpg?stp=dst-jpg_tt6&cstp=mx1089x1087&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Vb6dbsiumPwQ7kNvwGySoyC&_nc_oc=AdrudRxREgTUTnleOBZqomJNsHT6Ju21o0x09EGoLiKHrzOXpUNfgHKIneMbLNVIMRo&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=RYWxXlSYys0cXImojrgPFQ&_nc_ss=7320f&oh=00_AQMCRCQqLXRtda_PRVKeptxAf2PDMYZXVXJksWfBy3y1BA&oe=6B08098E",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；黃露慧",
+      "filename": "chiayi-city-huang-lu-hui-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:10+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:10+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-zhang-han-zhong-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2217/875663e1-7cec-4190-8c6b-ae8ef80d7ff6.png",
+          "size": [
+            540,
+            692
+          ],
+          "evidence": "高雄市議會官方本屆名錄的姓名與img alt「張漢忠_大頭照」明確對應。沿用已逐頁核對15名的官方CDN原圖/縮圖規則，去除@50x67尺寸派生後成功下載同檔名原圖；個人頁本次逾時。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "1f684d933beb90e889aafaa8c89623c82ca83aa0e9efb637a0ff13f53ea627f2",
+      "contentBox": [
+        28,
+        0,
+        228,
+        256
+      ],
+      "sourceSize": [
+        540,
+        692
+      ],
+      "imageValidators": {
+        "etag": "\"1D9169E9BE10700\"",
+        "last-modified": "Fri, 23 Dec 2022 07:17:26 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2217/875663e1-7cec-4190-8c6b-ae8ef80d7ff6.png",
+      "evidence": "高雄市議會官方本屆名錄的姓名與img alt「張漢忠_大頭照」明確對應。沿用已逐頁核對15名的官方CDN原圖/縮圖規則，去除@50x67尺寸派生後成功下載同檔名原圖；個人頁本次逾時。",
+      "filename": "kaohsiung-zhang-han-zhong-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:26+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:26+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-wang-pei-yu-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1012",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638058387100023304%E5%B9%B3%E9%8E%AE%E5%8D%803%E7%8E%8B%E4%BD%A9%E6%AF%93.jpg",
+          "size": [
+            959,
+            960
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/王珮毓.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "859ab79caba54aec7b5f4a9c0b98c717ab268d2c27bbe37ae7f6430400e0f481",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        959,
+        960
+      ],
+      "imageValidators": {
+        "etag": "\"80e7888e6b8d91:0\"",
+        "last-modified": "Mon, 05 Dec 2022 05:36:43 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1012",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638058387100023304%E5%B9%B3%E9%8E%AE%E5%8D%803%E7%8E%8B%E4%BD%A9%E6%AF%93.jpg",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/王珮毓.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-wang-pei-yu-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:21+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:21+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taitung-huang-zhi-wei-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.taitungcc.gov.tw/1/member/detail/20",
+          "platform": "website",
+          "imageUrl": "https://www.taitungcc.gov.tw/upload/up/9a1eee84-553a-4ec8-be9f-e9d3a9a9f64f/2309LtCbj958",
+          "size": [
+            250,
+            314
+          ],
+          "evidence": "臺東縣議會官方個人頁由公開/api/member/20提供；member欄姓名吻合，pic01為議員介紹頭像，官方member.js組出此圖片網址。原檔名：蒙版组 52.png",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "e0fd856db4cc4dffc0b2536282d8751d35c940377b53f16626e963894cc48258",
+      "contentBox": [
+        26,
+        0,
+        230,
+        256
+      ],
+      "sourceSize": [
+        250,
+        314
+      ],
+      "imageValidators": {
+        "etag": "\"7340bd23f6e5d91:0\"",
+        "last-modified": "Wed, 13 Sep 2023 03:55:30 GMT"
+      },
+      "source": "https://www.taitungcc.gov.tw/1/member/detail/20",
+      "imageUrl": "https://www.taitungcc.gov.tw/upload/up/9a1eee84-553a-4ec8-be9f-e9d3a9a9f64f/2309LtCbj958",
+      "evidence": "臺東縣議會官方個人頁由公開/api/member/20提供；member欄姓名吻合，pic01為議員介紹頭像，官方member.js組出此圖片網址。原檔名：蒙版组 52.png",
+      "filename": "taitung-huang-zhi-wei-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:02+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:02+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-shi-zhi-chang-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=3",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852375360003(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/施志昌.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=3",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/ChihChang43/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/862850790_1697601025063062_7172154032176834259_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=S9PHcKCemVQQ7kNvwGmcxeY&_nc_oc=Adrohdb8JvNvC32p6AahiTF_BPqWzTv0ZAzyOldLEoZOh4rBzshmrJjONkZ1-jBC1L0&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=d3ZzwwkwoPjLZZEunfkXjw&_nc_ss=7320f&oh=00_AQORgsdxu94-65QKJrxFFeu92LcKlH_4BcwPe6PUQQYfQg&oe=6AE65873",
+          "size": [
+            720,
+            720
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；施志昌",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "0d2b1cfc18ff202e3428724c18bbbf317b4fc85f3e73526fb78de4f8c6c587d4",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Tue, 27 Oct 2026 01:35:03 GMT"
+      },
+      "source": "https://www.facebook.com/ChihChang43/",
+      "imageUrl": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/862850790_1697601025063062_7172154032176834259_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=S9PHcKCemVQQ7kNvwGmcxeY&_nc_oc=Adrohdb8JvNvC32p6AahiTF_BPqWzTv0ZAzyOldLEoZOh4rBzshmrJjONkZ1-jBC1L0&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=d3ZzwwkwoPjLZZEunfkXjw&_nc_ss=7320f&oh=00_AQORgsdxu94-65QKJrxFFeu92LcKlH_4BcwPe6PUQQYfQg&oe=6AE65873",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；施志昌",
+      "filename": "taichung-shi-zhi-chang-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:25+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:25+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-tang-yong-yu-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2208",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2208/0427e41c-7ae6-42af-83be-785cf3a7a78d.png",
+          "size": [
+            394,
+            533
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "82b340dd3f54dbc714c34a41a7af480e47d3abd92713e29eb03b51b1815c2399",
+      "contentBox": [
+        33,
+        0,
+        222,
+        256
+      ],
+      "sourceSize": [
+        394,
+        533
+      ],
+      "imageValidators": {
+        "etag": "\"1D91676CCAD4600\"",
+        "last-modified": "Fri, 23 Dec 2022 02:32:28 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2208",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2208/0427e41c-7ae6-42af-83be-785cf3a7a78d.png",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "kaohsiung-tang-yong-yu-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:23+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:23+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-li-tian-sheng-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=59",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852472140059(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/李天生.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=59",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/tensheng",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/325240434_736821094822660_8425196749423201880_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1732&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=G8jlVw8ntiUQ7kNvwEdlUAC&_nc_oc=AdqWRMpxUTxWmG67YvimbivFvb3Z8Y5MZh-Pk8WUE_EsDwYMPXxKO-iveVCYUIB1TLA&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=OrH4rJR94VvZpVVkTolRPA&_nc_ss=7320f&oh=00_AQODWAXO7Bf5dGJS2LTcynLO_ZlEtXdpB7K291SdMboMiA&oe=6AE6578D",
+          "size": [
+            720,
+            609
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；李天生",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "899adf6cbe210a622d532763e63178c42bf4fbdd51ed41556aef0f3464ef0f17",
+      "contentBox": [
+        0,
+        19,
+        256,
+        236
+      ],
+      "sourceSize": [
+        720,
+        609
+      ],
+      "imageValidators": {
+        "last-modified": "Thu, 12 Jan 2023 04:44:55 GMT"
+      },
+      "source": "https://www.facebook.com/tensheng",
+      "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/325240434_736821094822660_8425196749423201880_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1732&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=G8jlVw8ntiUQ7kNvwEdlUAC&_nc_oc=AdqWRMpxUTxWmG67YvimbivFvb3Z8Y5MZh-Pk8WUE_EsDwYMPXxKO-iveVCYUIB1TLA&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=OrH4rJR94VvZpVVkTolRPA&_nc_ss=7320f&oh=00_AQODWAXO7Bf5dGJS2LTcynLO_ZlEtXdpB7K291SdMboMiA&oe=6AE6578D",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；李天生",
+      "filename": "taichung-li-tian-sheng-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:07+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:07+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-xu-jia-rui-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=991",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638058381133252730%E5%85%AB%E5%BE%B7%E5%8D%805%E8%A8%B1%E5%AE%B6%E7%9D%BF.jpg",
+          "size": [
+            746,
+            994
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/許家睿.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "bd1680c9c819c8d55a04f682293a763ec57d552b656c422b7cbd2a23333570a2",
+      "contentBox": [
+        32,
+        0,
+        224,
+        256
+      ],
+      "sourceSize": [
+        746,
+        994
+      ],
+      "imageValidators": {
+        "etag": "\"1247206ed23d91:0\"",
+        "last-modified": "Mon, 09 Jan 2023 05:41:30 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=991",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638058381133252730%E5%85%AB%E5%BE%B7%E5%8D%805%E8%A8%B1%E5%AE%B6%E7%9D%BF.jpg",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/許家睿.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-xu-jia-rui-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:11+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:11+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-huang-chong-zhen-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1008",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638073846236932142%E4%B8%AD%E5%A3%A2%E5%8D%8010%E9%BB%83%E5%B4%87%E7%9C%9F.jpg",
+          "result": "failed",
+          "reason": "下載失敗：curl: (56) Maximum file size exceeded"
+        },
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1008",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/cchuang0223/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/702118306_1285551497103336_1789247455814840901_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JfFWwTYWEZwQ7kNvwGy0Hv1&_nc_oc=AdrKcacQbNfdFeWAlmp5eEay2AEB0Z4Ps7AImHu488kmQC-u-IEiB1ExgN3G4wapzes&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=tUR4hjeqSGZCaAXSokgrBg&_nc_ss=7320f&oh=00_AQPDffJ1w3vZaIIgZLageRsRkyo60R1vlkWL9DshTdFWdQ&oe=6AE66B26",
+          "size": [
+            720,
+            720
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；黃崇真 Huang Chung-Chen",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "ca6f84dbf5f99381afb4eada828c3da8d605af58f2ed394e0b916007a80c3fe2",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Mon, 18 May 2026 08:35:47 GMT"
+      },
+      "source": "https://www.facebook.com/cchuang0223/",
+      "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/702118306_1285551497103336_1789247455814840901_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JfFWwTYWEZwQ7kNvwGy0Hv1&_nc_oc=AdrKcacQbNfdFeWAlmp5eEay2AEB0Z4Ps7AImHu488kmQC-u-IEiB1ExgN3G4wapzes&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=tUR4hjeqSGZCaAXSokgrBg&_nc_ss=7320f&oh=00_AQPDffJ1w3vZaIIgZLageRsRkyo60R1vlkWL9DshTdFWdQ&oe=6AE66B26",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；黃崇真 Huang Chung-Chen",
+      "filename": "taoyuan-huang-chong-zhen-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:20+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:20+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-zhang-yu-yan-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=53",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852462930053(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/張玉嬿.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=53",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/myishuc0988/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/340890347_707502984462240_3102980583365250583_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lDdPhIvZnPEQ7kNvwHwSHN4&_nc_oc=AdrHkl9hv7Kqy3RTrVH7FjaPxunFapfT4zMV5-d2DwIomPE94LyaR4y66RXS_apFNWA&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=DJuDPWXTOldGNwcVG4NehA&_nc_ss=7320f&oh=00_AQOZ4tLN2Y7UYbjMqXnXXkHzh42JTYZfg_1CAIiMC0SiuA&oe=6AE66AC6",
+          "size": [
+            720,
+            720
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；張玉嬿",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "2990beef54064a156f24a2e749f03174e527e0a640a2aa401b6bad9600522d01",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Wed, 12 Apr 2023 09:44:56 GMT"
+      },
+      "source": "https://www.facebook.com/myishuc0988/",
+      "imageUrl": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/340890347_707502984462240_3102980583365250583_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lDdPhIvZnPEQ7kNvwHwSHN4&_nc_oc=AdrHkl9hv7Kqy3RTrVH7FjaPxunFapfT4zMV5-d2DwIomPE94LyaR4y66RXS_apFNWA&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=DJuDPWXTOldGNwcVG4NehA&_nc_ss=7320f&oh=00_AQOZ4tLN2Y7UYbjMqXnXXkHzh42JTYZfg_1CAIiMC0SiuA&oe=6AE66AC6",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；張玉嬿",
+      "filename": "taichung-zhang-yu-yan-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:04+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:04+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chiayi-county-huang-rong-jun-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14194",
+          "platform": "website",
+          "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14194/2c2b37ee-c66b-418e-b621-a6ea2408a33e.jpg",
+          "size": [
+            1387,
+            1626
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "3ccb30e65b1703d9ba23df66d4ea15875801ad49042ee686348c272b1c220ba6",
+      "contentBox": [
+        19,
+        0,
+        237,
+        256
+      ],
+      "sourceSize": [
+        1387,
+        1626
+      ],
+      "imageValidators": {
+        "etag": "\"d6ca1f3db17bdb1:0\"",
+        "last-modified": "Mon, 10 Feb 2025 11:45:10 GMT"
+      },
+      "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14194",
+      "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14194/2c2b37ee-c66b-418e-b621-a6ea2408a33e.jpg",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "chiayi-county-huang-rong-jun-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:38+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:38+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chiayi-county-chen-yi-yue-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14208",
+          "platform": "website",
+          "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14208/ad828a36-215a-4694-bde6-99fbba745fa5.jpg",
+          "size": [
+            1387,
+            1626
+          ],
+          "evidence": "官方議會個人頁姓名對應之個人肖像；嘉義頁屆別第20屆；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "4d45aa92c6157f2700ea77188d6574f8a32ece83467a01151a54d433f2f725e6",
+      "contentBox": [
+        19,
+        0,
+        237,
+        256
+      ],
+      "sourceSize": [
+        1387,
+        1626
+      ],
+      "imageValidators": {
+        "etag": "\"0135254b17bdb1:0\"",
+        "last-modified": "Mon, 10 Feb 2025 11:45:49 GMT"
+      },
+      "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14208",
+      "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14208/ad828a36-215a-4694-bde6-99fbba745fa5.jpg",
+      "evidence": "官方議會個人頁姓名對應之個人肖像；嘉義頁屆別第20屆；來源HTML已保存。",
+      "filename": "chiayi-county-chen-yi-yue-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:44+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:44+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chiayi-city-ceng-yi-hao-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/chiayihaowecan/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/749330320_122132449977100799_3417077232639999841_n.jpg?stp=dst-jpg_tt6&cstp=mx2026x2048&ctp=s480x480&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=V3aGELWQvJYQ7kNvwGiDvXu&_nc_oc=AdqT84p8TlJdRFcgu94NWyy1eA2eUhcHdKLzGGDWjus6aR2eQfrbsESpn8M5NvFTbsE&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=o80-tfoA50m-hB-qmls2XQ&_nc_ss=7b2a8&oh=00_AQP_BVz79uV_wnLK4faf_mnsIfQBDiF91tuZVj7McS7szw&oe=6AE6698E",
+          "size": [
+            475,
+            480
+          ],
+          "evidence": "瀏覽器官方已驗證粉專「嘉義增一好 曾奕豪」，簡介為嘉義市西區市議員參選人；讀取aria-label同名個人檔案頭像svg/image的實際CDN URL。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "eef8196bb432429cfe84c23b63defc6b80c52b668485c950d027f63507780b14",
+      "contentBox": [
+        1,
+        0,
+        254,
+        256
+      ],
+      "sourceSize": [
+        475,
+        480
+      ],
+      "imageValidators": {
+        "last-modified": "Fri, 17 Jul 2026 16:44:08 GMT"
+      },
+      "source": "https://www.facebook.com/chiayihaowecan/",
+      "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/749330320_122132449977100799_3417077232639999841_n.jpg?stp=dst-jpg_tt6&cstp=mx2026x2048&ctp=s480x480&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=V3aGELWQvJYQ7kNvwGiDvXu&_nc_oc=AdqT84p8TlJdRFcgu94NWyy1eA2eUhcHdKLzGGDWjus6aR2eQfrbsESpn8M5NvFTbsE&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=o80-tfoA50m-hB-qmls2XQ&_nc_ss=7b2a8&oh=00_AQP_BVz79uV_wnLK4faf_mnsIfQBDiF91tuZVj7McS7szw&oe=6AE6698E",
+      "evidence": "瀏覽器官方已驗證粉專「嘉義增一好 曾奕豪」，簡介為嘉義市西區市議員參選人；讀取aria-label同名個人檔案頭像svg/image的實際CDN URL。",
+      "filename": "chiayi-city-ceng-yi-hao-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:13+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:13+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-he-wen-hai-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=33",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852430170033(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/何文海.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=33",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/wenhaiho",
+          "result": "failed",
+          "reason": "頁面未提供相同官方帳號的 og:url，可能為登入頁"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:41:47+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 192 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "kaohsiung-zhang-sheng-fu-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2192",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2192/2de9de95-5e28-4f3b-a0c2-da34658a39a3.png",
+          "size": [
+            1750,
+            2250
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "51690ca8202072259e77904ccc7c02bf91906b2399bb2866bf903c75f33f4b18",
+      "contentBox": [
+        28,
+        0,
+        227,
+        256
+      ],
+      "sourceSize": [
+        1750,
+        2250
+      ],
+      "imageValidators": {
+        "etag": "\"1D9167DA0E18E80\"",
+        "last-modified": "Fri, 23 Dec 2022 03:21:21 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2192",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2192/2de9de95-5e28-4f3b-a0c2-da34658a39a3.png",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "kaohsiung-zhang-sheng-fu-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:19+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:19+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-chen-ya-lun-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=983",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a636803163427779550%E9%99%B3%E9%9B%85%E5%80%AB.jpg",
+          "size": [
+            402,
+            614
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/陳雅倫.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "11c459f8335cc0b9fef0df7595eaad7cde2d7855dfc63fc1c3eed0ad9dff203b",
+      "contentBox": [
+        44,
+        0,
+        212,
+        256
+      ],
+      "sourceSize": [
+        402,
+        614
+      ],
+      "imageValidators": {
+        "etag": "\"06c153cc092d41:0\"",
+        "last-modified": "Thu, 13 Dec 2018 08:45:44 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=983",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a636803163427779550%E9%99%B3%E9%9B%85%E5%80%AB.jpg",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/陳雅倫.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-chen-ya-lun-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:10+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:10+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "yilan-lin-shi-ying-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2008&clique=DDP&pic=2",
+          "platform": "website",
+          "imageUrl": "https://www.ilcc.gov.tw/pictures/people/A2008.JPG",
+          "size": [
+            1030,
+            1154
+          ],
+          "evidence": "官方議會個人介紹頁人像；<img src=\"../../pictures/people/A2008.JPG\" alt=\"林詩穎議員\" width=\"100\" height=\"135\">",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "97a8c15ca659e138b3374b2995c3685f0f69af0173b167a6fa8b3205bd416601",
+      "contentBox": [
+        14,
+        0,
+        242,
+        256
+      ],
+      "sourceSize": [
+        1030,
+        1154
+      ],
+      "imageValidators": {
+        "etag": "\"3f3268358139db1:0\"",
+        "last-modified": "Mon, 18 Nov 2024 06:15:04 GMT"
+      },
+      "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2008&clique=DDP&pic=2",
+      "imageUrl": "https://www.ilcc.gov.tw/pictures/people/A2008.JPG",
+      "evidence": "官方議會個人介紹頁人像；<img src=\"../../pictures/people/A2008.JPG\" alt=\"林詩穎議員\" width=\"100\" height=\"135\">",
+      "filename": "yilan-lin-shi-ying-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:00+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:00+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-huang-jia-qi-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=982",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a636803163254775246%E6%A1%83%E5%9C%92%E5%8D%8012%E9%BB%83%E5%AE%B6%E9%BD%8A.png",
+          "size": [
+            2400,
+            3000
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/黃家齊.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "0f0a6443c91d33eeefeec0b64d6c74dfbe482579e7012b645b73d45e1cb49826",
+      "contentBox": [
+        25,
+        0,
+        230,
+        256
+      ],
+      "sourceSize": [
+        2400,
+        3000
+      ],
+      "imageValidators": {
+        "etag": "\"37b4aa8ed23d91:0\"",
+        "last-modified": "Mon, 09 Jan 2023 05:41:34 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=982",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a636803163254775246%E6%A1%83%E5%9C%92%E5%8D%8012%E9%BB%83%E5%AE%B6%E9%BD%8A.png",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/黃家齊.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-huang-jia-qi-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:08+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:08+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-li-zong-hao-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=984",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/2026080712354019427.jpg",
+          "size": [
+            1610,
+            1610
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/李宗豪.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "c4e872f2dc4a7c78f7a1655d0e13a61d2bd92e8dd03287a3e906b88fcc439205",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        1610,
+        1610
+      ],
+      "imageValidators": {
+        "etag": "\"9014de332626dd1:0\"",
+        "last-modified": "Fri, 07 Aug 2026 04:35:41 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=984",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/2026080712354019427.jpg",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/李宗豪.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-li-zong-hao-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:09+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:09+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-lin-zhi-hong-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/photo/?fbid=1304423348155219&set=a.161869012410664",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/591637847_1304423351488552_7421522893395991591_n.jpg?stp=dst-jpg_tt6&cstp=mx960x958&ctp=s960x958&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=VCr68jUc28AQ7kNvwFVtWEh&_nc_oc=AdrfKPuy9R_cpJ0H3vFAD3l53Ava2l_dQE9EVshhWxf0qu8I_2sC8wRsNS9_pQ0gFlU&_nc_zt=23&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=QVCxtb6HGY_jO6z4F-sIHQ&_nc_ss=7b2a8&oh=00_AQPD9NyJnDC3oYNJx7Lv56lsr5G8NLRBOkE61EYS2Rtqvg&oe=6AE65EFC",
+          "size": [
+            960,
+            958
+          ],
+          "evidence": "高雄市議會林智鴻個人頁嵌入官方Facebook linchihhung.taiwan，該已驗證粉專的大頭貼照（2025-11-27）公開原檔。已在Facebook及下載後view_image目視確認本人臉部曝光正常、灰藍西裝、白底；960x958 JPEG未加工。原議會PNG顯示異常極黑，不再使用；官方50x67縮圖正常但尺寸不足，改採本人官方大頭貼。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "bf0f090942908042baff5a9a1773b2a934f568b8a73429d9fbbd2e7729cbc3ea",
+      "contentBox": [
+        0,
+        0,
+        256,
+        255
+      ],
+      "sourceSize": [
+        960,
+        958
+      ],
+      "imageValidators": {
+        "last-modified": "Thu, 27 Nov 2025 08:15:08 GMT"
+      },
+      "source": "https://www.facebook.com/photo/?fbid=1304423348155219&set=a.161869012410664",
+      "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/591637847_1304423351488552_7421522893395991591_n.jpg?stp=dst-jpg_tt6&cstp=mx960x958&ctp=s960x958&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=VCr68jUc28AQ7kNvwFVtWEh&_nc_oc=AdrfKPuy9R_cpJ0H3vFAD3l53Ava2l_dQE9EVshhWxf0qu8I_2sC8wRsNS9_pQ0gFlU&_nc_zt=23&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=QVCxtb6HGY_jO6z4F-sIHQ&_nc_ss=7b2a8&oh=00_AQPD9NyJnDC3oYNJx7Lv56lsr5G8NLRBOkE61EYS2Rtqvg&oe=6AE65EFC",
+      "evidence": "高雄市議會林智鴻個人頁嵌入官方Facebook linchihhung.taiwan，該已驗證粉專的大頭貼照（2025-11-27）公開原檔。已在Facebook及下載後view_image目視確認本人臉部曝光正常、灰藍西裝、白底；960x958 JPEG未加工。原議會PNG顯示異常極黑，不再使用；官方50x67縮圖正常但尺寸不足，改採本人官方大頭貼。",
+      "filename": "kaohsiung-lin-zhi-hong-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:25+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:25+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-zheng-shu-fang-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1018",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a636807211344031938%E9%84%AD%E6%B7%91%E6%96%B9.jpg",
+          "size": [
+            900,
+            1200
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/鄭淑方.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "2ece54516cc48f33b9f9ca5920a713931beb1fd05504c72584f37c37815cff84",
+      "contentBox": [
+        32,
+        0,
+        224,
+        256
+      ],
+      "sourceSize": [
+        900,
+        1200
+      ],
+      "imageValidators": {
+        "etag": "\"0d8eab66e96d41:0\"",
+        "last-modified": "Tue, 18 Dec 2018 01:12:16 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1018",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a636807211344031938%E9%84%AD%E6%B7%91%E6%96%B9.jpg",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/鄭淑方.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-zheng-shu-fang-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:21+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:21+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-lin-de-yu-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=58",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852471250058(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/林德宇.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=58",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/187rain/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/340953498_1269269090343817_7348421327559942821_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LAzHU53GROgQ7kNvwE3X-2v&_nc_oc=Adrxt3jk9BsnFySd9l7JgAmaD27G9VwRg1TJtT4mDvNNXiHj9c2irdrzcWLjqCXq6x8&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=axSpt7MDhKwRLeyMGe9Qng&_nc_ss=7320f&oh=00_AQM4UauaySFi-KGa37pecQSwt1hB0bA03XDkR15LgUJPog&oe=6AE656E2",
+          "size": [
+            720,
+            720
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；林德宇",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "c964909d081c48242c62cb6ae29595fe6af2f451665d80876a4d842a2c9f3f02",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Wed, 12 Apr 2023 13:22:37 GMT"
+      },
+      "source": "https://www.facebook.com/187rain/",
+      "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/340953498_1269269090343817_7348421327559942821_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LAzHU53GROgQ7kNvwE3X-2v&_nc_oc=Adrxt3jk9BsnFySd9l7JgAmaD27G9VwRg1TJtT4mDvNNXiHj9c2irdrzcWLjqCXq6x8&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=axSpt7MDhKwRLeyMGe9Qng&_nc_ss=7320f&oh=00_AQM4UauaySFi-KGa37pecQSwt1hB0bA03XDkR15LgUJPog&oe=6AE656E2",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；林德宇",
+      "filename": "taichung-lin-de-yu-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:09+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:09+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-zhang-jia-an-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=12",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852386990012(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/張家銨.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=12",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/jangjiaan",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/747378789_1569512861853991_2060180620149790508_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q3DRO_VhG5EQ7kNvwHjanfE&_nc_oc=Adqc6hwZWUTwwYUu-RC7ZIUOi3yf96l750bIREkTb7Ll_h9uHsXsFyo4I68LZHRrLps&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=hF70Jhd50epu1UDKqsRhIQ&_nc_ss=7320f&oh=00_AQMm6bBdOCKqXNVzZYVkL9qDwGM9phrjaB7k07XEWN2jEQ&oe=6AE68301",
+          "size": [
+            720,
+            720
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；張家銨",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "0b88d37e5bf62586eaf3236403584ad1035fa898f989eb76cde1f38708f52849",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Wed, 15 Jul 2026 05:10:34 GMT"
+      },
+      "source": "https://www.facebook.com/jangjiaan",
+      "imageUrl": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/747378789_1569512861853991_2060180620149790508_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q3DRO_VhG5EQ7kNvwHjanfE&_nc_oc=Adqc6hwZWUTwwYUu-RC7ZIUOi3yf96l750bIREkTb7Ll_h9uHsXsFyo4I68LZHRrLps&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=hF70Jhd50epu1UDKqsRhIQ&_nc_ss=7320f&oh=00_AQMm6bBdOCKqXNVzZYVkL9qDwGM9phrjaB7k07XEWN2jEQ&oe=6AE68301",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；張家銨",
+      "filename": "taichung-zhang-jia-an-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:31+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:31+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "pingtung-liu-meng-jun-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=5d9217cb-0c81-ab15-cebc-c0e1e7afd00c",
+          "platform": "website",
+          "imageUrl": "https://www.ptcc.gov.tw/upload/upimage/15a5efc3-9b71-c966-7c01-65a87e0558d3-S.jpg",
+          "size": [
+            156,
+            235
+          ],
+          "evidence": "屏東縣議會個人介紹頁姓名與img alt相片標示相符，官方原圖未加工。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=5d9217cb-0c81-ab15-cebc-c0e1e7afd00c",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:54+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 235 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "taoyuan-huang-qiong-hui-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=974",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638058377786094243%E6%A1%83%E5%9C%92%E5%8D%803%E9%BB%83%E7%93%8A%E6%85%A7.png",
+          "size": [
+            266,
+            342
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/黃瓊慧.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "f853f5f6be8ee075017151b6c1b2f348c5a2f373fa0705ee5384ccc9f9140326",
+      "contentBox": [
+        28,
+        0,
+        227,
+        256
+      ],
+      "sourceSize": [
+        266,
+        342
+      ],
+      "imageValidators": {
+        "etag": "\"33cb47ed23d91:0\"",
+        "last-modified": "Mon, 09 Jan 2023 05:41:31 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=974",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638058377786094243%E6%A1%83%E5%9C%92%E5%8D%803%E9%BB%83%E7%93%8A%E6%85%A7.png",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/黃瓊慧.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-huang-qiong-hui-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:06+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:06+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chiayi-county-luo-shi-yang-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14217",
+          "platform": "website",
+          "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14217/c5dc101f-7ea2-48d1-8fd0-e53858e13dff.jpg",
+          "size": [
+            1387,
+            1626
+          ],
+          "evidence": "官方議會個人頁姓名對應之個人肖像；嘉義頁屆別第20屆；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "f7c16874b9a9bc62fbbb61315314b458354d1f09b72db65d3b560bf120cf240a",
+      "contentBox": [
+        19,
+        0,
+        237,
+        256
+      ],
+      "sourceSize": [
+        1387,
+        1626
+      ],
+      "imageValidators": {
+        "etag": "\"38c6464b17bdb1:0\"",
+        "last-modified": "Mon, 10 Feb 2025 11:46:15 GMT"
+      },
+      "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14217",
+      "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14217/c5dc101f-7ea2-48d1-8fd0-e53858e13dff.jpg",
+      "evidence": "官方議會個人頁姓名對應之個人肖像；嘉義頁屆別第20屆；來源HTML已保存。",
+      "filename": "chiayi-county-luo-shi-yang-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:46+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:46+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-yu-xin-xian-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=975",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a636803161725816560%E4%BD%99%E4%BF%A1%E6%86%B2.jpg",
+          "size": [
+            800,
+            1200
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/余信憲.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "fe30500d80c6cb6eba9a272fe1a47e8d6e740e0f613017f7f3934b3f92ef2cef",
+      "contentBox": [
+        42,
+        0,
+        213,
+        256
+      ],
+      "sourceSize": [
+        800,
+        1200
+      ],
+      "imageValidators": {
+        "etag": "\"07bc1d6bf92d41:0\"",
+        "last-modified": "Thu, 13 Dec 2018 08:42:54 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=975",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a636803161725816560%E4%BD%99%E4%BF%A1%E6%86%B2.jpg",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/余信憲.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-yu-xin-xian-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:06+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:06+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-chen-hui-wen-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2215/22a6e534-48f2-456f-a5fb-822d226b3078.png",
+          "size": [
+            1348,
+            1728
+          ],
+          "evidence": "高雄市議會官方本屆名錄的姓名與img alt「陳慧文_大頭照」明確對應。沿用已逐頁核對15名的官方CDN原圖/縮圖規則，去除@50x67尺寸派生後成功下載同檔名原圖；個人頁本次逾時。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "dea082ba410ff5d853883ce364a395c708e6036c475a2109433b90c784aa3e9d",
+      "contentBox": [
+        28,
+        0,
+        228,
+        256
+      ],
+      "sourceSize": [
+        1348,
+        1728
+      ],
+      "imageValidators": {
+        "etag": "\"1D9167870E3BC80\"",
+        "last-modified": "Fri, 23 Dec 2022 02:44:13 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2215/22a6e534-48f2-456f-a5fb-822d226b3078.png",
+      "evidence": "高雄市議會官方本屆名錄的姓名與img alt「陳慧文_大頭照」明確對應。沿用已逐頁核對15名的官方CDN原圖/縮圖規則，去除@50x67尺寸派生後成功下載同檔名原圖；個人頁本次逾時。",
+      "filename": "kaohsiung-chen-hui-wen-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:27+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:27+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-lu-lin-xiao-feng-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=987",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638058380422934373%E5%85%AB%E5%BE%B7%E5%8D%801%E5%91%82%E6%9E%97%E5%B0%8F%E9%B3%B3.jpg",
+          "size": [
+            300,
+            275
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/呂林小鳳.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "9ae3d6935009ad29e8fd0bcc346e4e8396886d055bd1688a6368cf4376360e11",
+      "contentBox": [
+        0,
+        10,
+        256,
+        245
+      ],
+      "sourceSize": [
+        300,
+        275
+      ],
+      "imageValidators": {
+        "etag": "\"8014ba8f6b8d91:0\"",
+        "last-modified": "Mon, 05 Dec 2022 05:36:45 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=987",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638058380422934373%E5%85%AB%E5%BE%B7%E5%8D%801%E5%91%82%E6%9E%97%E5%B0%8F%E9%B3%B3.jpg",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/呂林小鳳.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-lu-lin-xiao-feng-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:11+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:11+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-huang-shou-da-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=45",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852441640045(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/黃守達.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=45",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/taichungedada/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/863322646_1651574239667215_5052065223581033281_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oySX3TjZnzIQ7kNvwF-E_5M&_nc_oc=Adp5XFcp4GJ4eNsQpvu_SZN2a5eABWL_n6kZ0bztYBe6jNKLBvupYopThKL99r4PhmM&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=ZUTY59foEokgHyJhluf6WA&_nc_ss=7320f&oh=00_AQP_DAn7wHJMDaTJYSsmXvDm-xkRrbtXmJQuSC2hrHqZSw&oe=6AE65B20",
+          "size": [
+            720,
+            720
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；黃守達",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "45f2f8e542bedcb2c3305fa962f1d884f48b7767e55298df19c0abf8fce841ca",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Tue, 27 Oct 2026 03:30:05 GMT"
+      },
+      "source": "https://www.facebook.com/taichungedada/",
+      "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/863322646_1651574239667215_5052065223581033281_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oySX3TjZnzIQ7kNvwF-E_5M&_nc_oc=Adp5XFcp4GJ4eNsQpvu_SZN2a5eABWL_n6kZ0bztYBe6jNKLBvupYopThKL99r4PhmM&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=ZUTY59foEokgHyJhluf6WA&_nc_ss=7320f&oh=00_AQP_DAn7wHJMDaTJYSsmXvDm-xkRrbtXmJQuSC2hrHqZSw&oe=6AE65B20",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；黃守達",
+      "filename": "taichung-huang-shou-da-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:52+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:52+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-lin-qi-feng-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=29",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852426010029(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/林祈烽.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=29",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/1837393259853915/",
+          "result": "failed",
+          "reason": "官方來源轉至不同帳號或登入頁，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:41:41+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 192 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "taoyuan-lin-zhi-qiang-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1027",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a636810023007638364%E6%9E%97%E5%BF%97%E5%BC%B7.jpg",
+          "size": [
+            682,
+            682
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/林志強.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "f3922b1facae3e8ccbcd49d4fff4e868d0c8f95d7a02ef2ee4cb354c6123e358",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        682,
+        682
+      ],
+      "imageValidators": {
+        "etag": "\"0b3e95afd98d41:0\"",
+        "last-modified": "Fri, 21 Dec 2018 07:18:22 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1027",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a636810023007638364%E6%9E%97%E5%BF%97%E5%BC%B7.jpg",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/林志強.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-lin-zhi-qiang-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:22+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:22+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-yang-dian-zhong-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=6",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852378120006(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/楊典忠.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=6",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/100001602013369",
+          "result": "failed",
+          "reason": "官方來源轉至不同帳號或登入頁，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:41:27+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 192 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "taichung-wang-li-ren-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=7",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852378780007(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/王立任.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=7",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:41:28+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 192 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "pingtung-fang-yi-xiang-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=ded87e64-f9fc-464a-4737-b7b3457e508e",
+          "platform": "website",
+          "imageUrl": "https://www.ptcc.gov.tw/upload/upimage/cf652f6f-0a1e-30bc-627e-490f33dbd365-S.jpg",
+          "size": [
+            176,
+            235
+          ],
+          "evidence": "屏東縣議會個人介紹頁姓名與img alt相片標示相符，官方原圖未加工。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=ded87e64-f9fc-464a-4737-b7b3457e508e",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:49+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 235 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "chiayi-county-huang-rong-li-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14187",
+          "platform": "website",
+          "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14187/d360eb35-c506-416c-8f2b-b2ef79df2721.jpg",
+          "size": [
+            1387,
+            1626
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "665c74d66f63dcf66c6b265d84c26513439b1b86b32f70d02bdf4327ba1a5ee5",
+      "contentBox": [
+        19,
+        0,
+        237,
+        256
+      ],
+      "sourceSize": [
+        1387,
+        1626
+      ],
+      "imageValidators": {
+        "etag": "\"33185f31b17bdb1:0\"",
+        "last-modified": "Mon, 10 Feb 2025 11:44:50 GMT"
+      },
+      "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14187",
+      "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14187/d360eb35-c506-416c-8f2b-b2ef79df2721.jpg",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "chiayi-county-huang-rong-li-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:39+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:39+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-zhang-fen-yu-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=80",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=16709459860080(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/張芬郁.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=80",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:10+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 192 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "kaohsiung-li-yu-ting-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2226/61413005-7ec1-4a35-a226-710fe7cac135.png",
+          "size": [
+            598,
+            756
+          ],
+          "evidence": "高雄市議會官方本屆名錄的姓名與img alt「李雨庭_大頭照」明確對應。沿用已逐頁核對15名的官方CDN原圖/縮圖規則，去除@50x67尺寸派生後成功下載同檔名原圖；個人頁本次逾時。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "7f94025e46acabd3b560eb393e85a05a787d0c4ddcc8fd526bdc468044c88f6e",
+      "contentBox": [
+        27,
+        0,
+        229,
+        256
+      ],
+      "sourceSize": [
+        598,
+        756
+      ],
+      "imageValidators": {
+        "etag": "\"1D9167CF9645C00\"",
+        "last-modified": "Fri, 23 Dec 2022 03:16:40 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2226/61413005-7ec1-4a35-a226-710fe7cac135.png",
+      "evidence": "高雄市議會官方本屆名錄的姓名與img alt「李雨庭_大頭照」明確對應。沿用已逐頁核對15名的官方CDN原圖/縮圖規則，去除@50x67尺寸派生後成功下載同檔名原圖；個人頁本次逾時。",
+      "filename": "kaohsiung-li-yu-ting-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:28+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:28+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-chen-ya-hui-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=76",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=16709423860076(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/陳雅惠.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=76",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:41:55+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 192 px），保留舊圖，待補足夠清晰的 Logo 來源"
+    },
+    "chiayi-county-lin-xiu-qin-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14201",
+          "platform": "website",
+          "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14201/53c8e9de-3ba4-4b68-b845-9e325893094f.jpg",
+          "size": [
+            1387,
+            1626
+          ],
+          "evidence": "官方議會個人頁姓名對應之個人肖像；嘉義頁屆別第20屆；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "668a56260957ae3d3a82972d5d00e3f670972ddc46c1240040968434528aa11b",
+      "contentBox": [
+        19,
+        0,
+        237,
+        256
+      ],
+      "sourceSize": [
+        1387,
+        1626
+      ],
+      "imageValidators": {
+        "etag": "\"7fdfd648b17bdb1:0\"",
+        "last-modified": "Mon, 10 Feb 2025 11:45:29 GMT"
+      },
+      "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14201",
+      "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14201/53c8e9de-3ba4-4b68-b845-9e325893094f.jpg",
+      "evidence": "官方議會個人頁姓名對應之個人肖像；嘉義頁屆別第20屆；來源HTML已保存。",
+      "filename": "chiayi-county-lin-xiu-qin-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:41+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:41+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-li-ya-hui-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2188",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2188/20c3a93a-5347-487b-b75e-bd5cabf4cca5.png",
+          "size": [
+            610,
+            716
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "d65aee931c4acdbb13d13e4423a0c0b9cec3fa399669e5536c560607edc1230a",
+      "contentBox": [
+        19,
+        0,
+        237,
+        256
+      ],
+      "sourceSize": [
+        610,
+        716
+      ],
+      "imageValidators": {
+        "etag": "\"1D9167407FA4580\"",
+        "last-modified": "Fri, 23 Dec 2022 02:12:39 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2188",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2188/20c3a93a-5347-487b-b75e-bd5cabf4cca5.png",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "kaohsiung-li-ya-hui-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:16+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:16+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "hsinchu-yang-ling-yi-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=23",
+          "platform": "website",
+          "imageUrl": "https://www.hsinchu-cc.gov.tw/upload/103/2024052714193365929.jpg",
+          "size": [
+            961,
+            1080
+          ],
+          "evidence": "官方議會個人介紹頁人像；<img id=\"ltImg\" class=\"member-img\" src=\"/upload/103/2024052714193365929.jpg\" alt=\"楊玲宜 議員\" border=\"0\" />",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "94c7e8d4dd8d116140d63ae5608a63d12ea90846bcb5b62cb3695284b8d4eda0",
+      "contentBox": [
+        14,
+        0,
+        242,
+        256
+      ],
+      "sourceSize": [
+        961,
+        1080
+      ],
+      "imageValidators": {
+        "etag": "\"9e7740d7fdafda1:0\"",
+        "last-modified": "Mon, 27 May 2024 06:19:33 GMT"
+      },
+      "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=23",
+      "imageUrl": "https://www.hsinchu-cc.gov.tw/upload/103/2024052714193365929.jpg",
+      "evidence": "官方議會個人介紹頁人像；<img id=\"ltImg\" class=\"member-img\" src=\"/upload/103/2024052714193365929.jpg\" alt=\"楊玲宜 議員\" border=\"0\" />",
+      "filename": "hsinchu-yang-ling-yi-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:06+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:06+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chiayi-county-jiang-ji-zhen-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14216",
+          "platform": "website",
+          "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14216/ba8ca1f9-c998-44bd-b0ed-d4b92c3491d8.jpg",
+          "size": [
+            1387,
+            1626
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "8cfff42a5b8969f6e3f4403f2376b21379db2a59f87c2ad2d1d4136e4d63fd0f",
+      "contentBox": [
+        19,
+        0,
+        237,
+        256
+      ],
+      "sourceSize": [
+        1387,
+        1626
+      ],
+      "imageValidators": {
+        "etag": "\"681c7462b17bdb1:0\"",
+        "last-modified": "Mon, 10 Feb 2025 11:46:12 GMT"
+      },
+      "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14216",
+      "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14216/ba8ca1f9-c998-44bd-b0ed-d4b92c3491d8.jpg",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "chiayi-county-jiang-ji-zhen-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:46+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:46+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chiayi-county-zhuang-xin-zong-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14202",
+          "platform": "website",
+          "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14202/cc2b64a7-0d1a-42be-8acb-592c1a8628bd.jpg",
+          "size": [
+            1387,
+            1626
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "8e288b10e7f591de939f0912d5aaf93e5b2d3c12fe5670fd3eb88b08dc4c4633",
+      "contentBox": [
+        19,
+        0,
+        237,
+        256
+      ],
+      "sourceSize": [
+        1387,
+        1626
+      ],
+      "imageValidators": {
+        "etag": "\"cb51724ab17bdb1:0\"",
+        "last-modified": "Mon, 10 Feb 2025 11:45:32 GMT"
+      },
+      "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14202",
+      "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14202/cc2b64a7-0d1a-42be-8acb-592c1a8628bd.jpg",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "chiayi-county-zhuang-xin-zong-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:43+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:43+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taichung-jiang-zhao-guo-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=44",
+          "platform": "website",
+          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852440950044(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "size": [
+            138,
+            192
+          ],
+          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/江肇國.html。官方連結下載，未修改原檔。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=44",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        },
+        {
+          "source": "https://www.facebook.com/TC.AKuo/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/418498861_901276774699764_3036573511793054292_n.jpg?stp=dst-jpg_tt6&cstp=mx960x958&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mOBClu-CkpAQ7kNvwGS_mLo&_nc_oc=Adr-lb50yjXHn3BCvNcYBsP77ioSBQfpVesicch6wIbbnf1_X47g22nwUS4ER61luYM&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=eNlDoXA2C3PvKwqiB45mzg&_nc_ss=7320f&oh=00_AQPOt6gGxs7eja60AA12wMXI-84vLVvLjDqIcpOaHXAa7Q&oe=6AE66B79",
+          "size": [
+            720,
+            719
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；江肇國",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "4bf93f453b8003d71538d8e7c8edfb9a43a28ad6cb65e55f2d2952b9e00a9e14",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        719
+      ],
+      "imageValidators": {
+        "last-modified": "Fri, 12 Jan 2024 15:33:28 GMT"
+      },
+      "source": "https://www.facebook.com/TC.AKuo/",
+      "imageUrl": "https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-1/418498861_901276774699764_3036573511793054292_n.jpg?stp=dst-jpg_tt6&cstp=mx960x958&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mOBClu-CkpAQ7kNvwGS_mLo&_nc_oc=Adr-lb50yjXHn3BCvNcYBsP77ioSBQfpVesicch6wIbbnf1_X47g22nwUS4ER61luYM&_nc_zt=24&_nc_ht=scontent-lax3-2.xx&_nc_gid=eNlDoXA2C3PvKwqiB45mzg&_nc_ss=7320f&oh=00_AQPOt6gGxs7eja60AA12wMXI-84vLVvLjDqIcpOaHXAa7Q&oe=6AE66B79",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；江肇國",
+      "filename": "taichung-jiang-zhao-guo-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:54+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:54+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-qiu-jun-xian-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2193",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2193/c5240262-14da-43d3-bb15-0527aba257e3.png",
+          "size": [
+            752,
+            970
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "649913d9122033bc9c2ef29197ad6bd61bfaaabd4c0ea86e3d0e1236acd2965d",
+      "contentBox": [
+        29,
+        0,
+        227,
+        256
+      ],
+      "sourceSize": [
+        752,
+        970
+      ],
+      "imageValidators": {
+        "etag": "\"1D91674F1A0B980\"",
+        "last-modified": "Fri, 23 Dec 2022 02:19:11 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2193",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2193/c5240262-14da-43d3-bb15-0527aba257e3.png",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "kaohsiung-qiu-jun-xian-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:20+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:20+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "chiayi-county-huang-hui-ru-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14190",
+          "platform": "website",
+          "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14190/eb3826d7-666d-48b0-847c-357da2c68c44.jpg",
+          "size": [
+            1387,
+            1626
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "fd4b720b49b17c4fccbc138f4293c3e939492524a594a320d52464bf58c9d5f4",
+      "contentBox": [
+        19,
+        0,
+        237,
+        256
+      ],
+      "sourceSize": [
+        1387,
+        1626
+      ],
+      "imageValidators": {
+        "etag": "\"6ab44236b17bdb1:0\"",
+        "last-modified": "Mon, 10 Feb 2025 11:44:58 GMT"
+      },
+      "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14190",
+      "imageUrl": "https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14190/eb3826d7-666d-48b0-847c-357da2c68c44.jpg",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "chiayi-county-huang-hui-ru-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:40+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:40+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "hsinchu-chen-jian-ming-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=19",
+          "platform": "website",
+          "imageUrl": "https://www.hsinchu-cc.gov.tw/upload/103/2024052712103661766.png",
+          "size": [
+            961,
+            1080
+          ],
+          "evidence": "官方議會個人介紹頁人像；<img id=\"ltImg\" class=\"member-img\" src=\"/upload/103/2024052712103661766.png\" alt=\"陳建名 議員\" border=\"0\" />",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "6fe87b65bb6918e4db965b91eb8802376d469835e29c45886d88b0425d6ce38a",
+      "contentBox": [
+        14,
+        0,
+        242,
+        256
+      ],
+      "sourceSize": [
+        961,
+        1080
+      ],
+      "imageValidators": {
+        "etag": "\"44ed95d3ebafda1:0\"",
+        "last-modified": "Mon, 27 May 2024 04:10:36 GMT"
+      },
+      "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=19",
+      "imageUrl": "https://www.hsinchu-cc.gov.tw/upload/103/2024052712103661766.png",
+      "evidence": "官方議會個人介紹頁人像；<img id=\"ltImg\" class=\"member-img\" src=\"/upload/103/2024052712103661766.png\" alt=\"陳建名 議員\" border=\"0\" />",
+      "filename": "hsinchu-chen-jian-ming-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:06+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:06+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-huang-wen-yi-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2207/7d7789ff-2aeb-401e-b841-3e567f2f28ba.png",
+          "size": [
+            1579,
+            2026
+          ],
+          "evidence": "高雄市議會官方本屆名錄的姓名與img alt「黃文益_大頭照」明確對應。沿用已逐頁核對15名的官方CDN原圖/縮圖規則，去除@50x67尺寸派生後成功下載同檔名原圖；個人頁本次逾時。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "209cd689144433340127644488bf5c4c2cc779521caf116bdd1280bfb512199a",
+      "contentBox": [
+        28,
+        0,
+        228,
+        256
+      ],
+      "sourceSize": [
+        1579,
+        2026
+      ],
+      "imageValidators": {
+        "etag": "\"1D91676C1F2B100\"",
+        "last-modified": "Fri, 23 Dec 2022 02:32:10 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2207/7d7789ff-2aeb-401e-b841-3e567f2f28ba.png",
+      "evidence": "高雄市議會官方本屆名錄的姓名與img alt「黃文益_大頭照」明確對應。沿用已逐頁核對15名的官方CDN原圖/縮圖規則，去除@50x67尺寸派生後成功下載同檔名原圖；個人頁本次逾時。",
+      "filename": "kaohsiung-huang-wen-yi-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:25+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:25+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-you-wu-he-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=997",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a635533167621896723%E6%B8%B8%E5%90%BE%E5%92%8C.jpg",
+          "size": [
+            911,
+            1125
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/游吾和.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "d392463e86068824edd0441740b99d1797a3e5da0e32c6419fd99451cf37fbda",
+      "contentBox": [
+        24,
+        0,
+        231,
+        256
+      ],
+      "sourceSize": [
+        911,
+        1125
+      ],
+      "imageValidators": {
+        "etag": "\"13ba7a4ab2fd01:0\"",
+        "last-modified": "Thu, 04 Dec 2014 11:06:02 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=997",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a635533167621896723%E6%B8%B8%E5%90%BE%E5%92%8C.jpg",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/游吾和.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-you-wu-he-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:12+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:12+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "kaohsiung-huang-ming-tai-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2175",
+          "platform": "website",
+          "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2175/b317a63a-a9f6-4c53-9768-663728ab2800.png",
+          "size": [
+            872,
+            1133
+          ],
+          "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "16a3af9a5384c77861a9c4d31a4e4350d74fc87781d271abe8d5a0d5d24790ea",
+      "contentBox": [
+        29,
+        0,
+        226,
+        256
+      ],
+      "sourceSize": [
+        872,
+        1133
+      ],
+      "imageValidators": {
+        "etag": "\"1D91674324C0300\"",
+        "last-modified": "Fri, 23 Dec 2022 02:13:50 GMT"
+      },
+      "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2175",
+      "imageUrl": "https://ws.kcc.gov.tw/001/Upload/member/2175/b317a63a-a9f6-4c53-9768-663728ab2800.png",
+      "evidence": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。",
+      "filename": "kaohsiung-huang-ming-tai-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:42:12+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:42:12+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-liu-ren-zhao-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1014",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638073846759845060%E5%B9%B3%E9%8E%AE%E5%8D%804%E5%8A%89%E4%BB%81%E7%85%A7.png",
+          "size": [
+            414,
+            532
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/劉仁照.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "db5ee5d6c8b13577b82cf5c552e58978730deb09dbbff2f54c15a91e9766d921",
+      "contentBox": [
+        28,
+        0,
+        227,
+        256
+      ],
+      "sourceSize": [
+        414,
+        532
+      ],
+      "imageValidators": {
+        "etag": "\"c42cfc3f6e16d91:0\"",
+        "last-modified": "Fri, 23 Dec 2022 01:31:15 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1014",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a638073846759845060%E5%B9%B3%E9%8E%AE%E5%8D%804%E5%8A%89%E4%BB%81%E7%85%A7.png",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/劉仁照.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-liu-ren-zhao-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:20+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:20+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-li-guang-da-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=979",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a636810021469163662%E6%9D%8E%E5%85%89%E9%81%94.jpg",
+          "size": [
+            1874,
+            2576
+          ],
+          "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/李光達.html。官方連結下載，未修改原檔。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "84b1390db79da52b8ddcaab5f373df0e0dfb77c835a2c5302d1ed4f896a79418",
+      "contentBox": [
+        35,
+        0,
+        221,
+        256
+      ],
+      "sourceSize": [
+        1874,
+        2576
+      ],
+      "imageValidators": {
+        "etag": "\"15cf4afda20d91:0\"",
+        "last-modified": "Thu, 05 Jan 2023 07:52:39 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=979",
+      "imageUrl": "https://www.tycc.gov.tw/tc/file/person/app/a636810021469163662%E6%9D%8E%E5%85%89%E9%81%94.jpg",
+      "evidence": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/李光達.html。官方連結下載，未修改原檔。",
+      "filename": "taoyuan-li-guang-da-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:09+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:09+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "penghu-su-yu-de-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.phcouncil.gov.tw/mop2.php?no=M24080008",
+          "platform": "website",
+          "imageUrl": "https://www.phcouncil.gov.tw/attachments/mop/M24080008.jpg",
+          "size": [
+            3211,
+            4156
+          ],
+          "evidence": "澎湖縣議會蘇育德議員個人介紹頁中議員個人照。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "b0bcc2d352a330d40b7ef4523f07fe44da22c0fce5cbcc0344fed9d0a486f8a0",
+      "contentBox": [
+        29,
+        0,
+        227,
+        256
+      ],
+      "sourceSize": [
+        3211,
+        4156
+      ],
+      "imageValidators": {
+        "etag": "\"66d01726-120c94\"",
+        "last-modified": "Thu, 29 Aug 2024 06:37:26 GMT"
+      },
+      "source": "https://www.phcouncil.gov.tw/mop2.php?no=M24080008",
+      "imageUrl": "https://www.phcouncil.gov.tw/attachments/mop/M24080008.jpg",
+      "evidence": "澎湖縣議會蘇育德議員個人介紹頁中議員個人照。",
+      "filename": "penghu-su-yu-de-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:03+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:03+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "hsinchu-zheng-mei-juan-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=5&mid=39",
+          "platform": "website",
+          "imageUrl": "https://www.hsinchu-cc.gov.tw/upload/103/2024082515142297294.jpg",
+          "size": [
+            1106,
+            1243
+          ],
+          "evidence": "官方議會個人介紹頁人像；<img id=\"ltImg\" class=\"member-img\" src=\"/upload/103/2024082515142297294.jpg\" alt=\"鄭美娟 議員\" border=\"0\" />",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "0aa37cce5656bf62339d856426323ab4d04ae3cd5092e6249dab7b99bd3ac16b",
+      "contentBox": [
+        14,
+        0,
+        242,
+        256
+      ],
+      "sourceSize": [
+        1106,
+        1243
+      ],
+      "imageValidators": {
+        "etag": "\"21275069bef6da1:0\"",
+        "last-modified": "Sun, 25 Aug 2024 07:14:23 GMT"
+      },
+      "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=5&mid=39",
+      "imageUrl": "https://www.hsinchu-cc.gov.tw/upload/103/2024082515142297294.jpg",
+      "evidence": "官方議會個人介紹頁人像；<img id=\"ltImg\" class=\"member-img\" src=\"/upload/103/2024082515142297294.jpg\" alt=\"鄭美娟 議員\" border=\"0\" />",
+      "filename": "hsinchu-zheng-mei-juan-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:43:04+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:43:04+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "taoyuan-xu-qing-shun-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=994",
+          "platform": "website",
+          "imageUrl": "https://www.tycc.gov.tw/upload/102/2025072416134158686.jpg",
+          "size": [
+            838,
+            973
+          ],
+          "evidence": "桃園市議會本屆議員第4選區名錄，圖片alt/title均為許清順議員。介紹頁圖片連結失效，但名錄另連此有效原圖。",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "fe4f8fbaa667515a8d3e219a0401a49b9c7db77ffb742cb2345b9ce645ac9fab",
+      "contentBox": [
+        18,
+        0,
+        238,
+        256
+      ],
+      "sourceSize": [
+        838,
+        973
+      ],
+      "imageValidators": {
+        "etag": "\"55c91cde72fcdb1:0\"",
+        "last-modified": "Thu, 24 Jul 2025 08:13:42 GMT"
+      },
+      "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=994",
+      "imageUrl": "https://www.tycc.gov.tw/upload/102/2025072416134158686.jpg",
+      "evidence": "桃園市議會本屆議員第4選區名錄，圖片alt/title均為許清順議員。介紹頁圖片連結失效，但名錄另連此有效原圖。",
+      "filename": "taoyuan-xu-qing-shun-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T20:41:12+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T20:41:12+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "miaoli-luo-gui-xing-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2600",
+          "platform": "website",
+          "imageUrl": "https://www.mcc.gov.tw/admin/upload/twgov_img_202504211350081.jpg",
+          "size": [
+            200,
+            237
+          ],
+          "evidence": "苗栗縣議會該選區議員名錄照片，img alt為「羅貴星」，採用其連結原尺寸圖片。",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2600",
+          "result": "failed",
+          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+        }
+      ],
+      "lastAttempt": "2026-10-27T20:42:34+08:00",
+      "result": "low-resolution",
+      "reason": "官方來源僅取得小圖（最大 237 px），保留舊圖，待補足夠清晰的 Logo 來源"
     }
   }
 }
