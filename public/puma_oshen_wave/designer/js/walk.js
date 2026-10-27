@@ -19,7 +19,6 @@ const FONT = '"Noto Sans TC", system-ui, -apple-system, "PingFang TC", "Microsof
 const MONO = '"IBM Plex Mono", ui-monospace, Consolas, monospace';
 
 // world layout (units)
-const BW = 112;          // booth width
 const CROSS = 104;       // cross aisle between two islands on the same side
 const EXIT_W = 190;      // exit area at each end of the aisle
 const EXIT_TRIG = 72;    // walking this close to an end leaves the aisle
@@ -63,7 +62,8 @@ function rng(s) {
   };
 }
 
-export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, onEnd = () => {}, catContext = () => ({}) } = {}) {
+export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, onEnd = () => {}, catContext = () => ({}), display = 'booth', visited = isVisited } = {}) {
+  const BW = display === 'stage' ? 224 : 112;
   const c = canvas.getContext('2d');
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
   let alive = true;
@@ -257,12 +257,14 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     c.lineWidth = 2.6; line(x0, Y.BACK, x1, Y.BACK);
     // floor seams that converge on the camera, so the floor reads as depth
     const vcx = camX + cssW / scale / 2;
+    const floorEnd = display === 'stage' ? yBot : Y.STRIP;
     c.save(); c.globalAlpha = 0.16; c.lineWidth = 1;
     c.beginPath();
-    for (let x = Math.floor((x0 - 320) / 140) * 140; x < x1 + 320; x += 140) { c.moveTo(x, Y.BACK); c.lineTo(x + (x - vcx) * 0.42, Y.STRIP); }
+    for (let x = Math.floor((x0 - 320) / 140) * 140; x < x1 + 320; x += 140) { c.moveTo(x, Y.BACK); c.lineTo(x + (x - vcx) * 0.42, floorEnd); }
     for (const y of [Y.CLOTH_N + 50, Y.CLOTH_N + 104]) { c.moveTo(x0, y); c.lineTo(x1, y); }
     c.stroke();
     c.restore();
+    if (display === 'stage') return; // The stage has an open audience area, without a lower row.
     // foreground strip with the backs of the next row
     c.fillStyle = GREEN_SOFT; c.fillRect(x0, Y.STRIP, w, yBot - Y.STRIP);
     c.save(); c.globalAlpha = 0.18;
@@ -274,6 +276,66 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
   function strings(xa, xb, y0, y1) {
     c.strokeStyle = INK; c.lineWidth = 1.6;
     c.beginPath(); c.moveTo(xa, y0); c.lineTo(xa, y1); c.moveTo(xb, y0); c.lineTo(xb, y1); c.stroke();
+  }
+  function banquet(x0, x1) {
+    if (display !== 'stage') return;
+    const count = Math.max(1, Math.floor((L.worldW - 80) / 220));
+    const start = (L.worldW - count * 220) / 2 + 110;
+    const red = '#e96777', darkRed = '#bd465a';
+    const ellipse = (x, y, rx, ry, fill, outline = true) => {
+      c.beginPath(); c.ellipse(x, y, rx, ry, 0, 0, Math.PI * 2);
+      c.fillStyle = fill; c.fill();
+      if (outline) { c.strokeStyle = INK; c.lineWidth = 1.2; c.stroke(); }
+    };
+    for (let i = 0; i < count; i++) {
+      const cx = start + i * 220, cy = 401;
+      if (cx + 100 < x0 || cx - 100 > x1) continue;
+      c.save();
+      // Red plastic stools surround a round table, leaving the stage-side aisle open.
+      ellipse(cx, cy + 24, 94, 34, 'rgba(48,59,59,.07)', false);
+      for (let seat = 0; seat < 8; seat++) {
+        const angle = seat * Math.PI / 4;
+        const sx = cx + Math.cos(angle) * 87, sy = cy + Math.sin(angle) * 46;
+        c.strokeStyle = INK; c.lineWidth = 1.6;
+        line(sx - 5, sy + 3, sx - 7, sy + 12); line(sx + 5, sy + 3, sx + 7, sy + 12);
+        rr(sx - 10, sy - 4, 20, 10, 3);
+        c.fillStyle = red; c.fill(); c.stroke();
+        c.strokeStyle = '#ffc3c6'; c.lineWidth = 1;
+        line(sx - 5, sy - 1, sx + 5, sy - 1);
+      }
+      c.strokeStyle = INK; c.lineWidth = 3;
+      line(cx - 30, cy + 18, cx - 36, cy + 47); line(cx + 30, cy + 18, cx + 36, cy + 47);
+      line(cx - 30, cy + 24, cx + 32, cy + 43); line(cx + 30, cy + 24, cx - 32, cy + 43);
+      // The lower ellipse gives the red tablecloth a hanging edge.
+      ellipse(cx, cy + 10, 68, 34, darkRed);
+      ellipse(cx, cy, 68, 34, red);
+      c.beginPath(); c.ellipse(cx, cy, 63, 29, 0, 0, Math.PI * 2);
+      c.strokeStyle = '#ffb0b7'; c.lineWidth = 1; c.stroke();
+      // Individual rice bowls and pairs of chopsticks.
+      for (let seat = 0; seat < 8; seat++) {
+        const angle = seat * Math.PI / 4;
+        const px = cx + Math.cos(angle) * 52, py = cy + Math.sin(angle) * 24;
+        ellipse(px, py + 1.5, 5, 3.2, PAPER);
+        ellipse(px, py, 5, 2.5, PAPER2);
+        c.strokeStyle = '#704f3d'; c.lineWidth = 1;
+        line(px + 7, py - 4, px + 7, py + 4); line(px + 9, py - 4, px + 9, py + 4);
+      }
+      // Shared platters: a whole fish, soup, greens and a braised dish.
+      ellipse(cx - 18, cy - 7, 20, 8, PAPER);
+      ellipse(cx - 19, cy - 7, 11, 3.5, '#8bc4b0');
+      poly([[cx - 10, cy - 7], [cx - 4, cy - 10], [cx - 4, cy - 4]]);
+      c.fillStyle = '#8bc4b0'; c.fill(); c.strokeStyle = INK; c.lineWidth = 0.8; c.stroke();
+      ellipse(cx - 26, cy - 7, 0.9, 0.9, INK, false);
+      for (const dx of [-23, -18, -13]) { c.strokeStyle = GREEN_DEEP; line(cx + dx, cy - 9, cx + dx + 3, cy - 5); }
+      ellipse(cx + 19, cy - 6, 12, 8, PAPER);
+      ellipse(cx + 19, cy - 8, 10, 5, '#e6ac54');
+      for (const [dx, dy] of [[15, -9], [21, -7], [24, -10]]) ellipse(cx + dx, cy + dy, 2, 1, PAPER2, false);
+      ellipse(cx + 15, cy + 12, 15, 6.5, PAPER);
+      for (const [dx, dy] of [[8, 11], [14, 14], [21, 11], [15, 9], [23, 14]]) ellipse(cx + dx, cy + dy, 4, 2, GREEN, false);
+      ellipse(cx - 18, cy + 12, 14, 6.5, PAPER);
+      for (const [dx, dy] of [[-24, 11], [-17, 10], [-20, 14], [-12, 14]]) ellipse(cx + dx, cy + dy, 3.5, 2, '#be7748', false);
+      c.restore();
+    }
   }
   function board(cx, l1, l2, yTop, lit = false) {
     const w = 152, h = l2 ? 56 : 36, top = Y.SIGN_N, lx = cx - w / 2;
@@ -301,9 +363,10 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
   }
   function wallEnd(dir, label, yTop) {
     const edge = dir < 0 ? 28 : L.worldW - 28;
+    const bottom = display === 'stage' ? (cssH - offY) / scale + 2 : Y.STRIP;
     c.fillStyle = GREEN_SOFT;
-    c.fillRect(dir < 0 ? edge - 600 : edge, yTop, 600, Y.STRIP - yTop);
-    c.strokeStyle = INK; c.lineWidth = 2.6; line(edge, yTop, edge, Y.STRIP);
+    c.fillRect(dir < 0 ? edge - 600 : edge, yTop, 600, bottom - yTop);
+    c.strokeStyle = INK; c.lineWidth = 2.6; line(edge, yTop, edge, bottom);
     board(dir < 0 ? EXIT_W / 2 + 10 : L.worldW - EXIT_W / 2 - 10, label, null, yTop);
   }
   function ends(x0, x1, yTop) {
@@ -351,7 +414,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     c.fillStyle = near ? PINK_SOFT : PAPER; c.fillRect(cx - w / 2, cy - h / 2, w, h);
     c.strokeStyle = INK; c.lineWidth = near ? 2 : 1.6; c.strokeRect(cx - w / 2, cy - h / 2, w, h);
     c.fillStyle = INK; c.font = `600 ${full ? 11.5 : 12.5}px ${MONO}`; c.fillText(label, cx, cy + 0.5);
-    if (isVisited(b.id)) stamp(cx - w / 2 + 1, cy - h / 2 + 1);
+    if (visited(b.id)) stamp(cx - w / 2 + 1, cy - h / 2 + 1);
   }
   const storeName = b => (data.stores[b.store] && data.stores[b.store].name) || '';
   const logoOf = b => data.stores[b.store]?.avatar || '';
@@ -382,7 +445,37 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
       c.fillStyle = PAPER; c.fill(); c.stroke();
     }
   }
+  function videoStage(B) {
+    const { b, x, cx } = B;
+    const north = B.side === 'N', near = nearId === b.id;
+    const top = north ? Y.POSTER : Y.AISLE_BOT + 10;
+    const sw = BW - 64, sh = north ? 90 : 64, sx = cx - sw / 2;
+    const floor = north ? Y.CLOTH_N : Y.STRIP - 4;
+    // Raised platform, two speakers and a wide screen replace the market table.
+    c.fillStyle = near ? PINK_SOFT : GREEN_SOFT;
+    c.fillRect(x + 5, floor - 28, BW - 10, 28);
+    c.strokeStyle = INK; c.lineWidth = 2;
+    c.strokeRect(x + 5, floor - 28, BW - 10, 28);
+    c.fillStyle = INK;
+    for (const bx of [x + 10, x + BW - 26]) {
+      c.fillRect(bx, top + 22, 16, sh - 8);
+      c.strokeStyle = GREEN_SOFT; c.lineWidth = 1.5;
+      for (const cy of [top + 34, top + sh - 2]) {
+        c.beginPath(); c.arc(bx + 8, cy, 4, 0, Math.PI * 2); c.stroke();
+      }
+    }
+    c.fillRect(sx - 3, top - 3, sw + 6, sh + 6);
+    cover(b.works[0], sx, top, sw, sh, true);
+    c.fillStyle = 'rgba(0,0,0,.65)';
+    c.beginPath(); c.arc(cx, top + sh / 2, 16, 0, Math.PI * 2); c.fill();
+    c.fillStyle = PAPER;
+    poly([[cx - 4, top + sh / 2 - 7], [cx + 8, top + sh / 2], [cx - 4, top + sh / 2 + 7]]); c.fill();
+    c.fillStyle = INK; c.font = `700 11px ${FONT}`;
+    c.fillText(fit(storeName(b), BW - 24), cx, north ? top + sh + 13 : floor - 13);
+    plate(cx, north ? floor - 13 : top - 6, b, true, near);
+  }
   function boothN(B) {
+    if (display === 'stage') return videoStage(B);
     const { b, x, cx } = B;
     const near = nearId === b.id, full = near || hover === b.id;
     const px = x + 9, pw = BW - 18, py = Y.POSTER, ph = Y.BACK - Y.POSTER;
@@ -411,6 +504,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     plate(cx, 181, b, full, near);
   }
   function boothS(B) {
+    if (display === 'stage') return videoStage(B);
     const { b, x, cx } = B;
     const near = nearId === b.id, full = near || hover === b.id;
     // front of the table, seen at a steep angle
@@ -460,7 +554,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     c.fillStyle = PAPER;
     c.fillText(text, s.cx, top + h / 2 + 1);
   }
-  function person(x, y, s, cloth, face, phase, moving, bag, lw) {
+  function person(x, y, s, cloth, face, phase, moving, bag, lw, glowColor = PINK) {
     const sw = moving ? Math.sin(phase) * 2.6 * s : 0;
     const bob = moving ? -Math.abs(Math.sin(phase)) * 1.2 * s : 0;
     c.fillStyle = T.t2; c.beginPath(); c.ellipse(x, y + 1, 10.5 * s, 3 * s, 0, 0, Math.PI * 2); c.fill();
@@ -470,7 +564,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     c.moveTo(x + 3 * s, y - 5 * s + bob); c.lineTo(x + 3 * s - sw, y);
     c.stroke();
     rr(x - 7 * s, y - 20 * s + bob, 14 * s, 16 * s, 4 * s); c.fillStyle = cloth; c.fill(); c.stroke();
-    if (bag) {
+    if (bag && display !== 'stage') {
       const bw = 7.5 * s, bh = 8.5 * s, bx = face > 0 ? x + 4.5 * s : x - 4.5 * s - bw, by = y - 14 * s + bob - sw * 0.2;
       c.beginPath(); c.moveTo(bx + 1.6 * s, by); c.quadraticCurveTo(bx + bw / 2, by - 6 * s, bx + bw - 1.6 * s, by); c.lineWidth = 1.6; c.stroke();
       c.fillStyle = bag; c.fillRect(bx, by, bw, bh); c.lineWidth = lw - 0.3; c.strokeRect(bx, by, bw, bh);
@@ -482,6 +576,26 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     c.beginPath();
     for (const ex of [-2.4, 2.4]) { c.moveTo(x + face * 1.8 * s + ex * s + 0.9 * s, hy + 2 * s); c.arc(x + face * 1.8 * s + ex * s, hy + 2 * s, 0.9 * s, 0, Math.PI * 2); }
     c.fill();
+    if (display === 'stage') {
+      // Raise a light stick beside the face; its gentle tilt follows the walking pose.
+      const hx = x + face * 12 * s, handY = y - 17 * s + bob;
+      c.strokeStyle = INK; c.lineWidth = lw;
+      line(x + face * 6 * s, y - 18 * s + bob, hx, handY);
+      c.save(); c.translate(hx, handY); c.rotate(face * (0.18 + sw / s * 0.035));
+      c.lineCap = 'round';
+      c.strokeStyle = glowColor; c.globalAlpha = 0.18; c.lineWidth = 7 * s;
+      line(0, -4 * s, 0, -17 * s);
+      c.globalAlpha = 1; c.strokeStyle = INK; c.lineWidth = 4 * s;
+      line(0, 1 * s, 0, -17 * s);
+      c.strokeStyle = glowColor; c.lineWidth = 2.7 * s;
+      line(0, -4 * s, 0, -17 * s);
+      c.strokeStyle = PAPER; c.lineWidth = 0.75 * s;
+      line(-0.55 * s, -5 * s, -0.55 * s, -16 * s);
+      c.lineWidth = 2.5 * s; line(0, 0, 0, -2.5 * s);
+      c.beginPath(); c.arc(0, 0, 1.7 * s, 0, Math.PI * 2);
+      c.fillStyle = PAPER; c.fill(); c.strokeStyle = INK; c.lineWidth = lw * 0.6; c.stroke();
+      c.restore();
+    }
   }
   function people(x0, x1) {
     const list = [];
@@ -490,9 +604,10 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     list.push(null);
     list.sort((a, b) => (a ? a.y : player.y) - (b ? b.y : player.y));
     const cloths = [GREEN_SOFT, PAPER2, PINK_SOFT];
+    const glowColors = [PINK, '#4fe590', '#39d9ff'];
     for (const n of list) {
       if (n && n.cat) drawCat(n);
-      else if (n) person(n.x, n.y, n.s, cloths[n.cloth], n.dir, n.phase, n.pause <= 0 && !reduce.matches, n.bag ? PAPER : null, 2);
+      else if (n) person(n.x, n.y, n.s, cloths[n.cloth], n.dir, n.phase, n.pause <= 0 && !reduce.matches, n.bag ? PAPER : null, 2, glowColors[n.cloth]);
       else person(player.x, player.y, 2, GREEN, player.face, player.phase, player.moving, PINK, 2.5);
     }
   }
@@ -691,6 +806,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     for (const B of vis) if (B.side === 'S') boothS(B);
     islandEdges(x0, x1);
     for (const I of L.islands) for (const s of I.signs) if (s.cx + 140 >= x0 && s.cx - 140 <= x1) sign(s, I.side, yTop);
+    banquet(x0, x1);
     marker();
     people(x0, x1);
     for (const k of cats) if (k.line) speech(k.x, k.y - CAT_H - 2, k.line, x0, x1);
@@ -737,7 +853,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
   function updateNear(force) {
     let id = null;
     if (L) {
-      const side = player.y < AISLE_MID ? 'N' : 'S';
+      const side = display === 'stage' || player.y < AISLE_MID ? 'N' : 'S';
       const fx = player.x + player.face * BW * 0.12;
       let best = null, bd = Infinity;
       for (const B of L.booths) {
@@ -909,6 +1025,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     // leave room for the overlays: place label and status on top, the dock at the bottom
     let top = w <= 560 ? 94 : 58, bottom = 66;
     if (h < 520) { if (w > 560) top = 52; bottom = 58; } // narrow screens keep the room under the status tags
+    if (display === 'stage' && w <= 560) bottom = 136; // Leave space below the banquet for the hint and two rows of actions.
     const avail = Math.max(140, h - top - bottom);
     scale = clamp(avail / WORLD_H, 0.42, 2.4);
     offY = top + (avail - WORLD_H * scale) / 2;
@@ -932,7 +1049,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     latchR = player.x > L.worldW - EXIT_TRIG - 36;
     initNpcs(d.code);
     initCats(d.code);
-    canvas.setAttribute('aria-label', `${d.hallName} ${d.code} 走道：按住拖著小人走，點設計師即可查看介紹`);
+    canvas.setAttribute('aria-label', `${d.hallName} ${d.code} 走道：按住拖著小人走，${display === 'stage' ? '點舞台即可觀看影片' : '點設計師即可查看介紹'}`);
     camSnap = true;
     updateNear(true);
     kick();
@@ -952,7 +1069,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     const i = ref ? order.findIndex(B => B.b.id === ref) : -1;
     if (i < 0) {
       // not at a booth: the first booth ahead on this side, else the closest one
-      const side = player.y < AISLE_MID ? 'N' : 'S';
+      const side = display === 'stage' || player.y < AISLE_MID ? 'N' : 'S';
       let best = order.find(B => B.side === side && B.cx >= player.x - BW * 0.3);
       if (!best) {
         let bd = Infinity;
