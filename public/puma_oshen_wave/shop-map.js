@@ -2,25 +2,37 @@ const station = {lat:22.997137,lng:120.21295};
 
 // Coordinates and shop information remain on this website; only base tiles are remote.
 export function createShopMap({container, status, onSelect, onPositionsReady = () => {}}) {
-  let userMarker, starMarker;
+  let userMarker, starMarker, markerCluster, selectedMarker;
   let map, selected = null, loading, visibleIds = null, largeServiceMarkers = false;
   const markers = new Map(), positions = new Map(), visuals = new Map(), iconFactories = new Map();
+  const syncMarkers = () => {
+    selectedMarker?.remove();
+    selectedMarker = null;
+    markerCluster.clearLayers();
+    const clustered = [];
+    for (const [id, marker] of markers) {
+      if (visibleIds && !visibleIds.has(id)) continue;
+      // Keep the chosen shop visible without changing the user's zoom level.
+      if (id === selected) selectedMarker = marker.addTo(map);
+      else clustered.push(marker);
+    }
+    markerCluster.addLayers(clustered);
+  };
   const filter = (ids, category = '') => {
     const useLargeMarkers = category === '洋流服務站';
     const resize = largeServiceMarkers !== useLargeMarkers;
     largeServiceMarkers = useLargeMarkers;
     visibleIds = new Set(ids);
     if (!map) return;
-    for (const [id, marker] of markers) {
-      if (resize) marker.setIcon(iconFactories.get(id)());
-      if (visibleIds.has(id)) marker.addTo(map);
-      else marker.remove();
-    }
+    if (resize) for (const [id, marker] of markers) marker.setIcon(iconFactories.get(id)());
+    syncMarkers();
   };
   const focus = (id, {recenter = true} = {}) => {
+    const changed = selected !== id;
     selected = id;
     if (!map) return;
     map.invalidateSize();
+    if (changed) syncMarkers();
     const position = id ? positions.get(id) : station;
     if (position && recenter) map.panTo(position);
     for (const [shopId, marker] of markers) {
@@ -69,6 +81,19 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         status.hidden = false;
         status.textContent = '部分底圖暫時無法載入，仍可查看店家資訊或使用導航連結。';
       });
+      markerCluster = L.markerClusterGroup({
+        maxClusterRadius:45,
+        showCoverageOnHover:false,
+        spiderfyDistanceMultiplier:1.8,
+        iconCreateFunction:cluster => {
+          const count = cluster.getChildCount();
+          const label = document.createElement('span');
+          label.textContent = count;
+          label.setAttribute('aria-label', `${count} 間店家，點擊展開`);
+          label.title = `${count} 間店家，點擊展開`;
+          return L.divIcon({html:label, className:'osm-cluster', iconSize:[44,44]});
+        }
+      }).addTo(map);
       for (const shop of shops) {
         const match = JSON.stringify(shop.sources || []).match(/!3d(-?\d+\.\d+)!4d(-?\d+\.\d+)/);
         const position = (Number.isFinite(shop.latlng?.lat) && Number.isFinite(shop.latlng?.lng) ? shop.latlng : shop.coordinates)
@@ -161,11 +186,11 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
           icon:createIcon()
         });
         marker.on('click', () => onSelect(shop));
-        if (!visibleIds || visibleIds.has(shop.id)) marker.addTo(map);
         markers.set(shop.id, marker);
         visuals.set(shop.id, badge);
         iconFactories.set(shop.id, createIcon);
       }
+      syncMarkers();
       // Recompute layout when the mobile map panel becomes visible.
       const observer = new ResizeObserver(() => map?.invalidateSize());
       observer.observe(container);

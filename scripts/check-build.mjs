@@ -5,6 +5,8 @@ import { isDeepStrictEqual } from 'node:util';
 const root = process.cwd();
 const requiredFiles = [
   'puma_oshen_wave/index.html',
+  'puma_oshen_wave/vendor/leaflet-markercluster/MarkerCluster.css',
+  'puma_oshen_wave/vendor/leaflet-markercluster/leaflet.markercluster.js',
   'puma_oshen_wave/designer.json',
   'puma_oshen_wave/designer/index.html',
   'puma_oshen_wave/designer/js/app.js',

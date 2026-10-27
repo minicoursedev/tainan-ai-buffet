@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-Hant">
+<meta charset="utf-8">
+<title>店家地圖聚合整合測試</title>
+<!-- From the repository root: python3 -m http.server 8774 --bind 127.0.0.1
+     Open http://127.0.0.1:8774/scripts/test-shop-map.html. Not part of public/. -->
+<link rel="stylesheet" href="../public/puma_oshen_wave/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="../public/puma_oshen_wave/vendor/leaflet-markercluster/MarkerCluster.css">
+<link rel="stylesheet" href="../public/puma_oshen_wave/style.css">
+<script src="../public/puma_oshen_wave/vendor/leaflet/leaflet.js"></script>
+<script src="../public/puma_oshen_wave/vendor/leaflet-markercluster/leaflet.markercluster.js"></script>
+<style>body{padding:20px}#fixture,#hidden-fixture{width:600px;max-width:100%;height:360px}li{margin:8px 0}</style>
+<h2>店家地圖聚合整合測試</h2>
+<p id="result" role="status">執行中…</p><ol id="checks"></ol>
+<div id="fixture"></div><p id="map-status" hidden></p>
+<div id="hidden-fixture" style="display:none"></div>
+<script type="module">
+import {createShopMap} from '../public/puma_oshen_wave/shop-map.js';
+
+const station = {lat:22.997137,lng:120.21295};
+const ids = ['a','b','c','chen-ting-fei-campaign-headquarters'];
+const shops = ids.map(id => ({id, name:id, category:'咖啡廳', latlng:station}));
+shops.push({id:'invalid', name:'invalid', coordinates:{lat:99,lng:0}});
+const container = document.querySelector('#fixture');
+const status = document.querySelector('#map-status');
+const assert = (condition, message) => {if (!condition) throw new Error(message);};
+const waitFor = async predicate => {
+  const deadline = performance.now()+3000;
+  while (!predicate()) {
+    if (performance.now()>deadline) throw new Error('Timed out waiting for map state');
+    await new Promise(resolve => setTimeout(resolve,20));
+  }
+};
+const check = async (name, run) => {
+  await run();
+  const item = document.createElement('li'); item.textContent = `通過：${name}`;
+  document.querySelector('#checks').append(item);
+};
+// Use real Leaflet and markercluster, with local blank tiles for deterministic offline tests.
+const originalMap = L.map, originalTiles = L.tileLayer;
+let nativeMap, positions, clicked;
+L.map = (...args) => (nativeMap=originalMap(...args));
+L.tileLayer = (_url, options) => originalTiles(L.Util.emptyImageUrl, options);
+const api = createShopMap({container,status,onSelect:shop => {
+  clicked=shop.id; api.focus(shop.id,{recenter:false});
+},onPositionsReady:value => {positions=value;}});
+try {
+  await check('有效座標完整聚合，略過無效座標', async () => {
+    assert(await api.load(shops),'Map did not load');
+    assert(positions.size===4,'Unexpected position count');
+    assert(container.querySelector('.osm-cluster')?.textContent==='4','Expected one cluster of four');
+  });
+  let group;
+  nativeMap.eachLayer(layer => {if (layer instanceof L.MarkerClusterGroup) group=layer;});
+  await check('分類篩選與反覆切換不重複計數', () => {
+    for (let i=0;i<3;i++) {
+      api.filter(['a','b']);
+      assert(group.getLayers().length===2 && container.querySelector('.osm-cluster')?.textContent==='2','Wrong filtered count');
+      api.filter(ids);
+      assert(group.getLayers().length===4,'Wrong restored count');
+    }
+  });
+  await check('選取店家保持可見與原縮放，切換後回到聚合', () => {
+    const zoom=nativeMap.getZoom();
+    api.focus('a');
+    assert(container.querySelector('.is-selected')?.parentElement.title==='a','Selected shop hidden');
+    assert(group.getLayers().length===3 && nativeMap.getZoom()===zoom,'Selection changed count or zoom');
+    api.focus('b',{recenter:false});
+    assert(container.querySelectorAll('.is-selected').length===1 && group.getLayers().length===3,'Selection left duplicate markers');
+    api.filter(['c']);
+    assert(!container.querySelector('.is-selected') && group.getLayers().length===1,'Filtered-out shop remains');
+    api.focus(null); api.filter(ids);
+  });
+  await check('最高縮放仍重疊的店家可展開並選取', async () => {
+    nativeMap.setView(station,19,{animate:false});
+    await waitFor(() => !container.classList.contains('leaflet-cluster-anim') && container.querySelectorAll('.osm-cluster').length===1);
+    container.querySelector('.osm-cluster').click();
+    await waitFor(() => container.querySelectorAll('.leaflet-overlay-pane path').length===4);
+    await waitFor(() => container.querySelectorAll('.osm-marker').length===4);
+    await waitFor(() => !container.classList.contains('leaflet-cluster-anim'));
+    container.querySelector('.osm-marker[title="a"]').click();
+    await waitFor(() => container.querySelector('.is-selected')?.parentElement.title==='a');
+    assert(clicked==='a' && group.getLayers().length===3,'Expanded marker cannot be selected');
+  });
+  await check('服務站圖示大小可隨分類調整', () => {
+    const id=ids[3]; api.filter([id],'洋流服務站'); api.focus(id);
+    const large=container.querySelector('.osm-artwork-pin').style.width;
+    api.filter(ids); const small=container.querySelector('.osm-artwork-pin').style.width;
+    assert(parseFloat(large)>parseFloat(small),'Service marker failed to resize');
+  });
+  await check('我的位置及幸運星不加入店家數量', async () => {
+    api.focus(null); api.filter(ids);
+    assert(api.locate(station),'Location not displayed');
+    await waitFor(() => container.querySelector('path.leaflet-interactive'));
+    api.showStar({latlng:station,shopId:'a'},shops[0]);
+    assert(group.getLayers().length===4 && container.querySelector('.lucky-star-pin'),'Star affected clustering');
+    api.clearStar();
+    assert(!container.querySelector('.lucky-star-pin') && group.getLayers().length===4,'Star cleanup affected clustering');
+  });
+  await check('空分類清除店家標記後可還原', () => {
+    api.filter([]); assert(group.getLayers().length===0,'Empty filter retained shops');
+    api.filter(ids); assert(group.getLayers().length===4,'Could not restore shops');
+  });
+  await check('手機隱藏地圖載入後，顯示時保留已選店家', async () => {
+    const hidden=document.querySelector('#hidden-fixture');
+    const second=createShopMap({container:hidden,status,onSelect:()=>{}});
+    second.filter(['a','b']); second.focus('a');
+    assert(await second.load(shops),'Hidden map load failed');
+    hidden.style.display='block';
+    await waitFor(() => hidden.querySelector('.is-selected')?.parentElement.title==='a');
+    await waitFor(() => hidden.querySelectorAll('.osm-marker').length===2);
+  });
+  document.querySelector('#result').textContent='8 / 8 通過';
+} catch (error) {
+  document.querySelector('#result').textContent=`失敗：${error.message}`;
+  console.error(error);
+} finally {
+  L.map=originalMap; L.tileLayer=originalTiles;
+}
+</script>
+</html>
