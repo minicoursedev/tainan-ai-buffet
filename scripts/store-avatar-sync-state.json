@@ -6213,6 +6213,56 @@
       "lastAttempt": "2026-10-26T19:45:31+08:00",
       "result": "needs-review",
       "reason": "既有頭像未確認為官方頭像"
+    },
+    "letsgolin-service-office": {
+      "qualityChecks": [
+        {
+          "source": "https://page.line.me/pud0181n",
+          "platform": "line",
+          "imageUrl": "https://profile.line-scdn.net/0h74AxtuNSaBt8AULk4UEXTEBEZnYLL25TBGIvKFlUMyhUMCYeFG90LgoCMSJVYStIFDJ0L18CYixR/preview",
+          "size": [
+            200,
+            200
+          ],
+          "evidence": "官方 LINE 頁面 img alt=\"Show profile photo\"；林俊憲 | LINE Official Account",
+          "result": "low-resolution"
+        },
+        {
+          "source": "https://www.threads.com/@letsgolin?hl=zh-tw",
+          "platform": "threads",
+          "imageUrl": "https://instagram.fkhh1-1.fna.fbcdn.net/v/t51.82787-19/525199513_17918361423107693_7439934322004707748_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDc2LmMyIn0&_nc_ht=instagram.fkhh1-1.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2gFCvNpAYeo4KwWTl3tP2tOanXLAUG7xo5JGJQyExWSeL6IO_K8UfLjDFAKBpIjr9N4&_nc_ohc=Rzngq44MhpIQ7kNvwEh1FoB&_nc_gid=wkD7llBrQtGhbI5QlRldNQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQMeTGu4wjE8QHHufuU1wHcrNkwg4UuQwWIhncuJ7MFFeA&oe=6AE60609&_nc_sid=10d13b",
+          "size": [
+            320,
+            320
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；林俊憲（@letsgolin） • Threads，暢所欲言；相同帳號公開資料 hd_profile_pic_versions",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "b8870a66622241cb969345e115c6b76dd7b184e675d0c70e42210e03720d2eed",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        320,
+        320
+      ],
+      "imageValidators": {
+        "last-modified": "Sat, 26 Jul 2025 09:32:19 GMT"
+      },
+      "source": "https://www.threads.com/@letsgolin?hl=zh-tw",
+      "imageUrl": "https://instagram.fkhh1-1.fna.fbcdn.net/v/t51.82787-19/525199513_17918361423107693_7439934322004707748_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDc2LmMyIn0&_nc_ht=instagram.fkhh1-1.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2gFCvNpAYeo4KwWTl3tP2tOanXLAUG7xo5JGJQyExWSeL6IO_K8UfLjDFAKBpIjr9N4&_nc_ohc=Rzngq44MhpIQ7kNvwEh1FoB&_nc_gid=wkD7llBrQtGhbI5QlRldNQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQMeTGu4wjE8QHHufuU1wHcrNkwg4UuQwWIhncuJ7MFFeA&oe=6AE60609&_nc_sid=10d13b",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；林俊憲（@letsgolin） • Threads，暢所欲言；相同帳號公開資料 hd_profile_pic_versions",
+      "filename": "letsgolin-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T12:52:46+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-27T12:52:46+08:00",
+      "result": "updated",
+      "reason": "首次保存"
     }
   }
 }
