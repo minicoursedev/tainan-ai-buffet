@@ -5480,7 +5480,7 @@
       "verification": false,
       "category": "洋流服務站",
       "giftStatus": "可能有小物",
-      "name": "洋流服務處",
+      "name": "林俊憲中西區服務處",
       "address": "台南市中西區永華路一段305號",
       "social": {
         "facebook": "https://www.facebook.com/seeklin",
@@ -5495,7 +5495,7 @@
         "https://www.openstreetmap.org/node/11060982104"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供Facebook、Threads、地址及指定名稱「洋流服務處」，沿用「洋流服務站」分類。本次比對全部既有紀錄（含disabled）與待查資料，確認為既有letsgolin-service-office，更新原紀錄、不重複新增；verification及disabled保留原值。查證子代理與主代理讀取立法院第11屆林俊憲委員官方頁，核對中西區服務處為臺南市中西區永華路一段305號、專線06-299-8266；官方LINE認證帳號亦列相同門牌。指定Facebook及Threads公開頁均為林俊憲，Threads另明確外連指定Facebook。地址未變，保留既有OSM門牌座標。未取得Instagram官方外連證據，暫留空。",
+      "verificationNote": "使用者提供Facebook、Threads、地址及指定分類「洋流服務處」（統一為洋流服務站），沿用「洋流服務站」分類。本次比對全部既有紀錄（含disabled）與待查資料，確認為既有letsgolin-service-office，更新原紀錄、不重複新增；verification及disabled保留原值。查證子代理與主代理讀取立法院第11屆林俊憲委員官方頁，核對中西區服務處為臺南市中西區永華路一段305號、專線06-299-8266；官方LINE認證帳號亦列相同門牌。指定Facebook及Threads公開頁均為林俊憲，Threads另明確外連指定Facebook。地址未變，保留既有OSM門牌座標。未取得Instagram官方外連證據，暫留空。",
       "openingHours": {
         "status": "unverified",
         "text": "固定服務時間待確認，請洽官方社群或致電06-299-8266確認。",
@@ -5527,6 +5527,60 @@
         "label": "林俊憲",
         "image": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/letsgolin-service-office/logo.webp?v=b8870a66622241cb",
         "source": "https://www.threads.com/@letsgolin?hl=zh-tw"
+      }
+    },
+    {
+      "id": "teamshenchennan-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "沈震南北區服務處",
+      "address": "台南市北區和緯路二段149號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": "https://www.threads.com/@teamshenchennan"
+      },
+      "sources": [
+        "https://www.threads.com/@teamshenchennan",
+        "https://www.threads.com/@teamshenchennan/post/Deny2yeFI4Z",
+        "https://www.threads.com/@teamshenchennan/post/DVLNelVE40S",
+        "https://www.threads.com/@teamshenchennan/post/DVduibvk0eL",
+        "https://www.openstreetmap.org/node/11060908725"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供沈震南Threads帳號並指定「洋流服務處」分類，沿用既有「洋流服務站」分類；新增店家verification依本次指示設為JSON布林值true。查證子代理直接讀取官方Threads公開頁，確認姓名沈震南、自介為中西區及北區市議員參選人。本人洋流飄帶公告Deny2yeFI4Z明列「上升流地點：臺南市北區和緯路二段149號」，主代理另讀原頁核對；本人貼文DVduibvk0eL另將同址列為震東、震南北區服務處。本次僅收錄明確公告的北區洋流據點，不將中西區另一服務處或小北夜市成立大會場地另增為店家。已比對全部既有紀錄（含disabled）及待查資料的姓名、地址與社群，未發現重複；既有林俊憲服務處為不同人物及地址，保留原紀錄。Facebook與Instagram未取得足夠官方帳號外連證據，留空。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "固定服務時間待確認，請洽官方Threads。",
+        "sources": [
+          "https://www.threads.com/@teamshenchennan",
+          "https://www.threads.com/@teamshenchennan/post/Deny2yeFI4Z"
+        ],
+        "checkedAt": "2026-10-27",
+        "auditNote": "未取得完整固定服務時間；10/19上午10點等為單次發放時段，不據以推定常態服務時間或公休日。"
+      },
+      "visitNote": "沈震南北區服務據點；使用者提供選區為中西區／北區、號次11號。",
+      "disabled": false,
+      "latlng": {
+        "lat": 23.0117246,
+        "lng": 120.2071293
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060908725",
+      "coordinateNote": "2026-10-27 查證子代理優先查詢OpenStreetMap，完整地址查無結果後改以149 和緯路二段、臺南市、北區、臺灣結構化門牌查詢，取得節點11060908725。主代理另直接讀OSM節點API核對addr:full為臺南市北區成德里14鄰和緯路二段149號，道路、149號門牌及行政區均與沈震南官方洋流公告相符，來源為臺南市政府。採門牌數值座標23.0117246、120.2071293，未使用道路中心或地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/teamshenchennan-service-office/logo.webp?v=fb9c414074a2ab0f",
+        "source": "https://www.threads.com/@teamshenchennan",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方Threads公開個人頁名稱為沈震南、帳號teamshenchennan；同一使用者資料hd_profile_pic_versions明示此個人檔案頭像原生320×320版本。查證子代理及主代理均以未改寫的完整原始URL讀取，確認HTTP200、Content-Type image/jpeg、JPEG實際尺寸320×320，足供Logo使用；非貼文og:image或100px分享縮圖，未更動尺寸及簽章參數。新店圖片網址留空。",
+        "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/639894469_18043544474519156_80322043625116244_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGv7qomZUrVmg51lEqDlRmjPz23XP-MnxsWuYaY88-iUJn7ubQLZODEYCzEjy_PNjs&_nc_ohc=rQUY41FrmCQQ7kNvwEYWtus&_nc_gid=qCTvS4EdlmOjy5Fv76Z29A&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQOAA93amghtu58bUlYGG34xkyFxJJkPUt6Qu-9WUPpP6A&oe=6AE6492B&_nc_sid=10d13b"
+      },
+      "mapMarker": {
+        "label": "沈震南",
+        "image": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/teamshenchennan-service-office/logo.webp?v=fb9c414074a2ab0f",
+        "source": "https://www.threads.com/@teamshenchennan"
       }
     }
   ],
