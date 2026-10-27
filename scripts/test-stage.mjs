@@ -64,15 +64,19 @@ test('halls keep separate aisles and retain an empty hall for upcoming videos', 
   assert.throws(() => createCatalogue({ halls, stages: [{ ...record('unknown'), hall: 'unknown' }] }));
 });
 
-test('the current catalogue loads and preserves the original video identity when reordered', async () => {
+test('the current catalogue preserves video identity and groups single-song authors on the public stage', async () => {
   const data = JSON.parse(await readFile(new URL('../public/puma_oshen_wave/stage/videos.json', import.meta.url), 'utf8'));
   const catalogue = createCatalogue(data);
   const original = catalogue.stages.find(stage => stage.id === 'ocean-drifts-over-taipei');
   assert.equal(original.video.url, videoUrl);
   assert.equal(original.creator, '謝和弦 R-chord');
-  assert.equal(catalogue.halls.length, new Set(catalogue.stages.map(stage => stage.creator)).size);
+  const counts = new Map();
+  for (const stage of catalogue.stages) counts.set(stage.creator, (counts.get(stage.creator) || 0) + 1);
+  assert.equal(catalogue.halls.length, [...counts.values()].filter(count => count > 1).length + 1);
+  assert.equal(catalogue.halls[0].name, '公共舞台');
   for (const stage of catalogue.stages) {
-    assert.equal(catalogue.halls.find(hall => hall.id === stage.hallId).name, stage.creator);
+    if (counts.get(stage.creator) === 1) assert.equal(stage.hallId, 'public-stage');
+    else assert.equal(catalogue.halls.find(hall => hall.id === stage.hallId).name, stage.creator);
   }
   assert.equal(new Set(catalogue.stages.filter(stage => stage.creator === '忙活').map(stage => stage.hallId)).size, 1);
 });

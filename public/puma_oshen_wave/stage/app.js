@@ -36,7 +36,7 @@ function updateStatus() {
   const stages = hallStages();
   const count = stages.filter(stage => visited.has(stage.id)).length;
   $('status-count').textContent = stages.length ? `已造訪 ${count} / ${stages.length} 座舞台` : '影片準備中';
-  $('btn-next').disabled = !stages.length;
+  $('btn-next').disabled = catalogue.halls.length < 2;
   $('btn-continuous').disabled = !stages.length;
 }
 
@@ -256,7 +256,10 @@ async function boot() {
     },
   });
   $('btn-watch').addEventListener('click', () => openStage(byBooth.get(nearId)));
-  $('btn-next').addEventListener('click', () => walk.nextBooth());
+  $('btn-next').addEventListener('click', () => {
+    const index = catalogue.halls.findIndex(hall => hall.id === hallId);
+    selectHall(catalogue.halls[(index + 1) % catalogue.halls.length].id);
+  });
   $('btn-continuous').addEventListener('click', () => {
     continuousIndex = -1;
     advanceContinuous();

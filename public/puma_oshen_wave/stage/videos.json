@@ -1,39 +1,14 @@
 {
   "halls": [
     {
-      "id": "author-shen-puma",
-      "name": "沈伯洋Puma",
-      "code": "A"
-    },
-    {
-      "id": "author-r-chord",
-      "name": "謝和弦 R-chord",
-      "code": "B"
-    },
-    {
-      "id": "author-fearless-music",
-      "name": "台派音樂FearlessMusic",
-      "code": "C"
+      "id": "public-stage",
+      "name": "公共舞台",
+      "code": "P"
     },
     {
       "id": "author-john90222",
       "name": "花美男歐爸",
       "code": "D"
-    },
-    {
-      "id": "author-midnight-songwriter",
-      "name": "凌晨寫歌的人",
-      "code": "E"
-    },
-    {
-      "id": "author-ederwa-hong",
-      "name": "Ederwa Hong",
-      "code": "F"
-    },
-    {
-      "id": "author-wind-j",
-      "name": "Wind J 風的旅程",
-      "code": "G"
     },
     {
       "id": "author-manghuo",
@@ -46,34 +21,9 @@
       "code": "I"
     },
     {
-      "id": "author-yes100",
-      "name": "Yes100 AI Visual Lab",
-      "code": "J"
-    },
-    {
-      "id": "author-taiwan-beyond",
-      "name": "台灣視界∣Taiwan & Beyond",
-      "code": "K"
-    },
-    {
-      "id": "author-jimmy-sings",
-      "name": "Jimmy唱歌給你聽(Jimmy sings for you)",
-      "code": "L"
-    },
-    {
       "id": "author-benson-hung",
       "name": "Benson Hung",
       "code": "M"
-    },
-    {
-      "id": "author-atma-more",
-      "name": "ATMA MORE 豐盛研究所",
-      "code": "N"
-    },
-    {
-      "id": "author-taitai-records",
-      "name": "台台唱片",
-      "code": "O"
     }
   ],
   "stages": [
@@ -84,7 +34,7 @@
       "url": "https://www.youtube.com/watch?v=Wa3n3KuT028",
       "description": "",
       "disabled": false,
-      "hall": "author-shen-puma"
+      "hall": "public-stage"
     },
     {
       "id": "ocean-drifts-over-taipei",
@@ -93,7 +43,7 @@
       "url": "https://www.youtube.com/watch?v=LnIlsGFRB_4",
       "description": "",
       "disabled": false,
-      "hall": "author-r-chord"
+      "hall": "public-stage"
     },
     {
       "id": "puma-ocean-current",
@@ -102,7 +52,7 @@
       "url": "https://www.youtube.com/watch?v=lBU3N-YVh60",
       "description": "",
       "disabled": false,
-      "hall": "author-fearless-music"
+      "hall": "public-stage"
     },
     {
       "id": "our-taipei",
@@ -120,7 +70,7 @@
       "url": "https://www.youtube.com/watch?v=obUSoRRy2As",
       "description": "",
       "disabled": false,
-      "hall": "author-midnight-songwriter"
+      "hall": "public-stage"
     },
     {
       "id": "taipei-daylight",
@@ -138,7 +88,7 @@
       "url": "https://www.youtube.com/watch?v=AmUAJ06T_w0",
       "description": "",
       "disabled": false,
-      "hall": "author-ederwa-hong"
+      "hall": "public-stage"
     },
     {
       "id": "light-in-ocean-current",
@@ -147,7 +97,7 @@
       "url": "https://www.youtube.com/watch?v=qMZpm2Axftg",
       "description": "",
       "disabled": false,
-      "hall": "author-wind-j"
+      "hall": "public-stage"
     },
     {
       "id": "ocean-current-warmth",
@@ -174,7 +124,7 @@
       "url": "https://www.youtube.com/watch?v=Cc-NGoafhyM",
       "description": "",
       "disabled": false,
-      "hall": "author-yes100"
+      "hall": "public-stage"
     },
     {
       "id": "ocean-current-2-taiwan-beyond",
@@ -183,7 +133,7 @@
       "url": "https://www.youtube.com/watch?v=PUn8bz7p1t0",
       "description": "",
       "disabled": false,
-      "hall": "author-taiwan-beyond"
+      "hall": "public-stage"
     },
     {
       "id": "ocean-current-chiaohui",
@@ -210,7 +160,7 @@
       "url": "https://www.youtube.com/watch?v=XPPOdI-ADaM",
       "description": "",
       "disabled": false,
-      "hall": "author-jimmy-sings"
+      "hall": "public-stage"
     },
     {
       "id": "want-to-vote",
@@ -237,7 +187,7 @@
       "url": "https://www.youtube.com/watch?v=SyId28uJqhg",
       "description": "",
       "disabled": false,
-      "hall": "author-atma-more"
+      "hall": "public-stage"
     },
     {
       "id": "future-route",
@@ -264,7 +214,7 @@
       "url": "https://www.youtube.com/watch?v=7KuPu_n3OU4",
       "description": "",
       "disabled": false,
-      "hall": "author-taitai-records"
+      "hall": "public-stage"
     },
     {
       "id": "chiaohui-ni-hao-hui",
