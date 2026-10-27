@@ -72,6 +72,241 @@
       },
       "coordinateSource": "https://www.google.com/maps/place/data=!4m6!3m5!1s0x3467e4dd222ca985:0x40d6f4ee1884da0c!8m2!3d24.750175!4d121.7549566!16s%2Fg%2F11cmp6__rf",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址、2-20號變體及結構化門牌查詢，未取得符合門牌位置；結構化查詢僅回傳和睦路道路，未採用道路中心。改以瀏覽器查詢Google Maps，子代理及主代理分別核對地點地址260宜蘭縣宜蘭市神農里和睦路2之20號、電話03 932 9828及官方Facebook相符。採地點網址!3d24.750175、!4d121.7549566的緯經度，非@地圖視窗中心，未呼叫付費Geocoding API。"
+    },
+    {
+      "id": "yilan-lin-li-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "林麗服務處",
+      "address": "宜蘭縣宜蘭市公園路497巷22號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2005&clique=DDP&pic=1"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2005&clique=DDP&pic=1"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.7421662,
+        "lng": 121.7555144
+      },
+      "coordinateSource": "https://www.google.com/maps/place/宜蘭縣議員林麗服務處/data=!4m6!3m5!1s0x3467e533d1c77ddf:0xe426b17443eaded1!8m2!3d24.7421662!4d121.7555144!16s%2Fg%2F11gxn92_sz",
+      "coordinateNote": "OSM無精確門牌；Google Maps門牌查詢誤匹配公園路497號，改以宜蘭縣議員林麗服務處名稱搜尋，確認服務處詳細地址為宜蘭市建業里公園路497巷22號，從地點網址!3d/!4d取值。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yilan-lin-li-service-office/logo.webp?v=99af692e0a704357",
+        "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2005&clique=DDP&pic=1",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人介紹頁人像；<img src=\"../../pictures/people/A2005.JPG\" alt=\"林　麗議員\" width=\"100\" height=\"135\">；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 577 × 744。"
+      },
+      "visitNote": "第1選區縣議員 · 4號",
+      "mapMarker": {
+        "label": "林麗",
+        "image": "./assets/yilan-lin-li-marker-4-type-v1.webp",
+        "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2005&clique=DDP&pic=1"
+      }
+    },
+    {
+      "id": "yilan-lin-shi-ying-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "林詩穎服務處",
+      "address": "宜蘭縣頭城鎮新建里新興路284-1號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2008&clique=DDP&pic=2"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2008&clique=DDP&pic=2"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.8561776,
+        "lng": 121.8200578
+      },
+      "coordinateSource": "https://www.google.com/maps/place/261宜蘭縣頭城鎮新建里新興路284-1號/data=!4m6!3m5!1s0x3467f75cf29cd40b:0x8906eecf62e560c9!8m2!3d24.8561776!4d121.8200578!16s%2Fg%2F11csm51c6x",
+      "coordinateNote": "OSM無精確門牌；瀏覽器Google Maps核對縣市、鄉鎮、道路與門牌吻合；由地點網址!3d/!4d取得座標，不使用@地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yilan-lin-shi-ying-service-office/logo.webp?v=97a8c15ca659e138",
+        "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2008&clique=DDP&pic=2",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人介紹頁人像；<img src=\"../../pictures/people/A2008.JPG\" alt=\"林詩穎議員\" width=\"100\" height=\"135\">；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1030 × 1154。"
+      },
+      "visitNote": "第2選區縣議員 · 3號",
+      "mapMarker": {
+        "label": "林詩穎",
+        "image": "./assets/yilan-lin-shi-ying-marker-3-type-v1.webp",
+        "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2008&clique=DDP&pic=2"
+      }
+    },
+    {
+      "id": "yilan-xie-jia-lun-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "謝家倫服務處",
+      "address": "宜蘭縣羅東鎮維揚路107號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2016&clique=DDP&pic=6"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2016&clique=DDP&pic=6"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6718233,
+        "lng": 121.76023
+      },
+      "coordinateSource": "https://www.google.com/maps/place/265宜蘭縣羅東鎮維揚里維揚路107號/data=!4m6!3m5!1s0x3467e688ba1c0071:0x6bc9e3e80d0fc78e!8m2!3d24.6718233!4d121.76023!16s%2Fg%2F11csj6jht7",
+      "coordinateNote": "OSM無精確門牌；瀏覽器Google Maps核對縣市、鄉鎮、道路與門牌吻合；由地點網址!3d/!4d取得座標，不使用@地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yilan-xie-jia-lun-service-office/logo.webp?v=8d4df1dde55339f3",
+        "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2016&clique=DDP&pic=6",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人介紹頁人像；<img src=\"../../pictures/people/A2016.JPG\" alt=\"謝家倫議員\" width=\"100\" height=\"135\">；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 814 × 1054。"
+      },
+      "visitNote": "第6選區縣議員 · 3號",
+      "mapMarker": {
+        "label": "謝家倫",
+        "image": "./assets/yilan-xie-jia-lun-marker-3-type-v1.webp",
+        "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2016&clique=DDP&pic=6"
+      }
+    },
+    {
+      "id": "yilan-lu-hui-qing-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "呂惠卿服務處",
+      "address": "宜蘭縣羅東鎮公正路328號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A1919&clique=DDP&pic=6"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A1919&clique=DDP&pic=6"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6808071,
+        "lng": 121.7613642
+      },
+      "coordinateSource": "https://www.google.com/maps/place/265宜蘭縣羅東鎮樹林里公正路328號/data=!4m6!3m5!1s0x3467e681a6a9e46f:0x11f0f895ca40c637!8m2!3d24.6808071!4d121.7613642!16s%2Fg%2F11c25bhc7l",
+      "coordinateNote": "OSM無精確門牌；瀏覽器Google Maps核對縣市、鄉鎮、道路與門牌吻合；由地點網址!3d/!4d取得座標，不使用@地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yilan-lu-hui-qing-service-office/logo.webp?v=4fb1e37d18836fb7",
+        "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A1919&clique=DDP&pic=6",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人介紹頁人像；<img src=\"../../pictures/people/A2020.JPG\" alt=\"呂惠卿議員\" width=\"100\" height=\"135\">；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1367 × 1582。"
+      },
+      "visitNote": "第6選區縣議員 · 4號",
+      "mapMarker": {
+        "label": "呂惠卿",
+        "image": "./assets/yilan-lu-hui-qing-marker-4-type-v1.webp",
+        "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A1919&clique=DDP&pic=6"
+      }
+    },
+    {
+      "id": "yilan-lin-pei-ying-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "林佩螢服務處",
+      "address": "宜蘭縣冬山鄉冬山路一段928號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2024&clique=DDP&pic=8"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2024&clique=DDP&pic=8"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6330223,
+        "lng": 121.7928094
+      },
+      "coordinateSource": "https://www.google.com/maps/place/269宜蘭縣冬山鄉南興村冬山路一段928號/data=!4m6!3m5!1s0x3467e7cb4e6cb027:0xb5e70cd813b79a6c!8m2!3d24.6330223!4d121.7928094!16s%2Fg%2F11tsj57cdd",
+      "coordinateNote": "OSM無精確門牌；瀏覽器Google Maps核對縣市、鄉鎮、道路與門牌吻合；由地點網址!3d/!4d取得座標，不使用@地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yilan-lin-pei-ying-service-office/logo.webp?v=c5bddb026e37ebde",
+        "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2024&clique=DDP&pic=8",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人介紹頁人像；<img src=\"../../pictures/people/A2024.JPG\" alt=\"林佩螢議員\" width=\"100\" height=\"135\">；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 659 × 894。"
+      },
+      "visitNote": "第8選區縣議員 · 2號",
+      "mapMarker": {
+        "label": "林佩螢",
+        "image": "./assets/yilan-lin-pei-ying-marker-2-type-v1.webp",
+        "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2024&clique=DDP&pic=8"
+      }
     }
   ],
   "pendingStores": []

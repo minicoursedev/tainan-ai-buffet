@@ -25,6 +25,54 @@
     "其它",
     "咖啡豆"
   ],
-  "stores": [],
+  "stores": [
+    {
+      "id": "penghu-su-yu-de-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "蘇育德服務處",
+      "address": "澎湖縣馬公市中興里005鄰文化路36號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.phcouncil.gov.tw/mop2.php?no=M24080008"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.phcouncil.gov.tw/mop2.php?no=M24080008"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.5690899,
+        "lng": 119.567855
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/12264293166",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：36號, 文化路, 埔子尾, 中興里, 馬公市, 澎湖縣, 880001, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/penghu-su-yu-de-service-office/logo.webp?v=b0bcc2d352a330d4",
+        "source": "https://www.phcouncil.gov.tw/mop2.php?no=M24080008",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "澎湖縣議會蘇育德議員個人介紹頁中議員個人照。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 3211 × 4156。"
+      },
+      "visitNote": "第1選區縣議員 · 7號",
+      "mapMarker": {
+        "label": "蘇育德",
+        "image": "./assets/penghu-su-yu-de-marker-7-type-v1.webp",
+        "source": "https://www.phcouncil.gov.tw/mop2.php?no=M24080008"
+      }
+    }
+  ],
   "pendingStores": []
 }

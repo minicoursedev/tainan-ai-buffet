@@ -71,6 +71,664 @@
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；雞禽食舍炸雞店；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。",
         "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/jiqin-shishe.png?v=2ef242cd24853df7"
       }
+    },
+    {
+      "id": "chiayi-county-huang-rong-jun-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "黃榮俊服務處",
+      "address": "嘉義縣水上鄉寬士村9鄰崎子頭25之8號",
+      "social": {
+        "facebook": "https://www.facebook.com/share/15dKcZos6P/?mibextid=wwXIfr",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cyscc.gov.tw/Parliamentary_Content/315/14194"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cyscc.gov.tw/Parliamentary_Content/315/14194"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.446408395623674,
+        "lng": 120.42965966686253
+      },
+      "coordinateSource": "使用者提供",
+      "coordinateNote": "2026-10-27 使用者直接提供服務處座標 23.446408395623674, 120.42965966686253。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-county-huang-rong-jun-service-office/logo.webp?v=3ccb30e65b1703d9",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14194",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1387 × 1626。"
+      },
+      "visitNote": "第1選區縣議員 · 1號",
+      "mapMarker": {
+        "label": "黃榮俊",
+        "image": "./assets/chiayi-county-huang-rong-jun-marker-1-type-v1.webp",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14194"
+      }
+    },
+    {
+      "id": "chiayi-county-huang-rong-li-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "黃榮利服務處",
+      "address": "嘉義縣太保市太保五路116號",
+      "social": {
+        "facebook": "https://www.facebook.com/share/1DfL91uEEK/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cyscc.gov.tw/Parliamentary_Content/315/14187"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cyscc.gov.tw/Parliamentary_Content/315/14187"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4549192,
+        "lng": 120.2981716
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/12648973111",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：116號, 太保五路, 安仁里, 太保市, 嘉義縣, 612, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-county-huang-rong-li-service-office/logo.webp?v=665c74d66f63dcf6",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14187",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1387 × 1626。"
+      },
+      "visitNote": "第1選區縣議員 · 2號",
+      "mapMarker": {
+        "label": "黃榮利",
+        "image": "./assets/chiayi-county-huang-rong-li-marker-2-type-v1.webp",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14187"
+      }
+    },
+    {
+      "id": "chiayi-county-jiang-pei-ye-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "江佩曄服務處",
+      "address": "嘉義縣水上鄉三和村頂寮16-6號",
+      "social": {
+        "facebook": "https://www.facebook.com/share/18G2oUQm5E/?mibextid=wwXIfr",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cyscc.gov.tw/Parliamentary_Content/315/14193"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cyscc.gov.tw/Parliamentary_Content/315/14193"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4584288,
+        "lng": 120.4142144
+      },
+      "coordinateSource": "https://www.google.com/maps/place/608嘉義縣水上鄉三和村頂寮16-6號/@23.4584288,120.4116341,17z/data=!3m1!4b1!4m6!3m5!1s0x346e96b64ab35321:0xeaa3d3b3843984c!8m2!3d23.4584288!4d120.4142144!16s%2Fg%2F11hfycg9kj",
+      "coordinateNote": "OSM無門牌；Google Maps門牌標示三和村頂寮16-6號，縣市鄉鎮與門牌相符，取!3d!4d。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-county-jiang-pei-ye-service-office/logo.webp?v=8cc7d543897ce76d",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14193",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1387 × 1626。"
+      },
+      "visitNote": "第1選區縣議員 · 4號",
+      "mapMarker": {
+        "label": "江佩曄",
+        "image": "./assets/chiayi-county-jiang-pei-ye-marker-4-type-v1.webp",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14193"
+      }
+    },
+    {
+      "id": "chiayi-county-huang-hui-ru-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "黃惠汝服務處",
+      "address": "嘉義縣鹿草鄉鹿草村鹿草路185號",
+      "social": {
+        "facebook": "https://facebook.com/chiayi.energy/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cyscc.gov.tw/Parliamentary_Content/315/14190"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cyscc.gov.tw/Parliamentary_Content/315/14190"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4095243,
+        "lng": 120.3101016
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/12762666515",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：185號, 鹿草路, 鹿草村, 鹿草鄉, 嘉義縣, 611, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-county-huang-hui-ru-service-office/logo.webp?v=fd4b720b49b17c4f",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14190",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1387 × 1626。"
+      },
+      "visitNote": "第1選區縣議員 · 7號",
+      "mapMarker": {
+        "label": "黃惠汝",
+        "image": "./assets/chiayi-county-huang-hui-ru-marker-7-type-v1.webp",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14190"
+      }
+    },
+    {
+      "id": "chiayi-county-lin-xiu-qin-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "林秀琴服務處",
+      "address": "嘉義縣新港鄉大潭村8鄰大潭105號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100004300620885&fref=ts",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cyscc.gov.tw/Parliamentary_Content/315/14201"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cyscc.gov.tw/Parliamentary_Content/315/14201"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.5526113,
+        "lng": 120.3702517
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/12649028984",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：105號, 大潭, 大潭村, 新港鄉, 嘉義縣, 616, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-county-lin-xiu-qin-service-office/logo.webp?v=668a56260957ae3d",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14201",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人頁姓名對應之個人肖像；嘉義頁屆別第20屆；來源HTML已保存。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1387 × 1626。"
+      },
+      "visitNote": "第2選區縣議員 · 6號",
+      "mapMarker": {
+        "label": "林秀琴",
+        "image": "./assets/chiayi-county-lin-xiu-qin-marker-6-type-v1.webp",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14201"
+      }
+    },
+    {
+      "id": "chiayi-county-huang-qi-hao-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "黃啟豪服務處",
+      "address": "嘉義縣新港鄉月眉村129之1號",
+      "social": {
+        "facebook": "https://www.facebook.com/share/15kvMDCWd6/?mibextid=wwXIfr",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cyscc.gov.tw/Parliamentary_Content/315/14197"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cyscc.gov.tw/Parliamentary_Content/315/14197"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.5211532,
+        "lng": 120.3522535
+      },
+      "coordinateSource": "https://www.google.com/maps/place/嘉義縣議員黃啟豪-月眉服務處/@23.5211532,120.1998182,12z/data=!4m10!1m2!2m1!1z5ZiJ576p57ij5paw5riv6YSJ5pyI55yJ5p2RMTI55LmLMeiZnw!3m6!1s0x346e97e13b8d7c4b:0x454118bdef64b259!8m2!3d23.5211532!4d120.3522535!15sCiXlmInnvqnnuKPmlrDmuK_phInmnIjnnInmnZExMjnkuYsx6JmfkgEbYXNzb2NpYXRpb25fb3Jfb3JnYW5pemF0aW9u4AEA!16s%2Fg%2F11twqrdjmj",
+      "coordinateNote": "OSM無門牌；Google Maps月眉服務處明示月眉村129-1號，與議會及表格一致，取!3d!4d。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-county-huang-qi-hao-service-office/logo.webp?v=13e25297c63d6829",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14197",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1387 × 1626。"
+      },
+      "visitNote": "第2選區縣議員 · 9號",
+      "mapMarker": {
+        "label": "黃啟豪",
+        "image": "./assets/chiayi-county-huang-qi-hao-marker-9-type-v1.webp",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14197"
+      }
+    },
+    {
+      "id": "chiayi-county-lin-shu-wan-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "林淑完服務處",
+      "address": "嘉義縣民雄鄉西安路46-1號",
+      "social": {
+        "facebook": "https://www.facebook.com/shuwan.lin.2025/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cyscc.gov.tw/Parliamentary_Content/315/14200"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cyscc.gov.tw/Parliamentary_Content/315/14200"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.5575596,
+        "lng": 120.4241165
+      },
+      "coordinateSource": "https://www.google.com/maps/place/國聲電器行/@23.5575596,120.4215362,17z/data=!3m1!4b1!4m6!3m5!1s0x346ebdc2d2c8e14b:0xc8d20521a566d83b!8m2!3d23.5575596!4d120.4241165!16s%2Fg%2F1pzpyw0v7",
+      "coordinateNote": "OSM無精確門牌。議會電話05-2261260對應國聲電器行POI；Maps店家2022年3月門面照片清楚可見林淑完議員服務處招牌。中華黃頁同電話及西安路46號之1，Maps文字略為46號；採本人服務處共用地點POI的!3d!4d，保留表格46-1號。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-county-lin-shu-wan-service-office/logo.webp?v=9e8369db47217262",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14200",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1387 × 1626。"
+      },
+      "visitNote": "第2選區縣議員 · 14號",
+      "mapMarker": {
+        "label": "林淑完",
+        "image": "./assets/chiayi-county-lin-shu-wan-marker-14-type-v1.webp",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14200"
+      }
+    },
+    {
+      "id": "chiayi-county-jiang-zhi-ming-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "江志明服務處",
+      "address": "嘉義縣大林鎮西林里14鄰祥和路247號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100001923268604",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cyscc.gov.tw/Parliamentary_Content/315/14203"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cyscc.gov.tw/Parliamentary_Content/315/14203"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.6036163,
+        "lng": 120.4518226
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/12649093340",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：247號, 祥和路, 西林里, 大林鎮, 嘉義縣, 622, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-county-jiang-zhi-ming-service-office/logo.webp?v=cd2c2abf373875b9",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14203",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1387 × 1626。"
+      },
+      "visitNote": "第3選區縣議員 · 3號",
+      "mapMarker": {
+        "label": "江志明",
+        "image": "./assets/chiayi-county-jiang-zhi-ming-marker-3-type-v1.webp",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14203"
+      }
+    },
+    {
+      "id": "chiayi-county-zhuang-xin-zong-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "莊信宗服務處",
+      "address": "嘉義縣梅山鄉大南村水尾1之5號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100005024320133",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cyscc.gov.tw/Parliamentary_Content/315/14202"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cyscc.gov.tw/Parliamentary_Content/315/14202"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.5526862,
+        "lng": 120.5488167
+      },
+      "coordinateSource": "https://www.google.com/maps/place/莊信宗議員服務處/@23.5527638,120.3963764,12z/data=!4m10!1m2!2m1!1z5ZiJ576p57ij5qKF5bGx6YSJ5aSn5Y2X5p2R5rC05bC-MeS5izXomZ8!3m6!1s0x346ec1002733d687:0xa1770551144c41fc!8m2!3d23.5526862!4d120.5488167!15sCinlmInnvqnnuKPmooXlsbHphInlpKfljZfmnZHmsLTlsL4x5LmLNeiZn5IBF25vbl9wcm9maXRfb3JnYW5pemF0aW9u4AEA!16s%2Fg%2F11m_8ylgzz",
+      "coordinateNote": "OSM無門牌；Maps實際莊信宗議員服務處!3d!4d，2025年4月街景可見莊信宗服務處招牌。Maps顯示大南村嘉106-3鄉道2號，與表格/議會水尾1之5號文字不同，保留原表地址；座標依本人服務處定位。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-county-zhuang-xin-zong-service-office/logo.webp?v=8e288b10e7f591de",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14202",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1387 × 1626。"
+      },
+      "visitNote": "第3選區縣議員 · 7號",
+      "mapMarker": {
+        "label": "莊信宗",
+        "image": "./assets/chiayi-county-zhuang-xin-zong-marker-7-type-v1.webp",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14202"
+      }
+    },
+    {
+      "id": "chiayi-county-chen-yi-yue-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "陳怡岳服務處",
+      "address": "嘉義縣朴子市平和路7號",
+      "social": {
+        "facebook": "https://www.facebook.com/yuyuehchen.tw",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cyscc.gov.tw/Parliamentary_Content/315/14208"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cyscc.gov.tw/Parliamentary_Content/315/14208"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4649232,
+        "lng": 120.2474356
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/12762454718",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：7號, 平和路, 平和里, 朴子市, 嘉義縣, 613, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-county-chen-yi-yue-service-office/logo.webp?v=4d45aa92c6157f27",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14208",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人頁姓名對應之個人肖像；嘉義頁屆別第20屆；來源HTML已保存。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1387 × 1626。"
+      },
+      "visitNote": "第4選區縣議員 · 6號",
+      "mapMarker": {
+        "label": "陳怡岳",
+        "image": "./assets/chiayi-county-chen-yi-yue-marker-6-type-v1.webp",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14208"
+      }
+    },
+    {
+      "id": "chiayi-county-weng-cong-xian-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "翁聰賢服務處",
+      "address": "嘉義縣義竹鄉義竹村117號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100001353691912",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cyscc.gov.tw/Parliamentary_Content/315/14214"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cyscc.gov.tw/Parliamentary_Content/315/14214"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.3336933,
+        "lng": 120.2492139
+      },
+      "coordinateSource": "https://www.google.com/maps/place/624嘉義縣義竹鄉義竹村義竹117號/data=!4m5!3m4!1s0x346e83f5173289cd:0x4d94801ec1763102!8m2!3d23.3336933!4d120.2492139",
+      "coordinateNote": "主代理OSM全址及結構化查詢無精確門牌。瀏覽器Google Maps核對該縣市/鄉鎮/道路/門牌後，擷取地點!3d/!4d，不用@視窗中心。完整「義竹村117號」未匹配，使用地名型地址「義竹117號」定位為624嘉義縣義竹鄉義竹村義竹117號；未採同名服務處但門牌不符的624號POI。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-county-weng-cong-xian-service-office/logo.webp?v=9a0ad2b8fb8ad613",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14214",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人頁姓名對應之個人肖像；嘉義頁屆別第20屆；來源HTML已保存。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1387 × 1626。"
+      },
+      "visitNote": "第5選區縣議員 · 1號",
+      "mapMarker": {
+        "label": "翁聰賢",
+        "image": "./assets/chiayi-county-weng-cong-xian-marker-1-type-v1.webp",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14214"
+      }
+    },
+    {
+      "id": "chiayi-county-chen-bai-lin-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "陳柏麟服務處",
+      "address": "嘉義縣中埔鄉和興村中華路853號",
+      "social": {
+        "facebook": "https://www.facebook.com/people/%E9%99%B3%E6%9F%8F%E9%BA%9F/100002292038415/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cyscc.gov.tw/Parliamentary_Content/315/14218"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cyscc.gov.tw/Parliamentary_Content/315/14218"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4498232,
+        "lng": 120.4593837
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/12649617537",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：853號, 中華路, 廍仔, 和興村, 中埔鄉, 嘉義縣, 606, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-county-chen-bai-lin-service-office/logo.webp?v=851be48f117388df",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14218",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人頁姓名對應之個人肖像；嘉義頁屆別第20屆；來源HTML已保存。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1387 × 1626。"
+      },
+      "visitNote": "第6選區縣議員 · 2號",
+      "mapMarker": {
+        "label": "陳柏麟",
+        "image": "./assets/chiayi-county-chen-bai-lin-marker-2-type-v1.webp",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14218"
+      }
+    },
+    {
+      "id": "chiayi-county-luo-shi-yang-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "羅士洋服務處",
+      "address": "嘉義縣中埔鄉中埔村中埔80-51號",
+      "social": {
+        "facebook": "https://www.facebook.com/share/19uWbj3c6B/?mibextid=wwXIfr",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cyscc.gov.tw/Parliamentary_Content/315/14217"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cyscc.gov.tw/Parliamentary_Content/315/14217"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4231386,
+        "lng": 120.5223284
+      },
+      "coordinateSource": "https://www.google.com/maps/place/嘉義縣羅士洋議員服務處/data=!3m6!1s0x346e934ac370a76d:0xadb131a8305b6897!8m2!3d23.4231386!4d120.5223284!16s%2Fg%2F11f7qygn7r",
+      "coordinateNote": "主代理OSM全址及結構化查詢無精確門牌。瀏覽器Google Maps核對該縣市/鄉鎮/道路/門牌後，擷取地點!3d/!4d，不用@視窗中心。精確本人POI「嘉義縣羅士洋議員服務處」詳細地址為606嘉義縣中埔鄉中埔村80之51號，電話05-2538888。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-county-luo-shi-yang-service-office/logo.webp?v=f7c16874b9a9bc62",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14217",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人頁姓名對應之個人肖像；嘉義頁屆別第20屆；來源HTML已保存。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1387 × 1626。"
+      },
+      "visitNote": "第6選區縣議員 · 5號",
+      "mapMarker": {
+        "label": "羅士洋",
+        "image": "./assets/chiayi-county-luo-shi-yang-marker-5-type-v1.webp",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14217"
+      }
+    },
+    {
+      "id": "chiayi-county-jiang-ji-zhen-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "江季珍服務處",
+      "address": "嘉義縣竹崎鄉和平村自由路二段225附5號旁",
+      "social": {
+        "facebook": "https://www.facebook.com/share/14n55R2f2X/?mibextid=wwXIfr",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cyscc.gov.tw/Parliamentary_Content/315/14216"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cyscc.gov.tw/Parliamentary_Content/315/14216"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.5147236,
+        "lng": 120.5489836
+      },
+      "coordinateSource": "https://www.google.com/maps/place/604嘉義縣竹崎鄉自由路225-5號5号/data=!4m5!3m4!1s0x346ec018f1193beb:0xb56ab4dc46c7b83f!8m2!3d23.5147236!4d120.5489836",
+      "coordinateNote": "以官方地址所給的參照門牌定位：服務處在自由路二段225附5號旁，地圖標在225-5號參照門牌，並非宣稱精確入口。Google Maps顯示604嘉義縣竹崎鄉自由路225-5號5号，省略二段。2026-10-23江季珍官方FB邀請圖明列和平村自由路二段225附5號旁，小地圖為中山路與自由路交會、福懋竹崎加油站在交叉口東北側、競總在加油站以東的自由路南側；Maps參照門牌位於同一交會關係與同一路側（加油站以東約140公尺）。同鄉、相同門牌與官方小地圖位置關係一致，據此認定Maps省略二段為此參照門牌的異寫。座標擷取自實際地點網址!3d/!4d，不使用@視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-county-jiang-ji-zhen-service-office/logo.webp?v=8cfff42a5b8969f6",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14216",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人頁與姓名對應的議員肖像；原圖未加工；來源HTML已保存。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1387 × 1626。"
+      },
+      "visitNote": "第6選區縣議員 · 8號",
+      "mapMarker": {
+        "label": "江季珍",
+        "image": "./assets/chiayi-county-jiang-ji-zhen-marker-8-type-v1.webp",
+        "source": "https://www.cyscc.gov.tw/Parliamentary_Content/315/14216"
+      }
     }
   ],
   "pendingStores": []

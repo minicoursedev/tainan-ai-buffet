@@ -72,6 +72,946 @@
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Trillion日兆共享商務空間；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 489 × 489。",
         "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/trillion-coworking-zhongli.png?v=3848684a906d873c"
       }
+    },
+    {
+      "id": "taoyuan-yu-xin-xian-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "余信憲服務處",
+      "address": "桃園市桃園區中興里忠一路72號1樓",
+      "social": {
+        "facebook": "https://www.facebook.com/Hsin0905",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=975"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=975"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.9958629,
+        "lng": 121.3006405
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11193191557",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：72號, 忠一路, 中路計畫區, 光興里, 桃園區, 桃園市, 330, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-yu-xin-xian-service-office/logo.webp?v=fe30500d80c6cb6e",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=975",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/余信憲.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 800 × 1200。"
+      },
+      "visitNote": "第1選區市議員 · 2號",
+      "mapMarker": {
+        "label": "余信憲",
+        "image": "./assets/taoyuan-yu-xin-xian-marker-2-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=975"
+      }
+    },
+    {
+      "id": "taoyuan-huang-qiong-hui-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "黃瓊慧服務處",
+      "address": "桃園市桃園區文昌里中山路129號",
+      "social": {
+        "facebook": "https://www.facebook.com/pupudog0308/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=974"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=974"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.9937214,
+        "lng": 121.3099617
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11192736458",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：129號, 中山路, 文昌里, 桃園區, 桃園市, 330, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-huang-qiong-hui-service-office/logo.webp?v=f853f5f6be8ee075",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=974",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/黃瓊慧.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 266 × 342。"
+      },
+      "visitNote": "第1選區市議員 · 7號",
+      "mapMarker": {
+        "label": "黃瓊慧",
+        "image": "./assets/taoyuan-huang-qiong-hui-marker-7-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=974"
+      }
+    },
+    {
+      "id": "taoyuan-huang-jia-qi-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "黃家齊服務處",
+      "address": "桃園市桃園區中正里仁愛路10號",
+      "social": {
+        "facebook": "http://www.facebook.com/people/%E9%BB%83%E5%AE%B6%E9%BD%8A/100006604742567",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=982"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=982"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.9937767,
+        "lng": 121.2947564
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11192958647",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：10號, 仁愛路, 中正里, 桃園區, 桃園市, 330, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-huang-jia-qi-service-office/logo.webp?v=0f0a6443c91d33ee",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=982",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/黃家齊.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 2400 × 3000。"
+      },
+      "visitNote": "第1選區市議員 · 10號",
+      "mapMarker": {
+        "label": "黃家齊",
+        "image": "./assets/taoyuan-huang-jia-qi-marker-10-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=982"
+      }
+    },
+    {
+      "id": "taoyuan-li-guang-da-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "李光達服務處",
+      "address": "桃園市桃園區中興里忠二路2巷9號1樓",
+      "social": {
+        "facebook": "http://www.facebook.com/pages/%e6%9d%8e%e5%85%89%e9%81%94%e6%84%9b%e6%a1%83%e5%9c%92/124527090974795",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=979"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=979"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.9969415,
+        "lng": 121.303998
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11192515466",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：9號, 忠二路2巷, 湖里, 中興里, 桃園區, 桃園市, 330, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-li-guang-da-service-office/logo.webp?v=84b1390db79da52b",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=979",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/李光達.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1874 × 2576。"
+      },
+      "visitNote": "第1選區市議員 · 15號",
+      "mapMarker": {
+        "label": "李光達",
+        "image": "./assets/taoyuan-li-guang-da-marker-15-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=979"
+      }
+    },
+    {
+      "id": "taoyuan-li-zong-hao-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "李宗豪服務處",
+      "address": "桃園市龜山區山德里山鶯路1巷15-1號",
+      "social": {
+        "facebook": "https://www.facebook.com/TYleehao/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=984"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=984"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.9911797,
+        "lng": 121.3221099
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E5%93%A1%E6%9D%8E%E5%AE%97%E8%B1%AA%E6%9C%8D%E5%8B%99%E8%99%95/@24.9911797,121.3221099,17z/data=!3m1!4b1!4m6!3m5!1s0x34681f1d679d4a8d:0xbc4ab568ad425a6a!8m2!3d24.9911797!4d121.3221099!16s%2Fg%2F11fvgxpn6t?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateNote": "Google Maps服務處名稱桃園市議員李宗豪服務處，地址山德里山鶯路1巷15之1號與表格相符；取實際地點!3d!4d。全址搜尋曾回錯354-1號已排除。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-li-zong-hao-service-office/logo.webp?v=c4e872f2dc4a7c78",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=984",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/李宗豪.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1610 × 1610。"
+      },
+      "visitNote": "第2選區市議員 · 3號",
+      "mapMarker": {
+        "label": "李宗豪",
+        "image": "./assets/taoyuan-li-zong-hao-marker-3-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=984"
+      }
+    },
+    {
+      "id": "taoyuan-chen-ya-lun-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "陳雅倫服務處",
+      "address": "桃園市龜山區舊路里振興路795巷19之1號2樓",
+      "social": {
+        "facebook": "http://www.facebook.com/profile.php?id=2141577432747856",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=983"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會服務處龜山區振興路795巷19之1號2樓與表格一致；保留表格舊路里等完整文字。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=983"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 25.0214565,
+        "lng": 121.3610696
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E5%93%A1%E9%99%B3%E9%9B%85%E5%80%AB%E6%9C%8D%E5%8B%99%E8%99%95/@25.0214565,121.3610696,17z/data=!3m1!4b1!4m6!3m5!1s0x34681dabad3b023b:0x143a6e7e065c4c8d!8m2!3d25.0214565!4d121.3610696!16s%2Fg%2F11fj__4f6b?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateNote": "Google Maps民主進步黨桃園市議員陳雅倫服務處，地址振興路795巷19-1號2樓相符；取地點!3d!4d。全址查詢曾回19之2號已排除。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-chen-ya-lun-service-office/logo.webp?v=11c459f8335cc0b9",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=983",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/陳雅倫.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 402 × 614。"
+      },
+      "visitNote": "第2選區市議員 · 9號",
+      "mapMarker": {
+        "label": "陳雅倫",
+        "image": "./assets/taoyuan-chen-ya-lun-marker-9-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=983"
+      }
+    },
+    {
+      "id": "taoyuan-xu-jia-rui-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "許家睿服務處",
+      "address": "桃園市八德區大勇里忠勇西街3號",
+      "social": {
+        "facebook": "https://www.facebook.com/taoyuanCJ",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=991"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=991"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.9688741,
+        "lng": 121.3031983
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11190790467",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：3號, 忠勇西街, 大勇里, 八德區, 桃園市, 33442, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-xu-jia-rui-service-office/logo.webp?v=bd1680c9c819c8d5",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=991",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/許家睿.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 746 × 994。"
+      },
+      "visitNote": "第3選區市議員 · 2號",
+      "mapMarker": {
+        "label": "許家睿",
+        "image": "./assets/taoyuan-xu-jia-rui-marker-2-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=991"
+      }
+    },
+    {
+      "id": "taoyuan-lu-lin-xiao-feng-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "呂林小鳳服務處",
+      "address": "桃園市八德區興仁里4鄰興豐路295號",
+      "social": {
+        "facebook": "http://www.facebook.com/siaofong.lin",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=987"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=987"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.9293371,
+        "lng": 121.2858958
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11190775824",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：295號, 興豐路, 城外, 興仁里, 八德區, 桃園市, 33451, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-lu-lin-xiao-feng-service-office/logo.webp?v=9ae3d6935009ad29",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=987",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/呂林小鳳.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 300 × 275。"
+      },
+      "visitNote": "第3選區市議員 · 7號",
+      "mapMarker": {
+        "label": "呂林小鳳",
+        "image": "./assets/taoyuan-lu-lin-xiao-feng-marker-7-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=987"
+      }
+    },
+    {
+      "id": "taoyuan-xu-qing-shun-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "許清順服務處",
+      "address": "桃園市蘆竹區中山里五福一路9號",
+      "social": {
+        "facebook": "https://www.facebook.com/call3129777/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=994"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=994"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 25.0586317,
+        "lng": 121.2952974
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11191998727",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：9號, 五福一路, 中山里, 蘆竹區, 桃園市, 338, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-xu-qing-shun-service-office/logo.webp?v=fe4f8fbaa667515a",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=994",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員第4選區名錄，圖片alt/title均為許清順議員。介紹頁圖片連結失效，但名錄另連此有效原圖。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 838 × 973。"
+      },
+      "visitNote": "第4選區市議員 · 2號",
+      "mapMarker": {
+        "label": "許清順",
+        "image": "./assets/taoyuan-xu-qing-shun-marker-2-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=994"
+      }
+    },
+    {
+      "id": "taoyuan-you-wu-he-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "游吾和服務處",
+      "address": "桃園市大園區大園里23鄰中華路76號",
+      "social": {
+        "facebook": "http://www.facebook.com/people/%e6%b8%b8%e5%90%be%e5%92%8c/100003779028390",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=997"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=997"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 25.0673024,
+        "lng": 121.1994767
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11192056486",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：76號, 中華路, 大園里, 大園區, 桃園市, 337017, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-you-wu-he-service-office/logo.webp?v=d392463e86068824",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=997",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/游吾和.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 911 × 1125。"
+      },
+      "visitNote": "第5選區市議員 · 1號",
+      "mapMarker": {
+        "label": "游吾和",
+        "image": "./assets/taoyuan-you-wu-he-marker-1-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=997"
+      }
+    },
+    {
+      "id": "taoyuan-chen-zhi-wen-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "陳治文服務處",
+      "address": "桃園市大溪區一心里復興路86號1樓",
+      "social": {
+        "facebook": "http://www.facebook.com/profile.php?id=100001891607924",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=999"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=999"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.8794121,
+        "lng": 121.2907312
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11190158759",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：86號, 復興路, 田心子, 一心里, 大溪區, 桃園市, 335017, 臺灣。",
+      "shopPhoto": {
+        "url": "https://www.tycc.gov.tw/tc/file/person/app/a634641658072119151%E9%99%B3%E6%B2%BB%E6%96%87%E8%AD%B0%E5%93%A1.jpg",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=999",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/陳治文.html。官方連結下載，未修改原檔。"
+      },
+      "visitNote": "第6選區市議員 · 2號",
+      "mapMarker": {
+        "label": "陳治文",
+        "image": "./assets/taoyuan-chen-zhi-wen-marker-2-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=999"
+      }
+    },
+    {
+      "id": "taoyuan-peng-jun-hao-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "彭俊豪服務處",
+      "address": "桃園市中壢區信義里10鄰甘肅二街8號",
+      "social": {
+        "facebook": "http://zh-tw.facebook.com/pengwintaoyuan",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1000"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1000"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.9530444,
+        "lng": 121.2347792
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11192360000",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：8號, 甘肅二街, 黃厝庄, 信義里, 中壢區, 桃園市, 320048, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-peng-jun-hao-service-office/logo.webp?v=ab699596099467f9",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1000",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/彭俊豪.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1597 × 1597。"
+      },
+      "visitNote": "第7選區市議員 · 1號",
+      "mapMarker": {
+        "label": "彭俊豪",
+        "image": "./assets/taoyuan-peng-jun-hao-marker-1-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1000"
+      }
+    },
+    {
+      "id": "taoyuan-wei-yun-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "魏筠服務處",
+      "address": "桃園市中壢區東興里中北路2段46巷5號",
+      "social": {
+        "facebook": "https://www.facebook.com/WeiyunIN/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1001"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1001"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.9496984,
+        "lng": 121.224806
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11192402172",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：5號, 中北路二段46巷, 十崁仔, 東興里, 中壢區, 桃園市, 320060, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-wei-yun-service-office/logo.webp?v=d6408255301ddae8",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1001",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/魏筠.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 960 × 959。"
+      },
+      "visitNote": "第7選區市議員 · 4號",
+      "mapMarker": {
+        "label": "魏筠",
+        "image": "./assets/taoyuan-wei-yun-marker-4-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1001"
+      }
+    },
+    {
+      "id": "taoyuan-zhang-xiao-yun-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "張曉昀服務處",
+      "address": "桃園市中壢區仁愛里環中東路361-1號",
+      "social": {
+        "facebook": "https://www.facebook.com/YunloveZhongli/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1007"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1007"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.9612663,
+        "lng": 121.2540982
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E5%93%A1%E5%BC%B5%E6%9B%89%E6%98%80%E6%9C%8D%E5%8B%99%E8%99%95/@24.9612663,121.2540982,17z/data=!3m1!4b1!4m6!3m5!1s0x34682370a7954415:0x66d5a11ee86ad1bc!8m2!3d24.9612663!4d121.2540982!16s%2Fg%2F11vknbxgf7?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateNote": "Google Maps桃園市議員張曉昀服務處，地址環中東路361-1號相符；取實際地點!3d!4d。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-zhang-xiao-yun-service-office/logo.webp?v=332840fd218da8e5",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1007",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/張曉昀.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1021 × 1291。"
+      },
+      "visitNote": "第7選區市議員 · 5號",
+      "mapMarker": {
+        "label": "張曉昀",
+        "image": "./assets/taoyuan-zhang-xiao-yun-marker-5-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1007"
+      }
+    },
+    {
+      "id": "taoyuan-huang-chong-zhen-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "黃崇真服務處",
+      "address": "桃園市中壢區信義里領航北路二段151號2樓",
+      "social": {
+        "facebook": "https://www.facebook.com/cchuang0223/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1008"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會列嘉興街63號及領航北路二段151號2樓兩處；表格指定領航北路門牌相符，保留表格地址。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1008"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 25.0092964,
+        "lng": 121.2042549
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/10086503044",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：全家便利商店, 151, 領航北路二段, 八大邱, 洽溪里, 中壢區, 桃園市, 320014, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-huang-chong-zhen-service-office/logo.webp?v=ca6f84dbf5f99381",
+        "source": "https://www.facebook.com/cchuang0223/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；黃崇真 Huang Chung-Chen；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
+      },
+      "visitNote": "第7選區市議員 · 16號",
+      "mapMarker": {
+        "label": "黃崇真",
+        "image": "./assets/taoyuan-huang-chong-zhen-marker-16-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1008"
+      }
+    },
+    {
+      "id": "taoyuan-liu-ren-zhao-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "劉仁照服務處",
+      "address": "桃園市平鎮區平鎮里振興路85號",
+      "social": {
+        "facebook": "http://www.facebook.com/vlog72",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1014"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1014"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.9456588,
+        "lng": 121.221641
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11193348222",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：85號, 振興路, 北勢里, 平鎮區, 桃園市, 32441, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-liu-ren-zhao-service-office/logo.webp?v=db5ee5d6c8b13577",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1014",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/劉仁照.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 414 × 532。"
+      },
+      "visitNote": "第8選區市議員 · 7號",
+      "mapMarker": {
+        "label": "劉仁照",
+        "image": "./assets/taoyuan-liu-ren-zhao-marker-7-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1014"
+      }
+    },
+    {
+      "id": "taoyuan-wang-pei-yu-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "王珮毓服務處",
+      "address": "桃園市平鎮區新榮里安平街34巷23號",
+      "social": {
+        "facebook": "https://www.facebook.com/581peiyu",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1012"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1012"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.9445613,
+        "lng": 121.2137651
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11193273302",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：23號, 安平街34巷, 大湳尾, 新榮里, 平鎮區, 桃園市, 324005, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-wang-pei-yu-service-office/logo.webp?v=859ab79caba54aec",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1012",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/王珮毓.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 959 × 960。"
+      },
+      "visitNote": "第8選區市議員 · 8號",
+      "mapMarker": {
+        "label": "王珮毓",
+        "image": "./assets/taoyuan-wang-pei-yu-marker-8-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1012"
+      }
+    },
+    {
+      "id": "taoyuan-zheng-shu-fang-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "鄭淑方服務處",
+      "address": "桃園市楊梅區瑞塘里萬大路39號",
+      "social": {
+        "facebook": "http://www.facebook.com/pages/category/Community/%E9%84%AD%E6%B7%91%E6%96%B9-1623618811301314/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1018"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1018"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.9122022,
+        "lng": 121.177513
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11193564337",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：39號, 萬大路, 萬大, 瑞塘里, 楊梅區, 桃園市, 326104, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-zheng-shu-fang-service-office/logo.webp?v=2ece54516cc48f33",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1018",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/鄭淑方.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 900 × 1200。"
+      },
+      "visitNote": "第9選區市議員 · 2號",
+      "mapMarker": {
+        "label": "鄭淑方",
+        "image": "./assets/taoyuan-zheng-shu-fang-marker-2-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1018"
+      }
+    },
+    {
+      "id": "taoyuan-chen-rui-sheng-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "陳睿生服務處",
+      "address": "桃園市新屋區新屋里中山路208號",
+      "social": {
+        "facebook": "https://www.facebook.com/chen4779796/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1023"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1023"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.9723765,
+        "lng": 121.1085752
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11193660876",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：208號, 中山路, 新屋里, 新屋區, 桃園市, 327008, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-chen-rui-sheng-service-office/logo.webp?v=8af83f93b26c8c27",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1023",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/陳睿生.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 551 × 709。"
+      },
+      "visitNote": "第11選區市議員 · 1號",
+      "mapMarker": {
+        "label": "陳睿生",
+        "image": "./assets/taoyuan-chen-rui-sheng-marker-1-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1023"
+      }
+    },
+    {
+      "id": "taoyuan-lin-zhi-qiang-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "林志強服務處",
+      "address": "桃園市大溪區仁武里介壽路780之3號一樓",
+      "social": {
+        "facebook": "http://www.facebook.com/qiang.ge.564",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1027"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1027"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.903623,
+        "lng": 121.2842232
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E5%93%A1%E6%9E%97%E5%BF%97%E5%BC%B7%E6%9C%8D%E5%8B%99%E8%99%95/@24.903623,121.2842232,17z/data=!3m1!4b1!4m6!3m5!1s0x3468186a6ed231bd:0xcc0924f56a0b2c11!8m2!3d24.903623!4d121.2842232!16s%2Fg%2F11c5_smdzh?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateNote": "採用Google Maps「桃園市議員林志強服務處」本人POI位置，非普通780號門牌點。表格及議會寫介壽路780之3號1樓；Maps服務處地址標780號。該POI的官方Facebook qiang.ge.564與電話03-3805541均與桃園市議會本人頁完全相同，確認為同一服務處；保留表格780之3號不改寫。座標取POI實際!3d!4d。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-lin-zhi-qiang-service-office/logo.webp?v=f3922b1facae3e8c",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1027",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "桃園市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/林志強.html。官方連結下載，未修改原檔。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 682 × 682。"
+      },
+      "visitNote": "第13選區市議員 · 1號",
+      "mapMarker": {
+        "label": "林志強",
+        "image": "./assets/taoyuan-lin-zhi-qiang-marker-1-type-v1.webp",
+        "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1027"
+      }
     }
   ],
   "pendingStores": []

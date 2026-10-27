@@ -168,6 +168,1181 @@
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；梨山原韻茶庄 | Taichung ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。",
         "originalUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/399829820_122110703714093024_5569662619369640767_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=at7kkFpuAxQQ7kNvwEY9jZn&_nc_oc=AdpH6Y6lPYcssIcuqUmyNuoFqvELvh4RwCZ48k4FL3_dHx0u8FurGR60b5zVWR1qkIs&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=SNjsECdCHrQ4QSz8RwDwng&_nc_ss=7920f&oh=00_AQOYOvdTLeMs3aBoIscx_GweM3g2UKMHAkickgfyOLq_0g&oe=6AE3F96F"
       }
+    },
+    {
+      "id": "taichung-shi-zhi-chang-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "施志昌服務處",
+      "address": "臺中市外埔區大同里甲后路三段777號",
+      "social": {
+        "facebook": "https://www.facebook.com/ChihChang43/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=3"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=3"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.3276366,
+        "lng": 120.6574585
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8550106835",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：777號, 甲后路三段, 大同里, 外埔區, 臺中市, 438016, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-shi-zhi-chang-service-office/logo.webp?v=0d2b1cfc18ff202e",
+        "source": "https://www.facebook.com/ChihChang43/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；施志昌；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
+      },
+      "visitNote": "第1選區市議員 · 4號",
+      "mapMarker": {
+        "label": "施志昌",
+        "image": "./assets/taichung-shi-zhi-chang-marker-4-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=3"
+      }
+    },
+    {
+      "id": "taichung-yang-dian-zhong-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "楊典忠服務處",
+      "address": "臺中市清水區文昌街86號",
+      "social": {
+        "facebook": "https://www.facebook.com/100001602013369",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=6"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=6"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.2705289,
+        "lng": 120.5752948
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8547628534",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：86號, 文昌街, 文昌里, 清水區, 臺中市, 436108, 臺灣。",
+      "shopPhoto": {
+        "url": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852378120006(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=6",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/楊典忠.html。官方連結下載，未修改原檔。"
+      },
+      "visitNote": "第2選區市議員 · 4號",
+      "mapMarker": {
+        "label": "楊典忠",
+        "image": "./assets/taichung-yang-dian-zhong-marker-4-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=6"
+      }
+    },
+    {
+      "id": "taichung-wang-li-ren-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "王立任服務處",
+      "address": "臺中市梧棲區中興路67巷41號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=7"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=7"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.2519774,
+        "lng": 120.5352643
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8547706058",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：41號, 中興路67巷, 文化里, 梧棲區, 大莊, 臺中市, 435061, 臺灣。",
+      "shopPhoto": {
+        "url": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852378780007(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=7",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/王立任.html。官方連結下載，未修改原檔。"
+      },
+      "visitNote": "第2選區市議員 · 6號",
+      "mapMarker": {
+        "label": "王立任",
+        "image": "./assets/taichung-wang-li-ren-marker-6-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=7"
+      }
+    },
+    {
+      "id": "taichung-zhang-jia-an-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "張家銨服務處",
+      "address": "臺中市龍井區向上路六段43號",
+      "social": {
+        "facebook": "https://www.facebook.com/jangjiaan",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=12"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=12"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1759893,
+        "lng": 120.58075
+      },
+      "coordinateSource": "https://www.google.com/maps/place/434%E8%87%BA%E4%B8%AD%E5%B8%82%E9%BE%8D%E4%BA%95%E5%8D%80%E5%8D%97%E5%AF%AE%E9%87%8C%E5%90%91%E4%B8%8A%E8%B7%AF%E5%85%AD%E6%AE%B543%E8%99%9F/@24.1759893,120.58075,17z/data=!3m1!4b1!4m6!3m5!1s0x34693e2e6cad9c93:0x3cb6c455e55434e1!8m2!3d24.1759893!4d120.58075!16s%2Fg%2F11z65nsnc0?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateNote": "Google Maps精確門牌龍井區南寮里向上路六段43號，與表格相符；取實際地點!3d!4d。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-zhang-jia-an-service-office/logo.webp?v=0b88d37e5bf62586",
+        "source": "https://www.facebook.com/jangjiaan",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；張家銨；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
+      },
+      "visitNote": "第3選區市議員 · 2號",
+      "mapMarker": {
+        "label": "張家銨",
+        "image": "./assets/taichung-zhang-jia-an-marker-2-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=12"
+      }
+    },
+    {
+      "id": "taichung-ceng-wei-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "曾威服務處",
+      "address": "台中市烏日區中華路498號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=69"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=69"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1096994,
+        "lng": 120.634949
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8550130767",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：498號, 中華路, 九德里, 烏日區, 楓樹脚, 臺中市, 414005, 臺灣。",
+      "shopPhoto": {
+        "url": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=16709330950069(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=69",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/曾威.html。官方連結下載，未修改原檔。"
+      },
+      "visitNote": "第3選區市議員 · 4號",
+      "mapMarker": {
+        "label": "曾威",
+        "image": "./assets/taichung-ceng-wei-marker-4-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=69"
+      }
+    },
+    {
+      "id": "taichung-cai-yi-xuan-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "蔡怡萱服務處",
+      "address": "臺中市豐原區豐原大道四段443號",
+      "social": {
+        "facebook": "https://www.facebook.com/syuan0701/",
+        "instagram": "https://www.instagram.com/tsai_2026/",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.facebook.com/syuan0701/"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。官方粉專地址將豐原大道誤植為豐原大段；門牌443與表格一致。保留表格地址。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.facebook.com/syuan0701/"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.24874,
+        "lng": 120.7369565
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8535498692",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：443號, 豐原大道四段, 北陽里, 豐原區, 臺中市, 420076, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-cai-yi-xuan-service-office/logo.webp?v=eebda66bf6a87f77",
+        "source": "https://www.facebook.com/syuan0701/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "本人官方粉專蔡怡萱（蔡ㄟ），簡介明確臺中市議員第4選區候選人3號；點選大頭照後取得原始相片頁。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 960 × 960。"
+      },
+      "visitNote": "第4選區市議員 · 3號",
+      "mapMarker": {
+        "label": "蔡怡萱",
+        "image": "./assets/taichung-cai-yi-xuan-marker-3-type-v1.webp",
+        "source": "https://www.facebook.com/syuan0701/"
+      }
+    },
+    {
+      "id": "taichung-xie-zhi-zhong-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "謝志忠服務處",
+      "address": "臺中市豐原區保康路61號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=16"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=16"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.2425744,
+        "lng": 120.7224467
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8535525981",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：61號, 保康路, 南陽里, 豐原區, 臺中市, 420011, 臺灣。",
+      "shopPhoto": {
+        "url": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852392360016(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=16",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/謝志忠.html。官方連結下載，未修改原檔。"
+      },
+      "visitNote": "第4選區市議員 · 7號",
+      "mapMarker": {
+        "label": "謝志忠",
+        "image": "./assets/taichung-xie-zhi-zhong-marker-7-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=16"
+      }
+    },
+    {
+      "id": "taichung-xiao-long-ze-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "蕭隆澤服務處",
+      "address": "臺中市潭子區甘蔗里勝利路211號",
+      "social": {
+        "facebook": "https://www.facebook.com/lungtze",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=23"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=23"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.211753,
+        "lng": 120.7003782
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8547768517",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：211號, 勝利路, 甘蔗里, 潭子區, 臺中市, 427010, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-xiao-long-ze-service-office/logo.webp?v=d7a1a9d5cb6886eb",
+        "source": "https://www.facebook.com/lungtze",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；蕭隆澤；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
+      },
+      "visitNote": "第5選區市議員 · 6號",
+      "mapMarker": {
+        "label": "蕭隆澤",
+        "image": "./assets/taichung-xiao-long-ze-marker-6-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=23"
+      }
+    },
+    {
+      "id": "taichung-zhou-yong-hong-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "周永鴻服務處",
+      "address": "臺中市神岡區社南街106號",
+      "social": {
+        "facebook": "https://www.facebook.com/chouyunghong/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=24"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=24"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.2456358,
+        "lng": 120.6865691
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8547754017",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：106號, 社南街, 社南里, 神岡區, 臺中市, 429004, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-zhou-yong-hong-service-office/logo.webp?v=bfc40fa94ecf44fe",
+        "source": "https://www.facebook.com/chouyunghong/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；周永鴻 台中市議員；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
+      },
+      "visitNote": "第5選區市議員 · 9號",
+      "mapMarker": {
+        "label": "周永鴻",
+        "image": "./assets/taichung-zhou-yong-hong-marker-9-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=24"
+      }
+    },
+    {
+      "id": "taichung-lin-qi-feng-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "林祈烽服務處",
+      "address": "台中市西屯區朝馬路108號",
+      "social": {
+        "facebook": "https://www.facebook.com/1837393259853915/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=29"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=29"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1695279,
+        "lng": 120.6356418
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8535260294",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：108號, 朝馬路, 潮洋里, 西屯區, 臺中七期, 臺中市, 407027, 臺灣。",
+      "shopPhoto": {
+        "url": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852426010029(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=29",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/林祈烽.html。官方連結下載，未修改原檔。"
+      },
+      "visitNote": "第6選區市議員 · 1號",
+      "mapMarker": {
+        "label": "林祈烽",
+        "image": "./assets/taichung-lin-qi-feng-marker-1-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=29"
+      }
+    },
+    {
+      "id": "taichung-chen-shu-hua-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "陳淑華服務處",
+      "address": "臺中市西屯區惠來里惠中路150號",
+      "social": {
+        "facebook": "https://www.facebook.com/chenshuhua1970",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=28"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=28"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1651043,
+        "lng": 120.6464779
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8535228654",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：150號, 惠中路, 惠來里, 西屯區, 臺中七期, 臺中市, 407043, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-chen-shu-hua-service-office/logo.webp?v=3c9f796d9b3c5e35",
+        "source": "https://www.facebook.com/chenshuhua1970",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；陳淑華；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
+      },
+      "visitNote": "第6選區市議員 · 3號",
+      "mapMarker": {
+        "label": "陳淑華",
+        "image": "./assets/taichung-chen-shu-hua-marker-3-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=28"
+      }
+    },
+    {
+      "id": "taichung-zhang-yao-zhong-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "張耀中服務處",
+      "address": "臺中市南屯區大墩七街111號",
+      "social": {
+        "facebook": "https://www.facebook.com/TaichungBetter/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.facebook.com/TaichungBetter/"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.facebook.com/TaichungBetter/"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1437002,
+        "lng": 120.6523355
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8535279584",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：111號, 大墩七街, 大同里, 南屯區, 田心, 臺中市, 408027, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-zhang-yao-zhong-service-office/logo.webp?v=545a2efc15924ee1",
+        "source": "https://www.facebook.com/TaichungBetter/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "張耀中本人公開帳號ChangYaoChung直接連出TaichungBetter服務粉專；該粉專明確南屯大墩七街111號與2號候選人，確定不是高雄同名人物。此圖是官方粉專當前大頭照。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 2048 × 2048。"
+      },
+      "visitNote": "第7選區市議員 · 2號",
+      "mapMarker": {
+        "label": "張耀中",
+        "image": "./assets/taichung-zhang-yao-zhong-marker-2-type-v1.webp",
+        "source": "https://www.facebook.com/TaichungBetter/"
+      }
+    },
+    {
+      "id": "taichung-he-wen-hai-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "何文海服務處",
+      "address": "臺中市南屯區田心里文心路一段31號",
+      "social": {
+        "facebook": "https://www.facebook.com/wenhaiho",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=33"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=33"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1391011,
+        "lng": 120.6463871
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8535304080",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：31號, 文心路一段, 田心里, 南屯區, 田心, 臺中市, 408006, 臺灣。",
+      "shopPhoto": {
+        "url": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852430170033(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=33",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/何文海.html。官方連結下載，未修改原檔。"
+      },
+      "visitNote": "第7選區市議員 · 3號",
+      "mapMarker": {
+        "label": "何文海",
+        "image": "./assets/taichung-he-wen-hai-marker-3-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=33"
+      }
+    },
+    {
+      "id": "taichung-xie-jia-yi-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "謝家宜服務處",
+      "address": "台中市北屯區軍功路一段498號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=74"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=74"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1713033,
+        "lng": 120.7188119
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8535431392",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：498號, 軍功路一段, 和平里, 北屯區, 臺中市, 406001, 臺灣。",
+      "shopPhoto": {
+        "url": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=16709388950074(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=74",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/謝家宜.html。官方連結下載，未修改原檔。"
+      },
+      "visitNote": "第8選區市議員 · 8號",
+      "mapMarker": {
+        "label": "謝家宜",
+        "image": "./assets/taichung-xie-jia-yi-marker-8-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=74"
+      }
+    },
+    {
+      "id": "taichung-chen-yu-rong-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "陳俞融服務處",
+      "address": "台中市北區梅川東路三段139號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=75"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=75"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1605094,
+        "lng": 120.6767037
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8535103171",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：139號, 梅川東路三段, 賴村里, 北區, 臺中市, 404, 臺灣。",
+      "shopPhoto": {
+        "url": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=16709330130075(1).png&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=75",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/陳俞融.html。官方連結下載，未修改原檔。"
+      },
+      "visitNote": "第9選區市議員 · 4號",
+      "mapMarker": {
+        "label": "陳俞融",
+        "image": "./assets/taichung-chen-yu-rong-marker-4-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=75"
+      }
+    },
+    {
+      "id": "taichung-huang-shou-da-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "黃守達服務處",
+      "address": "臺中市西區美村路1段368號",
+      "social": {
+        "facebook": "https://www.facebook.com/taichungedada/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=45"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=45"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1448851,
+        "lng": 120.661435
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E5%B8%82%E8%AD%B0%E5%93%A1%E9%BB%83%E5%AE%88%E9%81%94%E6%9C%8D%E5%8B%99%E8%99%95/@24.1448851,120.661435,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d38119a787f:0xfa813976f2b05e1!8m2!3d24.1448851!4d120.661435!16s%2Fg%2F11h3pmlgz0?authuser=0&hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateNote": "Google Maps市議員黃守達服務處，精確西區昇平里美村路一段368號，與表格相符；取實際地點!3d!4d。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-huang-shou-da-service-office/logo.webp?v=45f2f8e542bedcb2",
+        "source": "https://www.facebook.com/taichungedada/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；黃守達；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
+      },
+      "visitNote": "第10選區市議員 · 1號",
+      "mapMarker": {
+        "label": "黃守達",
+        "image": "./assets/taichung-huang-shou-da-marker-1-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=45"
+      }
+    },
+    {
+      "id": "taichung-jiang-zhao-guo-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "江肇國服務處",
+      "address": "臺中市西區後龍里五權路89-1號",
+      "social": {
+        "facebook": "https://www.facebook.com/TC.AKuo/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=44"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=44"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1459251,
+        "lng": 120.6715332
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E6%B1%9F%E8%82%87%E5%9C%8B%E6%9C%8D%E5%8B%99%E8%99%95/@24.1459251,120.6715332,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d748366b843:0x1ab7d716cf67bccc!8m2!3d24.1459251!4d120.6715332!16s%2Fg%2F11c1qc6rj6?authuser=0&hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateNote": "Google Maps台中市議員江肇國服務處，精確西區後龍里五權路89-1號相符；取實際地點!3d!4d。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-jiang-zhao-guo-service-office/logo.webp?v=4bf93f453b8003d7",
+        "source": "https://www.facebook.com/TC.AKuo/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；江肇國；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 719。"
+      },
+      "visitNote": "第10選區市議員 · 4號",
+      "mapMarker": {
+        "label": "江肇國",
+        "image": "./assets/taichung-jiang-zhao-guo-marker-4-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=44"
+      }
+    },
+    {
+      "id": "taichung-chen-ya-hui-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "陳雅惠服務處",
+      "address": "台中市南區正義街236號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=76"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=76"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1268155,
+        "lng": 120.6809612
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8529050218",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：236號, 正義街, 國光里, 南區, 樹王, 臺中市, 402, 臺灣。",
+      "shopPhoto": {
+        "url": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=16709423860076(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=76",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/陳雅惠.html。官方連結下載，未修改原檔。"
+      },
+      "visitNote": "第11選區市議員 · 3號",
+      "mapMarker": {
+        "label": "陳雅惠",
+        "image": "./assets/taichung-chen-ya-hui-marker-3-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=76"
+      }
+    },
+    {
+      "id": "taichung-zheng-gong-jin-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "鄭功進服務處",
+      "address": "臺中市東區振興里信義街83號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100000988841194",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=48"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=48"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1340569,
+        "lng": 120.6886774
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8529138869",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：83號, 信義街, 振興里, 東區, 臺中市, 401, 臺灣。",
+      "shopPhoto": {
+        "url": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852448440048(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=48",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/鄭功進.html。官方連結下載，未修改原檔。"
+      },
+      "visitNote": "第11選區市議員 · 5號",
+      "mapMarker": {
+        "label": "鄭功進",
+        "image": "./assets/taichung-zheng-gong-jin-marker-5-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=48"
+      }
+    },
+    {
+      "id": "taichung-he-yi-ling-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "何翊綾服務處",
+      "address": "臺中市東區旱溪里進化路26號",
+      "social": {
+        "facebook": "https://www.facebook.com/mingchen4417/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.facebook.com/mingchen4417/"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。官方粉專列26-1號，使用者表格26號；保留表格原址，不擅自替換，座標應按表格26號查。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.facebook.com/mingchen4417/"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1417667,
+        "lng": 120.6943857
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8529115144",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：26號, 進化路, 旱溪里, 東區, 臺中市, 401, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-he-yi-ling-service-office/logo.webp?v=24c5f355bfbcdc8f",
+        "source": "https://www.facebook.com/mingchen4417/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "本人粉專何翊綾，簡介明確2026民進黨臺中市東南區議員參選人；點大頭照取得相片頁及原始公開圖片。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1366 × 2048。"
+      },
+      "visitNote": "第11選區市議員 · 6號",
+      "mapMarker": {
+        "label": "何翊綾",
+        "image": "./assets/taichung-he-yi-ling-marker-6-type-v1.webp",
+        "source": "https://www.facebook.com/mingchen4417/"
+      }
+    },
+    {
+      "id": "taichung-cai-yao-xie-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "蔡耀頡服務處",
+      "address": "臺中市太平區宜昌路129號",
+      "social": {
+        "facebook": "https://www.facebook.com/蔡耀頡承擔青新世代-658507204537241/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=54"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=54"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1389723,
+        "lng": 120.7119184
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8550265554",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：129號, 宜昌路, 宜佳里, 太平區, 臺中市, 411035, 臺灣。",
+      "shopPhoto": {
+        "url": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=15852463700054(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=54",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/蔡耀頡.html。官方連結下載，未修改原檔。"
+      },
+      "visitNote": "第12選區市議員 · 1號",
+      "mapMarker": {
+        "label": "蔡耀頡",
+        "image": "./assets/taichung-cai-yao-xie-marker-1-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=54"
+      }
+    },
+    {
+      "id": "taichung-zhang-yu-yan-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "張玉嬿服務處",
+      "address": "臺中市太平區成功里中興東路239號",
+      "social": {
+        "facebook": "https://www.facebook.com/myishuc0988/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=53"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=53"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.132606,
+        "lng": 120.7241264
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8550261234",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：239號, 中興東路, 成功里, 太平區, 長億里, 臺中市, 411027, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-zhang-yu-yan-service-office/logo.webp?v=2990beef54064a15",
+        "source": "https://www.facebook.com/myishuc0988/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；張玉嬿；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
+      },
+      "visitNote": "第12選區市議員 · 5號",
+      "mapMarker": {
+        "label": "張玉嬿",
+        "image": "./assets/taichung-zhang-yu-yan-marker-5-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=53"
+      }
+    },
+    {
+      "id": "taichung-li-tian-sheng-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "李天生服務處",
+      "address": "臺中市大里區長榮里新生西路160號",
+      "social": {
+        "facebook": "https://www.facebook.com/tensheng",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=59"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=59"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1054368,
+        "lng": 120.6856202
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8550379708",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：160號, 新生西路, 長榮里, 大里區, 田寮, 臺中市, 412015, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-li-tian-sheng-service-office/logo.webp?v=899adf6cbe210a62",
+        "source": "https://www.facebook.com/tensheng",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；李天生；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 609。"
+      },
+      "visitNote": "第13選區市議員 · 1號",
+      "mapMarker": {
+        "label": "李天生",
+        "image": "./assets/taichung-li-tian-sheng-marker-1-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=59"
+      }
+    },
+    {
+      "id": "taichung-lin-de-yu-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "林德宇服務處",
+      "address": "臺中市大里區長榮里大里路63號",
+      "social": {
+        "facebook": "https://www.facebook.com/187rain/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=58"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=58"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1052523,
+        "lng": 120.6875786
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11341539785",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：林德宇服務處, 63, 大里路, 長榮里, 大里區, 田寮, 臺中市, 412317, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-lin-de-yu-service-office/logo.webp?v=c964909d081c4824",
+        "source": "https://www.facebook.com/187rain/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；林德宇；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
+      },
+      "visitNote": "第13選區市議員 · 5號",
+      "mapMarker": {
+        "label": "林德宇",
+        "image": "./assets/taichung-lin-de-yu-marker-5-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=58"
+      }
+    },
+    {
+      "id": "taichung-zhang-fen-yu-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "張芬郁服務處",
+      "address": "台中市大里區中興路二段428號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=80"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=80"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.1085218,
+        "lng": 120.6901467
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8550337284",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：428號, 中興路二段, 內新里, 大里區, 田寮, 臺中市, 412002, 臺灣。",
+      "shopPhoto": {
+        "url": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=16709459860080(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=80",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/張芬郁.html。官方連結下載，未修改原檔。"
+      },
+      "visitNote": "第13選區市議員 · 9號",
+      "mapMarker": {
+        "label": "張芬郁",
+        "image": "./assets/taichung-zhang-fen-yu-marker-9-type-v1.webp",
+        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=80"
+      }
     }
   ],
   "pendingStores": []

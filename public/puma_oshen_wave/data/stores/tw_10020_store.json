@@ -441,6 +441,200 @@
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；老四嬸純米攤 | Chiayi ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1278 × 720。",
         "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/lao-si-shen-rice-stall.png?v=71f115b3db511e08"
       }
+    },
+    {
+      "id": "chiayi-city-huang-lu-hui-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "黃露慧服務處",
+      "address": "嘉義市西區湖邊里友愛路1003號",
+      "social": {
+        "facebook": "https://www.facebook.com/lulumi.huang.7",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1176"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1176"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4922203,
+        "lng": 120.4446487
+      },
+      "coordinateSource": "https://www.google.com/maps/place/600嘉義市西區湖邊里友愛路1003號/data=!4m6!3m5!1s0x346e95d180e5f0e1:0x74839bcbc6acde42!8m2!3d23.4922203!4d120.4446487!16s%2Fg%2F11snq0x111",
+      "coordinateNote": "OSM無精確門牌；瀏覽器Google Maps核對指定門牌，從地點網址!3d/!4d取得座標，不使用@地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-city-huang-lu-hui-service-office/logo.webp?v=2bebd72c0adfbe7b",
+        "source": "https://www.facebook.com/lulumi.huang.7",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；黃露慧；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 719。"
+      },
+      "visitNote": "第1選區市議員 · 3號",
+      "mapMarker": {
+        "label": "黃露慧",
+        "image": "./assets/chiayi-city-huang-lu-hui-marker-3-type-v1.webp",
+        "source": "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1176"
+      }
+    },
+    {
+      "id": "chiayi-city-huang-ying-zhi-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "黃盈智服務處",
+      "address": "嘉義市東區中庄里博愛路一段58號",
+      "social": {
+        "facebook": "https://www.facebook.com/CYC201903/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1151",
+        "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1065"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1151",
+          "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1065"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4903059,
+        "lng": 120.4518048
+      },
+      "coordinateSource": "https://www.google.com/maps/place/600嘉義市東區中庄里博愛路一段58號/data=!4m6!3m5!1s0x346e95cc187e261d:0x52568a09918f2adf!8m2!3d23.4903059!4d120.4518048!16s%2Fg%2F11hdnyp1lh",
+      "coordinateNote": "OSM無精確門牌；瀏覽器Google Maps核對指定門牌，從地點網址!3d/!4d取得座標，不使用@地圖視窗中心。該58號建物內地點列慶新五金行；官方來源有50號/60號差異，依表格取得58號座標，不能將此視為現行議員服務處已被官方確認。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-city-huang-ying-zhi-service-office/logo.webp?v=a334f62265fef404",
+        "source": "https://www.facebook.com/CYC201903/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；嘉義新生活 黃盈智；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
+      },
+      "visitNote": "第1選區市議員 · 6號",
+      "mapMarker": {
+        "label": "黃盈智",
+        "image": "./assets/chiayi-city-huang-ying-zhi-marker-6-type-v1.webp",
+        "source": "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1151"
+      }
+    },
+    {
+      "id": "chiayi-city-lin-wei-xuan-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "林煒軒服務處",
+      "address": "嘉義市西區番社里西榮街227號",
+      "social": {
+        "facebook": "https://www.facebook.com/WSLCHIAYI",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1156",
+        "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=574&_PARENT_ID=ER11112IB00018&_TYP=REP&TYP=KND0002"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1156",
+          "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=574&_PARENT_ID=ER11112IB00018&_TYP=REP&TYP=KND0002"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.4799786,
+        "lng": 120.4448497
+      },
+      "coordinateSource": "https://www.google.com/maps/place/600嘉義市西區番社里西榮街227號/data=!4m6!3m5!1s0x346e942e677945f9:0x1a5fea8b7a20f7d4!8m2!3d23.4799786!4d120.4448497!16s%2Fg%2F11k9s_b6c0",
+      "coordinateNote": "OSM無精確門牌；瀏覽器Google Maps核對指定門牌，從地點網址!3d/!4d取得座標，不使用@地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-city-lin-wei-xuan-service-office/logo.webp?v=22b0aa80a443b718",
+        "source": "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1156",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人介紹頁人像；<img src=\"/_admin/_upload/UnitStaff/1021/images/林煒軒.jpg\" alt=\"林議員煒軒(大頭照)\" width='100%'>；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 302 × 453。"
+      },
+      "visitNote": "第2選區市議員 · 4號",
+      "mapMarker": {
+        "label": "林煒軒",
+        "image": "./assets/chiayi-city-lin-wei-xuan-marker-4-type-v1.webp",
+        "source": "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1156"
+      }
+    },
+    {
+      "id": "chiayi-city-ceng-yi-hao-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "曾奕豪服務處",
+      "address": "嘉義市西區成功街100號",
+      "social": {
+        "facebook": "https://www.facebook.com/chiayihaowecan/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.facebook.com/chiayihaowecan/",
+        "https://udn.com/news/amp/story/7326/9271404"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.facebook.com/chiayihaowecan/",
+          "https://udn.com/news/amp/story/7326/9271404"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.472228,
+        "lng": 120.443478
+      },
+      "coordinateSource": "https://www.google.com/maps/place/600嘉義市西區培元里成功街100號/data=!4m6!3m5!1s0x346e942469d6b0db:0xf1ac2ee628c26409!8m2!3d23.472228!4d120.443478!16s%2Fg%2F11j_1jnfz8",
+      "coordinateNote": "OSM無精確門牌；瀏覽器Google Maps核對指定門牌，從地點網址!3d/!4d取得座標，不使用@地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiayi-city-ceng-yi-hao-service-office/logo.webp?v=eef8196bb432429c",
+        "source": "https://www.facebook.com/chiayihaowecan/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "瀏覽器官方已驗證粉專「嘉義增一好 曾奕豪」，簡介為嘉義市西區市議員參選人；讀取aria-label同名個人檔案頭像svg/image的實際CDN URL。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 475 × 480。"
+      },
+      "visitNote": "第2選區市議員 · 15號",
+      "mapMarker": {
+        "label": "曾奕豪",
+        "image": "./assets/chiayi-city-ceng-yi-hao-marker-15-type-v1.webp",
+        "source": "https://www.facebook.com/chiayihaowecan/"
+      }
     }
   ],
   "pendingStores": []

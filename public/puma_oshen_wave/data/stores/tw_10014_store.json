@@ -25,6 +25,105 @@
     "其它",
     "咖啡豆"
   ],
-  "stores": [],
+  "stores": [
+    {
+      "id": "taitung-huang-zhi-wei-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "黃治維服務處",
+      "address": "臺東縣臺東市新生里四維路3段87號",
+      "social": {
+        "facebook": "https://www.facebook.com/taitungman/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.taitungcc.gov.tw/1/member/detail/20",
+        "https://www.taitungcc.gov.tw/api/member/20"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.taitungcc.gov.tw/1/member/detail/20",
+          "https://www.taitungcc.gov.tw/api/member/20"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.7655026,
+        "lng": 121.1422231
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/10706088750",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：87號, 四維路三段, 新生里, 臺東市, 臺東縣, 950007, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taitung-huang-zhi-wei-service-office/logo.webp?v=e0fd856db4cc4dff",
+        "source": "https://www.taitungcc.gov.tw/1/member/detail/20",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "臺東縣議會官方個人頁由公開/api/member/20提供；member欄姓名吻合，pic01為議員介紹頭像，官方member.js組出此圖片網址。原檔名：蒙版组 52.png；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 250 × 314。"
+      },
+      "visitNote": "第1選區縣議員 · 2號",
+      "mapMarker": {
+        "label": "黃治維",
+        "image": "./assets/taitung-huang-zhi-wei-marker-2-type-v1.webp",
+        "source": "https://www.taitungcc.gov.tw/1/member/detail/20"
+      }
+    },
+    {
+      "id": "taitung-jian-wei-guo-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "簡維國服務處",
+      "address": "臺東縣臺東市東海里正氣北路197號",
+      "social": {
+        "facebook": "https://www.facebook.com/weikuokuo/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.taitungcc.gov.tw/1/member/detail/35",
+        "https://www.taitungcc.gov.tw/api/member/35"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.taitungcc.gov.tw/1/member/detail/35",
+          "https://www.taitungcc.gov.tw/api/member/35"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.7556765,
+        "lng": 121.1387333
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/10706231100",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：197號, 正氣北路, 東海里, 臺東市, 臺東縣, 950014, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taitung-jian-wei-guo-service-office/logo.webp?v=c4a49c39f590f7de",
+        "source": "https://www.taitungcc.gov.tw/1/member/detail/35",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "臺東縣議會官方個人頁由公開/api/member/35提供；member欄姓名吻合，pic01為議員介紹頭像，官方member.js組出此圖片網址。原檔名：簡維國_2026.png；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 250 × 314。"
+      },
+      "visitNote": "第1選區縣議員 · 13號",
+      "mapMarker": {
+        "label": "簡維國",
+        "image": "./assets/taitung-jian-wei-guo-marker-13-type-v1.webp",
+        "source": "https://www.taitungcc.gov.tw/1/member/detail/35"
+      }
+    }
+  ],
   "pendingStores": []
 }

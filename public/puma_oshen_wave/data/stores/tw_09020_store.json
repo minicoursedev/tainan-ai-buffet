@@ -25,6 +25,54 @@
     "其它",
     "咖啡豆"
   ],
-  "stores": [],
+  "stores": [
+    {
+      "id": "kinmen-cai-qi-yong-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "蔡其雍服務處",
+      "address": "金門縣金城鎮東門里金山路17號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.kmcc.gov.tw/8844/54357/55476/55495/"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.kmcc.gov.tw/8844/54357/55476/55495/"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.4283385,
+        "lng": 118.3229992
+      },
+      "coordinateSource": "https://www.google.com/maps/place/893金山路17/data=!4m6!3m5!1s0x3414a24026ccb58b:0x18c6b880177feaa!8m2!3d24.4283385!4d118.3229992!16s%2Fg%2F11bw4d_kvz",
+      "coordinateNote": "OSM無精確門牌；瀏覽器Google Maps核對指定門牌，從地點網址!3d/!4d取得座標，不使用@地圖視窗中心。Google Maps金山路17號建物內明列金門縣議會；這是使用者指定的議會地址，不是個人頁所列金湖鎮服務址。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kinmen-cai-qi-yong-service-office/logo.webp?v=2cd3fb9397b2e747",
+        "source": "https://www.kmcc.gov.tw/8844/54357/55476/55495/",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "金門縣議會蔡其雍個人介紹頁，照片alt蔡其雍。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 208 × 257。"
+      },
+      "visitNote": "第1選區縣議員 · 4號",
+      "mapMarker": {
+        "label": "蔡其雍",
+        "image": "./assets/kinmen-cai-qi-yong-marker-4-type-v1.webp",
+        "source": "https://www.kmcc.gov.tw/8844/54357/55476/55495/"
+      }
+    }
+  ],
   "pendingStores": []
 }

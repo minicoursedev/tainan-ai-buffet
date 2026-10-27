@@ -25,6 +25,242 @@
     "其它",
     "咖啡豆"
   ],
-  "stores": [],
+  "stores": [
+    {
+      "id": "hsinchu-zheng-mei-juan-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "鄭美娟服務處",
+      "address": "新竹市東區三民里民族路120號",
+      "social": {
+        "facebook": "https://www.facebook.com/woolwooldog2018/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=5&mid=39"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=5&mid=39"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.8078764,
+        "lng": 120.9773493
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11194435175",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：120號, 民族路, 三民里, 東區, 新竹市, 300004, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hsinchu-zheng-mei-juan-service-office/logo.webp?v=0aa37cce5656bf62",
+        "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=5&mid=39",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人介紹頁人像；<img id=\"ltImg\" class=\"member-img\" src=\"/upload/103/2024082515142297294.jpg\" alt=\"鄭美娟 議員\" border=\"0\" />；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1106 × 1243。"
+      },
+      "visitNote": "第1選區市議員 · 13號",
+      "mapMarker": {
+        "label": "鄭美娟",
+        "image": "./assets/hsinchu-zheng-mei-juan-marker-13-type-v1.webp",
+        "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=5&mid=39"
+      }
+    },
+    {
+      "id": "hsinchu-shi-nai-ru-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "施乃如服務處",
+      "address": "新竹市東區振興里西大路165號",
+      "social": {
+        "facebook": "https://www.facebook.com/9.so.good/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=16&mid=39"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=16&mid=39"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.7973205,
+        "lng": 120.9689583
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11194496744",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：165號, 西大路, 振興里, 東區, 新竹市, 300036, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hsinchu-shi-nai-ru-service-office/logo.webp?v=6218b7fd33f9a641",
+        "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=16&mid=39",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人介紹頁人像；<img id=\"ltImg\" class=\"member-img\" src=\"/upload/103/2024052711593128129.png\" alt=\"施乃如 議員\" border=\"0\" />；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 961 × 1080。"
+      },
+      "visitNote": "第2選區市議員 · 4號",
+      "mapMarker": {
+        "label": "施乃如",
+        "image": "./assets/hsinchu-shi-nai-ru-marker-4-type-v1.webp",
+        "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=16&mid=39"
+      }
+    },
+    {
+      "id": "hsinchu-chen-jian-ming-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "陳建名服務處",
+      "address": "新竹市北區南勢里延平路一段332號",
+      "social": {
+        "facebook": "https://www.facebook.com/passionhsinchu/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=19"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=19"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.8051577,
+        "lng": 120.9506196
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11194293236",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：332號, 延平路一段, 南勢里, 北區, 新竹市, 300078, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hsinchu-chen-jian-ming-service-office/logo.webp?v=6fe87b65bb6918e4",
+        "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=19",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人介紹頁人像；<img id=\"ltImg\" class=\"member-img\" src=\"/upload/103/2024052712103661766.png\" alt=\"陳建名 議員\" border=\"0\" />；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 961 × 1080。"
+      },
+      "visitNote": "第3選區市議員 · 1號",
+      "mapMarker": {
+        "label": "陳建名",
+        "image": "./assets/hsinchu-chen-jian-ming-marker-1-type-v1.webp",
+        "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=19"
+      }
+    },
+    {
+      "id": "hsinchu-yang-ling-yi-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "楊玲宜服務處",
+      "address": "新竹市北區光田里水田街169號",
+      "social": {
+        "facebook": "https://www.facebook.com/Hsinchu.LingYi",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=23"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=23"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.8167622,
+        "lng": 120.9691852
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11194318407",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：169號, 水田街, 光田里, 北區, 新竹市, 300011, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hsinchu-yang-ling-yi-service-office/logo.webp?v=94c7e8d4dd8d1161",
+        "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=23",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人介紹頁人像；<img id=\"ltImg\" class=\"member-img\" src=\"/upload/103/2024052714193365929.jpg\" alt=\"楊玲宜 議員\" border=\"0\" />；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 961 × 1080。"
+      },
+      "visitNote": "第4選區市議員 · 7號",
+      "mapMarker": {
+        "label": "楊玲宜",
+        "image": "./assets/hsinchu-yang-ling-yi-marker-7-type-v1.webp",
+        "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=23"
+      }
+    },
+    {
+      "id": "hsinchu-lin-ying-che-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "林盈徹服務處",
+      "address": "新竹市香山區內湖里內湖路34巷9號",
+      "social": {
+        "facebook": "https://www.facebook.com/Taiwanbigear",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=30"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=30"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.7446378,
+        "lng": 120.9054781
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11194111612",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：9號, 內湖路34巷, 內湖, 內湖里, 香山區, 新竹市, 300112, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hsinchu-lin-ying-che-service-office/logo.webp?v=4ecf43e5d34ed967",
+        "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=30",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方議會個人介紹頁人像；<img id=\"ltImg\" class=\"member-img\" src=\"/upload/103/2024052713412632367.jpg\" alt=\"林盈徹 議員\" border=\"0\" />；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 961 × 1080。"
+      },
+      "visitNote": "第5選區市議員 · 8號",
+      "mapMarker": {
+        "label": "林盈徹",
+        "image": "./assets/hsinchu-lin-ying-che-marker-8-type-v1.webp",
+        "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=30"
+      }
+    }
+  ],
   "pendingStores": []
 }

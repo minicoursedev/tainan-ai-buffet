@@ -25,6 +25,291 @@
     "其它",
     "咖啡豆"
   ],
-  "stores": [],
+  "stores": [
+    {
+      "id": "miaoli-xu-ying-ping-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "許櫻萍服務處",
+      "address": "苗栗縣苗栗市福麗里民族路222號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=&typeid=2580&typeid2=2599"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=&typeid=2580&typeid2=2599"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.5647336,
+        "lng": 120.8131307
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/10997775226",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：222號, 民族路, 福慶, 福麗里, 苗栗市, 苗栗縣, 360008, 臺灣。",
+      "shopPhoto": {
+        "url": "https://www.mcc.gov.tw/admin/upload/twgov_img_202504211330451.jpg",
+        "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=&typeid=2580&typeid2=2599",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "苗栗縣議會該選區議員名錄照片，img alt為「許櫻萍」，採用其連結原尺寸圖片。"
+      },
+      "visitNote": "第1選區縣議員 · 3號",
+      "mapMarker": {
+        "label": "許櫻萍",
+        "image": "./assets/miaoli-xu-ying-ping-marker-3-type-v1.webp",
+        "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=&typeid=2580&typeid2=2599"
+      }
+    },
+    {
+      "id": "miaoli-xu-xiao-jing-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "徐筱菁服務處",
+      "address": "苗栗縣苗栗市恭敬里中正路1212號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100068987386954",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=&typeid=2580&typeid2=2599",
+        "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=574&_PARENT_ID=ER11112KB00003&_TYP=REP&TYP=KND0002"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=&typeid=2580&typeid2=2599",
+          "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=574&_PARENT_ID=ER11112KB00003&_TYP=REP&TYP=KND0002"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.5447852,
+        "lng": 120.8163958
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/10997772161",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：1212號, 中正路, 明駝, 恭敬里, 苗栗市, 苗栗縣, 36047, 臺灣。",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/miaoli-xu-xiao-jing-service-office/logo.webp?v=f60f771504012906",
+        "source": "https://www.facebook.com/profile.php?id=100068987386954",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；苗栗縣議員徐筱菁服務處 | Miaoli ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 960 × 540。"
+      },
+      "visitNote": "第1選區縣議員 · 5號",
+      "mapMarker": {
+        "label": "徐筱菁",
+        "image": "./assets/miaoli-xu-xiao-jing-marker-5-type-v1.webp",
+        "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=&typeid=2580&typeid2=2599"
+      }
+    },
+    {
+      "id": "miaoli-luo-gui-xing-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "羅貴星服務處",
+      "address": "苗栗縣三義鄉勝興村22鄰水美路154號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2600"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2600"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.3972329,
+        "lng": 120.7607304
+      },
+      "coordinateSource": "https://www.google.com/maps/place/367苗栗縣三義鄉勝興村水美街154號/data=!4m6!3m5!1s0x3469042b77882fff:0x9942de7a4706862d!8m2!3d24.3972329!4d120.7607304!16s%2Fg%2F11jy94plpz",
+      "coordinateNote": "OSM無精確門牌。表格及議會列水美路154號；Google Maps精確門牌為勝興村水美街154號，地點內列桐花戀人，商家Maps連結官方FB tonlover31；該官方FB詳細資料明列三義鄉水美路154號，因此核對為路/街異寫的同一門牌。取該門牌地點!3d/!4d座標，保留表格地址。",
+      "shopPhoto": {
+        "url": "https://www.mcc.gov.tw/admin/upload/twgov_img_202504211350081.jpg",
+        "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2600",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "苗栗縣議會該選區議員名錄照片，img alt為「羅貴星」，採用其連結原尺寸圖片。"
+      },
+      "visitNote": "第2選區縣議員 · 2號",
+      "mapMarker": {
+        "label": "羅貴星",
+        "image": "./assets/miaoli-luo-gui-xing-marker-2-type-v1.webp",
+        "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2600"
+      }
+    },
+    {
+      "id": "miaoli-weng-jie-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "翁杰服務處",
+      "address": "苗栗縣通霄鎮內湖里12鄰160號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2601"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2601"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.4965289,
+        "lng": 120.6952815
+      },
+      "coordinateSource": "https://www.google.com/maps/place/357苗栗縣通霄鎮內湖里160號/data=!4m6!3m5!1s0x3469081bf8fe2e09:0x372c0f76dc503ed7!8m2!3d24.4965289!4d120.6952815!16s%2Fg%2F11m6m0z5lq",
+      "coordinateNote": "OSM全址與結構化查詢無精確門牌。瀏覽器Google Maps移除鄰別後實際門牌為357苗栗縣通霄鎮內湖里160號，從地點網址!3d/!4d取得，不使用視窗中心。",
+      "shopPhoto": {
+        "url": "https://www.mcc.gov.tw/admin/upload/twgov_img_202504211441201.jpg",
+        "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2601",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "苗栗縣議會該選區議員名錄照片，img alt為「翁　杰」，採用其連結原尺寸圖片。"
+      },
+      "visitNote": "第3選區縣議員 · 1號",
+      "mapMarker": {
+        "label": "翁杰",
+        "image": "./assets/miaoli-weng-jie-marker-1-type-v1.webp",
+        "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2601"
+      }
+    },
+    {
+      "id": "miaoli-qiu-yu-xing-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "邱毓興服務處",
+      "address": "苗栗縣竹南鎮開元里4鄰鹽館前32號之1",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2602"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2602"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6795544,
+        "lng": 120.8666251
+      },
+      "coordinateSource": "https://www.google.com/maps/place/苗栗縣議員邱毓興服務處/data=!4m7!3m6!1s0x3469b37afabec53f:0xd689226f2472f6a!8m2!3d24.6795544!4d120.8666251!16s%2Fg%2F11kt8tk8bl!19sChIJP8W--nqzaTQRai9H8iaSaA0",
+      "coordinateNote": "OSM無精確門牌。Google Maps以提供地址搜尋，點入苗栗縣議員邱毓興服務處，地址350苗栗縣竹南鎮開元里32-1號及電話037472786吻合，從該地點連結!3d/!4d取得。",
+      "shopPhoto": {
+        "url": "https://www.mcc.gov.tw/admin/upload/twgov_img_202504211409581.jpg",
+        "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2602",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "苗栗縣議會該選區議員名錄照片，img alt為「邱毓興」，採用其連結原尺寸圖片。"
+      },
+      "visitNote": "第4選區縣議員 · 6號",
+      "mapMarker": {
+        "label": "邱毓興",
+        "image": "./assets/miaoli-qiu-yu-xing-marker-6-type-v1.webp",
+        "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2602"
+      }
+    },
+    {
+      "id": "miaoli-chen-guang-xuan-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "陳光軒服務處",
+      "address": "苗栗縣頭份市仁愛里銀河北路3號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2603"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2603"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6848553,
+        "lng": 120.9117543
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/10997972967",
+      "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：3號, 銀河北路, 仁愛里, 頭份市, 苗栗縣, 351006, 臺灣。",
+      "shopPhoto": {
+        "url": "https://www.mcc.gov.tw/admin/upload/twgov_img_202504211405481.jpg",
+        "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2603",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "苗栗縣議會該選區議員名錄照片，img alt為「陳光軒」，採用其連結原尺寸圖片。"
+      },
+      "visitNote": "第5選區縣議員 · 6號",
+      "mapMarker": {
+        "label": "陳光軒",
+        "image": "./assets/miaoli-chen-guang-xuan-marker-6-type-v1.webp",
+        "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2603"
+      }
+    }
+  ],
   "pendingStores": []
 }
