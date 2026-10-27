@@ -34,16 +34,19 @@
       "name": "李世斌服務處",
       "address": "屏東縣屏東市興樂里自由路331號",
       "social": {
-        "facebook": "",
-        "instagram": "",
+        "facebook": "https://www.facebook.com/sb510505/",
+        "instagram": "https://www.instagram.com/apin0505/",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=83e4c59b-1c6e-55f8-864f-90d346ecd8c8"
+        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=83e4c59b-1c6e-55f8-864f-90d346ecd8c8",
+        "https://www.facebook.com/sb510505/",
+        "https://www.instagram.com/apin0505/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads本次未找到可確認帳號。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -81,16 +84,18 @@
       "name": "方一祥服務處",
       "address": "屏東縣屏東市龍華里龍華路22號",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/p/方一祥-屏東祥讚-100063710080119/",
         "instagram": "",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=ded87e64-f9fc-464a-4737-b7b3457e508e"
+        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=ded87e64-f9fc-464a-4737-b7b3457e508e",
+        "https://www.facebook.com/p/方一祥-屏東祥讚-100063710080119/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram本次未找到可確認帳號；Threads本次未找到可確認帳號。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -128,16 +133,20 @@
       "name": "黃建溢服務處",
       "address": "屏東縣枋寮鄉隆山村隆山路192號",
       "social": {
-        "facebook": "",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/huang.jian.yi.633330/",
+        "instagram": "https://www.instagram.com/genyih700310/",
+        "threads": "https://www.threads.com/@genyih700310"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=0ebeb91d-3321-7199-60f1-25f39143e864"
+        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=0ebeb91d-3321-7199-60f1-25f39143e864",
+        "https://www.facebook.com/huang.jian.yi.633330/",
+        "https://www.instagram.com/genyih700310/",
+        "https://www.threads.com/@genyih700310",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -175,16 +184,18 @@
       "name": "利八魁服務處",
       "address": "屏東縣內埔鄉東勢村北寧路10號",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/mp7789101/",
         "instagram": "",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=eba79364-b4a8-29c9-d54e-6bba9e79d240"
+        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=eba79364-b4a8-29c9-d54e-6bba9e79d240",
+        "https://www.facebook.com/mp7789101/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。表格「東勢村」，議會「東寧村」；北寧路10號相同，保留表格原址並記錄差異。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。表格「東勢村」，議會「東寧村」；北寧路10號相同，保留表格原址並記錄差異。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram本次未找到可確認帳號；Threads本次未找到可確認帳號。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -222,16 +233,19 @@
       "name": "許展維服務處",
       "address": "屏東縣萬丹鄉萬惠村西環路358號",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/people/許展維/100063635054505/",
         "instagram": "",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=f7182d89-30b1-e86b-40a1-e2527c353e48"
+        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=f7182d89-30b1-e86b-40a1-e2527c353e48",
+        "https://www.facebook.com/people/許展維/100063635054505/",
+        "https://www.facebook.com/p/許展維-100063635054505/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram本次證據不足，留空；Threads本次證據不足，留空。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -269,16 +283,18 @@
       "name": "劉孟君服務處",
       "address": "屏東縣新園鄉共和村公正路117巷15號",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/0919865161a/",
         "instagram": "",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=5d9217cb-0c81-ab15-cebc-c0e1e7afd00c"
+        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=5d9217cb-0c81-ab15-cebc-c0e1e7afd00c",
+        "https://www.facebook.com/0919865161a/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram本次證據不足，留空；Threads本次證據不足，留空。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -316,16 +332,21 @@
       "name": "方文正服務處",
       "address": "屏東縣東港鎮興東里光復路1段333號",
       "social": {
-        "facebook": "",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/fang.wen.zheng.177925/",
+        "instagram": "https://www.instagram.com/fwch0603/",
+        "threads": "https://www.threads.com/@fwch0603"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=8de36599-83ac-8c40-ef11-be917d8e72cd"
+        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=8de36599-83ac-8c40-ef11-be917d8e72cd",
+        "https://www.facebook.com/fang.wen.zheng.177925/",
+        "https://www.instagram.com/fwch0603/",
+        "https://www.instagram.com/p/DbZ0I7Rn8OC/",
+        "https://www.threads.com/@fwch0603",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -363,16 +384,18 @@
       "name": "羅平道服務處",
       "address": "屏東縣佳冬鄉佳冬村溝渚路185巷8號",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/profile.php?id=100069092101417",
         "instagram": "",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=bb3e2d73-cd78-d552-18de-5bc5248a88b1"
+        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=bb3e2d73-cd78-d552-18de-5bc5248a88b1",
+        "https://www.facebook.com/profile.php?id=100069092101417",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。表格溝渚路185巷8號，議會文化三路36號；保留表格原址，不自行更換。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。表格溝渚路185巷8號，議會文化三路36號；保留表格原址，不自行更換。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram本次未找到可確認帳號；Threads本次未找到可確認帳號。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -410,16 +433,19 @@
       "name": "周碧雲服務處",
       "address": "屏東縣崁頂鄉北勢村後廍路24-10號",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/ptchoubiwin/",
         "instagram": "",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=86a21ec5-3443-98aa-8aa5-93af63edea3c"
+        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=86a21ec5-3443-98aa-8aa5-93af63edea3c",
+        "https://www.facebook.com/ptchoubiwin/",
+        "https://www.facebook.com/751541881365780/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram本次證據不足，留空；Threads本次證據不足，留空。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -457,16 +483,21 @@
       "name": "潘芳泉服務處",
       "address": "屏東縣恆春鎮山腳里恆西路33巷11弄36號",
       "social": {
-        "facebook": "",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/pan21120/",
+        "instagram": "https://www.instagram.com/fangquanpan/",
+        "threads": "https://www.threads.com/@fangquanpan"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=f3728c99-9bb4-0975-89cb-7dd3c22149d4"
+        "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=f3728c99-9bb4-0975-89cb-7dd3c22149d4",
+        "https://www.facebook.com/pan21120/",
+        "https://www.instagram.com/fangquanpan/",
+        "https://www.instagram.com/reel/De1S1pyDcDi/",
+        "https://www.threads.com/@fangquanpan",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
