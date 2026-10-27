@@ -72,7 +72,11 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         if (!position || !Number.isFinite(position.lat) || !Number.isFinite(position.lng)
             || Math.abs(position.lat)>90 || Math.abs(position.lng)>180) continue;
         positions.set(shop.id, position);
-        const useGeneratedMarker = shop.id === 'chen-ting-fei-campaign-headquarters';
+        const markerArtwork = {
+          'chen-ting-fei-campaign-headquarters': {file:'chen-ting-fei-marker-3-v1.png', label:'③ 陳亭妃'},
+          'lin-yi-ting-service-office': {file:'lin-yi-ting-marker-2-v1.webp', label:'② 林依婷'}
+        }[shop.id];
+        const useGeneratedMarker = Boolean(markerArtwork);
         const badge = document.createElement('div');
         badge.className = useGeneratedMarker ? 'osm-artwork-pin' : 'osm-shop-pin';
         if (shop.verification === false) badge.classList.add('is-unverified');
@@ -84,8 +88,8 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         badge.style.height = `${height}px`;
         if (useGeneratedMarker) {
           const artwork = document.createElement('img');
-          artwork.src = new URL('./assets/chen-ting-fei-marker-3-v1.png', import.meta.url).href;
-          artwork.alt = '③ 陳亭妃';
+          artwork.src = new URL(`./assets/${markerArtwork.file}`, import.meta.url).href;
+          artwork.alt = markerArtwork.label;
           badge.append(artwork);
         } else if (shop.mapMarker?.image && shop.mapMarker?.label) {
           badge.classList.add('osm-portrait-pin');
