@@ -7322,12 +7322,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11060982104",
       "coordinateNote": "2026-10-27 查證子代理優先以OpenStreetMap Nominatim結構化街道門牌查詢取得節點11060982104；主代理另直接讀OSM節點API，核對addr:full為臺南市中西區大涼里16鄰永華路一段305號，行政區、路段與305號門牌均與使用者及官方地址相符，來源為臺南市政府。採門牌數值座標22.9886184、120.1881130，非道路中心或地圖視窗中心。",
       "shopPhoto": {
-        "url": "",
-        "source": "https://page.line.me/pud0181n",
-        "platform": "line",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/letsgolin-service-office/logo.webp?v=b8870a66622241cb",
+        "source": "https://www.threads.com/@letsgolin?hl=zh-tw",
+        "platform": "threads",
         "status": "verified",
         "checkedAt": "2026-10-27",
-        "note": "查證子代理與主代理均直接核對官方LINE原頁：account.profile.name為林俊憲、badgeType為certified，地址與本店相符；profileImg.original明示為個人檔案頭像原圖。對原生URL唯讀請求確認HTTP200、image/jpeg、原生1149×1149，未修改尺寸或簽章參數，足供Logo縮至最長邊256px；新店圖片網址暫留空。",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；林俊憲（@letsgolin） • Threads，暢所欲言；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。",
         "originalUrl": "https://profile.line-scdn.net/0h74AxtuNSaBt8AULk4UEXTEBEZnYLL25TBGIvKFlUMyhUMCYeFG90LgoCMSJVYStIFDJ0L18CYixR"
       }
     }
