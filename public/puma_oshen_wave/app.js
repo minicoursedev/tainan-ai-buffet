@@ -310,7 +310,8 @@ function locateMe() {
       setView(true);
       shopMap.locate({lat:coords.latitude, lng:coords.longitude});
       byId('location-name').textContent = '我的位置';
-      report(`已定位，精確度約 ${Math.round(coords.accuracy)} 公尺`);
+      status.textContent = '';
+      status.hidden = true;
     } catch {
       if (!finished) report('定位結果無法顯示，請再試一次。');
     } finally { finish(); }
