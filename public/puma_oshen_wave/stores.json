@@ -7302,7 +7302,7 @@
         "https://www.openstreetmap.org/node/11060982104"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供Facebook、Threads及地址，保留指定名稱「洋流服務處」，分類沿用「洋流服務站」；新增verification依本次指示設為JSON布林值false。查證子代理讀取立法院第11屆林俊憲委員官方頁，明列中西區服務處為臺南市中西區永華路一段305號；主代理另核對官方LINE原頁，認證帳號名稱林俊憲，地址同為中西區永華路一段305號。指定Facebook及Threads公開頁標題均為林俊憲，社群連結依使用者提供保留。已比對全部既有紀錄（含disabled）及待查資料的店名、地址與社群，未發現重複。未確認官方Instagram，留空。",
+      "verificationNote": "使用者提供Facebook、Threads、地址及指定名稱「洋流服務處」，沿用「洋流服務站」分類。本次比對全部既有紀錄（含disabled）與待查資料，確認為既有letsgolin-service-office，更新原紀錄、不重複新增；verification及disabled保留原值。查證子代理與主代理讀取立法院第11屆林俊憲委員官方頁，核對中西區服務處為臺南市中西區永華路一段305號、專線06-299-8266；官方LINE認證帳號亦列相同門牌。指定Facebook及Threads公開頁均為林俊憲，Threads另明確外連指定Facebook。地址未變，保留既有OSM門牌座標。未取得Instagram官方外連證據，暫留空。",
       "openingHours": {
         "status": "unverified",
         "text": "固定服務時間待確認，請洽官方社群或致電06-299-8266確認。",
@@ -7323,12 +7323,17 @@
       "coordinateNote": "2026-10-27 查證子代理優先以OpenStreetMap Nominatim結構化街道門牌查詢取得節點11060982104；主代理另直接讀OSM節點API，核對addr:full為臺南市中西區大涼里16鄰永華路一段305號，行政區、路段與305號門牌均與使用者及官方地址相符，來源為臺南市政府。採門牌數值座標22.9886184、120.1881130，非道路中心或地圖視窗中心。",
       "shopPhoto": {
         "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/letsgolin-service-office/logo.webp?v=b8870a66622241cb",
-        "source": "https://www.threads.com/@letsgolin?hl=zh-tw",
-        "platform": "threads",
+        "source": "https://page.line.me/pud0181n",
+        "platform": "line",
         "status": "verified",
         "checkedAt": "2026-10-27",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；林俊憲（@letsgolin） • Threads，暢所欲言；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。",
+        "note": "2026-10-27查證子代理核對林俊憲LINE官方認證帳號（badgeType為certified），頁面個人頭像標示Show profile photo並連至/pud0181n/profile/img；內嵌profile.profileImg.original明示既有originalUrl。原生圖片HTTP 200、Content-Type為image/jpeg、尺寸1149×1149，已確認可存取且足供256px Logo，不改寫尺寸或簽章參數；保留既有圖片網址。",
         "originalUrl": "https://profile.line-scdn.net/0h74AxtuNSaBt8AULk4UEXTEBEZnYLL25TBGIvKFlUMyhUMCYeFG90LgoCMSJVYStIFDJ0L18CYixR"
+      },
+      "mapMarker": {
+        "label": "林俊憲",
+        "image": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/letsgolin-service-office/logo.webp?v=b8870a66622241cb",
+        "source": "https://page.line.me/pud0181n"
       }
     }
   ],
