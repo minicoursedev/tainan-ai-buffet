@@ -74,7 +74,8 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         positions.set(shop.id, position);
         const markerArtwork = {
           'chen-ting-fei-campaign-headquarters': {file:'chen-ting-fei-marker-3-type-v1.webp', label:'③ 陳亭妃', type:'市長候選人', height:135},
-          'lin-yi-ting-service-office': {file:'lin-yi-ting-marker-2-v1.webp', label:'② 林依婷'}
+          'lin-yi-ting-service-office': {file:'lin-yi-ting-marker-2-v1.webp', label:'② 林依婷'},
+          'teamshenchennan-service-office': {file:'shen-chen-nan-marker-11-type-v1.webp', label:'⑪ 沈震南', type:'中西區/北區議員', blankTypeFooter:true, width:120, height:169}
         }[shop.id];
         const useGeneratedMarker = Boolean(markerArtwork);
         const badge = document.createElement('div');
@@ -82,7 +83,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         if (shop.verification === false) badge.classList.add('is-unverified');
         const scale = (shop.category === '洋流服務站' ? 1.15 : 1)
           * (shop.id === 'hexin-pharmacy' ? 1.15 : 1);
-        const width = useGeneratedMarker ? 96 : 24 * scale;
+        const width = useGeneratedMarker ? (markerArtwork.width ?? 96) : 24 * scale;
         const height = useGeneratedMarker ? (markerArtwork.height ?? 114) : 30 * scale;
         badge.style.width = `${width}px`;
         badge.style.height = `${height}px`;
@@ -97,6 +98,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
             type.className = 'osm-artwork-type';
             type.textContent = markerArtwork.type;
             type.style.fontSize = `${Math.min(width * .14, width * .74 / Math.max([...markerArtwork.type].length, 1))}px`;
+            if (markerArtwork.blankTypeFooter) type.style.background = 'transparent';
             badge.append(type);
           }
         } else if (shop.mapMarker?.image && shop.mapMarker?.label) {
