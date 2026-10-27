@@ -1,6 +1,6 @@
-import { createWalkView } from '../designer/js/walk.js?v=20261027-stage-banquet';
+import { createWalkView } from '../designer/js/walk.js?v=20261028-stage-author-plates';
 import { toast } from '../designer/js/state.js';
-import { loadCatalogue } from './data.js';
+import { loadCatalogue } from './data.js?v=20261028-author-halls';
 import { mountPlayer } from './player.js';
 
 const $ = id => document.getElementById(id);
@@ -16,12 +16,14 @@ try {
   const saved = JSON.parse(localStorage.getItem(KEY) || '[]');
   if (Array.isArray(saved)) visited = new Set(saved.filter(id => typeof id === 'string'));
 } catch { /* Browser storage is optional. */ }
-let catalogue, walk, aisleIndex = 0, nearId = null, mode = 'walk';
+let catalogue, walk, hallId, aisleIndex = 0, nearId = null, mode = 'walk';
 let current = null, returnHash = '#/walk';
 let destroyPlayer = null, continuousIndex = -1;
 const dialog = $('video-dialog');
 const byBooth = new Map();
 const byId = new Map();
+const hallStages = () => catalogue.stages.filter(stage => stage.hallId === hallId);
+const currentHall = () => catalogue.halls.find(hall => hall.id === hallId);
 
 function stageUrl(id) {
   const url = new URL(location.href);
@@ -31,10 +33,24 @@ function stageUrl(id) {
 }
 
 function updateStatus() {
-  const count = catalogue.stages.filter(stage => visited.has(stage.id)).length;
-  $('status-count').textContent = `已造訪 ${count} / ${catalogue.stages.length} 座舞台`;
-  $('btn-next').disabled = !catalogue.stages.length;
-  $('btn-continuous').disabled = !catalogue.stages.length;
+  const stages = hallStages();
+  const count = stages.filter(stage => visited.has(stage.id)).length;
+  $('status-count').textContent = stages.length ? `已造訪 ${count} / ${stages.length} 座舞台` : '影片準備中';
+  $('btn-next').disabled = !stages.length;
+  $('btn-continuous').disabled = !stages.length;
+}
+
+function updateHall() {
+  const hall = currentHall();
+  $('where-hall').textContent = hall.name;
+  $('list-title').textContent = `${hall.name}｜影片列表`;
+  $('map-title').textContent = `${hall.name}｜舞台地圖`;
+  $('hall-select').value = hallId;
+  const empty = !hallStages().length;
+  $('stage-message').textContent = `${hall.name}的影片正在準備中，敬請期待。`;
+  $('stage-message').hidden = !empty;
+  $('hint').hidden = empty;
+  updateStatus();
 }
 
 function setMode(next, navigate = true) {
@@ -44,20 +60,30 @@ function setMode(next, navigate = true) {
   if (next === 'walk') walk?.resize();
   if (next === 'list') renderList();
   if (next === 'map') renderMap();
-  if (navigate) history.pushState(null, '', next === 'walk' ? `#/walk/${catalogue.aisles[aisleIndex].code}` : `#/${next}`);
+  if (navigate) history.pushState(null, '', next === 'walk' ? `#/walk/${catalogue.aisles[aisleIndex].code}` : `#/${next}/${hallId}`);
 }
 
 function goToAisle(index, boothId = null, from = null) {
   if (!catalogue.aisles[index]) return;
   aisleIndex = index;
-  setMode('walk', false);
   const aisle = catalogue.aisles[index];
+  hallId = aisle.hall;
+  setMode('walk', false);
   walk.setAisle(aisle, {
     boothId, from,
-    prev: catalogue.aisles[index - 1]?.code,
-    next: catalogue.aisles[index + 1]?.code,
+    prev: catalogue.aisles[index - 1]?.hall === hallId ? catalogue.aisles[index - 1].code : null,
+    next: catalogue.aisles[index + 1]?.hall === hallId ? catalogue.aisles[index + 1].code : null,
   });
   $('where-aisle').textContent = `${aisle.code} 走道`;
+  updateHall();
+}
+
+function selectHall(id) {
+  const index = catalogue.aisles.findIndex(aisle => aisle.hall === id);
+  if (index < 0) return;
+  const next = mode;
+  goToAisle(index);
+  setMode(next);
 }
 
 function stopPlayer() {
@@ -67,14 +93,15 @@ function stopPlayer() {
 }
 
 function advanceContinuous() {
+  const stages = hallStages();
   const index = continuousIndex + 1;
-  if (index >= catalogue.stages.length) {
+  if (index >= stages.length) {
     continuousIndex = -1;
     $('continuous-status').textContent = '已全部播放完畢';
     return;
   }
   continuousIndex = index;
-  openStage(catalogue.stages[index], true, true);
+  openStage(stages[index], true, true);
 }
 
 function closeVideo(restore = true) {
@@ -101,7 +128,7 @@ function openStage(stage, navigate = true, continuous = false) {
   $('video-source').href = stage.video.url;
   $('video-source').textContent = stage.video.type === 'youtube' ? '到 YouTube 觀看' : '開啟原影片';
   $('video-help').textContent = stage.video.type === 'youtube' ? '若影片無法在此播放，可以到 YouTube 觀看。' : '';
-  const progress = () => `連續播放 ${continuousIndex + 1} / ${catalogue.stages.length}｜關閉影片即可停止`;
+  const progress = () => `連續播放 ${continuousIndex + 1} / ${hallStages().length}｜關閉影片即可停止`;
   $('continuous-status').hidden = !continuous;
   $('continuous-status').textContent = continuous ? progress() : '';
   destroyPlayer = mountPlayer($('video-player'), stage.video, {
@@ -130,8 +157,8 @@ function openStage(stage, navigate = true, continuous = false) {
 
 function renderList() {
   const words = $('video-search').value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
-  const stages = catalogue.stages.filter(stage => words.every(word => `${stage.title} ${stage.creator} ${stage.boothId}`.toLocaleLowerCase().includes(word)));
-  $('list-count').textContent = stages.length ? `共 ${stages.length} 部影片` : catalogue.stages.length ? '沒有符合的影片，換個關鍵字試試。' : '舞台正在準備影片，歡迎稍後再來。';
+  const stages = hallStages().filter(stage => words.every(word => `${stage.title} ${stage.creator} ${stage.boothId}`.toLocaleLowerCase().includes(word)));
+  $('list-count').textContent = stages.length ? `共 ${stages.length} 部影片` : hallStages().length ? '沒有符合的影片，換個關鍵字試試。' : `${currentHall().name}的影片正在準備中，敬請期待。`;
   $('video-list').replaceChildren(...stages.map(stage => {
     const card = make('article', undefined, 'video-card');
     const poster = make('button', undefined, 'video-poster');
@@ -152,7 +179,8 @@ function renderList() {
 }
 
 function renderMap() {
-  $('stage-plan').replaceChildren(...catalogue.aisles.map((aisle, index) => {
+  $('stage-plan').replaceChildren(...catalogue.aisles.filter(aisle => aisle.hall === hallId).map(aisle => {
+    const index = catalogue.aisles.indexOf(aisle);
     const section = make('section', undefined, 'plan-aisle');
     section.append(make('h2', `${aisle.code} 走道`));
     for (const island of aisle.islands) {
@@ -172,7 +200,7 @@ function renderMap() {
       section.append(row);
     }
     section.append(make('p', '← 舞台走道 →', 'plan-walkway'));
-    if (!catalogue.stages.length) section.append(make('p', '舞台正在準備影片，歡迎稍後再來。'));
+    if (!hallStages().length) section.append(make('p', `${currentHall().name}的影片正在準備中，敬請期待。`));
     return section;
   }));
 }
@@ -190,13 +218,25 @@ function route() {
     }
     toast('找不到這座舞台，影片可能已下架。');
   }
-  if (next === 'list' || next === 'map') return setMode(next, false);
+  if (next === 'list' || next === 'map') {
+    const index = catalogue.aisles.findIndex(aisle => aisle.hall === target);
+    if (index >= 0) goToAisle(index);
+    return setMode(next, false);
+  }
   const index = catalogue.aisles.findIndex(aisle => aisle.code === target?.split('-')[0]);
   goToAisle(index < 0 ? aisleIndex : index, byBooth.has(target) ? target : null);
 }
 
 async function boot() {
   catalogue = await loadCatalogue();
+  hallId = catalogue.halls[0].id;
+  $('hall-select').replaceChildren(...catalogue.halls.map(hall => {
+    const option = make('option', hall.name);
+    option.value = hall.id;
+    return option;
+  }));
+  $('hall-select').disabled = false;
+  $('hall-select').addEventListener('change', () => selectHall($('hall-select').value));
   for (const stage of catalogue.stages) { byBooth.set(stage.boothId, stage); byId.set(stage.id, stage); }
   const busy = () => dialog.open || mode !== 'walk';
   walk = createWalkView($('walk-canvas'), {
@@ -204,12 +244,14 @@ async function boot() {
     onNear: id => {
       nearId = id;
       $('btn-watch').disabled = !id;
-      $('btn-watch').textContent = id ? `觀看 ${id} 影片` : '靠近舞台看影片';
+      $('btn-watch').textContent = id ? '觀看影片' : '靠近舞台看影片';
     },
     onOpen: id => { if (!busy()) openStage(byBooth.get(id)); },
     onEnd: direction => {
       if (busy()) return;
-      goToAisle(aisleIndex + (direction === 'next' ? 1 : -1), null, direction === 'next' ? 'left' : 'right');
+      const index = aisleIndex + (direction === 'next' ? 1 : -1);
+      if (catalogue.aisles[index]?.hall !== hallId) return;
+      goToAisle(index, null, direction === 'next' ? 'left' : 'right');
       history.replaceState(null, '', `#/walk/${catalogue.aisles[aisleIndex].code}`);
     },
   });
@@ -241,11 +283,6 @@ async function boot() {
   window.addEventListener('pagehide', stopPlayer);
   goToAisle(0);
   route();
-  updateStatus();
-  if (!catalogue.stages.length) {
-    $('stage-message').textContent = '舞台正在準備影片，歡迎稍後再來。';
-    $('stage-message').hidden = false;
-  }
 }
 
 boot().catch(error => {

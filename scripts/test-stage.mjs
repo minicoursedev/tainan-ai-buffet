@@ -34,6 +34,7 @@ test('stages occupy only the upper row and overflow into another aisle', () => {
   for (const stage of result.stages) {
     const aisle = result.aisles.find(a => a.code === stage.aisleCode);
     assert.equal(aisle.stores[stage.id].name, stage.title);
+    assert.equal(aisle.stores[stage.id].creator, '創作者');
     assert.ok(aisle.islands.some(island => island.booths.some(b => b.id === stage.boothId && b.store === stage.id)));
   }
   const reordered = createCatalogue({ stages: [...data.stages].reverse() });
@@ -48,9 +49,30 @@ test('empty, hidden and invalid records have defined outcomes', () => {
   assert.throws(() => createCatalogue({}));
 });
 
-test('the current catalogue loads and preserves the first supplied video', async () => {
+test('halls keep separate aisles and retain an empty hall for upcoming videos', () => {
+  const halls = [{ id: 'puma', name: 'PUMA 館', code: 'S' }, { id: 'chiaohui', name: '巧慧館', code: 'C' }];
+  const stages = Array.from({ length: 5 }, (_, i) => ({ ...record(`puma-${i}`), hall: 'puma' }));
+  const empty = createCatalogue({ halls, stages });
+  assert.deepEqual(empty.aisles.map(aisle => [aisle.code, aisle.hallName]), [['S01', 'PUMA 館'], ['S02', 'PUMA 館'], ['C01', '巧慧館']]);
+  assert.deepEqual(empty.aisles[2].islands, []);
+  assert.ok(empty.stages.every(stage => stage.hallId === 'puma'));
+
+  const populated = createCatalogue({ halls, stages: [...stages, { ...record('chiaohui-one'), hall: 'chiaohui' }] });
+  assert.equal(populated.stages.at(-1).boothId, 'C01-01');
+  assert.deepEqual(populated.aisles[2].islands[0].booths.map(booth => booth.store), ['chiaohui-one']);
+  assert.equal(populated.stages[4].boothId, 'S02-01');
+  assert.throws(() => createCatalogue({ halls, stages: [{ ...record('unknown'), hall: 'unknown' }] }));
+});
+
+test('the current catalogue loads and preserves the original video identity when reordered', async () => {
   const data = JSON.parse(await readFile(new URL('../public/puma_oshen_wave/stage/videos.json', import.meta.url), 'utf8'));
   const catalogue = createCatalogue(data);
-  assert.equal(catalogue.stages[0].video.url, videoUrl);
-  assert.equal(catalogue.stages[0].creator, '謝和弦 R-chord');
+  const original = catalogue.stages.find(stage => stage.id === 'ocean-drifts-over-taipei');
+  assert.equal(original.video.url, videoUrl);
+  assert.equal(original.creator, '謝和弦 R-chord');
+  assert.equal(catalogue.halls.length, new Set(catalogue.stages.map(stage => stage.creator)).size);
+  for (const stage of catalogue.stages) {
+    assert.equal(catalogue.halls.find(hall => hall.id === stage.hallId).name, stage.creator);
+  }
+  assert.equal(new Set(catalogue.stages.filter(stage => stage.creator === '忙活').map(stage => stage.hallId)).size, 1);
 });

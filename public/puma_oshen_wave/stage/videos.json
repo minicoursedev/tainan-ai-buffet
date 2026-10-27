@@ -1,12 +1,99 @@
 {
+  "halls": [
+    {
+      "id": "author-shen-puma",
+      "name": "沈伯洋Puma",
+      "code": "A"
+    },
+    {
+      "id": "author-r-chord",
+      "name": "謝和弦 R-chord",
+      "code": "B"
+    },
+    {
+      "id": "author-fearless-music",
+      "name": "台派音樂FearlessMusic",
+      "code": "C"
+    },
+    {
+      "id": "author-john90222",
+      "name": "花美男歐爸",
+      "code": "D"
+    },
+    {
+      "id": "author-midnight-songwriter",
+      "name": "凌晨寫歌的人",
+      "code": "E"
+    },
+    {
+      "id": "author-ederwa-hong",
+      "name": "Ederwa Hong",
+      "code": "F"
+    },
+    {
+      "id": "author-wind-j",
+      "name": "Wind J 風的旅程",
+      "code": "G"
+    },
+    {
+      "id": "author-manghuo",
+      "name": "忙活",
+      "code": "H"
+    },
+    {
+      "id": "author-dragon-prince",
+      "name": "龍神太子的頻道",
+      "code": "I"
+    },
+    {
+      "id": "author-yes100",
+      "name": "Yes100 AI Visual Lab",
+      "code": "J"
+    },
+    {
+      "id": "author-taiwan-beyond",
+      "name": "台灣視界∣Taiwan & Beyond",
+      "code": "K"
+    },
+    {
+      "id": "author-jimmy-sings",
+      "name": "Jimmy唱歌給你聽(Jimmy sings for you)",
+      "code": "L"
+    },
+    {
+      "id": "author-benson-hung",
+      "name": "Benson Hung",
+      "code": "M"
+    },
+    {
+      "id": "author-atma-more",
+      "name": "ATMA MORE 豐盛研究所",
+      "code": "N"
+    },
+    {
+      "id": "author-taitai-records",
+      "name": "台台唱片",
+      "code": "O"
+    }
+  ],
   "stages": [
+    {
+      "id": "taipei-future-soon",
+      "title": "《台北順起來 𝙁𝙪𝙩𝙪𝙧𝙚 𝙎𝙤𝙤𝙣》2026 沈伯洋官方競選歌曲X市民歌曲募集",
+      "creator": "沈伯洋Puma",
+      "url": "https://www.youtube.com/watch?v=Wa3n3KuT028",
+      "description": "",
+      "disabled": false,
+      "hall": "author-shen-puma"
+    },
     {
       "id": "ocean-drifts-over-taipei",
       "title": "《洋流漂過台北城》#新台語創作",
       "creator": "謝和弦 R-chord",
       "url": "https://www.youtube.com/watch?v=LnIlsGFRB_4",
       "description": "",
-      "disabled": false
+      "disabled": false,
+      "hall": "author-r-chord"
     },
     {
       "id": "puma-ocean-current",
@@ -14,7 +101,179 @@
       "creator": "台派音樂FearlessMusic",
       "url": "https://www.youtube.com/watch?v=lBU3N-YVh60",
       "description": "",
-      "disabled": false
+      "disabled": false,
+      "hall": "author-fearless-music"
+    },
+    {
+      "id": "our-taipei",
+      "title": "《我們的台北》 台北 沈伯洋競選歌曲",
+      "creator": "花美男歐爸",
+      "url": "https://www.youtube.com/watch?v=Pyf3pWw8zjY",
+      "description": "",
+      "disabled": false,
+      "hall": "author-john90222"
+    },
+    {
+      "id": "taipei-deserves-puma",
+      "title": "《台北值得沈伯洋》網友自創競選歌｜2026台北市長選戰應援曲",
+      "creator": "凌晨寫歌的人",
+      "url": "https://www.youtube.com/watch?v=obUSoRRy2As",
+      "description": "",
+      "disabled": false,
+      "hall": "author-midnight-songwriter"
+    },
+    {
+      "id": "taipei-daylight",
+      "title": "《台北的天光》 台北 沈伯洋競選歌曲",
+      "creator": "花美男歐爸",
+      "url": "https://www.youtube.com/watch?v=4623iDtNaJ8",
+      "description": "",
+      "disabled": false,
+      "hall": "author-john90222"
+    },
+    {
+      "id": "standing-for-taipei",
+      "title": "守護台北ㄟ人 Standing for Taipei | 沈伯洋 PUMA SHEN #election2026",
+      "creator": "Ederwa Hong",
+      "url": "https://www.youtube.com/watch?v=AmUAJ06T_w0",
+      "description": "",
+      "disabled": false,
+      "hall": "author-ederwa-hong"
+    },
+    {
+      "id": "light-in-ocean-current",
+      "title": "【洋流裡有光】寫給沈伯洋與小水滴的應援歌曲 | 周映君老師的台北市長預測與台北大洋流首航的感悟 | 洋流為水、以水露金",
+      "creator": "Wind J 風的旅程",
+      "url": "https://www.youtube.com/watch?v=qMZpm2Axftg",
+      "description": "",
+      "disabled": false,
+      "hall": "author-wind-j"
+    },
+    {
+      "id": "ocean-current-warmth",
+      "title": "《洋流的溫度》把台北兩天的感動寫成一首歌｜陌生人的一句加油，陪我走上回家的路｜忙活 原創MV",
+      "creator": "忙活",
+      "url": "https://www.youtube.com/watch?v=MUvOyTEFRGk",
+      "description": "",
+      "disabled": false,
+      "hall": "author-manghuo"
+    },
+    {
+      "id": "ocean-current-baoan-temple",
+      "title": "《洋流》｜1011中山大同・保安宮｜沿路每一雙手，都是海的一部分｜大字幕MV  太子我無法不做 因為畫面太美了 你們太可愛了^^ 下一站 松山 信義  太子也會很認真剪 (剪幾次都爽)",
+      "creator": "龍神太子的頻道",
+      "url": "https://www.youtube.com/watch?v=KDiw2hrMNOI",
+      "description": "",
+      "disabled": false,
+      "hall": "author-dragon-prince"
+    },
+    {
+      "id": "taipei-ocean-current-animated",
+      "title": "《台北大洋流》動畫 MV｜獻給每一位「洋流」的歌｜不推倒誰的高牆，只打開彼此的心房｜起錨 揚帆 洋流啟航，你不是來看洋流的 你就是洋流，洋流是屬於市民的",
+      "creator": "Yes100 AI Visual Lab",
+      "url": "https://www.youtube.com/watch?v=Cc-NGoafhyM",
+      "description": "",
+      "disabled": false,
+      "hall": "author-yes100"
+    },
+    {
+      "id": "ocean-current-2-taiwan-beyond",
+      "title": "沈伯洋｜洋流 2｜一首寫給台北的歌：從五分埔到淡水河",
+      "creator": "台灣視界∣Taiwan & Beyond",
+      "url": "https://www.youtube.com/watch?v=PUn8bz7p1t0",
+      "description": "",
+      "disabled": false,
+      "hall": "author-taiwan-beyond"
+    },
+    {
+      "id": "ocean-current-chiaohui",
+      "title": "《洋流慧聚》一條河，兩座城，一起唱起來｜太子 X 天機・原創歌曲實拍 MV  畫面由 鏡新聞 提供   1080P版本 給他開下去 讓長輩看得更清楚",
+      "creator": "龍神太子的頻道",
+      "url": "https://www.youtube.com/watch?v=Y7l5EG4cSno",
+      "description": "",
+      "disabled": false,
+      "hall": "author-dragon-prince"
+    },
+    {
+      "id": "riding-ocean-current-chuang",
+      "title": "《乘著洋流 程風破浪》沈伯洋 × 莊競程｜洋流吹進新竹，把溫暖唱成希望【完整版 MV】",
+      "creator": "忙活",
+      "url": "https://www.youtube.com/watch?v=uDtjr-_4zDQ",
+      "description": "",
+      "disabled": false,
+      "hall": "author-manghuo"
+    },
+    {
+      "id": "ocean-current-jiang-wont-listen",
+      "title": "🤣【沈伯洋PK蔣萬安】《洋流蔣不聽！》🌊 所以、其實、當然…原創爆笑漫畫MV！",
+      "creator": "Jimmy唱歌給你聽(Jimmy sings for you)",
+      "url": "https://www.youtube.com/watch?v=XPPOdI-ADaM",
+      "description": "",
+      "disabled": false,
+      "hall": "author-jimmy-sings"
+    },
+    {
+      "id": "want-to-vote",
+      "title": "想去投票",
+      "creator": "Benson Hung",
+      "url": "https://www.youtube.com/watch?v=tyZdv_hqmyE",
+      "description": "",
+      "disabled": false,
+      "hall": "author-benson-hung"
+    },
+    {
+      "id": "ocean-current-returns",
+      "title": "海流返來",
+      "creator": "Benson Hung",
+      "url": "https://www.youtube.com/watch?v=CI_CCYEVpxE",
+      "description": "",
+      "disabled": false,
+      "hall": "author-benson-hung"
+    },
+    {
+      "id": "wind-of-the-ocean-current",
+      "title": "【沈伯洋原創應援曲】洋流的風🌊「人類的讚歌，就是勇氣的讚歌」獻給每一個守護家鄉的小水滴！（Atma閱讀靈魂故事的人）",
+      "creator": "ATMA MORE 豐盛研究所",
+      "url": "https://www.youtube.com/watch?v=SyId28uJqhg",
+      "description": "",
+      "disabled": false,
+      "hall": "author-atma-more"
+    },
+    {
+      "id": "future-route",
+      "title": "未來航線｜10/18 松山・信義車掃 MV｜洋流號，駛向民權公園｜龍神太子 × 天機  下一站 內湖 南港 太子也會很用力的剪",
+      "creator": "龍神太子的頻道",
+      "url": "https://www.youtube.com/watch?v=Dyw37bphb7g",
+      "description": "",
+      "disabled": false,
+      "hall": "author-dragon-prince"
+    },
+    {
+      "id": "ocean-current-chiaohui-original-mv",
+      "title": "《洋流慧聚》 沈伯洋 蘇巧慧 【太子原創詞曲MV】",
+      "creator": "龍神太子的頻道",
+      "url": "https://www.youtube.com/watch?v=X_sSL9Xsm7A",
+      "description": "",
+      "disabled": false,
+      "hall": "author-dragon-prince"
+    },
+    {
+      "id": "try-another-opera-version",
+      "title": "《換一個試看覓》歌劇版｜台語歌變歌劇，這次玩大了！｜沈伯洋競選歌曲 原曲入選｜台北順起來",
+      "creator": "台台唱片",
+      "url": "https://www.youtube.com/watch?v=7KuPu_n3OU4",
+      "description": "",
+      "disabled": false,
+      "hall": "author-taitai-records"
+    },
+    {
+      "id": "chiaohui-ni-hao-hui",
+      "title": "《巧慧，你好會》一首歌認識蘇巧慧！把溫柔唱成城市的光｜Q版完整版MV",
+      "creator": "忙活",
+      "url": "https://www.youtube.com/watch?v=7LzhNo8Dc2E",
+      "description": "",
+      "disabled": false,
+      "hall": "author-manghuo"
     }
   ]
 }

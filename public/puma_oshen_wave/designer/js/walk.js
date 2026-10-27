@@ -408,12 +408,12 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     c.fillStyle = GREEN_DEEP; c.fill(); c.strokeStyle = PAPER; c.lineWidth = 1.4; c.stroke();
     c.beginPath(); c.moveTo(x - 2.8, y + 0.2); c.lineTo(x - 0.7, y + 2.3); c.lineTo(x + 3, y - 2.3); c.lineWidth = 1.5; c.stroke();
   }
-  function plate(cx, cy, b, full, near) {
-    const label = full ? b.id : b.id.slice(b.id.indexOf('-') + 1);
-    const w = full ? 66 : 32, h = 17;
+  function plate(cx, cy, b, full, near, author = '') {
+    const label = author || (full ? b.id : b.id.slice(b.id.indexOf('-') + 1));
+    const w = author ? BW - 32 : full ? 66 : 32, h = 17;
     c.fillStyle = near ? PINK_SOFT : PAPER; c.fillRect(cx - w / 2, cy - h / 2, w, h);
     c.strokeStyle = INK; c.lineWidth = near ? 2 : 1.6; c.strokeRect(cx - w / 2, cy - h / 2, w, h);
-    c.fillStyle = INK; c.font = `600 ${full ? 11.5 : 12.5}px ${MONO}`; c.fillText(label, cx, cy + 0.5);
+    c.fillStyle = INK; c.font = `600 ${full ? 11.5 : 12.5}px ${author ? FONT : MONO}`; c.fillText(author ? fit(label, w - 24) : label, cx, cy + 0.5);
     if (visited(b.id)) stamp(cx - w / 2 + 1, cy - h / 2 + 1);
   }
   const storeName = b => (data.stores[b.store] && data.stores[b.store].name) || '';
@@ -472,7 +472,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     poly([[cx - 4, top + sh / 2 - 7], [cx + 8, top + sh / 2], [cx - 4, top + sh / 2 + 7]]); c.fill();
     c.fillStyle = INK; c.font = `700 11px ${FONT}`;
     c.fillText(fit(storeName(b), BW - 24), cx, north ? top + sh + 13 : floor - 13);
-    plate(cx, north ? floor - 13 : top - 6, b, true, near);
+    plate(cx, north ? floor - 13 : top - 6, b, true, near, data.stores[b.store]?.creator);
   }
   function boothN(B) {
     if (display === 'stage') return videoStage(B);

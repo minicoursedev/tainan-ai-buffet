@@ -28,39 +28,51 @@ export function parseVideo(value) {
 
 export function createCatalogue(data) {
   if (!Array.isArray(data?.stages)) throw new Error('舞台資料格式不正確');
+  const halls = data.halls ?? [{ id: 'puma', name: 'PUMA 館', code: 'S' }];
+  if (!Array.isArray(halls) || !halls.length
+    || halls.some(hall => !hall || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(hall.id || '')
+      || typeof hall.name !== 'string' || !hall.name.trim() || !/^[A-Z]+$/.test(hall.code || ''))
+    || new Set(halls.map(hall => hall.id)).size !== halls.length
+    || new Set(halls.map(hall => hall.code)).size !== halls.length) throw new Error('展館資料格式不正確');
+  const hallIds = new Set(halls.map(hall => hall.id));
   const ids = new Set();
   const stages = data.stages.filter(item => item?.disabled !== true).map(item => {
     if (!item || typeof item.id !== 'string' || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.id) || ids.has(item.id)
       || typeof item.title !== 'string' || !item.title.trim()) throw new Error('舞台編號或名稱不正確');
+    const hallId = item.hall || halls[0].id;
+    if (!hallIds.has(hallId)) throw new Error('找不到影片所屬展館');
     ids.add(item.id);
     return {
-      id: item.id, title: item.title.trim(),
+      id: item.id, title: item.title.trim(), hallId,
       creator: typeof item.creator === 'string' ? item.creator : '',
       description: typeof item.description === 'string' ? item.description : '',
       video: parseVideo(item.url),
     };
   });
   const aisles = [];
-  for (let start = 0; start < Math.max(1, stages.length); start += PER_AISLE) {
-    const code = `S${pad2(aisles.length + 1)}`;
-    const members = stages.slice(start, start + PER_AISLE);
-    const stores = {};
-    const booths = members.map((stage, i) => {
-      stage.boothId = `${code}-${pad2(i + 1)}`;
-      stage.aisleCode = code;
-      stores[stage.id] = { name: stage.title };
-      return {
-        id: stage.boothId, store: stage.id, pos: i,
-        zone: 'VIDEOS', zoneName: '洋流舞台',
-        works: [{ cover: stage.video.poster, name: stage.title }],
-      };
-    });
-    aisles.push({
-      code, hall: 'S', hallName: '洋流舞台', stores,
-      islands: booths.length ? [{ side: 'N', zone: 'VIDEOS', zoneName: '洋流舞台', booths }] : [],
-    });
+  for (const hall of halls) {
+    const hallStages = stages.filter(stage => stage.hallId === hall.id);
+    for (let start = 0; start < Math.max(1, hallStages.length); start += PER_AISLE) {
+      const code = `${hall.code}${pad2(start / PER_AISLE + 1)}`;
+      const members = hallStages.slice(start, start + PER_AISLE);
+      const stores = {};
+      const booths = members.map((stage, i) => {
+        stage.boothId = `${code}-${pad2(i + 1)}`;
+        stage.aisleCode = code;
+        stores[stage.id] = { name: stage.title, creator: stage.creator.trim() };
+        return {
+          id: stage.boothId, store: stage.id, pos: i,
+          zone: 'VIDEOS', zoneName: hall.name,
+          works: [{ cover: stage.video.poster, name: stage.title }],
+        };
+      });
+      aisles.push({
+        code, hall: hall.id, hallName: hall.name, stores,
+        islands: booths.length ? [{ side: 'N', zone: 'VIDEOS', zoneName: hall.name, booths }] : [],
+      });
+    }
   }
-  return { stages, aisles };
+  return { stages, aisles, halls };
 }
 
 export async function loadCatalogue() {

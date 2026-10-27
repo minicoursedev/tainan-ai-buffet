@@ -17,13 +17,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="../designer/css/market.css">
-<link rel="stylesheet" href="./stage.css">
+<link rel="stylesheet" href="./stage.css?v=20261028-author-halls">
 <script defer src="/assets/analytics.js?v=20261019-content-group"></script>
 </head>
 <body>
 <div class="app">
   <header class="bar">
     <a class="plaque" href="#/walk" aria-label="洋流舞台首頁">洋流舞台</a>
+    <label class="hall-picker">作者館<select id="hall-select" aria-label="選擇作者館" disabled></select></label>
     <div class="modes" role="group" aria-label="舞台瀏覽方式">
       <button type="button" data-mode="walk" aria-pressed="true">逛舞台</button>
       <button type="button" data-mode="list" aria-pressed="false">影片列表</button>
@@ -33,7 +34,7 @@
   </header>
   <main class="stage" id="stage-walk">
     <canvas id="walk-canvas" tabindex="0" aria-label="洋流舞台：按住拖著小人走，點舞台觀看影片"></canvas>
-    <button type="button" class="where" id="btn-where"><b>洋流舞台</b><span id="where-aisle"></span><span class="where-switch">看地圖</span></button>
+    <button type="button" class="where" id="btn-where"><b id="where-hall">作者館</b><span id="where-aisle"></span><span class="where-switch">看地圖</span></button>
     <div class="status"><span class="tag" id="status-count" role="status">舞台準備中…</span></div>
     <p class="hint" id="hint"><span class="hint-desktop">按住拖著小人走，點舞台看影片。電腦也可以用方向鍵。</span><span class="hint-mobile">拖曳移動，點舞台看影片。</span></p>
     <p class="stage-message" id="stage-message" role="status" hidden></p>
@@ -44,12 +45,12 @@
     </div>
   </main>
   <main class="list-mode" id="stage-list" hidden>
-    <div class="stage-page"><h1>影片列表</h1>
+    <div class="stage-page"><h1 id="list-title">影片列表</h1>
       <label class="stage-search">找一部影片<input id="video-search" type="search" placeholder="搜尋影片、創作者" autocomplete="off"></label>
       <p id="list-count" role="status"></p><div class="video-grid" id="video-list"></div>
     </div>
   </main>
-  <main class="map-mode" id="stage-map" hidden><div class="stage-page"><h1>舞台地圖</h1><p>選一座舞台，走過去看影片。</p><div id="stage-plan"></div></div></main>
+  <main class="map-mode" id="stage-map" hidden><div class="stage-page"><h1 id="map-title">舞台地圖</h1><p>選一座舞台，走過去看影片。</p><div id="stage-plan"></div></div></main>
   <footer class="app-footer"><small>© 2026 MiniCourse｜影片及相關內容權利歸原創作者或原權利人所有。</small></footer>
   <div class="toast" id="toast" role="status" popover="manual"></div>
 </div>
@@ -65,6 +66,6 @@
   </div>
 </dialog>
 <noscript><p class="stage-message">請啟用 JavaScript 瀏覽洋流舞台。<a href="https://www.youtube.com/watch?v=LnIlsGFRB_4">直接觀看《洋流漂過台北城》</a></p></noscript>
-<script type="module" src="./app.js"></script>
+<script type="module" src="./app.js?v=20261028-author-halls2"></script>
 </body>
 </html>

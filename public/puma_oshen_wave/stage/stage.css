@@ -1,4 +1,7 @@
 .stage-links { display: flex; gap: 14px; margin-left: auto; }
+.hall-picker { display: flex; align-items: center; gap: 8px; min-width: 0; max-width: 360px; color: var(--green-deep); font-weight: 700; white-space: nowrap; }
+.hall-picker select { min-width: 0; max-width: 280px; border: 2px solid var(--green-deep); border-radius: 6px; background: var(--paper); color: var(--green-deep); padding: 4px 8px; font: inherit; cursor: pointer; }
+.hall-picker select:focus-visible { outline: 3px solid var(--pink); outline-offset: 2px; }
 .hint { top: auto; bottom: calc(78px + env(safe-area-inset-bottom, 0px)); }
 .hint-mobile { display: none; }
 .stage-page { max-width: 1160px; margin: auto; padding: 24px; }
@@ -38,6 +41,9 @@
   .hint-desktop { display: none; }
   .hint-mobile { display: inline; }
   .stage-links { order: 1; gap: 10px; font-size: 13px; }
+  .hall-picker { order: 2; flex-basis: 100%; max-width: none; }
+  .hall-picker select { flex: 1; width: 0; max-width: none; }
+  .modes { order: 3; }
   .stage-page { padding: 20px 14px; }
   .plan-aisle { padding: 12px; }
   .plan-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
