@@ -74,7 +74,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         positions.set(shop.id, position);
         const markerArtwork = {
           'chen-ting-fei-campaign-headquarters': {file:'chen-ting-fei-marker-3-type-v1.webp', label:'③ 陳亭妃', type:'市長候選人', height:135},
-          'lin-yi-ting-service-office': {file:'lin-yi-ting-marker-2-v1.webp', label:'② 林依婷'},
+          'lin-yi-ting-service-office': {file:'lin-yi-ting-marker-2-type-v1.webp', label:'② 林依婷', type:'安平|南區市議員', blankTypeFooter:true, width:120, height:169},
           'teamshenchennan-service-office': {file:'shen-chen-nan-marker-11-type-v1.webp', label:'⑪ 沈震南', type:'中西區/北區議員', blankTypeFooter:true, width:120, height:169}
         }[shop.id];
         const useGeneratedMarker = Boolean(markerArtwork);
