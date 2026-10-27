@@ -76,7 +76,8 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         const badge = document.createElement('div');
         badge.className = useGeneratedMarker ? 'osm-artwork-pin' : 'osm-shop-pin';
         if (shop.verification === false) badge.classList.add('is-unverified');
-        const scale = shop.category === '洋流服務站' ? 1.15 : 1;
+        const scale = (shop.category === '洋流服務站' ? 1.15 : 1)
+          * (shop.id === 'hexin-pharmacy' ? 1.15 : 1);
         const width = useGeneratedMarker ? 96 : 24 * scale;
         const height = useGeneratedMarker ? 114 : 30 * scale;
         badge.style.width = `${width}px`;
