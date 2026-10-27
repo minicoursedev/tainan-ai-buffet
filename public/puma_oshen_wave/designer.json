@@ -1792,6 +1792,109 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/433079021_840970697751220_1858138831033016355_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=ucTZwi5SzEQQ7kNvwGpad7X&_nc_oc=AdqW-4K1YFjkEc856cWurOZooSg9IcPl89IOM6HzvHcjr_B98F3bq2H_p3IqrdLD1jg&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7f20f&oh=00_AQMgfpHkRdiNO2nbUr7ZqPICzfeWv2Ba1E4c3axSGqsnYQ&oe=6AE628C7"
       }
+    },
+    {
+      "id": "mousebearhello",
+      "name": "熊熊鼠",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/1.webp?v=5bb60d6a7b2635af",
+          "alt": "熊熊鼠作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/1.webp?v=5bb60d6a7b2635af",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564556975491121312/868404272_17989825299117182_1509985118256827739_n.png?ex=6ae1b2bb&is=6ae0613b&hm=0491ab016791b5c6277e0b84d7ac0c5f7173e19095597436014d33055ba8bc2c&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/2.webp?v=51a8fa45fbd9fab2",
+          "alt": "熊熊鼠作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/2.webp?v=51a8fa45fbd9fab2",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564556976288178216/861421616_17989825332117182_3524243933750538261_n.png?ex=6ae1b2bb&is=6ae0613b&hm=765a1c6184912227c19137f9a255a7233eee311a979a32b0a6f858b1e0527927&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/3.webp?v=8b351d6a7adc00a9",
+          "alt": "熊熊鼠作品照片 3",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/3.webp?v=8b351d6a7adc00a9",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564556976812335195/867482808_17989825359117182_7218981535264870012_n.png?ex=6ae1b2bb&is=6ae0613b&hm=2f35008017eb0d76aeda829b8c33c833a7bc0271f72a8c3ef41729262c77f237&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/4.webp?v=94dff9538f4d06c6",
+          "alt": "熊熊鼠作品照片 4",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/4.webp?v=94dff9538f4d06c6",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564556977823023215/867542647_17989825383117182_8991302919841459754_n.png?ex=6ae1b2bb&is=6ae0613b&hm=5dca67b89c21ef1c85da2be7727c096d974a78797fd6f663bb1452c2d1600044&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/5.webp?v=88158418b8fbdc07",
+          "alt": "熊熊鼠作品照片 5",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/5.webp?v=88158418b8fbdc07",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564556978628337744/867806631_17989825422117182_4592677670438969450_n.png?ex=6ae1b2bb&is=6ae0613b&hm=1dca6b698b9847ac2430821cad588b102398038872e7377c58377d33e9e3f489&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/6.webp?v=7f0297169e35a47f",
+          "alt": "熊熊鼠作品照片 6",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/6.webp?v=7f0297169e35a47f",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564556979236773909/870163943_17989825464117182_3296570882771659387_n.png?ex=6ae1b2bb&is=6ae0613b&hm=07aba6e0059d1d57e562b7b3b5deb47029fbbc5d3a81a131dbfb545db88730cb&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/7.webp?v=7747d73bc40f8eb9",
+          "alt": "熊熊鼠作品照片 7",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/7.webp?v=7747d73bc40f8eb9",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564556979827900426/870141452_17989825488117182_4867178706721093247_n.png?ex=6ae1b2bc&is=6ae0613c&hm=88281bcd66ca8153c41b8cc68bdc5ea211cd8fd3a698d0bf217fa3d6672abb38&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/8.webp?v=2f78b4ea2ce7c13f",
+          "alt": "熊熊鼠作品照片 8",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/8.webp?v=2f78b4ea2ce7c13f",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564556980285345802/866159524_17989825512117182_7252629927140164625_n.png?ex=6ae1b2bc&is=6ae0613c&hm=ac765b94282670af4d2e7dfedfc70787bf7b343253bc0967aa49470c341d505b&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/9.webp?v=2da5b857d8f189a1",
+          "alt": "熊熊鼠作品照片 9",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/9.webp?v=2da5b857d8f189a1",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564556980830347334/867102460_17989825536117182_5776067322135868098_n.png?ex=6ae1b2bc&is=6ae0613c&hm=3bbae11658c8a055fdbe08ec8ea2ef2fc5d50da63054394a91b273bf224a1cf4&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/10.webp?v=1d47e931c8052a94",
+          "alt": "熊熊鼠作品照片 10",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/10.webp?v=1d47e931c8052a94",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564556981212291104/867967606_17989825563117182_5228906504858875532_n.png?ex=6ae1b2bc&is=6ae0613c&hm=e699342bbc11daadba58a50aad5e106d414b571cc38cc1a5c2b15564755038bc&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@mousebearhello",
+        "ig": "https://www.instagram.com/mousebearhello",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mousebearhello/logo.webp?v=edbfbe6cb46ee309",
+        "source": "https://www.instagram.com/mousebearhello/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方 Instagram 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/837858180_17909871480516648_6687508901800315732_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=106&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40NDAuQzMifQ%3D%3D&_nc_ohc=kNs9mK7xnB0Q7kNvwGr2vF9&_nc_oc=AdoU5Y-CevjuQ0QyHWKJMItMByNurJrDnQ1JDtTvzYvMeDdhzhhnxIk0Krem7yUAyV0&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=i3x6muP-PKcRch66dnCXuA&_nc_ss=7960f&oh=00_AQNshxNVCCBt5cgeajypF5UJ1etBO3ktvn3MHxvj0OB3Jw&oe=6AE625A1"
+      }
     }
   ]
 }
