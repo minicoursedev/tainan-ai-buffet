@@ -6727,7 +6727,7 @@
       "coordinateNote": "Google Maps 實際門牌地點顯示701臺南市東區崇成里崇明二十街21號；取地點網址!3d!4d。",
       "visitNote": "第10選區市議員 · 2號",
       "shopPhoto": {
-        "url": "https://www.tncc.gov.tw/warehouse/200000/%E9%99%B3%E9%87%91%E9%90%98.bmp",
+        "url": "",
         "source": "https://www.tncc.gov.tw/2019/tnccp2/ccp_01a.asp?CName=%E9%99%B3%E9%87%91%E9%90%98",
         "platform": "website",
         "status": "verified",
@@ -6879,6 +6879,50 @@
         "label": "鄭佳欣",
         "image": "./assets/cheng-chia-hsin-marker-9-type-v1.webp",
         "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=0DB92A60-047F-4559-A8EE-03183D3CBFA0"
+      }
+    },
+    {
+      "id": "twocatsapartment-tainan",
+      "verification": true,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "二貓公寓",
+      "address": "台南市北區公園路593巷32號",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/twocatsapartment/",
+        "threads": "https://www.threads.com/@twocatsapartment"
+      },
+      "sources": [
+        "https://www.threads.com/@twocatsapartment",
+        "https://www.instagram.com/twocatsapartment/",
+        "https://etaiwan.blog/704-twocatsapartment/"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者指定收錄；官方 Threads 與 Instagram 個人檔案核對店名、地址、營業時間及甜點、鹹派店型。Instagram 網址由食記實際外連取得並核對官方簡介；簡介表示臉書粉專及 IG 打卡點仍消失中，現行 Facebook 頁面未能確認，故留空。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週一、週四至週日 13:00–18:30；週二、週三固定店休。",
+        "sources": [
+          "https://www.threads.com/@twocatsapartment",
+          "https://www.instagram.com/twocatsapartment/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.0137441,
+        "lng": 120.2105641
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060880689",
+      "coordinateNote": "OpenStreetMap 門牌節點 11060880689，addr:full 為臺南市北區正覺里1鄰公園路593巷32號；行政區、道路與32號門牌均符合官方地址，座標為門牌節點位置。",
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.threads.com/@twocatsapartment",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方 Threads 公開 JSON 帳號 username=twocatsapartment、full_name=二貓公寓，其 hd_profile_pic_versions 明列原生 320×320 個人檔案頭像；實際請求 HTTP 200、image/jpeg，記憶體解析 JPEG 確認 320×320，未改寫 CDN 尺寸或簽章參數。新店圖片網址待後續處理。完整原生來源：https://scontent-lax3-1.cdninstagram.com/v/t51.2885-19/429776697_1534952310783897_4875040226063487250_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHjo6RhFi1nvqH4-v2MjseFuRmvMJvbYFvU7qYF99-msbdYg_XDEhXuDWsg-EJZXgs&_nc_ohc=9VFehsZ1bp8Q7kNvwGTS4Zf&_nc_gid=9SuHmHE-k3qbYhSGcCDjhQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQOjnAvSjlX817AHA9KnFOV8jhdbi5y-g8FCFVKmr3__jg&oe=6AE68590&_nc_sid=10d13b"
       }
     }
   ],
