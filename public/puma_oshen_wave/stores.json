@@ -7281,6 +7281,55 @@
         "image": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/wang-ting-yu-xinfeng-service-office/logo.webp?v=b0d4e3a5e59406e6",
         "source": "https://www.facebook.com/wdy19690305/"
       }
+    },
+    {
+      "id": "letsgolin-service-office",
+      "verification": false,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "洋流服務處",
+      "address": "台南市中西區永華路一段305號",
+      "social": {
+        "facebook": "https://www.facebook.com/seeklin",
+        "instagram": "",
+        "threads": "https://www.threads.com/@letsgolin?hl=zh-tw"
+      },
+      "sources": [
+        "https://www.facebook.com/seeklin",
+        "https://www.threads.com/@letsgolin?hl=zh-tw",
+        "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46781",
+        "https://page.line.me/pud0181n",
+        "https://www.openstreetmap.org/node/11060982104"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供Facebook、Threads及地址，保留指定名稱「洋流服務處」，分類沿用「洋流服務站」；新增verification依本次指示設為JSON布林值false。查證子代理讀取立法院第11屆林俊憲委員官方頁，明列中西區服務處為臺南市中西區永華路一段305號；主代理另核對官方LINE原頁，認證帳號名稱林俊憲，地址同為中西區永華路一段305號。指定Facebook及Threads公開頁標題均為林俊憲，社群連結依使用者提供保留。已比對全部既有紀錄（含disabled）及待查資料的店名、地址與社群，未發現重複。未確認官方Instagram，留空。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "固定服務時間待確認，請洽官方社群或致電06-299-8266確認。",
+        "sources": [
+          "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46781",
+          "https://page.line.me/pud0181n"
+        ],
+        "checkedAt": "2026-10-27",
+        "auditNote": "未取得可確認的常態服務時間；官方LINE公開資料workingTime為null。不以特定捐血活動09:00–17:00等活動時段推定固定服務時間。"
+      },
+      "visitNote": "此址為林俊憲中西區服務處；立法院官方資料列服務電話06-299-8266。官方LINE另列06-2921235，未將該電話替代中西區服務處專線。",
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9886184,
+        "lng": 120.188113
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060982104",
+      "coordinateNote": "2026-10-27 查證子代理優先以OpenStreetMap Nominatim結構化街道門牌查詢取得節點11060982104；主代理另直接讀OSM節點API，核對addr:full為臺南市中西區大涼里16鄰永華路一段305號，行政區、路段與305號門牌均與使用者及官方地址相符，來源為臺南市政府。採門牌數值座標22.9886184、120.1881130，非道路中心或地圖視窗中心。",
+      "shopPhoto": {
+        "url": "",
+        "source": "https://page.line.me/pud0181n",
+        "platform": "line",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "查證子代理與主代理均直接核對官方LINE原頁：account.profile.name為林俊憲、badgeType為certified，地址與本店相符；profileImg.original明示為個人檔案頭像原圖。對原生URL唯讀請求確認HTTP200、image/jpeg、原生1149×1149，未修改尺寸或簽章參數，足供Logo縮至最長邊256px；新店圖片網址暫留空。",
+        "originalUrl": "https://profile.line-scdn.net/0h74AxtuNSaBt8AULk4UEXTEBEZnYLL25TBGIvKFlUMyhUMCYeFG90LgoCMSJVYStIFDJ0L18CYixR"
+      }
     }
   ],
   "pendingStores": []
