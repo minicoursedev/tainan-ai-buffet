@@ -77,12 +77,39 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
             || Math.abs(position.lat)>90 || Math.abs(position.lng)>180) continue;
         positions.set(shop.id, position);
         const markerArtwork = {
-          'tsai-li-ching-guoan-haidian': {file:'tsai-li-ching-marker-1-type-v1.webp', label:'① 蔡麗青', type:'第六選舉區市議員', blankTypeFooter:true, width:120, height:169},
+          'tsai-li-ching-guoan-haidian': {file:'tsai-li-ching-marker-1-type-v1.webp', label:'① 蔡麗青', type:'第6選區市議員', blankTypeFooter:true, width:120, height:169},
           'chen-ting-fei-campaign-headquarters': {file:'chen-ting-fei-marker-3-type-v1.webp', label:'③ 陳亭妃', type:'市長候選人', height:135},
           'zenolai-campaign-headquarters': {file:'lai-jui-lung-marker-5-type-v1.webp', label:'⑤ 賴瑞隆', type:'高雄市長', blankTypeFooter:true, height:135},
-          'lin-yi-ting-service-office': {file:'lin-yi-ting-marker-2-type-v1.webp', label:'② 林依婷', type:'安平|南區市議員', blankTypeFooter:true, width:120, height:169},
-          'wayonly-service-office': {file:'chou-chia-wei-marker-7-type-v1.webp', label:'⑦ 周嘉韋', type:'中西區·北區市議員', blankTypeFooter:true, width:120, height:169},
-          'teamshenchennan-service-office': {file:'shen-chen-nan-marker-11-type-v1.webp', label:'⑪ 沈震南', type:'中西區/北區議員', blankTypeFooter:true, width:120, height:169}
+          'lin-yi-ting-service-office': {file:'lin-yi-ting-marker-2-pink-v2.webp', label:'② 林依婷', type:'第9選區市議員', blankTypeFooter:true, width:120, height:169},
+          'wayonly-service-office': {file:'chou-chia-wei-marker-7-type-v1.webp', label:'⑦ 周嘉韋', type:'第8選區市議員', blankTypeFooter:true, width:120, height:169},
+          'teamshenchennan-service-office': {file:'shen-chen-nan-marker-11-type-v1.webp', label:'⑪ 沈震南', type:'第8選區市議員', blankTypeFooter:true, width:120, height:169},
+          'shen-chia-feng-service-office': {file:'shen-chia-feng-marker-4-type-v1.webp', label:'④ 沈家鳳', type:'第1選區市議員', blankTypeFooter:true, width:120, height:169},
+          'wang-hsuan-mao-service-office': {file:'wang-hsuan-mao-marker-6-type-v1.webp', label:'⑥ 王宣貿', type:'第1選區市議員', blankTypeFooter:true, width:120, height:169},
+          'lee-tsung-han-service-office': {file:'lee-tsung-han-marker-7-type-v1.webp', label:'⑦ 李宗翰', type:'第1選區市議員', blankTypeFooter:true, width:120, height:169},
+          'tsai-chiu-lan-service-office': {file:'tsai-chiu-lan-marker-2-type-v1.webp', label:'② 蔡秋蘭', type:'第2選區市議員', blankTypeFooter:true, width:120, height:169},
+          'tsai-su-chiu-chin-service-office': {file:'tsai-su-chiu-chin-marker-3-type-v1.webp', label:'③ 蔡蘇秋金', type:'第2選區市議員', blankTypeFooter:true, width:120, height:169},
+          'hsieh-shu-fan-service-office': {file:'hsieh-shu-fan-marker-5-type-v1.webp', label:'⑤ 謝舒凡', type:'第2選區市議員', blankTypeFooter:true, width:120, height:169},
+          'wu-tung-lung-service-office': {file:'wu-tung-lung-marker-1-type-v1.webp', label:'① 吳通龍', type:'第3選區市議員', blankTypeFooter:true, width:120, height:169},
+          'chen-chiu-hung-service-office': {file:'chen-chiu-hung-marker-2-type-v1.webp', label:'② 陳秋宏', type:'第3選區市議員', blankTypeFooter:true, width:120, height:169},
+          'lai-mao-ching-service-office': {file:'lai-mao-ching-marker-1-type-v1.webp', label:'① 賴懋慶', type:'第4選區市議員', blankTypeFooter:true, width:120, height:169},
+          'chen-pi-yu-service-office': {file:'chen-pi-yu-marker-1-type-v1.webp', label:'① 陳碧玉', type:'第5選區市議員', blankTypeFooter:true, width:120, height:169},
+          'lee-wei-chih-service-office': {file:'lee-wei-chih-marker-4-type-v1.webp', label:'④ 李偉智', type:'第5選區市議員', blankTypeFooter:true, width:120, height:169},
+          'lin-chih-chan-service-office': {file:'lin-chih-chan-marker-5-type-v1.webp', label:'⑤ 林志展', type:'第5選區市議員', blankTypeFooter:true, width:120, height:169},
+          'yu-chu-ching-service-office': {file:'yu-chu-ching-marker-6-type-v1.webp', label:'⑥ 余柷青', name:'余柷青', type:'第5選區市議員', blankTypeFooter:true, width:120, height:169},
+          'kuo-pin-chen-service-office': {file:'kuo-pin-chen-marker-7-type-v1.webp', label:'⑦ 郭品辰', type:'第6選區市議員', blankTypeFooter:true, width:120, height:169},
+          'chu-cheng-hsuan-service-office': {file:'chu-cheng-hsuan-marker-5-type-v1.webp', label:'⑤ 朱正軒', type:'第7選區市議員', blankTypeFooter:true, width:120, height:169},
+          'chen-chiu-ping-service-office': {file:'chen-chiu-ping-marker-8-type-v1.webp', label:'⑧ 陳秋萍', type:'第7選區市議員', blankTypeFooter:true, width:120, height:169},
+          'huang-chao-hui-service-office': {file:'huang-chao-hui-marker-9-type-v1.webp', label:'⑨ 黄肇輝', type:'第7選區市議員', blankTypeFooter:true, width:120, height:169},
+          'chiu-li-li-service-office': {file:'chiu-li-li-marker-5-type-v1.webp', label:'⑤ 邱莉莉', type:'第8選區市議員', blankTypeFooter:true, width:120, height:169},
+          'lin-chien-nan-service-office': {file:'lin-chien-nan-marker-9-type-v1.webp', label:'⑨ 林建南', type:'第8選區市議員', blankTypeFooter:true, width:120, height:169},
+          'lee-chi-wei-service-office': {file:'lee-chi-wei-marker-5-type-v1.webp', label:'⑤ 李啟維', type:'第9選區市議員', blankTypeFooter:true, width:120, height:169},
+          'chou-li-chin-service-office': {file:'chou-li-chin-marker-6-type-v1.webp', label:'⑥ 周麗津', type:'第9選區市議員', blankTypeFooter:true, width:120, height:169},
+          'lu-wei-yin-service-office': {file:'lu-wei-yin-marker-8-type-v1.webp', label:'⑧ 呂維胤', type:'第9選區市議員', blankTypeFooter:true, width:120, height:169},
+          'tsai-hsiao-wei-service-office': {file:'tsai-hsiao-wei-marker-1-type-v1.webp', label:'① 蔡筱薇', type:'第10選區市議員', blankTypeFooter:true, width:120, height:169},
+          'chen-chin-chung-service-office': {file:'chen-chin-chung-marker-2-type-v1.webp', label:'② 陳金鐘', type:'第10選區市議員', blankTypeFooter:true, width:120, height:169},
+          'chen-huang-yu-service-office': {file:'chen-huang-yu-marker-7-type-v1.webp', label:'⑦ 陳皇宇', type:'第11選區市議員', blankTypeFooter:true, width:120, height:169},
+          'kuo-hung-yi-service-office': {file:'kuo-hung-yi-marker-8-type-v1.webp', label:'⑧ 郭鴻儀', type:'第11選區市議員', blankTypeFooter:true, width:120, height:169},
+          'cheng-chia-hsin-service-office': {file:'cheng-chia-hsin-marker-9-type-v1.webp', label:'⑨ 鄭佳欣', type:'第11選區市議員', blankTypeFooter:true, width:120, height:169}
         }[shop.id];
         const useGeneratedMarker = Boolean(markerArtwork);
         const badge = document.createElement('div');
@@ -92,12 +119,18 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
           * (shop.id === 'hexin-pharmacy' ? 1.15 : 1);
         const fullWidth = useGeneratedMarker ? (markerArtwork.width ?? 96) : 24 * scale;
         const fullHeight = useGeneratedMarker ? (markerArtwork.height ?? 114) : 30 * scale;
-        let type;
+        let type, name;
         if (useGeneratedMarker) {
           const artwork = document.createElement('img');
           artwork.src = new URL(`./assets/${markerArtwork.file}`, import.meta.url).href;
           artwork.alt = markerArtwork.label;
           badge.append(artwork);
+          if (markerArtwork.name) {
+            name = document.createElement('span');
+            name.className = 'osm-artwork-name';
+            name.textContent = markerArtwork.name;
+            badge.append(name);
+          }
           if (typeof markerArtwork.type === 'string') {
             // Keep the type editable inside the original artwork's connected footer.
             type = document.createElement('span');
@@ -119,6 +152,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
           const width = fullWidth * sizeScale, height = fullHeight * sizeScale;
           badge.style.width = `${width}px`;
           badge.style.height = `${height}px`;
+          if (name) name.style.fontSize = `${width * .2}px`;
           if (type) type.style.fontSize = `${Math.min(width * .14, width * .74 / Math.max([...markerArtwork.type].length, 1))}px`;
           return L.divIcon({html:badge, className:'osm-marker', iconSize:[width,height],iconAnchor:[width/2,height]});
         };

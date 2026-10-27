@@ -3397,8 +3397,8 @@
       "verification": true,
       "category": "洋流服務站",
       "giftStatus": "可能有小物",
-      "name": "蔡麗青國安海佃服務處",
-      "address": "台南市安南區郡安路六段69號",
+      "name": "蔡麗青服務處",
+      "address": "臺南市安南區青砂街1段66號",
       "social": {
         "facebook": "",
         "instagram": "",
@@ -3406,16 +3406,17 @@
       },
       "sources": [
         "https://www.threads.com/share/BAairvy6_i/",
-        "https://www.threads.com/@kisschin66/post/DT9_EYtmN8h"
+        "https://www.threads.com/@kisschin66/post/DT9_EYtmN8h",
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://tnda.tainan.gov.tw/civilbook/page.asp?page=6"
       ],
-      "verificationNote": "使用者提供 Threads 分享貼文並指定收錄於洋流服務站；分享連結轉至蔡麗青官方帳號貼文，公開標題明列國安海佃服務處與郡安路六段69號。貼文內容為法律諮詢服務公告，未據此宣稱已查證小物發放或即時庫存。",
+      "verificationNote": "2026-10-27 使用者指定以表格青砂街一段66號取代原國安海佃服務處地址，臺南市政府公務通訊錄亦列此址；已同步核對新門牌座標，保留原ID。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
         "sources": [
-          "https://www.threads.com/@kisschin66/post/DT9_EYtmN8h"
-        ],
-        "auditNote": "貼文所列每週二下午4:00為法律諮詢服務時段，不作為服務處固定開放時間。"
+          "https://tnda.tainan.gov.tw/civilbook/page.asp?page=6"
+        ]
       },
       "mapMarker": {
         "label": "蔡麗青",
@@ -3433,11 +3434,12 @@
       },
       "disabled": false,
       "latlng": {
-        "lat": 23.0275894,
-        "lng": 120.1868731
+        "lat": 23.0635655,
+        "lng": 120.127951
       },
-      "coordinateSource": "https://www.openstreetmap.org/node/11060024074",
-      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。"
+      "coordinateSource": "https://www.openstreetmap.org/node/11059992457",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：66號, 青砂街一段, 城中里, 安南區, 臺南市, 709, 臺灣。",
+      "visitNote": "第6選區市議員 · 1號"
     },
     {
       "id": "full-yakiniku-annan",
@@ -4457,7 +4459,7 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060261866",
       "coordinateNote": "2026-10-20 OpenStreetMap 結構化門牌查詢核對66號、平通路、安平區、臺南市相符。",
-      "visitNote": "台南市議員民進黨候選人",
+      "visitNote": "第9選區市議員 · 2號",
       "mapMarker": {
         "label": "林依婷",
         "image": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/lin-yi-ting-service-office/logo.webp?v=64c2f77f7bc97ddd",
@@ -4803,7 +4805,8 @@
         "lng": 120.1943253
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060946060",
-      "coordinateNote": "2026-10-21 OSM 完整地址自由查詢無結果，改以242 臨安路一段、臺南市、臺灣結構化門牌查詢取得節點；再以節點 API 核對中西區、兌悅里、臨安路一段242號及數值座標，採門牌位置而非道路中心。"
+      "coordinateNote": "2026-10-21 OSM 完整地址自由查詢無結果，改以242 臨安路一段、臺南市、臺灣結構化門牌查詢取得節點；再以節點 API 核對中西區、兌悅里、臨安路一段242號及數值座標，採門牌位置而非道路中心。",
+      "visitNote": "第8選區市議員 · 7號"
     },
     {
       "id": "fuquan-pawnshop",
@@ -7384,7 +7387,7 @@
         "checkedAt": "2026-10-27",
         "auditNote": "未取得完整固定服務時間；10/19上午10點等為單次發放時段，不據以推定常態服務時間或公休日。"
       },
-      "visitNote": "沈震南北區服務據點；使用者提供選區為中西區／北區、號次11號。",
+      "visitNote": "第8選區市議員 · 11號",
       "disabled": false,
       "latlng": {
         "lat": 23.0117246,
@@ -7405,6 +7408,1301 @@
         "label": "沈震南",
         "image": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/teamshenchennan-service-office/logo.webp?v=fb9c414074a2ab0f",
         "source": "https://www.threads.com/@teamshenchennan"
+      }
+    },
+    {
+      "id": "shen-chia-feng-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "沈家鳳服務處",
+      "address": "臺南市新營區中興路17號",
+      "social": {
+        "facebook": "https://www.facebook.com/LTSCF69/",
+        "instagram": "https://www.instagram.com/ltscf69/",
+        "threads": "https://www.threads.com/@ltscf69"
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=EF4DD312-3189-4C86-A724-59982456F7A8",
+        "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9",
+        "https://www.facebook.com/LTSCF69/about/"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=EF4DD312-3189-4C86-A724-59982456F7A8",
+          "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9",
+          "https://www.facebook.com/LTSCF69/about/"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.3006903,
+        "lng": 120.3170312
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11052911052",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：17號, 中興路, 新營糖廠, 興業里, 新營區, 臺南市, 730, 臺灣。",
+      "visitNote": "第1選區市議員 · 4號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/shen-chia-feng-service-office/logo.webp?v=9478e63f0889f9e8",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=EF4DD312-3189-4C86-A724-59982456F7A8",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "議會個人頁 img alt=\"沈家鳳議員\"；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 693 × 768。"
+      },
+      "mapMarker": {
+        "label": "沈家鳳",
+        "image": "./assets/shen-chia-feng-marker-4-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=EF4DD312-3189-4C86-A724-59982456F7A8"
+      }
+    },
+    {
+      "id": "wang-hsuan-mao-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "王宣貿服務處",
+      "address": "臺南市新營區新進路2段300號",
+      "social": {
+        "facebook": "https://www.facebook.com/TainanRmao",
+        "instagram": "https://www.instagram.com/tainan_mao/",
+        "threads": "https://www.threads.com/@tainan_mao"
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=C7939C21-E9F9-4C8C-85F1-8400A042C863",
+        "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=C7939C21-E9F9-4C8C-85F1-8400A042C863",
+          "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.3007861,
+        "lng": 120.304248
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11052904657",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：300號, 新進路二段, 民榮里, 新營區, 臺南市, 730, 臺灣。",
+      "visitNote": "第1選區市議員 · 6號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/wang-hsuan-mao-service-office/logo.webp?v=7cae2d06424ffd16",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=C7939C21-E9F9-4C8C-85F1-8400A042C863",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "議會個人頁 img alt=\"王宣貿議員\"；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 693 × 768。"
+      },
+      "mapMarker": {
+        "label": "王宣貿",
+        "image": "./assets/wang-hsuan-mao-marker-6-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=C7939C21-E9F9-4C8C-85F1-8400A042C863"
+      }
+    },
+    {
+      "id": "lee-tsung-han-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "李宗翰服務處",
+      "address": "臺南市後壁區頂安里頂寮197號之1",
+      "social": {
+        "facebook": "https://www.facebook.com/litsunghan/",
+        "instagram": "https://www.instagram.com/henry30270/",
+        "threads": "https://www.threads.com/@henry30270"
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=822C2918-D63C-4582-AE22-25FD645D0C13",
+        "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=822C2918-D63C-4582-AE22-25FD645D0C13",
+          "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.3395336,
+        "lng": 120.3523066
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E4%B9%8B1,+No.+197%E8%99%9F%E9%A0%82%E5%AF%AE%E9%A0%82%E5%AE%89%E9%87%8C%E5%BE%8C%E5%A3%81%E5%8D%80%E8%87%BA%E5%8D%97%E5%B8%82731/@23.3395336,120.3497263,17z/data=!3m1!4b1!4m10!1m2!2m1!1z6Ie65Y2X5biC5b6M5aOB5Y2A6aCC5a6J6YeM6aCC5a-uMTk36Jmf5LmLMQ!3m6!1s0x346e8f837795edd3:0xa3bc2065438f8ecc!8m2!3d23.3395336!4d120.3523066!15sCivoh7rljZfluILlvozlo4HljYDpoILlronph4zpoILlr64xOTfomZ_kuYsxkgEKc3VicHJlbWlzZeABAA!16s%2Fg%2F11njc8_0wq?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateNote": "Google Maps 地點名稱「之1」與地址欄「731臺南市後壁區頂安里頂寮197號」合併核對為197號之1；取地點網址!3d23.3395336!4d120.3523066，未用@視窗中心。",
+      "visitNote": "第1選區市議員 · 7號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/lee-tsung-han-service-office/logo.webp?v=2a31fc6164162584",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=822C2918-D63C-4582-AE22-25FD645D0C13",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "議會個人頁 img alt=\"李宗翰議員\"；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 995 × 1200。"
+      },
+      "mapMarker": {
+        "label": "李宗翰",
+        "image": "./assets/lee-tsung-han-marker-7-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=822C2918-D63C-4582-AE22-25FD645D0C13"
+      }
+    },
+    {
+      "id": "tsai-chiu-lan-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "蔡秋蘭服務處",
+      "address": "臺南市佳里區成功路87號",
+      "social": {
+        "facebook": "https://www.facebook.com/tsaichiulan",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=7F271C1B-B758-4513-B2EB-EEF80CB9BB1B",
+        "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=7F271C1B-B758-4513-B2EB-EEF80CB9BB1B",
+          "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.1527472,
+        "lng": 120.1745992
+      },
+      "coordinateSource": "https://www.google.com/maps/place/722%E8%87%BA%E5%8D%97%E5%B8%82%E4%BD%B3%E9%87%8C%E5%8D%80%E5%8D%97%E5%8B%A2%E9%87%8C%E6%88%90%E5%8A%9F%E8%B7%AF87%E8%99%9F/@23.1527472,120.1720189,17z/data=!3m1!4b1!4m6!3m5!1s0x346e78b3de8ec485:0xc84588a6bcdcacb0!8m2!3d23.1527472!4d120.1745992!16s%2Fg%2F11svnlpg0w?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateNote": "Google Maps 精確門牌地址為722臺南市佳里區南勢里成功路87號；頁面位於此地點的場所列蔡秋蘭市議員服務處。取地點網址!3d23.1527472!4d120.1745992。",
+      "visitNote": "第2選區市議員 · 2號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/tsai-chiu-lan-service-office/logo.webp?v=a10ddcc1086f7a94",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=7F271C1B-B758-4513-B2EB-EEF80CB9BB1B",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "議會個人頁 img alt=\"蔡秋蘭議員\"；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 917 × 1200。"
+      },
+      "mapMarker": {
+        "label": "蔡秋蘭",
+        "image": "./assets/tsai-chiu-lan-marker-2-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=7F271C1B-B758-4513-B2EB-EEF80CB9BB1B"
+      }
+    },
+    {
+      "id": "tsai-su-chiu-chin-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "蔡蘇秋金服務處",
+      "address": "臺南市佳里區復興路152號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100001592059497",
+        "instagram": "https://www.instagram.com/qiu._jln/",
+        "threads": "https://www.threads.com/@qiu._jln"
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=69F36580-A155-4D4C-AA22-63607138A39A",
+        "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=69F36580-A155-4D4C-AA22-63607138A39A",
+          "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.1549755,
+        "lng": 120.1716805
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11053028135",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：152號, 復興路, 建南里, 佳里區, 臺南市, 722, 臺灣。",
+      "visitNote": "第2選區市議員 · 3號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/tsai-su-chiu-chin-service-office/logo.webp?v=5c619f455069d64c",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=69F36580-A155-4D4C-AA22-63607138A39A",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "議會個人頁 img alt=\"蔡蘇秋金議員\"；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 889 × 1124。"
+      },
+      "mapMarker": {
+        "label": "蔡蘇秋金",
+        "image": "./assets/tsai-su-chiu-chin-marker-3-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=69F36580-A155-4D4C-AA22-63607138A39A"
+      }
+    },
+    {
+      "id": "hsieh-shu-fan-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "謝舒凡服務處",
+      "address": "臺南市學甲區新生路55號",
+      "social": {
+        "facebook": "https://www.facebook.com/HsiehShuFan",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=0986A206-7F6A-4880-A070-3992A80B0B74",
+        "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=0986A206-7F6A-4880-A070-3992A80B0B74",
+          "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.2353143,
+        "lng": 120.1832992
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11052993746",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：55號, 新生路, 新達里, 學甲區, 臺南市, 726, 臺灣。",
+      "visitNote": "第2選區市議員 · 5號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hsieh-shu-fan-service-office/logo.webp?v=037d9b60f520eade",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=0986A206-7F6A-4880-A070-3992A80B0B74",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "議會個人頁 img alt=\"謝舒凡議員\"；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 693 × 768。"
+      },
+      "mapMarker": {
+        "label": "謝舒凡",
+        "image": "./assets/hsieh-shu-fan-marker-5-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=0986A206-7F6A-4880-A070-3992A80B0B74"
+      }
+    },
+    {
+      "id": "wu-tung-lung-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "吳通龍服務處",
+      "address": "臺南市六甲區中山路636號",
+      "social": {
+        "facebook": "https://www.facebook.com/wu717163",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=2BFF5285-201B-4C9D-BD59-2BE6785A28C0",
+        "https://tnda.tainan.gov.tw/civilbook/page.asp?page=5"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=2BFF5285-201B-4C9D-BD59-2BE6785A28C0",
+          "https://tnda.tainan.gov.tw/civilbook/page.asp?page=5"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.234476,
+        "lng": 120.3369571
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11052970414",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：636號, 中山路, 水林里, 六甲區, 臺南市, 734, 臺灣。",
+      "visitNote": "第3選區市議員 · 1號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/wu-tung-lung-service-office/logo.webp?v=63f50e7467b305c2",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=2BFF5285-201B-4C9D-BD59-2BE6785A28C0",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "議會個人頁 img alt=\"吳通龍議員\"；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 693 × 768。"
+      },
+      "mapMarker": {
+        "label": "吳通龍",
+        "image": "./assets/wu-tung-lung-marker-1-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=2BFF5285-201B-4C9D-BD59-2BE6785A28C0"
+      }
+    },
+    {
+      "id": "chen-chiu-hung-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "陳秋宏服務處",
+      "address": "臺南市下營區中山路1段366號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100000717407648",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=9CBCB90A-A821-4FAD-A45D-79491B3EE5B2"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=9CBCB90A-A821-4FAD-A45D-79491B3EE5B2"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.2383073,
+        "lng": 120.2694212
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11059965416",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：366號, 中山路一段, 寮前, 新興里, 下營區, 臺南市, 735, 臺灣。",
+      "visitNote": "第3選區市議員 · 2號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chen-chiu-hung-service-office/logo.webp?v=dfdddb49ebe58938",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=9CBCB90A-A821-4FAD-A45D-79491B3EE5B2",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "議會個人頁 img alt=\"陳秋宏議員\"；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 693 × 768。"
+      },
+      "mapMarker": {
+        "label": "陳秋宏",
+        "image": "./assets/chen-chiu-hung-marker-2-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=9CBCB90A-A821-4FAD-A45D-79491B3EE5B2"
+      }
+    },
+    {
+      "id": "lai-mao-ching-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "賴懋慶服務處",
+      "address": "臺南市玉井區中山路96號",
+      "social": {
+        "facebook": "https://www.facebook.com/61585010636659/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.facebook.com/61585010636659/",
+        "https://www.facebook.com/photo/?fbid=122130697995167021&set=a.122116647777167021",
+        "https://web.cec.gov.tw/api/file/c3198075-fe85-4253-b1a5-0a2a043a550e.pdf"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址依使用者表格，另有中選會2024年同址負責人資料；歷史資料不當作2026服務處獨立確認。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.facebook.com/61585010636659/",
+          "https://www.facebook.com/photo/?fbid=122130697995167021&set=a.122116647777167021",
+          "https://web.cec.gov.tw/api/file/c3198075-fe85-4253-b1a5-0a2a043a550e.pdf"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.1201505,
+        "lng": 120.4625139
+      },
+      "coordinateSource": "https://www.google.com/maps/place/714%E8%87%BA%E5%8D%97%E5%B8%82%E7%8E%89%E4%BA%95%E5%8D%80%E7%8E%89%E7%94%B0%E9%87%8C%E4%B8%AD%E5%B1%B1%E8%B7%AF96%E8%99%9F/@23.1201505,120.4599336,17z/data=!3m1!4b1!4m6!3m5!1s0x346e6115bb616bb9:0xa1e55936bf61d526!8m2!3d23.1201505!4d120.4625139!16s%2Fg%2F11vxjz2k5m?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+      "coordinateNote": "Google Maps 精確門牌地址為714臺南市玉井區玉田里中山路96號，與使用者提供門牌及行政區一致；取地點網址!3d23.1201505!4d120.4625139，未用@視窗中心。",
+      "visitNote": "第4選區市議員 · 1號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/lai-mao-ching-service-office/logo.webp?v=494a7e8d45f6d381",
+        "source": "https://www.facebook.com/photo/?fbid=122130697995167021&set=a.122116647777167021",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方政治候選人頁點選人像 → 查看大頭貼照；照片文字為懇請支持1號賴懋慶；已目視確認為單人正面上半身照，左側含1號。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 2048 × 2048。"
+      },
+      "mapMarker": {
+        "label": "賴懋慶",
+        "image": "./assets/lai-mao-ching-marker-1-type-v1.webp",
+        "source": "https://www.facebook.com/photo/?fbid=122130697995167021&set=a.122116647777167021"
+      }
+    },
+    {
+      "id": "chen-pi-yu-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "陳碧玉服務處",
+      "address": "臺南市新市區和平街128號",
+      "social": {
+        "facebook": "https://www.facebook.com/tiffany979",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=EED1C3A7-E6DA-40AF-B184-38ADCC794C74"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=EED1C3A7-E6DA-40AF-B184-38ADCC794C74"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.0807091,
+        "lng": 120.2925557
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11061062054",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：128號, 和平街, 新和里, 新市區, 臺南市, 744, 臺灣。",
+      "visitNote": "第5選區市議員 · 1號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chen-pi-yu-service-office/logo.webp?v=e05e9a90eca7405a",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=EED1C3A7-E6DA-40AF-B184-38ADCC794C74",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "議會個人頁標示「陳碧玉議員」的個人肖像；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 693 × 768。"
+      },
+      "mapMarker": {
+        "label": "陳碧玉",
+        "image": "./assets/chen-pi-yu-marker-1-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=EED1C3A7-E6DA-40AF-B184-38ADCC794C74"
+      }
+    },
+    {
+      "id": "lee-wei-chih-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "李偉智服務處",
+      "address": "臺南市新化區民權街58號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100000331041769",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=4E55DF62-30D2-4B1E-B4C4-6B6A75A6DBED"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=4E55DF62-30D2-4B1E-B4C4-6B6A75A6DBED"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.0369898,
+        "lng": 120.3048672
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11059860973",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：58號, 民權街, 護國里, 新化區, 臺南市, 712, 臺灣。",
+      "visitNote": "第5選區市議員 · 4號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/lee-wei-chih-service-office/logo.webp?v=85b6aa273928034e",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=4E55DF62-30D2-4B1E-B4C4-6B6A75A6DBED",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "議會個人頁標示「李偉智議員」的個人肖像；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 751 × 1000。"
+      },
+      "mapMarker": {
+        "label": "李偉智",
+        "image": "./assets/lee-wei-chih-marker-4-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=4E55DF62-30D2-4B1E-B4C4-6B6A75A6DBED"
+      }
+    },
+    {
+      "id": "lin-chih-chan-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "林志展服務處",
+      "address": "臺南市善化區中山路266號",
+      "social": {
+        "facebook": "https://www.facebook.com/#!/ccaooy?fref=ts",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=649D4023-23D8-46AF-99F2-A359E3756000",
+        "https://www.google.com/maps/place/台南市議員林志展服務處/@23.1322778,120.2963231,17z/data=!4m15!1m8!3m7!1s0x346e7c7ff5ffa689:0x5d2bb16bae743ef!2zNzQx6Ie65Y2X5biC5ZaE5YyW5Y2A5YWJ5paH6YeM5Lit5bGx6LevMjY26Jmf!3b1!8m2!3d23.1322778!4d120.2963231!16s%2Fg%2F11vwr9yb7_!3m5!1s0x346e7c7ff6aea2f9:0xad76bfccfc012377!8m2!3d23.1322025!4d120.2963284!16s%2Fg%2F11fnnqycm0"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=649D4023-23D8-46AF-99F2-A359E3756000",
+          "https://www.google.com/maps/place/台南市議員林志展服務處/@23.1322778,120.2963231,17z/data=!4m15!1m8!3m7!1s0x346e7c7ff5ffa689:0x5d2bb16bae743ef!2zNzQx6Ie65Y2X5biC5ZaE5YyW5Y2A5YWJ5paH6YeM5Lit5bGx6LevMjY26Jmf!3b1!8m2!3d23.1322778!4d120.2963231!16s%2Fg%2F11vwr9yb7_!3m5!1s0x346e7c7ff6aea2f9:0xad76bfccfc012377!8m2!3d23.1322025!4d120.2963284!16s%2Fg%2F11fnnqycm0"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.1322025,
+        "lng": 120.2963284
+      },
+      "coordinateSource": "https://www.google.com/maps/place/台南市議員林志展服務處/@23.1322778,120.2963231,17z/data=!4m15!1m8!3m7!1s0x346e7c7ff5ffa689:0x5d2bb16bae743ef!2zNzQx6Ie65Y2X5biC5ZaE5YyW5Y2A5YWJ5paH6YeM5Lit5bGx6LevMjY26Jmf!3b1!8m2!3d23.1322778!4d120.2963231!16s%2Fg%2F11vwr9yb7_!3m5!1s0x346e7c7ff6aea2f9:0xad76bfccfc012377!8m2!3d23.1322025!4d120.2963284!16s%2Fg%2F11fnnqycm0",
+      "coordinateNote": "OSM未找到門牌，瀏覽器Google Maps搜尋中山路266號後點選位於該地址的台南市議員林志展服務處；地點資料地址及電話065858688與議會一致。取服務處網址最後一組!3d23.1322025!4d120.2963284，未取@視窗中心。",
+      "visitNote": "第5選區市議員 · 5號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/lin-chih-chan-service-office/logo.webp?v=98a0befabefb6a61",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=649D4023-23D8-46AF-99F2-A359E3756000",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "議會個人頁標示「林志展議員」的個人肖像；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 829 × 829。"
+      },
+      "mapMarker": {
+        "label": "林志展",
+        "image": "./assets/lin-chih-chan-marker-5-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=649D4023-23D8-46AF-99F2-A359E3756000"
+      }
+    },
+    {
+      "id": "yu-chu-ching-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "余柷青服務處",
+      "address": "臺南市新化區信義路462號",
+      "social": {
+        "facebook": "https://www.facebook.com/yucc.tn/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=880414F4-8F11-4D0C-AFEA-CBA8B9AA9373"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=880414F4-8F11-4D0C-AFEA-CBA8B9AA9373"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.0346469,
+        "lng": 120.3025327
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11059854051",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：462號, 信義路, 豐榮里, 新化區, 臺南市, 712, 臺灣。",
+      "visitNote": "第5選區市議員 · 6號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yu-chu-ching-service-office/logo.webp?v=58c61213ca3f8839",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=880414F4-8F11-4D0C-AFEA-CBA8B9AA9373",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "議會個人頁標示「余柷青議員」的個人肖像；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 693 × 768。"
+      },
+      "mapMarker": {
+        "label": "余柷青",
+        "image": "./assets/yu-chu-ching-marker-6-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=880414F4-8F11-4D0C-AFEA-CBA8B9AA9373"
+      }
+    },
+    {
+      "id": "kuo-pin-chen-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "郭品辰服務處",
+      "address": "臺南市安南區海佃路1段376號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.facebook.com/sidy36/",
+        "https://www.facebook.com/sidy36/photos/1530994179026651/",
+        "https://www.facebook.com/sidy36/posts/1506484144810988/"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。郭品辰獨立社群及個人檔案頭像未確認；地圖肖像來自官方競選貼文，不將郭清華帳號頭像當作本人。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.facebook.com/sidy36/",
+          "https://www.facebook.com/sidy36/photos/1530994179026651/",
+          "https://www.facebook.com/sidy36/posts/1506484144810988/"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.0279421,
+        "lng": 120.1910541
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060021229",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：376號, 海佃路一段, 溪墘里, 安南區, 臺南市, 709, 臺灣。",
+      "visitNote": "第6選區市議員 · 7號",
+      "mapMarker": {
+        "label": "郭品辰",
+        "image": "./assets/kuo-pin-chen-marker-7-type-v1.webp",
+        "source": "https://www.facebook.com/photo/?fbid=1506483968144339&set=pcb.1506484144810988"
+      }
+    },
+    {
+      "id": "chu-cheng-hsuan-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "朱正軒服務處",
+      "address": "臺南市永康區中山南路473號",
+      "social": {
+        "facebook": "https://www.facebook.com/chchu.tw",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=201C5B83-A1D0-4226-8FE3-78B01D957E4F"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=201C5B83-A1D0-4226-8FE3-78B01D957E4F"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.0222732,
+        "lng": 120.2485895
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/5652751221",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：宏和精密紡織股份有限公司, 473, 中山南路, 甲內, 二王里, 永康區, 臺南市, 710, 臺灣。",
+      "visitNote": "第7選區市議員 · 5號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chu-cheng-hsuan-service-office/logo.webp?v=d865f4e3c0188158",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=201C5B83-A1D0-4226-8FE3-78B01D957E4F",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "議會個人頁標示「朱正軒議員」的個人肖像；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 693 × 768。"
+      },
+      "mapMarker": {
+        "label": "朱正軒",
+        "image": "./assets/chu-cheng-hsuan-marker-5-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=201C5B83-A1D0-4226-8FE3-78B01D957E4F"
+      }
+    },
+    {
+      "id": "chen-chiu-ping-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "陳秋萍服務處",
+      "address": "臺南市永康區永大路3段77號",
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=E011C49C-9B47-40DB-9E85-3219DCDEF1CB",
+        "https://www.google.com/maps/place/陳秋萍議員服務處/@23.0294218,120.2599983,17z/data=!4m15!1m8!3m7!1s0x346e70c8fdebe211:0xa24f5bad27cee92b!2zNzEw6Ie65Y2X5biC5rC45bq35Y2A5rC45bq36YeM5rC45aSn6Lev5LiJ5q61NzfomZ8!3b1!8m2!3d23.0294218!4d120.2599983!16s%2Fg%2F11zcg2vchh!3m5!1s0x346e70b62c02bab7:0x4f44c32f2c36c655!8m2!3d23.0294218!4d120.2599983!16s%2Fg%2F1pztlrcjw"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會頁另列永大路三段79號；表格及Google Maps服務處均為77號，依使用者表格保留77號。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=E011C49C-9B47-40DB-9E85-3219DCDEF1CB",
+          "https://www.google.com/maps/place/陳秋萍議員服務處/@23.0294218,120.2599983,17z/data=!4m15!1m8!3m7!1s0x346e70c8fdebe211:0xa24f5bad27cee92b!2zNzEw6Ie65Y2X5biC5rC45bq35Y2A5rC45bq36YeM5rC45aSn6Lev5LiJ5q61NzfomZ8!3b1!8m2!3d23.0294218!4d120.2599983!16s%2Fg%2F11zcg2vchh!3m5!1s0x346e70b62c02bab7:0x4f44c32f2c36c655!8m2!3d23.0294218!4d120.2599983!16s%2Fg%2F1pztlrcjw"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.0294218,
+        "lng": 120.2599983
+      },
+      "coordinateSource": "https://www.google.com/maps/place/陳秋萍議員服務處/@23.0294218,120.2599983,17z/data=!4m15!1m8!3m7!1s0x346e70c8fdebe211:0xa24f5bad27cee92b!2zNzEw6Ie65Y2X5biC5rC45bq35Y2A5rC45bq36YeM5rC45aSn6Lev5LiJ5q61NzfomZ8!3b1!8m2!3d23.0294218!4d120.2599983!16s%2Fg%2F11zcg2vchh!3m5!1s0x346e70b62c02bab7:0x4f44c32f2c36c655!8m2!3d23.0294218!4d120.2599983!16s%2Fg%2F1pztlrcjw",
+      "coordinateNote": "OSM未找到門牌，瀏覽器Google Maps搜尋永大路三段77號後點選位於該地址的陳秋萍議員服務處；Google Maps服務處地址確實77號、電話062335128與議會一致。取地點網址!3d23.0294218!4d120.2599983。議會頁另列79號；保留使用者77號並記錄差異。",
+      "visitNote": "第7選區市議員 · 8號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chen-chiu-ping-service-office/logo.webp?v=fece3e8485a56214",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=E011C49C-9B47-40DB-9E85-3219DCDEF1CB",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "議會個人頁標示「陳秋萍議員」的個人肖像；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 961 × 961。"
+      },
+      "mapMarker": {
+        "label": "陳秋萍",
+        "image": "./assets/chen-chiu-ping-marker-8-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=E011C49C-9B47-40DB-9E85-3219DCDEF1CB"
+      }
+    },
+    {
+      "id": "huang-chao-hui-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "黄肇輝服務處",
+      "address": "臺南市永康區永大路2段91號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100061437721321",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=C5B62F03-2580-4ED5-94F5-9A7BDF6218A8"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=C5B62F03-2580-4ED5-94F5-9A7BDF6218A8"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.0040384,
+        "lng": 120.2605975
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060373274",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：91號, 永大路二段, 崑山里, 永康區, 臺南市, 710, 臺灣。",
+      "visitNote": "第7選區市議員 · 9號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/huang-chao-hui-service-office/logo.webp?v=ec8cbcf3063da296",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=C5B62F03-2580-4ED5-94F5-9A7BDF6218A8",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "議會個人頁正式標題為黄肇輝，圖片標示為黃肇輝議員；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 693 × 768。"
+      },
+      "mapMarker": {
+        "label": "黄肇輝",
+        "image": "./assets/huang-chao-hui-marker-9-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=C5B62F03-2580-4ED5-94F5-9A7BDF6218A8"
+      }
+    },
+    {
+      "id": "chiu-li-li-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "邱莉莉服務處",
+      "address": "臺南市中西區尊王路95號",
+      "social": {
+        "facebook": "https://www.facebook.com/liliservice2012",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=4A10A4A3-190C-47E8-9214-B75A23CBE882"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=4A10A4A3-190C-47E8-9214-B75A23CBE882"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9916467,
+        "lng": 120.1953006
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060942565",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：95號, 尊王路, 府前里, 中西區, 臺南市, 700, 臺灣。",
+      "visitNote": "第8選區市議員 · 5號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chiu-li-li-service-office/logo.webp?v=644ede5ab1470097",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=4A10A4A3-190C-47E8-9214-B75A23CBE882",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "邱莉莉議會官方介紹頁，img alt 明示為議員個人照；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 693 × 768。"
+      },
+      "mapMarker": {
+        "label": "邱莉莉",
+        "image": "./assets/chiu-li-li-marker-5-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=4A10A4A3-190C-47E8-9214-B75A23CBE882"
+      }
+    },
+    {
+      "id": "lin-chien-nan-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "林建南服務處",
+      "address": "臺南市北區西門路4段311號",
+      "social": {
+        "facebook": "https://www.facebook.com/LINCHIENNAN1776/",
+        "instagram": "https://www.instagram.com/andy_lin1776/",
+        "threads": "https://www.threads.com/@andy_lin1776"
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.facebook.com/LINCHIENNAN1776/",
+        "https://www.facebook.com/LINCHIENNAN1776/posts/1476790614455744/"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。依表格及官方開張貼文採西門路四段311號；近期競總另標311號之6，未擅改門牌。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.facebook.com/LINCHIENNAN1776/",
+          "https://www.facebook.com/LINCHIENNAN1776/posts/1476790614455744/"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.0144668,
+        "lng": 120.2092052
+      },
+      "coordinateSource": "https://www.google.com/maps/place/704%E8%87%BA%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E7%A6%8F%E5%BE%B7%E9%87%8C%E8%A5%BF%E9%96%80%E8%B7%AF%E5%9B%9B%E6%AE%B5311%E8%99%9F/@23.0144668,120.2092052,17z/data=!3m1!4b1!4m6!3m5!1s0x346e76f9124d3b95:0x6d7059a31298521b!8m2!3d23.0144668!4d120.2092052!16s%2Fg%2F11j3tvf7kr",
+      "coordinateNote": "Google Maps 實際門牌地點顯示704臺南市北區福德里西門路四段311號；座標取地點網址!3d!4d，非@視窗中心。此為使用者提供311號門牌，另近期競總公告311之6但未擅換地址。",
+      "visitNote": "第8選區市議員 · 9號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/lin-chien-nan-service-office/logo.webp?v=a5c58cad4f5552f5",
+        "source": "https://www.facebook.com/photo/?fbid=1470307598437379&set=a.201825921952226",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方林建南-南爸One粉絲頁之個人檔案相簿；2026-01-02單人正式照片，灰底淺藍襯衫、眼鏡、舉右手。已實際開啟圖片核對，推薦此單人圖製圖。；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 960 × 960。"
+      },
+      "mapMarker": {
+        "label": "林建南",
+        "image": "./assets/lin-chien-nan-marker-9-type-v1.webp",
+        "source": "https://www.facebook.com/photo/?fbid=1470307598437379&set=a.201825921952226"
+      }
+    },
+    {
+      "id": "lee-chi-wei-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "李啟維服務處",
+      "address": "臺南市安平區育平路501號",
+      "social": {
+        "facebook": "https://www.facebook.com/kiwi.only.one",
+        "instagram": "https://www.instagram.com/lichiwei_official/",
+        "threads": "https://www.threads.com/@lichiwei_official"
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=ADADD8CA-4B20-49AB-A056-B3BD47F3DFE0"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=ADADD8CA-4B20-49AB-A056-B3BD47F3DFE0"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.997374,
+        "lng": 120.1672873
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060265319",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：501號, 育平路, 平通里, 安平區, 上鯤鯓, 臺南市, 708, 臺灣。",
+      "visitNote": "第9選區市議員 · 5號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/lee-chi-wei-service-office/logo.webp?v=3e4470e414711006",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=ADADD8CA-4B20-49AB-A056-B3BD47F3DFE0",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "李啟維議會官方介紹頁，img alt 明示為議員個人照；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 888 × 888。"
+      },
+      "mapMarker": {
+        "label": "李啟維",
+        "image": "./assets/lee-chi-wei-marker-5-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=ADADD8CA-4B20-49AB-A056-B3BD47F3DFE0"
+      }
+    },
+    {
+      "id": "chou-li-chin-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "周麗津服務處",
+      "address": "臺南市南區金華路1段464號",
+      "social": {
+        "facebook": "https://www.facebook.com/mingdezhou0802/",
+        "instagram": "https://www.instagram.com/lily_chou_2638598/",
+        "threads": "https://www.threads.com/@lily_chou_2638598"
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=C74D9364-882E-4430-A50E-439825B1EBB5",
+        "https://tnsouth.tainan.gov.tw/cp.aspx?n=16942",
+        "https://www.threads.com/@lily_chou_2638598/post/DetV365j6RT/"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會頁另列金華路一段468號；南區公所通訊錄及Google Maps支持表格464號。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=C74D9364-882E-4430-A50E-439825B1EBB5",
+          "https://tnsouth.tainan.gov.tw/cp.aspx?n=16942",
+          "https://www.threads.com/@lily_chou_2638598/post/DetV365j6RT/"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9725249,
+        "lng": 120.1909141
+      },
+      "coordinateSource": "https://www.google.com/maps/place/702%E8%87%BA%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E6%97%A5%E6%96%B0%E9%87%8C%E9%87%91%E8%8F%AF%E8%B7%AF%E4%B8%80%E6%AE%B5464%E8%99%9F/@22.9725249,120.1909141,17z/data=!3m1!4b1!4m6!3m5!1s0x346e75dad9dacd9d:0x68cdd1d50d317097!8m2!3d22.9725249!4d120.1909141!16s%2Fg%2F11h94kbhhz",
+      "coordinateNote": "Google Maps 實際門牌地點顯示702臺南市南區日新里金華路一段464號，內部場所列周麗津服務處；取!3d!4d。",
+      "visitNote": "第9選區市議員 · 6號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chou-li-chin-service-office/logo.webp?v=2dc7c99719ef74ba",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=C74D9364-882E-4430-A50E-439825B1EBB5",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "周麗津議會官方介紹頁，img alt 明示為議員個人照；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 417 × 462。"
+      },
+      "mapMarker": {
+        "label": "周麗津",
+        "image": "./assets/chou-li-chin-marker-6-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=C74D9364-882E-4430-A50E-439825B1EBB5"
+      }
+    },
+    {
+      "id": "lu-wei-yin-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "呂維胤服務處",
+      "address": "臺南市南區中華南路2段201號",
+      "social": {
+        "facebook": "https://www.facebook.com/呂維胤-564408486971527/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=4348ACF1-8957-4133-B99E-19B26D9E2DCE"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=4348ACF1-8957-4133-B99E-19B26D9E2DCE"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9611275,
+        "lng": 120.1902048
+      },
+      "coordinateSource": "https://www.google.com/maps/place/702%E8%87%BA%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E5%BB%BA%E5%8D%97%E9%87%8C%E4%B8%AD%E8%8F%AF%E5%8D%97%E8%B7%AF%E4%BA%8C%E6%AE%B5201%E8%99%9F/@22.9611275,120.1902048,17z/data=!3m1!4b1!4m6!3m5!1s0x346e75b8827062af:0x6d48bab8de4ca12e!8m2!3d22.9611275!4d120.1902048!16s%2Fg%2F11rp3cmy2q",
+      "coordinateNote": "Google Maps 實際門牌地點顯示702臺南市南區建南里中華南路二段201號，內部場所列市議員呂維胤南區服務處；取!3d!4d。",
+      "visitNote": "第9選區市議員 · 8號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/lu-wei-yin-service-office/logo.webp?v=02634a147d557a58",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=4348ACF1-8957-4133-B99E-19B26D9E2DCE",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "呂維胤議會官方介紹頁，img alt 明示為議員個人照；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 993 × 993。"
+      },
+      "mapMarker": {
+        "label": "呂維胤",
+        "image": "./assets/lu-wei-yin-marker-8-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=4348ACF1-8957-4133-B99E-19B26D9E2DCE"
+      }
+    },
+    {
+      "id": "tsai-hsiao-wei-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "蔡筱薇服務處",
+      "address": "臺南市東區裕農路315號",
+      "social": {
+        "facebook": "https://www.facebook.com/Hsiaoweitasi",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=78191C86-FE9E-442F-84D9-47CF93743FE9"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=78191C86-FE9E-442F-84D9-47CF93743FE9"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9868498,
+        "lng": 120.2288668
+      },
+      "coordinateSource": "https://www.google.com/maps/place/701%E8%87%BA%E5%8D%97%E5%B8%82%E6%9D%B1%E5%8D%80%E8%A3%95%E8%BE%B2%E9%87%8C%E8%A3%95%E8%BE%B2%E8%B7%AF315%E8%99%9F/@22.9868498,120.2288668,17z/data=!3m1!4b1!4m6!3m5!1s0x346e76bd67cd7825:0xfc896c60ff959c5!8m2!3d22.9868498!4d120.2288668!16s%2Fg%2F11nnkqr244",
+      "coordinateNote": "Google Maps 實際門牌地點顯示701臺南市東區裕農里裕農路315號；取!3d!4d。",
+      "visitNote": "第10選區市議員 · 1號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/tsai-hsiao-wei-service-office/logo.webp?v=d0534b2e47ace673",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=78191C86-FE9E-442F-84D9-47CF93743FE9",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "蔡筱薇議會官方介紹頁，img alt 明示為議員個人照；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 693 × 768。"
+      },
+      "mapMarker": {
+        "label": "蔡筱薇",
+        "image": "./assets/tsai-hsiao-wei-marker-1-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=78191C86-FE9E-442F-84D9-47CF93743FE9"
+      }
+    },
+    {
+      "id": "chen-chin-chung-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "陳金鐘服務處",
+      "address": "臺南市東區崇明二十街21號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100001616792189",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/2019/tnccp2/ccp_01a.asp?CName=%E9%99%B3%E9%87%91%E9%90%98"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/2019/tnccp2/ccp_01a.asp?CName=%E9%99%B3%E9%87%91%E9%90%98"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9693429,
+        "lng": 120.226683
+      },
+      "coordinateSource": "https://www.google.com/maps/place/701%E8%87%BA%E5%8D%97%E5%B8%82%E6%9D%B1%E5%8D%80%E5%B4%87%E6%88%90%E9%87%8C%E5%B4%87%E6%98%8E%E4%BA%8C%E5%8D%81%E8%A1%9721%E8%99%9F/@22.9693429,120.226683,17z/data=!3m1!4b1!4m6!3m5!1s0x346e74222219ad5d:0xe8163a3dc41901fa!8m2!3d22.9693429!4d120.226683!16s%2Fg%2F11lmn_2ls7",
+      "coordinateNote": "Google Maps 實際門牌地點顯示701臺南市東區崇成里崇明二十街21號；取地點網址!3d!4d。",
+      "visitNote": "第10選區市議員 · 2號",
+      "shopPhoto": {
+        "url": "https://www.tncc.gov.tw/warehouse/200000/%E9%99%B3%E9%87%91%E9%90%98.bmp",
+        "source": "https://www.tncc.gov.tw/2019/tnccp2/ccp_01a.asp?CName=%E9%99%B3%E9%87%91%E9%90%98",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "陳金鐘議會官方歷屆介紹頁，img alt 明示為陳金鐘個人照；歷史肖像，非2026競選照"
+      },
+      "mapMarker": {
+        "label": "陳金鐘",
+        "image": "./assets/chen-chin-chung-marker-2-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/2019/tnccp2/ccp_01a.asp?CName=%E9%99%B3%E9%87%91%E9%90%98"
+      }
+    },
+    {
+      "id": "chen-huang-yu-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "陳皇宇服務處",
+      "address": "臺南市關廟區南雄路1段1092號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100072365286807",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=CBAF0322-27BB-4242-BDFE-2BE6814FD6BD"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=CBAF0322-27BB-4242-BDFE-2BE6814FD6BD"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9574969,
+        "lng": 120.3282093
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060150429",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：1092號, 南雄路一段, 五甲, 五甲里, 關廟區, 臺南市, 718, 臺灣。",
+      "visitNote": "第11選區市議員 · 7號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chen-huang-yu-service-office/logo.webp?v=834ea597e9b97b57",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=CBAF0322-27BB-4242-BDFE-2BE6814FD6BD",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "陳皇宇議會官方介紹頁，img alt 明示為議員個人照；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 693 × 768。"
+      },
+      "mapMarker": {
+        "label": "陳皇宇",
+        "image": "./assets/chen-huang-yu-marker-7-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=CBAF0322-27BB-4242-BDFE-2BE6814FD6BD"
+      }
+    },
+    {
+      "id": "kuo-hung-yi-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "郭鴻儀服務處",
+      "address": "臺南市仁德區正義三街88號",
+      "social": {
+        "facebook": "https://www.facebook.com/hungyi2018",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=D02F8D8F-F1DF-4F8A-BA84-EE5B5FA5F147"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=D02F8D8F-F1DF-4F8A-BA84-EE5B5FA5F147"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9738727,
+        "lng": 120.2547361
+      },
+      "coordinateSource": "https://www.google.com/maps/place/717%E8%87%BA%E5%8D%97%E5%B8%82%E4%BB%81%E5%BE%B7%E5%8D%80%E4%B8%80%E7%94%B2%E9%87%8C%E6%AD%A3%E7%BE%A9%E4%B8%89%E8%A1%9788%E8%99%9F/@22.9738727,120.2547361,17z/data=!3m1!4b1!4m6!3m5!1s0x346e7118735206f5:0xb62b3aff1229e40e!8m2!3d22.9738727!4d120.2547361!16s%2Fg%2F11v0fv2lcq",
+      "coordinateNote": "Google Maps 實際門牌地點顯示717臺南市仁德區一甲里正義三街88號，內部場所列臺南市議員郭鴻儀-幸福工作坊；取地點網址!3d!4d。",
+      "visitNote": "第11選區市議員 · 8號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kuo-hung-yi-service-office/logo.webp?v=bce4bcf7299700a9",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=D02F8D8F-F1DF-4F8A-BA84-EE5B5FA5F147",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "郭鴻儀議會官方介紹頁，img alt 明示為議員個人照；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 693 × 768。"
+      },
+      "mapMarker": {
+        "label": "郭鴻儀",
+        "image": "./assets/kuo-hung-yi-marker-8-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=D02F8D8F-F1DF-4F8A-BA84-EE5B5FA5F147"
+      }
+    },
+    {
+      "id": "cheng-chia-hsin-service-office",
+      "verification": true,
+      "category": "洋流服務站",
+      "giftStatus": "可能有小物",
+      "name": "鄭佳欣服務處",
+      "address": "臺南市歸仁區大吉街1號",
+      "social": {
+        "facebook": "https://www.facebook.com/cch19790403",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=0DB92A60-047F-4559-A8EE-03183D3CBFA0"
+      ],
+      "verifiedAt": "2026-10-27",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務處社群。",
+        "sources": [
+          "https://www.tncc.gov.tw/councilorpage.asp?mainid=0DB92A60-047F-4559-A8EE-03183D3CBFA0"
+        ]
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9668456,
+        "lng": 120.2903204
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060158894",
+      "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：1號, 大吉街, 後市里, 歸仁區, 臺南市, 711, 臺灣。",
+      "visitNote": "第11選區市議員 · 9號",
+      "shopPhoto": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/cheng-chia-hsin-service-office/logo.webp?v=ffee458fd9a4aef8",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=0DB92A60-047F-4559-A8EE-03183D3CBFA0",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "鄭佳欣議會官方介紹頁，img alt 明示為議員個人照；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 693 × 768。"
+      },
+      "mapMarker": {
+        "label": "鄭佳欣",
+        "image": "./assets/cheng-chia-hsin-marker-9-type-v1.webp",
+        "source": "https://www.tncc.gov.tw/councilorpage.asp?mainid=0DB92A60-047F-4559-A8EE-03183D3CBFA0"
       }
     }
   ],
