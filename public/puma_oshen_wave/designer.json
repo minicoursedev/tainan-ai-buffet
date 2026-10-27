@@ -1745,6 +1745,53 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/419067264_1416801719270336_6481106015579624234_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=107&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=G6ijhib4gSkQ7kNvwGGkT5Q&_nc_oc=AdqZtYLMiJsB4KrfQVXyeEcp7yLNcyUQHD3aHzEappHJGGvbMXALBpRfkh_E2nJ_bDo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7920f&oh=00_AQON_cb_jlqqQIqF9cb8Ylx7IUUy5O5Ys1Wmf8hs4c4uWg&oe=6AE5E5A4"
       }
+    },
+    {
+      "id": "kylekuo0215",
+      "name": "Kyle Kuo",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kylekuo0215/1.webp?v=d7e16be6d9889d12",
+          "alt": "Kyle Kuo 作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kylekuo0215/1.webp?v=d7e16be6d9889d12",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564550653353918514/858427351_2307328300067827_1778023746060039113_n.png?ex=6ae1acd7&is=6ae05b57&hm=5b20896a7754086c3ae8b0e784ef29faf733db1c341d10ad96ef95483e7b27c9&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kylekuo0215/2.webp?v=0f7515eafcc40bde",
+          "alt": "Kyle Kuo 作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kylekuo0215/2.webp?v=0f7515eafcc40bde",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564550654129737778/867416498_1410140474157448_8186957352166866645_n.png?ex=6ae1acd7&is=6ae05b57&hm=a87599f526554adcefe63c441616d0986880aab4e3acb08f0519e964b8a2f034&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kylekuo0215/3.webp?v=5bcf527512022ba5",
+          "alt": "Kyle Kuo 作品照片 3",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kylekuo0215/3.webp?v=5bcf527512022ba5",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564550655073452062/864465204_1878974899909033_7280757218683846018_n.png?ex=6ae1acd8&is=6ae05b58&hm=ea0212fd9ee64fd021b8d5185afec05ad86e9bd8e731df4cad05a1ca3247bf21&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@kylekuo0215",
+        "ig": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kylekuo0215/logo.webp?v=cc4e1f88348015a6",
+        "source": "https://www.threads.com/@kylekuo0215",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/433079021_840970697751220_1858138831033016355_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=ucTZwi5SzEQQ7kNvwGpad7X&_nc_oc=AdqW-4K1YFjkEc856cWurOZooSg9IcPl89IOM6HzvHcjr_B98F3bq2H_p3IqrdLD1jg&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7f20f&oh=00_AQMgfpHkRdiNO2nbUr7ZqPICzfeWv2Ba1E4c3axSGqsnYQ&oe=6AE628C7"
+      }
     }
   ]
 }
