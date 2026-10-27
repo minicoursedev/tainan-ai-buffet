@@ -73,6 +73,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
             || Math.abs(position.lat)>90 || Math.abs(position.lng)>180) continue;
         positions.set(shop.id, position);
         const markerArtwork = {
+          'tsai-li-ching-guoan-haidian': {file:'tsai-li-ching-marker-1-type-v1.webp', label:'① 蔡麗青', type:'第六選舉區市議員', blankTypeFooter:true, width:120, height:169},
           'chen-ting-fei-campaign-headquarters': {file:'chen-ting-fei-marker-3-type-v1.webp', label:'③ 陳亭妃', type:'市長候選人', height:135},
           'lin-yi-ting-service-office': {file:'lin-yi-ting-marker-2-type-v1.webp', label:'② 林依婷', type:'安平|南區市議員', blankTypeFooter:true, width:120, height:169},
           'wayonly-service-office': {file:'chou-chia-wei-marker-7-type-v1.webp', label:'⑦ 周嘉韋', type:'中西區·北區市議員', blankTypeFooter:true, width:120, height:169},
