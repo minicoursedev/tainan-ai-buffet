@@ -1578,6 +1578,45 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/849771934_17972392419153683_5575889971214122011_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=CNsiajzU6hIQ7kNvwGuqSzk&_nc_oc=AdqXrzuTD81zLLEFjrqEbjUolxN8CVdOdxtgdTcXFqXsCdh6Ai3YzHswkK1cf1uEH_U&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=kivnpvtnNhWJ8bOmcMv5Ng&_nc_ss=7920f&oh=00_AQMyXYGrlio5qrBuHpLQCFW-Yphvo15nj49SDplKAFjtGw&oe=6AE582D1"
       }
+    },
+    {
+      "id": "pontiff-tattoo",
+      "name": "藏匿處刺青 光頭 🔥🔥",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/pontiff-tattoo/1.webp?v=fe5375216d24cb5a",
+          "alt": "藏匿處刺青 光頭 🔥🔥作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/pontiff-tattoo/1.webp?v=fe5375216d24cb5a",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564471667026042890/840070061_17977658952128672_1470861349931007095_n.png?ex=6ae16347&is=6ae011c7&hm=8887938a13e50c003fdc302a9b1952d431700c5727a4e9ee4043dd6fcd765722&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/pontiff-tattoo/2.webp?v=1e788937eaca35f3",
+          "alt": "藏匿處刺青 光頭 🔥🔥作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/pontiff-tattoo/2.webp?v=1e788937eaca35f3",
+          "checkedAt": "2026-10-27",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1564471667923746968/813372209_18630133069063564_6121911524204010131_n.png?ex=6ae16348&is=6ae011c8&hm=6cc9909216289668395d3748b0b05557ff9808e779e0100b4f59e4b6f48aaf0f&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@pontiff_tattoo",
+        "ig": "https://www.instagram.com/pontiff_tattoo/",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/pontiff-tattoo/logo.webp?v=5c35f38710826a7b",
+        "source": "https://www.threads.com/@pontiff_tattoo",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/419067264_1416801719270336_6481106015579624234_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=107&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=G6ijhib4gSkQ7kNvwGGkT5Q&_nc_oc=AdqZtYLMiJsB4KrfQVXyeEcp7yLNcyUQHD3aHzEappHJGGvbMXALBpRfkh_E2nJ_bDo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7920f&oh=00_AQON_cb_jlqqQIqF9cb8Ylx7IUUy5O5Ys1Wmf8hs4c4uWg&oe=6AE5E5A4"
+      }
     }
   ]
 }
