@@ -73,7 +73,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
             || Math.abs(position.lat)>90 || Math.abs(position.lng)>180) continue;
         positions.set(shop.id, position);
         const markerArtwork = {
-          'chen-ting-fei-campaign-headquarters': {file:'chen-ting-fei-marker-3-v1.png', label:'③ 陳亭妃'},
+          'chen-ting-fei-campaign-headquarters': {file:'chen-ting-fei-marker-3-type-v1.webp', label:'③ 陳亭妃', type:'市長候選人', height:135},
           'lin-yi-ting-service-office': {file:'lin-yi-ting-marker-2-v1.webp', label:'② 林依婷'}
         }[shop.id];
         const useGeneratedMarker = Boolean(markerArtwork);
@@ -83,7 +83,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         const scale = (shop.category === '洋流服務站' ? 1.15 : 1)
           * (shop.id === 'hexin-pharmacy' ? 1.15 : 1);
         const width = useGeneratedMarker ? 96 : 24 * scale;
-        const height = useGeneratedMarker ? 114 : 30 * scale;
+        const height = useGeneratedMarker ? (markerArtwork.height ?? 114) : 30 * scale;
         badge.style.width = `${width}px`;
         badge.style.height = `${height}px`;
         if (useGeneratedMarker) {
@@ -91,6 +91,14 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
           artwork.src = new URL(`./assets/${markerArtwork.file}`, import.meta.url).href;
           artwork.alt = markerArtwork.label;
           badge.append(artwork);
+          if (typeof markerArtwork.type === 'string') {
+            // Keep the type editable inside the original artwork's connected footer.
+            const type = document.createElement('span');
+            type.className = 'osm-artwork-type';
+            type.textContent = markerArtwork.type;
+            type.style.fontSize = `${Math.min(width * .14, width * .74 / Math.max([...markerArtwork.type].length, 1))}px`;
+            badge.append(type);
+          }
         } else if (shop.mapMarker?.image && shop.mapMarker?.label) {
           badge.classList.add('osm-portrait-pin');
           const portrait = document.createElement('img');
