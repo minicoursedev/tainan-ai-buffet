@@ -1335,18 +1335,18 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8550337284",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：428號, 中興路二段, 內新里, 大里區, 田寮, 臺中市, 412002, 臺灣。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-zhang-fen-yu-service-office/logo.webp?v=685d3d921bce863f",
         "source": "https://www.facebook.com/Changphenyu/",
         "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-27",
-        "note": "官方 Facebook 主頁「張芬郁」簡介、服務處地址、電話及電子郵件與臺中市議會介紹一致。主頁 header JSON 的 profile_photo 指向 https://www.facebook.com/photo/?fbid=1093186153269334&set=a.136238038964155；profilePicLarge.uri 與 og:image 同為 778972695_1093185393269410_4034021292406477566_n.jpg，與封面圖片不同，確認是個人檔案頭像。原樣圖片網址回應 HTTP 200、image/jpeg，記憶體解析 JPEG 原生尺寸為 720×720，足供 Logo 使用；圖片網址：https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/778972695_1093185393269410_4034021292406477566_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Nl5jUFjGbMAQ7kNvwE3zqME&_nc_oc=Adqn2uYSWd3teF-eRY_Oqel_JplxjlfMgkg_MtI8NMheo42CjegSp8ceje0M1Ummw8w&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=1Sel9U1A17eX8e0C3XCnEA&_nc_ss=7b20f&oh=00_AQOTYihjs0tjHXR5OhDh0E3KRWNvvqtZPTekQ16F0DXBzw&oe=6AE69AA8"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；張芬郁；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
       },
       "visitNote": "第13選區市議員 · 9號",
       "mapMarker": {
         "label": "張芬郁",
-        "image": "./assets/taichung-zhang-fen-yu-marker-9-type-v1.webp",
-        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=80"
+        "image": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-zhang-fen-yu-service-office/logo.webp?v=685d3d921bce863f",
+        "source": "https://www.facebook.com/Changphenyu/"
       }
     }
   ],
