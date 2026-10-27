@@ -116,7 +116,7 @@ function designerLinks(designer) {
   if (!links.childElementCount) links.append(node('span', '尚未提供連結'));
   return links;
 }
-function designerProducts(designer) {
+function designerProducts(designer, title = '作品參考') {
   if (!Array.isArray(designer.productImages)) return null;
   const section = node('section', undefined, 'designer-products');
   section.hidden = true;
@@ -156,7 +156,7 @@ function designerProducts(designer) {
     } catch { /* Invalid image URLs are omitted. */ }
   }
   if (!images.childElementCount) return null;
-  section.append(node('h3', '作品參考'), images);
+  section.append(node('h3', title), images);
   return section;
 }
 function renderDesignerRoute() {
@@ -379,6 +379,8 @@ function selectShop(shop, openDetail = true, recenter = true) {
     content.append(hours);
   }
   if (shop.visitNote) content.append(node('p',shop.visitNote));
+  const photos = designerProducts(shop, '店家照片');
+  if (photos) content.append(photos);
   const share = node('div', undefined, 'shop-share');
   const permalink = node('a', '本站店家連結 ↗');
   permalink.href = shopUrl(shop.id).href;

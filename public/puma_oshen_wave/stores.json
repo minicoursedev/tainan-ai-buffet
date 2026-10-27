@@ -2192,17 +2192,18 @@
       "id": "hexin-pharmacy",
       "verification": true,
       "name": "荷芯藥局",
-      "category": "日常生活",
+      "category": "洋流服務站",
       "address": "台南市北區育德路27號",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/profile.php?id=61555371133069",
         "instagram": "",
         "threads": "https://www.threads.com/@yutingztw"
       },
       "sources": [
         "https://www.threads.com/@companio__bakery/post/DeQspkugc6i",
         "https://www.google.com/maps/place/荷芯藥局/data=!4m2!3m1!1s0x346e77005105ec57:0x9e1c0e95644c3cb6",
-        "https://www.threads.com/@yutingztw"
+        "https://www.threads.com/@yutingztw",
+        "https://www.facebook.com/profile.php?id=61555371133069"
       ],
       "giftStatus": "可能有小物",
       "verifiedAt": "2026-10-21",
@@ -2217,13 +2218,12 @@
         "auditNote": "Google 商家卡地址為北區育德路27號，展開完整週間時段。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hexin-pharmacy/logo.webp?v=c8c6aa713d0867f2",
-        "source": "https://www.threads.com/@yutingztw",
-        "platform": "threads",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hexin-pharmacy/logo.webp?v=10bbf87b7bef3c59",
+        "source": "https://www.facebook.com/profile.php?id=61555371133069",
+        "platform": "facebook",
         "status": "verified",
-        "checkedAt": "2026-10-25",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；荷芯藥局 (@yutingztw) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 640 × 640。",
-        "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/hexin-pharmacy.png?v=f917144083c98a81"
+        "checkedAt": "2026-10-27",
+        "note": "使用者指定依兩張附件以 imagegen 生成「和順里 1 號里長」頭像；非官方社群原頭像。"
       },
       "disabled": false,
       "latlng": {
@@ -2231,7 +2231,24 @@
         "lng": 120.2031105
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060911097",
-      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。"
+      "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。",
+      "mapMarker": {
+        "label": "和順里 1 號里長",
+        "image": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hexin-pharmacy/logo.webp?v=10bbf87b7bef3c59",
+        "source": "https://www.facebook.com/profile.php?id=61555371133069"
+      },
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hexin-pharmacy/1.webp?v=20fedd89922a7667",
+          "alt": "蕭智元藥師形象照片",
+          "source": "https://www.facebook.com/profile.php?id=61555371133069"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hexin-pharmacy/2.webp?v=6c9ad8e9a02228e4",
+          "alt": "蕭智元和順里服務介紹",
+          "source": "https://www.facebook.com/profile.php?id=61555371133069"
+        }
+      ]
     },
     {
       "id": "dash-pound-cake",
