@@ -1,5 +1,5 @@
 import {findStar} from './lucky-star.js?v=20261022-star';
-import {createShopMap} from './shop-map.js?v=20261027-lai-marker';
+import {createShopMap} from './shop-map.js?v=20261027-category-marker-size';
 const byId = id => document.getElementById(id);
 const origin = '22.997137,120.21295';
 let shops = [], category = '', selectedId = null;
@@ -455,7 +455,7 @@ function renderCategories() {
 }
 function renderShops(page = 0) {
   const results=shops.filter(s=>!category||s.category===category);
-  shopMap.filter(results.map(shop=>shop.id));
+  shopMap.filter(results.map(shop=>shop.id), category);
   if(selectedId&&!results.some(s=>s.id===selectedId)) resetMap();
   const list=byId('shop-list');
   list.replaceChildren();

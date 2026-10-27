@@ -3,12 +3,16 @@ const station = {lat:22.997137,lng:120.21295};
 // Coordinates and shop information remain on this website; only base tiles are remote.
 export function createShopMap({container, status, onSelect, onPositionsReady = () => {}}) {
   let userMarker, starMarker;
-  let map, selected = null, loading, visibleIds = null;
-  const markers = new Map(), positions = new Map(), visuals = new Map();
-  const filter = ids => {
+  let map, selected = null, loading, visibleIds = null, largeServiceMarkers = false;
+  const markers = new Map(), positions = new Map(), visuals = new Map(), iconFactories = new Map();
+  const filter = (ids, category = '') => {
+    const useLargeMarkers = category === '洋流服務站';
+    const resize = largeServiceMarkers !== useLargeMarkers;
+    largeServiceMarkers = useLargeMarkers;
     visibleIds = new Set(ids);
     if (!map) return;
     for (const [id, marker] of markers) {
+      if (resize) marker.setIcon(iconFactories.get(id)());
       if (visibleIds.has(id)) marker.addTo(map);
       else marker.remove();
     }
@@ -86,10 +90,9 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         if (shop.verification === false) badge.classList.add('is-unverified');
         const scale = (shop.category === '洋流服務站' ? 1.15 : 1)
           * (shop.id === 'hexin-pharmacy' ? 1.15 : 1);
-        const width = useGeneratedMarker ? (markerArtwork.width ?? 96) : 24 * scale;
-        const height = useGeneratedMarker ? (markerArtwork.height ?? 114) : 30 * scale;
-        badge.style.width = `${width}px`;
-        badge.style.height = `${height}px`;
+        const fullWidth = useGeneratedMarker ? (markerArtwork.width ?? 96) : 24 * scale;
+        const fullHeight = useGeneratedMarker ? (markerArtwork.height ?? 114) : 30 * scale;
+        let type;
         if (useGeneratedMarker) {
           const artwork = document.createElement('img');
           artwork.src = new URL(`./assets/${markerArtwork.file}`, import.meta.url).href;
@@ -97,10 +100,9 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
           badge.append(artwork);
           if (typeof markerArtwork.type === 'string') {
             // Keep the type editable inside the original artwork's connected footer.
-            const type = document.createElement('span');
+            type = document.createElement('span');
             type.className = 'osm-artwork-type';
             type.textContent = markerArtwork.type;
-            type.style.fontSize = `${Math.min(width * .14, width * .74 / Math.max([...markerArtwork.type].length, 1))}px`;
             if (markerArtwork.blankTypeFooter) type.style.background = 'transparent';
             badge.append(type);
           }
@@ -111,14 +113,24 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
           portrait.alt = shop.mapMarker.label;
           badge.append(portrait);
         } else badge.textContent = '●';
+        const createIcon = () => {
+          // Keep artwork proportions and its click target within the normal 24 × 30 pin size.
+          const sizeScale = largeServiceMarkers ? 1 : Math.min(1, 24 / fullWidth, 30 / fullHeight);
+          const width = fullWidth * sizeScale, height = fullHeight * sizeScale;
+          badge.style.width = `${width}px`;
+          badge.style.height = `${height}px`;
+          if (type) type.style.fontSize = `${Math.min(width * .14, width * .74 / Math.max([...markerArtwork.type].length, 1))}px`;
+          return L.divIcon({html:badge, className:'osm-marker', iconSize:[width,height],iconAnchor:[width/2,height]});
+        };
         const marker = L.marker(position, {
           title:shop.name, alt:shop.name,
-          icon:L.divIcon({html:badge, className:'osm-marker', iconSize:[width,height],iconAnchor:[width/2,height]})
+          icon:createIcon()
         });
         marker.on('click', () => onSelect(shop));
         if (!visibleIds || visibleIds.has(shop.id)) marker.addTo(map);
         markers.set(shop.id, marker);
         visuals.set(shop.id, badge);
+        iconFactories.set(shop.id, createIcon);
       }
       // Recompute layout when the mobile map panel becomes visible.
       const observer = new ResizeObserver(() => map?.invalidateSize());
