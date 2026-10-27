@@ -1305,22 +1305,27 @@
       "name": "張芬郁服務處",
       "address": "台中市大里區中興路二段428號",
       "social": {
-        "facebook": "",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/Changphenyu/",
+        "instagram": "https://www.instagram.com/chang_phenyu",
+        "threads": "https://www.threads.com/@chang_phenyu"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=80"
+        "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=80",
+        "https://www.facebook.com/Changphenyu/",
+        "https://www.instagram.com/chang_phenyu",
+        "https://www.threads.com/@chang_phenyu"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。2026-10-27 補查使用者指定 Facebook「張芬郁」：粉專簡介為臺中市（大里、霧峰）市議員，地址、電話及電子郵件與議會官方介紹一致；Instagram 由該粉專簡介實際外連取得，其個人頁再實際連出 Threads，均非猜測帳號。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
         "sources": [
-          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=80"
-        ]
+          "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=80",
+          "https://www.facebook.com/Changphenyu/"
+        ],
+        "checkedAt": "2026-10-27"
       },
       "disabled": false,
       "latlng": {
@@ -1331,11 +1336,11 @@
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：428號, 中興路二段, 內新里, 大里區, 田寮, 臺中市, 412002, 臺灣。",
       "shopPhoto": {
         "url": "",
-        "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=80",
-        "platform": "website",
+        "source": "https://www.facebook.com/Changphenyu/",
+        "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-27",
-        "note": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/張芬郁.html。官方連結下載，未修改原檔。"
+        "note": "官方 Facebook 主頁「張芬郁」簡介、服務處地址、電話及電子郵件與臺中市議會介紹一致。主頁 header JSON 的 profile_photo 指向 https://www.facebook.com/photo/?fbid=1093186153269334&set=a.136238038964155；profilePicLarge.uri 與 og:image 同為 778972695_1093185393269410_4034021292406477566_n.jpg，與封面圖片不同，確認是個人檔案頭像。原樣圖片網址回應 HTTP 200、image/jpeg，記憶體解析 JPEG 原生尺寸為 720×720，足供 Logo 使用；圖片網址：https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/778972695_1093185393269410_4034021292406477566_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Nl5jUFjGbMAQ7kNvwE3zqME&_nc_oc=Adqn2uYSWd3teF-eRY_Oqel_JplxjlfMgkg_MtI8NMheo42CjegSp8ceje0M1Ummw8w&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=1Sel9U1A17eX8e0C3XCnEA&_nc_ss=7b20f&oh=00_AQOTYihjs0tjHXR5OhDh0E3KRWNvvqtZPTekQ16F0DXBzw&oe=6AE69AA8"
       },
       "visitNote": "第13選區市議員 · 9號",
       "mapMarker": {
