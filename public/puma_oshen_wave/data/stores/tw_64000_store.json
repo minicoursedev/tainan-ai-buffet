@@ -688,10 +688,11 @@
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2209",
         "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-24",
-      "verificationNote": "使用者提供Threads帳號kcc382001並指定按服務處收錄，沿用洋流服務站分類；verification依本次指示設為JSON布林值false。查證子代理與主代理直接讀取高雄市議會郭建盟官方議員頁，確認通訊地址為苓雅區河北路206號；子代理另核對議會服務處清冊同址，非僅以公司登記推定。議會頁Facebook嵌入連至GaoXiongShiYiYuanGuoJianMeng，維基郭建盟條目外部連結列出同一Facebook及Instagram、Threads的kcc382001帳號，PTT文章亦以郭建盟姓名連結該Threads貼文。社群平台直接擷取受限，未宣稱已讀取完整個人檔案或確認頭像。已比對全部148筆既有紀錄（含disabled）的姓名、地址及社群，未發現重複。",
+      "verificationNote": "使用者提供Threads帳號kcc382001並指定按服務處收錄，沿用洋流服務站分類；verification依本次指示設為JSON布林值false。查證子代理與主代理直接讀取高雄市議會郭建盟官方議員頁，確認通訊地址為苓雅區河北路206號；子代理另核對議會服務處清冊同址，非僅以公司登記推定。議會頁Facebook嵌入連至GaoXiongShiYiYuanGuoJianMeng，維基郭建盟條目外部連結列出同一Facebook及Instagram、Threads的kcc382001帳號，PTT文章亦以郭建盟姓名連結該Threads貼文。社群平台直接擷取受限，未宣稱已讀取完整個人檔案或確認頭像。已比對全部148筆既有紀錄（含disabled）的姓名、地址及社群，未發現重複。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "固定服務時間待確認，請洽官方社群。",
@@ -1122,17 +1123,19 @@
       "name": "林富寶服務處",
       "address": "高雄市旗山區延平一路270號",
       "social": {
-        "facebook": "https://www.facebook.com/linfupao/?fref=ts",
+        "facebook": "https://www.facebook.com/linfupao/",
         "instagram": "",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2171",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/linfupao/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram本次未找到可確認帳號；Threads本次未找到可確認帳號。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1171,17 +1174,19 @@
       "name": "黃明太服務處",
       "address": "高雄市路竹區中山路805號",
       "social": {
-        "facebook": "https://www.facebook.com/100063886563402",
+        "facebook": "https://www.facebook.com/huang.ming.tai.21433/",
         "instagram": "",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2175",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/huang.ming.tai.21433/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram本次證據不足，留空；Threads本次未找到可確認帳號。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1222,16 +1227,19 @@
       "social": {
         "facebook": "https://www.facebook.com/chen.lin.jie.425635/",
         "instagram": "https://www.instagram.com/with_0j/",
-        "threads": ""
+        "threads": "https://www.threads.com/@with_0j"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.facebook.com/chen.lin.jie.425635/",
         "https://www.facebook.com/photo/?fbid=122169655892413778&set=a.122095496966413778",
-        "https://0jjj.oen.tw/"
+        "https://0jjj.oen.tw/",
+        "https://www.instagram.com/with_0j/",
+        "https://www.threads.com/@with_0j",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。官方FB直接連結Instagram with_0j；路竹服務處地址與表格一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。官方FB直接連結Instagram with_0j；路竹服務處地址與表格一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1272,16 +1280,20 @@
       "address": "高雄市燕巢區安招路1059號",
       "social": {
         "facebook": "https://www.facebook.com/eng6699/",
-        "instagram": "",
-        "threads": ""
+        "instagram": "https://www.instagram.com/chiuying1014/",
+        "threads": "https://www.threads.com/@chiuying1014"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2177",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/eng6699/",
+        "https://www.instagram.com/chiuying1014/",
+        "https://www.threads.com/@chiuying1014",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1320,17 +1332,21 @@
       "name": "林志誠服務處",
       "address": "高雄市岡山區岡山路116號",
       "social": {
-        "facebook": "https://www.facebook.com/zhicheng1128",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/zhicheng1128/",
+        "instagram": "https://www.instagram.com/lin_chihcheng1128/",
+        "threads": "https://www.threads.com/@lin_chihcheng1128"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2178",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/zhicheng1128/",
+        "https://www.instagram.com/lin_chihcheng1128/",
+        "https://www.threads.com/@lin_chihcheng1128",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1369,17 +1385,21 @@
       "name": "黃文志服務處",
       "address": "高雄市楠梓區後勁南路7巷17號",
       "social": {
-        "facebook": "https://www.facebook.com/黃文志-志在為您-1477233585656466/",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/wenchih0717/",
+        "instagram": "https://www.instagram.com/wenchih0717/",
+        "threads": "https://www.threads.com/@wenchih0717"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2185",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/wenchih0717/",
+        "https://www.instagram.com/wenchih0717/",
+        "https://www.threads.com/@wenchih0717",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1419,16 +1439,20 @@
       "address": "高雄市左營區文學路281號",
       "social": {
         "facebook": "https://www.facebook.com/liyahui0830/",
-        "instagram": "",
-        "threads": ""
+        "instagram": "https://www.instagram.com/yahui_li0830/",
+        "threads": "https://www.threads.com/@yahui_li0830"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2188",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/liyahui0830/",
+        "https://www.instagram.com/yahui_li0830/",
+        "https://www.threads.com/@yahui_li0830",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1467,17 +1491,21 @@
       "name": "黃飛鳳服務處",
       "address": "高雄市大樹區井腳路120號",
       "social": {
-        "facebook": "https://www.facebook.com/feifeng.justdoit",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/feifeng.justdoit/",
+        "instagram": "https://www.instagram.com/faye_huang_kaohsiung/",
+        "threads": "https://www.threads.com/@faye_huang_kaohsiung"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2194",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/feifeng.justdoit/",
+        "https://www.instagram.com/faye_huang_kaohsiung/",
+        "https://www.threads.com/@faye_huang_kaohsiung",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1516,17 +1544,20 @@
       "name": "張勝富服務處",
       "address": "高雄市大社區中華路14巷18號",
       "social": {
-        "facebook": "https://www.facebook.com/張勝富-226634607368431/",
-        "instagram": "",
+        "facebook": "https://www.facebook.com/p/%E5%BC%B5%E5%8B%9D%E5%AF%8C-%E9%AB%98%E9%9B%84%E5%B8%82%E8%AD%B0%E5%93%A1-100063527598542/",
+        "instagram": "https://www.instagram.com/shengfu4551/",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2192",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/p/%E5%BC%B5%E5%8B%9D%E5%AF%8C-%E9%AB%98%E9%9B%84%E5%B8%82%E8%AD%B0%E5%93%A1-100063527598542/",
+        "https://www.instagram.com/shengfu4551/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads本次證據不足，留空。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1565,17 +1596,22 @@
       "name": "江瑞鴻服務處",
       "address": "高雄市仁武區仁武里仁樂街212號",
       "social": {
-        "facebook": "https://www.facebook.com/江瑞鴻仁大鳥大區市議員參選人-155875158483543/",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/100063860734329/",
+        "instagram": "https://www.instagram.com/chiang_hong_0214/",
+        "threads": "https://www.threads.com/@chiang_hong_0214"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2190",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/100063860734329/",
+        "https://www.instagram.com/chiang_hong_0214/",
+        "https://www.instagram.com/reel/Dce736_POZt/",
+        "https://www.threads.com/@chiang_hong_0214",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1614,17 +1650,21 @@
       "name": "邱俊憲服務處",
       "address": "高雄市鳥松區中正路387之23號",
       "social": {
-        "facebook": "https://www.facebook.com/khhchiu",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/khhchiu/",
+        "instagram": "https://www.instagram.com/khhchiu_2025/",
+        "threads": "https://www.threads.com/@rainpray"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2193",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/khhchiu/",
+        "https://www.instagram.com/khhchiu_2025/",
+        "https://www.threads.com/@rainpray",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1664,16 +1704,20 @@
       "address": "高雄市鼓山區九如四路953號",
       "social": {
         "facebook": "https://www.facebook.com/2014cky/",
-        "instagram": "",
-        "threads": ""
+        "instagram": "https://www.instagram.com/2014_chikoyan/",
+        "threads": "https://www.threads.com/@2014_chikoyan"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2197",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/2014cky/",
+        "https://www.instagram.com/2014_chikoyan/",
+        "https://www.threads.com/@2014_chikoyan",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1713,16 +1757,20 @@
       "address": "高雄市鼓山區九如四路1012號",
       "social": {
         "facebook": "https://www.facebook.com/jiejieact/",
-        "instagram": "",
-        "threads": ""
+        "instagram": "https://www.instagram.com/lichiaoju_official/",
+        "threads": "https://www.threads.com/@lichiaoju_official"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2195",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/jiejieact/",
+        "https://www.instagram.com/lichiaoju_official/",
+        "https://www.threads.com/@lichiaoju_official",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1762,16 +1810,21 @@
       "address": "高雄市三民區金山路332號",
       "social": {
         "facebook": "https://www.facebook.com/sanminhochuanfeng/",
-        "instagram": "",
-        "threads": ""
+        "instagram": "https://www.instagram.com/_hohoho807/",
+        "threads": "https://www.threads.com/@_hohoho807"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2204",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/sanminhochuanfeng/",
+        "https://www.instagram.com/_hohoho807/",
+        "https://www.instagram.com/_hohoho807/reels/",
+        "https://www.threads.com/@_hohoho807",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1810,18 +1863,22 @@
       "name": "康裕成服務處",
       "address": "高雄市三民區九如一路434號",
       "social": {
-        "facebook": "",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/Kangyucheng.1/",
+        "instagram": "https://www.instagram.com/yucheng_kan/",
+        "threads": "https://www.threads.com/@yucheng_kan"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2201",
         "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/Kangyucheng.1/",
+        "https://www.instagram.com/yucheng_kan/",
+        "https://www.threads.com/@yucheng_kan",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。個人頁本次逾時，來源已核對官方本屆議員名錄。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。個人頁本次逾時，來源已核對官方本屆議員名錄。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1862,16 +1919,20 @@
       "address": "高雄市三民區九如一路456號",
       "social": {
         "facebook": "https://www.facebook.com/mengju1214/",
-        "instagram": "",
-        "threads": ""
+        "instagram": "https://www.instagram.com/mengjucheng/",
+        "threads": "https://www.threads.com/@mengjucheng"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2203",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/mengju1214/",
+        "https://www.instagram.com/mengjucheng/",
+        "https://www.threads.com/@mengjucheng",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1910,17 +1971,21 @@
       "name": "湯詠瑜服務處",
       "address": "高雄市新興區中正三路162號",
       "social": {
-        "facebook": "https://www.facebook.com/tang162",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/tang162/",
+        "instagram": "https://www.instagram.com/yung_yu_tang/",
+        "threads": "https://www.threads.com/@yung_yu_tang"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2208",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/tang162/",
+        "https://www.instagram.com/yung_yu_tang/",
+        "https://www.threads.com/@yung_yu_tang",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -1959,18 +2024,22 @@
       "name": "黃文益服務處",
       "address": "高雄市新興區七賢一路246號",
       "social": {
-        "facebook": "",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/mdsn3838/",
+        "instagram": "https://www.instagram.com/_wen1_wen1/",
+        "threads": "https://www.threads.com/@_wen1_wen1"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2207",
         "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/mdsn3838/",
+        "https://www.instagram.com/_wen1_wen1/",
+        "https://www.threads.com/@_wen1_wen1",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。個人頁本次逾時，來源已核對官方本屆議員名錄。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。個人頁本次逾時，來源已核對官方本屆議員名錄。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -2011,17 +2080,22 @@
       "address": "高雄市鳳山區南京路41號",
       "social": {
         "facebook": "https://www.facebook.com/linchihhung.taiwan/",
-        "instagram": "",
-        "threads": ""
+        "instagram": "https://www.instagram.com/lin_chihhung_gary0530/",
+        "threads": "https://www.threads.com/@lin_chihhung_gary0530"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2216",
         "https://www.facebook.com/photo/?fbid=1304423348155219&set=a.161869012410664",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/linchihhung.taiwan/",
+        "https://www.instagram.com/lin_chihhung_gary0530/",
+        "https://www.instagram.com/lin_chihhung_gary0530/reels/",
+        "https://www.threads.com/@lin_chihhung_gary0530",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。個人頁本次逾時，來源已核對官方本屆議員名錄。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。個人頁本次逾時，來源已核對官方本屆議員名錄。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -2061,7 +2135,7 @@
       "name": "張漢忠服務處",
       "address": "高雄市鳳山區自由路100號",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/Changotobai/",
         "instagram": "",
         "threads": ""
       },
@@ -2069,10 +2143,12 @@
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2217",
         "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/Changotobai/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。個人頁本次逾時，來源已核對官方本屆議員名錄。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。個人頁本次逾時，來源已核對官方本屆議員名錄。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram本次證據不足，留空；Threads本次未找到可確認帳號。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -2112,18 +2188,22 @@
       "name": "陳慧文服務處",
       "address": "高雄市鳳山區錦田路231號",
       "social": {
-        "facebook": "",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/hwcfs/",
+        "instagram": "https://www.instagram.com/huiwen.ifs/",
+        "threads": "https://www.threads.com/@huiwen.ifs"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2215",
         "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/hwcfs/",
+        "https://www.instagram.com/huiwen.ifs/",
+        "https://www.threads.com/@huiwen.ifs",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。個人頁本次逾時，來源已核對官方本屆議員名錄。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。個人頁本次逾時，來源已核對官方本屆議員名錄。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -2163,18 +2243,22 @@
       "name": "鄭光峰服務處",
       "address": "高雄市前鎮區永豐路100號",
       "social": {
-        "facebook": "",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/btg0666e/",
+        "instagram": "https://www.instagram.com/beefengbee/",
+        "threads": "https://www.threads.com/@beefengbee"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2220",
         "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/btg0666e/",
+        "https://www.instagram.com/beefengbee/",
+        "https://www.threads.com/@beefengbee",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。個人頁本次逾時，來源已核對官方本屆議員名錄。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。個人頁本次逾時，來源已核對官方本屆議員名錄。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -2214,18 +2298,22 @@
       "name": "李雨庭服務處",
       "address": "高雄市林園區東林西路460號",
       "social": {
-        "facebook": "",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/KaohsiungCityCouncilleeyuting/",
+        "instagram": "https://www.instagram.com/yuting7422/",
+        "threads": "https://www.threads.com/@yuting7422"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2226",
         "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
-        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
+        "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1",
+        "https://www.facebook.com/KaohsiungCityCouncilleeyuting/",
+        "https://www.instagram.com/yuting7422/",
+        "https://www.threads.com/@yuting7422",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。個人頁本次逾時，來源已核對官方本屆議員名錄。地址另以議會官方本屆議員聯絡PDF核對一致。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。個人頁本次逾時，來源已核對官方本屆議員名錄。地址另以議會官方本屆議員聯絡PDF核對一致。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -2267,16 +2355,20 @@
       "social": {
         "facebook": "https://www.facebook.com/profile.php?id=61572120912600",
         "instagram": "https://www.instagram.com/2.0yaochung/",
-        "threads": ""
+        "threads": "https://www.threads.com/@2.0yaochung"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.facebook.com/profile.php?id=61572120912600",
         "https://www.facebook.com/photo/?fbid=122148761870737363&set=a.122102580584737363",
-        "https://news.pchome.com.tw/living/focusnews/20260417/index-77640493994839302009.html"
+        "https://news.pchome.com.tw/living/focusnews/20260417/index-77640493994839302009.html",
+        "https://www.facebook.com/p/%E5%8E%9D%E9%82%8A%E9%98%BF%E4%B8%AD-%E5%BC%B5%E8%80%80%E4%B8%AD-61572120912600/",
+        "https://www.instagram.com/2.0yaochung/",
+        "https://www.threads.com/@2.0yaochung",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。兩個表格服務處須分開定位並收錄。地址已有媒體逐址相符報導；不將媒體當官方證據。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。兩個表格服務處須分開定位並收錄。地址已有媒體逐址相符報導；不將媒體當官方證據。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -2318,16 +2410,20 @@
       "social": {
         "facebook": "https://www.facebook.com/profile.php?id=61572120912600",
         "instagram": "https://www.instagram.com/2.0yaochung/",
-        "threads": ""
+        "threads": "https://www.threads.com/@2.0yaochung"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.facebook.com/profile.php?id=61572120912600",
         "https://www.facebook.com/photo/?fbid=122148761870737363&set=a.122102580584737363",
-        "https://news.pchome.com.tw/living/focusnews/20260417/index-77640493994839302009.html"
+        "https://news.pchome.com.tw/living/focusnews/20260417/index-77640493994839302009.html",
+        "https://www.facebook.com/p/%E5%8E%9D%E9%82%8A%E9%98%BF%E4%B8%AD-%E5%BC%B5%E8%80%80%E4%B8%AD-61572120912600/",
+        "https://www.instagram.com/2.0yaochung/",
+        "https://www.threads.com/@2.0yaochung",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。兩個表格服務處須分開定位並收錄。地址已有媒體逐址相符報導；不將媒體當官方證據。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。兩個表格服務處須分開定位並收錄。地址已有媒體逐址相符報導；不將媒體當官方證據。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",

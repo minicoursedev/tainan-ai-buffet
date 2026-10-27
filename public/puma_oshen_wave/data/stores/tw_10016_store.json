@@ -34,16 +34,21 @@
       "name": "蘇育德服務處",
       "address": "澎湖縣馬公市中興里005鄰文化路36號",
       "social": {
-        "facebook": "",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/eter.su1986/",
+        "instagram": "https://www.instagram.com/etersu1986/",
+        "threads": "https://www.threads.com/@etersu1986"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.phcouncil.gov.tw/mop2.php?no=M24080008"
+        "https://www.phcouncil.gov.tw/mop2.php?no=M24080008",
+        "https://www.facebook.com/eter.su1986/",
+        "https://www.instagram.com/etersu1986/",
+        "https://www.instagram.com/p/DGO55cmNF0P/",
+        "https://www.threads.com/@etersu1986",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",

@@ -450,16 +450,19 @@
       "name": "黃露慧服務處",
       "address": "嘉義市西區湖邊里友愛路1003號",
       "social": {
-        "facebook": "https://www.facebook.com/lulumi.huang.7",
-        "instagram": "",
+        "facebook": "https://www.facebook.com/Lulu.Chiayi/",
+        "instagram": "https://www.instagram.com/lulumi.chiayi/",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1176"
+        "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1176",
+        "https://www.facebook.com/Lulu.Chiayi/",
+        "https://www.instagram.com/lulumi.chiayi/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads本次未找到可確認帳號。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -504,10 +507,13 @@
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1151",
-        "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1065"
+        "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1065",
+        "https://www.facebook.com/CYC201903/",
+        "https://www.facebook.com/ychchiayi/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram本次證據不足，留空；Threads本次未找到可確認帳號。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -546,17 +552,22 @@
       "name": "林煒軒服務處",
       "address": "嘉義市西區番社里西榮街227號",
       "social": {
-        "facebook": "https://www.facebook.com/WSLCHIAYI",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/WSLCHIAYI/",
+        "instagram": "https://www.instagram.com/wslchiayi/",
+        "threads": "https://www.threads.com/@sean850610"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1156",
-        "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=574&_PARENT_ID=ER11112IB00018&_TYP=REP&TYP=KND0002"
+        "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=574&_PARENT_ID=ER11112IB00018&_TYP=REP&TYP=KND0002",
+        "https://www.facebook.com/WSLCHIAYI/",
+        "https://wslichiayi.oen.tw/",
+        "https://www.instagram.com/wslchiayi/",
+        "https://www.threads.com/@sean850610",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -596,16 +607,19 @@
       "address": "嘉義市西區成功街100號",
       "social": {
         "facebook": "https://www.facebook.com/chiayihaowecan/",
-        "instagram": "",
-        "threads": ""
+        "instagram": "https://www.instagram.com/chiayi_hao/",
+        "threads": "https://www.threads.com/@chiayi_hao"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
         "https://www.facebook.com/chiayihaowecan/",
-        "https://udn.com/news/amp/story/7326/9271404"
+        "https://udn.com/news/amp/story/7326/9271404",
+        "https://www.instagram.com/chiayi_hao/",
+        "https://www.threads.com/@chiayi_hao",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",

@@ -81,16 +81,20 @@
       "name": "余信憲服務處",
       "address": "桃園市桃園區中興里忠一路72號1樓",
       "social": {
-        "facebook": "https://www.facebook.com/Hsin0905",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/Hsin0905/",
+        "instagram": "https://www.instagram.com/yu.councilor/",
+        "threads": "https://www.threads.com/@yu.councilor"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=975"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=975",
+        "https://www.facebook.com/Hsin0905/",
+        "https://www.instagram.com/yu.councilor/",
+        "https://www.threads.com/@yu.councilor",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -128,16 +132,20 @@
       "name": "黃瓊慧服務處",
       "address": "桃園市桃園區文昌里中山路129號",
       "social": {
-        "facebook": "https://www.facebook.com/pupudog0308/",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/hi54qn/",
+        "instagram": "https://www.instagram.com/qn_taiwan/",
+        "threads": "https://www.threads.com/@qn_taiwan"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=974"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=974",
+        "https://www.facebook.com/hi54qn/",
+        "https://www.instagram.com/qn_taiwan/",
+        "https://www.threads.com/@qn_taiwan",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -175,16 +183,21 @@
       "name": "黃家齊服務處",
       "address": "桃園市桃園區中正里仁愛路10號",
       "social": {
-        "facebook": "http://www.facebook.com/people/%E9%BB%83%E5%AE%B6%E9%BD%8A/100006604742567",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/hcc3920888/",
+        "instagram": "https://www.instagram.com/jack790218/",
+        "threads": "https://www.threads.com/@jack790218"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=982"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=982",
+        "https://www.facebook.com/hcc3920888/",
+        "https://www.instagram.com/jack790218/",
+        "https://www.instagram.com/reel/DYgsldwhXNP/",
+        "https://www.threads.com/@jack790218",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -222,16 +235,20 @@
       "name": "李光達服務處",
       "address": "桃園市桃園區中興里忠二路2巷9號1樓",
       "social": {
-        "facebook": "http://www.facebook.com/pages/%e6%9d%8e%e5%85%89%e9%81%94%e6%84%9b%e6%a1%83%e5%9c%92/124527090974795",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/lee.frank.taoyuan/",
+        "instagram": "https://www.instagram.com/lee_kung_da/",
+        "threads": "https://www.threads.com/@lee_kung_da"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=979"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=979",
+        "https://www.facebook.com/lee.frank.taoyuan/",
+        "https://www.instagram.com/lee_kung_da/",
+        "https://www.threads.com/@lee_kung_da",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -270,15 +287,19 @@
       "address": "桃園市龜山區山德里山鶯路1巷15-1號",
       "social": {
         "facebook": "https://www.facebook.com/TYleehao/",
-        "instagram": "",
-        "threads": ""
+        "instagram": "https://www.instagram.com/tyleehao/",
+        "threads": "https://www.threads.com/@tyleehao"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=984"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=984",
+        "https://www.facebook.com/TYleehao/",
+        "https://www.instagram.com/tyleehao/",
+        "https://www.threads.com/@tyleehao",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -316,16 +337,21 @@
       "name": "陳雅倫服務處",
       "address": "桃園市龜山區舊路里振興路795巷19之1號2樓",
       "social": {
-        "facebook": "http://www.facebook.com/profile.php?id=2141577432747856",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/ashleychyl/",
+        "instagram": "https://www.instagram.com/yalunchenyalunchen/",
+        "threads": "https://www.threads.com/@yalunchenyalunchen"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=983"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=983",
+        "https://www.facebook.com/ashleychyl/",
+        "https://www.instagram.com/yalunchenyalunchen/",
+        "https://www.threads.com/@yalunchenyalunchen",
+        "https://www.threads.com/@yalunchenyalunchen/post/DShMy4AkhF1",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會服務處龜山區振興路795巷19之1號2樓與表格一致；保留表格舊路里等完整文字。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會服務處龜山區振興路795巷19之1號2樓與表格一致；保留表格舊路里等完整文字。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -363,16 +389,20 @@
       "name": "許家睿服務處",
       "address": "桃園市八德區大勇里忠勇西街3號",
       "social": {
-        "facebook": "https://www.facebook.com/taoyuanCJ",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/taoyuanCJ/",
+        "instagram": "https://www.instagram.com/cjcheerup/",
+        "threads": "https://www.threads.com/@cjcheerup"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=991"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=991",
+        "https://www.facebook.com/taoyuanCJ/",
+        "https://www.instagram.com/cjcheerup/",
+        "https://www.threads.com/@cjcheerup",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -410,16 +440,21 @@
       "name": "呂林小鳳服務處",
       "address": "桃園市八德區興仁里4鄰興豐路295號",
       "social": {
-        "facebook": "http://www.facebook.com/siaofong.lin",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/tw3682906/",
+        "instagram": "https://www.instagram.com/siaofonglin/",
+        "threads": "https://www.threads.com/@siaofonglin"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=987"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=987",
+        "https://www.facebook.com/tw3682906/",
+        "https://www.instagram.com/siaofonglin/",
+        "https://www.instagram.com/p/CTr9vaTB0tA/",
+        "https://www.threads.com/@siaofonglin",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -458,15 +493,20 @@
       "address": "桃園市蘆竹區中山里五福一路9號",
       "social": {
         "facebook": "https://www.facebook.com/call3129777/",
-        "instagram": "",
-        "threads": ""
+        "instagram": "https://www.instagram.com/scs3242288/",
+        "threads": "https://www.threads.com/@scs3242288"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=994"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=994",
+        "https://www.facebook.com/call3129777/",
+        "https://www.instagram.com/scs3242288/",
+        "https://www.instagram.com/reel/DeVf0BXP7PG/",
+        "https://www.threads.com/@scs3242288",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -504,16 +544,20 @@
       "name": "游吾和服務處",
       "address": "桃園市大園區大園里23鄰中華路76號",
       "social": {
-        "facebook": "http://www.facebook.com/people/%e6%b8%b8%e5%90%be%e5%92%8c/100003779028390",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/you.wu.he/",
+        "instagram": "https://www.instagram.com/youwuhe/",
+        "threads": "https://www.threads.com/@youwuhe"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=997"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=997",
+        "https://www.facebook.com/you.wu.he/",
+        "https://www.instagram.com/youwuhe/",
+        "https://www.threads.com/@youwuhe",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -551,16 +595,18 @@
       "name": "陳治文服務處",
       "address": "桃園市大溪區一心里復興路86號1樓",
       "social": {
-        "facebook": "http://www.facebook.com/profile.php?id=100001891607924",
+        "facebook": "https://www.facebook.com/61585958475508/",
         "instagram": "",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=999"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=999",
+        "https://www.facebook.com/61585958475508/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram本次未找到可確認帳號；Threads本次未找到可確認帳號。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -598,16 +644,20 @@
       "name": "彭俊豪服務處",
       "address": "桃園市中壢區信義里10鄰甘肅二街8號",
       "social": {
-        "facebook": "http://zh-tw.facebook.com/pengwintaoyuan",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/pengwintaoyuan/",
+        "instagram": "https://www.instagram.com/pengwintaoyuan/",
+        "threads": "https://www.threads.com/@pengwintaoyuan"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1000"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1000",
+        "https://www.facebook.com/pengwintaoyuan/",
+        "https://www.instagram.com/pengwintaoyuan/",
+        "https://www.threads.com/@pengwintaoyuan",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -646,15 +696,19 @@
       "address": "桃園市中壢區東興里中北路2段46巷5號",
       "social": {
         "facebook": "https://www.facebook.com/WeiyunIN/",
-        "instagram": "",
-        "threads": ""
+        "instagram": "https://www.instagram.com/weiyunin/",
+        "threads": "https://www.threads.com/@weiyunin"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1001"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1001",
+        "https://www.facebook.com/WeiyunIN/",
+        "https://www.instagram.com/weiyunin/",
+        "https://www.threads.com/@weiyunin",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -693,15 +747,20 @@
       "address": "桃園市中壢區仁愛里環中東路361-1號",
       "social": {
         "facebook": "https://www.facebook.com/YunloveZhongli/",
-        "instagram": "",
-        "threads": ""
+        "instagram": "https://www.instagram.com/vina.lovezhongli/",
+        "threads": "https://www.threads.com/@vina.lovezhongli"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1007"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1007",
+        "https://www.facebook.com/YunloveZhongli/",
+        "https://www.instagram.com/vina.lovezhongli/",
+        "https://www.instagram.com/p/De02itRymQI/",
+        "https://www.threads.com/@vina.lovezhongli",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -740,15 +799,19 @@
       "address": "桃園市中壢區信義里領航北路二段151號2樓",
       "social": {
         "facebook": "https://www.facebook.com/cchuang0223/",
-        "instagram": "",
-        "threads": ""
+        "instagram": "https://www.instagram.com/cchuang_0223/",
+        "threads": "https://www.threads.com/@cchuang_0223"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1008"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1008",
+        "https://www.facebook.com/cchuang0223/",
+        "https://www.instagram.com/cchuang_0223/",
+        "https://www.threads.com/@cchuang_0223",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會列嘉興街63號及領航北路二段151號2樓兩處；表格指定領航北路門牌相符，保留表格地址。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會列嘉興街63號及領航北路二段151號2樓兩處；表格指定領航北路門牌相符，保留表格地址。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -786,16 +849,20 @@
       "name": "劉仁照服務處",
       "address": "桃園市平鎮區平鎮里振興路85號",
       "social": {
-        "facebook": "http://www.facebook.com/vlog72",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/vlog72/",
+        "instagram": "https://www.instagram.com/lochangjih/",
+        "threads": "https://www.threads.com/@lochangjih"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1014"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1014",
+        "https://www.facebook.com/vlog72/",
+        "https://www.instagram.com/lochangjih/",
+        "https://www.threads.com/@lochangjih",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -833,16 +900,21 @@
       "name": "王珮毓服務處",
       "address": "桃園市平鎮區新榮里安平街34巷23號",
       "social": {
-        "facebook": "https://www.facebook.com/581peiyu",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/581peiyu/",
+        "instagram": "https://www.instagram.com/peiyuwangpeiyu/",
+        "threads": "https://www.threads.com/@peiyuwangpeiyu"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1012"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1012",
+        "https://www.facebook.com/581peiyu/",
+        "https://www.instagram.com/peiyuwangpeiyu/",
+        "https://www.instagram.com/p/DewW6DuFEOP/",
+        "https://www.threads.com/@peiyuwangpeiyu",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -880,16 +952,20 @@
       "name": "鄭淑方服務處",
       "address": "桃園市楊梅區瑞塘里萬大路39號",
       "social": {
-        "facebook": "http://www.facebook.com/pages/category/Community/%E9%84%AD%E6%B7%91%E6%96%B9-1623618811301314/",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/fang4826081/",
+        "instagram": "https://www.instagram.com/fangfang4826081/",
+        "threads": "https://www.threads.com/@fangfang4826081"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1018"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1018",
+        "https://www.facebook.com/fang4826081/",
+        "https://www.instagram.com/fangfang4826081/",
+        "https://www.threads.com/@fangfang4826081",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -933,10 +1009,12 @@
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1023"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1023",
+        "https://www.facebook.com/chen4779796/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram本次未找到可確認帳號；Threads本次未找到可確認帳號。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -974,16 +1052,21 @@
       "name": "林志強服務處",
       "address": "桃園市大溪區仁武里介壽路780之3號一樓",
       "social": {
-        "facebook": "http://www.facebook.com/qiang.ge.564",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/amis1028/",
+        "instagram": "https://www.instagram.com/team.chiang/",
+        "threads": "https://www.threads.com/@team.chiang"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1027"
+        "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1027",
+        "https://www.facebook.com/amis1028/",
+        "https://www.instagram.com/team.chiang/",
+        "https://www.threads.com/@team.chiang",
+        "https://www.threads.com/@alex333337",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。議會或本人官方頁服務處門牌與使用者表格一致（村里、樓層或漢字數字表記差異不改寫表格）。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",

@@ -34,16 +34,21 @@
       "name": "蔡其雍服務處",
       "address": "金門縣金城鎮東門里金山路17號",
       "social": {
-        "facebook": "",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/people/會做事-蔡其雍/61590765449170/",
+        "instagram": "https://www.instagram.com/tsaichiyung/",
+        "threads": "https://www.threads.com/@tsaichiyung"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.kmcc.gov.tw/8844/54357/55476/55495/"
+        "https://www.kmcc.gov.tw/8844/54357/55476/55495/",
+        "https://www.facebook.com/people/會做事-蔡其雍/61590765449170/",
+        "https://www.instagram.com/tsaichiyung/",
+        "https://www.instagram.com/tv/ClVBY7OuzPw/",
+        "https://www.threads.com/@tsaichiyung",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",

@@ -81,16 +81,20 @@
       "name": "林麗服務處",
       "address": "宜蘭縣宜蘭市公園路497巷22號",
       "social": {
-        "facebook": "",
-        "instagram": "",
+        "facebook": "https://www.facebook.com/Yilanlinli/",
+        "instagram": "https://www.instagram.com/lin_li_member/",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2005&clique=DDP&pic=1"
+        "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2005&clique=DDP&pic=1",
+        "https://www.facebook.com/Yilanlinli/",
+        "https://www.instagram.com/lin_li_member/",
+        "https://www.instagram.com/lin_li_member/reel/DSeiBr-AvDo/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads本次未找到可確認帳號。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -128,16 +132,18 @@
       "name": "林詩穎服務處",
       "address": "宜蘭縣頭城鎮新建里新興路284-1號",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/ShihYing.Ling/",
         "instagram": "",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2008&clique=DDP&pic=2"
+        "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2008&clique=DDP&pic=2",
+        "https://www.facebook.com/ShihYing.Ling/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram本次證據不足，留空；Threads本次證據不足，留空。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -175,16 +181,20 @@
       "name": "謝家倫服務處",
       "address": "宜蘭縣羅東鎮維揚路107號",
       "social": {
-        "facebook": "",
-        "instagram": "",
-        "threads": ""
+        "facebook": "https://www.facebook.com/HsiehChiaLun/",
+        "instagram": "https://www.instagram.com/hsieh_chialun/",
+        "threads": "https://www.threads.com/@hsieh_chialun"
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2016&clique=DDP&pic=6"
+        "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2016&clique=DDP&pic=6",
+        "https://www.facebook.com/HsiehChiaLun/",
+        "https://www.instagram.com/hsieh_chialun/",
+        "https://www.threads.com/@hsieh_chialun",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads已確認。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -222,16 +232,19 @@
       "name": "呂惠卿服務處",
       "address": "宜蘭縣羅東鎮公正路328號",
       "social": {
-        "facebook": "",
-        "instagram": "",
+        "facebook": "https://www.facebook.com/p/呂惠卿-宜蘭縣議員-100063580426947/",
+        "instagram": "https://www.instagram.com/huiching_official/",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A1919&clique=DDP&pic=6"
+        "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A1919&clique=DDP&pic=6",
+        "https://www.facebook.com/p/呂惠卿-宜蘭縣議員-100063580426947/",
+        "https://www.instagram.com/huiching_official/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram已確認；Threads本次未找到可確認帳號。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
@@ -269,16 +282,18 @@
       "name": "林佩螢服務處",
       "address": "宜蘭縣冬山鄉冬山路一段928號",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/DongShanPeiYing/",
         "instagram": "",
         "threads": ""
       },
       "sources": [
         "https://docs.google.com/spreadsheets/d/1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE/edit?gid=0#gid=0",
-        "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2024&clique=DDP&pic=8"
+        "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2024&clique=DDP&pic=8",
+        "https://www.facebook.com/DongShanPeiYing/",
+        "https://github.com/minicoursedev/tainan-ai-buffet/blob/fbf453697d36aa9f20a7cd6ac79bb03221ea103a/research/candidate-social-verification-20261027/results.json"
       ],
       "verifiedAt": "2026-10-27",
-      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。",
+      "verificationNote": "使用者提供候選人表格並指定收錄；號次、選區及地址依表格。官方來源核對姓名與人像，未宣稱小物即時庫存。 2026-10-27 社群逐平台複核：Facebook已確認；Instagram本次證據不足，留空；Threads本次未找到可確認帳號。依公開搜尋索引、官方來源或本人頁面實際外連交叉核對；逐平台證據與存取限制詳見本次查證紀錄。",
       "openingHours": {
         "status": "unverified",
         "text": "服務時間請洽服務處社群。",
