@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-27",
+  "branch": "codex/verify-candidate-socials",
+  "baseCommit": "8e1c640",
+  "spreadsheetId": "1JyPkq1ltT0XPl3dn6o2oI1nzGJSngcECapX8RJZqnqE",
+  "tab": "工作表1",
+  "scope": "149 rows with existing 已標記=V; three social platforms per person",
+  "sheetColumns": {
+    "G": "Facebook",
+    "H": "Instagram",
+    "I": "Threads",
+    "J": "社群查證狀態"
+  },
+  "counts": {
+    "facebook": {
+      "verified": 148,
+      "unconfirmed": 1
+    },
+    "instagram": {
+      "verified": 111,
+      "unconfirmed": 21,
+      "not_found": 17
+    },
+    "threads": {
+      "verified": 103,
+      "unconfirmed": 14,
+      "not_found": 32
+    }
+  },
+  "confirmedLinks": 362,
+  "platformsChecked": 447,
+  "method": "Each platform was publicly searched. Official links, profile biographies and identifiable public posts were cross-checked. Some Threads URLs were verified from explicit links on confirmed Instagram profiles, never inferred from matching handles.",
+  "limitations": "Most social profiles were verified via public search indexes or official cross-links, rather than authenticated direct access. not_found means no confirmable account found in this search, not that no account exists. unconfirmed URLs are blank. Evidence, queries and access limitations are included per platform and in Sheet cell notes.",
+  "sheetVerification": {
+    "readbackPassed": true,
+    "originalAtoFValuesNotesCellFormatsPreserved": true,
+    "writtenLinks": 362,
+    "platformNotes": 447,
+    "statusRows": 149
+  },
+  "websiteChanged": false,
+  "deploymentPerformed": false
+}
