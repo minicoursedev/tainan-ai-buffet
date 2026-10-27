@@ -10960,25 +10960,41 @@
     "taichung-zhang-fen-yu-service-office": {
       "qualityChecks": [
         {
-          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=80",
-          "platform": "website",
-          "imageUrl": "https://www.tccc.gov.tw/Conn2/ConnThumb.asp?F=16709459860080(1).jpg&P=Pic%5CCouncillor&U=1&LW=200&LH=259",
+          "source": "https://www.facebook.com/Changphenyu/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/778972695_1093185393269410_4034021292406477566_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Nl5jUFjGbMAQ7kNvwE3zqME&_nc_oc=Adqn2uYSWd3teF-eRY_Oqel_JplxjlfMgkg_MtI8NMheo42CjegSp8ceje0M1Ummw8w&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=Cf2L65LqgkXXO6qICi9iWg&_nc_ss=7920f&oh=00_AQNHedZk-wOL8vtS8GoYO3o6Hysx02WDyhWofoRnxJeaIg&oe=6AE69AA8",
           "size": [
-            138,
-            192
+            720,
+            720
           ],
-          "evidence": "臺中市議會本屆議員本人介紹頁之肖像；來源HTML另存於group1/張芬郁.html。官方連結下載，未修改原檔。",
-          "result": "low-resolution"
-        },
-        {
-          "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=80",
-          "result": "failed",
-          "reason": "官方網站尚無經確認的頭像選取規則，需人工確認"
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；張芬郁",
+          "result": "sufficient"
         }
       ],
-      "lastAttempt": "2026-10-27T20:42:10+08:00",
-      "result": "low-resolution",
-      "reason": "官方來源僅取得小圖（最大 192 px），保留舊圖，待補足夠清晰的 Logo 來源"
+      "lastAttempt": "2026-10-27T22:55:47+08:00",
+      "result": "updated",
+      "reason": "首次保存",
+      "sha256": "685d3d921bce863f0a09fc36856aea0050120a83d64be10e9f557d3148255cef",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Mon, 24 Aug 2026 13:48:48 GMT"
+      },
+      "source": "https://www.facebook.com/Changphenyu/",
+      "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/778972695_1093185393269410_4034021292406477566_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Nl5jUFjGbMAQ7kNvwE3zqME&_nc_oc=Adqn2uYSWd3teF-eRY_Oqel_JplxjlfMgkg_MtI8NMheo42CjegSp8ceje0M1Ummw8w&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=Cf2L65LqgkXXO6qICi9iWg&_nc_ss=7920f&oh=00_AQNHedZk-wOL8vtS8GoYO3o6Hysx02WDyhWofoRnxJeaIg&oe=6AE69AA8",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；張芬郁",
+      "filename": "taichung-zhang-fen-yu-service-office/logo.webp",
+      "lastSuccess": "2026-10-27T22:55:47+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {}
     },
     "kaohsiung-li-yu-ting-service-office": {
       "qualityChecks": [
