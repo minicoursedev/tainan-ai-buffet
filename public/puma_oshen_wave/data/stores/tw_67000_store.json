@@ -6917,12 +6917,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11060880689",
       "coordinateNote": "OpenStreetMap 門牌節點 11060880689，addr:full 為臺南市北區正覺里1鄰公園路593巷32號；行政區、道路與32號門牌均符合官方地址，座標為門牌節點位置。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/twocatsapartment-tainan/logo.webp?v=9c12bcf30acf8b6a",
         "source": "https://www.threads.com/@twocatsapartment",
         "platform": "threads",
         "status": "verified",
         "checkedAt": "2026-10-27",
-        "note": "官方 Threads 公開 JSON 帳號 username=twocatsapartment、full_name=二貓公寓，其 hd_profile_pic_versions 明列原生 320×320 個人檔案頭像；實際請求 HTTP 200、image/jpeg，記憶體解析 JPEG 確認 320×320，未改寫 CDN 尺寸或簽章參數。新店圖片網址待後續處理。完整原生來源：https://scontent-lax3-1.cdninstagram.com/v/t51.2885-19/429776697_1534952310783897_4875040226063487250_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHjo6RhFi1nvqH4-v2MjseFuRmvMJvbYFvU7qYF99-msbdYg_XDEhXuDWsg-EJZXgs&_nc_ohc=9VFehsZ1bp8Q7kNvwGTS4Zf&_nc_gid=9SuHmHE-k3qbYhSGcCDjhQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQOjnAvSjlX817AHA9KnFOV8jhdbi5y-g8FCFVKmr3__jg&oe=6AE68590&_nc_sid=10d13b"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；二貓公寓 (@twocatsapartment) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。"
       }
     }
   ],
