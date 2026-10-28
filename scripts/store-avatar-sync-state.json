@@ -12010,6 +12010,123 @@
       "lastAttempt": "2026-10-28T23:36:51+08:00",
       "result": "updated",
       "reason": "首次保存"
+    },
+    "egg-milk-tree": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/egg.milk.tree/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/304885049_479360747531082_3619675804092577199_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x1537&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wgmWhLKSas4Q7kNvwHJo5r5&_nc_oc=AdpWI2H81ufHXfGco6s1CUnbDntNSgouNe5nDpGMxOQ4gfVwxBTpOG926mUqKMxjw5Y&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=DLYmSpReJozZ0thInJFyQw&_nc_ss=7920f&oh=00_AQRrRB7f6sOqMN9wdOP5US_AB0qAts_lIyruRMe_LBI3Ew&oe=6AE8149F",
+          "size": [
+            720,
+            720
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；蛋奶樹 蔬食專賣 | Taipei ",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "8c0effbd9d39eb96a7453267ac41282390f4c111357b2e6cd8021b4b0d5b0e44",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Thu, 01 Sep 2022 22:17:52 GMT"
+      },
+      "source": "https://www.facebook.com/egg.milk.tree/",
+      "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/304885049_479360747531082_3619675804092577199_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x1537&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wgmWhLKSas4Q7kNvwHJo5r5&_nc_oc=AdpWI2H81ufHXfGco6s1CUnbDntNSgouNe5nDpGMxOQ4gfVwxBTpOG926mUqKMxjw5Y&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=DLYmSpReJozZ0thInJFyQw&_nc_ss=7920f&oh=00_AQRrRB7f6sOqMN9wdOP5US_AB0qAts_lIyruRMe_LBI3Ew&oe=6AE8149F",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；蛋奶樹 蔬食專賣 | Taipei ",
+      "filename": "egg-milk-tree/logo.webp",
+      "lastSuccess": "2026-10-29T03:07:53+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-29T03:07:53+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "identitea-xinying": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/sharetea520/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/562135569_1319682863276043_2995459234838045613_n.jpg?stp=dst-jpg_tt6&cstp=mx385x386&ctp=s385x386&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FkM4wdHfD4QQ7kNvwEa2uSI&_nc_oc=AdqXKhVQ1OvjiG5w5JOotmza0WfIq1DjeT9O-UXh764eWb7xtzCYx8a6CBDQ033a-7c&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=70NeBd8ak5U7L879xJQa3g&_nc_ss=7920f&oh=00_AQQQ89hbXBpbogdhE87Oc01vHuS8hIRrtpDTNHmadJ57sQ&oe=6AE802D1",
+          "size": [
+            385,
+            386
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；茶有此人 identitea",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "86954a4eb075596ce84221cb446581a7a1ded4aaff150c684ddc328c51258b96",
+      "contentBox": [
+        0,
+        0,
+        255,
+        256
+      ],
+      "sourceSize": [
+        385,
+        386
+      ],
+      "imageValidators": {
+        "last-modified": "Wed, 15 Oct 2025 13:27:36 GMT"
+      },
+      "source": "https://www.facebook.com/sharetea520/",
+      "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/562135569_1319682863276043_2995459234838045613_n.jpg?stp=dst-jpg_tt6&cstp=mx385x386&ctp=s385x386&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FkM4wdHfD4QQ7kNvwEa2uSI&_nc_oc=AdqXKhVQ1OvjiG5w5JOotmza0WfIq1DjeT9O-UXh764eWb7xtzCYx8a6CBDQ033a-7c&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=70NeBd8ak5U7L879xJQa3g&_nc_ss=7920f&oh=00_AQQQ89hbXBpbogdhE87Oc01vHuS8hIRrtpDTNHmadJ57sQ&oe=6AE802D1",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；茶有此人 identitea",
+      "filename": "identitea-xinying/logo.webp",
+      "lastSuccess": "2026-10-29T03:07:55+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-29T03:07:55+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "xin-yue-restaurant": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/profile.php?id=100095616038522",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/367472624_108404179023450_6430287039070110975_n.jpg?stp=dst-jpg_tt6&cstp=mx1241x1241&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DiwHq4_qx68Q7kNvwH1Yq5s&_nc_oc=Adotq2KZdgDBU6OJJO4av07Bn2bJJ9WfCk46K60nZYdk2Rpx04ozXxSihkbD0-iXdAU&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=AIlUwJ8Vu0GiGK6MEW95YQ&_nc_ss=7920f&oh=00_AQRGSbid2D33aefoDDGxztrjBpGRO-E5v9BPC8FnRAPI_g&oe=6AE8260F",
+          "size": [
+            720,
+            720
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；欣悅食堂 | East District, Tainan City ",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "ecf74ab5944bb67a598c866a0c03d6ec9c20149af32ff282d7066107335b494d",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        720,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Mon, 14 Aug 2023 07:12:51 GMT"
+      },
+      "source": "https://www.facebook.com/profile.php?id=100095616038522",
+      "imageUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/367472624_108404179023450_6430287039070110975_n.jpg?stp=dst-jpg_tt6&cstp=mx1241x1241&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DiwHq4_qx68Q7kNvwH1Yq5s&_nc_oc=Adotq2KZdgDBU6OJJO4av07Bn2bJJ9WfCk46K60nZYdk2Rpx04ozXxSihkbD0-iXdAU&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=AIlUwJ8Vu0GiGK6MEW95YQ&_nc_ss=7920f&oh=00_AQRGSbid2D33aefoDDGxztrjBpGRO-E5v9BPC8FnRAPI_g&oe=6AE8260F",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；欣悅食堂 | East District, Tainan City ",
+      "filename": "xin-yue-restaurant/logo.webp",
+      "lastSuccess": "2026-10-29T03:07:57+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-29T03:07:57+08:00",
+      "result": "updated",
+      "reason": "首次保存"
     }
   }
 }
