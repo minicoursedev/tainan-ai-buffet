@@ -96,7 +96,7 @@
         "https://www.openstreetmap.org/api/0.6/node/10830258484.json"
       ],
       "verifiedAt": "2026-10-28",
-      "verificationNote": "使用者指定收錄，並指定新增店家的 verification 為布林值 true。指定 Facebook 分享連結先轉至 profile.php?id=100063714831187，再轉至 egg.milk.tree 官方粉專；頁面標題及簡介確認店名與蔬食餐廳性質。OpenTable 訂位頁、蔬福生活及觀光署外語站交叉核對完整營業地址與電話；供應義大利麵、燉飯及蔬食料理，沿用正餐分類。已比對快照全部店家（含 disabled 紀錄）的店名、地址與社群帳號，未發現重複。未取得可確認的官方 Instagram 或 Threads 帳號，留空。",
+      "verificationNote": "本次指定 Facebook 帳號與快照既有 egg-milk-tree 紀錄相符，補查原紀錄，保留既有 verification 與 disabled。已比對全部紀錄（含 disabled 店家）的店名、地址及社群帳號，未發現第二筆相同店家。官方 Facebook 公開 HTML 的 profile_name 為「蛋奶樹 蔬食專賣 | Taipei」，簡介明示蔬食、水果及自家烘焙天然酵母歐式麵包；沿用正餐分類。觀光署海外資訊與蔬福生活所列完整營業門牌及電話與既有資料相符，保留原地址與座標。未取得可確認的官方 Instagram 或 Threads 帳號，留空。",
       "openingHours": {
         "status": "unverified",
         "text": "營業時間待確認，請以官方最新公告或電話確認為準。",
@@ -106,7 +106,7 @@
           "https://vegemap.merit-times.com/restaurant_detail/蛋奶樹蔬食專賣"
         ],
         "checkedAt": "2026-10-28",
-        "auditNote": "OpenTable 列週一、週二、週五至週日11:00–21:00；蔬福生活基本資料列11:00–21:00、週三四公休，但同頁關於介紹仍列週三至週日11:00–15:30及17:00–21:00、週一二公休。來源存在矛盾；官方 Facebook 未登入僅可取得頁面名稱、簡介及頭像 metadata，未取得最新營業週表，因此不填定固定時段。"
+        "auditNote": "OpenTable 列週一、週二、週五至週日11:00–21:00；蔬福生活基本資料列11:00–21:00、週三四公休，但同頁關於介紹仍列週三至週日11:00–15:30及17:00–21:00、週一二公休。來源存在矛盾；本次官方 Facebook 公開 HTML 可取得店名、簡介及個人頭像欄位，未取得可確認的最新營業週表，因此維持 unverified，不填定固定時段。"
       },
       "disabled": false,
       "latlng": {
@@ -121,7 +121,7 @@
         "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-28",
-        "note": "官方 Facebook 的個人頁路由 metadata 以 profile_name 對應本店，image_url 為 photo ID 304885049_479360747531082 的200px個人頭像；同頁另明示相同 photo ID 的原生720px圖片版本（ctp=s720x720），確認為同一頭像，並非僅憑 og:image 推定。實際原生網址經 HEAD 確認 HTTP 200、Content-Type image/jpeg；未改寫 CDN 尺寸或簽章參數。新店圖片網址留空。"
+        "note": "官方 Facebook 公開 HTML 的 upsellConfig 明示 surface=profile、profile_name=蛋奶樹 蔬食專賣 | Taipei，image_url 為照片304885049_479360747531082_3619675804092577199的200px個人頭像；同頁原生 og:image 提供相同照片ID的720px版本，已交叉確認為個人頭像，並非僅憑 og:image 推定。2026-10-28 以官方頁原樣提供的網址 GET 確認 HTTP 200、Content-Type image/jpeg，JPEG實際尺寸720×720（70,236 bytes），符合Logo來源長邊至少256px要求；未改寫CDN尺寸或簽章參數。尚未發布的圖片網址維持空白。"
       },
       "visitNote": "蔬食餐廳，供應義大利麵、燉飯及自家烘焙天然酵母歐式麵包；電話02-2521-6801。營業時間與店休日請先向店家確認。"
     }
