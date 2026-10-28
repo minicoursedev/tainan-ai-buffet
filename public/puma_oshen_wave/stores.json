@@ -14945,7 +14945,7 @@
         "https://www.openstreetmap.org/way/229278019"
       ],
       "verifiedAt": "2026-10-28",
-      "verificationNote": "使用者指定收錄。分享連結轉至官方 steakfood282 貼文，店家自行公告洋流貼紙資訊及永康尚青市場地址；官方 Threads 與 Instagram 簡介核對店名、地址與牛排外帶店型。Instagram 網址由 Threads 個人頁 rel=me 及 bio_links 實際外連取得。Facebook 未能確認為此店，故留空；未記錄小物即時數量。",
+      "verificationNote": "使用者指定收錄。分享連結轉至官方 steakfood282 貼文，店家自行公告洋流貼紙資訊及永康尚青市場地址；官方 Threads 與 Instagram 簡介核對店名、地址與牛排外帶店型。Instagram 網址由 Threads 個人頁 rel=me 及 bio_links 實際外連取得。Facebook 未能確認為此店，故留空；未記錄小物即時數量。 本次複查官方 Threads 個人頁仍明示中山南路282號第三排1-7、14:30–20:00售完為止及電話0955935509，官方貼文亦確認靠近五福街132號入口；Instagram 公開頁可確認同店帳號，但未取得可解決營業時間差異的最新簡介。",
       "openingHours": {
         "status": "unverified",
         "text": "官方 Threads 標示 14:30–20:00，售完為止；官方 Instagram 標示 14:30–19:30。閉店時間有差異，每週公休日未明，請以店家當日公告為準。",
@@ -14954,7 +14954,7 @@
           "https://www.instagram.com/steakfood282/"
         ],
         "checkedAt": "2026-10-28",
-        "auditNote": "兩個官方個人頁的閉店時間不一致，未自行擇一填定；皆未明示每週公休日。"
+        "auditNote": "本次複查官方 Threads 個人頁仍標示14:30–20:00、售完為止；Instagram 公開頁僅確認同店帳號，未取得最新營業時段，故保留既有Instagram 14:30–19:30與Threads閉店時間差異的待確認標記，不自行擇一填定；每週公休日仍未確認。"
       },
       "disabled": false,
       "latlng": {
