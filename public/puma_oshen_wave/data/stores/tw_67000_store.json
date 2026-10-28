@@ -7098,11 +7098,12 @@
         "https://www.threads.com/@the_rights_lifter",
         "https://www.facebook.com/rightslifter/",
         "https://www.instagram.com/the_rights_lifter/",
+        "https://linktr.ee/weightliftingcollege",
         "https://www.gymnomadtw.com/gym/TheRightsLifter",
         "https://www.openstreetmap.org/node/11060469651"
       ],
       "verifiedAt": "2026-10-28",
-      "verificationNote": "使用者指定收錄；分享連結轉至官方 the_rights_lifter 貼文，店家自行公告洋流相關小物資訊。官方 Threads、Facebook 與 Instagram 核對店名及帳號；健身遊牧標示由館方提供的資訊頁核對營業地址、舉重健力體能訓練工作室及預約制，該頁實際外連 Facebook 與 Instagram。運動教室依分類規則歸日常生活；未記錄小物即時數量。",
+      "verificationNote": "使用者指定收錄；分享連結轉至官方 the_rights_lifter 貼文，店家自行公告洋流相關小物資訊。官方 Threads、Facebook 與 Instagram 核對店名及帳號；健身遊牧標示由館方提供的資訊頁核對營業地址、舉重健力體能訓練工作室及預約制，該頁實際外連 Facebook 與 Instagram。運動教室依分類規則歸日常生活；未記錄小物即時數量。本次複查指定 Threads 個人頁顯示熊熊舉起 The Rights Lifter，簡介明示健身工作室與肌力訓練；該頁 rel=me 實際外連 Linktree，Linktree 的 socialLinks 及 sameAs 同時列出既有 Facebook rightslifter 與 Instagram the_rights_lifter，確認官方社群關聯。館方提供頁仍標示相同地址與預約制，未取得可確認的現行固定開放時段，維持預約前先聯繫店家。",
       "openingHours": {
         "status": "verified",
         "text": "預約制，請先聯繫店家確認可到訪時段。",
@@ -7125,7 +7126,7 @@
         "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-28",
-        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；熊熊舉起 Hui-Hîm the rights-lifter | Tainan ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 461 × 461。"
+        "note": "沿用既有已保存頭像網址。本次公開 Facebook 頁標題為熊熊舉起 Hui-Hîm the rights-lifter | Tainan；頁內 upsellConfig 的 profile 畫面與 profile_name 對應同一影像 ID 的頭像，佐證 og:image 為官方個人檔案頭像。官方頁原生提供 cstp=mx461x461、ctp=s461x461 版本，未改寫參數；該來源 HEAD 回應 HTTP 200、image/jpeg。461px 版本足供 Logo 使用；本次未讀取圖片本體，實際解碼尺寸由批次圖片流程核對，小圖不放大。"
       },
       "visitNote": "舉重、健力與體能訓練工作室，採預約制；到訪前請先聯繫官方社群。"
     },
