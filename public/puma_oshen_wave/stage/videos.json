@@ -40,6 +40,10 @@
         {
           "label": "YouTube 頻道",
           "url": "https://www.youtube.com/@chord415"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.com/@chord041"
         }
       ],
       "permission": true
@@ -49,6 +53,10 @@
         {
           "label": "YouTube 頻道",
           "url": "https://www.youtube.com/@%E5%8F%B0%E6%B4%BE%E9%9F%B3%E6%A8%82FearlessMusic"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.com/@fearlessmusic2025"
         }
       ],
       "permission": true
@@ -103,6 +111,10 @@
         {
           "label": "YouTube 頻道",
           "url": "https://www.youtube.com/@matt039017"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.com/@matt039017"
         }
       ],
       "permission": true
@@ -149,7 +161,8 @@
           "label": "Threads",
           "url": "https://www.threads.com/@_greymusic_"
         }
-      ]
+      ],
+      "permission": true
     },
     "台台唱片": {
       "socials": [
