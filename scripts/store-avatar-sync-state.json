@@ -11815,6 +11815,45 @@
       "lastAttempt": "2026-10-27T22:50:03+08:00",
       "result": "updated",
       "reason": "首次保存"
+    },
+    "shidake-steak-yongkang": {
+      "qualityChecks": [
+        {
+          "source": "https://www.threads.com/@steakfood282",
+          "platform": "threads",
+          "imageUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-19/736448864_17881956147611481_4810674488213325460_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fkhh1-2.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gEldeCGPOQjY0MWJ-wubKKncZEY1r8Q7hTqMo_7XyJIOXjSkzroZGntOeKOaZWzg7g&_nc_ohc=qLK75vNPmLMQ7kNvwGdxQxb&_nc_gid=kbHDZCsWTYPLiYMdNIAgjg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQTc0_ozM_XOUEcpRJtvgRo7s3sqGW7RuXf08jJgkRMGyA&oe=6AE73F52&_nc_sid=10d13b",
+          "size": [
+            320,
+            320
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；食大客平價炙燒牛排外帶店（永康尚青市場）新手村第三排1-7 (@steakfood282) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "add77c63cca429b22828fe6b27ccf6841d4fb99e6a1ee13ad9a4ef158f7cfa9d",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        320,
+        320
+      ],
+      "imageValidators": {
+        "last-modified": "Wed, 08 Jul 2026 18:28:52 GMT"
+      },
+      "source": "https://www.threads.com/@steakfood282",
+      "imageUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-19/736448864_17881956147611481_4810674488213325460_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fkhh1-2.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gEldeCGPOQjY0MWJ-wubKKncZEY1r8Q7hTqMo_7XyJIOXjSkzroZGntOeKOaZWzg7g&_nc_ohc=qLK75vNPmLMQ7kNvwGdxQxb&_nc_gid=kbHDZCsWTYPLiYMdNIAgjg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQTc0_ozM_XOUEcpRJtvgRo7s3sqGW7RuXf08jJgkRMGyA&oe=6AE73F52&_nc_sid=10d13b",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；食大客平價炙燒牛排外帶店（永康尚青市場）新手村第三排1-7 (@steakfood282) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+      "filename": "shidake-steak-yongkang/logo.webp",
+      "lastSuccess": "2026-10-28T10:52:02+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-28T10:52:02+08:00",
+      "result": "updated",
+      "reason": "首次保存"
     }
   }
 }
