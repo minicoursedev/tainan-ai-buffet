@@ -15061,12 +15061,12 @@
       "coordinateSource": "https://maps.google.com/maps/place/%E4%B8%89san/data=!4m2!3m1!1s0x3442a9548536a85f:0x74d721066d0aa1bd",
       "coordinateNote": "OpenStreetMap 完整地址查無結果，結構化查詢僅回傳道路，未採用。由官方 Threads「來找我們」實際外連 Google Maps 短連結，核對三san地點的行政區與杭州南路二段33號門牌；地點頁原生 /maps/preview/place 公開資料的地點欄位明示25.033591899999998、121.5234273，採用該門牌地點座標，非@地圖視窗中心。未取得!3d與!4d格式的地點網址；座標代表33號門牌位置，未確認A2攤位入口。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/sancoffeeandlife/logo.webp?v=d4dc303deb60b441",
         "source": "https://www.threads.com/@sancoffeeandlife",
         "platform": "threads",
         "status": "verified",
         "checkedAt": "2026-10-28",
-        "note": "官方 Threads 公開 user 資料的 username 為 sancoffeeandlife，full_name 為 SAN Coffee & Dessert｜咖啡 × 甜點 × 好日子，hd_profile_pic_versions 明示320與640頭像版本。已核對原生320版本HTTP 200、Content-Type image/jpeg，記憶體解析JPEG尺寸為320×320；未改寫CDN尺寸或簽章參數，非100px分享縮圖。新店圖片網址留空待後續處理。"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；SAN Coffee & Dessert｜咖啡 × 甜點 × 好日子 (@sancoffeeandlife) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。"
       },
       "visitNote": "市場內A2攤位，官方簡介標示可帶外食、寵物友善。"
     },
@@ -15107,12 +15107,12 @@
       "coordinateSource": "https://www.google.com/maps/place/KYMCO+%E5%85%89%E9%99%BD%E6%A9%9F%E8%BB%8A+%E4%BD%B3%E6%9A%90%E6%A9%9F%E8%BB%8A%E8%A1%8C/data=!4m7!3m6!1s0x346e85e87717320b:0x6b766c0dda4f76ac!8m2!3d23.3230834!4d120.263476!16s%2Fg%2F11gh9nqq1b!19sChIJCzIXd-iFbjQRrHZP2g1sdms?authuser=0&hl=zh-TW",
       "coordinateNote": "OpenStreetMap 完整門牌、121號之10寫法及街道與門牌結構化查詢均未取得精確門牌，未採道路中心。以 Chromium 瀏覽 Google Maps 店家地點頁，核對「KYMCO 光陽機車 佳暐機車行」、完整地址「737臺南市鹽水區月港里三福路121-10號」及電話06-6526587；從實際地點網址 !3d23.3230834!4d120.263476 取得座標，非 @ 地圖視窗中心。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/jia-wei-motorcycle-yanshui/logo.webp?v=114f3f35fae6767d",
         "source": "https://www.facebook.com/profile.php?id=100066699315729",
         "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-28",
-        "note": "官方 Facebook profilePhoto／profile_photo 指向照片424193726480601；profilePicLarge 與頁面明示 og:image 為相同檔名302423197_424193723147268_3209249103767008194_n.jpg，確認為個人檔案頭像。直接使用官方頁明示的720px版本，未改寫尺寸或簽章參數；實測HTTP 200、image/jpeg，原生715×720，符合Logo來源需求。新店圖片網址尚未填入。"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；佳暐機車行 | Tainan ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 715 × 720。"
       },
       "visitNote": "提供機車保養維修及新車銷售；電話06-6526587。"
     }
