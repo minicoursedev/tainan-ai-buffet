@@ -7120,12 +7120,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11060469651",
       "coordinateNote": "OpenStreetMap 精確門牌節點 11060469651 的 addr:full 為臺南市東區富強里3鄰中華東路二段22巷30號；行政區、道路、巷及30號門牌均符合館方提供地址。座標由 OSM 節點取得，代表門牌位置。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/the-rights-lifter-tainan/logo.webp?v=cd8d6b353a7ceb48",
         "source": "https://www.facebook.com/rightslifter/",
         "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-28",
-        "note": "官方 Facebook 頁標題與 profile_name 為熊熊舉起 Hui-Hîm the rights-lifter；個人檔案 image_url 與 og:image 為相同圖片 ID 293529024_449886107146953_2803764001220644048_n.jpg，確認為戴眼鏡人物舉槓鈴的卡通 Logo 頭像。使用原頁明示圖片網址，未改寫尺寸或簽章參數；實測 HTTP 200、Content-Type image/jpeg、原生461×461像素，符合Logo來源長邊至少256像素要求。"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；熊熊舉起 Hui-Hîm the rights-lifter | Tainan ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 461 × 461。"
       },
       "visitNote": "舉重、健力與體能訓練工作室，採預約制；到訪前請先聯繫官方社群。"
     }
