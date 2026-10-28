@@ -15156,12 +15156,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8153347675",
       "coordinateNote": "OpenStreetMap 完整地址自由文字查詢無結果，改以街道門牌55 裕農路291巷、城市臺南市、行政區東區及國家Taiwan的結構化查詢，命中穿牆貓節點8153347675。另讀取該節點官方OSM API，確認addr:full為臺南市東區裕農路291巷55號一樓，店名及Facebook外連均與官方資料相符；lat22.9869859、lon120.2283696取自該店家門牌節點，非道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/cat-traveller-cafe/logo.webp?v=57e3c94b9718d086",
         "source": "https://www.facebook.com/cat.traveller.cafe/",
         "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-10-28",
-        "note": "官方 Facebook 個人頁標題為穿牆貓 Cat Traveller Caf'e | Tainan；頁內 upsellConfig 的 surface=profile、profile_name 及 image_url 對應相同頭像影像ID 294179468_429414945868423_677123973669450602，佐證 og:image 為個人檔案頭像。頁面原生提供 cstp=mx2048x1977、ctp=s720x720 版本，未改寫CDN尺寸或簽章參數；該原生來源 HEAD 回應HTTP 200、Content-Type image/jpeg，足供256px Logo來源。Instagram 分享頭像僅100px，未採用。未下載圖片本體，實際解碼尺寸及256px保存由批次圖片流程核對；新店圖片網址尚未填入。"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；穿牆貓  Cat  Traveller  Caf'e | Tainan ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 695。"
       },
       "visitNote": "老屋咖啡廳，供應咖啡與法式甜點；官方公告低消每人一杯飲品。電話06-2085211，店休日請先查看官方公告。"
     }
