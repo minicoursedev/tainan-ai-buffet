@@ -24,6 +24,31 @@
       "id": "author-benson-hung",
       "name": "Benson Hung",
       "code": "M"
+    },
+    {
+      "id": "author-r-chord",
+      "name": "謝和弦 R-chord",
+      "code": "R"
+    },
+    {
+      "id": "author-atma-more",
+      "name": "ATMA MORE 豐盛研究所",
+      "code": "A"
+    },
+    {
+      "id": "author-fearless-music",
+      "name": "台派音樂FearlessMusic",
+      "code": "F"
+    },
+    {
+      "id": "author-taiwan-beyond",
+      "name": "台灣視界∣Taiwan & Beyond",
+      "code": "T"
+    },
+    {
+      "id": "author-midnight-songwriter",
+      "name": "凌晨寫歌的人",
+      "code": "N"
     }
   ],
   "creators": {
@@ -190,7 +215,7 @@
       "url": "https://www.youtube.com/watch?v=LnIlsGFRB_4",
       "description": "",
       "disabled": false,
-      "hall": "public-stage"
+      "hall": "author-r-chord"
     },
     {
       "id": "puma-ocean-current",
@@ -199,7 +224,7 @@
       "url": "https://www.youtube.com/watch?v=lBU3N-YVh60",
       "description": "",
       "disabled": false,
-      "hall": "public-stage"
+      "hall": "author-fearless-music"
     },
     {
       "id": "our-taipei",
@@ -217,7 +242,7 @@
       "url": "https://www.youtube.com/watch?v=obUSoRRy2As",
       "description": "",
       "disabled": false,
-      "hall": "public-stage"
+      "hall": "author-midnight-songwriter"
     },
     {
       "id": "taipei-daylight",
@@ -280,7 +305,7 @@
       "url": "https://www.youtube.com/watch?v=PUn8bz7p1t0",
       "description": "",
       "disabled": false,
-      "hall": "public-stage"
+      "hall": "author-taiwan-beyond"
     },
     {
       "id": "ocean-current-chiaohui",
@@ -334,7 +359,7 @@
       "url": "https://www.youtube.com/watch?v=SyId28uJqhg",
       "description": "",
       "disabled": false,
-      "hall": "public-stage"
+      "hall": "author-atma-more"
     },
     {
       "id": "future-route",
@@ -380,6 +405,258 @@
       "description": "",
       "disabled": false,
       "hall": "author-dragon-prince"
+    },
+    {
+      "id": "we-are-just-too-cool",
+      "title": "《我們不是台獨》#我們只是太酷",
+      "creator": "謝和弦 R-chord",
+      "url": "https://www.youtube.com/watch?v=5EkehHE5KNc",
+      "description": "",
+      "disabled": false,
+      "hall": "author-r-chord"
+    },
+    {
+      "id": "unafraid-to-flow",
+      "title": "《不怕下流》#作詞謝和弦/沈伯洋#只怕不流",
+      "creator": "謝和弦 R-chord",
+      "url": "https://www.youtube.com/watch?v=k7NFDYz5UsE",
+      "description": "",
+      "disabled": false,
+      "hall": "author-r-chord"
+    },
+    {
+      "id": "dignified-taiwanese",
+      "title": "《做一個堂堂正正的台灣人》#臺灣魂",
+      "creator": "謝和弦 R-chord",
+      "url": "https://www.youtube.com/watch?v=8g83tDGA-WU",
+      "description": "",
+      "disabled": false,
+      "hall": "author-r-chord"
+    },
+    {
+      "id": "came-to-an-island",
+      "title": "《我來到一個島》#政策鳥",
+      "creator": "謝和弦 R-chord",
+      "url": "https://www.youtube.com/watch?v=s3nUxCpaAFc",
+      "description": "",
+      "disabled": false,
+      "hall": "author-r-chord"
+    },
+    {
+      "id": "earning-rmb",
+      "title": "《為了要賺人民幣》#Diss陳德修",
+      "creator": "謝和弦 R-chord",
+      "url": "https://www.youtube.com/watch?v=ZQ5r1cOPUko",
+      "description": "",
+      "disabled": false,
+      "hall": "author-r-chord"
+    },
+    {
+      "id": "have-you-da-da-da",
+      "title": "《有沒有搭搭搭》#作詞謝震武",
+      "creator": "謝和弦 R-chord",
+      "url": "https://www.youtube.com/watch?v=nXiYaf832Xg",
+      "description": "",
+      "disabled": false,
+      "hall": "author-r-chord"
+    },
+    {
+      "id": "taipei-future-for-puma",
+      "title": "《台北的未來給沈伯洋》#台北順起來",
+      "creator": "謝和弦 R-chord",
+      "url": "https://www.youtube.com/watch?v=HgKHrFjjnb8",
+      "description": "",
+      "disabled": false,
+      "hall": "author-r-chord"
+    },
+    {
+      "id": "atma-sweet-taipei",
+      "title": "【競選徵選創作】✨《台北的甜》 SWEET TAIPEI✨沿著沈伯洋走過的路，遇見永不打烊的城市浪漫！找回對台北的愛～(Atma | 閱讀靈魂故事的人)",
+      "creator": "ATMA MORE 豐盛研究所",
+      "url": "https://www.youtube.com/watch?v=-igsjse8eh0",
+      "description": "",
+      "disabled": false,
+      "hall": "author-atma-more"
+    },
+    {
+      "id": "atma-wind-of-ocean-current-japanese",
+      "title": "【沈伯洋応援ソング】洋流の風🌊「人間の讃歌は、勇気の讃歌だ」故郷を守る一人ひとりの小さな雫へ！【沈伯洋應援曲洋流的風】獻給每一個守護家鄉的小水滴！(Atma | 閱讀靈魂故事的人)",
+      "creator": "ATMA MORE 豐盛研究所",
+      "url": "https://www.youtube.com/watch?v=f_6C4Wr5X8I",
+      "description": "",
+      "disabled": false,
+      "hall": "author-atma-more"
+    },
+    {
+      "id": "atma-ocean-current-never-stops",
+      "title": "超燃🔥《洋流不息》🔥 熱血動漫搖滾 J-Rock 自創曲！致敬沈伯洋的動漫魂與台灣守護之心～(Atma | 閱讀靈魂故事的人)",
+      "creator": "ATMA MORE 豐盛研究所",
+      "url": "https://www.youtube.com/watch?v=CkiuT1g__i8",
+      "description": "",
+      "disabled": false,
+      "hall": "author-atma-more"
+    },
+    {
+      "id": "atma-this-sapling",
+      "title": "《這棵樹苗》🌱苗博雅原創應援曲🌱獻給阿苗與《仁愛路四段507號》～那晚一個人撐起全場的堅毅與溫柔（Atma 閱讀靈魂故事的人）",
+      "creator": "ATMA MORE 豐盛研究所",
+      "url": "https://www.youtube.com/watch?v=Xo-VH5_YE5M",
+      "description": "",
+      "disabled": false,
+      "hall": "author-atma-more"
+    },
+    {
+      "id": "atma-future-soon-bilingual",
+      "title": "《台北順起來》🎵沈伯洋競選徵件作品~FUTURE SOON 🔜雙語字幕版~台北，是所有生命相遇的地方(Atma | 閱讀靈魂故事的人)",
+      "creator": "ATMA MORE 豐盛研究所",
+      "url": "https://www.youtube.com/watch?v=wnDmjzMon94",
+      "description": "",
+      "disabled": false,
+      "hall": "author-atma-more"
+    },
+    {
+      "id": "atma-ocean-current-awakening",
+      "title": "《洋流覺醒》🌊沈伯洋競選徵件歌曲：換槳啟航！讓沈伯洋帶台北走向更好的方向！獻給洋流！獻給愛台灣的每個人(Atma | 閱讀靈魂故事的人)",
+      "creator": "ATMA MORE 豐盛研究所",
+      "url": "https://www.youtube.com/watch?v=yw9R7sWW6Uo",
+      "description": "",
+      "disabled": false,
+      "hall": "author-atma-more"
+    },
+    {
+      "id": "atma-ocean-current-awakening-taipei-101",
+      "title": "《洋流覺醒》台北101版— 🌊 換槳啟航！讓沈伯洋帶台北走向更好的方向｜獻給守護台灣的每一個人(Atma | 閱讀靈魂故事的人)",
+      "creator": "ATMA MORE 豐盛研究所",
+      "url": "https://www.youtube.com/watch?v=o4RYHVnWSzQ",
+      "description": "",
+      "disabled": false,
+      "hall": "author-atma-more"
+    },
+    {
+      "id": "atma-future-soon-your-mayor",
+      "title": "《台北順起來》你的市長版🎵FUTURE SOON~沈伯洋競選徵件作品。讓我們手牽手，擁抱流過中心的那一股暖陽！台北，是所有生命相遇的地方。(Atma | 閱讀靈魂故事的人)",
+      "creator": "ATMA MORE 豐盛研究所",
+      "url": "https://www.youtube.com/watch?v=72kjH5kFXq8",
+      "description": "",
+      "disabled": false,
+      "hall": "author-atma-more"
+    },
+    {
+      "id": "beyond-ocean-current-taiwanese",
+      "title": "沈伯洋｜洋流｜一首歌回顧他的成長與人生軌跡｜台語版",
+      "creator": "台灣視界∣Taiwan & Beyond",
+      "url": "https://www.youtube.com/watch?v=griG__f7aQQ",
+      "description": "",
+      "disabled": false,
+      "hall": "author-taiwan-beyond"
+    },
+    {
+      "id": "beyond-ocean-current-japanese",
+      "title": "【日本語カバー】沈伯洋｜洋流（Ocean Current）🌊 台湾から日本の友人へ、心を込めて｜台灣視界",
+      "creator": "台灣視界∣Taiwan & Beyond",
+      "url": "https://www.youtube.com/watch?v=kWcbiIbgYBs",
+      "description": "",
+      "disabled": false,
+      "hall": "author-taiwan-beyond"
+    },
+    {
+      "id": "puma-interview-debate-full",
+      "title": "【一戰封神｜完整版】沈伯洋舌戰群儒！直面趙少康火力全開｜一場對談，讓全場看見他的沉著與鋒芒今天，他走進趙少康的節目。面對一道又一道追問，沒有閃躲",
+      "creator": "忙活",
+      "url": "https://www.youtube.com/watch?v=Zr3fBvUlKrI",
+      "description": "",
+      "disabled": false,
+      "hall": "author-manghuo"
+    },
+    {
+      "id": "fearless-warm-water-drop",
+      "title": "《沈伯洋－做一滴溫暖的水滴》",
+      "creator": "台派音樂FearlessMusic",
+      "url": "https://www.youtube.com/watch?v=NFVoK82L9v0",
+      "description": "",
+      "disabled": false,
+      "hall": "author-fearless-music"
+    },
+    {
+      "id": "fearless-my-small-mountainous-country-female",
+      "title": "我那小小多山的國家(女聲不同曲調)",
+      "creator": "台派音樂FearlessMusic",
+      "url": "https://www.youtube.com/watch?v=W573YZQHgKU",
+      "description": "",
+      "disabled": false,
+      "hall": "author-fearless-music"
+    },
+    {
+      "id": "fearless-clean-water-drop",
+      "title": "《沈伯洋－做一滴乾淨的水滴》",
+      "creator": "台派音樂FearlessMusic",
+      "url": "https://www.youtube.com/watch?v=hqL63x-_hGM",
+      "description": "",
+      "disabled": false,
+      "hall": "author-fearless-music"
+    },
+    {
+      "id": "midnight-well-finish-it-with-you",
+      "title": "「我們陪你，把該做的做完」寫給苗博雅，也寫給認真生活的你｜阿苗應援曲",
+      "creator": "凌晨寫歌的人",
+      "url": "https://www.youtube.com/watch?v=aTX-9EOcBLM",
+      "description": "",
+      "disabled": false,
+      "hall": "author-midnight-songwriter"
+    },
+    {
+      "id": "midnight-taipei-future-soon-shorts",
+      "title": "台北台北，順起來！你能忍住不跟著唱嗎？🎶 #Shorts",
+      "creator": "凌晨寫歌的人",
+      "url": "https://www.youtube.com/watch?v=YvlAuyr9mSw",
+      "description": "",
+      "disabled": false,
+      "hall": "author-midnight-songwriter"
+    },
+    {
+      "id": "midnight-vamos-puma-cumbia",
+      "title": "沈伯洋應援歌，竟然是西班牙文！｜¡Vamos, Puma! 拉丁 Cumbia",
+      "creator": "凌晨寫歌的人",
+      "url": "https://www.youtube.com/watch?v=13bvnBjdyfU",
+      "description": "",
+      "disabled": false,
+      "hall": "author-midnight-songwriter"
+    },
+    {
+      "id": "midnight-taiwan-future-soon-dance",
+      "title": "《台灣順起來》純舞蹈版｜今天再累，也要一起順起來！大字動態歌詞",
+      "creator": "凌晨寫歌的人",
+      "url": "https://www.youtube.com/watch?v=suo3hxNRQV0",
+      "description": "",
+      "disabled": false,
+      "hall": "author-midnight-songwriter"
+    },
+    {
+      "id": "midnight-taipei-deserves-puma-live-footage",
+      "title": "《台北值得沈伯洋》真實影像版太震撼｜網友二創 × 1.1倍加速｜凌晨寫歌的人",
+      "creator": "凌晨寫歌的人",
+      "url": "https://www.youtube.com/watch?v=tWYymjncWoQ",
+      "description": "",
+      "disabled": false,
+      "hall": "author-midnight-songwriter"
+    },
+    {
+      "id": "midnight-puma-speaks-wanan-drill",
+      "title": "《伯洋開口，萬安演習》｜台北值得沈伯洋 第二波應援歌曲",
+      "creator": "凌晨寫歌的人",
+      "url": "https://www.youtube.com/watch?v=FTBiMTTScNQ",
+      "description": "",
+      "disabled": false,
+      "hall": "author-midnight-songwriter"
+    },
+    {
+      "id": "midnight-taipei-deserves-puma-ai-story",
+      "title": "《台北值得沈伯洋》全新AI影像敘事版｜把你熟悉的每一句，化成眼前的故事",
+      "creator": "凌晨寫歌的人",
+      "url": "https://www.youtube.com/watch?v=2CKcwvlnkVc",
+      "description": "",
+      "disabled": false,
+      "hall": "author-midnight-songwriter"
     }
   ]
 }
