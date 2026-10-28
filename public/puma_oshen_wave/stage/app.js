@@ -1,6 +1,6 @@
-import { createWalkView } from '../designer/js/walk.js?v=20261028-stage-author-plates';
+import { createWalkView } from '../designer/js/walk.js?v=20261028-creator-socials';
 import { toast } from '../designer/js/state.js';
-import { loadCatalogue } from './data.js?v=20261028-author-halls';
+import { loadCatalogue } from './data.js?v=20261028-creator-permission';
 import { mountPlayer } from './player.js';
 
 const $ = id => document.getElementById(id);
@@ -20,6 +20,7 @@ let catalogue, walk, hallId, aisleIndex = 0, nearId = null, mode = 'walk';
 let current = null, returnHash = '#/walk';
 let destroyPlayer = null, continuousIndex = -1;
 const dialog = $('video-dialog');
+const creatorDialog = $('creator-dialog');
 const byBooth = new Map();
 const byId = new Map();
 const hallStages = () => catalogue.stages.filter(stage => stage.hallId === hallId);
@@ -114,6 +115,21 @@ function closeVideo(restore = true) {
   document.title = '洋流舞台｜我們的洋流地圖';
 }
 
+function openCreator(stage) {
+  if (!stage) return;
+  $('creator-title').textContent = stage.creator || '作者資訊';
+  $('creator-socials').replaceChildren(...stage.socials.map(social => {
+    const link = make('a', social.label, 'btn btn-primary');
+    link.href = social.url;
+    link.target = '_blank'; link.rel = 'noopener noreferrer';
+    link.setAttribute('aria-label', `開啟 ${stage.creator} 的 ${social.label}（另開分頁）`);
+    return link;
+  }));
+  $('creator-empty').hidden = stage.socials.length > 0;
+  if (!creatorDialog.open) creatorDialog.showModal();
+  creatorDialog.querySelector('.dlg-close').focus();
+}
+
 function openStage(stage, navigate = true, continuous = false) {
   if (!stage) return;
   if (!continuous) continuousIndex = -1;
@@ -122,6 +138,8 @@ function openStage(stage, navigate = true, continuous = false) {
   current = stage;
   $('video-title').textContent = stage.title;
   $('video-creator').textContent = stage.creator;
+  $('video-creator').hidden = !stage.creator;
+  $('video-creator').setAttribute('aria-label', `查看 ${stage.creator} 的社群連結`);
   $('video-description').textContent = stage.description;
   $('video-description').hidden = !stage.description;
   $('share-status').textContent = '';
@@ -173,7 +191,13 @@ function renderList() {
     poster.addEventListener('click', () => openStage(stage));
     const watch = make('button', '觀看影片', 'btn btn-primary');
     watch.type = 'button'; watch.addEventListener('click', () => openStage(stage));
-    card.append(poster, make('h2', stage.title), make('p', stage.creator, 'muted'), make('p', stage.boothId, 'mono'), watch);
+    const creator = make('p', undefined, 'muted creator-meta');
+    const profile = make('button', stage.creator, 'creator-name');
+    profile.type = 'button'; profile.setAttribute('aria-label', `查看 ${stage.creator} 的社群連結`);
+    profile.addEventListener('click', () => openCreator(stage));
+    creator.append(profile);
+    if (stage.permission) creator.append(make('span', '原作者許可', 'permission-tag'));
+    card.append(poster, make('h2', stage.title), creator, make('p', stage.boothId, 'mono'), watch);
     return card;
   }));
 }
@@ -207,6 +231,7 @@ function renderMap() {
 
 function route() {
   const [next, target] = location.hash.replace(/^#\/?/, '').split('/');
+  if (creatorDialog.open) creatorDialog.close();
   closeVideo(false);
   if (next === 'stage') {
     const stage = byId.get(target);
@@ -238,7 +263,7 @@ async function boot() {
   $('hall-select').disabled = false;
   $('hall-select').addEventListener('change', () => selectHall($('hall-select').value));
   for (const stage of catalogue.stages) { byBooth.set(stage.boothId, stage); byId.set(stage.id, stage); }
-  const busy = () => dialog.open || mode !== 'walk';
+  const busy = () => dialog.open || creatorDialog.open || mode !== 'walk';
   walk = createWalkView($('walk-canvas'), {
     display: 'stage', visited: id => visited.has(byBooth.get(id)?.id),
     onNear: id => {
@@ -247,6 +272,7 @@ async function boot() {
       $('btn-watch').textContent = id ? '觀看影片' : '靠近舞台看影片';
     },
     onOpen: id => { if (!busy()) openStage(byBooth.get(id)); },
+    onCreator: id => { if (!busy()) openCreator(byBooth.get(id)); },
     onEnd: direction => {
       if (busy()) return;
       const index = aisleIndex + (direction === 'next' ? 1 : -1);
@@ -265,6 +291,9 @@ async function boot() {
     advanceContinuous();
   });
   $('btn-where').addEventListener('click', () => setMode('map'));
+  $('video-creator').addEventListener('click', () => openCreator(current));
+  creatorDialog.querySelector('.dlg-close').addEventListener('click', () => creatorDialog.close());
+  creatorDialog.addEventListener('click', event => { if (event.target === creatorDialog) creatorDialog.close(); });
   $('video-search').addEventListener('input', renderList);
   for (const button of document.querySelectorAll('[data-mode]')) button.addEventListener('click', () => setMode(button.dataset.mode));
   dialog.querySelector('.dlg-close').addEventListener('click', () => closeVideo());

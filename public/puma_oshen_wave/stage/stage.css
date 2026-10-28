@@ -18,11 +18,18 @@
 .video-card h2 { font-size: 18px; }
 .video-card .btn { margin-left: 16px; }
 .video-card .muted { font-size: 14px; }
+.creator-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.permission-tag { display: inline-flex; padding: 2px 8px; border: 1px solid var(--green-deep); border-radius: 999px; background: var(--green-soft); color: var(--green-deep); font-size: 12px; font-weight: 700; line-height: 1.5; white-space: nowrap; }
 .video-dialog { width: min(920px, calc(100vw - 24px)); }
 .video-dialog .dlg-head h2 { overflow-wrap: anywhere; text-wrap: initial; }
 .video-player { width: 100%; aspect-ratio: 16 / 9; min-height: 200px; background: #111; border-radius: 6px; overflow: hidden; }
 .video-player iframe, .video-player video { display: block; width: 100%; height: 100%; min-height: 200px; border: 0; }
 .video-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.creator-name { border: 0; padding: 0; background: transparent; color: var(--green-deep); font: inherit; text-align: left; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; overflow-wrap: anywhere; }
+.creator-name:focus-visible { outline: 3px solid var(--pink); outline-offset: 3px; }
+.creator-dialog { width: min(520px, calc(100vw - 24px)); }
+.creator-dialog .dlg-head h2 { min-width: 0; overflow-wrap: anywhere; }
+.creator-socials { display: flex; flex-wrap: wrap; gap: 12px; }
 .continuous-status { margin: 0 0 12px; color: var(--green-deep); font-weight: 700; }
 #video-description { white-space: pre-wrap; overflow-wrap: anywhere; }
 #share-status { overflow-wrap: anywhere; }

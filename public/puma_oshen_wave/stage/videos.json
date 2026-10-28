@@ -26,6 +26,140 @@
       "code": "M"
     }
   ],
+  "creators": {
+    "沈伯洋Puma": {
+      "socials": [
+        {
+          "label": "YouTube 頻道",
+          "url": "https://www.youtube.com/@PumaShen"
+        }
+      ]
+    },
+    "謝和弦 R-chord": {
+      "socials": [
+        {
+          "label": "YouTube 頻道",
+          "url": "https://www.youtube.com/@chord415"
+        }
+      ],
+      "permission": true
+    },
+    "台派音樂FearlessMusic": {
+      "socials": [
+        {
+          "label": "YouTube 頻道",
+          "url": "https://www.youtube.com/@%E5%8F%B0%E6%B4%BE%E9%9F%B3%E6%A8%82FearlessMusic"
+        }
+      ],
+      "permission": true
+    },
+    "花美男歐爸": {
+      "socials": [
+        {
+          "label": "YouTube 頻道",
+          "url": "https://www.youtube.com/@john90222"
+        }
+      ]
+    },
+    "凌晨寫歌的人": {
+      "socials": [
+        {
+          "label": "YouTube 頻道",
+          "url": "https://www.youtube.com/@Midnight_Songwriter"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.com/@eason669147"
+        }
+      ],
+      "permission": true
+    },
+    "Ederwa Hong": {
+      "socials": [
+        {
+          "label": "YouTube 頻道",
+          "url": "https://www.youtube.com/@ederwa"
+        }
+      ]
+    },
+    "Wind J 風的旅程": {
+      "socials": [
+        {
+          "label": "YouTube 頻道",
+          "url": "https://www.youtube.com/@wind_J"
+        }
+      ]
+    },
+    "忙活": {
+      "socials": [
+        {
+          "label": "YouTube 頻道",
+          "url": "https://www.youtube.com/@%E5%BF%99%E6%B4%BB"
+        }
+      ]
+    },
+    "龍神太子的頻道": {
+      "socials": [
+        {
+          "label": "YouTube 頻道",
+          "url": "https://www.youtube.com/@matt039017"
+        }
+      ],
+      "permission": true
+    },
+    "Yes100 AI Visual Lab": {
+      "socials": [
+        {
+          "label": "YouTube 頻道",
+          "url": "https://www.youtube.com/@yes100.AI_Visual_Lab"
+        }
+      ]
+    },
+    "台灣視界∣Taiwan & Beyond": {
+      "socials": [
+        {
+          "label": "YouTube 頻道",
+          "url": "https://www.youtube.com/@Taiwan_Beyond"
+        }
+      ]
+    },
+    "Jimmy唱歌給你聽(Jimmy sings for you)": {
+      "socials": [
+        {
+          "label": "YouTube 頻道",
+          "url": "https://www.youtube.com/@jimmysing520"
+        }
+      ]
+    },
+    "Benson Hung": {
+      "socials": [
+        {
+          "label": "YouTube 頻道",
+          "url": "https://www.youtube.com/@hbshun"
+        }
+      ]
+    },
+    "ATMA MORE 豐盛研究所": {
+      "socials": [
+        {
+          "label": "YouTube 頻道",
+          "url": "https://www.youtube.com/@ATMA8MORE"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.com/@_greymusic_"
+        }
+      ]
+    },
+    "台台唱片": {
+      "socials": [
+        {
+          "label": "YouTube 頻道",
+          "url": "https://www.youtube.com/@taitairecords"
+        }
+      ]
+    }
+  },
   "stages": [
     {
       "id": "taipei-future-soon",
@@ -224,6 +358,15 @@
       "description": "",
       "disabled": false,
       "hall": "author-manghuo"
+    },
+    {
+      "id": "three-rays-taipei-home",
+      "title": "三號上場，台北靠3！《三道光芒・台北主場》｜沈伯洋 莊競程   把這一路的光，唱給台北  他們兩位都抽中 3號",
+      "creator": "龍神太子的頻道",
+      "url": "https://www.youtube.com/watch?v=UwAIgDQIpRA",
+      "description": "",
+      "disabled": false,
+      "hall": "author-dragon-prince"
     }
   ]
 }

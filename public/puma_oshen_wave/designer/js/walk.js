@@ -62,7 +62,7 @@ function rng(s) {
   };
 }
 
-export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, onEnd = () => {}, catContext = () => ({}), display = 'booth', visited = isVisited } = {}) {
+export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, onCreator = () => {}, onEnd = () => {}, catContext = () => ({}), display = 'booth', visited = isVisited } = {}) {
   const BW = display === 'stage' ? 224 : 112;
   const c = canvas.getContext('2d');
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -239,6 +239,11 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     }
     return null;
   }
+  const authorPlateY = B => B.side === 'N' ? Y.CLOTH_N - 13 : Y.AISLE_BOT + 4;
+  function creatorAt(wx, wy) {
+    if (display !== 'stage' || !L) return null;
+    return L.booths.find(B => Math.abs(wx - B.cx) <= BW / 2 - 5 && Math.abs(wy - authorPlateY(B)) <= 15) || null;
+  }
 
   // ---------- scene ----------
   function backdrop(x0, x1, yTop, yBot) {
@@ -413,7 +418,13 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     const w = author ? BW - 32 : full ? 66 : 32, h = 17;
     c.fillStyle = near ? PINK_SOFT : PAPER; c.fillRect(cx - w / 2, cy - h / 2, w, h);
     c.strokeStyle = INK; c.lineWidth = near ? 2 : 1.6; c.strokeRect(cx - w / 2, cy - h / 2, w, h);
-    c.fillStyle = INK; c.font = `600 ${full ? 11.5 : 12.5}px ${author ? FONT : MONO}`; c.fillText(author ? fit(label, w - 24) : label, cx, cy + 0.5);
+    c.fillStyle = INK; c.font = `600 ${full ? 11.5 : 12.5}px ${author ? FONT : MONO}`;
+    const text = author ? fit(label, w - 24) : label;
+    c.fillText(text, cx, cy + 0.5);
+    if (author) {
+      const half = c.measureText(text).width / 2;
+      c.lineWidth = 0.8; line(cx - half, cy + 6, cx + half, cy + 6);
+    }
     if (visited(b.id)) stamp(cx - w / 2 + 1, cy - h / 2 + 1);
   }
   const storeName = b => (data.stores[b.store] && data.stores[b.store].name) || '';
@@ -472,7 +483,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     poly([[cx - 4, top + sh / 2 - 7], [cx + 8, top + sh / 2], [cx - 4, top + sh / 2 + 7]]); c.fill();
     c.fillStyle = INK; c.font = `700 11px ${FONT}`;
     c.fillText(fit(storeName(b), BW - 24), cx, north ? top + sh + 13 : floor - 13);
-    plate(cx, north ? floor - 13 : top - 6, b, true, near, data.stores[b.store]?.creator);
+    plate(cx, authorPlateY(B), b, true, near, data.stores[b.store]?.creator);
   }
   function boothN(B) {
     if (display === 'stage') return videoStage(B);
@@ -962,6 +973,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     }
     if (e.pointerType === 'mouse' && L && !ptr) {
       const w = toWorld(p.sx, p.sy), B = boothAt(w.x, w.y), id = B ? B.b.id : null, ex = exitAt(w.x, w.y);
+      canvas.style.cursor = creatorAt(w.x, w.y) ? 'pointer' : '';
       if (id !== hover || ex !== hoverExit) { hover = id; hoverExit = ex; kick(); }
     }
   }
@@ -971,6 +983,8 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     const w = ptr.w0;
     ptr = null;
     if (tap) {
+      const creator = creatorAt(w.x, w.y);
+      if (creator) { stopAll(); onCreator(creator.b.id); kick(); return; }
       const kitty = catAt(w.x, w.y);
       if (kitty) { say(kitty); kick(); return; }
       const passer = chatter ? npcAt(w.x, w.y) : null;
@@ -989,7 +1003,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     kick();
   }
   function onCancel(e) { if (ptr && e.pointerId === ptr.id) { ptr = null; target = null; kick(); } }
-  function onLeave(e) { if (e.pointerType === 'mouse' && (hover || hoverExit)) { hover = null; hoverExit = null; kick(); } }
+  function onLeave(e) { if (e.pointerType === 'mouse') { canvas.style.cursor = ''; if (hover || hoverExit) { hover = null; hoverExit = null; kick(); } } }
   function onMenu(e) { if (ptr) e.preventDefault(); }
   function canAct(e) {
     if (!L || !cssW || canvas.offsetParent === null || e.isComposing) return false;
@@ -1049,7 +1063,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     latchR = player.x > L.worldW - EXIT_TRIG - 36;
     initNpcs(d.code);
     initCats(d.code);
-    canvas.setAttribute('aria-label', `${d.hallName} ${d.code} 走道：按住拖著小人走，${display === 'stage' ? '點舞台即可觀看影片' : '點設計師即可查看介紹'}`);
+    canvas.setAttribute('aria-label', `${d.hallName} ${d.code} 走道：按住拖著小人走，${display === 'stage' ? '點影片觀看，點名牌看作者社群' : '點設計師即可查看介紹'}`);
     camSnap = true;
     updateNear(true);
     kick();

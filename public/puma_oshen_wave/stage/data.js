@@ -26,6 +26,17 @@ export function parseVideo(value) {
   throw new Error('目前支援 YouTube、MP4 與 WebM 影片');
 }
 
+function socialLinks(value = []) {
+  if (!Array.isArray(value)) throw new Error('作者社群資料格式不正確');
+  return value.map(link => {
+    if (!link || typeof link.label !== 'string' || !link.label.trim() || typeof link.url !== 'string') throw new Error('作者社群連結不正確');
+    let url;
+    try { url = new URL(link.url); } catch { throw new Error('作者社群連結不正確'); }
+    if (url.protocol !== 'https:' || url.username || url.password || url.port) throw new Error('作者社群連結請使用 HTTPS 網址');
+    return { label: link.label.trim(), url: url.href };
+  });
+}
+
 export function createCatalogue(data) {
   if (!Array.isArray(data?.stages)) throw new Error('舞台資料格式不正確');
   const halls = data.halls ?? [{ id: 'puma', name: 'PUMA 館', code: 'S' }];
@@ -42,9 +53,11 @@ export function createCatalogue(data) {
     const hallId = item.hall || halls[0].id;
     if (!hallIds.has(hallId)) throw new Error('找不到影片所屬展館');
     ids.add(item.id);
+    const creator = typeof item.creator === 'string' ? item.creator.trim() : '';
     return {
       id: item.id, title: item.title.trim(), hallId,
-      creator: typeof item.creator === 'string' ? item.creator : '',
+      creator, socials: socialLinks(data.creators?.[creator]?.socials),
+      permission: data.creators?.[creator]?.permission === true,
       description: typeof item.description === 'string' ? item.description : '',
       video: parseVideo(item.url),
     };

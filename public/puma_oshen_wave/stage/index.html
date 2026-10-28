@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="../designer/css/market.css">
-<link rel="stylesheet" href="./stage.css?v=20261028-author-halls">
+<link rel="stylesheet" href="./stage.css?v=20261028-creator-permission">
 <script defer src="/assets/analytics.js?v=20261019-content-group"></script>
 </head>
 <body>
@@ -36,7 +36,7 @@
     <canvas id="walk-canvas" tabindex="0" aria-label="洋流舞台：按住拖著小人走，點舞台觀看影片"></canvas>
     <button type="button" class="where" id="btn-where"><b id="where-hall">公共舞台</b><span id="where-aisle"></span><span class="where-switch">看地圖</span></button>
     <div class="status"><span class="tag" id="status-count" role="status">舞台準備中…</span></div>
-    <p class="hint" id="hint"><span class="hint-desktop">按住拖著小人走，點舞台看影片。電腦也可以用方向鍵。</span><span class="hint-mobile">拖曳移動，點舞台看影片。</span></p>
+    <p class="hint" id="hint"><span class="hint-desktop">按住拖著小人走，點影片觀看，點名牌看作者社群。電腦也可以用方向鍵。</span><span class="hint-mobile">拖曳移動；點影片觀看，點名牌看社群。</span></p>
     <p class="stage-message" id="stage-message" role="status" hidden></p>
     <div class="dock">
       <button type="button" class="btn btn-primary" id="btn-watch" disabled>靠近舞台看影片</button>
@@ -59,13 +59,21 @@
   <div class="dlg-body">
     <p id="continuous-status" class="continuous-status" role="status" hidden></p>
     <div id="video-player" class="video-player"></div>
-    <p id="video-creator"></p><p id="video-description"></p>
+    <p><button type="button" id="video-creator" class="creator-name"></button></p><p id="video-description"></p>
     <p class="muted" id="video-help" role="status"></p>
     <div class="video-actions"><a id="video-source" class="btn" target="_blank" rel="noopener noreferrer">到原網站觀看</a><button type="button" class="btn" id="copy-stage">複製舞台連結</button></div>
     <p id="share-status" class="muted" role="status"></p>
   </div>
 </dialog>
+<dialog id="creator-dialog" class="dlg creator-dialog" aria-labelledby="creator-title">
+  <div class="dlg-head"><h2 id="creator-title"></h2><button type="button" class="dlg-close" aria-label="關閉作者資訊">×</button></div>
+  <div class="dlg-body">
+    <p>追蹤作者的最新作品</p>
+    <nav id="creator-socials" class="creator-socials" aria-label="作者社群連結"></nav>
+    <p id="creator-empty" class="muted" hidden>作者尚未提供社群連結。</p>
+  </div>
+</dialog>
 <noscript><p class="stage-message">請啟用 JavaScript 瀏覽洋流舞台。<a href="https://www.youtube.com/watch?v=LnIlsGFRB_4">直接觀看《洋流漂過台北城》</a></p></noscript>
-<script type="module" src="./app.js?v=20261028-next-hall"></script>
+<script type="module" src="./app.js?v=20261028-creator-permission"></script>
 </body>
 </html>

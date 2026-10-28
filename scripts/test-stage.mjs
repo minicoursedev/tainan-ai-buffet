@@ -23,6 +23,16 @@ test('direct video files preserve signed query parameters', () => {
   assert.equal(parseVideo('https://example.test/film.webm').type, 'file');
 });
 
+test('creator social links survive grouping and only use HTTPS destinations', () => {
+  const socials = [{ label: 'YouTube 頻道', url: 'https://www.youtube.com/@creator' }, { label: 'Threads', url: 'https://www.threads.net/@creator' }];
+  const data = { stages: [record('creator-video')], creators: { '創作者': { socials } } };
+  assert.deepEqual(createCatalogue(data).stages[0].socials, socials);
+  assert.deepEqual(createCatalogue({ stages: [record('without-profile')] }).stages[0].socials, []);
+  for (const url of ['javascript:alert(1)', 'http://example.test/profile', 'https://user:password@example.test/profile']) {
+    assert.throws(() => createCatalogue({ ...data, creators: { '創作者': { socials: [{ label: '社群', url }] } } }));
+  }
+});
+
 test('stages occupy only the upper row and overflow into another aisle', () => {
   const data = { stages: Array.from({ length: 19 }, (_, i) => record(`stage-${i}`)) };
   const result = createCatalogue(data);
