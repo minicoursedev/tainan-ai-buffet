@@ -11821,7 +11821,7 @@
         {
           "source": "https://www.threads.com/@steakfood282",
           "platform": "threads",
-          "imageUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-19/736448864_17881956147611481_4810674488213325460_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fkhh1-2.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gEldeCGPOQjY0MWJ-wubKKncZEY1r8Q7hTqMo_7XyJIOXjSkzroZGntOeKOaZWzg7g&_nc_ohc=qLK75vNPmLMQ7kNvwGdxQxb&_nc_gid=kbHDZCsWTYPLiYMdNIAgjg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQTc0_ozM_XOUEcpRJtvgRo7s3sqGW7RuXf08jJgkRMGyA&oe=6AE73F52&_nc_sid=10d13b",
+          "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-19/736448864_17881956147611481_4810674488213325460_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gFj6EVlbWr5vNGCUvpRsWDeKdYJoF010tN8ddUNkJbYL9nyS6wMYC66KpV7hXJGiIM&_nc_ohc=qLK75vNPmLMQ7kNvwGdxQxb&_nc_gid=KiYskspLfdPkQ9XNkJxsSg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQT1JnOZDYbQ8w93cXIohfQzQY54FOw9g-6ymRFCHUxAiw&oe=6AE7AFD2&_nc_sid=10d13b",
           "size": [
             320,
             320
@@ -11845,15 +11845,15 @@
         "last-modified": "Wed, 08 Jul 2026 18:28:52 GMT"
       },
       "source": "https://www.threads.com/@steakfood282",
-      "imageUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-19/736448864_17881956147611481_4810674488213325460_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fkhh1-2.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gEldeCGPOQjY0MWJ-wubKKncZEY1r8Q7hTqMo_7XyJIOXjSkzroZGntOeKOaZWzg7g&_nc_ohc=qLK75vNPmLMQ7kNvwGdxQxb&_nc_gid=kbHDZCsWTYPLiYMdNIAgjg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQTc0_ozM_XOUEcpRJtvgRo7s3sqGW7RuXf08jJgkRMGyA&oe=6AE73F52&_nc_sid=10d13b",
+      "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-19/736448864_17881956147611481_4810674488213325460_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gFj6EVlbWr5vNGCUvpRsWDeKdYJoF010tN8ddUNkJbYL9nyS6wMYC66KpV7hXJGiIM&_nc_ohc=qLK75vNPmLMQ7kNvwGdxQxb&_nc_gid=KiYskspLfdPkQ9XNkJxsSg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQT1JnOZDYbQ8w93cXIohfQzQY54FOw9g-6ymRFCHUxAiw&oe=6AE7AFD2&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；食大客平價炙燒牛排外帶店（永康尚青市場）新手村第三排1-7 (@steakfood282) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
       "filename": "shidake-steak-yongkang/logo.webp",
-      "lastSuccess": "2026-10-28T10:52:02+08:00",
+      "lastSuccess": "2026-10-28T19:15:54+08:00",
       "discoveryVersion": 3,
       "sourceValidators": {},
-      "lastAttempt": "2026-10-28T10:52:02+08:00",
-      "result": "updated",
-      "reason": "首次保存"
+      "lastAttempt": "2026-10-28T19:15:54+08:00",
+      "result": "unchanged",
+      "reason": "像素內容相同或僅有輕微轉碼差異"
     },
     "the-rights-lifter-tainan": {
       "qualityChecks": [
@@ -11891,6 +11891,84 @@
       "discoveryVersion": 3,
       "sourceValidators": {},
       "lastAttempt": "2026-10-28T16:18:07+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "sancoffeeandlife": {
+      "qualityChecks": [
+        {
+          "source": "https://www.threads.com/@sancoffeeandlife",
+          "platform": "threads",
+          "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-19/800317350_18108140350933690_4147665014628647648_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gEFBIUDOZBOytVCg_bhIgAJOKDCSiBQPnY5Xly_F5gRJXtkG-iKWx3smhvWZle6dCU&_nc_ohc=X6aFaQRrfWYQ7kNvwEAlTv3&_nc_gid=s-RT6LKvpa2srO4P6vdD5Q&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQTSGQLIWQHaYwmNXDLYfYtXak6ND4hvrfrg5wEcP33HzA&oe=6AE7B3C6&_nc_sid=10d13b",
+          "size": [
+            320,
+            320
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；SAN Coffee & Dessert｜咖啡 × 甜點 × 好日子 (@sancoffeeandlife) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "d4dc303deb60b441aed130c0f7ccd228655e24643d570a28ae65f8a32a50fae5",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        320,
+        320
+      ],
+      "imageValidators": {
+        "last-modified": "Thu, 10 Sep 2026 09:35:31 GMT"
+      },
+      "source": "https://www.threads.com/@sancoffeeandlife",
+      "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-19/800317350_18108140350933690_4147665014628647648_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gEFBIUDOZBOytVCg_bhIgAJOKDCSiBQPnY5Xly_F5gRJXtkG-iKWx3smhvWZle6dCU&_nc_ohc=X6aFaQRrfWYQ7kNvwEAlTv3&_nc_gid=s-RT6LKvpa2srO4P6vdD5Q&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQTSGQLIWQHaYwmNXDLYfYtXak6ND4hvrfrg5wEcP33HzA&oe=6AE7B3C6&_nc_sid=10d13b",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；SAN Coffee & Dessert｜咖啡 × 甜點 × 好日子 (@sancoffeeandlife) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+      "filename": "sancoffeeandlife/logo.webp",
+      "lastSuccess": "2026-10-28T19:15:57+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-28T19:15:57+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "jia-wei-motorcycle-yanshui": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/profile.php?id=100066699315729",
+          "platform": "facebook",
+          "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/302423197_424193723147268_3209249103767008194_n.jpg?stp=dst-jpg_tt6&cstp=mx1079x1086&ctp=s720x720&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rHKSTxPJ-CQQ7kNvwE_5fba&_nc_oc=Adp8thwxR_qdPBAap4CEQf_mRX4wJNcCmFUTsH3eBpSQRzZDClG5YJSCwFXqwmQE9BM&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=6AOUCfRhEwyt_Niv6oFRsA&_nc_ss=7920f&oh=00_AQRRZA6ZNqapgdHeLa__TR9kqq5UubSkGDbiV_Sljdbz2g&oe=6AE7998A",
+          "size": [
+            715,
+            720
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；佳暐機車行 | Tainan ",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "114f3f35fae6767deb9363027526d5ec5c4b0256e4dec2a298d59056758e0242",
+      "contentBox": [
+        1,
+        0,
+        255,
+        256
+      ],
+      "sourceSize": [
+        715,
+        720
+      ],
+      "imageValidators": {
+        "last-modified": "Fri, 09 Sep 2022 13:12:25 GMT"
+      },
+      "source": "https://www.facebook.com/profile.php?id=100066699315729",
+      "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/302423197_424193723147268_3209249103767008194_n.jpg?stp=dst-jpg_tt6&cstp=mx1079x1086&ctp=s720x720&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rHKSTxPJ-CQQ7kNvwE_5fba&_nc_oc=Adp8thwxR_qdPBAap4CEQf_mRX4wJNcCmFUTsH3eBpSQRzZDClG5YJSCwFXqwmQE9BM&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=6AOUCfRhEwyt_Niv6oFRsA&_nc_ss=7920f&oh=00_AQRRZA6ZNqapgdHeLa__TR9kqq5UubSkGDbiV_Sljdbz2g&oe=6AE7998A",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；佳暐機車行 | Tainan ",
+      "filename": "jia-wei-motorcycle-yanshui/logo.webp",
+      "lastSuccess": "2026-10-28T19:15:59+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-28T19:15:59+08:00",
       "result": "updated",
       "reason": "首次保存"
     }
