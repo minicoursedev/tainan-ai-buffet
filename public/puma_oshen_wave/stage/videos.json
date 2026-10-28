@@ -6,11 +6,6 @@
       "code": "P"
     },
     {
-      "id": "author-john90222",
-      "name": "花美男歐爸",
-      "code": "D"
-    },
-    {
       "id": "author-manghuo",
       "name": "忙活",
       "code": "H"
@@ -242,7 +237,7 @@
       "creator": "花美男歐爸",
       "url": "https://www.youtube.com/watch?v=Pyf3pWw8zjY",
       "description": "",
-      "disabled": false,
+      "disabled": true,
       "hall": "author-john90222"
     },
     {
@@ -260,7 +255,7 @@
       "creator": "花美男歐爸",
       "url": "https://www.youtube.com/watch?v=4623iDtNaJ8",
       "description": "",
-      "disabled": false,
+      "disabled": true,
       "hall": "author-john90222"
     },
     {
