@@ -7031,6 +7031,54 @@
         "checkedAt": "2026-10-27",
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；二貓公寓 (@twocatsapartment) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。"
       }
+    },
+    {
+      "id": "shidake-steak-yongkang",
+      "verification": true,
+      "category": "正餐",
+      "giftStatus": "可能有小物",
+      "name": "食大客平價炙燒牛排外帶店（永康尚青市場）",
+      "address": "台南市永康區中山南路282號",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/steakfood282/",
+        "threads": "https://www.threads.com/@steakfood282"
+      },
+      "sources": [
+        "https://www.threads.com/share/BmEomjdA__/",
+        "https://www.threads.com/@steakfood282/post/De_at4Rj36c",
+        "https://www.threads.com/@steakfood282",
+        "https://www.instagram.com/steakfood282/",
+        "https://www.openstreetmap.org/way/229278019"
+      ],
+      "verifiedAt": "2026-10-28",
+      "verificationNote": "使用者指定收錄。分享連結轉至官方 steakfood282 貼文，店家自行公告洋流貼紙資訊及永康尚青市場地址；官方 Threads 與 Instagram 簡介核對店名、地址與牛排外帶店型。Instagram 網址由 Threads 個人頁 rel=me 及 bio_links 實際外連取得。Facebook 未能確認為此店，故留空；未記錄小物即時數量。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "官方 Threads 標示 14:30–20:00，售完為止；官方 Instagram 標示 14:30–19:30。閉店時間有差異，每週公休日未明，請以店家當日公告為準。",
+        "sources": [
+          "https://www.threads.com/@steakfood282",
+          "https://www.instagram.com/steakfood282/"
+        ],
+        "checkedAt": "2026-10-28",
+        "auditNote": "兩個官方個人頁的閉店時間不一致，未自行擇一填定；皆未明示每週公休日。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.0145486,
+        "lng": 120.2353116
+      },
+      "coordinateSource": "https://www.openstreetmap.org/way/229278019",
+      "coordinateNote": "OpenStreetMap 建物 way 229278019 的 addr:full 為臺南市永康區中山南路282號，行政區、道路及282號門牌均符合官方地址。座標由該門牌建物的原始節點計算多邊形質心，代表門牌建物位置；尚未確認市場內第三排攤位入口位置。",
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.threads.com/@steakfood282",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-28",
+        "note": "官方 Threads 個人頁 HTML 圖片 alt 明示 steakfood282's profile picture，該使用者 hd_profile_pic_versions 提供原生320×320及640×640版本；直接檢查頁面提供的320×320原始網址，回應HTTP 200、image/jpeg，實際JPEG尺寸320×320，未改寫尺寸或簽章參數。圖片為帶有「食大客 平價炙燒牛排」店名字樣的品牌餐點頭像。"
+      },
+      "visitNote": "永康尚青黃昏市場第三排1-7，靠近五福街132號入口；聯絡電話0955935509。"
     }
   ],
   "pendingStores": []
