@@ -54,6 +54,11 @@
       "id": "author-ederwa-hong",
       "name": "Ederwa Hong",
       "code": "E"
+    },
+    {
+      "id": "author-yes100-ai-visual-lab",
+      "name": "Yes100 AI Visual Lab",
+      "code": "Y"
     }
   ],
   "creators": {
@@ -301,7 +306,7 @@
       "url": "https://www.youtube.com/watch?v=Cc-NGoafhyM",
       "description": "",
       "disabled": false,
-      "hall": "public-stage"
+      "hall": "author-yes100-ai-visual-lab"
     },
     {
       "id": "ocean-current-2-taiwan-beyond",
@@ -815,6 +820,51 @@
       "description": "",
       "disabled": false,
       "hall": "author-ederwa-hong"
+    },
+    {
+      "id": "yes100-taipei-current-ktv-songshan-xinyi",
+      "title": "沈伯洋應援曲・支持者自製《台北大洋流》KTV 字幕版 MV｜第二場洋流車掃 10/18 松山信義・民權公園開講",
+      "creator": "Yes100 AI Visual Lab",
+      "url": "https://www.youtube.com/watch?v=w8EyASRXGiQ",
+      "description": "",
+      "disabled": false,
+      "hall": "author-yes100-ai-visual-lab"
+    },
+    {
+      "id": "yes100-taipei-current-animated-short",
+      "title": "《台北大洋流》 動畫版 MV | 洋流啟航 你不是來看洋流的，你就是洋流 🌊《The Taipei Current》 #沈伯洋 #洋流 #台北大洋流",
+      "creator": "Yes100 AI Visual Lab",
+      "url": "https://www.youtube.com/watch?v=Nf_LWFSxFrY",
+      "description": "",
+      "disabled": false,
+      "hall": "author-yes100-ai-visual-lab"
+    },
+    {
+      "id": "yes100-taipei-current-ktv-zhongshan-datong",
+      "title": "沈伯洋應援曲・支持者自製《台北大洋流》KTV 字幕版 MV｜10/11 洋流號車掃・中山大同到保安宮前",
+      "creator": "Yes100 AI Visual Lab",
+      "url": "https://www.youtube.com/watch?v=f-x7eQrueRY",
+      "description": "",
+      "disabled": false,
+      "hall": "author-yes100-ai-visual-lab"
+    },
+    {
+      "id": "yes100-taipei-current-headquarters-mv",
+      "title": "《台北大洋流》自製應援 MV｜你不是來看洋流的 你就是洋流 洋流啟航｜（畫面來自 沈伯洋競選總部成立直播）",
+      "creator": "Yes100 AI Visual Lab",
+      "url": "https://www.youtube.com/watch?v=Z3gY2y8zwgE",
+      "description": "",
+      "disabled": false,
+      "hall": "author-yes100-ai-visual-lab"
+    },
+    {
+      "id": "yes100-taipei-current-citizen-support",
+      "title": "【台北大洋流】你不是來看洋流的，你就是洋流｜市民挺沈伯洋",
+      "creator": "Yes100 AI Visual Lab",
+      "url": "https://www.youtube.com/watch?v=GzkoBvFFfhk",
+      "description": "",
+      "disabled": false,
+      "hall": "author-yes100-ai-visual-lab"
     }
   ]
 }
