@@ -49,6 +49,16 @@
       "id": "author-midnight-songwriter",
       "name": "凌晨寫歌的人",
       "code": "N"
+    },
+    {
+      "id": "author-wind-j",
+      "name": "Wind J 風的旅程",
+      "code": "W"
+    },
+    {
+      "id": "author-ederwa-hong",
+      "name": "Ederwa Hong",
+      "code": "E"
     }
   ],
   "creators": {
@@ -260,7 +270,7 @@
       "url": "https://www.youtube.com/watch?v=AmUAJ06T_w0",
       "description": "",
       "disabled": false,
-      "hall": "public-stage"
+      "hall": "author-ederwa-hong"
     },
     {
       "id": "light-in-ocean-current",
@@ -269,7 +279,7 @@
       "url": "https://www.youtube.com/watch?v=qMZpm2Axftg",
       "description": "",
       "disabled": false,
-      "hall": "public-stage"
+      "hall": "author-wind-j"
     },
     {
       "id": "ocean-current-warmth",
@@ -657,6 +667,159 @@
       "description": "",
       "disabled": false,
       "hall": "author-midnight-songwriter"
+    },
+    {
+      "id": "windj-next-stop-world",
+      "title": "【下一站，世界】青春 × 搖滾｜台北大洋流 | 洋流號啟航應援",
+      "creator": "Wind J 風的旅程",
+      "url": "https://www.youtube.com/watch?v=MbnVAFWwPNk",
+      "description": "",
+      "disabled": false,
+      "hall": "author-wind-j"
+    },
+    {
+      "id": "windj-tomorrow-we-write",
+      "title": "【 我們寫下的明天 】中華民國台灣生日快樂 | 史詩凱旋頌歌",
+      "creator": "Wind J 風的旅程",
+      "url": "https://www.youtube.com/watch?v=b769iJBWil0",
+      "description": "",
+      "disabled": false,
+      "hall": "author-wind-j"
+    },
+    {
+      "id": "windj-next-stop-world-live",
+      "title": "【下一站，世界】LIVE 搖滾版｜台北大洋流",
+      "creator": "Wind J 風的旅程",
+      "url": "https://www.youtube.com/watch?v=of3k6Txwyi4",
+      "description": "",
+      "disabled": false,
+      "hall": "author-wind-j"
+    },
+    {
+      "id": "windj-ilha-formosa-animated",
+      "title": "【Ilha Formosa】(動畫MV) 守護美麗島嶼 | 大罷免救台灣",
+      "creator": "Wind J 風的旅程",
+      "url": "https://www.youtube.com/watch?v=UO3PPVIb7m8",
+      "description": "",
+      "disabled": false,
+      "hall": "author-wind-j"
+    },
+    {
+      "id": "beyond-ocean-current-life-story",
+      "title": "沈伯洋｜洋流｜一首歌回顧他的成長與人生軌跡",
+      "creator": "台灣視界∣Taiwan & Beyond",
+      "url": "https://www.youtube.com/watch?v=Icnc84QWNXY",
+      "description": "",
+      "disabled": false,
+      "hall": "author-taiwan-beyond"
+    },
+    {
+      "id": "beyond-ocean-current-four-debate",
+      "title": "沈伯洋｜一戰封神 ⚔️ 趙少康《少康戰情室》專訪靈感創作｜國風搖滾 MV｜洋流4",
+      "creator": "台灣視界∣Taiwan & Beyond",
+      "url": "https://www.youtube.com/watch?v=Nib6t8E77iQ",
+      "description": "",
+      "disabled": false,
+      "hall": "author-taiwan-beyond"
+    },
+    {
+      "id": "beyond-ocean-current-two-taiwanese",
+      "title": "沈伯洋｜洋流 2｜台北啊台北（台語版）｜廣大網友敲碗推出｜從五分埔到淡水河",
+      "creator": "台灣視界∣Taiwan & Beyond",
+      "url": "https://www.youtube.com/watch?v=Og2uGyOXCAY",
+      "description": "",
+      "disabled": false,
+      "hall": "author-taiwan-beyond"
+    },
+    {
+      "id": "beyond-triple-pose-meme",
+      "title": "蔣萬安可愛三連拍變神曲？《三連拍瘋神》🎤 問A答B？｜迷因神曲・原創音樂｜台灣視界",
+      "creator": "台灣視界∣Taiwan & Beyond",
+      "url": "https://www.youtube.com/watch?v=A53Uu2MP1pw",
+      "description": "",
+      "disabled": false,
+      "hall": "author-taiwan-beyond"
+    },
+    {
+      "id": "beyond-dududu-campaign-song",
+      "title": "他很壞！嘟嘟嘟！☎️ 一首送給競選總部的歌……｜迷因神曲・原創音樂｜台灣視界",
+      "creator": "台灣視界∣Taiwan & Beyond",
+      "url": "https://www.youtube.com/watch?v=rqLZAcmqAL0",
+      "description": "",
+      "disabled": false,
+      "hall": "author-taiwan-beyond"
+    },
+    {
+      "id": "ederwa-hope-of-change-rearranged",
+      "title": "台北的向望：沈伯洋 | The Hope of Change: PUMA Shen｜最愛的台語競選歌重新編曲｜#洋流 #台北順起來 #election2026",
+      "creator": "Ederwa Hong",
+      "url": "https://www.youtube.com/watch?v=KnT6Rpz-TPo",
+      "description": "",
+      "disabled": false,
+      "hall": "author-ederwa-hong"
+    },
+    {
+      "id": "ederwa-future-soon",
+      "title": "Future Soon，台北順起來｜沈伯洋 PUMA SHEN｜競選造勢自創歌曲 #election2026",
+      "creator": "Ederwa Hong",
+      "url": "https://www.youtube.com/watch?v=DMcP3oxt6YA",
+      "description": "",
+      "disabled": false,
+      "hall": "author-ederwa-hong"
+    },
+    {
+      "id": "ederwa-firewall-for-formosa",
+      "title": "Firewall for Formosa 自由防線｜沈伯洋 PUMA Shen｜唐鳳 Audrey Tang #numetal #rapmusic #taiwan",
+      "creator": "Ederwa Hong",
+      "url": "https://www.youtube.com/watch?v=5g11k_M6Ad4",
+      "description": "",
+      "disabled": false,
+      "hall": "author-ederwa-hong"
+    },
+    {
+      "id": "ederwa-hope-of-change",
+      "title": "台北的向望 The Hope of Change | 沈伯洋 PUMA SHEN #election2026",
+      "creator": "Ederwa Hong",
+      "url": "https://www.youtube.com/watch?v=fkm3lrJmAwM",
+      "description": "",
+      "disabled": false,
+      "hall": "author-ederwa-hong"
+    },
+    {
+      "id": "ederwa-standing-for-taipei",
+      "title": "守護台北的人 Standing for Taipei | 沈伯洋 PUMA SHEN #洋流 #election2026",
+      "creator": "Ederwa Hong",
+      "url": "https://www.youtube.com/watch?v=0-oHwubKpBE",
+      "description": "",
+      "disabled": false,
+      "hall": "author-ederwa-hong"
+    },
+    {
+      "id": "ederwa-heart-beat",
+      "title": "HEART BEAT：台北大洋流｜沈伯洋 PUMA SHEN｜競選造勢自創歌曲 #election2026 #台北順起來",
+      "creator": "Ederwa Hong",
+      "url": "https://www.youtube.com/watch?v=XSgTzuproUg",
+      "description": "",
+      "disabled": false,
+      "hall": "author-ederwa-hong"
+    },
+    {
+      "id": "ederwa-heart-beat-female-remix",
+      "title": "HEART BEAT (女聲Remix版)｜台北大洋流｜沈伯洋 PUMA SHEN｜競選造勢自創歌曲 #election2026 #台北順起來",
+      "creator": "Ederwa Hong",
+      "url": "https://www.youtube.com/watch?v=NEmv8SF9QFw",
+      "description": "",
+      "disabled": false,
+      "hall": "author-ederwa-hong"
+    },
+    {
+      "id": "ederwa-heart-beat-lyric-visual",
+      "title": "HEART BEAT (字幕視覺版)｜台北大洋流｜沈伯洋 PUMA SHEN｜競選造勢自創歌曲 #election2026 #台北順起來",
+      "creator": "Ederwa Hong",
+      "url": "https://www.youtube.com/watch?v=_VZfONwhNcY",
+      "description": "",
+      "disabled": false,
+      "hall": "author-ederwa-hong"
     }
   ]
 }

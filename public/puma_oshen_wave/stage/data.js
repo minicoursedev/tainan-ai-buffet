@@ -37,6 +37,50 @@ function socialLinks(value = []) {
   });
 }
 
+function hallAisles(hall, stages) {
+  const aisles = [];
+  for (let start = 0; start < Math.max(1, stages.length); start += PER_AISLE) {
+    const code = `${hall.code}${pad2(start / PER_AISLE + 1)}`;
+    const members = stages.slice(start, start + PER_AISLE);
+    const stores = {};
+    const booths = members.map((stage, i) => {
+      stage.boothId = `${code}-${pad2(i + 1)}`;
+      stage.aisleCode = code;
+      stores[stage.id] = { name: stage.title, creator: stage.creator.trim() };
+      return {
+        id: stage.boothId, store: stage.id, pos: i,
+        zone: 'VIDEOS', zoneName: hall.name,
+        works: [{ cover: stage.video.poster, name: stage.title }],
+      };
+    });
+    aisles.push({
+      code, hall: hall.id, hallName: hall.name, stores,
+      islands: booths.length ? [{ side: 'N', zone: 'VIDEOS', zoneName: hall.name, booths }] : [],
+    });
+  }
+  return aisles;
+}
+
+export function createPublicShowcase(catalogue, { random = Math.random, previousHalls = [] } = {}) {
+  const hall = catalogue.halls.find(item => item.id === 'public-stage');
+  if (!hall) throw new Error('找不到公共舞台');
+  const groups = catalogue.halls.map(source => ({
+    id: source.id, stages: catalogue.stages.filter(stage => stage.hallId === source.id),
+  })).filter(group => group.stages.length);
+  const count = Math.min(PER_AISLE, groups.length);
+  const fresh = groups.filter(group => !previousHalls.includes(group.id));
+  const pool = [...(fresh.length >= count ? fresh : groups)];
+  for (let i = pool.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1));
+    [pool[i], pool[j]] = [pool[j], pool[i]];
+  }
+  const stages = pool.slice(0, count).map(group => ({
+    ...group.stages[Math.floor(random() * group.stages.length)],
+    sourceHallId: group.id, hallId: hall.id,
+  }));
+  return { stages, aisles: hallAisles(hall, stages) };
+}
+
 export function createCatalogue(data) {
   if (!Array.isArray(data?.stages)) throw new Error('舞台資料格式不正確');
   const halls = data.halls ?? [{ id: 'puma', name: 'PUMA 館', code: 'S' }];
@@ -62,29 +106,7 @@ export function createCatalogue(data) {
       video: parseVideo(item.url),
     };
   });
-  const aisles = [];
-  for (const hall of halls) {
-    const hallStages = stages.filter(stage => stage.hallId === hall.id);
-    for (let start = 0; start < Math.max(1, hallStages.length); start += PER_AISLE) {
-      const code = `${hall.code}${pad2(start / PER_AISLE + 1)}`;
-      const members = hallStages.slice(start, start + PER_AISLE);
-      const stores = {};
-      const booths = members.map((stage, i) => {
-        stage.boothId = `${code}-${pad2(i + 1)}`;
-        stage.aisleCode = code;
-        stores[stage.id] = { name: stage.title, creator: stage.creator.trim() };
-        return {
-          id: stage.boothId, store: stage.id, pos: i,
-          zone: 'VIDEOS', zoneName: hall.name,
-          works: [{ cover: stage.video.poster, name: stage.title }],
-        };
-      });
-      aisles.push({
-        code, hall: hall.id, hallName: hall.name, stores,
-        islands: booths.length ? [{ side: 'N', zone: 'VIDEOS', zoneName: hall.name, booths }] : [],
-      });
-    }
-  }
+  const aisles = halls.flatMap(hall => hallAisles(hall, stages.filter(stage => stage.hallId === hall.id)));
   return { stages, aisles, halls };
 }
 

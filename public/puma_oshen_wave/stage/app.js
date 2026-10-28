@@ -1,6 +1,6 @@
 import { createWalkView } from '../designer/js/walk.js?v=20261028-creator-socials';
 import { toast } from '../designer/js/state.js';
-import { loadCatalogue } from './data.js?v=20261028-creator-permission';
+import { loadCatalogue, createPublicShowcase } from './data.js?v=20261028-public-showcase';
 import { mountPlayer } from './player.js';
 
 const $ = id => document.getElementById(id);
@@ -11,20 +11,39 @@ const make = (tag, text, className) => {
   return el;
 };
 const KEY = 'pow-stage-visited';
+const PUBLIC_HALL = 'public-stage';
+const PUBLIC_KEY = 'pow-stage-public-halls';
 let visited = new Set();
 try {
   const saved = JSON.parse(localStorage.getItem(KEY) || '[]');
   if (Array.isArray(saved)) visited = new Set(saved.filter(id => typeof id === 'string'));
 } catch { /* Browser storage is optional. */ }
+let previousPublicHalls = [];
+try {
+  const saved = JSON.parse(sessionStorage.getItem(PUBLIC_KEY) || '[]');
+  if (Array.isArray(saved)) previousPublicHalls = saved.filter(id => typeof id === 'string');
+} catch { /* Keep the last selection in memory when storage is unavailable. */ }
 let catalogue, walk, hallId, aisleIndex = 0, nearId = null, mode = 'walk';
+let publicShowcase = null;
 let current = null, returnHash = '#/walk';
 let destroyPlayer = null, continuousIndex = -1;
 const dialog = $('video-dialog');
 const creatorDialog = $('creator-dialog');
 const byBooth = new Map();
 const byId = new Map();
-const hallStages = () => catalogue.stages.filter(stage => stage.hallId === hallId);
+const hallStages = () => hallId === PUBLIC_HALL ? publicShowcase.stages : catalogue.stages.filter(stage => stage.hallId === hallId);
 const currentHall = () => catalogue.halls.find(hall => hall.id === hallId);
+
+function refreshPublicShowcase() {
+  publicShowcase = createPublicShowcase(catalogue, { previousHalls: previousPublicHalls });
+  previousPublicHalls = publicShowcase.stages.map(stage => stage.sourceHallId);
+  try { sessionStorage.setItem(PUBLIC_KEY, JSON.stringify(previousPublicHalls)); } catch { /* Storage is optional. */ }
+  catalogue.aisles = catalogue.halls.flatMap(hall => hall.id === PUBLIC_HALL
+    ? publicShowcase.aisles : catalogue.aisles.filter(aisle => aisle.hall === hall.id));
+  byBooth.clear();
+  for (const stage of catalogue.stages.filter(stage => stage.hallId !== PUBLIC_HALL)) byBooth.set(stage.boothId, stage);
+  for (const stage of publicShowcase.stages) byBooth.set(stage.boothId, stage);
+}
 
 function stageUrl(id) {
   const url = new URL(location.href);
@@ -44,7 +63,7 @@ function updateStatus() {
 function updateHall() {
   const hall = currentHall();
   $('where-hall').textContent = hall.name;
-  $('list-title').textContent = `${hall.name}｜影片列表`;
+  $('list-title').textContent = `${hall.name}｜${hallId === PUBLIC_HALL ? '本次精選' : '影片列表'}`;
   $('map-title').textContent = `${hall.name}｜舞台地圖`;
   $('hall-select').value = hallId;
   const empty = !hallStages().length;
@@ -66,6 +85,10 @@ function setMode(next, navigate = true) {
 
 function goToAisle(index, boothId = null, from = null) {
   if (!catalogue.aisles[index]) return;
+  if (catalogue.aisles[index].hall === PUBLIC_HALL && hallId !== PUBLIC_HALL) {
+    refreshPublicShowcase();
+    index = catalogue.aisles.findIndex(aisle => aisle.hall === PUBLIC_HALL);
+  }
   aisleIndex = index;
   const aisle = catalogue.aisles[index];
   hallId = aisle.hall;
@@ -236,8 +259,9 @@ function route() {
   if (next === 'stage') {
     const stage = byId.get(target);
     if (stage) {
-      goToAisle(catalogue.aisles.findIndex(aisle => aisle.code === stage.aisleCode), stage.boothId);
-      returnHash = `#/walk/${stage.aisleCode}`;
+      const index = catalogue.aisles.findIndex(aisle => stage.hallId === PUBLIC_HALL ? aisle.hall === PUBLIC_HALL : aisle.code === stage.aisleCode);
+      goToAisle(index, stage.hallId === PUBLIC_HALL ? null : stage.boothId);
+      returnHash = `#/walk/${catalogue.aisles[aisleIndex].code}`;
       openStage(stage, false);
       return;
     }
@@ -248,13 +272,16 @@ function route() {
     if (index >= 0) goToAisle(index);
     return setMode(next, false);
   }
+  if (!target && (!next || next === 'walk')) {
+    if (hallId === PUBLIC_HALL) hallId = null;
+    return goToAisle(0);
+  }
   const index = catalogue.aisles.findIndex(aisle => aisle.code === target?.split('-')[0]);
   goToAisle(index < 0 ? aisleIndex : index, byBooth.has(target) ? target : null);
 }
 
 async function boot() {
   catalogue = await loadCatalogue();
-  hallId = catalogue.halls[0].id;
   $('hall-select').replaceChildren(...catalogue.halls.map(hall => {
     const option = make('option', hall.name);
     option.value = hall.id;
@@ -313,7 +340,6 @@ async function boot() {
   $('walk-canvas').addEventListener('pointerdown', () => $('hint').classList.add('is-gone'), { once: true });
   window.addEventListener('hashchange', route);
   window.addEventListener('pagehide', stopPlayer);
-  goToAisle(0);
   route();
 }
 

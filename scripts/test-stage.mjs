@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { createCatalogue, parseVideo } from '../public/puma_oshen_wave/stage/data.js';
+import { createCatalogue, createPublicShowcase, parseVideo } from '../public/puma_oshen_wave/stage/data.js';
 
 const videoUrl = 'https://www.youtube.com/watch?v=LnIlsGFRB_4';
 const record = id => ({ id, title: `影片 ${id}`, creator: '創作者', url: videoUrl });
@@ -72,6 +72,49 @@ test('halls keep separate aisles and retain an empty hall for upcoming videos', 
   assert.deepEqual(populated.aisles[2].islands[0].booths.map(booth => booth.store), ['chiaohui-one']);
   assert.equal(populated.stages[4].boothId, 'S02-01');
   assert.throws(() => createCatalogue({ halls, stages: [{ ...record('unknown'), hall: 'unknown' }] }));
+});
+
+test('public showcase takes one video from each of four halls without moving the originals', () => {
+  const halls = [{ id: 'public-stage', name: '公共舞台', code: 'P' }, ...['A', 'B', 'C', 'D'].map(code => ({ id: code.toLowerCase(), name: `作者 ${code}`, code }))];
+  const stages = halls.flatMap(hall => Array.from({ length: 2 }, (_, i) => ({ ...record(`${hall.id}-${i}`), hall: hall.id, creator: hall.name })));
+  const catalogue = createCatalogue({ halls, stages, creators: { '作者 A': { permission: true, socials: [{ label: 'Threads', url: 'https://www.threads.com/@a' }] } } });
+  const before = structuredClone(catalogue);
+  const showcase = createPublicShowcase(catalogue, { random: () => 0.999 });
+  assert.equal(showcase.stages.length, 4);
+  assert.equal(new Set(showcase.stages.map(stage => stage.sourceHallId)).size, 4);
+  assert.equal(showcase.stages[0].sourceHallId, 'public-stage');
+  assert.deepEqual(showcase.stages.map(stage => stage.boothId), ['P01-01', 'P01-02', 'P01-03', 'P01-04']);
+  assert.equal(showcase.aisles.length, 1);
+  assert.ok(showcase.aisles[0].islands.every(island => island.side === 'N'));
+  for (const stage of showcase.stages) {
+    const original = catalogue.stages.find(item => item.id === stage.id);
+    assert.notEqual(stage, original);
+    assert.equal(stage.hallId, 'public-stage');
+    assert.equal(stage.sourceHallId, original.hallId);
+    for (const field of ['id', 'title', 'creator', 'socials', 'permission', 'video']) assert.deepEqual(stage[field], original[field]);
+  }
+  assert.deepEqual(catalogue, before);
+});
+
+test('returning to public showcase uses other halls when at least four are available', () => {
+  const halls = [{ id: 'public-stage', name: '公共舞台', code: 'P' }, ...'ABCDEFGH'.split('').map(code => ({ id: code.toLowerCase(), name: code, code }))];
+  const catalogue = createCatalogue({ halls, stages: halls.map(hall => ({ ...record(`video-${hall.id}`), hall: hall.id })) });
+  const first = createPublicShowcase(catalogue, { random: () => 0.999 });
+  const previousHalls = first.stages.map(stage => stage.sourceHallId);
+  const next = createPublicShowcase(catalogue, { random: () => 0.999, previousHalls });
+  assert.equal(next.stages.length, 4);
+  assert.ok(next.stages.every(stage => !previousHalls.includes(stage.sourceHallId)));
+});
+
+test('public showcase handles empty and small catalogues without repeating a source hall', () => {
+  const halls = [{ id: 'public-stage', name: '公共舞台', code: 'P' }, { id: 'author', name: '作者', code: 'A' }];
+  const empty = createPublicShowcase(createCatalogue({ halls, stages: [] }));
+  assert.equal(empty.stages.length, 0);
+  assert.deepEqual(empty.aisles[0].islands, []);
+  const catalogue = createCatalogue({ halls, stages: halls.flatMap(hall => [0, 1].map(i => ({ ...record(`${hall.id}-${i}`), hall: hall.id }))) });
+  const showcase = createPublicShowcase(catalogue, { random: () => 0, previousHalls: halls.map(hall => hall.id) });
+  assert.equal(showcase.stages.length, 2);
+  assert.equal(new Set(showcase.stages.map(stage => stage.sourceHallId)).size, 2);
 });
 
 test('the current catalogue preserves video identity and groups single-song authors on the public stage', async () => {
