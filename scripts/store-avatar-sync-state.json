@@ -11860,7 +11860,7 @@
         {
           "source": "https://www.facebook.com/rightslifter/",
           "platform": "facebook",
-          "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/293529024_449886107146953_2803764001220644048_n.jpg?stp=dst-jpg_tt6&cstp=mx461x461&ctp=s461x461&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rRkvqlMovm8Q7kNvwG87SEJ&_nc_oc=AdoU2R1xhZhsBcWh1TH2vW3QJXGbGNO5m1vmUr5ZHZDBGHpWnfiUgWoViUlHsk0dxZM&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=4awnmQsUrzwUHkgMMozUKg&_nc_ss=7920f&oh=00_AQSgooV0S1DoNUP3wuBzi_aQ1sT-HFMNFoueoURJt3Aa-Q&oe=6AE7844D",
+          "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/293529024_449886107146953_2803764001220644048_n.jpg?stp=dst-jpg_tt6&cstp=mx461x461&ctp=s461x461&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rRkvqlMovm8Q7kNvwG87SEJ&_nc_oc=AdoU2R1xhZhsBcWh1TH2vW3QJXGbGNO5m1vmUr5ZHZDBGHpWnfiUgWoViUlHsk0dxZM&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=NwLlXhCwyO-QWOj_loDt_Q&_nc_ss=7920f&oh=00_AQSr-tjw7KSoz4HK8zi65eE1n7tTuB-WW7KclC5A8ykong&oe=6AE7BC8D",
           "size": [
             461,
             461
@@ -11884,15 +11884,15 @@
         "last-modified": "Wed, 13 Jul 2022 20:30:16 GMT"
       },
       "source": "https://www.facebook.com/rightslifter/",
-      "imageUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/293529024_449886107146953_2803764001220644048_n.jpg?stp=dst-jpg_tt6&cstp=mx461x461&ctp=s461x461&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rRkvqlMovm8Q7kNvwG87SEJ&_nc_oc=AdoU2R1xhZhsBcWh1TH2vW3QJXGbGNO5m1vmUr5ZHZDBGHpWnfiUgWoViUlHsk0dxZM&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=4awnmQsUrzwUHkgMMozUKg&_nc_ss=7920f&oh=00_AQSgooV0S1DoNUP3wuBzi_aQ1sT-HFMNFoueoURJt3Aa-Q&oe=6AE7844D",
+      "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/293529024_449886107146953_2803764001220644048_n.jpg?stp=dst-jpg_tt6&cstp=mx461x461&ctp=s461x461&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rRkvqlMovm8Q7kNvwG87SEJ&_nc_oc=AdoU2R1xhZhsBcWh1TH2vW3QJXGbGNO5m1vmUr5ZHZDBGHpWnfiUgWoViUlHsk0dxZM&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=NwLlXhCwyO-QWOj_loDt_Q&_nc_ss=7920f&oh=00_AQSr-tjw7KSoz4HK8zi65eE1n7tTuB-WW7KclC5A8ykong&oe=6AE7BC8D",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；熊熊舉起 Hui-Hîm the rights-lifter | Tainan ",
       "filename": "the-rights-lifter-tainan/logo.webp",
-      "lastSuccess": "2026-10-28T16:18:07+08:00",
+      "lastSuccess": "2026-10-28T19:20:04+08:00",
       "discoveryVersion": 3,
       "sourceValidators": {},
-      "lastAttempt": "2026-10-28T16:18:07+08:00",
-      "result": "updated",
-      "reason": "首次保存"
+      "lastAttempt": "2026-10-28T19:20:04+08:00",
+      "result": "unchanged",
+      "reason": "像素內容相同或僅有輕微轉碼差異"
     },
     "sancoffeeandlife": {
       "qualityChecks": [
