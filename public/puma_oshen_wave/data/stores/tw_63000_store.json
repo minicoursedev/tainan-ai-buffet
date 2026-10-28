@@ -116,12 +116,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/10830258484",
       "coordinateNote": "OpenStreetMap 完整地址查詢無結果，改以 street=26 中山北路一段33巷、city=中山區、state=臺北市、country=Taiwan 的結構化查詢，取得門牌節點10830258484。讀取官方節點 API，核對 addr:city=臺北市、addr:district=中山區、addr:street=中山北路一段33巷、addr:housenumber=26號，完整地址與店家營業地址一致；採節點 lat25.0486044、lon121.5222852，非道路中心或地圖視窗中心。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/egg-milk-tree/logo.webp?v=8c0effbd9d39eb96",
         "source": "https://www.facebook.com/egg.milk.tree/",
         "platform": "facebook",
         "status": "verified",
-        "checkedAt": "2026-10-28",
-        "note": "官方 Facebook 公開 HTML 的 upsellConfig 明示 surface=profile、profile_name=蛋奶樹 蔬食專賣 | Taipei，image_url 為照片304885049_479360747531082_3619675804092577199的200px個人頭像；同頁原生 og:image 提供相同照片ID的720px版本，已交叉確認為個人頭像，並非僅憑 og:image 推定。2026-10-28 以官方頁原樣提供的網址 GET 確認 HTTP 200、Content-Type image/jpeg，JPEG實際尺寸720×720（70,236 bytes），符合Logo來源長邊至少256px要求；未改寫CDN尺寸或簽章參數。尚未發布的圖片網址維持空白。"
+        "checkedAt": "2026-10-29",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；蛋奶樹 蔬食專賣 | Taipei ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
       },
       "visitNote": "蔬食餐廳，供應義大利麵、燉飯及自家烘焙天然酵母歐式麵包；電話02-2521-6801。營業時間與店休日請先向店家確認。"
     }

@@ -7263,12 +7263,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11052899289",
       "coordinateNote": "OpenStreetMap 以123 復興路、新營區、臺南市、Taiwan結構化查詢取得門牌節點11052899289；排除不同門牌「1之123號」結果。另讀取OSM官方API確認addr:full為臺南市新營區永平里19鄰復興路123號、addr:housenumber為123號，與現行商店地址一致。lat23.3033243、lon120.3102939取自該門牌節點，非道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/identitea-xinying/logo.webp?v=86954a4eb075596c",
         "source": "https://www.facebook.com/sharetea520/",
         "platform": "facebook",
         "status": "verified",
-        "checkedAt": "2026-10-28",
-        "note": "官方頁 og:url 與指定帳號相符，profile_name 為茶有此人 identitea；公開路由資料的個人頭像 image_url 與 og:image 使用相同照片ID 1319682863276043及個人頭像CDN路徑 t39.30808-1，非僅憑分享圖判定。採官方HTML明示的385×386版本，實際回應HTTP200、image/jpeg，JPEG原生尺寸385×386，已足供Logo用途；未改尺寸或簽章參數，未下載轉存或放大。新店圖片網址待固定流程填入。查證圖片完整網址：https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/562135569_1319682863276043_2995459234838045613_n.jpg?stp=dst-jpg_tt6&cstp=mx385x386&ctp=s385x386&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FkM4wdHfD4QQ7kNvwEa2uSI&_nc_oc=AdqXKhVQ1OvjiG5w5JOotmza0WfIq1DjeT9O-UXh764eWb7xtzCYx8a6CBDQ033a-7c&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=p-myQGETnVa7FtC2Y0KzLg&_nc_ss=7f20f&oh=00_AQSAKpBQ6gJ6DOv0KNjYvFpDjeiSdSwklRBqg3OW5SHkfg&oe=6AE802D1"
+        "checkedAt": "2026-10-29",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；茶有此人 identitea；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 385 × 386。"
       },
       "visitNote": "手作茶飲店，前身為歇腳亭新營復興店，沿用原官方 Facebook 帳號。"
     },
@@ -7310,12 +7310,12 @@
       "coordinateSource": "https://www.google.com/maps/place/%E6%AC%A3%E6%82%85%E9%A3%9F%E5%A0%82+%E6%89%8B%E4%BD%9C%E6%97%A5%E5%BC%8F%E6%96%99%E7%90%86/@22.980576,120.209719,25305m/data=!3m1!1e3!4m6!3m5!1s0x346e77722ad672ab:0x32beb2663d8ef3a0!8m2!3d22.9780685!4d120.2205316!16s%2Fg%2F11v4m7719s?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
       "coordinateNote": "OpenStreetMap Nominatim 完整地址及 street=15 崇學路、city=臺南市、county=東區的結構化查詢皆遭 HTTP 403，未取得可用門牌。改以 Chromium 實際瀏覽店家介紹文章所連 Google Maps，核對地點「欣悅食堂 手作日式料理」、地址「701臺南市東區德光里崇學路15號」、電話0906 560 458及 Instagram 外連。座標取自實際地點網址 !3d22.9780685!4d120.2205316，非 @ 地圖視窗中心。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/xin-yue-restaurant/logo.webp?v=ecf74ab5944bb67a",
         "source": "https://www.facebook.com/profile.php?id=100095616038522",
         "platform": "facebook",
         "status": "verified",
-        "checkedAt": "2026-10-28",
-        "note": "Facebook 個人頁 profile 路由的 userID=100095616038522、profile_name 為欣悅食堂，個人頭像 image_url 與頁面明示720px版本為同一圖檔367472624_108404179023450_6430287039070110975_n.jpg，據此確認為個人頁頭像，非僅憑 og:image 推定。原頁明示版本經 HTTP 200、Content-Type image/jpeg 及 JPEG 標頭確認原生720×720，足供 Logo 使用；未改寫 CDN 尺寸或簽章參數。新店圖片網址留空。"
+        "checkedAt": "2026-10-29",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；欣悅食堂 | East District, Tainan City ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
       },
       "visitNote": "供應手作日式料理，提供內用與外帶；電話0906-560-458。"
     }
