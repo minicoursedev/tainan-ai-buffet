@@ -7223,6 +7223,54 @@
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；穿牆貓  Cat  Traveller  Caf'e | Tainan ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 695。"
       },
       "visitNote": "老屋咖啡廳，供應咖啡與法式甜點；官方公告低消每人一杯飲品。電話06-2085211，店休日請先查看官方公告。"
+    },
+    {
+      "id": "identitea-xinying",
+      "verification": true,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "茶有此人 identitea",
+      "address": "臺南市新營區復興路123號",
+      "social": {
+        "facebook": "https://www.facebook.com/sharetea520/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/sharetea520/",
+        "https://www.1992lianfa.com/news_detail/34",
+        "https://www.ubereats.com/tw-en/store/%E8%8C%B6%E6%9C%89%E6%AD%A4%E4%BA%BA/sgoOz_auUlynkbmi_y9AYQ",
+        "https://www.openstreetmap.org/node/11052899289",
+        "https://www.openstreetmap.org/api/0.6/node/11052899289.json"
+      ],
+      "verifiedAt": "2026-10-28",
+      "verificationNote": "使用者指定收錄，新增店家的 verification 設為布林值 true。官方 Facebook 現行 og:title 及 profile_name 均為「茶有此人 identitea」，簡介明示前身為歇腳亭新營復興店，舊品牌於2025年9月30日結束、2025年11月29日成立新品牌；品牌母公司舊文亦直接連結本帳號，確認帳號沿用關係。現行 Uber Eats「茶有此人」商店頁核對對外營業地址為臺南市新營區復興路123號，依茶飲店性質歸為甜點飲料，不因舊品牌結束而將現店標為下架。已比對快照全部紀錄（含 disabled）的現名、舊名、地址、電話及社群帳號，未發現重複。Instagram 與 Threads 未取得可確認的官方帳號，留空。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "門市現行營業時間待確認；Uber Eats 平台列週一至週六09:00–19:00供餐，未能據此確認門市時段或週日是否公休，請以店家公告為準。",
+        "sources": [
+          "https://www.facebook.com/sharetea520/",
+          "https://www.ubereats.com/tw-en/store/%E8%8C%B6%E6%9C%89%E6%AD%A4%E4%BA%BA/sgoOz_auUlynkbmi_y9AYQ"
+        ],
+        "checkedAt": "2026-10-28",
+        "auditNote": "現行官方 Facebook 公開頁及 about 入口可核對名稱與更名簡介，但未取得可讀的門市營業時間。舊品牌各第三方時段不同，未沿用或自行擇一；外送平台供餐時間與門市營業時間分別記錄。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.3033243,
+        "lng": 120.3102939
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11052899289",
+      "coordinateNote": "OpenStreetMap 以123 復興路、新營區、臺南市、Taiwan結構化查詢取得門牌節點11052899289；排除不同門牌「1之123號」結果。另讀取OSM官方API確認addr:full為臺南市新營區永平里19鄰復興路123號、addr:housenumber為123號，與現行商店地址一致。lat23.3033243、lon120.3102939取自該門牌節點，非道路或地圖視窗中心。",
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.facebook.com/sharetea520/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-28",
+        "note": "官方頁 og:url 與指定帳號相符，profile_name 為茶有此人 identitea；公開路由資料的個人頭像 image_url 與 og:image 使用相同照片ID 1319682863276043及個人頭像CDN路徑 t39.30808-1，非僅憑分享圖判定。採官方HTML明示的385×386版本，實際回應HTTP200、image/jpeg，JPEG原生尺寸385×386，已足供Logo用途；未改尺寸或簽章參數，未下載轉存或放大。新店圖片網址待固定流程填入。查證圖片完整網址：https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/562135569_1319682863276043_2995459234838045613_n.jpg?stp=dst-jpg_tt6&cstp=mx385x386&ctp=s385x386&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FkM4wdHfD4QQ7kNvwEa2uSI&_nc_oc=AdqXKhVQ1OvjiG5w5JOotmza0WfIq1DjeT9O-UXh764eWb7xtzCYx8a6CBDQ033a-7c&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=p-myQGETnVa7FtC2Y0KzLg&_nc_ss=7f20f&oh=00_AQSAKpBQ6gJ6DOv0KNjYvFpDjeiSdSwklRBqg3OW5SHkfg&oe=6AE802D1"
+      },
+      "visitNote": "手作茶飲店，前身為歇腳亭新營復興店，沿用原官方 Facebook 帳號。"
     }
   ],
   "pendingStores": []
