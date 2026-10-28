@@ -15021,6 +15021,54 @@
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；熊熊舉起 Hui-Hîm the rights-lifter | Tainan ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 461 × 461。"
       },
       "visitNote": "舉重、健力與體能訓練工作室，採預約制；到訪前請先聯繫官方社群。"
+    },
+    {
+      "id": "sancoffeeandlife",
+      "verification": true,
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "SAN Coffee & Dessert",
+      "address": "臺北市大安區杭州南路二段33號A2攤位",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/sancoffeeandlife/",
+        "threads": "https://www.threads.com/@sancoffeeandlife"
+      },
+      "sources": [
+        "https://www.threads.com/@sancoffeeandlife",
+        "https://www.instagram.com/sancoffeeandlife/",
+        "https://maps.app.goo.gl/NiqKyrtxiSkfCesF6?g_st=ic",
+        "https://maps.google.com/maps/place/%E4%B8%89san/data=!4m2!3m1!1s0x3442a9548536a85f:0x74d721066d0aa1bd"
+      ],
+      "verifiedAt": "2026-10-28",
+      "verificationNote": "使用者指定收錄。官方 Threads 顯示名為 SAN Coffee & Dessert｜咖啡 × 甜點 × 好日子，簡介明示杭州南路二段33號A2攤位及精品咖啡、台灣茶飲、手作甜點；Instagram 個人頁實際核對相同帳號、完整店名及試營運資訊。官方 Threads「來找我們」實際外連 Google Maps，該地點名為三san，地址核對為臺北市大安區杭州南路二段33號。地圖仍外連另一舊社群 santaipei，其簡介含不同舊址，未確認適用本攤位，未以舊資料覆寫現址或納入本店社群。Facebook 未能確認，故留空。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "官方社群標示試營運期間週二至週日08:00–15:00、週一公休；官方所連 Google Maps 地點標示週二至週五08:00–15:00、週六日09:00–15:00、週一公休。現行週末開店時間待確認，請以店家公告為準。",
+        "sources": [
+          "https://www.threads.com/@sancoffeeandlife",
+          "https://www.instagram.com/sancoffeeandlife/",
+          "https://maps.app.goo.gl/NiqKyrtxiSkfCesF6?g_st=ic"
+        ],
+        "checkedAt": "2026-10-28",
+        "auditNote": "Threads 簡介原文為二～日8ap-15pm；Instagram 簡介明示試營運期間Tue-Sun 8am-15pm，佐證為08:00–15:00。官方外連 Maps 地點三san的週末時間不同，且仍保留舊社群連結，未確認地圖時段是否適用此A2攤位，故未自行擇一填定。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 25.0335919,
+        "lng": 121.5234273
+      },
+      "coordinateSource": "https://maps.google.com/maps/place/%E4%B8%89san/data=!4m2!3m1!1s0x3442a9548536a85f:0x74d721066d0aa1bd",
+      "coordinateNote": "OpenStreetMap 完整地址查無結果，結構化查詢僅回傳道路，未採用。由官方 Threads「來找我們」實際外連 Google Maps 短連結，核對三san地點的行政區與杭州南路二段33號門牌；地點頁原生 /maps/preview/place 公開資料的地點欄位明示25.033591899999998、121.5234273，採用該門牌地點座標，非@地圖視窗中心。未取得!3d與!4d格式的地點網址；座標代表33號門牌位置，未確認A2攤位入口。",
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.threads.com/@sancoffeeandlife",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-28",
+        "note": "官方 Threads 公開 user 資料的 username 為 sancoffeeandlife，full_name 為 SAN Coffee & Dessert｜咖啡 × 甜點 × 好日子，hd_profile_pic_versions 明示320與640頭像版本。已核對原生320版本HTTP 200、Content-Type image/jpeg，記憶體解析JPEG尺寸為320×320；未改寫CDN尺寸或簽章參數，非100px分享縮圖。新店圖片網址留空待後續處理。"
+      },
+      "visitNote": "市場內A2攤位，官方簡介標示可帶外食、寵物友善。"
     }
   ],
   "pendingStores": []
