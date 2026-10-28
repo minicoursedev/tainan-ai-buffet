@@ -15069,6 +15069,52 @@
         "note": "官方 Threads 公開 user 資料的 username 為 sancoffeeandlife，full_name 為 SAN Coffee & Dessert｜咖啡 × 甜點 × 好日子，hd_profile_pic_versions 明示320與640頭像版本。已核對原生320版本HTTP 200、Content-Type image/jpeg，記憶體解析JPEG尺寸為320×320；未改寫CDN尺寸或簽章參數，非100px分享縮圖。新店圖片網址留空待後續處理。"
       },
       "visitNote": "市場內A2攤位，官方簡介標示可帶外食、寵物友善。"
+    },
+    {
+      "id": "jia-wei-motorcycle-yanshui",
+      "verification": true,
+      "category": "其它",
+      "giftStatus": "可能有小物",
+      "name": "佳暐機車行",
+      "address": "臺南市鹽水區月港里三福路121-10號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100066699315729",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/profile.php?id=100066699315729",
+        "https://www.facebook.com/photo/?fbid=424193726480601&set=a.424193703147270",
+        "https://www.google.com/maps/place/KYMCO+%E5%85%89%E9%99%BD%E6%A9%9F%E8%BB%8A+%E4%BD%B3%E6%9A%90%E6%A9%9F%E8%BB%8A%E8%A1%8C/data=!4m7!3m6!1s0x346e85e87717320b:0x6b766c0dda4f76ac!8m2!3d23.3230834!4d120.263476!16s%2Fg%2F11gh9nqq1b!19sChIJCzIXd-iFbjQRrHZP2g1sdms?authuser=0&hl=zh-TW",
+        "https://www.kymco.com.tw/event2024/kymco_care/kymco_care.pdf",
+        "https://tscc.tn.edu.tw/upload/counseling/202502031649185233.pdf"
+      ],
+      "verifiedAt": "2026-10-28",
+      "verificationNote": "使用者指定收錄。官方 Facebook 個人頁核對店名、營業地址、營業時間及機車保養維修、新車銷售服務；光陽官方店家名單與臺南市教育網社區師傅店家名單交叉核對地址，Google Maps 店家地點亦顯示相同完整地址及電話。機車服務沿用「其它」分類；Instagram 與 Threads 未取得可確認的官方帳號，留空。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週一至週六 09:00–21:00；週日 09:00–12:00，亦可能臨時休假，請先致電詢問。",
+        "sources": [
+          "https://www.facebook.com/profile.php?id=100066699315729"
+        ],
+        "checkedAt": "2026-10-28"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.3230834,
+        "lng": 120.263476
+      },
+      "coordinateSource": "https://www.google.com/maps/place/KYMCO+%E5%85%89%E9%99%BD%E6%A9%9F%E8%BB%8A+%E4%BD%B3%E6%9A%90%E6%A9%9F%E8%BB%8A%E8%A1%8C/data=!4m7!3m6!1s0x346e85e87717320b:0x6b766c0dda4f76ac!8m2!3d23.3230834!4d120.263476!16s%2Fg%2F11gh9nqq1b!19sChIJCzIXd-iFbjQRrHZP2g1sdms?authuser=0&hl=zh-TW",
+      "coordinateNote": "OpenStreetMap 完整門牌、121號之10寫法及街道與門牌結構化查詢均未取得精確門牌，未採道路中心。以 Chromium 瀏覽 Google Maps 店家地點頁，核對「KYMCO 光陽機車 佳暐機車行」、完整地址「737臺南市鹽水區月港里三福路121-10號」及電話06-6526587；從實際地點網址 !3d23.3230834!4d120.263476 取得座標，非 @ 地圖視窗中心。",
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.facebook.com/profile.php?id=100066699315729",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-28",
+        "note": "官方 Facebook profilePhoto／profile_photo 指向照片424193726480601；profilePicLarge 與頁面明示 og:image 為相同檔名302423197_424193723147268_3209249103767008194_n.jpg，確認為個人檔案頭像。直接使用官方頁明示的720px版本，未改寫尺寸或簽章參數；實測HTTP 200、image/jpeg，原生715×720，符合Logo來源需求。新店圖片網址尚未填入。"
+      },
+      "visitNote": "提供機車保養維修及新車銷售；電話06-6526587。"
     }
   ],
   "pendingStores": []
