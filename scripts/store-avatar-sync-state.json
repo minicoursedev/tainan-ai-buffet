@@ -11971,6 +11971,45 @@
       "lastAttempt": "2026-10-28T19:15:59+08:00",
       "result": "updated",
       "reason": "首次保存"
+    },
+    "cat-traveller-cafe": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/cat.traveller.cafe/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/294179468_429414945868423_677123973669450602_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1977&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Q_ogMQZ9VUsQ7kNvwFegUPv&_nc_oc=AdoTWgDxb7SPFbawy00v7L7xIlM0pu7Kfn9lM-E8GX0Cj70X_6q1vXQCN0VaovGF4o0&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=Yt0N2fHn9eRRuvLMaw61ng&_nc_ss=7920f&oh=00_AQQLcJeOqQhB7GBQ3n4m4Ba9BOSGfCVFe3WTsLY9xdEoPw&oe=6AE80350",
+          "size": [
+            720,
+            695
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；穿牆貓  Cat  Traveller  Caf'e | Tainan ",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "57e3c94b9718d086a7ee014ac8f1212d6c7a1259cd9a1458f421c615bcc7d4d1",
+      "contentBox": [
+        0,
+        4,
+        256,
+        251
+      ],
+      "sourceSize": [
+        720,
+        695
+      ],
+      "imageValidators": {
+        "last-modified": "Fri, 22 Jul 2022 22:27:57 GMT"
+      },
+      "source": "https://www.facebook.com/cat.traveller.cafe/",
+      "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/294179468_429414945868423_677123973669450602_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1977&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Q_ogMQZ9VUsQ7kNvwFegUPv&_nc_oc=AdoTWgDxb7SPFbawy00v7L7xIlM0pu7Kfn9lM-E8GX0Cj70X_6q1vXQCN0VaovGF4o0&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=Yt0N2fHn9eRRuvLMaw61ng&_nc_ss=7920f&oh=00_AQQLcJeOqQhB7GBQ3n4m4Ba9BOSGfCVFe3WTsLY9xdEoPw&oe=6AE80350",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；穿牆貓  Cat  Traveller  Caf'e | Tainan ",
+      "filename": "cat-traveller-cafe/logo.webp",
+      "lastSuccess": "2026-10-28T23:36:51+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-10-28T23:36:51+08:00",
+      "result": "updated",
+      "reason": "首次保存"
     }
   }
 }
