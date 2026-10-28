@@ -15116,6 +15116,54 @@
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；佳暐機車行 | Tainan ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 715 × 720。"
       },
       "visitNote": "提供機車保養維修及新車銷售；電話06-6526587。"
+    },
+    {
+      "id": "cat-traveller-cafe",
+      "verification": true,
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "穿牆貓Cat Traveller",
+      "address": "臺南市東區裕農路291巷55號1樓",
+      "social": {
+        "facebook": "https://www.facebook.com/cat.traveller.cafe/",
+        "instagram": "https://www.instagram.com/cat.traveller/",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/cat.traveller.cafe/",
+        "https://www.instagram.com/cat.traveller/",
+        "https://niceclaup313.pixnet.net/blog/posts/8233704149",
+        "https://www.openstreetmap.org/node/8153347675",
+        "https://www.openstreetmap.org/api/0.6/node/8153347675.json"
+      ],
+      "verifiedAt": "2026-10-28",
+      "verificationNote": "使用者指定收錄並指定新增店家的 verification 為布林值 true。官方 Instagram 顯示穿牆貓 Cat Traveller Café，簡介明示咖啡、法式甜點、地址及電話；官方 Facebook 店名與帳號相符，使用者提供的部落格亦記載相同地址。依咖啡廳性質及既有分類歸為咖啡廳。OpenStreetMap 同名咖啡廳節點的完整門牌、樓層及 Facebook 外連均吻合；未發現可確認的官方 Threads 帳號，留空。已比對快照全部店家（含 disabled 紀錄）的名稱、地址與社群，未發現重複。",
+      "openingHours": {
+        "status": "verified",
+        "text": "13:00–18:00；每月店休日請見 Facebook 置頂公告。",
+        "sources": [
+          "https://www.instagram.com/cat.traveller/",
+          "https://www.facebook.com/cat.traveller.cafe/"
+        ],
+        "checkedAt": "2026-10-28",
+        "auditNote": "官方 Instagram 個人頁現行 meta description 明示營業時間13:00–18:00；官方 Facebook 的 og:description 明示每月店休日請先看置頂文，不推定每日營業或固定公休日。2023年參考部落格記載週二至週六13:00–18:30，其他第三方資料另有週四至週日11:00–17:00，OSM 節點則列週二至週六12:00–17:30，均與官方現行簡介不同；本次採現行官方資訊，臨時異動以店家公告為準。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9869859,
+        "lng": 120.2283696
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8153347675",
+      "coordinateNote": "OpenStreetMap 完整地址自由文字查詢無結果，改以街道門牌55 裕農路291巷、城市臺南市、行政區東區及國家Taiwan的結構化查詢，命中穿牆貓節點8153347675。另讀取該節點官方OSM API，確認addr:full為臺南市東區裕農路291巷55號一樓，店名及Facebook外連均與官方資料相符；lat22.9869859、lon120.2283696取自該店家門牌節點，非道路或地圖視窗中心。",
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.facebook.com/cat.traveller.cafe/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-28",
+        "note": "官方 Facebook 個人頁標題為穿牆貓 Cat Traveller Caf'e | Tainan；頁內 upsellConfig 的 surface=profile、profile_name 及 image_url 對應相同頭像影像ID 294179468_429414945868423_677123973669450602，佐證 og:image 為個人檔案頭像。頁面原生提供 cstp=mx2048x1977、ctp=s720x720 版本，未改寫CDN尺寸或簽章參數；該原生來源 HEAD 回應HTTP 200、Content-Type image/jpeg，足供256px Logo來源。Instagram 分享頭像僅100px，未採用。未下載圖片本體，實際解碼尺寸及256px保存由批次圖片流程核對；新店圖片網址尚未填入。"
+      },
+      "visitNote": "老屋咖啡廳，供應咖啡與法式甜點；官方公告低消每人一杯飲品。電話06-2085211，店休日請先查看官方公告。"
     }
   ],
   "pendingStores": []
