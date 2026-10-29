@@ -72,6 +72,8 @@ export function createCatalogue(data) {
       stores[designer.id] = {
         id: designer.id, name: designer.name, owner: designer.name,
         avatar: designer.logo?.status === 'verified' ? imageUrl(designer.logo.url) : '',
+        avatarFit: designer.logo?.fit === 'contain' ? 'contain' : 'cover',
+        productsUrl: imageUrl(designer.productsUrl),
         social, verification: designer.verification === true, booths: 1,
       };
       search.push([id, designer.name, designer.name, ZONE.name, HALL.code, '']);

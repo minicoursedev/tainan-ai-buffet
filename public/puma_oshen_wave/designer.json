@@ -2313,13 +2313,15 @@
         "web": ""
       },
       "logo": {
-        "url": "",
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yang-liu/logo.webp?v=e89f25f0c832ab36",
         "source": "",
-        "platform": "",
-        "status": "unverified",
+        "platform": "user-provided",
+        "status": "verified",
         "checkedAt": "2026-10-29",
-        "note": "未提供 Logo，尚未確認官方個人檔案頭像。"
-      }
+        "note": "使用者提供洋流圖稿，保留完整比例作為作者頭像。",
+        "fit": "contain"
+      },
+      "productsUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/data/designers/yang-liu.products.json"
     }
   ]
 }

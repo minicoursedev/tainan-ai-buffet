@@ -1,0 +1,21 @@
+{
+  "designerId": "yang-liu",
+  "products": [
+    {
+      "id": "yang-liu-1",
+      "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yang-liu/1.webp?v=bce1f7ed5ba6888b",
+      "alt": "洋流作品照片 1",
+      "width": 600,
+      "height": 800,
+      "caption": "招牌就是從這裡開始..."
+    },
+    {
+      "id": "yang-liu-2",
+      "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yang-liu/2.webp?v=7147f19b7175bfa2",
+      "alt": "洋流作品照片 2",
+      "width": 684,
+      "height": 800,
+      "caption": "所以... 我們一起幸福"
+    }
+  ]
+}

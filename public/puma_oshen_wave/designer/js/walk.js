@@ -517,7 +517,6 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
   function boothS(B) {
     if (display === 'stage') return videoStage(B);
     const { b, x, cx } = B;
-    const near = nearId === b.id, full = near || hover === b.id;
     // front of the table, seen at a steep angle
     c.fillStyle = B.h % 2 ? GREEN_SOFT : PINK_SOFT; c.fillRect(x + 1, Y.AISLE_BOT, BW - 2, Y.FRONT_S - Y.AISLE_BOT);
     c.strokeStyle = INK; c.lineWidth = 2; c.strokeRect(x + 1, Y.AISLE_BOT, BW - 2, Y.FRONT_S - Y.AISLE_BOT);
@@ -533,7 +532,6 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     c.strokeStyle = INK; c.lineWidth = 1.2; c.strokeRect(x + 9, Y.TABLE_S - 20, BW - 18, 14);
     c.fillStyle = INK; c.font = `700 10.5px ${FONT}`;
     c.fillText(fit(storeName(b), BW - 26), cx, Y.TABLE_S - 12.5);
-    plate(cx, Y.AISLE_BOT + 5, b, full, near);
   }
   function islandEdges(x0, x1) {
     c.strokeStyle = INK;
@@ -816,6 +814,11 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     for (const B of vis) if (B.side === 'N') boothN(B);
     for (const B of vis) if (B.side === 'S') boothS(B);
     islandEdges(x0, x1);
+    // South number plates overlap the table edge, so paint them above its outline.
+    if (display !== 'stage') for (const B of vis) if (B.side === 'S') {
+      const near = nearId === B.b.id;
+      plate(B.cx, Y.AISLE_BOT + 5, B.b, near || hover === B.b.id, near);
+    }
     for (const I of L.islands) for (const s of I.signs) if (s.cx + 140 >= x0 && s.cx - 140 <= x1) sign(s, I.side, yTop);
     banquet(x0, x1);
     marker();
