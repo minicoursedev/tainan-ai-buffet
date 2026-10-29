@@ -1,4 +1,4 @@
-"""Wait for Pages and verify changed public files against the pushed commit."""
+"""Wait for Pages and verify changed JSON and images against the pushed commit."""
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 import hashlib
@@ -24,7 +24,7 @@ def expected_files(repo, commit, base):
     names = command(repo, 'git', 'diff', '--name-only', '--diff-filter=ACMR', '-z',
                     base, commit, '--', 'public/').decode().split('\0')
     return {name: command(repo, 'git', 'show', f'{commit}:{name}')
-            for name in names if name and not name.endswith(('.md', '.txt'))}
+            for name in names if name and Path(name).suffix.lower() in {'.json', '.webp', '.png', '.jpg', '.jpeg', '.gif', '.svg', '.avif'}}
 
 
 def fetch_public(path, content):
@@ -52,18 +52,24 @@ def verify(repo, commit, base, timeout=1200, interval=10):
     if not expected:
         return {'status': 'no-public-changes', 'commit': commit, 'files': 0}
     deadline = time.monotonic() + timeout
-    pending = mismatches(expected)
-    while pending:
+    while True:
         runs = json.loads(command(repo, 'gh', 'run', 'list', '--repo', REPOSITORY,
                                   '--workflow', 'deploy.yml', '--commit', commit, '--limit', '20',
                                   '--json', 'status,conclusion,headSha,url'))
         matching = [run for run in runs if run['headSha'] == commit]
-        if matching and matching[0]['status'] == 'completed' and matching[0]['conclusion'] != 'success':
+        completed = matching and matching[0]['status'] == 'completed'
+        if completed and matching[0]['conclusion'] != 'success':
             raise ValueError('Pages deployment failed: ' + matching[0]['url'])
+        # Do not cache the previous deployment under new image-version URLs.
+        if completed:
+            pending = mismatches(expected)
+            if not pending:
+                break
+        else:
+            pending = ['waiting for Pages deployment']
         if time.monotonic() >= deadline:
             raise ValueError('Site publication not verified: ' + ', '.join(pending[:8]))
         time.sleep(interval)
-        pending = mismatches(expected)
     return {'status': 'verified', 'commit': commit, 'files': len(expected), 'site': SITE}
 
 
@@ -75,6 +81,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     try:
         repo = Path(__file__).resolve().parents[1]
-        print(json.dumps(verify(repo, args.commit, args.base, args.timeout), ensure_ascii=False))
+        commit = command(repo, 'git', 'rev-parse', args.commit).decode().strip()
+        print(json.dumps(verify(repo, commit, args.base, args.timeout), ensure_ascii=False))
     except (OSError, ValueError, subprocess.TimeoutExpired) as error:
         parser.exit(1, str(error) + '\n')

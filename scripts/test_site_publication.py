@@ -1,6 +1,5 @@
 import importlib.util
 from pathlib import Path
-import tempfile
 import unittest
 from unittest.mock import patch
 
@@ -17,12 +16,15 @@ class PublicationTests(unittest.TestCase):
             raise OSError('offline')
         self.assertEqual(set(publication.mismatches(expected, unavailable)), set(expected))
 
-    def test_already_published_files_do_not_require_another_deployment(self):
+    def test_does_not_request_new_asset_versions_before_deployment_finishes(self):
+        pending_run = b'[{"headSha":"sha","status":"in_progress","conclusion":"","url":"https://github.com/run"}]'
+        finished_run = b'[{"headSha":"sha","status":"completed","conclusion":"success","url":"https://github.com/run"}]'
         with patch.object(publication, 'expected_files', return_value={'public/a.json': b'new'}), \
-                patch.object(publication, 'mismatches', return_value=[]), \
-                patch.object(publication, 'command') as command:
+                patch.object(publication, 'mismatches', return_value=[]) as check, \
+                patch.object(publication, 'command', side_effect=[pending_run, finished_run]), \
+                patch.object(publication.time, 'sleep'):
             self.assertEqual(publication.verify(Path('.'), 'sha', 'base')['status'], 'verified')
-            command.assert_not_called()
+            check.assert_called_once()
 
     def test_failed_deployment_is_reported_without_claiming_publication(self):
         with patch.object(publication, 'expected_files', return_value={'public/a.json': b'new'}), \
