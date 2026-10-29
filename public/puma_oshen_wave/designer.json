@@ -2133,6 +2133,53 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/433098606_983719313279722_8769569214616340621_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=Gl1rINRMqg4Q7kNvwFDX9Nd&_nc_oc=Adp0GfMFv1KeL2iqUr9nsPMTMMpUbSYYVvWPFw88I0jgi7Da6ODFMle6P9PphYfxDQ8&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7f20f&oh=00_AQQVkhBVHCqOdsFYgvOPzkRo3gzkBZGbOAUT3alTTraIKw&oe=6AE8BE68"
       }
+    },
+    {
+      "id": "mizshop18",
+      "name": "米子文化設計",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mizshop18/1.webp?v=af6ab9b0731c8c8c",
+          "alt": "米子文化設計作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mizshop18/1.webp?v=af6ab9b0731c8c8c",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565309294868439122/864718720_17978285589136968_3874683582278047610_n.png?ex=6ae46f61&is=6ae31de1&hm=eb9f507309d806807b73426cc4231fc214eae334ffffbc81c5d87d5e8373c1a0&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mizshop18/2.webp?v=b19b9815c957d24f",
+          "alt": "米子文化設計作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mizshop18/2.webp?v=b19b9815c957d24f",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565309295665614980/864336974_17978273418136968_6948308595546413429_n.png?ex=6ae46f62&is=6ae31de2&hm=996218d89f568a67d72b7bbcf8d851da7f5d3333be2a5dafab82013e5256d2a9&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mizshop18/3.webp?v=8587731482de6af6",
+          "alt": "米子文化設計作品照片 3",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mizshop18/3.webp?v=8587731482de6af6",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565309296957329529/869187655_17978273445136968_2426429172723369551_n.png?ex=6ae46f62&is=6ae31de2&hm=899dde8e46c6d2794944f1aec0a1fbcc5e9719aa6bd34532b833c59a20269385&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@mizshop18",
+        "ig": "https://www.instagram.com/mizshop18/",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/mizshop18/logo.webp?v=62f40cdc484ce7fe",
+        "source": "https://www.threads.com/@mizshop18",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-29",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/559216427_17925476625136968_2116637435552085471_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=xnl5eXsqRmMQ7kNvwE0N557&_nc_oc=Adq8q3iibwOkq-oT-Ubd1sqQnSW1utk_N20msGqwE8qErwccYO_A52GXwdYSJHDpP2c&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=7eSdN6j9skKx1neWU9icog&_nc_ss=7920f&oh=00_AQT8tjKXtUa3ZsEC6frznLInvxg2mYdaEnZzhzACw5HiJg&oe=6AE8EE94"
+      }
     }
   ]
 }
