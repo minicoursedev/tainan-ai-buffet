@@ -4715,24 +4715,24 @@
         "last-modified": "Fri, 07 Aug 2026 04:08:22 GMT"
       },
       "source": "https://www.threads.com/@un603un",
-      "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/768555228_18085016630215187_395463286272777572_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=DE74rDHcRNwQ7kNvwHFb36R&_nc_oc=AdoX_yfyaemQovx1a07S3w7Aaufw3nqD1Uyo2byDxoppaCWuPlw9j_74FuIhyvGoHJs&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Ls_ujdTWOCJjxqAcTn2wzA&_nc_ss=7320f&oh=00_AQMfWSDLEmprZnGS4H6yvtIfMTy0wU9XXriQGTe8YsLJTw&oe=6AE33EE6",
-      "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
+      "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-19/768555228_18085016630215187_395463286272777572_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gFU_jIugMXsrQDcmOftI5DgcSQsYbsA6B_tub8a2ZXXCqMQYgapqTBVifrpJ1c027Q&_nc_ohc=eURamwZDXUsQ7kNvwFn76NQ&_nc_gid=mBg28w4xl0rz9aC99OgNQw&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQSbLTGSuGC51xLeGVNoqpFclOeaOmNtHaYNUYV87zgSlQ&oe=6AE92DA6&_nc_sid=10d13b",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；溫溫選物所｜UN Lifestyle (@un603un) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
       "filename": "un603un/logo.webp",
-      "lastSuccess": "2026-10-25T11:02:38+08:00",
+      "lastSuccess": "2026-10-29T23:51:12+08:00",
       "sourceValidators": {},
-      "lastAttempt": "2026-10-25T11:02:38+08:00",
-      "result": "updated",
-      "reason": "取得較高解析度官方頭像",
+      "lastAttempt": "2026-10-29T23:51:12+08:00",
+      "result": "unchanged",
+      "reason": "像素內容相同或僅有輕微轉碼差異",
       "qualityChecks": [
         {
           "source": "https://www.threads.com/@un603un",
           "platform": "threads",
-          "imageUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/768555228_18085016630215187_395463286272777572_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=DE74rDHcRNwQ7kNvwHFb36R&_nc_oc=AdoX_yfyaemQovx1a07S3w7Aaufw3nqD1Uyo2byDxoppaCWuPlw9j_74FuIhyvGoHJs&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Ls_ujdTWOCJjxqAcTn2wzA&_nc_ss=7320f&oh=00_AQMfWSDLEmprZnGS4H6yvtIfMTy0wU9XXriQGTe8YsLJTw&oe=6AE33EE6",
+          "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-19/768555228_18085016630215187_395463286272777572_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gFU_jIugMXsrQDcmOftI5DgcSQsYbsA6B_tub8a2ZXXCqMQYgapqTBVifrpJ1c027Q&_nc_ohc=eURamwZDXUsQ7kNvwFn76NQ&_nc_gid=mBg28w4xl0rz9aC99OgNQw&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQSbLTGSuGC51xLeGVNoqpFclOeaOmNtHaYNUYV87zgSlQ&oe=6AE92DA6&_nc_sid=10d13b",
           "size": [
-            640,
-            640
+            320,
+            320
           ],
-          "evidence": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；溫溫選物所｜UN Lifestyle (@un603un) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
           "result": "sufficient"
         }
       ],
