@@ -2180,6 +2180,37 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/559216427_17925476625136968_2116637435552085471_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=xnl5eXsqRmMQ7kNvwE0N557&_nc_oc=Adq8q3iibwOkq-oT-Ubd1sqQnSW1utk_N20msGqwE8qErwccYO_A52GXwdYSJHDpP2c&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=7eSdN6j9skKx1neWU9icog&_nc_ss=7920f&oh=00_AQT8tjKXtUa3ZsEC6frznLInvxg2mYdaEnZzhzACw5HiJg&oe=6AE8EE94"
       }
+    },
+    {
+      "id": "naiewgnaws",
+      "name": "naiewgnaw’s",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/naiewgnaws/1.webp?v=c00266682be3d0e8",
+          "alt": "naiewgnaw’s作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/naiewgnaws/1.webp?v=c00266682be3d0e8",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565312101176582175/857522901_17994430413107413_5449685255620716199_n.png?ex=6ae471ff&is=6ae3207f&hm=ee8ebf2c3d355f426206496b7c07ab3a847e151f67ef724254c805cea26e26aa&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@_naiewgnaws",
+        "ig": "https://www.instagram.com/_naiewgnaws/",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/naiewgnaws/logo.webp?v=e886e6cdafe00828",
+        "source": "https://www.threads.com/@_naiewgnaws",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-29",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.75761-19/503500288_17916260748107413_9009762335318807179_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=7y6gJXqxa4MQ7kNvwFzbbCx&_nc_oc=Adqm8eI4Jg-cRp4Y8iLlxLTSyN-LD90rIm4oztuHUbcfYmxuiyn72TVL1AWZ6YTvQjU&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=b3EgkNSPUE3XwMZvHwBKSQ&_nc_ss=7920f&oh=00_AQTbA77xKRrJcqBlTOHIvZDSNeUfjN_FEIF18O5bau5MNQ&oe=6AE8DF0A"
+      }
     }
   ]
 }
