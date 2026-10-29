@@ -2211,6 +2211,38 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.75761-19/503500288_17916260748107413_9009762335318807179_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=7y6gJXqxa4MQ7kNvwFzbbCx&_nc_oc=Adqm8eI4Jg-cRp4Y8iLlxLTSyN-LD90rIm4oztuHUbcfYmxuiyn72TVL1AWZ6YTvQjU&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=b3EgkNSPUE3XwMZvHwBKSQ&_nc_ss=7920f&oh=00_AQTbA77xKRrJcqBlTOHIvZDSNeUfjN_FEIF18O5bau5MNQ&oe=6AE8DF0A"
       }
+    },
+    {
+      "id": "aten002",
+      "name": "亞頓設計",
+      "designer": "San Lin",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/aten002/1.webp?v=0eaaac0e07aaf8e9",
+          "alt": "亞頓設計作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/aten002/1.webp?v=0eaaac0e07aaf8e9",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565319310841221151/866587555_28891034220561629_821540046304614778_n.png?ex=6ae478b5&is=6ae32735&hm=e11796c0d4364a779483f8ce294b3df468ccc21aede11b3143c17456837d2126&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/AtenDesignStudio",
+        "threads": "https://www.threads.com/@aten002",
+        "ig": "https://www.instagram.com/aten002/",
+        "web": "https://aten-design-studio.san7372002.chatgpt.site/"
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/aten002/logo.webp?v=9aa405e238af01e2",
+        "source": "https://www.threads.com/@aten002",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-29",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/530222573_17895753600267034_2416060417796877389_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=9DJDFHU5orsQ7kNvwFRY1bf&_nc_oc=AdryUFAqM-PAgP_enFAtEFpesArwyJCbt-zP-kKwYF6duaA6f2xK_9Ys2Pz9q-ngiGA&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=ANBLT199UOYa4_RfclaaRQ&_nc_ss=7920f&oh=00_AQSaUuVU18gRouqJQcoZd3rOMRXpFgfjwT5-LhyvPcNAEw&oe=6AE8E181"
+      }
     }
   ]
 }
