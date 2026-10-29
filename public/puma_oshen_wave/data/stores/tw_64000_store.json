@@ -2454,6 +2454,58 @@
         "image": "./assets/kaohsiung-zhang-yao-zhong-marker-6-type-v1.webp",
         "source": "https://www.facebook.com/photo/?fbid=122148761870737363&set=a.122102580584737363"
       }
+    },
+    {
+      "id": "cathouse-art",
+      "verification": true,
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "貓寓咖啡",
+      "address": "高雄市三民區建國三路68巷5號",
+      "social": {
+        "facebook": "https://www.facebook.com/p/貓寓咖啡-高雄沖繩風緬因貓咖啡廳-61590352922195/",
+        "instagram": "https://www.instagram.com/cathouse.art/",
+        "threads": "https://www.threads.com/@cathouse.art"
+      },
+      "sources": [
+        "https://www.threads.com/share/FP4ZkF5Q_/",
+        "https://www.threads.com/@cathouse.art/post/DfEE6mRiSNW",
+        "https://www.instagram.com/cathouse.art/",
+        "https://www.threads.com/@cathouse.art",
+        "https://www.instagram.com/p/Dbj5a0ITnhg/",
+        "https://www.facebook.com/p/貓寓咖啡-高雄沖繩風緬因貓咖啡廳-61590352922195/",
+        "https://www.openstreetmap.org/node/11082501722",
+        "https://www.openstreetmap.org/api/0.6/node/11082501722.json"
+      ],
+      "verifiedAt": "2026-10-29",
+      "verificationNote": "使用者指定收錄，新增店家的 verification 設為 JSON 布林值 true。查證子代理確認指定 Threads 分享連結轉址至 cathouse.art 官方貼文，標題及內文明示貓寓咖啡；主代理另直接讀取該貼文 HTTP 200 核對。官方 Instagram、Threads 個人頁及 Facebook 均明示相同完整地址，Instagram 實際外連 Facebook 分享網址並轉至本粉專，店名、地址及電話一致。依咖啡廳性質沿用既有咖啡廳分類。已比對本次快照全部318筆紀錄（含 disabled）的店名、地址、電話及社群帳號，未發現重複。主代理另直接核對官方 Instagram 的營業公告及 Facebook 簡介，開店時間有差異，營業時間保留待確認。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間待確認；店休日不固定，請查看官方 Instagram 公告或先致電確認。",
+        "sources": [
+          "https://www.instagram.com/p/Dbj5a0ITnhg/",
+          "https://www.instagram.com/cathouse.art/",
+          "https://www.facebook.com/p/貓寓咖啡-高雄沖繩風緬因貓咖啡廳-61590352922195/"
+        ],
+        "checkedAt": "2026-10-29",
+        "auditNote": "官方 Instagram 置頂貼文 Dbj5a0ITnhg 列週一至週日11:00–19:00，並說明不固定店休日、請查看 IG 精選；官方 Facebook 現行 og:description 則列週一至週日10:30–19:00。主代理與查證子代理均已核對，兩個官方來源的開店時間不同，未自行擇一，因此標為 unverified。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.6383797,
+        "lng": 120.2958652
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11082501722",
+      "coordinateNote": "查證子代理優先以 OpenStreetMap 完整地址查詢無結果，改用 street=5 建國三路68巷、city=高雄市、county=三民區、country=台灣的結構化查詢，取得門牌節點11082501722。主代理另讀 OSM 官方節點 API，確認 addr:full=高雄市三民區鳳北里2鄰建國三路68巷5號、道路及5號門牌均與官方地址相符；採節點 lat22.6383797、lon120.2958652，非道路或地圖視窗中心。",
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.threads.com/@cathouse.art",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-29",
+        "note": "查證子代理在官方 Threads 公開個人頁 SSR 核對 img alt=\"cathouse.art's profile picture\"，同頁使用者資料 hd_profile_pic_versions 明列320×320版本；依頁面明示的完整 CDN 網址在記憶體驗證 HTTP 200、Content-Type image/jpeg、JPEG 原生320×320（36,038 bytes），確認圖像為抱咖啡杯白貓、貓寓文字、扶桑花及風獅爺 Logo。未改寫 CDN 尺寸或簽章參數，未採 Instagram 的100px分享縮圖，來源尺寸足供256px Logo。新店尚未發布的 url 留空。"
+      },
+      "visitNote": "沖繩風緬因貓咖啡廳，供應咖啡及沖繩料理，並提供手作體驗與藝術展覽；電話0963-117-770。巷弄較窄，建議先查看官方 Instagram 導引；營業時間與不定期店休日請先確認。"
     }
   ],
   "pendingStores": []
