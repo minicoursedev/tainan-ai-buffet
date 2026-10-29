@@ -2030,6 +2030,109 @@
         "note": "官方 Instagram 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/53423910_257230518360714_908041015057711104_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=106&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=GYqDCXtkE7gQ7kNvwE3fT6-&_nc_oc=AdosUS8DcRJCvyyx5exrCUdNmxWboY31OHK12UNbXoGzW21rib-V8P5X55jRD5rdMVs&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7960f&oh=00_AQTJy61S5MTffb6lAU_As7BPsEd872y50yxqG_mR0YBu-g&oe=6AE756A8"
       }
+    },
+    {
+      "id": "fourspirits",
+      "name": "閆方陳",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/1.webp?v=000777955ca37b0d",
+          "alt": "閆方陳作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/1.webp?v=000777955ca37b0d",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565248228419571763/872731572_17978009541138659_7039618877897113546_n.png?ex=6ae43682&is=6ae2e502&hm=2521511bfa47b91d603f2f1a5bd94813f799fcac3b81fefc3a32f5504c8b55ea&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/2.webp?v=dcab958ff7ea1fee",
+          "alt": "閆方陳作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/2.webp?v=dcab958ff7ea1fee",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565248229161959424/875104277_17977842081138659_2069410870284944724_n.png?ex=6ae43682&is=6ae2e502&hm=03e77534f26a8b3033c266a21855b9ed1c87d0012d5e038ea4745dd0dec621cb&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/3.webp?v=45104e919f2716d1",
+          "alt": "閆方陳作品照片 3",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/3.webp?v=45104e919f2716d1",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565248230013272074/870731292_17977842084138659_1989803333842418052_n.png?ex=6ae43682&is=6ae2e502&hm=10401381819178d08103fcf18f5f11d21e53fc53ae49636cecbd1781935f6788&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/4.webp?v=aff0f58c2aa99563",
+          "alt": "閆方陳作品照片 4",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/4.webp?v=aff0f58c2aa99563",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565248230936158310/870141327_17977842273138659_4083113677302245466_n.png?ex=6ae43683&is=6ae2e503&hm=ad224a2f77dcad2e73a11bc194d0bfdcebe48f87bec17bdb12ef17f94c524d58&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/5.webp?v=82d776cd60f9583c",
+          "alt": "閆方陳作品照片 5",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/5.webp?v=82d776cd60f9583c",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565248231611310201/869528593_17977693611138659_7902409028165867574_n.png?ex=6ae43683&is=6ae2e503&hm=6e7629bcee94ab121deea71fbcad107be1795b45b44085effa4fb481f072171c&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/6.webp?v=ed16e101fda83e64",
+          "alt": "閆方陳作品照片 6",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/6.webp?v=ed16e101fda83e64",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565248232848621659/865307658_17977693638138659_1151458232998412642_n.png?ex=6ae43683&is=6ae2e503&hm=13be939c29112dbe341a2a21949caaafc7b8f06b906ce62710cb200057e954e8&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/7.webp?v=519ff58141886eeb",
+          "alt": "閆方陳作品照片 7",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/7.webp?v=519ff58141886eeb",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565248233670709318/860589816_17976775134138659_5368337387942362282_n.png?ex=6ae43683&is=6ae2e503&hm=1e5b533844db6e52d2d67cc5c2a2a7359488379005bdf1d61f4bdbcefa345b12&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/8.webp?v=c3365ab07391401f",
+          "alt": "閆方陳作品照片 8",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/8.webp?v=c3365ab07391401f",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565248234299981865/858641887_17976432603138659_2151169532321066756_n.png?ex=6ae43683&is=6ae2e503&hm=42292b5a2d561e0ad89801eb73583c56232e64816ac5076c98a8150bf150b735&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/9.webp?v=89dc6bd175829c8b",
+          "alt": "閆方陳作品照片 9",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/9.webp?v=89dc6bd175829c8b",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565248234752835604/800275366_17970054981138659_1339677511281562369_n.png?ex=6ae43684&is=6ae2e504&hm=ac9f6478f015776da0c93ba1732903b97cae3e9b1b50a911885154a97c97a6ff&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/10.webp?v=0137a2a66f821fe5",
+          "alt": "閆方陳作品照片 10",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/10.webp?v=0137a2a66f821fe5",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565248235348434954/606154115_17932862373138659_1496283928294145715_n.png?ex=6ae43684&is=6ae2e504&hm=af0e779bf5c0c7100042533e2de5ba2dd0dae51dbe6635b6c2d5ee15497fbcfd&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@fourspirits",
+        "ig": "https://www.instagram.com/fourspirits/",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fourspirits/logo.webp?v=e7c23e33d34ee32b",
+        "source": "https://www.threads.com/@fourspirits",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-29",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/433098606_983719313279722_8769569214616340621_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=Gl1rINRMqg4Q7kNvwFDX9Nd&_nc_oc=Adp0GfMFv1KeL2iqUr9nsPMTMMpUbSYYVvWPFw88I0jgi7Da6ODFMle6P9PphYfxDQ8&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7f20f&oh=00_AQQVkhBVHCqOdsFYgvOPzkRo3gzkBZGbOAUT3alTTraIKw&oe=6AE8BE68"
+      }
     }
   ]
 }
