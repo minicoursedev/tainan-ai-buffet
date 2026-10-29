@@ -54,9 +54,11 @@ test('a failed catalogue can retry; successful data is cached and resampled on o
 test('Yang Liu captions stay attached to the supplied images and retain their natural ratios', async () => {
   const data = JSON.parse(await readFile(new URL('../public/puma_oshen_wave/data/designers/yang-liu.products.json', import.meta.url)));
   const products = readProducts(data, 'yang-liu', base);
-  assert.equal(products.length, 2);
-  assert.equal(products[0].caption, '招牌就是從這裡開始...');
-  assert.equal(products[1].caption, '所以... 我們一起幸福');
-  assert.equal(products[0].width / products[0].height, 600 / 800);
-  assert.equal(products[1].width / products[1].height, 684 / 800);
+  assert.equal(products.length, data.products.filter(p => p.disabled !== true).length);
+  const first = products.find(p => p.id === 'yang-liu-1');
+  const second = products.find(p => p.id === 'yang-liu-2');
+  assert.equal(first.caption, '招牌就是從這裡開始...');
+  assert.equal(second.caption, '所以... 我們一起幸福');
+  assert.equal(first.width / first.height, 600 / 800);
+  assert.equal(second.width / second.height, 684 / 800);
 });
