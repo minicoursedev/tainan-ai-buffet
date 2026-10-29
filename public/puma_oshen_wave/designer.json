@@ -2282,6 +2282,44 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/864289366_17991054147115528_277373473077797033_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=eWFxel14cXsQ7kNvwF2p19Y&_nc_oc=Adrt_IF6iL0BHtbKO0k-qp88W2OtqJOGZFvbgihvtjqDHT418E3gCfOEY1k_sWvpIVE&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=CCLJfji2Wthxcjd-ys7yPQ&_nc_ss=7f20f&oh=00_AQSBId3LFfOdpZBn-IxOxMdE7P0v54a0c1nBi7bl259vwQ&oe=6AE91C5A"
       }
+    },
+    {
+      "id": "yang-liu",
+      "name": "洋流",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yang-liu/1.webp?v=bce1f7ed5ba6888b",
+          "alt": "洋流作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yang-liu/1.webp?v=bce1f7ed5ba6888b",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565382852575756540/825325755_17958701973224516_1201221234228543055_n.png?ex=6ae4b3e3&is=6ae36263&hm=d453b91b82a6c110a9f4a4965e61237862728f5eb5b2045daa2fdf507d765490&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yang-liu/2.webp?v=7147f19b7175bfa2",
+          "alt": "洋流作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yang-liu/2.webp?v=7147f19b7175bfa2",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565382854219796530/2Q.png?ex=6ae4b3e3&is=6ae36263&hm=8b303e00d80860ae50cbdef032431287cadfa72b158d60b9aaaf32c6434b7e4f&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "",
+        "ig": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "",
+        "source": "",
+        "platform": "",
+        "status": "unverified",
+        "checkedAt": "2026-10-29",
+        "note": "未提供 Logo，尚未確認官方個人檔案頭像。"
+      }
     }
   ]
 }
