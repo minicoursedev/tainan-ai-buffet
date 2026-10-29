@@ -1150,59 +1150,44 @@
       }
     },
     {
-      "id": "doctor-design",
-      "name": "Doctor Design 伊森設計",
+      "id": "yang-liu",
+      "name": "洋流",
       "disabled": false,
       "verification": true,
-      "social": {
-        "fb": "https://www.facebook.com/profile.php?id=100085421947695",
-        "ig": "https://www.instagram.com/doctor_design_office/",
-        "threads": "",
-        "web": "https://www.drdesignoffice.com/"
-      },
-      "logo": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/doctor-design/logo.webp?v=c95de626ba8d0eac",
-        "source": "https://www.instagram.com/doctor_design_office/",
-        "platform": "instagram",
-        "status": "verified",
-        "checkedAt": "2026-10-26",
-        "note": "官網連結之官方 Instagram 個人檔案頭像。",
-        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/259722001_753764605585941_3919171294934061912_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=110&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=0Z4QujgOLkQQ7kNvwG6-n_R&_nc_oc=Adoo3pJnINlPbTneO5y72oTlvb98xNIsJon_6PLUNc6VDgiCOGpya8iMRBhlvijvIhg&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7960f&oh=00_AQOJcLaERugeRDm5TnUUswy3CXAiByOVIkxIFGAguRX1HA&oe=6AE4BD7C"
-      },
       "productImages": [
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/doctor-design/1.webp?v=31bd840614c648c4",
-          "source": "https://www.drdesignoffice.com/works/womany-brand",
-          "alt": "女人迷品牌識別設計",
-          "checkedAt": "2026-10-26",
-          "note": "官方作品頁圖片。",
-          "originalUrl": "https://cdn.prod.website-files.com/6219dd240415facbc1d0ed7a/6716fb7eead6f6c4483e4c6a_63ca0d60be845a36ad253ed1_01.jpeg"
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/1.webp?v=bce1f7ed5ba6888b",
+          "alt": "洋流作品照片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/1.webp?v=bce1f7ed5ba6888b",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565382852575756540/825325755_17958701973224516_1201221234228543055_n.png?ex=6ae4b3e3&is=6ae36263&hm=d453b91b82a6c110a9f4a4965e61237862728f5eb5b2045daa2fdf507d765490&"
         },
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/doctor-design/2.webp?v=744a57e4d9231418",
-          "source": "https://www.drdesignoffice.com/works/namikiya-canele",
-          "alt": "双木家可麗露盒裝設計",
-          "checkedAt": "2026-10-26",
-          "note": "官方作品頁圖片。",
-          "originalUrl": "https://cdn.prod.website-files.com/6219dd240415facbc1d0ed7a/66e3aca8775ecfa7903b6189_6417ea7136dcd393cd022cf8_01.jpeg"
-        },
-        {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/doctor-design/3.webp?v=c0251714baa8463d",
-          "source": "https://www.drdesignoffice.com/works/womany-card-01",
-          "alt": "女人迷關係牌卡設計",
-          "checkedAt": "2026-10-26",
-          "note": "官方作品頁圖片。",
-          "originalUrl": "https://cdn.prod.website-files.com/6219dd240415facbc1d0ed7a/6716ff201a8ee3522d74a9dd_63cb6926ea97be6932b9ffa2_01.jpeg"
-        },
-        {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/doctor-design/4.webp?v=3ca138e1a76650a5",
-          "source": "https://www.drdesignoffice.com/works/crossing-illustration-03",
-          "alt": "換日線美洲主題貼紙設計",
-          "checkedAt": "2026-10-26",
-          "note": "官方作品頁圖片。",
-          "originalUrl": "https://cdn.prod.website-files.com/6219dd240415facbc1d0ed7a/63cb6fba3f5ddf31fa7351eb_01.jpg"
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/2.webp?v=7147f19b7175bfa2",
+          "alt": "洋流作品照片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/2.webp?v=7147f19b7175bfa2",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565382854219796530/2Q.png?ex=6ae4b3e3&is=6ae36263&hm=8b303e00d80860ae50cbdef032431287cadfa72b158d60b9aaaf32c6434b7e4f&"
         }
-      ]
+      ],
+      "social": {
+        "fb": "",
+        "threads": "",
+        "ig": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/logo.webp?v=e89f25f0c832ab36",
+        "source": "",
+        "platform": "user-provided",
+        "status": "verified",
+        "checkedAt": "2026-10-29",
+        "note": "使用者提供洋流圖稿，保留完整比例作為作者頭像。",
+        "fit": "contain"
+      },
+      "productsUrl": "https://minicourse.dev/puma_oshen_wave/data/designers/yang-liu.products.json"
     },
     {
       "id": "rio-ouo",
@@ -2284,44 +2269,59 @@
       }
     },
     {
-      "id": "yang-liu",
-      "name": "洋流",
-      "disabled": false,
+      "id": "doctor-design",
+      "name": "Doctor Design 伊森設計",
+      "disabled": true,
       "verification": true,
-      "productImages": [
-        {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/1.webp?v=bce1f7ed5ba6888b",
-          "alt": "洋流作品照片 1",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/1.webp?v=bce1f7ed5ba6888b",
-          "checkedAt": "2026-10-29",
-          "note": "使用者提供，指定為此設計師作品照片",
-          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565382852575756540/825325755_17958701973224516_1201221234228543055_n.png?ex=6ae4b3e3&is=6ae36263&hm=d453b91b82a6c110a9f4a4965e61237862728f5eb5b2045daa2fdf507d765490&"
-        },
-        {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/2.webp?v=7147f19b7175bfa2",
-          "alt": "洋流作品照片 2",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/2.webp?v=7147f19b7175bfa2",
-          "checkedAt": "2026-10-29",
-          "note": "使用者提供，指定為此設計師作品照片",
-          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565382854219796530/2Q.png?ex=6ae4b3e3&is=6ae36263&hm=8b303e00d80860ae50cbdef032431287cadfa72b158d60b9aaaf32c6434b7e4f&"
-        }
-      ],
       "social": {
-        "fb": "",
+        "fb": "https://www.facebook.com/profile.php?id=100085421947695",
+        "ig": "https://www.instagram.com/doctor_design_office/",
         "threads": "",
-        "ig": "",
-        "web": ""
+        "web": "https://www.drdesignoffice.com/"
       },
       "logo": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/logo.webp?v=e89f25f0c832ab36",
-        "source": "",
-        "platform": "user-provided",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/doctor-design/logo.webp?v=c95de626ba8d0eac",
+        "source": "https://www.instagram.com/doctor_design_office/",
+        "platform": "instagram",
         "status": "verified",
-        "checkedAt": "2026-10-29",
-        "note": "使用者提供洋流圖稿，保留完整比例作為作者頭像。",
-        "fit": "contain"
+        "checkedAt": "2026-10-26",
+        "note": "官網連結之官方 Instagram 個人檔案頭像。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/259722001_753764605585941_3919171294934061912_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=110&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=0Z4QujgOLkQQ7kNvwG6-n_R&_nc_oc=Adoo3pJnINlPbTneO5y72oTlvb98xNIsJon_6PLUNc6VDgiCOGpya8iMRBhlvijvIhg&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7960f&oh=00_AQOJcLaERugeRDm5TnUUswy3CXAiByOVIkxIFGAguRX1HA&oe=6AE4BD7C"
       },
-      "productsUrl": "https://minicourse.dev/puma_oshen_wave/data/designers/yang-liu.products.json"
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/doctor-design/1.webp?v=31bd840614c648c4",
+          "source": "https://www.drdesignoffice.com/works/womany-brand",
+          "alt": "女人迷品牌識別設計",
+          "checkedAt": "2026-10-26",
+          "note": "官方作品頁圖片。",
+          "originalUrl": "https://cdn.prod.website-files.com/6219dd240415facbc1d0ed7a/6716fb7eead6f6c4483e4c6a_63ca0d60be845a36ad253ed1_01.jpeg"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/doctor-design/2.webp?v=744a57e4d9231418",
+          "source": "https://www.drdesignoffice.com/works/namikiya-canele",
+          "alt": "双木家可麗露盒裝設計",
+          "checkedAt": "2026-10-26",
+          "note": "官方作品頁圖片。",
+          "originalUrl": "https://cdn.prod.website-files.com/6219dd240415facbc1d0ed7a/66e3aca8775ecfa7903b6189_6417ea7136dcd393cd022cf8_01.jpeg"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/doctor-design/3.webp?v=c0251714baa8463d",
+          "source": "https://www.drdesignoffice.com/works/womany-card-01",
+          "alt": "女人迷關係牌卡設計",
+          "checkedAt": "2026-10-26",
+          "note": "官方作品頁圖片。",
+          "originalUrl": "https://cdn.prod.website-files.com/6219dd240415facbc1d0ed7a/6716ff201a8ee3522d74a9dd_63cb6926ea97be6932b9ffa2_01.jpeg"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/doctor-design/4.webp?v=3ca138e1a76650a5",
+          "source": "https://www.drdesignoffice.com/works/crossing-illustration-03",
+          "alt": "換日線美洲主題貼紙設計",
+          "checkedAt": "2026-10-26",
+          "note": "官方作品頁圖片。",
+          "originalUrl": "https://cdn.prod.website-files.com/6219dd240415facbc1d0ed7a/63cb6fba3f5ddf31fa7351eb_01.jpg"
+        }
+      ]
     }
   ]
 }
