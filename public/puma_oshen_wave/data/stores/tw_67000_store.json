@@ -5061,16 +5061,16 @@
         "https://www.instagram.com/un603un/",
         "https://www.threads.com/@un603un"
       ],
-      "verifiedAt": "2026-10-24",
-      "verificationNote": "使用者指定收錄。官方 Instagram 名稱為「溫溫選物所 | UN Lifestyle」，簡介列選物、聚會及台南中西區；頁面直接連結同名官方 Threads。官方 Threads 簡介明列台南市中西區忠義路一段60巷3號，並說明尚未正式開幕、偶爾舉辦不同主題市集，市集與開放時間另行公告。依選物營業內容沿用雜貨店分類。未找到可確認的官方 Facebook，留空。",
+      "verifiedAt": "2026-10-29",
+      "verificationNote": "使用者指定整理既有店家。2026-10-29 查證子代理及主代理分別以無登入 HTTP 讀取官方 Instagram 與 Threads 公開頁，均回應200；Instagram 名稱為「溫溫選物所 | UN Lifestyle」，簡介列選物、聚會及台南中西區，依營業內容維持「選物雜貨」。官方 Threads 名稱相符，簡介仍明列台南市中西區忠義路一段60巷3號，並說明尚未正式開幕、偶爾舉辦不同主題市集，市集與開放時間另行公告。地址未變，保留原門牌座標及來源證據。已比對快照全部紀錄（含 disabled）之店名、地址及社群帳號，確認為既有 un603un，不重複新增；保留既有 verification 與 disabled 原值。未找到可確認的官方 Facebook，維持空值。頭像保留2026-10-25既有人工查證紀錄及圖片網址；本次 Threads 公開頁提供可存取的640px og:image，但未取得足以重新辨認個人頭像的標記，不據此重設頭像查證日期，亦不採用 Instagram 的100px分享縮圖。",
       "openingHours": {
         "status": "verified",
         "text": "尚未正式開幕；不定期舉辦市集，市集與開放時間依官方公告。",
         "sources": [
           "https://www.threads.com/@un603un"
         ],
-        "checkedAt": "2026-10-24",
-        "auditNote": "官方 Threads 簡介明載尚未正式開幕、偶爾舉辦不同主題市集，市集與開放時間另行公告；未公布固定營業週表，故不填定常態時段。"
+        "checkedAt": "2026-10-29",
+        "auditNote": "2026-10-29 查證子代理及主代理分別核對官方 Threads 公開個人頁簡介，仍明載尚未正式開幕、偶爾舉辦不同主題市集，市集與開放時間另行公告；未取得固定營業週表，不自行填定常態時段。"
       },
       "shopPhoto": {
         "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/un603un/logo.webp?v=b6def6a58967b62e",
