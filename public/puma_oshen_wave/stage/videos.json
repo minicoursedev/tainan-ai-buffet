@@ -6,6 +6,11 @@
       "code": "P"
     },
     {
+      "id": "author-midnight-songwriter",
+      "name": "凌晨寫歌的人",
+      "code": "N"
+    },
+    {
       "id": "author-manghuo",
       "name": "忙活",
       "code": "H"
@@ -14,11 +19,6 @@
       "id": "author-dragon-prince",
       "name": "龍神太子的頻道",
       "code": "I"
-    },
-    {
-      "id": "author-benson-hung",
-      "name": "Benson Hung",
-      "code": "M"
     },
     {
       "id": "author-r-chord",
@@ -39,11 +39,6 @@
       "id": "author-taiwan-beyond",
       "name": "台灣視界∣Taiwan & Beyond",
       "code": "T"
-    },
-    {
-      "id": "author-midnight-songwriter",
-      "name": "凌晨寫歌的人",
-      "code": "N"
     },
     {
       "id": "author-wind-j",
@@ -350,7 +345,7 @@
       "creator": "Benson Hung",
       "url": "https://www.youtube.com/watch?v=tyZdv_hqmyE",
       "description": "",
-      "disabled": false,
+      "disabled": true,
       "hall": "author-benson-hung"
     },
     {
@@ -359,7 +354,7 @@
       "creator": "Benson Hung",
       "url": "https://www.youtube.com/watch?v=CI_CCYEVpxE",
       "description": "",
-      "disabled": false,
+      "disabled": true,
       "hall": "author-benson-hung"
     },
     {
