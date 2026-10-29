@@ -2243,6 +2243,45 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/530222573_17895753600267034_2416060417796877389_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=9DJDFHU5orsQ7kNvwFRY1bf&_nc_oc=AdryUFAqM-PAgP_enFAtEFpesArwyJCbt-zP-kKwYF6duaA6f2xK_9Ys2Pz9q-ngiGA&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=ANBLT199UOYa4_RfclaaRQ&_nc_ss=7920f&oh=00_AQSaUuVU18gRouqJQcoZd3rOMRXpFgfjwT5-LhyvPcNAEw&oe=6AE8E181"
       }
+    },
+    {
+      "id": "im-hanburger",
+      "name": "Han_burger",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/im-hanburger/1.webp?v=898112eb8f138345",
+          "alt": "Han_burger作品照片 1",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/im-hanburger/1.webp?v=898112eb8f138345",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565352037548429392/877778332_3251530395038240_3803357986803203411_n.png?ex=6ae49730&is=6ae345b0&hm=02cf714816fcc9c7ad03eb2c0d31731f4318b9391801f3e34e6e9872bcad7e37&"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/im-hanburger/2.webp?v=e3c5d6d0965cd6a4",
+          "alt": "Han_burger作品照片 2",
+          "source": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/im-hanburger/2.webp?v=e3c5d6d0965cd6a4",
+          "checkedAt": "2026-10-29",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565352037909012692/869656292_1662071502042846_571118604858809164_n.png?ex=6ae49730&is=6ae345b0&hm=6aa9f49873fc115ba518b13c126cf131e52ee01585412cecf771ac352e1c449c&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@im_hanburger",
+        "ig": "https://www.instagram.com/hanhi_design_studio/",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/im-hanburger/logo.webp?v=32c0756fc5a039a8",
+        "source": "https://www.threads.com/@im_hanburger",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-29",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/864289366_17991054147115528_277373473077797033_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=eWFxel14cXsQ7kNvwF2p19Y&_nc_oc=Adrt_IF6iL0BHtbKO0k-qp88W2OtqJOGZFvbgihvtjqDHT418E3gCfOEY1k_sWvpIVE&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=CCLJfji2Wthxcjd-ys7yPQ&_nc_ss=7f20f&oh=00_AQSBId3LFfOdpZBn-IxOxMdE7P0v54a0c1nBi7bl259vwQ&oe=6AE91C5A"
+      }
     }
   ]
 }
