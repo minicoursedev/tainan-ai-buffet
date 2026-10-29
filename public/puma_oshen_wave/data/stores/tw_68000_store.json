@@ -64,7 +64,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11192106082",
       "coordinateNote": "2026-10-25 查證子代理以OpenStreetMap完整地址查詢無結果，再以450 延平路、中壢區、桃園市結構化查詢取得門牌節點11192106082。主代理另讀OSM節點API，確認行政區、延平路及450號門牌相符，資料來源為桃園市政府，座標24.9583341、121.2239818。該節點樓層標為12樓，僅採同大樓門牌位置供6樓使用；店家6樓取自實體課程場地資料，不把門牌節點視為店家POI，未採道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/trillion-coworking-zhongli/logo.webp?v=992919ff246edc40",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/trillion-coworking-zhongli/logo.webp?v=992919ff246edc40",
         "source": "https://www.facebook.com/p/Trillion日兆共享商務空間-61559798486162/",
         "platform": "facebook",
         "status": "verified",
@@ -110,7 +110,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11193191557",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：72號, 忠一路, 中路計畫區, 光興里, 桃園區, 桃園市, 330, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-yu-xin-xian-service-office/logo.webp?v=fe30500d80c6cb6e",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-yu-xin-xian-service-office/logo.webp?v=fe30500d80c6cb6e",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=975",
         "platform": "website",
         "status": "verified",
@@ -120,7 +120,7 @@
       "visitNote": "第1選區市議員 · 2號",
       "mapMarker": {
         "label": "余信憲",
-        "image": "./assets/taoyuan-yu-xin-xian-marker-2-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-yu-xin-xian-marker-2-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=975"
       }
     },
@@ -161,7 +161,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11192736458",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：129號, 中山路, 文昌里, 桃園區, 桃園市, 330, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-huang-qiong-hui-service-office/logo.webp?v=f853f5f6be8ee075",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-huang-qiong-hui-service-office/logo.webp?v=f853f5f6be8ee075",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=974",
         "platform": "website",
         "status": "verified",
@@ -171,7 +171,7 @@
       "visitNote": "第1選區市議員 · 7號",
       "mapMarker": {
         "label": "黃瓊慧",
-        "image": "./assets/taoyuan-huang-qiong-hui-marker-7-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-huang-qiong-hui-marker-7-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=974"
       }
     },
@@ -213,7 +213,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11192958647",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：10號, 仁愛路, 中正里, 桃園區, 桃園市, 330, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-huang-jia-qi-service-office/logo.webp?v=0f0a6443c91d33ee",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-huang-jia-qi-service-office/logo.webp?v=0f0a6443c91d33ee",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=982",
         "platform": "website",
         "status": "verified",
@@ -223,7 +223,7 @@
       "visitNote": "第1選區市議員 · 10號",
       "mapMarker": {
         "label": "黃家齊",
-        "image": "./assets/taoyuan-huang-jia-qi-marker-10-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-huang-jia-qi-marker-10-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=982"
       }
     },
@@ -264,7 +264,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11192515466",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：9號, 忠二路2巷, 湖里, 中興里, 桃園區, 桃園市, 330, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-li-guang-da-service-office/logo.webp?v=84b1390db79da52b",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-li-guang-da-service-office/logo.webp?v=84b1390db79da52b",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=979",
         "platform": "website",
         "status": "verified",
@@ -274,7 +274,7 @@
       "visitNote": "第1選區市議員 · 15號",
       "mapMarker": {
         "label": "李光達",
-        "image": "./assets/taoyuan-li-guang-da-marker-15-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-li-guang-da-marker-15-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=979"
       }
     },
@@ -315,7 +315,7 @@
       "coordinateSource": "https://www.google.com/maps/place/%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E5%93%A1%E6%9D%8E%E5%AE%97%E8%B1%AA%E6%9C%8D%E5%8B%99%E8%99%95/@24.9911797,121.3221099,17z/data=!3m1!4b1!4m6!3m5!1s0x34681f1d679d4a8d:0xbc4ab568ad425a6a!8m2!3d24.9911797!4d121.3221099!16s%2Fg%2F11fvgxpn6t?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
       "coordinateNote": "Google Maps服務處名稱桃園市議員李宗豪服務處，地址山德里山鶯路1巷15之1號與表格相符；取實際地點!3d!4d。全址搜尋曾回錯354-1號已排除。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-li-zong-hao-service-office/logo.webp?v=c4e872f2dc4a7c78",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-li-zong-hao-service-office/logo.webp?v=c4e872f2dc4a7c78",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=984",
         "platform": "website",
         "status": "verified",
@@ -325,7 +325,7 @@
       "visitNote": "第2選區市議員 · 3號",
       "mapMarker": {
         "label": "李宗豪",
-        "image": "./assets/taoyuan-li-zong-hao-marker-3-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-li-zong-hao-marker-3-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=984"
       }
     },
@@ -367,7 +367,7 @@
       "coordinateSource": "https://www.google.com/maps/place/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E5%93%A1%E9%99%B3%E9%9B%85%E5%80%AB%E6%9C%8D%E5%8B%99%E8%99%95/@25.0214565,121.3610696,17z/data=!3m1!4b1!4m6!3m5!1s0x34681dabad3b023b:0x143a6e7e065c4c8d!8m2!3d25.0214565!4d121.3610696!16s%2Fg%2F11fj__4f6b?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
       "coordinateNote": "Google Maps民主進步黨桃園市議員陳雅倫服務處，地址振興路795巷19-1號2樓相符；取地點!3d!4d。全址查詢曾回19之2號已排除。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-chen-ya-lun-service-office/logo.webp?v=11c459f8335cc0b9",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-chen-ya-lun-service-office/logo.webp?v=11c459f8335cc0b9",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=983",
         "platform": "website",
         "status": "verified",
@@ -377,7 +377,7 @@
       "visitNote": "第2選區市議員 · 9號",
       "mapMarker": {
         "label": "陳雅倫",
-        "image": "./assets/taoyuan-chen-ya-lun-marker-9-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-chen-ya-lun-marker-9-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=983"
       }
     },
@@ -418,7 +418,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11190790467",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：3號, 忠勇西街, 大勇里, 八德區, 桃園市, 33442, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-xu-jia-rui-service-office/logo.webp?v=bd1680c9c819c8d5",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-xu-jia-rui-service-office/logo.webp?v=bd1680c9c819c8d5",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=991",
         "platform": "website",
         "status": "verified",
@@ -428,7 +428,7 @@
       "visitNote": "第3選區市議員 · 2號",
       "mapMarker": {
         "label": "許家睿",
-        "image": "./assets/taoyuan-xu-jia-rui-marker-2-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-xu-jia-rui-marker-2-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=991"
       }
     },
@@ -470,7 +470,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11190775824",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：295號, 興豐路, 城外, 興仁里, 八德區, 桃園市, 33451, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-lu-lin-xiao-feng-service-office/logo.webp?v=9ae3d6935009ad29",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-lu-lin-xiao-feng-service-office/logo.webp?v=9ae3d6935009ad29",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=987",
         "platform": "website",
         "status": "verified",
@@ -480,7 +480,7 @@
       "visitNote": "第3選區市議員 · 7號",
       "mapMarker": {
         "label": "呂林小鳳",
-        "image": "./assets/taoyuan-lu-lin-xiao-feng-marker-7-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-lu-lin-xiao-feng-marker-7-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=987"
       }
     },
@@ -522,7 +522,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11191998727",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：9號, 五福一路, 中山里, 蘆竹區, 桃園市, 338, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-xu-qing-shun-service-office/logo.webp?v=fe4f8fbaa667515a",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-xu-qing-shun-service-office/logo.webp?v=fe4f8fbaa667515a",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=994",
         "platform": "website",
         "status": "verified",
@@ -532,7 +532,7 @@
       "visitNote": "第4選區市議員 · 2號",
       "mapMarker": {
         "label": "許清順",
-        "image": "./assets/taoyuan-xu-qing-shun-marker-2-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-xu-qing-shun-marker-2-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=994"
       }
     },
@@ -573,7 +573,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11192056486",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：76號, 中華路, 大園里, 大園區, 桃園市, 337017, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-you-wu-he-service-office/logo.webp?v=d392463e86068824",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-you-wu-he-service-office/logo.webp?v=d392463e86068824",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=997",
         "platform": "website",
         "status": "verified",
@@ -583,7 +583,7 @@
       "visitNote": "第5選區市議員 · 1號",
       "mapMarker": {
         "label": "游吾和",
-        "image": "./assets/taoyuan-you-wu-he-marker-1-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-you-wu-he-marker-1-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=997"
       }
     },
@@ -632,7 +632,7 @@
       "visitNote": "第6選區市議員 · 2號",
       "mapMarker": {
         "label": "陳治文",
-        "image": "./assets/taoyuan-chen-zhi-wen-marker-2-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-chen-zhi-wen-marker-2-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=999"
       }
     },
@@ -673,7 +673,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11192360000",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：8號, 甘肅二街, 黃厝庄, 信義里, 中壢區, 桃園市, 320048, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-peng-jun-hao-service-office/logo.webp?v=ab699596099467f9",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-peng-jun-hao-service-office/logo.webp?v=ab699596099467f9",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1000",
         "platform": "website",
         "status": "verified",
@@ -683,7 +683,7 @@
       "visitNote": "第7選區市議員 · 1號",
       "mapMarker": {
         "label": "彭俊豪",
-        "image": "./assets/taoyuan-peng-jun-hao-marker-1-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-peng-jun-hao-marker-1-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1000"
       }
     },
@@ -724,7 +724,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11192402172",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：5號, 中北路二段46巷, 十崁仔, 東興里, 中壢區, 桃園市, 320060, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-wei-yun-service-office/logo.webp?v=d6408255301ddae8",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-wei-yun-service-office/logo.webp?v=d6408255301ddae8",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1001",
         "platform": "website",
         "status": "verified",
@@ -734,7 +734,7 @@
       "visitNote": "第7選區市議員 · 4號",
       "mapMarker": {
         "label": "魏筠",
-        "image": "./assets/taoyuan-wei-yun-marker-4-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-wei-yun-marker-4-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1001"
       }
     },
@@ -776,7 +776,7 @@
       "coordinateSource": "https://www.google.com/maps/place/%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E5%93%A1%E5%BC%B5%E6%9B%89%E6%98%80%E6%9C%8D%E5%8B%99%E8%99%95/@24.9612663,121.2540982,17z/data=!3m1!4b1!4m6!3m5!1s0x34682370a7954415:0x66d5a11ee86ad1bc!8m2!3d24.9612663!4d121.2540982!16s%2Fg%2F11vknbxgf7?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
       "coordinateNote": "Google Maps桃園市議員張曉昀服務處，地址環中東路361-1號相符；取實際地點!3d!4d。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-zhang-xiao-yun-service-office/logo.webp?v=332840fd218da8e5",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-zhang-xiao-yun-service-office/logo.webp?v=332840fd218da8e5",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1007",
         "platform": "website",
         "status": "verified",
@@ -786,7 +786,7 @@
       "visitNote": "第7選區市議員 · 5號",
       "mapMarker": {
         "label": "張曉昀",
-        "image": "./assets/taoyuan-zhang-xiao-yun-marker-5-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-zhang-xiao-yun-marker-5-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1007"
       }
     },
@@ -827,7 +827,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/10086503044",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：全家便利商店, 151, 領航北路二段, 八大邱, 洽溪里, 中壢區, 桃園市, 320014, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-huang-chong-zhen-service-office/logo.webp?v=ca6f84dbf5f99381",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-huang-chong-zhen-service-office/logo.webp?v=ca6f84dbf5f99381",
         "source": "https://www.facebook.com/cchuang0223/",
         "platform": "facebook",
         "status": "verified",
@@ -837,7 +837,7 @@
       "visitNote": "第7選區市議員 · 16號",
       "mapMarker": {
         "label": "黃崇真",
-        "image": "./assets/taoyuan-huang-chong-zhen-marker-16-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-huang-chong-zhen-marker-16-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1008"
       }
     },
@@ -878,7 +878,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11193348222",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：85號, 振興路, 北勢里, 平鎮區, 桃園市, 32441, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-liu-ren-zhao-service-office/logo.webp?v=db5ee5d6c8b13577",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-liu-ren-zhao-service-office/logo.webp?v=db5ee5d6c8b13577",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1014",
         "platform": "website",
         "status": "verified",
@@ -888,7 +888,7 @@
       "visitNote": "第8選區市議員 · 7號",
       "mapMarker": {
         "label": "劉仁照",
-        "image": "./assets/taoyuan-liu-ren-zhao-marker-7-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-liu-ren-zhao-marker-7-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1014"
       }
     },
@@ -930,7 +930,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11193273302",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：23號, 安平街34巷, 大湳尾, 新榮里, 平鎮區, 桃園市, 324005, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-wang-pei-yu-service-office/logo.webp?v=859ab79caba54aec",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-wang-pei-yu-service-office/logo.webp?v=859ab79caba54aec",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1012",
         "platform": "website",
         "status": "verified",
@@ -940,7 +940,7 @@
       "visitNote": "第8選區市議員 · 8號",
       "mapMarker": {
         "label": "王珮毓",
-        "image": "./assets/taoyuan-wang-pei-yu-marker-8-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-wang-pei-yu-marker-8-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1012"
       }
     },
@@ -981,7 +981,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11193564337",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：39號, 萬大路, 萬大, 瑞塘里, 楊梅區, 桃園市, 326104, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-zheng-shu-fang-service-office/logo.webp?v=2ece54516cc48f33",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-zheng-shu-fang-service-office/logo.webp?v=2ece54516cc48f33",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1018",
         "platform": "website",
         "status": "verified",
@@ -991,7 +991,7 @@
       "visitNote": "第9選區市議員 · 2號",
       "mapMarker": {
         "label": "鄭淑方",
-        "image": "./assets/taoyuan-zheng-shu-fang-marker-2-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-zheng-shu-fang-marker-2-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1018"
       }
     },
@@ -1030,7 +1030,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11193660876",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：208號, 中山路, 新屋里, 新屋區, 桃園市, 327008, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-chen-rui-sheng-service-office/logo.webp?v=8af83f93b26c8c27",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-chen-rui-sheng-service-office/logo.webp?v=8af83f93b26c8c27",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1023",
         "platform": "website",
         "status": "verified",
@@ -1040,7 +1040,7 @@
       "visitNote": "第11選區市議員 · 1號",
       "mapMarker": {
         "label": "陳睿生",
-        "image": "./assets/taoyuan-chen-rui-sheng-marker-1-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-chen-rui-sheng-marker-1-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1023"
       }
     },
@@ -1082,7 +1082,7 @@
       "coordinateSource": "https://www.google.com/maps/place/%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E5%93%A1%E6%9E%97%E5%BF%97%E5%BC%B7%E6%9C%8D%E5%8B%99%E8%99%95/@24.903623,121.2842232,17z/data=!3m1!4b1!4m6!3m5!1s0x3468186a6ed231bd:0xcc0924f56a0b2c11!8m2!3d24.903623!4d121.2842232!16s%2Fg%2F11c5_smdzh?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
       "coordinateNote": "採用Google Maps「桃園市議員林志強服務處」本人POI位置，非普通780號門牌點。表格及議會寫介壽路780之3號1樓；Maps服務處地址標780號。該POI的官方Facebook qiang.ge.564與電話03-3805541均與桃園市議會本人頁完全相同，確認為同一服務處；保留表格780之3號不改寫。座標取POI實際!3d!4d。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taoyuan-lin-zhi-qiang-service-office/logo.webp?v=f3922b1facae3e8c",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-lin-zhi-qiang-service-office/logo.webp?v=f3922b1facae3e8c",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1027",
         "platform": "website",
         "status": "verified",
@@ -1092,7 +1092,7 @@
       "visitNote": "第13選區市議員 · 1號",
       "mapMarker": {
         "label": "林志強",
-        "image": "./assets/taoyuan-lin-zhi-qiang-marker-1-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taoyuan-lin-zhi-qiang-marker-1-type-v1.webp",
         "source": "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1027"
       }
     }

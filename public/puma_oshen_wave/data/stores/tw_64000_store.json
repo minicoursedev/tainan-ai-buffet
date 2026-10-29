@@ -63,7 +63,7 @@
         "source": "https://www.zenolai.tw/"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/zenolai-campaign-headquarters/logo.webp?v=234d5943ec35153c",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/zenolai-campaign-headquarters/logo.webp?v=234d5943ec35153c",
         "source": "https://www.zenolai.tw/",
         "platform": "website",
         "status": "verified",
@@ -117,7 +117,7 @@
       "coordinateSource": "https://www.google.com/maps/place/%E8%91%89%E6%B0%8F%E8%B1%86%E5%8C%A0/@22.6664534,120.3158657,17z/data=!3m1!4b1!4m6!3m5!1s0x346e0fd9e8ee773d:0x49b0a5eee3683ff2!8m2!3d22.6664534!4d120.3158657!16s%2Fg%2F11rpdd0s1b?entry=ttu&g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D",
       "coordinateNote": "2026-10-22 OSM Nominatim 完整地址及街道門牌結構化查詢皆無結果；店名搜尋僅出現不相關地點，未採用。改以 Playwright 瀏覽器開啟 Google Maps 地點，核對「葉氏豆匠」、高雄市三民區鼎泰里民族一路543巷16號、官網及電話0905-172-466，從地點網址 !3d22.6664534 與 !4d120.3158657 取得座標，非使用 @ 地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yessoymilk-hedi/logo.webp?v=0580d488ec0e8ec7",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yessoymilk-hedi/logo.webp?v=0580d488ec0e8ec7",
         "source": "https://www.threads.com/@yessoymilk2022",
         "platform": "threads",
         "status": "verified",
@@ -157,7 +157,7 @@
         "auditNote": "官方 Threads 簡介明載16:30–23:30及十月每週六店休，Instagram 簡介亦列16:30–23:30、週六公休，另提示雙十節三天店休。採本次一致的官方簡介，不採第三方較舊的16:00或17:00時段。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/howwow-dashe/logo.webp?v=46d943c78af57106",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/howwow-dashe/logo.webp?v=46d943c78af57106",
         "source": "https://www.facebook.com/howwow168/",
         "platform": "facebook",
         "status": "verified",
@@ -204,7 +204,7 @@
         "auditNote": "官方 Threads、Instagram 簡介皆提示營業時間以Google地圖為準。Google Maps 僅顯示部分內容，首次預覽為週六15:30開始，重新載入並展開後僅見星期四15:00–18:00，未取得一致完整週表；官方近期貼文亦有平日開攤及臨時休息公告，故不填定固定營業時間與公休日。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/bltchcake/logo.webp?v=9bae5c906514a67a",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/bltchcake/logo.webp?v=9bae5c906514a67a",
         "source": "https://www.facebook.com/bltchcake4/",
         "platform": "facebook",
         "status": "verified",
@@ -250,7 +250,7 @@
         "auditNote": "本次官方 Threads 個人頁簡介明載完整週間時段及備料可能延後營業的註記；採官方現行資訊，不沿用較舊食記時段。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/sian-beauty/logo.webp?v=e79458125ad50d34",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/sian-beauty/logo.webp?v=e79458125ad50d34",
         "source": "https://www.threads.com/@sian.beauty",
         "platform": "threads",
         "status": "verified",
@@ -299,7 +299,7 @@
         "auditNote": "米其林店家頁列週二至週日08:30–15:30、週一休；2026年2月13日食記則列07:30–15:30、週一休且售完提早打烊。起始時間不同，Facebook 直接讀取僅見登入或暫時封鎖頁，Instagram 可讀個人頁未列可核對的完整時段；未能以官方現行資訊解消矛盾，故不填定固定營業時間與公休日。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/sm3542/logo.webp?v=c33b5371e3ba4c2d",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/sm3542/logo.webp?v=c33b5371e3ba4c2d",
         "source": "https://www.facebook.com/sm3542/",
         "platform": "facebook",
         "status": "verified",
@@ -353,7 +353,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11079816735",
       "coordinateNote": "2026-10-23 OSM Nominatim 完整地址查詢無結果，改以 street=99 文中路、city=旗山區、county=高雄市、country=臺灣 結構化查詢取得門牌節點11079816735，簡寫查詢亦取得相同節點。主代理另讀取 OSM 節點 API，核對 addr:full 為高雄市旗山區竹峰里10鄰文中路99號，行政區、街道、門牌及數值座標一致，節點資料來源標示高雄市政府；採與對外營業地址相符的門牌位置。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/changmei-qishan/logo.webp?v=6e47806784fb2ca4",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/changmei-qishan/logo.webp?v=6e47806784fb2ca4",
         "source": "https://www.facebook.com/p/旗山-常美冰店-100057568535067/",
         "platform": "facebook",
         "status": "verified",
@@ -399,7 +399,7 @@
         "source": "https://www.instagram.com/huangjie_official/"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/huang-jie-service-office/logo.webp?v=3c20f4dab24e3c62",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/huang-jie-service-office/logo.webp?v=3c20f4dab24e3c62",
         "source": "https://www.threads.com/@huangjie_official",
         "platform": "threads",
         "status": "verified",
@@ -449,7 +449,7 @@
         "auditNote": "查證子代理與主代理直接讀取官方社群公開自介：Threads及Instagram列11點–17點、17點最後收客及點餐；Facebook列11:00–17:30、最後點餐17:00。打烊時間有差異，故標為unverified，不填定關店時間。公休日以官方Google地圖為準，不推定固定每週營業日；未採2023年食記的10:00–18:00、週二公休或商圈頁的部分營業日。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/meet-the-old-house-coffee/logo.webp?v=cbeb591c45475225",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/meet-the-old-house-coffee/logo.webp?v=cbeb591c45475225",
         "source": "https://www.facebook.com/meet.the.old.house.coffee/",
         "platform": "facebook",
         "status": "verified",
@@ -504,7 +504,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11081561853",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢完整地址無結果，再以簡化及結構化門牌查詢取得節點11081561853。主代理另讀OSM節點API，核對addr:full為高雄市左營區新上里27鄰正心街45號，門牌、道路及行政區均與官方Threads營業地址一致，來源為高雄市政府。採門牌數值座標22.6647764、120.3039957，未使用道路中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/qing-xiang-yuan-hakka/logo.webp?v=dd4d506c79423397",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/qing-xiang-yuan-hakka/logo.webp?v=dd4d506c79423397",
         "source": "https://www.facebook.com/people/清香園客家美食/100063877627832/",
         "platform": "facebook",
         "status": "verified",
@@ -555,7 +555,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082439785",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢，透過繼光街11號、高雄市、三民區結構化地址取得節點11082439785。主代理另讀OSM節點API，核對addr:full為高雄市三民區建東里1鄰繼光街11號，門牌、道路及行政區與官方Clinic資料現址一致，來源為高雄市政府。採門牌數值座標22.6372651、120.2992278，未使用道路中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/fu-fu-tang-tcm/logo.webp?v=36dcdb9cab12adc4",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/fu-fu-tang-tcm/logo.webp?v=36dcdb9cab12adc4",
         "source": "https://www.threads.com/@fu.fu.tang",
         "platform": "threads",
         "status": "verified",
@@ -601,7 +601,7 @@
         "auditNote": "查證子代理與主代理直接讀取官方Instagram公開貼文，原文皆寫「表訂營業時間 中午10:00至晚上22:00」，另稱其他時間可LINE討論、目前暫無固定公休日並請提前預約。起始時間的「中午」與10:00有歧義，故不填定完整營業時段；保留預約制及無固定公休資訊，請先向官方LINE確認。官方Threads自介亦請至官方LINE預約。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/chun-massage/logo.webp?v=490a266f3b03e2dc",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/chun-massage/logo.webp?v=490a266f3b03e2dc",
         "source": "https://www.threads.com/@chun_massage",
         "platform": "threads",
         "status": "verified",
@@ -649,7 +649,7 @@
         "auditNote": "查證子代理核對官方Threads與Instagram自介，主代理另直接讀取官方Threads確認Hours:11：20~售完為止（最晚到15:00）。官方列有當月店休日期，故不採舊食記的固定週三公休；休假異動請以官方公告為準。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/smoko-salad-bar/logo.webp?v=07dcdab8a13233a0",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/smoko-salad-bar/logo.webp?v=07dcdab8a13233a0",
         "source": "https://www.facebook.com/smokosaladbar/",
         "platform": "facebook",
         "status": "verified",
@@ -712,7 +712,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082772478",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap Nominatim結構化查詢河北路206號、高雄市、苓雅區取得門牌節點11082772478。主代理另讀OSM節點API核對addr:full為高雄市苓雅區五權里12鄰河北路206號，行政區、道路與門牌均與議會服務處地址一致，資料來源為高雄市政府。採門牌數值座標22.6304584、120.3229119，未使用道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kuo-chien-meng-service-office/logo.webp?v=eebf74997ef2c06e",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kuo-chien-meng-service-office/logo.webp?v=eebf74997ef2c06e",
         "source": "https://www.facebook.com/GaoXiongShiYiYuanGuoJianMeng/",
         "platform": "facebook",
         "status": "verified",
@@ -723,7 +723,7 @@
       "visitNote": "第8選區市議員 · 9號",
       "mapMarker": {
         "label": "郭建盟",
-        "image": "./assets/kaohsiung-guo-jian-meng-marker-9-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-guo-jian-meng-marker-9-type-v1.webp",
         "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028"
       }
     },
@@ -765,7 +765,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082641823",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap查詢完整地址無結果，再以文化路23號、高雄市、新興區結構化查詢取得門牌節點11082641823。主代理另讀OSM節點API，核對addr:full為高雄市新興區浩然里16鄰文化路23號四樓，行政區、道路及門牌與店家資料一致，資料來源為高雄市政府。採同門牌數值座標22.623913、120.3064522；節點附帶四樓標籤，僅採門牌位置，不據以推定店家營業樓層，未使用道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/faguozi-skewers/logo.webp?v=564b2ca5b62fdb41",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/faguozi-skewers/logo.webp?v=564b2ca5b62fdb41",
         "source": "https://www.instagram.com/uniqueyaki/",
         "platform": "instagram",
         "status": "verified",
@@ -820,7 +820,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11081639594",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap自由文字地址查詢無結果，再以新勝街21號、高雄市、左營區結構化查詢取得門牌節點11081639594。主代理另讀OSM節點API，核對addr:full為高雄市左營區新下里30鄰新勝街21號，行政區、道路及門牌與商圈官方及店家會員頁地址一致，資料來源為高雄市政府。採門牌數值座標22.6688936、120.2998419，未使用道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/miss-mimi-coffee/logo.webp?v=d966d5f01ef7ce82",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/miss-mimi-coffee/logo.webp?v=d966d5f01ef7ce82",
         "source": "https://www.facebook.com/miss.mimi.cafe/",
         "platform": "facebook",
         "status": "verified",
@@ -868,7 +868,7 @@
       "coordinateSource": "https://www.google.com/maps/place/%E6%AD%A3%E6%9D%BE%E9%BA%B5%E8%88%96+Song%E2%80%99s+Noodles/@22.6311708,120.2911751,17z/data=!3m1!4b1!4m6!3m5!1s0x346e05ad94a368fb:0xfc342770fa7e26a2!8m2!3d22.6311708!4d120.2911751!16s%2Fg%2F11z4vl509n?entry=ttu",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址及結構化門牌查詢，均無結果；再透過Playwright瀏覽Google Maps地點頁，核對正松麵舖 Song’s Noodles、801009高雄市前金區新生里自強一路83巷63號及電話07 211 0001，店家網站連至官方Instagram song202605。採地點網址!3d22.6311708、!4d120.2911751的數值座標，未使用@地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/zheng-song-noodles/logo.webp?v=61c857f46687d12f",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/zheng-song-noodles/logo.webp?v=61c857f46687d12f",
         "source": "https://www.threads.com/@song202605?xmt=AQG0GiYHjVSqSr6Ld9FSjdcPoKCi9TuQSCrk2s4TVXOr_ME",
         "platform": "threads",
         "status": "verified",
@@ -917,7 +917,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/5057927924",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以林森一路146巷2號、高雄市結構化查詢取得咖啡店節點5057927924。主代理另讀OSM節點API，確認name為灰。咖啡、amenity為cafe、addr:full為高雄市新興區林森一路146巷2號，行政區、道路及門牌均與高雄電影節官方名單及店家Instagram簡介一致。採店家節點數值座標22.6292185、120.3045738，未使用道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hway-coffee-kaohsiung/logo.webp?v=c8d79c8d6906df9e",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/hway-coffee-kaohsiung/logo.webp?v=c8d79c8d6906df9e",
         "source": "https://www.facebook.com/hwaycoffee.taiwan/",
         "platform": "facebook",
         "status": "verified",
@@ -965,7 +965,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082721178",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以26 大同二路、高雄市、前金區結構化門牌查詢取得節點11082721178。主代理另讀OSM節點API，確認addr:full為高雄市前金區民生里10鄰大同二路26號，行政區、道路及門牌均與指定地址及店家介紹一致，門牌資料來源為高雄市政府。採門牌數值座標22.6272514、120.2953692，未使用道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/qianjin-braised-pork-rice/logo.webp?v=54e169fbd7f2b609",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/qianjin-braised-pork-rice/logo.webp?v=54e169fbd7f2b609",
         "source": "https://www.facebook.com/profile.php?id=100063744920382",
         "platform": "facebook",
         "status": "verified",
@@ -1008,7 +1008,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082251113",
       "coordinateNote": "2026-10-24 查證子代理優先以OpenStreetMap完整地址查詢無結果，再以133 鼓山一路、高雄市、鼓山區結構化查詢取得門牌節點11082251113。主代理另讀OSM節點API，確認addr:full為高雄市鼓山區山下里13鄰鼓山一路133號、addr:housenumber為133號，資料來源為高雄市政府。採門牌數值座標22.6289071、120.2797618，非133之1號、道路中心或地圖視窗中心；此座標確認門牌位置，不代表獨立確認店家營業地址。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taitai-sewing-studio/logo.webp?v=9118b77e354d77d1",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taitai-sewing-studio/logo.webp?v=9118b77e354d77d1",
         "source": "https://www.instagram.com/_momshandmade_/",
         "platform": "instagram",
         "status": "verified",
@@ -1058,7 +1058,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082530182",
       "coordinateNote": "2026-10-25 查證子代理以OpenStreetMap完整地址搜尋無結果後，改用Nominatim結構化street=59 松江街、city=高雄市、county=三民區、country=Taiwan取得門牌節點11082530182；主代理另讀OSM節點API確認addr:full為高雄市三民區達仁里3鄰松江街59號、門牌59號、行政區三民區，來源為高雄市政府。座標22.6421345、120.3036707為相符門牌位置，非道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/forever-young-books-kaohsiung/logo.webp?v=1f4562821740e1ac",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/forever-young-books-kaohsiung/logo.webp?v=1f4562821740e1ac",
         "source": "https://www.threads.com/@forever_young_books__",
         "platform": "threads",
         "status": "verified",
@@ -1106,7 +1106,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082808037",
       "coordinateNote": "2026-10-25 查證子代理優先查詢OpenStreetMap，以Nominatim結構化street=111 文山路、city=高雄市、county=苓雅區、country=臺灣取得門牌節點11082808037；主代理另讀OSM節點API，確認addr:full為高雄市苓雅區正義里12鄰文山路111號、門牌111號及行政區苓雅區，來源為高雄市政府。座標22.6284959、120.3396082為符合官方地址的門牌位置，未採道路中心或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/seaslugcoffee/logo.webp?v=fffcccd7e37db5e3",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/seaslugcoffee/logo.webp?v=fffcccd7e37db5e3",
         "source": "https://www.threads.com/@seaslugcoffee",
         "platform": "threads",
         "status": "verified",
@@ -1152,7 +1152,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11079816529",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：270號, 延平一路, 瑞吉里, 旗山區, 蕃薯寮, 高雄市, 842, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-lin-fu-bao-service-office/logo.webp?v=0a3d15b14c74a655",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-lin-fu-bao-service-office/logo.webp?v=0a3d15b14c74a655",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2171",
         "platform": "website",
         "status": "verified",
@@ -1162,7 +1162,7 @@
       "visitNote": "第1選區市議員 · 5號",
       "mapMarker": {
         "label": "林富寶",
-        "image": "./assets/kaohsiung-lin-fu-bao-marker-5-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-lin-fu-bao-marker-5-type-v1.webp",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2171"
       }
     },
@@ -1203,7 +1203,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11080276373",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：805號, 中山路, 竹東里, 路竹區, 半路竹, 高雄市, 821, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-huang-ming-tai-service-office/logo.webp?v=16a3af9a5384c778",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-huang-ming-tai-service-office/logo.webp?v=16a3af9a5384c778",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2175",
         "platform": "website",
         "status": "verified",
@@ -1213,7 +1213,7 @@
       "visitNote": "第2選區市議員 · 3號",
       "mapMarker": {
         "label": "黃明太",
-        "image": "./assets/kaohsiung-huang-ming-tai-marker-3-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-huang-ming-tai-marker-3-type-v1.webp",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2175"
       }
     },
@@ -1257,7 +1257,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11080269447",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：73號, 國昌路, 竹南里, 路竹區, 半路竹, 高雄市, 821, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-chen-lin-jie-service-office/logo.webp?v=7421fc9527150454",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-chen-lin-jie-service-office/logo.webp?v=7421fc9527150454",
         "source": "https://www.facebook.com/photo/?fbid=122169655892413778&set=a.122095496966413778",
         "platform": "facebook",
         "status": "verified",
@@ -1267,7 +1267,7 @@
       "visitNote": "第2選區市議員 · 4號",
       "mapMarker": {
         "label": "陳琳潔",
-        "image": "./assets/kaohsiung-chen-lin-jie-marker-4-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-chen-lin-jie-marker-4-type-v1.webp",
         "source": "https://www.facebook.com/photo/?fbid=122169655892413778&set=a.122095496966413778"
       }
     },
@@ -1310,7 +1310,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11079844495",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：1059號, 安招路, 瓊林里, 燕巢區, 吊雞林, 高雄市, 824, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-huang-qiu-ying-service-office/logo.webp?v=36e4d3657d3b3ba2",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-huang-qiu-ying-service-office/logo.webp?v=36e4d3657d3b3ba2",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2177",
         "platform": "website",
         "status": "verified",
@@ -1320,7 +1320,7 @@
       "visitNote": "第3選區市議員 · 5號",
       "mapMarker": {
         "label": "黃秋媖",
-        "image": "./assets/kaohsiung-huang-qiu-ying-marker-5-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-huang-qiu-ying-marker-5-type-v1.webp",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2177"
       }
     },
@@ -1363,7 +1363,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11080166726",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：116號, 岡山路, 岡山里, 岡山區, 勵志新城, 高雄市, 820, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-lin-zhi-cheng-service-office/logo.webp?v=61995a2608e9c435",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-lin-zhi-cheng-service-office/logo.webp?v=61995a2608e9c435",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2178",
         "platform": "website",
         "status": "verified",
@@ -1373,7 +1373,7 @@
       "visitNote": "第3選區市議員 · 6號",
       "mapMarker": {
         "label": "林志誠",
-        "image": "./assets/kaohsiung-lin-zhi-cheng-marker-6-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-lin-zhi-cheng-marker-6-type-v1.webp",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2178"
       }
     },
@@ -1416,7 +1416,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11080579412",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：17號, 後勁南路7巷, 玉屏里, 楠梓區, 五塊厝, 高雄市, 811, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-huang-wen-zhi-service-office/logo.webp?v=330072aa0d9f2068",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-huang-wen-zhi-service-office/logo.webp?v=330072aa0d9f2068",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2185",
         "platform": "website",
         "status": "verified",
@@ -1426,7 +1426,7 @@
       "visitNote": "第4選區市議員 · 1號",
       "mapMarker": {
         "label": "黃文志",
-        "image": "./assets/kaohsiung-huang-wen-zhi-marker-1-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-huang-wen-zhi-marker-1-type-v1.webp",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2185"
       }
     },
@@ -1469,7 +1469,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11081657211",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：281號, 文學路, 福華里, 左營區, 五塊厝, 高雄市, 813, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-li-ya-hui-service-office/logo.webp?v=d65aee931c4acdbb",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-li-ya-hui-service-office/logo.webp?v=d65aee931c4acdbb",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2188",
         "platform": "website",
         "status": "verified",
@@ -1479,7 +1479,7 @@
       "visitNote": "第4選區市議員 · 6號",
       "mapMarker": {
         "label": "李雅慧",
-        "image": "./assets/kaohsiung-li-ya-hui-marker-6-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-li-ya-hui-marker-6-type-v1.webp",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2188"
       }
     },
@@ -1522,7 +1522,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11079827163",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：120號, 井腳路, 井腳, 井腳里, 大樹區, 小坪, 高雄市, 840, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-huang-fei-feng-service-office/logo.webp?v=a83d987b27265a49",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-huang-fei-feng-service-office/logo.webp?v=a83d987b27265a49",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2194",
         "platform": "website",
         "status": "verified",
@@ -1532,7 +1532,7 @@
       "visitNote": "第5選區市議員 · 1號",
       "mapMarker": {
         "label": "黃飛鳳",
-        "image": "./assets/kaohsiung-huang-fei-feng-marker-1-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-huang-fei-feng-marker-1-type-v1.webp",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2194"
       }
     },
@@ -1574,7 +1574,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11079866286",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：18號, 中華路14巷, 觀音里, 大社區, 三奶壇, 高雄市, 815, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-zhang-sheng-fu-service-office/logo.webp?v=51690ca820207225",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-zhang-sheng-fu-service-office/logo.webp?v=51690ca820207225",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2192",
         "platform": "website",
         "status": "verified",
@@ -1584,7 +1584,7 @@
       "visitNote": "第5選區市議員 · 3號",
       "mapMarker": {
         "label": "張勝富",
-        "image": "./assets/kaohsiung-zhang-sheng-fu-marker-3-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-zhang-sheng-fu-marker-3-type-v1.webp",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2192"
       }
     },
@@ -1628,7 +1628,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11079913508",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：212號, 仁樂街, 仁武里, 仁武區, 仁武, 高雄市, 814, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-jiang-rui-hong-service-office/logo.webp?v=7e6742331269ea8b",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-jiang-rui-hong-service-office/logo.webp?v=7e6742331269ea8b",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2190",
         "platform": "website",
         "status": "verified",
@@ -1638,7 +1638,7 @@
       "visitNote": "第5選區市議員 · 4號",
       "mapMarker": {
         "label": "江瑞鴻",
-        "image": "./assets/kaohsiung-jiang-rui-hong-marker-4-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-jiang-rui-hong-marker-4-type-v1.webp",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2190"
       }
     },
@@ -1681,7 +1681,7 @@
       "coordinateSource": "https://www.google.com/maps/place/高雄市議員邱俊憲服務處/@22.6674587,120.359956,17z/data=!3m1!4b1!4m6!3m5!1s0x346e1b5e7417d1a3:0x47002fa3046b590d!8m2!3d22.6674587!4d120.3625363!16s%2Fg%2F11nyq5y8d9",
       "coordinateNote": "OSM未得門牌；Google Maps服務處地址387之23號、電話07 732 8220與議會相符，取!3d!4d。地址直搜誤落387之7號，已排除。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-qiu-jun-xian-service-office/logo.webp?v=649913d9122033bc",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-qiu-jun-xian-service-office/logo.webp?v=649913d9122033bc",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2193",
         "platform": "website",
         "status": "verified",
@@ -1691,7 +1691,7 @@
       "visitNote": "第5選區市議員 · 5號",
       "mapMarker": {
         "label": "邱俊憲",
-        "image": "./assets/kaohsiung-qiu-jun-xian-marker-5-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-qiu-jun-xian-marker-5-type-v1.webp",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2193"
       }
     },
@@ -1734,7 +1734,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082292470",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：953號, 九如四路, 忠正里, 鼓山區, 高雄市, 804, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-jian-huan-zong-service-office/logo.webp?v=c1f9e5ffed175d93",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-jian-huan-zong-service-office/logo.webp?v=c1f9e5ffed175d93",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2197",
         "platform": "website",
         "status": "verified",
@@ -1744,7 +1744,7 @@
       "visitNote": "第6選區市議員 · 1號",
       "mapMarker": {
         "label": "簡煥宗",
-        "image": "./assets/kaohsiung-jian-huan-zong-marker-1-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-jian-huan-zong-marker-1-type-v1.webp",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2197"
       }
     },
@@ -1787,7 +1787,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082275745",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：1012號, 九如四路, 光榮里, 鼓山區, 高雄市, 804, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-li-qiao-ru-service-office/logo.webp?v=fc43eaa5d5f09c45",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-li-qiao-ru-service-office/logo.webp?v=fc43eaa5d5f09c45",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2195",
         "platform": "website",
         "status": "verified",
@@ -1797,7 +1797,7 @@
       "visitNote": "第6選區市議員 · 2號",
       "mapMarker": {
         "label": "李喬如",
-        "image": "./assets/kaohsiung-li-qiao-ru-marker-2-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-li-qiao-ru-marker-2-type-v1.webp",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2195"
       }
     },
@@ -1841,7 +1841,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082442525",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：332號, 金山路, 鼎中里, 三民區, 高雄市, 807, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-he-quan-feng-service-office/logo.webp?v=0e6d1a3e09ce3416",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-he-quan-feng-service-office/logo.webp?v=0e6d1a3e09ce3416",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2204",
         "platform": "website",
         "status": "verified",
@@ -1851,7 +1851,7 @@
       "visitNote": "第7選區市議員 · 1號",
       "mapMarker": {
         "label": "何權峰",
-        "image": "./assets/kaohsiung-he-quan-feng-marker-1-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-he-quan-feng-marker-1-type-v1.webp",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2204"
       }
     },
@@ -1896,7 +1896,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082575189",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：434號, 九如一路, 寶安里, 三民區, 高雄市, 807, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-kang-yu-cheng-service-office/logo.webp?v=dec37a414b580d8d",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-kang-yu-cheng-service-office/logo.webp?v=dec37a414b580d8d",
         "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
         "platform": "website",
         "status": "verified",
@@ -1906,7 +1906,7 @@
       "visitNote": "第7選區市議員 · 8號",
       "mapMarker": {
         "label": "康裕成",
-        "image": "./assets/kaohsiung-kang-yu-cheng-marker-8-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-kang-yu-cheng-marker-8-type-v1.webp",
         "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028"
       }
     },
@@ -1949,7 +1949,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082574441",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：456號, 九如一路, 寶安里, 三民區, 高雄市, 807, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-zheng-meng-ru-service-office/logo.webp?v=7b1e9c18747ac139",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-zheng-meng-ru-service-office/logo.webp?v=7b1e9c18747ac139",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2203",
         "platform": "website",
         "status": "verified",
@@ -1959,7 +1959,7 @@
       "visitNote": "第7選區市議員 · 9號",
       "mapMarker": {
         "label": "鄭孟洳",
-        "image": "./assets/kaohsiung-zheng-meng-ru-marker-9-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-zheng-meng-ru-marker-9-type-v1.webp",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2203"
       }
     },
@@ -2002,7 +2002,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082643730",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：162號, 中正三路, 愛平里, 新興區, 高雄市, 800, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-tang-yong-yu-service-office/logo.webp?v=82b340dd3f54dbc7",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-tang-yong-yu-service-office/logo.webp?v=82b340dd3f54dbc7",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2208",
         "platform": "website",
         "status": "verified",
@@ -2012,7 +2012,7 @@
       "visitNote": "第8選區市議員 · 4號",
       "mapMarker": {
         "label": "湯詠瑜",
-        "image": "./assets/kaohsiung-tang-yong-yu-marker-4-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-tang-yong-yu-marker-4-type-v1.webp",
         "source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2208"
       }
     },
@@ -2057,7 +2057,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082637867",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：246號, 七賢一路, 興昌里, 新興區, 高雄市, 800, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-huang-wen-yi-service-office/logo.webp?v=209cd68914443334",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-huang-wen-yi-service-office/logo.webp?v=209cd68914443334",
         "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
         "platform": "website",
         "status": "verified",
@@ -2067,7 +2067,7 @@
       "visitNote": "第8選區市議員 · 5號",
       "mapMarker": {
         "label": "黃文益",
-        "image": "./assets/kaohsiung-huang-wen-yi-marker-5-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-huang-wen-yi-marker-5-type-v1.webp",
         "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028"
       }
     },
@@ -2113,7 +2113,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11081037570",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：41號, 南京路, 新甲里, 鳳山區, 高雄市, 830, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-lin-zhi-hong-service-office/logo.webp?v=bf0f090942908042",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-lin-zhi-hong-service-office/logo.webp?v=bf0f090942908042",
         "source": "https://www.facebook.com/photo/?fbid=1304423348155219&set=a.161869012410664",
         "platform": "facebook",
         "status": "verified",
@@ -2123,7 +2123,7 @@
       "visitNote": "第9選區市議員 · 1號",
       "mapMarker": {
         "label": "林智鴻",
-        "image": "./assets/kaohsiung-lin-zhi-hong-marker-1-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-lin-zhi-hong-marker-1-type-v1.webp",
         "source": "https://www.facebook.com/photo/?fbid=1304423348155219&set=a.161869012410664"
       }
     },
@@ -2166,7 +2166,7 @@
       "coordinateSource": "https://www.google.com/maps/place/830高雄市鳳山區忠義里自由路100號/@22.6259948,120.3498207,17z/data=!3m1!4b1!4m6!3m5!1s0x346e1b4832540001:0xaaf39ef31d172f00!8m2!3d22.6259948!4d120.352401!16s%2Fg%2F11w9rtk0y4",
       "coordinateNote": "OSM未得門牌；Google Maps精確自由路100號並列位於此處的張漢忠議員服務處，取!3d!4d門牌座標。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-zhang-han-zhong-service-office/logo.webp?v=1f684d933beb90e8",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-zhang-han-zhong-service-office/logo.webp?v=1f684d933beb90e8",
         "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
         "platform": "website",
         "status": "verified",
@@ -2176,7 +2176,7 @@
       "visitNote": "第9選區市議員 · 2號",
       "mapMarker": {
         "label": "張漢忠",
-        "image": "./assets/kaohsiung-zhang-han-zhong-marker-2-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-zhang-han-zhong-marker-2-type-v1.webp",
         "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028"
       }
     },
@@ -2221,7 +2221,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11081125585",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：231號, 錦田路, 鎮南里, 鳳山區, 高雄市, 830, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-chen-hui-wen-service-office/logo.webp?v=dea082ba410ff5d8",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-chen-hui-wen-service-office/logo.webp?v=dea082ba410ff5d8",
         "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
         "platform": "website",
         "status": "verified",
@@ -2231,7 +2231,7 @@
       "visitNote": "第9選區市議員 · 5號",
       "mapMarker": {
         "label": "陳慧文",
-        "image": "./assets/kaohsiung-chen-hui-wen-marker-5-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-chen-hui-wen-marker-5-type-v1.webp",
         "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028"
       }
     },
@@ -2276,7 +2276,7 @@
       "coordinateSource": "https://www.google.com/maps/place/806高雄市前鎮區瑞昌里永豐路100號/@22.6063621,120.3311375,17z/data=!3m1!4b1!4m6!3m5!1s0x346e03570bb68307:0x55865892db8bb061!8m2!3d22.6063621!4d120.3337178!16s%2Fg%2F11xvmw5bzc",
       "coordinateNote": "OSM未得門牌；Google Maps精確永豐路100號並列位於此處的鄭光峰市議員服務處，取!3d!4d門牌座標。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-zheng-guang-feng-service-office/logo.webp?v=3e13f30b870842a4",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-zheng-guang-feng-service-office/logo.webp?v=3e13f30b870842a4",
         "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
         "platform": "website",
         "status": "verified",
@@ -2286,7 +2286,7 @@
       "visitNote": "第10選區市議員 · 7號",
       "mapMarker": {
         "label": "鄭光峰",
-        "image": "./assets/kaohsiung-zheng-guang-feng-marker-7-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-zheng-guang-feng-marker-7-type-v1.webp",
         "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028"
       }
     },
@@ -2331,7 +2331,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11080081018",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：460號, 東林西路, 過溝, 廣應里, 林園區, 林子邊, 高雄市, 832, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-li-yu-ting-service-office/logo.webp?v=7f94025e46acabd3",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-li-yu-ting-service-office/logo.webp?v=7f94025e46acabd3",
         "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
         "platform": "website",
         "status": "verified",
@@ -2341,7 +2341,7 @@
       "visitNote": "第11選區市議員 · 5號",
       "mapMarker": {
         "label": "李雨庭",
-        "image": "./assets/kaohsiung-li-yu-ting-marker-5-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-li-yu-ting-marker-5-type-v1.webp",
         "source": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028"
       }
     },
@@ -2386,7 +2386,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11080030937",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：86號, 中庄路, 中庄里, 大寮區, 中庄, 高雄市, 831, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-zhang-yao-zhong-service-office/logo.webp?v=12b917c9ea83f3b8",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-zhang-yao-zhong-service-office/logo.webp?v=12b917c9ea83f3b8",
         "source": "https://www.facebook.com/photo/?fbid=122148761870737363&set=a.122102580584737363",
         "platform": "facebook",
         "status": "verified",
@@ -2396,7 +2396,7 @@
       "visitNote": "第11選區市議員 · 6號",
       "mapMarker": {
         "label": "張耀中",
-        "image": "./assets/kaohsiung-zhang-yao-zhong-marker-6-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-zhang-yao-zhong-marker-6-type-v1.webp",
         "source": "https://www.facebook.com/photo/?fbid=122148761870737363&set=a.122102580584737363"
       }
     },
@@ -2441,7 +2441,7 @@
       "coordinateSource": "https://www.google.com/maps/place/832高雄市林園區東林里鳳林路一段98號/@22.504293,120.3952236,17z/data=!3m1!4b1!4m5!3m4!1s0x3471e27bd06975df:0x8ba8eba1557c54c1!8m2!3d22.504293!4d120.3978039",
       "coordinateNote": "OSM未得門牌；Google Maps精確鳳林路一段98號與表格及媒體服務處報導相同，取!3d!4d門牌座標。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kaohsiung-zhang-yao-zhong-service-office-linyuan/logo.webp?v=12b917c9ea83f3b8",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-zhang-yao-zhong-service-office-linyuan/logo.webp?v=12b917c9ea83f3b8",
         "source": "https://www.facebook.com/photo/?fbid=122148761870737363&set=a.122102580584737363",
         "platform": "facebook",
         "status": "verified",
@@ -2451,7 +2451,7 @@
       "visitNote": "第11選區市議員 · 6號",
       "mapMarker": {
         "label": "張耀中",
-        "image": "./assets/kaohsiung-zhang-yao-zhong-marker-6-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kaohsiung-zhang-yao-zhong-marker-6-type-v1.webp",
         "source": "https://www.facebook.com/photo/?fbid=122148761870737363&set=a.122102580584737363"
       }
     },
@@ -2498,7 +2498,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11082501722",
       "coordinateNote": "查證子代理優先以 OpenStreetMap 完整地址查詢無結果，改用 street=5 建國三路68巷、city=高雄市、county=三民區、country=台灣的結構化查詢，取得門牌節點11082501722。主代理另讀 OSM 官方節點 API，確認 addr:full=高雄市三民區鳳北里2鄰建國三路68巷5號、道路及5號門牌均與官方地址相符；採節點 lat22.6383797、lon120.2958652，非道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/cathouse-art/logo.webp?v=716ec92750991831",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/cathouse-art/logo.webp?v=716ec92750991831",
         "source": "https://www.threads.com/@cathouse.art",
         "platform": "threads",
         "status": "verified",

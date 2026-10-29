@@ -1,6 +1,6 @@
 import { createWalkView } from '../designer/js/walk.js?v=20261028-creator-socials';
 import { toast } from '../designer/js/state.js';
-import { loadCatalogue, createPublicShowcase } from './data.js?v=20261028-public-showcase';
+import { loadCatalogue, createPublicShowcase } from './data.js?v=20261030-site-data';
 import { mountPlayer } from './player.js';
 
 const $ = id => document.getElementById(id);

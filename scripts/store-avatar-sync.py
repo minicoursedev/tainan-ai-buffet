@@ -21,8 +21,7 @@ from PIL import Image, ImageChops, ImageOps, ImageStat, UnidentifiedImageError
 ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / 'public/puma_oshen_wave/stores.json'
 ASSETS = ROOT / 'public/puma_oshen_wave/assets'
-PUBLIC_BASE = ('https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/'
-               'main/public/puma_oshen_wave/assets/')
+PUBLIC_BASE = 'https://minicourse.dev/puma_oshen_wave/assets/'
 STATE = ROOT / 'scripts/store-avatar-sync-state.json'
 WORK = ROOT / '.avatar-sync'
 Image.MAX_IMAGE_PIXELS = 25_000_000
@@ -558,7 +557,7 @@ def prepare(args):
             store['shopPhoto'] = patches[store['id']]['after']
     write_json(args.work_dir / 'stores.candidate.json', candidate)
     print(json.dumps({key: report[key] for key in ('counts', 'requests', 'downloadedBytes')}, ensure_ascii=False))
-    print('正式 stores.json 未變更。先提交並推送 assets/<店家ID>/logo.webp，再執行 apply 驗證 GitHub Raw 圖片；無須部署網站。')
+    print('正式 stores.json 未變更。執行 apply --bundled 驗證本機圖片，將圖片與 JSON 一起推送及部署後驗證 minicourse.dev。')
 
 
 def verify_plan(plan, client, assets=ASSETS):
@@ -573,16 +572,19 @@ def verify_plan(plan, client, assets=ASSETS):
         expected = PUBLIC_BASE + filename + '?v=' + patch['sha256'][:16]
         if patch['after']['url'] != expected:
             raise ValueError('待發布網址與指紋不符')
-        status, body, _, final = client.get(expected)
-        if (status != 200 or urlsplit(final)[:3] != urlsplit(expected)[:3]
-                or sha(body) != patch['sha256']):
-            raise ValueError('GitHub Raw 圖片尚未更新或內容不符，停止更新 JSON：' + patch['id'])
+        status = None
+        body = data
+        if client is not None:
+            status, body, _, final = client.get(expected)
+            if (status != 200 or urlsplit(final)[:3] != urlsplit(expected)[:3]
+                    or sha(body) != patch['sha256']):
+                raise ValueError('minicourse.dev 圖片尚未更新或內容不符，停止更新 JSON：' + patch['id'])
         dimensions = decode(body).size
         if dimensions[0] != dimensions[1] or not 1 <= dimensions[0] <= TARGET_EDGE:
             raise ValueError('公開圖片尺寸錯誤：' + patch['id'])
         evidence.append({'id': patch['id'], 'url': expected, 'httpStatus': status,
                          'sha256': sha(body), 'size': list(dimensions), 'bytes': len(body), 'verifiedAt': now()})
-        print('公開圖片驗證通過：' + patch['id'], flush=True)
+        print(('公開圖片驗證通過：' if client is not None else '本機圖片驗證通過，等待與 JSON 一起部署：') + patch['id'], flush=True)
     return evidence
 
 
@@ -593,7 +595,7 @@ def apply(args):
     current = read_json(args.catalog)
     if catalog_guard(current) != plan['catalogGuard']:
         raise ValueError('店家啟用狀態或頭像資料已變更，請重新 prepare；其他店家欄位會保留')
-    evidence = verify_plan(plan, Client(args.interval, args.timeout))
+    evidence = verify_plan(plan, None if getattr(args, 'bundled', False) else Client(args.interval, args.timeout))
     # Verify every proposed image before writing anything to the official catalog.
     latest = read_json(args.catalog)
     if latest != current:
@@ -611,6 +613,7 @@ def apply(args):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command', choices=('prepare', 'retry', 'apply'))
+    parser.add_argument('--bundled', action='store_true', help='apply 驗證本機圖片後與 JSON 一起部署；推送後須驗證正式站')
     parser.add_argument('--catalog', type=Path, default=CATALOG)
     parser.add_argument('--state', type=Path, default=STATE)
     parser.add_argument('--work-dir', type=Path, default=WORK)

@@ -72,7 +72,7 @@
       "visitNote": "第1選區縣議員 · 10號",
       "mapMarker": {
         "label": "李世斌",
-        "image": "./assets/pingtung-li-shi-bin-marker-10-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/pingtung-li-shi-bin-marker-10-type-v1.webp",
         "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=83e4c59b-1c6e-55f8-864f-90d346ecd8c8"
       }
     },
@@ -121,7 +121,7 @@
       "visitNote": "第1選區縣議員 · 16號",
       "mapMarker": {
         "label": "方一祥",
-        "image": "./assets/pingtung-fang-yi-xiang-marker-16-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/pingtung-fang-yi-xiang-marker-16-type-v1.webp",
         "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=ded87e64-f9fc-464a-4737-b7b3457e508e"
       }
     },
@@ -172,7 +172,7 @@
       "visitNote": "第3選區縣議員 · 5號",
       "mapMarker": {
         "label": "黃建溢",
-        "image": "./assets/pingtung-huang-jian-yi-marker-5-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/pingtung-huang-jian-yi-marker-5-type-v1.webp",
         "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=0ebeb91d-3321-7199-60f1-25f39143e864"
       }
     },
@@ -221,7 +221,7 @@
       "visitNote": "第3選區縣議員 · 6號",
       "mapMarker": {
         "label": "利八魁",
-        "image": "./assets/pingtung-li-ba-kui-marker-6-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/pingtung-li-ba-kui-marker-6-type-v1.webp",
         "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=eba79364-b4a8-29c9-d54e-6bba9e79d240"
       }
     },
@@ -271,7 +271,7 @@
       "visitNote": "第4選區縣議員 · 3號",
       "mapMarker": {
         "label": "許展維",
-        "image": "./assets/pingtung-xu-zhan-wei-marker-3-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/pingtung-xu-zhan-wei-marker-3-type-v1.webp",
         "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=f7182d89-30b1-e86b-40a1-e2527c353e48"
       }
     },
@@ -320,7 +320,7 @@
       "visitNote": "第4選區縣議員 · 6號",
       "mapMarker": {
         "label": "劉孟君",
-        "image": "./assets/pingtung-liu-meng-jun-marker-6-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/pingtung-liu-meng-jun-marker-6-type-v1.webp",
         "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=5d9217cb-0c81-ab15-cebc-c0e1e7afd00c"
       }
     },
@@ -372,7 +372,7 @@
       "visitNote": "第4選區縣議員 · 8號",
       "mapMarker": {
         "label": "方文正",
-        "image": "./assets/pingtung-fang-wen-zheng-marker-8-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/pingtung-fang-wen-zheng-marker-8-type-v1.webp",
         "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=8de36599-83ac-8c40-ef11-be917d8e72cd"
       }
     },
@@ -421,7 +421,7 @@
       "visitNote": "第5選區縣議員 · 3號",
       "mapMarker": {
         "label": "羅平道",
-        "image": "./assets/pingtung-luo-ping-dao-marker-3-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/pingtung-luo-ping-dao-marker-3-type-v1.webp",
         "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=bb3e2d73-cd78-d552-18de-5bc5248a88b1"
       }
     },
@@ -471,7 +471,7 @@
       "visitNote": "第5選區縣議員 · 4號",
       "mapMarker": {
         "label": "周碧雲",
-        "image": "./assets/pingtung-zhou-bi-yun-marker-4-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/pingtung-zhou-bi-yun-marker-4-type-v1.webp",
         "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=86a21ec5-3443-98aa-8aa5-93af63edea3c"
       }
     },
@@ -523,7 +523,7 @@
       "visitNote": "第6選區縣議員 · 4號",
       "mapMarker": {
         "label": "潘芳泉",
-        "image": "./assets/pingtung-pan-fang-quan-marker-4-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/pingtung-pan-fang-quan-marker-4-type-v1.webp",
         "source": "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=f3728c99-9bb4-0975-89cb-7dd3c22149d4"
       }
     }

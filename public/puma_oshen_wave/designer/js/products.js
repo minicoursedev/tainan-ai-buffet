@@ -41,7 +41,7 @@ export function sampleProducts(products, random = Math.random) {
 export async function loadProducts(url, designerId) {
   const key = `${designerId}|${url}`;
   if (!catalogues.has(key)) {
-    catalogues.set(key, fetch(url, { credentials: 'omit', cache: 'no-cache' })
+    catalogues.set(key, fetch(url, { credentials: 'omit', cache: 'no-store' })
       .then(response => {
         if (!response.ok) throw new Error(`Could not load products: HTTP ${response.status}`);
         return response.json();

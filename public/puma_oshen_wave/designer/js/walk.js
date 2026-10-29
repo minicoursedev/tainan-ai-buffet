@@ -2,7 +2,7 @@
 // World: a horizontal aisle in world units. N booths on top (poster stand, table, cloth), S booths below (table seen from
 // above, covers lying flat). Redraws only while something moves or an image arrives.
 import { isVisited, toast } from './state.js';
-import { catFits, pickLine, praiseLine } from './cats.js';
+import { catFits, pickLine, praiseLine } from './cats.js?v=20261030-site-data';
 import { thumbnailUrl, retryOriginal } from './images.js';
 
 const palette = getComputedStyle(document.documentElement);

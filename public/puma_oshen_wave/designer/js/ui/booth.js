@@ -1,9 +1,9 @@
 // Designer dialog: profile, catalogue images, social links and share link.
 import { state, markVisited, findBoothIn, toast } from '../state.js';
-import { loadAisle, aisleOfBooth } from '../data.js?v=20261029-products';
-import { goToBooth, designerBoothUrl } from '../nav.js?v=20261029-products';
+import { loadAisle, aisleOfBooth } from '../data.js?v=20261030-site-data';
+import { goToBooth, designerBoothUrl } from '../nav.js?v=20261030-site-data';
 import { thumbnailUrl, retryOriginal } from '../images.js';
-import { loadProducts, sampleProducts } from '../products.js?v=20261029-products';
+import { loadProducts, sampleProducts } from '../products.js?v=20261030-site-data';
 
 const dlg = () => document.getElementById('dlg-booth');
 

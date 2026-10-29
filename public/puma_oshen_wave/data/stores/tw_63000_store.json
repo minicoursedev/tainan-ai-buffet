@@ -65,7 +65,7 @@
       "coordinateSource": "https://maps.google.com/maps/place/%E4%B8%89san/data=!4m2!3m1!1s0x3442a9548536a85f:0x74d721066d0aa1bd",
       "coordinateNote": "OpenStreetMap 完整地址查無結果，結構化查詢僅回傳道路，未採用。由官方 Threads「來找我們」實際外連 Google Maps 短連結，核對三san地點的行政區與杭州南路二段33號門牌；地點頁原生 /maps/preview/place 公開資料的地點欄位明示25.033591899999998、121.5234273，採用該門牌地點座標，非@地圖視窗中心。未取得!3d與!4d格式的地點網址；座標代表33號門牌位置，未確認A2攤位入口。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/sancoffeeandlife/logo.webp?v=d4dc303deb60b441",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/sancoffeeandlife/logo.webp?v=d4dc303deb60b441",
         "source": "https://www.threads.com/@sancoffeeandlife",
         "platform": "threads",
         "status": "verified",
@@ -116,7 +116,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/10830258484",
       "coordinateNote": "OpenStreetMap 完整地址查詢無結果，改以 street=26 中山北路一段33巷、city=中山區、state=臺北市、country=Taiwan 的結構化查詢，取得門牌節點10830258484。讀取官方節點 API，核對 addr:city=臺北市、addr:district=中山區、addr:street=中山北路一段33巷、addr:housenumber=26號，完整地址與店家營業地址一致；採節點 lat25.0486044、lon121.5222852，非道路中心或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/egg-milk-tree/logo.webp?v=8c0effbd9d39eb96",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/egg-milk-tree/logo.webp?v=8c0effbd9d39eb96",
         "source": "https://www.facebook.com/egg.milk.tree/",
         "platform": "facebook",
         "status": "verified",

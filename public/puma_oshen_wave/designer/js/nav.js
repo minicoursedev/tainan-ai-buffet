@@ -1,6 +1,6 @@
 // Move between designer aisles and resolve share links.
 import { state, emit, toast } from './state.js';
-import { loadAisle, aisleOfBooth, hallOf } from './data.js?v=20261029-products';
+import { loadAisle, aisleOfBooth, hallOf } from './data.js?v=20261030-site-data';
 
 const hallOfIndex = code => state.index.halls.find(h => h.code === hallOf(code));
 

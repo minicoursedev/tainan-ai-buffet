@@ -64,7 +64,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/12264293166",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：36號, 文化路, 埔子尾, 中興里, 馬公市, 澎湖縣, 880001, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/penghu-su-yu-de-service-office/logo.webp?v=b0bcc2d352a330d4",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/penghu-su-yu-de-service-office/logo.webp?v=b0bcc2d352a330d4",
         "source": "https://www.phcouncil.gov.tw/mop2.php?no=M24080008",
         "platform": "website",
         "status": "verified",
@@ -74,7 +74,7 @@
       "visitNote": "第1選區縣議員 · 7號",
       "mapMarker": {
         "label": "蘇育德",
-        "image": "./assets/penghu-su-yu-de-marker-7-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/penghu-su-yu-de-marker-7-type-v1.webp",
         "source": "https://www.phcouncil.gov.tw/mop2.php?no=M24080008"
       }
     }

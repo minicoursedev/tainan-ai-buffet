@@ -111,7 +111,7 @@ export function createCatalogue(data) {
 }
 
 export async function loadCatalogue() {
-  const response = await fetch(new URL('./videos.json', import.meta.url), { cache: 'no-cache', credentials: 'omit' });
+  const response = await fetch(new URL('./videos.json', import.meta.url), { cache: 'no-store', credentials: 'omit' });
   if (!response.ok) throw new Error(`舞台資料讀取失敗（${response.status}）`);
   return createCatalogue(await response.json());
 }

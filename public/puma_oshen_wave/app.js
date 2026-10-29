@@ -1,4 +1,4 @@
-import {findStar} from './lucky-star.js?v=20261022-star';
+import {findStar} from './lucky-star.js?v=20261030-site-data';
 import {createShopMap} from './shop-map.js?v=20261027-service-marker-filter-row34';
 const byId = id => document.getElementById(id);
 const origin = '22.997137,120.21295';
@@ -210,7 +210,7 @@ async function loadDesigners() {
   list.setAttribute('aria-busy', 'true');
   list.replaceChildren(node('p', '設計師名單載入中…', 'empty-state'));
   try {
-    const response = await fetch('https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/designer.json', {cache:'no-cache'});
+    const response = await fetch('https://minicourse.dev/puma_oshen_wave/designer.json', {cache:'no-store'});
     if (!response.ok) throw new Error('Could not load designers');
     const data = await response.json();
     if (!Array.isArray(data.designers)) throw new Error('Invalid designer list');
@@ -507,7 +507,7 @@ function renderShops(page = 0) {
 }
 async function init(){
   try{
-    const response=await fetch('https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/stores.json', {cache:'no-cache'});if(!response.ok)throw new Error('Could not load shops');
+    const response=await fetch('https://minicourse.dev/puma_oshen_wave/stores.json', {cache:'no-store'});if(!response.ok)throw new Error('Could not load shops');
     const data=await response.json();const ids=new Set();
     if(!Array.isArray(data.stores))throw new Error('Invalid shop list');
     for(const shop of data.stores){

@@ -299,10 +299,10 @@ class AvatarTests(unittest.TestCase):
         self.assertEqual(updated['contentBox'], [0, 0, 256, 256])
         self.assertIsNotNone(proposed)
 
-    def test_pages_to_raw_migration_keeps_asset_and_is_repeatable(self):
+    def test_raw_to_site_migration_keeps_asset_and_is_repeatable(self):
         state, proposed, _, _ = self.migrate()
         self.store['shopPhoto'] = proposed['after']
-        self.store['shopPhoto']['url'] = ('https://minicourse.dev/puma_oshen_wave/assets/store-avatars/'
+        self.store['shopPhoto']['url'] = ('https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/'
                                          'example-shop/logo.webp?v=' + state['sha256'][:16])
         path = self.assets / 'example-shop/logo.webp'
         original, mtime = path.read_bytes(), path.stat().st_mtime_ns
@@ -310,7 +310,7 @@ class AvatarTests(unittest.TestCase):
         _, migrated, outcome, _ = sync.sync_one(self.store, state, client, self.assets)
         self.assertEqual(outcome, 'unchanged')
         self.assertTrue(migrated['after']['url'].startswith(
-            'https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/'))
+            'https://minicourse.dev/puma_oshen_wave/assets/'))
         self.assertTrue(migrated['after']['url'].endswith('example-shop/logo.webp?v=' + state['sha256'][:16]))
         self.assertEqual(path.read_bytes(), original)
         self.assertEqual(path.stat().st_mtime_ns, mtime)
@@ -319,11 +319,11 @@ class AvatarTests(unittest.TestCase):
             FakeClient([(304, b'', {}, SOURCE), (304, b'', {}, IMAGE_URL)]), self.assets)
         self.assertIsNone(repeat)
 
-    def test_public_verification_rejects_pages_and_other_raw_repository(self):
+    def test_public_verification_rejects_raw_and_other_hosts(self):
         _, proposed, _, _ = self.migrate()
         data = (self.assets / 'example-shop/logo.webp').read_bytes()
-        for final in ['https://minicourse.dev/puma_oshen_wave/assets/store-avatars/example-shop/logo.webp',
-                      proposed['after']['url'].replace('/minicoursedev/', '/another-owner/')]:
+        for final in ['https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/example-shop/logo.webp',
+                      proposed['after']['url'].replace('minicourse.dev', 'another.example')]:
             with self.subTest(final=final):
                 with self.assertRaises(ValueError):
                     sync.verify_plan({'patches': [proposed]}, FakeClient([(200, data, {}, final)]), self.assets)
@@ -337,6 +337,16 @@ class AvatarTests(unittest.TestCase):
         data = (self.assets / 'example-shop/logo.webp').read_bytes()
         client = FakeClient([(200, data, {}, proposed['after']['url'])])
         self.assertEqual(sync.verify_plan(plan, client, self.assets)[0]['size'], [256, 256])
+
+    def test_bundled_verification_checks_local_bytes_without_claiming_http_success(self):
+        _, proposed, _, _ = self.migrate()
+        plan = {'patches': [proposed]}
+        evidence = sync.verify_plan(plan, None, self.assets)
+        self.assertIsNone(evidence[0]['httpStatus'])
+        self.assertEqual(evidence[0]['sha256'], proposed['sha256'])
+        (self.assets / 'example-shop/logo.webp').write_bytes(b'changed')
+        with self.assertRaisesRegex(ValueError, '本機圖片已變更'):
+            sync.verify_plan(plan, None, self.assets)
 
     def test_apply_failure_keeps_catalog_and_success_preserves_other_fields(self):
         _, proposed, _, _ = self.migrate()

@@ -71,7 +71,7 @@
       "visitNote": "第1選區縣議員 · 3號",
       "mapMarker": {
         "label": "許櫻萍",
-        "image": "./assets/miaoli-xu-ying-ping-marker-3-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/miaoli-xu-ying-ping-marker-3-type-v1.webp",
         "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=&typeid=2580&typeid2=2599"
       }
     },
@@ -112,7 +112,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/10997772161",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：1212號, 中正路, 明駝, 恭敬里, 苗栗市, 苗栗縣, 36047, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/miaoli-xu-xiao-jing-service-office/logo.webp?v=f60f771504012906",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/miaoli-xu-xiao-jing-service-office/logo.webp?v=f60f771504012906",
         "source": "https://www.facebook.com/profile.php?id=100068987386954",
         "platform": "facebook",
         "status": "verified",
@@ -122,7 +122,7 @@
       "visitNote": "第1選區縣議員 · 5號",
       "mapMarker": {
         "label": "徐筱菁",
-        "image": "./assets/miaoli-xu-xiao-jing-marker-5-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/miaoli-xu-xiao-jing-marker-5-type-v1.webp",
         "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=&typeid=2580&typeid2=2599"
       }
     },
@@ -171,7 +171,7 @@
       "visitNote": "第2選區縣議員 · 2號",
       "mapMarker": {
         "label": "羅貴星",
-        "image": "./assets/miaoli-luo-gui-xing-marker-2-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/miaoli-luo-gui-xing-marker-2-type-v1.webp",
         "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2600"
       }
     },
@@ -222,7 +222,7 @@
       "visitNote": "第3選區縣議員 · 1號",
       "mapMarker": {
         "label": "翁杰",
-        "image": "./assets/miaoli-weng-jie-marker-1-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/miaoli-weng-jie-marker-1-type-v1.webp",
         "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2601"
       }
     },
@@ -273,7 +273,7 @@
       "visitNote": "第4選區縣議員 · 6號",
       "mapMarker": {
         "label": "邱毓興",
-        "image": "./assets/miaoli-qiu-yu-xing-marker-6-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/miaoli-qiu-yu-xing-marker-6-type-v1.webp",
         "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2602"
       }
     },
@@ -324,7 +324,7 @@
       "visitNote": "第5選區縣議員 · 6號",
       "mapMarker": {
         "label": "陳光軒",
-        "image": "./assets/miaoli-chen-guang-xuan-marker-6-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/miaoli-chen-guang-xuan-marker-6-type-v1.webp",
         "source": "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2603"
       }
     }

@@ -57,7 +57,7 @@
         "auditNote": "官方Instagram簡介列11:00–17:30及「店休：請看粉專」，官方Threads 2026-09-29貼文公告隔日11:00–17:30，時段一致。未確認固定每週休息日，不推定每日營業；店休日依官方粉專公告。"
       },
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/cafe-sanpo-yilan/logo.webp?v=fc3e3651b969af6f",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/cafe-sanpo-yilan/logo.webp?v=fc3e3651b969af6f",
         "source": "https://www.threads.com/@2015cafesanpo",
         "platform": "threads",
         "status": "verified",
@@ -110,7 +110,7 @@
       "coordinateSource": "https://www.google.com/maps/place/宜蘭縣議員林麗服務處/data=!4m6!3m5!1s0x3467e533d1c77ddf:0xe426b17443eaded1!8m2!3d24.7421662!4d121.7555144!16s%2Fg%2F11gxn92_sz",
       "coordinateNote": "OSM無精確門牌；Google Maps門牌查詢誤匹配公園路497號，改以宜蘭縣議員林麗服務處名稱搜尋，確認服務處詳細地址為宜蘭市建業里公園路497巷22號，從地點網址!3d/!4d取值。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yilan-lin-li-service-office/logo.webp?v=99af692e0a704357",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-lin-li-service-office/logo.webp?v=99af692e0a704357",
         "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2005&clique=DDP&pic=1",
         "platform": "website",
         "status": "verified",
@@ -120,7 +120,7 @@
       "visitNote": "第1選區縣議員 · 4號",
       "mapMarker": {
         "label": "林麗",
-        "image": "./assets/yilan-lin-li-marker-4-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/yilan-lin-li-marker-4-type-v1.webp",
         "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2005&clique=DDP&pic=1"
       }
     },
@@ -159,7 +159,7 @@
       "coordinateSource": "https://www.google.com/maps/place/261宜蘭縣頭城鎮新建里新興路284-1號/data=!4m6!3m5!1s0x3467f75cf29cd40b:0x8906eecf62e560c9!8m2!3d24.8561776!4d121.8200578!16s%2Fg%2F11csm51c6x",
       "coordinateNote": "OSM無精確門牌；瀏覽器Google Maps核對縣市、鄉鎮、道路與門牌吻合；由地點網址!3d/!4d取得座標，不使用@地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yilan-lin-shi-ying-service-office/logo.webp?v=97a8c15ca659e138",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-lin-shi-ying-service-office/logo.webp?v=97a8c15ca659e138",
         "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2008&clique=DDP&pic=2",
         "platform": "website",
         "status": "verified",
@@ -169,7 +169,7 @@
       "visitNote": "第2選區縣議員 · 3號",
       "mapMarker": {
         "label": "林詩穎",
-        "image": "./assets/yilan-lin-shi-ying-marker-3-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/yilan-lin-shi-ying-marker-3-type-v1.webp",
         "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2008&clique=DDP&pic=2"
       }
     },
@@ -210,7 +210,7 @@
       "coordinateSource": "https://www.google.com/maps/place/265宜蘭縣羅東鎮維揚里維揚路107號/data=!4m6!3m5!1s0x3467e688ba1c0071:0x6bc9e3e80d0fc78e!8m2!3d24.6718233!4d121.76023!16s%2Fg%2F11csj6jht7",
       "coordinateNote": "OSM無精確門牌；瀏覽器Google Maps核對縣市、鄉鎮、道路與門牌吻合；由地點網址!3d/!4d取得座標，不使用@地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yilan-xie-jia-lun-service-office/logo.webp?v=8d4df1dde55339f3",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-xie-jia-lun-service-office/logo.webp?v=8d4df1dde55339f3",
         "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2016&clique=DDP&pic=6",
         "platform": "website",
         "status": "verified",
@@ -220,7 +220,7 @@
       "visitNote": "第6選區縣議員 · 3號",
       "mapMarker": {
         "label": "謝家倫",
-        "image": "./assets/yilan-xie-jia-lun-marker-3-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/yilan-xie-jia-lun-marker-3-type-v1.webp",
         "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2016&clique=DDP&pic=6"
       }
     },
@@ -260,7 +260,7 @@
       "coordinateSource": "https://www.google.com/maps/place/265宜蘭縣羅東鎮樹林里公正路328號/data=!4m6!3m5!1s0x3467e681a6a9e46f:0x11f0f895ca40c637!8m2!3d24.6808071!4d121.7613642!16s%2Fg%2F11c25bhc7l",
       "coordinateNote": "OSM無精確門牌；瀏覽器Google Maps核對縣市、鄉鎮、道路與門牌吻合；由地點網址!3d/!4d取得座標，不使用@地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yilan-lu-hui-qing-service-office/logo.webp?v=4fb1e37d18836fb7",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-lu-hui-qing-service-office/logo.webp?v=4fb1e37d18836fb7",
         "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A1919&clique=DDP&pic=6",
         "platform": "website",
         "status": "verified",
@@ -270,7 +270,7 @@
       "visitNote": "第6選區縣議員 · 4號",
       "mapMarker": {
         "label": "呂惠卿",
-        "image": "./assets/yilan-lu-hui-qing-marker-4-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/yilan-lu-hui-qing-marker-4-type-v1.webp",
         "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A1919&clique=DDP&pic=6"
       }
     },
@@ -309,7 +309,7 @@
       "coordinateSource": "https://www.google.com/maps/place/269宜蘭縣冬山鄉南興村冬山路一段928號/data=!4m6!3m5!1s0x3467e7cb4e6cb027:0xb5e70cd813b79a6c!8m2!3d24.6330223!4d121.7928094!16s%2Fg%2F11tsj57cdd",
       "coordinateNote": "OSM無精確門牌；瀏覽器Google Maps核對縣市、鄉鎮、道路與門牌吻合；由地點網址!3d/!4d取得座標，不使用@地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yilan-lin-pei-ying-service-office/logo.webp?v=c5bddb026e37ebde",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-lin-pei-ying-service-office/logo.webp?v=c5bddb026e37ebde",
         "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2024&clique=DDP&pic=8",
         "platform": "website",
         "status": "verified",
@@ -319,7 +319,7 @@
       "visitNote": "第8選區縣議員 · 2號",
       "mapMarker": {
         "label": "林佩螢",
-        "image": "./assets/yilan-lin-pei-ying-marker-2-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/yilan-lin-pei-ying-marker-2-type-v1.webp",
         "source": "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2024&clique=DDP&pic=8"
       }
     }

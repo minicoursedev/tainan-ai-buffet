@@ -1,4 +1,4 @@
-export const starSource = 'https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/star.json';
+export const starSource = 'https://minicourse.dev/puma_oshen_wave/star.json';
 
 export function parseStars(data) {
   if (!Array.isArray(data)) throw new Error('Invalid star list');

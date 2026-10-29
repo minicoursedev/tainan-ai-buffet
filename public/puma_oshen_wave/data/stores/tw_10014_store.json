@@ -65,7 +65,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/10706088750",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：87號, 四維路三段, 新生里, 臺東市, 臺東縣, 950007, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taitung-huang-zhi-wei-service-office/logo.webp?v=e0fd856db4cc4dff",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taitung-huang-zhi-wei-service-office/logo.webp?v=e0fd856db4cc4dff",
         "source": "https://www.taitungcc.gov.tw/1/member/detail/20",
         "platform": "website",
         "status": "verified",
@@ -75,7 +75,7 @@
       "visitNote": "第1選區縣議員 · 2號",
       "mapMarker": {
         "label": "黃治維",
-        "image": "./assets/taitung-huang-zhi-wei-marker-2-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taitung-huang-zhi-wei-marker-2-type-v1.webp",
         "source": "https://www.taitungcc.gov.tw/1/member/detail/20"
       }
     },
@@ -118,7 +118,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/10706231100",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：197號, 正氣北路, 東海里, 臺東市, 臺東縣, 950014, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taitung-jian-wei-guo-service-office/logo.webp?v=c4a49c39f590f7de",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taitung-jian-wei-guo-service-office/logo.webp?v=c4a49c39f590f7de",
         "source": "https://www.taitungcc.gov.tw/1/member/detail/35",
         "platform": "website",
         "status": "verified",
@@ -128,7 +128,7 @@
       "visitNote": "第1選區縣議員 · 13號",
       "mapMarker": {
         "label": "簡維國",
-        "image": "./assets/taitung-jian-wei-guo-marker-13-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taitung-jian-wei-guo-marker-13-type-v1.webp",
         "source": "https://www.taitungcc.gov.tw/1/member/detail/35"
       }
     }

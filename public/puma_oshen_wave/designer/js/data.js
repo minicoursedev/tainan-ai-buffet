@@ -1,5 +1,5 @@
 // Build the walk, map and search views from one shared designer.json response.
-import { CONFIG } from './config.js';
+import { CONFIG } from './config.js?v=20261030-site-data';
 
 const HALL = { code: 'O', name: '設計師館' };
 const ZONE = { code: 'DESIGNERS', name: '設計師' };
@@ -112,7 +112,7 @@ export function createCatalogue(data) {
 let catalogue = null;
 function loadCatalogue() {
   if (!catalogue) {
-    catalogue = fetch(CONFIG.DESIGNERS_URL, { credentials: 'omit', cache: 'no-cache' })
+    catalogue = fetch(CONFIG.DESIGNERS_URL, { credentials: 'omit', cache: 'no-store' })
       .then(response => {
         if (!response.ok) throw new Error(`Could not load designer.json: HTTP ${response.status}`);
         return response.json();

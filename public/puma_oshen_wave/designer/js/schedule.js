@@ -1,11 +1,11 @@
 // Optional closing time from schedule.json; a null closeAt keeps the site open.
-import { CONFIG } from './config.js';
+import { CONFIG } from './config.js?v=20261030-site-data';
 
 let closeAt = null;
 
 export async function loadSchedule() {
   try {
-    const r = await fetch(new URL('schedule.json', new URL('.', location.href)), { cache: 'default' });
+    const r = await fetch(new URL('schedule.json', new URL('.', location.href)), { cache: 'no-store' });
     const j = r.ok ? await r.json() : {};
     const t = Date.parse(j.closeAt);
     closeAt = Number.isFinite(t) ? t : null;

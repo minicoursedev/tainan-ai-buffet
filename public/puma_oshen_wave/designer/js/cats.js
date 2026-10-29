@@ -2,7 +2,7 @@
 
 async function loadJson(name) {
   try {
-    const r = await fetch(new URL(name, new URL('.', location.href)), { cache: 'default' });
+    const r = await fetch(new URL(name, new URL('.', location.href)), { cache: 'no-store' });
     return r.ok ? await r.json() : null;
   } catch { return null; }
 }

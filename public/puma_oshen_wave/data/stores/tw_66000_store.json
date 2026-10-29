@@ -67,7 +67,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8535011265",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址（台中／臺中）查詢無結果，改用street=7 華美西街一段195巷1弄、city=臺中市、county=西區、country=Taiwan結構化查詢取得精確門牌節點8535011265。子代理及主代理分別讀取OSM節點API，核對addr:full為臺中市西區忠誠里17鄰華美西街一段195巷1弄7號，行政區、街道及門牌與官方對外地址相符；採節點數值座標，非道路中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/wanchataiwan/logo.webp?v=91e57d2a06f813a1",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/wanchataiwan/logo.webp?v=91e57d2a06f813a1",
         "source": "https://www.facebook.com/WanChaTaiwan/",
         "platform": "facebook",
         "status": "verified",
@@ -114,7 +114,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8535014721",
       "coordinateNote": "2026-10-24 查證子代理先以OpenStreetMap Nominatim完整地址查詢無結果，改用street=96 華美街、city=臺中市、country=Taiwan結構化查詢取得精確門牌節點8535014721。主代理讀取OSM節點API，確認addr:full為臺中市西區昇平里33鄰華美街96號，行政區、街道及門牌與官方對外地址相符；採節點數值座標，為門牌位置，非道路中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/thisishopein/logo.webp?v=64b2ff29cdd34c55",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/thisishopein/logo.webp?v=64b2ff29cdd34c55",
         "source": "https://www.threads.com/@thisishopein",
         "platform": "threads",
         "status": "verified",
@@ -160,7 +160,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8550135335",
       "coordinateNote": "2026-10-25 查證子代理先以OpenStreetMap完整19-21號地址查詢無結果，拆開門牌後以street=21 三榮北一路、city=臺中市、county=烏日區、country=Taiwan結構化查詢取得門牌節點8550135335。主代理另讀OSM節點API，確認行政區、三榮北一路及21號相符，數值座標24.1077477、120.6038748。該節點記錄七樓之1，僅採官網19-21號範圍內21號建物門牌位置，不推論店家樓層、單位或入口；非道路或地圖視窗中心。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/yuantea1983/logo.webp?v=d6437e3453e32689",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yuantea1983/logo.webp?v=d6437e3453e32689",
         "source": "https://www.facebook.com/61552790738076",
         "platform": "facebook",
         "status": "verified",
@@ -206,7 +206,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8550106835",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：777號, 甲后路三段, 大同里, 外埔區, 臺中市, 438016, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-shi-zhi-chang-service-office/logo.webp?v=0d2b1cfc18ff202e",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taichung-shi-zhi-chang-service-office/logo.webp?v=0d2b1cfc18ff202e",
         "source": "https://www.facebook.com/ChihChang43/",
         "platform": "facebook",
         "status": "verified",
@@ -216,7 +216,7 @@
       "visitNote": "第1選區市議員 · 4號",
       "mapMarker": {
         "label": "施志昌",
-        "image": "./assets/taichung-shi-zhi-chang-marker-4-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-shi-zhi-chang-marker-4-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=3"
       }
     },
@@ -267,7 +267,7 @@
       "visitNote": "第2選區市議員 · 4號",
       "mapMarker": {
         "label": "楊典忠",
-        "image": "./assets/taichung-yang-dian-zhong-marker-4-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-yang-dian-zhong-marker-4-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=6"
       }
     },
@@ -319,7 +319,7 @@
       "visitNote": "第2選區市議員 · 6號",
       "mapMarker": {
         "label": "王立任",
-        "image": "./assets/taichung-wang-li-ren-marker-6-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-wang-li-ren-marker-6-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=7"
       }
     },
@@ -361,7 +361,7 @@
       "coordinateSource": "https://www.google.com/maps/place/434%E8%87%BA%E4%B8%AD%E5%B8%82%E9%BE%8D%E4%BA%95%E5%8D%80%E5%8D%97%E5%AF%AE%E9%87%8C%E5%90%91%E4%B8%8A%E8%B7%AF%E5%85%AD%E6%AE%B543%E8%99%9F/@24.1759893,120.58075,17z/data=!3m1!4b1!4m6!3m5!1s0x34693e2e6cad9c93:0x3cb6c455e55434e1!8m2!3d24.1759893!4d120.58075!16s%2Fg%2F11z65nsnc0?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
       "coordinateNote": "Google Maps精確門牌龍井區南寮里向上路六段43號，與表格相符；取實際地點!3d!4d。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-zhang-jia-an-service-office/logo.webp?v=0b88d37e5bf62586",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taichung-zhang-jia-an-service-office/logo.webp?v=0b88d37e5bf62586",
         "source": "https://www.facebook.com/jangjiaan",
         "platform": "facebook",
         "status": "verified",
@@ -371,7 +371,7 @@
       "visitNote": "第3選區市議員 · 2號",
       "mapMarker": {
         "label": "張家銨",
-        "image": "./assets/taichung-zhang-jia-an-marker-2-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-zhang-jia-an-marker-2-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=12"
       }
     },
@@ -421,7 +421,7 @@
       "visitNote": "第3選區市議員 · 4號",
       "mapMarker": {
         "label": "曾威",
-        "image": "./assets/taichung-ceng-wei-marker-4-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-ceng-wei-marker-4-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=69"
       }
     },
@@ -462,7 +462,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8535498692",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：443號, 豐原大道四段, 北陽里, 豐原區, 臺中市, 420076, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-cai-yi-xuan-service-office/logo.webp?v=eebda66bf6a87f77",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taichung-cai-yi-xuan-service-office/logo.webp?v=eebda66bf6a87f77",
         "source": "https://www.facebook.com/syuan0701/",
         "platform": "facebook",
         "status": "verified",
@@ -472,7 +472,7 @@
       "visitNote": "第4選區市議員 · 3號",
       "mapMarker": {
         "label": "蔡怡萱",
-        "image": "./assets/taichung-cai-yi-xuan-marker-3-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-cai-yi-xuan-marker-3-type-v1.webp",
         "source": "https://www.facebook.com/syuan0701/"
       }
     },
@@ -525,7 +525,7 @@
       "visitNote": "第4選區市議員 · 7號",
       "mapMarker": {
         "label": "謝志忠",
-        "image": "./assets/taichung-xie-zhi-zhong-marker-7-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-xie-zhi-zhong-marker-7-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=16"
       }
     },
@@ -565,7 +565,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8547768517",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：211號, 勝利路, 甘蔗里, 潭子區, 臺中市, 427010, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-xiao-long-ze-service-office/logo.webp?v=d7a1a9d5cb6886eb",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taichung-xiao-long-ze-service-office/logo.webp?v=d7a1a9d5cb6886eb",
         "source": "https://www.facebook.com/lungtze",
         "platform": "facebook",
         "status": "verified",
@@ -575,7 +575,7 @@
       "visitNote": "第5選區市議員 · 6號",
       "mapMarker": {
         "label": "蕭隆澤",
-        "image": "./assets/taichung-xiao-long-ze-marker-6-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-xiao-long-ze-marker-6-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=23"
       }
     },
@@ -616,7 +616,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8547754017",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：106號, 社南街, 社南里, 神岡區, 臺中市, 429004, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-zhou-yong-hong-service-office/logo.webp?v=bfc40fa94ecf44fe",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taichung-zhou-yong-hong-service-office/logo.webp?v=bfc40fa94ecf44fe",
         "source": "https://www.facebook.com/chouyunghong/",
         "platform": "facebook",
         "status": "verified",
@@ -626,7 +626,7 @@
       "visitNote": "第5選區市議員 · 9號",
       "mapMarker": {
         "label": "周永鴻",
-        "image": "./assets/taichung-zhou-yong-hong-marker-9-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-zhou-yong-hong-marker-9-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=24"
       }
     },
@@ -678,7 +678,7 @@
       "visitNote": "第6選區市議員 · 1號",
       "mapMarker": {
         "label": "林祈烽",
-        "image": "./assets/taichung-lin-qi-feng-marker-1-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-lin-qi-feng-marker-1-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=29"
       }
     },
@@ -719,7 +719,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8535228654",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：150號, 惠中路, 惠來里, 西屯區, 臺中七期, 臺中市, 407043, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-chen-shu-hua-service-office/logo.webp?v=3c9f796d9b3c5e35",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taichung-chen-shu-hua-service-office/logo.webp?v=3c9f796d9b3c5e35",
         "source": "https://www.facebook.com/chenshuhua1970",
         "platform": "facebook",
         "status": "verified",
@@ -729,7 +729,7 @@
       "visitNote": "第6選區市議員 · 3號",
       "mapMarker": {
         "label": "陳淑華",
-        "image": "./assets/taichung-chen-shu-hua-marker-3-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-chen-shu-hua-marker-3-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=28"
       }
     },
@@ -769,7 +769,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8535279584",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：111號, 大墩七街, 大同里, 南屯區, 田心, 臺中市, 408027, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-zhang-yao-zhong-service-office/logo.webp?v=545a2efc15924ee1",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taichung-zhang-yao-zhong-service-office/logo.webp?v=545a2efc15924ee1",
         "source": "https://www.facebook.com/TaichungBetter/",
         "platform": "facebook",
         "status": "verified",
@@ -779,7 +779,7 @@
       "visitNote": "第7選區市議員 · 2號",
       "mapMarker": {
         "label": "張耀中",
-        "image": "./assets/taichung-zhang-yao-zhong-marker-2-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-zhang-yao-zhong-marker-2-type-v1.webp",
         "source": "https://www.facebook.com/TaichungBetter/"
       }
     },
@@ -830,7 +830,7 @@
       "visitNote": "第7選區市議員 · 3號",
       "mapMarker": {
         "label": "何文海",
-        "image": "./assets/taichung-he-wen-hai-marker-3-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-he-wen-hai-marker-3-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=33"
       }
     },
@@ -881,7 +881,7 @@
       "visitNote": "第8選區市議員 · 8號",
       "mapMarker": {
         "label": "謝家宜",
-        "image": "./assets/taichung-xie-jia-yi-marker-8-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-xie-jia-yi-marker-8-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=74"
       }
     },
@@ -932,7 +932,7 @@
       "visitNote": "第9選區市議員 · 4號",
       "mapMarker": {
         "label": "陳俞融",
-        "image": "./assets/taichung-chen-yu-rong-marker-4-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-chen-yu-rong-marker-4-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=75"
       }
     },
@@ -973,7 +973,7 @@
       "coordinateSource": "https://www.google.com/maps/place/%E5%B8%82%E8%AD%B0%E5%93%A1%E9%BB%83%E5%AE%88%E9%81%94%E6%9C%8D%E5%8B%99%E8%99%95/@24.1448851,120.661435,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d38119a787f:0xfa813976f2b05e1!8m2!3d24.1448851!4d120.661435!16s%2Fg%2F11h3pmlgz0?authuser=0&hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
       "coordinateNote": "Google Maps市議員黃守達服務處，精確西區昇平里美村路一段368號，與表格相符；取實際地點!3d!4d。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-huang-shou-da-service-office/logo.webp?v=45f2f8e542bedcb2",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taichung-huang-shou-da-service-office/logo.webp?v=45f2f8e542bedcb2",
         "source": "https://www.facebook.com/taichungedada/",
         "platform": "facebook",
         "status": "verified",
@@ -983,7 +983,7 @@
       "visitNote": "第10選區市議員 · 1號",
       "mapMarker": {
         "label": "黃守達",
-        "image": "./assets/taichung-huang-shou-da-marker-1-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-huang-shou-da-marker-1-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=45"
       }
     },
@@ -1024,7 +1024,7 @@
       "coordinateSource": "https://www.google.com/maps/place/%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E6%B1%9F%E8%82%87%E5%9C%8B%E6%9C%8D%E5%8B%99%E8%99%95/@24.1459251,120.6715332,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d748366b843:0x1ab7d716cf67bccc!8m2!3d24.1459251!4d120.6715332!16s%2Fg%2F11c1qc6rj6?authuser=0&hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
       "coordinateNote": "Google Maps台中市議員江肇國服務處，精確西區後龍里五權路89-1號相符；取實際地點!3d!4d。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-jiang-zhao-guo-service-office/logo.webp?v=4bf93f453b8003d7",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taichung-jiang-zhao-guo-service-office/logo.webp?v=4bf93f453b8003d7",
         "source": "https://www.facebook.com/TC.AKuo/",
         "platform": "facebook",
         "status": "verified",
@@ -1034,7 +1034,7 @@
       "visitNote": "第10選區市議員 · 4號",
       "mapMarker": {
         "label": "江肇國",
-        "image": "./assets/taichung-jiang-zhao-guo-marker-4-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-jiang-zhao-guo-marker-4-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=44"
       }
     },
@@ -1085,7 +1085,7 @@
       "visitNote": "第11選區市議員 · 3號",
       "mapMarker": {
         "label": "陳雅惠",
-        "image": "./assets/taichung-chen-ya-hui-marker-3-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-chen-ya-hui-marker-3-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=76"
       }
     },
@@ -1137,7 +1137,7 @@
       "visitNote": "第11選區市議員 · 5號",
       "mapMarker": {
         "label": "鄭功進",
-        "image": "./assets/taichung-zheng-gong-jin-marker-5-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-zheng-gong-jin-marker-5-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=48"
       }
     },
@@ -1177,7 +1177,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8529115144",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：26號, 進化路, 旱溪里, 東區, 臺中市, 401, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-he-yi-ling-service-office/logo.webp?v=24c5f355bfbcdc8f",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taichung-he-yi-ling-service-office/logo.webp?v=24c5f355bfbcdc8f",
         "source": "https://www.facebook.com/mingchen4417/",
         "platform": "facebook",
         "status": "verified",
@@ -1187,7 +1187,7 @@
       "visitNote": "第11選區市議員 · 6號",
       "mapMarker": {
         "label": "何翊綾",
-        "image": "./assets/taichung-he-yi-ling-marker-6-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-he-yi-ling-marker-6-type-v1.webp",
         "source": "https://www.facebook.com/mingchen4417/"
       }
     },
@@ -1238,7 +1238,7 @@
       "visitNote": "第12選區市議員 · 1號",
       "mapMarker": {
         "label": "蔡耀頡",
-        "image": "./assets/taichung-cai-yao-xie-marker-1-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-cai-yao-xie-marker-1-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=54"
       }
     },
@@ -1279,7 +1279,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8550261234",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：239號, 中興東路, 成功里, 太平區, 長億里, 臺中市, 411027, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-zhang-yu-yan-service-office/logo.webp?v=2990beef54064a15",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taichung-zhang-yu-yan-service-office/logo.webp?v=2990beef54064a15",
         "source": "https://www.facebook.com/myishuc0988/",
         "platform": "facebook",
         "status": "verified",
@@ -1289,7 +1289,7 @@
       "visitNote": "第12選區市議員 · 5號",
       "mapMarker": {
         "label": "張玉嬿",
-        "image": "./assets/taichung-zhang-yu-yan-marker-5-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-zhang-yu-yan-marker-5-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=53"
       }
     },
@@ -1330,7 +1330,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8550379708",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：160號, 新生西路, 長榮里, 大里區, 田寮, 臺中市, 412015, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-li-tian-sheng-service-office/logo.webp?v=899adf6cbe210a62",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taichung-li-tian-sheng-service-office/logo.webp?v=899adf6cbe210a62",
         "source": "https://www.facebook.com/tensheng",
         "platform": "facebook",
         "status": "verified",
@@ -1340,7 +1340,7 @@
       "visitNote": "第13選區市議員 · 1號",
       "mapMarker": {
         "label": "李天生",
-        "image": "./assets/taichung-li-tian-sheng-marker-1-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-li-tian-sheng-marker-1-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=59"
       }
     },
@@ -1379,7 +1379,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11341539785",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：林德宇服務處, 63, 大里路, 長榮里, 大里區, 田寮, 臺中市, 412317, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-lin-de-yu-service-office/logo.webp?v=c964909d081c4824",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taichung-lin-de-yu-service-office/logo.webp?v=c964909d081c4824",
         "source": "https://www.facebook.com/187rain/",
         "platform": "facebook",
         "status": "verified",
@@ -1389,7 +1389,7 @@
       "visitNote": "第13選區市議員 · 5號",
       "mapMarker": {
         "label": "林德宇",
-        "image": "./assets/taichung-lin-de-yu-marker-5-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-lin-de-yu-marker-5-type-v1.webp",
         "source": "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=58"
       }
     },
@@ -1433,7 +1433,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/8550337284",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：428號, 中興路二段, 內新里, 大里區, 田寮, 臺中市, 412002, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-zhang-fen-yu-service-office/logo.webp?v=685d3d921bce863f",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/taichung-zhang-fen-yu-service-office/logo.webp?v=685d3d921bce863f",
         "source": "https://www.facebook.com/Changphenyu/",
         "platform": "facebook",
         "status": "verified",
@@ -1443,7 +1443,7 @@
       "visitNote": "第13選區市議員 · 9號",
       "mapMarker": {
         "label": "張芬郁",
-        "image": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/taichung-zhang-fen-yu-service-office/logo.webp?v=685d3d921bce863f",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/taichung-zhang-fen-yu-service-office/logo.webp?v=685d3d921bce863f",
         "source": "https://www.facebook.com/Changphenyu/"
       }
     }

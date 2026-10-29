@@ -64,7 +64,7 @@
       "coordinateSource": "https://www.google.com/maps/place/893金山路17/data=!4m6!3m5!1s0x3414a24026ccb58b:0x18c6b880177feaa!8m2!3d24.4283385!4d118.3229992!16s%2Fg%2F11bw4d_kvz",
       "coordinateNote": "OSM無精確門牌；瀏覽器Google Maps核對指定門牌，從地點網址!3d/!4d取得座標，不使用@地圖視窗中心。Google Maps金山路17號建物內明列金門縣議會；這是使用者指定的議會地址，不是個人頁所列金湖鎮服務址。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/kinmen-cai-qi-yong-service-office/logo.webp?v=2cd3fb9397b2e747",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/kinmen-cai-qi-yong-service-office/logo.webp?v=2cd3fb9397b2e747",
         "source": "https://www.kmcc.gov.tw/8844/54357/55476/55495/",
         "platform": "website",
         "status": "verified",
@@ -74,7 +74,7 @@
       "visitNote": "第1選區縣議員 · 4號",
       "mapMarker": {
         "label": "蔡其雍",
-        "image": "./assets/kinmen-cai-qi-yong-marker-4-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/kinmen-cai-qi-yong-marker-4-type-v1.webp",
         "source": "https://www.kmcc.gov.tw/8844/54357/55476/55495/"
       }
     }

@@ -34,11 +34,11 @@
 5. `checkedAt`：本次查核日期（台灣日期）。
 6. `note`：辨識依據或無法確認的原因。
 
-已完成同步的頭像保存於 repository 的 `public/puma_oshen_wave/assets/store-avatars/<店家ID>.png`，網站與 App 直接讀取 `https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/<店家ID>.png?v=<圖片 SHA-256 前 16 碼>`。發布圖最長邊 256 px，內容等比例完整置中；方形畫布不大於縮圖的最長邊，小圖不放大、不補成 512 px 透明畫布，透明度保留。來源較大的圖片只供本機縮圖，不直接讓網站或 App 載入。每家店只有一個正式檔名，內容改變時覆寫，網址版本隨內容更新，以供網站與 iOS App 更新快取。內容與輸出尺寸相同不覆寫圖片、不更動網址；同一 Logo 從舊分享縮圖換成足夠解析度來源，或套用 256 px 發布規格時，應更新正式檔案。未移轉成功的資料保留原有網址並列入同步紀錄；`verified` 不代表遠端網址永久可用。
+已完成同步的頭像保存於 repository 的 `public/puma_oshen_wave/assets/<店家ID>/logo.webp`，網站與 App 直接讀取 `https://minicourse.dev/puma_oshen_wave/assets/<店家ID>/logo.webp?v=<圖片 SHA-256 前 16 碼>`。發布圖最長邊 256 px，內容等比例完整置中；方形畫布不大於縮圖的最長邊，小圖不放大、不補成 512 px 透明畫布，透明度保留。來源較大的圖片只供本機縮圖，不直接讓網站或 App 載入。每家店只有一個正式檔名，內容改變時覆寫，網址版本隨內容更新，以供網站與 iOS App 更新快取。內容與輸出尺寸相同不覆寫圖片、不更動網址；同一 Logo 從舊分享縮圖換成足夠解析度來源，或套用 256 px 發布規格時，應更新正式檔案。未移轉成功的資料保留原有網址並列入同步紀錄；`verified` 不代表遠端網址永久可用。
 
 ### 店家頭像同步與資料發布
 
-1. 每次店家資料更新完成、提交最終 `stores.json` 前，先執行全量頭像檢查。使用 Python 3.9+、curl、Pillow 11.3.0；需要安裝時執行 `python3 -m pip install -r scripts/requirements-avatars.txt`。在 website 根目錄執行：
+1. 只有使用者指定新增或更新頭像時才準備該批圖片；其他資料更新與網址遷移不重查既有頭像。使用 Python 3.9+、curl、Pillow 11.3.0；需要安裝時執行 `python3 -m pip install -r scripts/requirements-avatars.txt`。在 website 根目錄執行：
 
    ```sh
    python3 scripts/store-avatar-sync.py prepare
@@ -47,14 +47,14 @@
 2. `prepare` 只檢查啟用店家，先從既有 `shopPhoto.source` 讀取官方帳號頁並確認帳號與頭像標記，優先解析同帳號公開資料的頭像版本、LINE 明示原圖欄位；不足時檢查資料內其他官方社群或 Instagram 頁面實際提供的同帳號 Threads 外連。取得至少 256 px 的原生圖片即足夠，不追求最大原圖。不採用一般封面或貼文圖，不使用登入憑證。缺少來源、未確認頭像或不支援的網站規則，列為待處理。逾時、限流、來源失效或解碼失敗不破壞舊圖與 JSON。
 3. 腳本先使用同一網址提供的 ETag／Last-Modified；無法可靠確認未變更時，暫時取得圖片並比對解碼後的可見內容。忽略 metadata 與保守範圍內的輕微轉碼差異；CDN 簽章或參數變更不直接視為換頭像。預設請求間隔 0.6 秒、逾時 20 秒；暫時性連線錯誤最多重試一次，403／429 不立即重試。
 4. 同步紀錄為 `scripts/store-avatar-sync-state.json`；本次檢查、待發布欄位差異及公開驗證證據位於被 Git 忽略的 `.avatar-sync/plan.json`；可審閱的完整候選資料為 `.avatar-sync/stores.candidate.json`。`prepare` 不寫入正式 `stores.json`。`--only <ID,ID>` 僅供局部診斷，局部結果不能發布。完整檢查後可執行 `python3 scripts/store-avatar-sync.py retry`，只重試失敗或低解析度項目、保留成功結果；若資料已變更則重新 prepare。
-5. 有圖片變更時，先提交圖片與同步紀錄並推送，直接由 GitHub Raw 公開，不需要建置或部署網站。此時正式 `stores.json` 仍使用先前網址。之後執行：
+5. 有圖片變更時，先檢查本機圖片，將圖片、JSON 與同步紀錄放在同一批次部署。執行：
 
    ```sh
-   python3 scripts/store-avatar-sync.py apply
+   python3 scripts/store-avatar-sync.py apply --bundled
    ```
 
-6. `apply` 逐張 GET GitHub Raw 圖片，確認 HTTP 200、repository 路徑、檔案指紋與不超過 256 px 的方形尺寸全部通過後，才更新 `stores.json` 的 `shopPhoto`。一張失敗就停止，正式 JSON 不變。保留來源頁面、平台及所有其他店家欄位；若頭像或啟用狀態在檢查後被修改，要求重新 `prepare`。Raw 快取尚未更新時稍後重試 apply，不以重新部署網站處理。
-7. 檢查 `stores.json` 差異，依下方縣市分檔流程執行 `python3 scripts/split-stores.py`，再提交與推送資料。不得直接複製候選 JSON 覆寫正式檔案，也不得在圖片尚未公開前發布新網址。部署 workflow 已排除純頭像、同步紀錄、店家主檔及縣市 JSON 更新，因此這類更新不會觸發 GitHub Pages；Raw 與 App 快取仍可能延遲更新。
+6. `apply --bundled` 驗證本機檔案、內容指紋、網站網址與尺寸，再更新 JSON；所有資料及圖片必須一起提交。未加 `--bundled` 的人工 apply 仍先驗證網站已公開圖片。
+7. 執行 `python3 scripts/split-stores.py` 並檢查差異後，提交與推送同一批資料及圖片。圖片與全部 web JSON 都由 minicourse.dev 供應，變更會觸發 GitHub Pages。推送後執行 `python3 scripts/verify-site-publication.py --commit <新提交> --base <推送前遠端提交>`，正式內容符合提交才回報上線。前端 JSON 請求使用 `cache: no-store`；圖片保留固定雜湊版本號以使用快取。
 8. 僅供人工查證補充：若官方大頭貼只有在既有登入瀏覽器中可見，從實際頭像 DOM 取得完整網址，下載並解碼後製作 JSON 陣列，包含 `id`、`source`、`platform`、`imageUrl`、當日 `checkedAt`、原檔 `sha256`、官方帳號及頭像的 `evidence`。執行 `prepare --reviewed-sources <檔案>`；腳本重新下載核對 SHA-256，仍只發布縮小圖片。該清單是人工審核輸入，必須先核對官方來源，不能拿未查證圖片、貼文或封面代替。保存查證證據於輸出資料夾，不加入登入憑證。這不代表免登入流程可取得同一大圖；下次無法自動取得時保留已發布 Logo 並記錄待查。
 9. 自動驗證命令：`python3 -m unittest discover -s scripts -p 'test_store_avatar_sync.py'`。正式驗收仍須查看實際店家圖片與網站／App 顯示結果。
 

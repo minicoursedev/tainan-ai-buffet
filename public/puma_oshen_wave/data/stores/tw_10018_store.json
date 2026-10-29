@@ -63,7 +63,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11194435175",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：120號, 民族路, 三民里, 東區, 新竹市, 300004, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hsinchu-zheng-mei-juan-service-office/logo.webp?v=0aa37cce5656bf62",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/hsinchu-zheng-mei-juan-service-office/logo.webp?v=0aa37cce5656bf62",
         "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=5&mid=39",
         "platform": "website",
         "status": "verified",
@@ -73,7 +73,7 @@
       "visitNote": "第1選區市議員 · 13號",
       "mapMarker": {
         "label": "鄭美娟",
-        "image": "./assets/hsinchu-zheng-mei-juan-marker-13-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/hsinchu-zheng-mei-juan-marker-13-type-v1.webp",
         "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=5&mid=39"
       }
     },
@@ -114,7 +114,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11194496744",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：165號, 西大路, 振興里, 東區, 新竹市, 300036, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hsinchu-shi-nai-ru-service-office/logo.webp?v=6218b7fd33f9a641",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/hsinchu-shi-nai-ru-service-office/logo.webp?v=6218b7fd33f9a641",
         "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=16&mid=39",
         "platform": "website",
         "status": "verified",
@@ -124,7 +124,7 @@
       "visitNote": "第2選區市議員 · 4號",
       "mapMarker": {
         "label": "施乃如",
-        "image": "./assets/hsinchu-shi-nai-ru-marker-4-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/hsinchu-shi-nai-ru-marker-4-type-v1.webp",
         "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=16&mid=39"
       }
     },
@@ -165,7 +165,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11194293236",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：332號, 延平路一段, 南勢里, 北區, 新竹市, 300078, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hsinchu-chen-jian-ming-service-office/logo.webp?v=6fe87b65bb6918e4",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/hsinchu-chen-jian-ming-service-office/logo.webp?v=6fe87b65bb6918e4",
         "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=19",
         "platform": "website",
         "status": "verified",
@@ -175,7 +175,7 @@
       "visitNote": "第3選區市議員 · 1號",
       "mapMarker": {
         "label": "陳建名",
-        "image": "./assets/hsinchu-chen-jian-ming-marker-1-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/hsinchu-chen-jian-ming-marker-1-type-v1.webp",
         "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=19"
       }
     },
@@ -216,7 +216,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11194318407",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：169號, 水田街, 光田里, 北區, 新竹市, 300011, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hsinchu-yang-ling-yi-service-office/logo.webp?v=94c7e8d4dd8d1161",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/hsinchu-yang-ling-yi-service-office/logo.webp?v=94c7e8d4dd8d1161",
         "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=23",
         "platform": "website",
         "status": "verified",
@@ -226,7 +226,7 @@
       "visitNote": "第4選區市議員 · 7號",
       "mapMarker": {
         "label": "楊玲宜",
-        "image": "./assets/hsinchu-yang-ling-yi-marker-7-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/hsinchu-yang-ling-yi-marker-7-type-v1.webp",
         "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=23"
       }
     },
@@ -268,7 +268,7 @@
       "coordinateSource": "https://www.openstreetmap.org/node/11194111612",
       "coordinateNote": "2026-10-27 OpenStreetMap 核對縣市、行政區、道路及門牌：9號, 內湖路34巷, 內湖, 內湖里, 香山區, 新竹市, 300112, 臺灣。",
       "shopPhoto": {
-        "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hsinchu-lin-ying-che-service-office/logo.webp?v=4ecf43e5d34ed967",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/hsinchu-lin-ying-che-service-office/logo.webp?v=4ecf43e5d34ed967",
         "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=30",
         "platform": "website",
         "status": "verified",
@@ -278,7 +278,7 @@
       "visitNote": "第5選區市議員 · 8號",
       "mapMarker": {
         "label": "林盈徹",
-        "image": "./assets/hsinchu-lin-ying-che-marker-8-type-v1.webp",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/hsinchu-lin-ying-che-marker-8-type-v1.webp",
         "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=30"
       }
     }
