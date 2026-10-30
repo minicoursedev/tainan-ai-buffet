@@ -53,7 +53,7 @@
           "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=&typeid=2580&typeid2=2599"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.5647336,
         "lng": 120.8131307
@@ -104,7 +104,7 @@
           "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=574&_PARENT_ID=ER11112KB00003&_TYP=REP&TYP=KND0002"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.5447852,
         "lng": 120.8163958
@@ -153,7 +153,7 @@
           "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2600"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.3972329,
         "lng": 120.7607304
@@ -204,7 +204,7 @@
           "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2601"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.4965289,
         "lng": 120.6952815
@@ -255,7 +255,7 @@
           "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2602"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.6795544,
         "lng": 120.8666251
@@ -306,7 +306,7 @@
           "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2603"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.6848553,
         "lng": 120.9117543

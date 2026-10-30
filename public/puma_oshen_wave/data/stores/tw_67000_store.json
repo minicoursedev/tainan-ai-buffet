@@ -4808,7 +4808,7 @@
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；周嘉韋律師；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。",
         "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/wayonly-service-office.png?v=75cfbb498cc2ea42"
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0017405,
         "lng": 120.1943253
@@ -5630,7 +5630,7 @@
           "https://www.facebook.com/LTSCF69/about/"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.3006903,
         "lng": 120.3170312
@@ -5683,7 +5683,7 @@
           "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.3007861,
         "lng": 120.304248
@@ -5737,7 +5737,7 @@
           "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.3395336,
         "lng": 120.3523066
@@ -5788,7 +5788,7 @@
           "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.1527472,
         "lng": 120.1745992
@@ -5841,7 +5841,7 @@
           "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.1549755,
         "lng": 120.1716805
@@ -5892,7 +5892,7 @@
           "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.2353143,
         "lng": 120.1832992
@@ -5943,7 +5943,7 @@
           "https://tnda.tainan.gov.tw/civilbook/page.asp?page=5"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.234476,
         "lng": 120.3369571
@@ -5994,7 +5994,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=9CBCB90A-A821-4FAD-A45D-79491B3EE5B2"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.2383073,
         "lng": 120.2694212
@@ -6047,7 +6047,7 @@
           "https://web.cec.gov.tw/api/file/c3198075-fe85-4253-b1a5-0a2a043a550e.pdf"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.1201505,
         "lng": 120.4625139
@@ -6098,7 +6098,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=EED1C3A7-E6DA-40AF-B184-38ADCC794C74"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0807091,
         "lng": 120.2925557
@@ -6149,7 +6149,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=4E55DF62-30D2-4B1E-B4C4-6B6A75A6DBED"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0369898,
         "lng": 120.3048672
@@ -6202,7 +6202,7 @@
           "https://www.google.com/maps/place/台南市議員林志展服務處/@23.1322778,120.2963231,17z/data=!4m15!1m8!3m7!1s0x346e7c7ff5ffa689:0x5d2bb16bae743ef!2zNzQx6Ie65Y2X5biC5ZaE5YyW5Y2A5YWJ5paH6YeM5Lit5bGx6LevMjY26Jmf!3b1!8m2!3d23.1322778!4d120.2963231!16s%2Fg%2F11vwr9yb7_!3m5!1s0x346e7c7ff6aea2f9:0xad76bfccfc012377!8m2!3d23.1322025!4d120.2963284!16s%2Fg%2F11fnnqycm0"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.1322025,
         "lng": 120.2963284
@@ -6252,7 +6252,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=880414F4-8F11-4D0C-AFEA-CBA8B9AA9373"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0346469,
         "lng": 120.3025327
@@ -6304,7 +6304,7 @@
           "https://www.facebook.com/sidy36/posts/1506484144810988/"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0279421,
         "lng": 120.1910541
@@ -6348,7 +6348,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=201C5B83-A1D0-4226-8FE3-78B01D957E4F"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0222732,
         "lng": 120.2485895
@@ -6401,7 +6401,7 @@
           "https://www.google.com/maps/place/陳秋萍議員服務處/@23.0294218,120.2599983,17z/data=!4m15!1m8!3m7!1s0x346e70c8fdebe211:0xa24f5bad27cee92b!2zNzEw6Ie65Y2X5biC5rC45bq35Y2A5rC45bq36YeM5rC45aSn6Lev5LiJ5q61NzfomZ8!3b1!8m2!3d23.0294218!4d120.2599983!16s%2Fg%2F11zcg2vchh!3m5!1s0x346e70b62c02bab7:0x4f44c32f2c36c655!8m2!3d23.0294218!4d120.2599983!16s%2Fg%2F1pztlrcjw"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0294218,
         "lng": 120.2599983
@@ -6452,7 +6452,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=C5B62F03-2580-4ED5-94F5-9A7BDF6218A8"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0040384,
         "lng": 120.2605975
@@ -6501,7 +6501,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=4A10A4A3-190C-47E8-9214-B75A23CBE882"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9916467,
         "lng": 120.1953006
@@ -6553,7 +6553,7 @@
           "https://www.facebook.com/LINCHIENNAN1776/posts/1476790614455744/"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0144668,
         "lng": 120.2092052
@@ -6604,7 +6604,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=ADADD8CA-4B20-49AB-A056-B3BD47F3DFE0"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.997374,
         "lng": 120.1672873
@@ -6659,7 +6659,7 @@
           "https://www.threads.com/@lily_chou_2638598/post/DetV365j6RT/"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9725249,
         "lng": 120.1909141
@@ -6711,7 +6711,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=4348ACF1-8957-4133-B99E-19B26D9E2DCE"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9611275,
         "lng": 120.1902048
@@ -6762,7 +6762,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=78191C86-FE9E-442F-84D9-47CF93743FE9"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9868498,
         "lng": 120.2288668
@@ -6813,7 +6813,7 @@
           "https://www.tncc.gov.tw/2019/tnccp2/ccp_01a.asp?CName=%E9%99%B3%E9%87%91%E9%90%98"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9693429,
         "lng": 120.226683
@@ -6864,7 +6864,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=CBAF0322-27BB-4242-BDFE-2BE6814FD6BD"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9574969,
         "lng": 120.3282093
@@ -6914,7 +6914,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=D02F8D8F-F1DF-4F8A-BA84-EE5B5FA5F147"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9738727,
         "lng": 120.2547361
@@ -6966,7 +6966,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=0DB92A60-047F-4559-A8EE-03183D3CBFA0"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9668456,
         "lng": 120.2903204

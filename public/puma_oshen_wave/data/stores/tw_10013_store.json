@@ -54,7 +54,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=83e4c59b-1c6e-55f8-864f-90d346ecd8c8"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6783323,
         "lng": 120.4973108
@@ -103,7 +103,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=ded87e64-f9fc-464a-4737-b7b3457e508e"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6379392,
         "lng": 120.4849803
@@ -154,7 +154,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=0ebeb91d-3321-7199-60f1-25f39143e864"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.364954,
         "lng": 120.6003145
@@ -203,7 +203,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=eba79364-b4a8-29c9-d54e-6bba9e79d240"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6177818,
         "lng": 120.5657276
@@ -253,7 +253,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=f7182d89-30b1-e86b-40a1-e2527c353e48"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.5843442,
         "lng": 120.4855379
@@ -302,7 +302,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=5d9217cb-0c81-ab15-cebc-c0e1e7afd00c"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.4791008,
         "lng": 120.4399405
@@ -354,7 +354,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=8de36599-83ac-8c40-ef11-be917d8e72cd"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.4697342,
         "lng": 120.4578608
@@ -403,7 +403,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=bb3e2d73-cd78-d552-18de-5bc5248a88b1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.418819,
         "lng": 120.5499185
@@ -453,7 +453,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=86a21ec5-3443-98aa-8aa5-93af63edea3c"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.5225743,
         "lng": 120.4864965
@@ -505,7 +505,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=f3728c99-9bb4-0975-89cb-7dd3c22149d4"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.0015828,
         "lng": 120.7421533

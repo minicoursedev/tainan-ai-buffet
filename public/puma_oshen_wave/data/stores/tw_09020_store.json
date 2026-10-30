@@ -56,7 +56,7 @@
           "https://www.kmcc.gov.tw/8844/54357/55476/55495/"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.4283385,
         "lng": 118.3229992
