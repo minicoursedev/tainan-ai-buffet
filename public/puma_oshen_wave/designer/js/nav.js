@@ -1,15 +1,11 @@
 // Move between designer aisles and resolve share links.
+import { designerRoot, updateDesignerMetadata } from './routes.js';
 import { state, emit, toast } from './state.js';
 import { loadAisle, aisleOfBooth, hallOf } from './data.js?v=20261030-site-data';
 
 const hallOfIndex = code => state.index.halls.find(h => h.code === hallOf(code));
 
-export function designerBoothUrl(id, base = location.href) {
-  const url = new URL(base);
-  url.search = '';
-  url.hash = `/designer/${encodeURIComponent(id)}`;
-  return url.href;
-}
+export { designerBoothUrl } from './routes.js';
 
 export function aisleNeighbors(code) {
   const hall = hallOfIndex(code);
@@ -30,7 +26,8 @@ export async function goToAisle(code, { boothId = null, from = null } = {}) {
     state.aisle = data;
     state.hallCode = data.hall;
     emit('aisle', { code, data, boothId, from, ...aisleNeighbors(code) });
-    history.replaceState(null, '', `#/walk/${boothId || code}`);
+    history.replaceState(null, '', `${designerRoot}#/walk/${boothId || code}`);
+    updateDesignerMetadata();
     return true;
   } catch (e) {
     if (e.status === 404) toast('找不到這條走道，名單可能剛更新過');

@@ -5,7 +5,7 @@ let closeAt = null;
 
 export async function loadSchedule() {
   try {
-    const r = await fetch(new URL('schedule.json', new URL('.', location.href)), { cache: 'no-store' });
+    const r = await fetch(new URL('schedule.json', new URL('../', import.meta.url)), { cache: 'no-store' });
     const j = r.ok ? await r.json() : {};
     const t = Date.parse(j.closeAt);
     closeAt = Number.isFinite(t) ? t : null;

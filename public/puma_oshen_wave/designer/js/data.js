@@ -112,7 +112,7 @@ export function createCatalogue(data) {
 let catalogue = null;
 function loadCatalogue() {
   if (!catalogue) {
-    catalogue = fetch(CONFIG.DESIGNERS_URL, { credentials: 'omit', cache: 'no-store' })
+    catalogue = fetch(new URL('../../designer.json', import.meta.url), { credentials: 'omit', cache: 'no-store' })
       .then(response => {
         if (!response.ok) throw new Error(`Could not load designer.json: HTTP ${response.status}`);
         return response.json();

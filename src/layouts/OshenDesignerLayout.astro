@@ -1,31 +1,40 @@
+---
+import { designers, designerRoot, designerPath } from '../lib/oshen-designers';
+import { boothHtml } from '../../public/puma_oshen_wave/designer/js/ui/booth-markup.js';
+interface Props { designerId?: string }
+const designer = designers.find(profile => profile.id === Astro.props.designerId);
+const title = designer ? `${designer.name}｜洋流設計師` : '洋流設計師';
+const description = designer ? `認識${designer.name}，查看作品與官方社群，走進洋流設計師市集探索更多創作。` : '認識洋流設計師、探索設計師地圖。';
+const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, Astro.site).href;
+---
 <!doctype html>
 <html lang="zh-Hant-TW">
 <head>
 <meta charset="utf-8">
-<script defer src="/assets/analytics.js?v=20261019-content-group"></script>
+<script is:inline defer src="/assets/analytics.js?v=20261019-content-group"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>洋流設計師</title>
-<link rel="canonical" href="https://minicourse.dev/puma_oshen_wave/designer/">
+<title>{title}</title>
+<link rel="canonical" href={canonical}>
 <meta name="theme-color" content="#f82970">
 <link rel="icon" href="data:,">
-<meta name="description" content="認識洋流設計師、探索設計師地圖。">
+<meta name="description" content={description}>
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://minicourse.dev/puma_oshen_wave/designer/">
+<meta property="og:url" content={canonical}>
 <meta property="og:site_name" content="MiniCourse">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:title" content="洋流設計師">
-<meta property="og:description" content="認識洋流設計師、探索設計師地圖。">
+<meta property="og:title" content={title}>
+<meta property="og:description" content={description}>
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="洋流設計師">
-<meta name="twitter:description" content="認識洋流設計師、探索設計師地圖。">
+<meta name="twitter:title" content={title}>
+<meta name="twitter:description" content={description}>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">
-<link rel="stylesheet" href="css/market.css">
-<link rel="stylesheet" href="css/booth.css?v=20261030-site-data">
-<link rel="stylesheet" href="css/map.css">
-<link rel="stylesheet" href="css/list.css?v=20261026-video3">
-<link rel="stylesheet" href="css/closed.css">
+<link rel="stylesheet" href="/puma_oshen_wave/designer/css/market.css">
+<link rel="stylesheet" href="/puma_oshen_wave/designer/css/booth.css?v=20261030-site-data">
+<link rel="stylesheet" href="/puma_oshen_wave/designer/css/map.css">
+<link rel="stylesheet" href="/puma_oshen_wave/designer/css/list.css?v=20261026-video3">
+<link rel="stylesheet" href="/puma_oshen_wave/designer/css/closed.css">
 </head>
 <body>
 <div class="app">
@@ -39,11 +48,11 @@
       <button type="button" data-mode="map" aria-pressed="false">設計師地圖</button>
     </div>
     <span class="tag close-tag" id="close-tag" hidden></span>
-    <a class="link-btn" href="../stage/">洋流舞台</a>
-    <a class="link-btn back-to-map" href="../">返回地圖</a>
+    <a class="link-btn" href="/puma_oshen_wave/stage/">洋流舞台</a>
+    <a class="link-btn back-to-map" href="/puma_oshen_wave/">返回地圖</a>
   </header>
 
-  <main class="stage" id="stage-walk">
+  <main class="stage" id="stage-walk" hidden>
     <canvas id="walk-canvas" tabindex="0" aria-label="逛場子畫面：按住拖著小人走，點設計師即可查看介紹"></canvas>
     <button type="button" class="where" id="btn-where"><b id="where-hall">設計師館</b><span id="where-aisle"></span><span class="where-switch">換館</span></button>
     <div class="status"><span class="tag tag-zone" id="status-zone"></span><span class="tag" id="status-count"></span></div>
@@ -54,7 +63,9 @@
     </div>
   </main>
 
-  <main class="list-mode" id="stage-list" hidden></main>
+  <main class="list-mode" id="stage-list"><div class="ls-wrap">
+  {designer ? <section aria-label={designer.name} set:html={boothHtml(designer.booth, designer.store).replaceAll('id="booth-title"', 'id="static-designer-title"')} /> : <><h1 class="ls-title">設計師列表</h1><div class="ls-grid">{designers.map(profile => <article class="lc"><div class="lc-heading"><h3 class="lc-name"><a class="lc-open" href={designerPath(profile.id)}>{profile.name}</a></h3></div><p class="lc-owner">設計師 {profile.name}</p><p class="lc-zone">設計師館・設計師</p><a class="btn lc-go" href={designerPath(profile.id)}>看設計師</a></article>)}</div></>}
+  </div></main>
   <main class="map-mode" id="stage-map" hidden></main>
   <footer class="app-footer">
     <small>© 2026 MiniCourse｜本站歸 MiniCourse 所有；收錄之設計師資料、作品與商標，其權利歸各設計師或原權利人所有。</small>
@@ -64,6 +75,6 @@
 
 <dialog id="dlg-booth" class="dlg" aria-labelledby="booth-title"></dialog>
 
-<script type="module" src="js/app.js?v=20261030-pinned-work"></script>
+<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261030-pinned-work"></script>
 </body>
 </html>

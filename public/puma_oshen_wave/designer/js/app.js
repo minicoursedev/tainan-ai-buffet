@@ -10,6 +10,8 @@ import { loadSchedule, isClosed, closeTagText, msLeft, lastOpenLabel } from './s
 import { loadCats, loadChatter } from './cats.js?v=20261030-site-data';
 import { showClosed } from './ui/closed.js';
 
+import { designerRoot, updateDesignerMetadata } from './routes.js';
+
 const $ = id => document.getElementById(id);
 const BOOTH_ID = /^[A-Z]\d{2}-\d{2}$/;
 const AISLE_ID = /^[A-Z]\d{2}$/;
@@ -27,17 +29,19 @@ function setMode(mode, opts = {}) {
   if (mode === 'list') {
     list ||= mountList($('stage-list'));
     list.show();
-    history.replaceState(null, '', '#/list');
+    history.replaceState(null, '', `${designerRoot}#/list`);
+    updateDesignerMetadata();
   } else list?.hide();
   if (mode === 'map') {
     const firstVisit = !map; // The first visit shows the hall overview.
     map ||= mountMap($('stage-map'));
     map.show({ hall: state.hallCode, overview: firstVisit, ...opts });
-    history.replaceState(null, '', '#/map');
+    history.replaceState(null, '', `${designerRoot}#/map`);
+    updateDesignerMetadata();
   }
   if (mode === 'walk') {
     walk?.resize();
-    if (state.aisleCode && !location.hash.startsWith('#/walk/')) history.replaceState(null, '', `#/walk/${state.aisleCode}`);
+    if (state.aisleCode && !location.hash.startsWith('#/walk/')) history.replaceState(null, '', `${designerRoot}#/walk/${state.aisleCode}`);
   }
 }
 
@@ -139,7 +143,9 @@ async function boot() {
   // Links pasted into the address bar arrive as hashchange.
   const first = state.index.halls.find(h => h.code === 'O').aisles[0].code;
   async function route({ boot = false } = {}) {
-    const [mode, target, then] = location.hash.replace(/^#\/?/, '').split('/');
+    let [mode, target, then] = location.hash.replace(/^#\/?/, '').split('/');
+    const profile = location.pathname.match(/^\/puma_oshen_wave\/designer\/profiles\/([^/]+)\/?$/);
+    if (!mode && profile) { mode = 'designer'; target = decodeURIComponent(profile[1]); }
     if (mode === 'list' || mode === 'map') { if (boot) await goToAisle(first); setMode(mode); return; }
     let ok = false;
     if (mode === 'designer') {
