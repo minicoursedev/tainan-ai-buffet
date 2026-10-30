@@ -85,6 +85,7 @@ footer{flex-wrap:wrap}.footer-notice{flex-basis:100%;margin:4px 0 0;font-size:12
 .osm-shop-pin.is-unverified:not(.is-selected){background:#66bb6a}
 .osm-portrait-pin.is-unverified:not(.is-selected){border-color:#66bb6a}
 .osm-artwork-pin{position:relative}
+.service-type-tag{display:inline-block}.detail-content>.service-type-tag{margin-top:8px}
 .osm-artwork-pin img{display:block;width:100%;height:100%;object-fit:contain}
 .osm-artwork-name{position:absolute;left:20%;width:60%;top:22%;height:14%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;line-height:1;white-space:nowrap}
 .osm-artwork-type{position:absolute;left:11.8%;width:76.4%;top:83.15%;height:11.55%;display:flex;align-items:center;justify-content:center;background:#fb1861;color:#fff;font-weight:900;line-height:1.05;text-align:center;white-space:nowrap}

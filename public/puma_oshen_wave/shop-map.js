@@ -5,7 +5,11 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
   let userMarker, starMarker, markerCluster, selectedMarker;
   let map, selected = null, loading, visibleIds = null, largeServiceMarkers = false;
   const markers = new Map(), positions = new Map(), visuals = new Map(), iconFactories = new Map();
+  const markerPriorities = new Map();
   const serviceStationIds = new Set();
+  const updateMarkerPriorities = () => {
+    for (const [id, marker] of markers) marker.setZIndexOffset(id === selected ? 1000 : (markerPriorities.get(id) ?? 0));
+  };
   const syncMarkers = () => {
     selectedMarker?.remove();
     selectedMarker = null;
@@ -37,8 +41,8 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
     if (changed) syncMarkers();
     const position = id ? positions.get(id) : station;
     if (position && recenter) map.panTo(position);
-    for (const [shopId, marker] of markers) {
-      marker.setZIndexOffset(shopId === id ? 1000 : 0);
+    updateMarkerPriorities();
+    for (const [shopId] of markers) {
       visuals.get(shopId).classList.toggle('is-selected', shopId === id);
     }
   };
@@ -96,6 +100,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
           return L.divIcon({html:label, className:'osm-cluster', iconSize:[44,44]});
         }
       }).addTo(map);
+      markerCluster.on('spiderfied unspiderfied', updateMarkerPriorities);
       for (const shop of shops) {
         const match = JSON.stringify(shop.sources || []).match(/!3d(-?\d+\.\d+)!4d(-?\d+\.\d+)/);
         const position = (Number.isFinite(shop.latlng?.lat) && Number.isFinite(shop.latlng?.lng) ? shop.latlng : shop.coordinates)
@@ -265,8 +270,10 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         if (shop.verification === false) badge.classList.add('is-unverified');
         const scale = shop.category === '洋流服務站' ? 1.15 : 1;
         const legislatorMarker = ['wang-ting-yu-xinfeng-service-office', 'wang-ting-yu-east-service-office', 'letsgolin-service-office'].includes(shop.id);
-        const fullWidth = useGeneratedMarker ? (markerArtwork.width ?? 96) : legislatorMarker ? 120 : 24 * scale;
-        const fullHeight = useGeneratedMarker ? (markerArtwork.height ?? 114) : legislatorMarker ? 169 : 30 * scale;
+        const localRepresentative = shop.category === '洋流服務站' && /(?:市議員|縣議員|里長)$/.test(shop.serviceType || markerArtwork?.type || '');
+        const markerPriority = legislatorMarker ? -500 : localRepresentative ? 500 : 0;
+        const fullWidth = useGeneratedMarker ? (markerArtwork.width ?? 96) : legislatorMarker ? 66 : 24 * scale;
+        const fullHeight = useGeneratedMarker ? (markerArtwork.height ?? 114) : legislatorMarker ? 66 : 30 * scale;
         let type, name;
         if (useGeneratedMarker) {
           const artwork = document.createElement('img');
@@ -296,7 +303,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         } else badge.textContent = '●';
         const createIcon = () => {
           // Keep artwork proportions and its click target within the normal 24 × 30 pin size.
-          const sizeScale = largeServiceMarkers ? .56 : Math.min(1, 24 / fullWidth, 30 / fullHeight);
+          const sizeScale = largeServiceMarkers ? (legislatorMarker ? 1 : .56) : Math.min(1, 24 / fullWidth, 30 / fullHeight);
           const width = fullWidth * sizeScale, height = fullHeight * sizeScale;
           badge.style.width = `${width}px`;
           badge.style.height = `${height}px`;
@@ -306,10 +313,12 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         };
         const marker = L.marker(position, {
           title:shop.name, alt:shop.name,
+          zIndexOffset:markerPriority,
           icon:createIcon()
         });
         marker.on('click', () => onSelect(shop));
         markers.set(shop.id, marker);
+        markerPriorities.set(shop.id, markerPriority);
         visuals.set(shop.id, badge);
         iconFactories.set(shop.id, createIcon);
       }

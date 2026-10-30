@@ -19,7 +19,7 @@ import {createShopMap} from '../public/puma_oshen_wave/shop-map.js';
 
 const station = {lat:22.997137,lng:120.21295};
 const ids = ['a','b','c','d'];
-const serviceIds = ['chen-ting-fei-campaign-headquarters','service-without-artwork'];
+const serviceIds = ['chen-ting-fei-campaign-headquarters','service-without-artwork','wang-ting-yu-east-service-office','lin-yi-ting-service-office','hsiao-chih-yuan-heshun-service-office'];
 const shops = ids.map(id => ({id, name:id, category:'咖啡廳', latlng:station}));
 shops.push(...serviceIds.map(id => ({id, name:id, category:'洋流服務站', latlng:station})));
 shops.push({id:'invalid', name:'invalid', coordinates:{lat:99,lng:0}});
@@ -49,7 +49,7 @@ const api = createShopMap({container,status,onSelect:shop => {
 try {
   await check('有效座標完整聚合，略過無效座標', async () => {
     assert(await api.load(shops),'Map did not load');
-    assert(positions.size===6,'Unexpected position count');
+    assert(positions.size===9,'Unexpected position count');
     assert(container.querySelector('.osm-cluster')?.textContent==='4','Expected one cluster of four');
   });
   let group;
@@ -86,7 +86,7 @@ try {
   });
   await check('服務站僅在服務站分類顯示，且不混入其它分類聚合數量', () => {
     api.focus(null); api.filter(serviceIds,'洋流服務站');
-    assert(group.getLayers().length===2 && container.querySelector('.osm-cluster')?.textContent==='2','Service category lost markers');
+    assert(group.getLayers().length===5 && container.querySelector('.osm-cluster')?.textContent==='5','Service category lost markers');
     api.focus(serviceIds[0]);
     assert(parseFloat(container.querySelector('.osm-artwork-pin').style.width)>24,'Service marker failed to resize');
     for (const category of ['', '咖啡廳']) {
@@ -96,6 +96,22 @@ try {
       api.focus(serviceIds[1]);
       assert(!container.querySelector('.is-selected'),'Service station without artwork remains visible');
     }
+  });
+  await check('立委固定 66 × 66、議員里長優先，取消選取後恢復層級', () => {
+    api.focus(null); api.filter(serviceIds,'洋流服務站');
+    const byId = new Map(group.getLayers().map(marker => [marker.options.title, marker]));
+    const legislator=byId.get('wang-ting-yu-east-service-office');
+    const councilor=byId.get('lin-yi-ting-service-office');
+    const chief=byId.get('hsiao-chih-yuan-heshun-service-office');
+    assert(legislator.options.icon.options.iconSize.every(value=>value===66),'Legislator marker must be exactly 66 × 66');
+    assert(councilor.options.zIndexOffset>legislator.options.zIndexOffset && chief.options.zIndexOffset>legislator.options.zIndexOffset,'Local representatives must be above legislators');
+    api.focus('wang-ting-yu-east-service-office',{recenter:false});
+    assert(legislator.options.zIndexOffset>councilor.options.zIndexOffset,'Selected marker must remain on top');
+    api.focus('lin-yi-ting-service-office',{recenter:false});
+    assert(legislator.options.zIndexOffset===-500 && chief.options.zIndexOffset===500,'Unselected markers lost their category priority');
+    group.fire('unspiderfied');
+    assert(councilor.options.zIndexOffset===1000 && legislator.options.zIndexOffset===-500,'Cluster collapse lost marker priorities');
+    api.focus(null); api.filter(ids);
   });
   await check('我的位置及幸運星不加入店家數量', async () => {
     api.focus(null); api.filter(ids);
@@ -119,7 +135,7 @@ try {
     await waitFor(() => hidden.querySelector('.is-selected')?.parentElement.title==='a');
     await waitFor(() => hidden.querySelectorAll('.osm-marker').length===2);
   });
-  document.querySelector('#result').textContent='8 / 8 通過';
+  document.querySelector('#result').textContent='9 / 9 通過';
 } catch (error) {
   document.querySelector('#result').textContent=`失敗：${error.message}`;
   console.error(error);

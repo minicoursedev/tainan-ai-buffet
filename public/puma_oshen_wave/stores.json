@@ -2286,7 +2286,8 @@
         "image": "https://minicourse.dev/puma_oshen_wave/assets/hexin-pharmacy/logo.webp?v=10bbf87b7bef3c59",
         "source": "https://www.facebook.com/profile.php?id=61555371133069"
       },
-      "visitNote": "和順里里長 · 1號"
+      "visitNote": "和順里里長 · 1號",
+      "serviceType": "和順里里長"
     },
     {
       "id": "dash-pound-cake",
@@ -3481,7 +3482,8 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11059992457",
       "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：66號, 青砂街一段, 城中里, 安南區, 臺南市, 709, 臺灣。",
-      "visitNote": "第6選區市議員 · 1號"
+      "visitNote": "第6選區市議員 · 1號",
+      "serviceType": "第6選區市議員"
     },
     {
       "id": "full-yakiniku-annan",
@@ -4385,7 +4387,8 @@
         "lng": 120.2480818
       },
       "coordinateSource": "https://www.google.com/maps/place/710臺南市永康區三民里水漾路520號/@23.0515394,120.2480818,17z/data=!3m1!4b1!4m5!3m4!1s0x346e77547d9d9369:0xb7f1741dce145248!8m2!3d23.0515394!4d120.2480818",
-      "coordinateNote": "2026-10-20 操作 Google Maps 核對水漾路520號門牌卡片，取地點網址 !3d/!4d 座標。"
+      "coordinateNote": "2026-10-20 操作 Google Maps 核對水漾路520號門牌卡片，取地點網址 !3d/!4d 座標。",
+      "serviceType": "市長候選人"
     },
     {
       "id": "hele-sports-yidong",
@@ -4509,7 +4512,8 @@
         "label": "林依婷",
         "image": "https://minicourse.dev/puma_oshen_wave/assets/lin-yi-ting-service-office/logo.webp?v=64c2f77f7bc97ddd",
         "source": "https://www.threads.com/@yitinglin_123"
-      }
+      },
+      "serviceType": "第9選區市議員"
     },
     {
       "id": "zhijue-ximen",
@@ -7303,7 +7307,8 @@
         "label": "王定宇",
         "image": "https://minicourse.dev/puma_oshen_wave/assets/wang-ting-yu-xinfeng-service-office/logo.webp?v=b0d4e3a5e59406e6",
         "source": "https://www.facebook.com/wdy19690305/"
-      }
+      },
+      "serviceType": "立法委員"
     },
     {
       "id": "wang-ting-yu-east-service-office",
@@ -7358,7 +7363,8 @@
         "label": "王定宇",
         "image": "https://minicourse.dev/puma_oshen_wave/assets/wang-ting-yu-xinfeng-service-office/logo.webp?v=b0d4e3a5e59406e6",
         "source": "https://www.facebook.com/wdy19690305/"
-      }
+      },
+      "serviceType": "立法委員"
     },
     {
       "id": "letsgolin-service-office",
@@ -7412,7 +7418,8 @@
         "label": "林俊憲",
         "image": "https://minicourse.dev/puma_oshen_wave/assets/letsgolin-service-office/logo.webp?v=b8870a66622241cb",
         "source": "https://www.threads.com/@letsgolin?hl=zh-tw"
-      }
+      },
+      "serviceType": "立法委員"
     },
     {
       "id": "teamshenchennan-service-office",
@@ -7468,7 +7475,8 @@
         "label": "沈震南",
         "image": "https://minicourse.dev/puma_oshen_wave/assets/teamshenchennan-service-office/logo.webp?v=fb9c414074a2ab0f",
         "source": "https://www.threads.com/@teamshenchennan"
-      }
+      },
+      "serviceType": "第8選區市議員"
     },
     {
       "id": "shen-chia-feng-service-office",
