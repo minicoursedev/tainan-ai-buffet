@@ -2477,8 +2477,8 @@
         "https://www.openstreetmap.org/node/11082501722",
         "https://www.openstreetmap.org/api/0.6/node/11082501722.json"
       ],
-      "verifiedAt": "2026-10-29",
-      "verificationNote": "使用者指定收錄，新增店家的 verification 設為 JSON 布林值 true。查證子代理確認指定 Threads 分享連結轉址至 cathouse.art 官方貼文，標題及內文明示貓寓咖啡；主代理另直接讀取該貼文 HTTP 200 核對。官方 Instagram、Threads 個人頁及 Facebook 均明示相同完整地址，Instagram 實際外連 Facebook 分享網址並轉至本粉專，店名、地址及電話一致。依咖啡廳性質沿用既有咖啡廳分類。已比對本次快照全部318筆紀錄（含 disabled）的店名、地址、電話及社群帳號，未發現重複。主代理另直接核對官方 Instagram 的營業公告及 Facebook 簡介，開店時間有差異，營業時間保留待確認。",
+      "verifiedAt": "2026-10-30",
+      "verificationNote": "本次指定 Threads 帳號 cathouse.art 與快照既有貓寓咖啡紀錄相符，更新原紀錄，保留既有 verification、disabled、ID、分類及頭像資料。查證子代理以未登入的官方 Threads、Instagram 與 Facebook 公開頁核對店名及完整地址，三者一致；Instagram 與 Facebook 所列電話均為0963117770。主代理另直接讀取指定 Threads 個人頁，HTTP 200，og:url 與指定帳號相符，店名、地址及沖繩料理、手作體驗與藝術展覽介紹均吻合。已比對快照全部319筆紀錄（含 disabled）及待查名單的店名、地址、電話與社群帳號，未發現重複。地址未變，保留既有已查證座標；官方營業時間仍有差異，維持待確認。",
       "openingHours": {
         "status": "unverified",
         "text": "營業時間待確認；店休日不固定，請查看官方 Instagram 公告或先致電確認。",
@@ -2487,8 +2487,8 @@
           "https://www.instagram.com/cathouse.art/",
           "https://www.facebook.com/p/貓寓咖啡-高雄沖繩風緬因貓咖啡廳-61590352922195/"
         ],
-        "checkedAt": "2026-10-29",
-        "auditNote": "官方 Instagram 置頂貼文 Dbj5a0ITnhg 列週一至週日11:00–19:00，並說明不固定店休日、請查看 IG 精選；官方 Facebook 現行 og:description 則列週一至週日10:30–19:00。主代理與查證子代理均已核對，兩個官方來源的開店時間不同，未自行擇一，因此標為 unverified。"
+        "checkedAt": "2026-10-30",
+        "auditNote": "本次查證子代理重新讀取未登入的官方公開頁，Instagram 置頂貼文 Dbj5a0ITnhg 的 description 仍列週一至週日11:00–19:00，並說明不固定店休日、請查看 IG 精選；Facebook 現行 og:description 仍列週一至週日10:30–19:00。兩個官方來源的開店時間持續不同，未自行擇一，維持 unverified，請向店家確認現行時段與店休日。"
       },
       "disabled": false,
       "latlng": {
