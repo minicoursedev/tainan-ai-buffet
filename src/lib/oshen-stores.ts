@@ -4,6 +4,7 @@ export interface Store {
   id: string;
   name: string;
   category: string;
+  serviceType?: string;
   address: string;
   disabled?: boolean;
   verification?: boolean;

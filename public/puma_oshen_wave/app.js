@@ -1,5 +1,5 @@
 import {findStar} from './lucky-star.js?v=20261030-site-data';
-import {createShopMap} from './shop-map.js?v=20261027-service-marker-filter-row34';
+import {createShopMap} from './shop-map.js?v=20261031-service-marker-layers';
 const byId = id => document.getElementById(id);
 const origin = '22.997137,120.21295';
 let shops = [], category = '', selectedId = null;
@@ -378,7 +378,9 @@ function selectShop(shop, openDetail = true, recenter = true) {
   }
   if (!social.childElementCount) social.append(node('span','尚未提供社群連結'));
   bottom.append(social,externalLink('導航帶我去 ↗',`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(query)}&travelmode=walking`,'directions'));
-  content.append(heading,node('p',shop.address));
+  content.append(heading);
+  if (shop.category === '洋流服務站' && shop.serviceType) content.append(node('span',shop.serviceType,'type-tag service-type-tag'));
+  content.append(node('p',shop.address));
   const hoursText = shop.openingHours?.text?.trim();
   const hoursStatus = shop.openingHours?.status;
   if (hoursText && !['unknown', 'unverified'].includes(hoursStatus) &&
@@ -480,6 +482,7 @@ function renderShops(page = 0) {
     const card=node('article',undefined,'shop-card');card.dataset.shopId=shop.id;card.setAttribute('data-selected',String(shop.id===selectedId));
     card.dataset.verified=String(shop.verification===true);
     const top=node('div',undefined,'shop-card-top');top.append(node('span',shop.category,'type-tag'));
+    if (shop.category === '洋流服務站' && shop.serviceType) top.append(node('span',shop.serviceType,'type-tag service-type-tag'));
     const bottom=node('button','查看店家資訊 ↗','shop-card-bottom');bottom.type='button';bottom.setAttribute('aria-label',`查看 ${shop.name} 的店家資訊`);bottom.onclick=()=>selectShop(shop);
     const summary=node('div',undefined,'shop-card-summary');
     const text=node('div',undefined,'shop-card-text');

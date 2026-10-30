@@ -71,7 +71,7 @@
         "note": "已確認官方網站「認識瑞隆」既有頭像位置 .about_left img；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1302 × 1418。",
         "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/zenolai-campaign-headquarters.png?v=d69c0bb8bcc0c228"
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6791623,
         "lng": 120.307917
@@ -407,7 +407,7 @@
         "note": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 640 × 640。",
         "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/huang-jie-service-office.png?v=4e537054c71c87ea"
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6288215,
         "lng": 120.2950791
@@ -704,7 +704,7 @@
         "checkedAt": "2026-10-24",
         "auditNote": "議會頁未列固定服務時間；第三方轉錄的特定領取時段與頁底舊時段有落差，不據以填定一般服務時間或公休日。"
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6304584,
         "lng": 120.3229119
@@ -1144,7 +1144,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.8937209,
         "lng": 120.4831752
@@ -1195,7 +1195,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.8625043,
         "lng": 120.2584471
@@ -1249,7 +1249,7 @@
           "https://0jjj.oen.tw/"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.8542287,
         "lng": 120.258835
@@ -1302,7 +1302,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.7864229,
         "lng": 120.3168427
@@ -1355,7 +1355,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.7885535,
         "lng": 120.2966751
@@ -1408,7 +1408,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.7145189,
         "lng": 120.3145817
@@ -1461,7 +1461,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6891961,
         "lng": 120.3141512
@@ -1514,7 +1514,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6738669,
         "lng": 120.4079742
@@ -1566,7 +1566,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.7274139,
         "lng": 120.3508165
@@ -1620,7 +1620,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.7037495,
         "lng": 120.3480206
@@ -1673,7 +1673,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6674587,
         "lng": 120.3625363
@@ -1726,7 +1726,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.655408,
         "lng": 120.2786927
@@ -1779,7 +1779,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6552209,
         "lng": 120.2792619
@@ -1833,7 +1833,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6620392,
         "lng": 120.3197504
@@ -1888,7 +1888,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6389513,
         "lng": 120.3302745
@@ -1941,7 +1941,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6391016,
         "lng": 120.32951
@@ -1994,7 +1994,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6315153,
         "lng": 120.3039586
@@ -2049,7 +2049,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6342598,
         "lng": 120.3100197
@@ -2105,7 +2105,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6069751,
         "lng": 120.3453984
@@ -2158,7 +2158,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6259948,
         "lng": 120.352401
@@ -2213,7 +2213,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.5962394,
         "lng": 120.3303086
@@ -2268,7 +2268,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6063621,
         "lng": 120.3337178
@@ -2323,7 +2323,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.5038736,
         "lng": 120.3842428
@@ -2378,7 +2378,7 @@
           "https://news.pchome.com.tw/living/focusnews/20260417/index-77640493994839302009.html"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6343242,
         "lng": 120.3973273
@@ -2433,7 +2433,7 @@
           "https://news.pchome.com.tw/living/focusnews/20260417/index-77640493994839302009.html"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.504293,
         "lng": 120.3978039

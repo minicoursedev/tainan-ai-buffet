@@ -102,7 +102,7 @@
           "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2005&clique=DDP&pic=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.7421662,
         "lng": 121.7555144
@@ -151,7 +151,7 @@
           "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2008&clique=DDP&pic=2"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.8561776,
         "lng": 121.8200578
@@ -202,7 +202,7 @@
           "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2016&clique=DDP&pic=6"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.6718233,
         "lng": 121.76023
@@ -252,7 +252,7 @@
           "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A1919&clique=DDP&pic=6"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.6808071,
         "lng": 121.7613642
@@ -301,7 +301,7 @@
           "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2024&clique=DDP&pic=8"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.6330223,
         "lng": 121.7928094

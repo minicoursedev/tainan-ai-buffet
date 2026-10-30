@@ -2192,7 +2192,7 @@
       "id": "hexin-pharmacy",
       "verification": true,
       "name": "荷芯藥局",
-      "category": "洋流服務站",
+      "category": "日常生活",
       "address": "台南市北區育德路27號",
       "social": {
         "facebook": "https://www.facebook.com/profile.php?id=61555371133069",
@@ -2232,11 +2232,6 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060911097",
       "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。",
-      "mapMarker": {
-        "label": "和順里 1 號里長",
-        "image": "https://minicourse.dev/puma_oshen_wave/assets/hexin-pharmacy/logo.webp?v=10bbf87b7bef3c59",
-        "source": "https://www.facebook.com/profile.php?id=61555371133069"
-      },
       "productImages": [
         {
           "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hexin-pharmacy/1.webp?v=20fedd89922a7667",
@@ -2249,6 +2244,51 @@
           "source": "https://www.facebook.com/profile.php?id=61555371133069"
         }
       ]
+    },
+    {
+      "id": "hsiao-chih-yuan-heshun-service-office",
+      "verification": true,
+      "name": "蕭智元",
+      "category": "洋流服務站",
+      "address": "台南市北區育德路27號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=61555371133069",
+        "instagram": "",
+        "threads": "https://www.threads.com/@yutingztw"
+      },
+      "sources": [
+        "https://www.facebook.com/profile.php?id=61555371133069",
+        "https://www.threads.com/@yutingztw"
+      ],
+      "giftStatus": "可能有小物",
+      "verificationNote": "2026-10-31 使用者指定此地址同時有荷芯藥局與蕭智元服務站，分開收錄；服務站名稱為蕭智元，編號1號，標籤為和順里里長。沿用同址既有座標及蕭智元圖片，不重新查證頭像。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務站。",
+        "sources": []
+      },
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/hexin-pharmacy/logo.webp?v=10bbf87b7bef3c59",
+        "source": "https://www.facebook.com/profile.php?id=61555371133069",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "使用者指定依兩張附件以 imagegen 生成「和順里 1 號里長」頭像；非官方社群原頭像。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.006321,
+        "lng": 120.2031105
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060911097",
+      "coordinateNote": "使用者指定與荷芯藥局同址，沿用既有已核對門牌座標。",
+      "mapMarker": {
+        "label": "蕭智元",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/hexin-pharmacy/logo.webp?v=10bbf87b7bef3c59",
+        "source": "https://www.facebook.com/profile.php?id=61555371133069"
+      },
+      "visitNote": "和順里里長 · 1號",
+      "serviceType": "和順里里長"
     },
     {
       "id": "dash-pound-cake",
@@ -3443,7 +3483,8 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11059992457",
       "coordinateNote": "2026-10-27 OpenStreetMap 結構化查詢核對門牌、道路與行政區：66號, 青砂街一段, 城中里, 安南區, 臺南市, 709, 臺灣。",
-      "visitNote": "第6選區市議員 · 1號"
+      "visitNote": "第6選區市議員 · 1號",
+      "serviceType": "第6選區市議員"
     },
     {
       "id": "full-yakiniku-annan",
@@ -4347,7 +4388,8 @@
         "lng": 120.2480818
       },
       "coordinateSource": "https://www.google.com/maps/place/710臺南市永康區三民里水漾路520號/@23.0515394,120.2480818,17z/data=!3m1!4b1!4m5!3m4!1s0x346e77547d9d9369:0xb7f1741dce145248!8m2!3d23.0515394!4d120.2480818",
-      "coordinateNote": "2026-10-20 操作 Google Maps 核對水漾路520號門牌卡片，取地點網址 !3d/!4d 座標。"
+      "coordinateNote": "2026-10-20 操作 Google Maps 核對水漾路520號門牌卡片，取地點網址 !3d/!4d 座標。",
+      "serviceType": "市長候選人"
     },
     {
       "id": "hele-sports-yidong",
@@ -4471,7 +4513,8 @@
         "label": "林依婷",
         "image": "https://minicourse.dev/puma_oshen_wave/assets/lin-yi-ting-service-office/logo.webp?v=64c2f77f7bc97ddd",
         "source": "https://www.threads.com/@yitinglin_123"
-      }
+      },
+      "serviceType": "第9選區市議員"
     },
     {
       "id": "zhijue-ximen",
@@ -4808,7 +4851,7 @@
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；周嘉韋律師；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。",
         "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/wayonly-service-office.png?v=75cfbb498cc2ea42"
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0017405,
         "lng": 120.1943253
@@ -4998,7 +5041,7 @@
         "note": "已確認官方網站「認識瑞隆」既有頭像位置 .about_left img；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 1302 × 1418。",
         "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/zenolai-campaign-headquarters.png?v=d69c0bb8bcc0c228"
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6791623,
         "lng": 120.307917
@@ -6363,7 +6406,7 @@
         "note": "人工核對該店官方 threads 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 640 × 640。",
         "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/huang-jie-service-office.png?v=4e537054c71c87ea"
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6288215,
         "lng": 120.2950791
@@ -6660,7 +6703,7 @@
         "checkedAt": "2026-10-24",
         "auditNote": "議會頁未列固定服務時間；第三方轉錄的特定領取時段與頁底舊時段有落差，不據以填定一般服務時間或公休日。"
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6304584,
         "lng": 120.3229119
@@ -7265,7 +7308,8 @@
         "label": "王定宇",
         "image": "https://minicourse.dev/puma_oshen_wave/assets/wang-ting-yu-xinfeng-service-office/logo.webp?v=b0d4e3a5e59406e6",
         "source": "https://www.facebook.com/wdy19690305/"
-      }
+      },
+      "serviceType": "立法委員"
     },
     {
       "id": "wang-ting-yu-east-service-office",
@@ -7320,7 +7364,8 @@
         "label": "王定宇",
         "image": "https://minicourse.dev/puma_oshen_wave/assets/wang-ting-yu-xinfeng-service-office/logo.webp?v=b0d4e3a5e59406e6",
         "source": "https://www.facebook.com/wdy19690305/"
-      }
+      },
+      "serviceType": "立法委員"
     },
     {
       "id": "letsgolin-service-office",
@@ -7374,7 +7419,8 @@
         "label": "林俊憲",
         "image": "https://minicourse.dev/puma_oshen_wave/assets/letsgolin-service-office/logo.webp?v=b8870a66622241cb",
         "source": "https://www.threads.com/@letsgolin?hl=zh-tw"
-      }
+      },
+      "serviceType": "立法委員"
     },
     {
       "id": "teamshenchennan-service-office",
@@ -7430,7 +7476,8 @@
         "label": "沈震南",
         "image": "https://minicourse.dev/puma_oshen_wave/assets/teamshenchennan-service-office/logo.webp?v=fb9c414074a2ab0f",
         "source": "https://www.threads.com/@teamshenchennan"
-      }
+      },
+      "serviceType": "第8選區市議員"
     },
     {
       "id": "shen-chia-feng-service-office",
@@ -7465,7 +7512,7 @@
           "https://www.facebook.com/LTSCF69/about/"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.3006903,
         "lng": 120.3170312
@@ -7518,7 +7565,7 @@
           "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.3007861,
         "lng": 120.304248
@@ -7572,7 +7619,7 @@
           "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.3395336,
         "lng": 120.3523066
@@ -7623,7 +7670,7 @@
           "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.1527472,
         "lng": 120.1745992
@@ -7676,7 +7723,7 @@
           "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.1549755,
         "lng": 120.1716805
@@ -7727,7 +7774,7 @@
           "https://tnda.tainan.gov.tw/civilbook/page.asp?page=9"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.2353143,
         "lng": 120.1832992
@@ -7778,7 +7825,7 @@
           "https://tnda.tainan.gov.tw/civilbook/page.asp?page=5"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.234476,
         "lng": 120.3369571
@@ -7829,7 +7876,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=9CBCB90A-A821-4FAD-A45D-79491B3EE5B2"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.2383073,
         "lng": 120.2694212
@@ -7882,7 +7929,7 @@
           "https://web.cec.gov.tw/api/file/c3198075-fe85-4253-b1a5-0a2a043a550e.pdf"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.1201505,
         "lng": 120.4625139
@@ -7933,7 +7980,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=EED1C3A7-E6DA-40AF-B184-38ADCC794C74"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0807091,
         "lng": 120.2925557
@@ -7984,7 +8031,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=4E55DF62-30D2-4B1E-B4C4-6B6A75A6DBED"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0369898,
         "lng": 120.3048672
@@ -8037,7 +8084,7 @@
           "https://www.google.com/maps/place/台南市議員林志展服務處/@23.1322778,120.2963231,17z/data=!4m15!1m8!3m7!1s0x346e7c7ff5ffa689:0x5d2bb16bae743ef!2zNzQx6Ie65Y2X5biC5ZaE5YyW5Y2A5YWJ5paH6YeM5Lit5bGx6LevMjY26Jmf!3b1!8m2!3d23.1322778!4d120.2963231!16s%2Fg%2F11vwr9yb7_!3m5!1s0x346e7c7ff6aea2f9:0xad76bfccfc012377!8m2!3d23.1322025!4d120.2963284!16s%2Fg%2F11fnnqycm0"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.1322025,
         "lng": 120.2963284
@@ -8087,7 +8134,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=880414F4-8F11-4D0C-AFEA-CBA8B9AA9373"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0346469,
         "lng": 120.3025327
@@ -8139,7 +8186,7 @@
           "https://www.facebook.com/sidy36/posts/1506484144810988/"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0279421,
         "lng": 120.1910541
@@ -8183,7 +8230,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=201C5B83-A1D0-4226-8FE3-78B01D957E4F"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0222732,
         "lng": 120.2485895
@@ -8236,7 +8283,7 @@
           "https://www.google.com/maps/place/陳秋萍議員服務處/@23.0294218,120.2599983,17z/data=!4m15!1m8!3m7!1s0x346e70c8fdebe211:0xa24f5bad27cee92b!2zNzEw6Ie65Y2X5biC5rC45bq35Y2A5rC45bq36YeM5rC45aSn6Lev5LiJ5q61NzfomZ8!3b1!8m2!3d23.0294218!4d120.2599983!16s%2Fg%2F11zcg2vchh!3m5!1s0x346e70b62c02bab7:0x4f44c32f2c36c655!8m2!3d23.0294218!4d120.2599983!16s%2Fg%2F1pztlrcjw"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0294218,
         "lng": 120.2599983
@@ -8287,7 +8334,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=C5B62F03-2580-4ED5-94F5-9A7BDF6218A8"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0040384,
         "lng": 120.2605975
@@ -8336,7 +8383,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=4A10A4A3-190C-47E8-9214-B75A23CBE882"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9916467,
         "lng": 120.1953006
@@ -8388,7 +8435,7 @@
           "https://www.facebook.com/LINCHIENNAN1776/posts/1476790614455744/"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.0144668,
         "lng": 120.2092052
@@ -8439,7 +8486,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=ADADD8CA-4B20-49AB-A056-B3BD47F3DFE0"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.997374,
         "lng": 120.1672873
@@ -8494,7 +8541,7 @@
           "https://www.threads.com/@lily_chou_2638598/post/DetV365j6RT/"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9725249,
         "lng": 120.1909141
@@ -8546,7 +8593,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=4348ACF1-8957-4133-B99E-19B26D9E2DCE"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9611275,
         "lng": 120.1902048
@@ -8597,7 +8644,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=78191C86-FE9E-442F-84D9-47CF93743FE9"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9868498,
         "lng": 120.2288668
@@ -8648,7 +8695,7 @@
           "https://www.tncc.gov.tw/2019/tnccp2/ccp_01a.asp?CName=%E9%99%B3%E9%87%91%E9%90%98"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9693429,
         "lng": 120.226683
@@ -8699,7 +8746,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=CBAF0322-27BB-4242-BDFE-2BE6814FD6BD"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9574969,
         "lng": 120.3282093
@@ -8749,7 +8796,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=D02F8D8F-F1DF-4F8A-BA84-EE5B5FA5F147"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9738727,
         "lng": 120.2547361
@@ -8801,7 +8848,7 @@
           "https://www.tncc.gov.tw/councilorpage.asp?mainid=0DB92A60-047F-4559-A8EE-03183D3CBFA0"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.9668456,
         "lng": 120.2903204
@@ -8852,7 +8899,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=975"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9958629,
         "lng": 121.3006405
@@ -8903,7 +8950,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=974"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9937214,
         "lng": 121.3099617
@@ -8955,7 +9002,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=982"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9937767,
         "lng": 121.2947564
@@ -9006,7 +9053,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=979"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9969415,
         "lng": 121.303998
@@ -9057,7 +9104,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=984"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9911797,
         "lng": 121.3221099
@@ -9109,7 +9156,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=983"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 25.0214565,
         "lng": 121.3610696
@@ -9160,7 +9207,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=991"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9688741,
         "lng": 121.3031983
@@ -9212,7 +9259,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=987"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9293371,
         "lng": 121.2858958
@@ -9264,7 +9311,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=994"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 25.0586317,
         "lng": 121.2952974
@@ -9315,7 +9362,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=997"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 25.0673024,
         "lng": 121.1994767
@@ -9364,7 +9411,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=999"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.8794121,
         "lng": 121.2907312
@@ -9415,7 +9462,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1000"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9530444,
         "lng": 121.2347792
@@ -9466,7 +9513,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1001"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9496984,
         "lng": 121.224806
@@ -9518,7 +9565,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1007"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9612663,
         "lng": 121.2540982
@@ -9569,7 +9616,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1008"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 25.0092964,
         "lng": 121.2042549
@@ -9620,7 +9667,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1014"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9456588,
         "lng": 121.221641
@@ -9672,7 +9719,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1012"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9445613,
         "lng": 121.2137651
@@ -9723,7 +9770,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1018"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9122022,
         "lng": 121.177513
@@ -9772,7 +9819,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1023"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9723765,
         "lng": 121.1085752
@@ -9824,7 +9871,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1027"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.903623,
         "lng": 121.2842232
@@ -9875,7 +9922,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=3"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.3276366,
         "lng": 120.6574585
@@ -9926,7 +9973,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=6"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.2705289,
         "lng": 120.5752948
@@ -9978,7 +10025,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=7"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.2519774,
         "lng": 120.5352643
@@ -10030,7 +10077,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=12"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1759893,
         "lng": 120.58075
@@ -10080,7 +10127,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=69"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1096994,
         "lng": 120.634949
@@ -10131,7 +10178,7 @@
           "https://www.facebook.com/syuan0701/"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.24874,
         "lng": 120.7369565
@@ -10184,7 +10231,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=16"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.2425744,
         "lng": 120.7224467
@@ -10234,7 +10281,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=23"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.211753,
         "lng": 120.7003782
@@ -10285,7 +10332,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=24"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.2456358,
         "lng": 120.6865691
@@ -10337,7 +10384,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=29"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1695279,
         "lng": 120.6356418
@@ -10388,7 +10435,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=28"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1651043,
         "lng": 120.6464779
@@ -10438,7 +10485,7 @@
           "https://www.facebook.com/TaichungBetter/"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1437002,
         "lng": 120.6523355
@@ -10489,7 +10536,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=33"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1391011,
         "lng": 120.6463871
@@ -10540,7 +10587,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=74"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1713033,
         "lng": 120.7188119
@@ -10591,7 +10638,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=75"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1605094,
         "lng": 120.6767037
@@ -10642,7 +10689,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=45"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1448851,
         "lng": 120.661435
@@ -10693,7 +10740,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=44"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1459251,
         "lng": 120.6715332
@@ -10744,7 +10791,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=76"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1268155,
         "lng": 120.6809612
@@ -10796,7 +10843,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=48"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1340569,
         "lng": 120.6886774
@@ -10846,7 +10893,7 @@
           "https://www.facebook.com/mingchen4417/"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1417667,
         "lng": 120.6943857
@@ -10897,7 +10944,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=54"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1389723,
         "lng": 120.7119184
@@ -10948,7 +10995,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=53"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.132606,
         "lng": 120.7241264
@@ -10999,7 +11046,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=59"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1054368,
         "lng": 120.6856202
@@ -11048,7 +11095,7 @@
           "https://www.tccc.gov.tw/wb_introduction02.asp?uno=&cno=58"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1052523,
         "lng": 120.6875786
@@ -11102,7 +11149,7 @@
         ],
         "checkedAt": "2026-10-27"
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.1085218,
         "lng": 120.6901467
@@ -11153,7 +11200,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.8937209,
         "lng": 120.4831752
@@ -11204,7 +11251,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.8625043,
         "lng": 120.2584471
@@ -11258,7 +11305,7 @@
           "https://0jjj.oen.tw/"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.8542287,
         "lng": 120.258835
@@ -11311,7 +11358,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.7864229,
         "lng": 120.3168427
@@ -11364,7 +11411,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.7885535,
         "lng": 120.2966751
@@ -11417,7 +11464,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.7145189,
         "lng": 120.3145817
@@ -11470,7 +11517,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6891961,
         "lng": 120.3141512
@@ -11523,7 +11570,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6738669,
         "lng": 120.4079742
@@ -11575,7 +11622,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.7274139,
         "lng": 120.3508165
@@ -11629,7 +11676,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.7037495,
         "lng": 120.3480206
@@ -11682,7 +11729,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6674587,
         "lng": 120.3625363
@@ -11735,7 +11782,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.655408,
         "lng": 120.2786927
@@ -11788,7 +11835,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6552209,
         "lng": 120.2792619
@@ -11842,7 +11889,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6620392,
         "lng": 120.3197504
@@ -11897,7 +11944,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6389513,
         "lng": 120.3302745
@@ -11950,7 +11997,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6391016,
         "lng": 120.32951
@@ -12003,7 +12050,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6315153,
         "lng": 120.3039586
@@ -12058,7 +12105,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6342598,
         "lng": 120.3100197
@@ -12114,7 +12161,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6069751,
         "lng": 120.3453984
@@ -12167,7 +12214,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6259948,
         "lng": 120.352401
@@ -12222,7 +12269,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.5962394,
         "lng": 120.3303086
@@ -12277,7 +12324,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6063621,
         "lng": 120.3337178
@@ -12332,7 +12379,7 @@
           "https://www.kcc.gov.tw/Common/OutputPDF.ashx?type=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.5038736,
         "lng": 120.3842428
@@ -12387,7 +12434,7 @@
           "https://news.pchome.com.tw/living/focusnews/20260417/index-77640493994839302009.html"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6343242,
         "lng": 120.3973273
@@ -12442,7 +12489,7 @@
           "https://news.pchome.com.tw/living/focusnews/20260417/index-77640493994839302009.html"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.504293,
         "lng": 120.3978039
@@ -12491,7 +12538,7 @@
           "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=&typeid=2580&typeid2=2599"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.5647336,
         "lng": 120.8131307
@@ -12542,7 +12589,7 @@
           "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=574&_PARENT_ID=ER11112KB00003&_TYP=REP&TYP=KND0002"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.5447852,
         "lng": 120.8163958
@@ -12591,7 +12638,7 @@
           "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2600"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.3972329,
         "lng": 120.7607304
@@ -12642,7 +12689,7 @@
           "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2601"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.4965289,
         "lng": 120.6952815
@@ -12693,7 +12740,7 @@
           "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2602"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.6795544,
         "lng": 120.8666251
@@ -12744,7 +12791,7 @@
           "https://www.mcc.gov.tw/iframimgtxt_list.php?menu=2670&typeid=2580&typeid2=2603"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.6848553,
         "lng": 120.9117543
@@ -12793,7 +12840,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14194"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.446408395623674,
         "lng": 120.42965966686253
@@ -12842,7 +12889,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14187"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4549192,
         "lng": 120.2981716
@@ -12891,7 +12938,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14193"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4584288,
         "lng": 120.4142144
@@ -12940,7 +12987,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14190"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4095243,
         "lng": 120.3101016
@@ -12991,7 +13038,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14201"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.5526113,
         "lng": 120.3702517
@@ -13040,7 +13087,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14197"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.5211532,
         "lng": 120.3522535
@@ -13089,7 +13136,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14200"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.5575596,
         "lng": 120.4241165
@@ -13138,7 +13185,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14203"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.6036163,
         "lng": 120.4518226
@@ -13187,7 +13234,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14202"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.5526862,
         "lng": 120.5488167
@@ -13238,7 +13285,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14208"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4649232,
         "lng": 120.2474356
@@ -13287,7 +13334,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14214"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.3336933,
         "lng": 120.2492139
@@ -13336,7 +13383,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14218"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4498232,
         "lng": 120.4593837
@@ -13385,7 +13432,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14217"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4231386,
         "lng": 120.5223284
@@ -13434,7 +13481,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14216"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.5147236,
         "lng": 120.5489836
@@ -13484,7 +13531,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=83e4c59b-1c6e-55f8-864f-90d346ecd8c8"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6783323,
         "lng": 120.4973108
@@ -13533,7 +13580,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=ded87e64-f9fc-464a-4737-b7b3457e508e"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6379392,
         "lng": 120.4849803
@@ -13584,7 +13631,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=0ebeb91d-3321-7199-60f1-25f39143e864"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.364954,
         "lng": 120.6003145
@@ -13633,7 +13680,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=eba79364-b4a8-29c9-d54e-6bba9e79d240"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.6177818,
         "lng": 120.5657276
@@ -13683,7 +13730,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=f7182d89-30b1-e86b-40a1-e2527c353e48"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.5843442,
         "lng": 120.4855379
@@ -13732,7 +13779,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=5d9217cb-0c81-ab15-cebc-c0e1e7afd00c"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.4791008,
         "lng": 120.4399405
@@ -13784,7 +13831,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=8de36599-83ac-8c40-ef11-be917d8e72cd"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.4697342,
         "lng": 120.4578608
@@ -13833,7 +13880,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=bb3e2d73-cd78-d552-18de-5bc5248a88b1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.418819,
         "lng": 120.5499185
@@ -13883,7 +13930,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=86a21ec5-3443-98aa-8aa5-93af63edea3c"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.5225743,
         "lng": 120.4864965
@@ -13935,7 +13982,7 @@
           "https://www.ptcc.gov.tw/?Page=PersionalDetail&Guid=f3728c99-9bb4-0975-89cb-7dd3c22149d4"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.0015828,
         "lng": 120.7421533
@@ -13986,7 +14033,7 @@
           "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2005&clique=DDP&pic=1"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.7421662,
         "lng": 121.7555144
@@ -14035,7 +14082,7 @@
           "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2008&clique=DDP&pic=2"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.8561776,
         "lng": 121.8200578
@@ -14086,7 +14133,7 @@
           "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2016&clique=DDP&pic=6"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.6718233,
         "lng": 121.76023
@@ -14136,7 +14183,7 @@
           "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A1919&clique=DDP&pic=6"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.6808071,
         "lng": 121.7613642
@@ -14185,7 +14232,7 @@
           "https://www.ilcc.gov.tw/Html/H_05/H_0501.asp?User_id=A2024&clique=DDP&pic=8"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.6330223,
         "lng": 121.7928094
@@ -14238,7 +14285,7 @@
           "https://www.taitungcc.gov.tw/api/member/20"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.7655026,
         "lng": 121.1422231
@@ -14291,7 +14338,7 @@
           "https://www.taitungcc.gov.tw/api/member/35"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.7556765,
         "lng": 121.1387333
@@ -14343,7 +14390,7 @@
           "https://www.phcouncil.gov.tw/mop2.php?no=M24080008"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.5690899,
         "lng": 119.567855
@@ -14395,7 +14442,7 @@
           "https://www.kmcc.gov.tw/8844/54357/55476/55495/"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.4283385,
         "lng": 118.3229992
@@ -14446,7 +14493,7 @@
           "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=5&mid=39"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.8078764,
         "lng": 120.9773493
@@ -14497,7 +14544,7 @@
           "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=16&mid=39"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.7973205,
         "lng": 120.9689583
@@ -14548,7 +14595,7 @@
           "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=19"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.8051577,
         "lng": 120.9506196
@@ -14599,7 +14646,7 @@
           "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=23"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.8167622,
         "lng": 120.9691852
@@ -14651,7 +14698,7 @@
           "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=30"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.7446378,
         "lng": 120.9054781
@@ -14701,7 +14748,7 @@
           "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1176"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4922203,
         "lng": 120.4446487
@@ -14753,7 +14800,7 @@
           "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1065"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4903059,
         "lng": 120.4518048
@@ -14807,7 +14854,7 @@
           "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=574&_PARENT_ID=ER11112IB00018&_TYP=REP&TYP=KND0002"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4799786,
         "lng": 120.4448497
@@ -14859,7 +14906,7 @@
           "https://udn.com/news/amp/story/7326/9271404"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.472228,
         "lng": 120.443478

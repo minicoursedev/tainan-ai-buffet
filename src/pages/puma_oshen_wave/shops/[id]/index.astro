@@ -15,6 +15,7 @@ const directions = `https://www.google.com/maps/dir/?api=1&destination=${encodeU
     <div class="shop-detail-toolbar"><a class="back-to-shops" href="/puma_oshen_wave/">← 返回店家清單</a>{image && <img class="shop-avatar" src={image} alt={`${store.name} 社群頭像`} width="64" height="64" />}</div>
     <div class="detail-content" data-verified={String(store.verification === true)}>
       <div class="detail-heading"><h2>{store.name}</h2><span class="type-tag">{store.category}</span></div>
+      {store.category === '洋流服務站' && store.serviceType && <span class="type-tag service-type-tag">{store.serviceType}</span>}
       <p>{store.address}</p>
       {hours && <section class="business-hours"><h3>營業時間</h3><p class="hours-schedule">{hours}</p>{store.openingHours?.note && <p class="hours-note">{store.openingHours.note}</p>}</section>}
       {store.visitNote && <p>{store.visitNote}</p>}

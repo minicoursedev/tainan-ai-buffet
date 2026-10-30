@@ -55,7 +55,7 @@
           "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=5&mid=39"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.8078764,
         "lng": 120.9773493
@@ -106,7 +106,7 @@
           "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=16&mid=39"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.7973205,
         "lng": 120.9689583
@@ -157,7 +157,7 @@
           "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=19"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.8051577,
         "lng": 120.9506196
@@ -208,7 +208,7 @@
           "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=23"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.8167622,
         "lng": 120.9691852
@@ -260,7 +260,7 @@
           "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=30"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.7446378,
         "lng": 120.9054781

@@ -102,7 +102,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=975"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9958629,
         "lng": 121.3006405
@@ -153,7 +153,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=974"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9937214,
         "lng": 121.3099617
@@ -205,7 +205,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=982"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9937767,
         "lng": 121.2947564
@@ -256,7 +256,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=979"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9969415,
         "lng": 121.303998
@@ -307,7 +307,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=984"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9911797,
         "lng": 121.3221099
@@ -359,7 +359,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=983"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 25.0214565,
         "lng": 121.3610696
@@ -410,7 +410,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=991"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9688741,
         "lng": 121.3031983
@@ -462,7 +462,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=987"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9293371,
         "lng": 121.2858958
@@ -514,7 +514,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=994"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 25.0586317,
         "lng": 121.2952974
@@ -565,7 +565,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=997"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 25.0673024,
         "lng": 121.1994767
@@ -614,7 +614,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=999"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.8794121,
         "lng": 121.2907312
@@ -665,7 +665,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1000"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9530444,
         "lng": 121.2347792
@@ -716,7 +716,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1001"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9496984,
         "lng": 121.224806
@@ -768,7 +768,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1007"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9612663,
         "lng": 121.2540982
@@ -819,7 +819,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1008"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 25.0092964,
         "lng": 121.2042549
@@ -870,7 +870,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1014"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9456588,
         "lng": 121.221641
@@ -922,7 +922,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1012"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9445613,
         "lng": 121.2137651
@@ -973,7 +973,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1018"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9122022,
         "lng": 121.177513
@@ -1022,7 +1022,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1023"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.9723765,
         "lng": 121.1085752
@@ -1074,7 +1074,7 @@
           "https://www.tycc.gov.tw/TC/councilor-detail.aspx?mid=39&num=1027"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 24.903623,
         "lng": 121.2842232

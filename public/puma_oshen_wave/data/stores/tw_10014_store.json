@@ -57,7 +57,7 @@
           "https://www.taitungcc.gov.tw/api/member/20"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.7655026,
         "lng": 121.1422231
@@ -110,7 +110,7 @@
           "https://www.taitungcc.gov.tw/api/member/35"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 22.7556765,
         "lng": 121.1387333

@@ -99,7 +99,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14194"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.446408395623674,
         "lng": 120.42965966686253
@@ -148,7 +148,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14187"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4549192,
         "lng": 120.2981716
@@ -197,7 +197,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14193"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4584288,
         "lng": 120.4142144
@@ -246,7 +246,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14190"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4095243,
         "lng": 120.3101016
@@ -297,7 +297,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14201"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.5526113,
         "lng": 120.3702517
@@ -346,7 +346,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14197"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.5211532,
         "lng": 120.3522535
@@ -395,7 +395,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14200"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.5575596,
         "lng": 120.4241165
@@ -444,7 +444,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14203"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.6036163,
         "lng": 120.4518226
@@ -493,7 +493,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14202"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.5526862,
         "lng": 120.5488167
@@ -544,7 +544,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14208"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4649232,
         "lng": 120.2474356
@@ -593,7 +593,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14214"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.3336933,
         "lng": 120.2492139
@@ -642,7 +642,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14218"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4498232,
         "lng": 120.4593837
@@ -691,7 +691,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14217"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4231386,
         "lng": 120.5223284
@@ -740,7 +740,7 @@
           "https://www.cyscc.gov.tw/Parliamentary_Content/315/14216"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.5147236,
         "lng": 120.5489836

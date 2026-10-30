@@ -470,7 +470,7 @@
           "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1176"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4922203,
         "lng": 120.4446487
@@ -522,7 +522,7 @@
           "https://www.cycc.gov.tw/web/UnitStaff_New/Default2.aspx?c0=3716&p0=1065"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4903059,
         "lng": 120.4518048
@@ -576,7 +576,7 @@
           "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=574&_PARENT_ID=ER11112IB00018&_TYP=REP&TYP=KND0002"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.4799786,
         "lng": 120.4448497
@@ -628,7 +628,7 @@
           "https://udn.com/news/amp/story/7326/9271404"
         ]
       },
-      "disabled": false,
+      "disabled": true,
       "latlng": {
         "lat": 23.472228,
         "lng": 120.443478
