@@ -6,6 +6,7 @@ export interface Store {
   category: string;
   address: string;
   disabled?: boolean;
+  verification?: boolean;
   visitNote?: string;
   social?: Record<string, string>;
   openingHours?: { status?: string; text?: string; note?: string };

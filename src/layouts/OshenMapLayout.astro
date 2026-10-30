@@ -1,39 +1,46 @@
+---
+import type { Store } from '../lib/oshen-stores';
+interface Props { store?: Store }
+const { store } = Astro.props;
+const title = store ? `${store.name}｜${store.category}｜我們的洋流地圖` : '我們的洋流地圖｜一起走走，讓支持成為日常。';
+const description = store ? `${store.name}，${store.category}，位於${store.address}。查看店家資訊、官方社群與洋流地圖，規劃前往路線。` : '我們的洋流地圖，一起走走，讓支持成為日常。喝杯咖啡、吃頓飯，或到一家小店逛逛。打開地圖，找找今天想去的地方。';
+const canonical = new URL(store ? `/puma_oshen_wave/shops/${encodeURIComponent(store.id)}/` : '/puma_oshen_wave/', Astro.site).href;
+---
 <!doctype html>
 <html lang="zh-Hant">
 <head>
-<script defer src="/assets/analytics.js?v=20261019-content-group"></script>
+<script is:inline defer src="/assets/analytics.js?v=20261019-content-group"></script>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#ff3476"><meta name="description" content="我們的洋流地圖，一起走走，讓支持成為日常。喝杯咖啡、吃頓飯，或到一家小店逛逛。打開地圖，找找今天想去的地方。">
-<title>我們的洋流地圖｜一起走走，讓支持成為日常。</title>
-<link rel="canonical" href="https://minicourse.dev/puma_oshen_wave/">
+<meta name="theme-color" content="#ff3476"><meta name="description" content={description}>
+<title>{title}</title>
+<link rel="canonical" href={canonical}>
 <meta property="og:type" content="website">
 <meta property="og:locale" content="zh_TW">
 <meta property="og:site_name" content="MiniCourse">
-<meta property="og:title" content="我們的洋流地圖｜一起走走，讓支持成為日常。">
-<meta property="og:description" content="我們的洋流地圖，一起走走，讓支持成為日常。喝杯咖啡、吃頓飯，或到一家小店逛逛。打開地圖，找找今天想去的地方。">
-<meta property="og:url" content="https://minicourse.dev/puma_oshen_wave/">
+<meta property="og:title" content={title}>
+<meta property="og:description" content={description}>
+<meta property="og:url" content={canonical}>
 <meta property="og:image" content="https://minicourse.dev/puma_oshen_wave/assets/our-ocean-map-hero.png?v=20261025-ocean-guide">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="2172">
 <meta property="og:image:height" content="724">
 <meta property="og:image:alt" content="我們的洋流地圖 — 洋流帶路，讓支持成為日常">
-<link rel="stylesheet" href="./vendor/leaflet/leaflet.css"><script defer src="./vendor/leaflet/leaflet.js"></script>
-<link rel="stylesheet" href="./vendor/leaflet-markercluster/MarkerCluster.css"><script defer src="./vendor/leaflet-markercluster/leaflet.markercluster.js"></script>
-<link rel="stylesheet" href="./style.css?v=20261028-stage-entry"><script type="module" src="./app.js?v=20261030-site-data"></script>
+<link rel="stylesheet" href="/puma_oshen_wave/vendor/leaflet/leaflet.css"><script is:inline defer src="/puma_oshen_wave/vendor/leaflet/leaflet.js"></script>
+<link rel="stylesheet" href="/puma_oshen_wave/vendor/leaflet-markercluster/MarkerCluster.css"><script is:inline defer src="/puma_oshen_wave/vendor/leaflet-markercluster/leaflet.markercluster.js"></script>
+<link rel="stylesheet" href="/puma_oshen_wave/style.css?v=20261028-stage-entry"><script is:inline type="module" src="/puma_oshen_wave/app.js?v=20261030-site-data"></script>
 </head>
 <body>
 
 <main id="page-top">
 <nav class="directory-tabs" aria-label="洋流名錄">
   <button id="shops-tab" type="button" aria-pressed="true" aria-controls="shops-directory">洋流店家</button>
-  <a href="./shops/">店家目錄</a>
-  <a id="designers-tab" href="./designer/">洋流設計師</a>
-  <a id="stages-tab" href="./stage/">洋流舞台</a>
+  <a id="designers-tab" href="/puma_oshen_wave/designer/">洋流設計師</a>
+  <a id="stages-tab" href="/puma_oshen_wave/stage/">洋流舞台</a>
 </nav>
 <div id="shops-directory">
 <section class="title-scene imagegen-hero" aria-labelledby="page-title">
   <div class="hero-banner">
-  <h1 id="page-title" class="hero-art"><img src="./assets/our-ocean-map-hero.webp?v=20261025-ocean-guide" width="1280" height="427" alt="我們的洋流地圖 — 洋流帶路，讓支持成為日常" fetchpriority="high"></h1>
+  <h1 id="page-title" class="hero-art"><img src="/puma_oshen_wave/assets/our-ocean-map-hero.webp?v=20261025-ocean-guide" width="1280" height="427" alt="我們的洋流地圖 — 洋流帶路，讓支持成為日常" fetchpriority="high"></h1>
   <div class="hero-actions"><button type="button" id="share-open" aria-haspopup="dialog" aria-controls="share-dialog">分享給朋友</button><a id="join-map" href="https://forms.gle/1M9SYBFmCK5YQ57w7" target="_blank" rel="noopener noreferrer">加入地圖</a><a id="recommend-map" href="https://forms.gle/K6WHW1phbSmUtKmb6" target="_blank" rel="noopener noreferrer">推薦加入</a></div>
   </div>
   <div class="page-intro">
@@ -51,8 +58,8 @@
 </section>
 <section class="map-workspace" id="map-area" aria-label="店家清單與地圖">
   <div class="mobile-views" role="group" aria-label="瀏覽方式"><button type="button" id="list-view" aria-pressed="true">店家清單</button><button type="button" id="map-view" aria-pressed="false">查看地圖</button></div>
-  <aside class="shop-panel"><section id="shop-detail" class="shop-detail" hidden aria-label="選定店家資訊"><div class="start-icon" aria-hidden="true">↗</div><div><h2>我們的洋流地圖</h2><p>在地圖上選擇店家，查看地址並規劃前往路線。</p></div></section><div id="shop-list" aria-live="polite"></div></aside>
-  <div class="map-column"><div class="map-frame"><div class="map-bar"><div><span class="location-dot" aria-hidden="true"></span><strong id="location-name">台南火車站</strong><span class="map-label">OPENSTREETMAP</span></div><button id="home-map" type="button">我的位置</button></div><div id="lucky-star-message" class="lucky-star-message" hidden><img src="./assets/lucky-star.png" width="28" height="28" alt=""><p id="lucky-star-text" role="status"></p><button id="close-star" type="button" aria-label="關閉幸運星訊息">×</button></div><div class="map-canvas"><div id="all-shops-map" hidden aria-label="所有店家位置"></div><button id="lucky-star" type="button" disabled title="幸運星" aria-label="幸運星"><img src="./assets/lucky-star.png" width="34" height="34" alt=""></button></div><p id="map-status" role="status" hidden></p></div></div>
+  <aside class="shop-panel"><section id="shop-detail" class="shop-detail" hidden={!store} aria-label="選定店家資訊"><slot name="detail" /></section><div id="shop-list" aria-live="polite" hidden={!!store}><slot /></div></aside>
+  <div class="map-column"><div class="map-frame"><div class="map-bar"><div><span class="location-dot" aria-hidden="true"></span><strong id="location-name">台南火車站</strong><span class="map-label">OPENSTREETMAP</span></div><button id="home-map" type="button">我的位置</button></div><div id="lucky-star-message" class="lucky-star-message" hidden><img src="/puma_oshen_wave/assets/lucky-star.png" width="28" height="28" alt=""><p id="lucky-star-text" role="status"></p><button id="close-star" type="button" aria-label="關閉幸運星訊息">×</button></div><div class="map-canvas"><div id="all-shops-map" hidden aria-label="所有店家位置"></div><button id="lucky-star" type="button" disabled title="幸運星" aria-label="幸運星"><img src="/puma_oshen_wave/assets/lucky-star.png" width="34" height="34" alt=""></button></div><p id="map-status" role="status" hidden></p></div></div>
 </section>
 <p class="closing-strip closing-message">一間店、一個地方，讓我們的洋流繼續流動。</p>
 </div>
@@ -75,7 +82,7 @@
 <dialog id="share-dialog" aria-labelledby="share-title" aria-describedby="share-description">
   <h2 id="share-title">我們的洋流地圖</h2>
   <p id="share-description">分享給朋友，下次一起去。</p>
-  <img src="./assets/map-share-qr.svg" width="264" height="264" alt="我們的洋流地圖 QR Code，掃描開啟 https://minicourse.dev/puma_oshen_wave/">
+  <img src="/puma_oshen_wave/assets/map-share-qr.svg" width="264" height="264" alt="我們的洋流地圖 QR Code，掃描開啟 https://minicourse.dev/puma_oshen_wave/">
   <a id="share-url" href="https://minicourse.dev/puma_oshen_wave/" target="_blank" rel="noopener noreferrer">https://minicourse.dev/puma_oshen_wave/</a>
   <div class="share-actions"><button id="share-copy" type="button" autofocus>複製連結</button><form method="dialog"><button>關閉</button></form></div>
   <p id="share-status" role="status" aria-live="polite"></p>

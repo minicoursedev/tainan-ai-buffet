@@ -55,7 +55,7 @@ function directoryLink(text, url, className) {
 }
 function setDirectory(showDesigners, updateHistory = true) {
   if (showDesigners) {
-    const url = new URL('./designer/', location.href);
+    const url = new URL('/puma_oshen_wave/designer/', location.origin);
     const id = new URL(location.href).searchParams.get('designer');
     if (id) url.hash = `/designer/${encodeURIComponent(id)}`;
     location.replace(url.href);
@@ -70,7 +70,7 @@ function setDirectory(showDesigners, updateHistory = true) {
   byId('shops-tab').setAttribute('aria-pressed', String(!showDesigners));
   if (showDesigners) void loadDesigners();
   else {
-    document.title = defaultPageTitle;
+    updateShopMetadata(shops.find(shop => shop.id === selectedId));
     shopMap.focus(selectedId, {recenter:false});
   }
 }
@@ -251,18 +251,23 @@ function showMap(name, query, center = false, recenter = true) {
   byId('location-name').textContent = name;
 }
 function shopUrl(id) {
-  const url = new URL(location.href);
-  url.searchParams.delete('designer');
-  url.searchParams.delete('view');
-  if (category) url.searchParams.set("category", category);
-  else url.searchParams.delete("category");
-  if (id) url.searchParams.set("shop", id);
-  else url.searchParams.delete("shop");
+  const url = new URL(id ? `/puma_oshen_wave/shops/${encodeURIComponent(id)}/` : '/puma_oshen_wave/', location.origin);
+  if (!id && category) url.searchParams.set('category', category);
+  url.hash = location.hash;
   return url;
+}
+function updateShopMetadata(shop) {
+  const title = shop ? `${shop.name}｜${shop.category}｜我們的洋流地圖` : '我們的洋流地圖｜一起走走，讓支持成為日常。';
+  const description = shop ? `${shop.name}，${shop.category}，位於${shop.address}。查看店家資訊、官方社群與洋流地圖，規劃前往路線。` : '我們的洋流地圖，一起走走，讓支持成為日常。喝杯咖啡、吃頓飯，或到一家小店逛逛。打開地圖，找找今天想去的地方。';
+  const canonical = new URL(shop ? `/puma_oshen_wave/shops/${encodeURIComponent(shop.id)}/` : '/puma_oshen_wave/', 'https://minicourse.dev').href;
+  document.title = title;
+  document.querySelector('link[rel="canonical"]').href = canonical;
+  for (const [selector, value] of [['meta[name="description"]', description], ['meta[property="og:title"]', title], ['meta[property="og:description"]', description], ['meta[property="og:url"]', canonical]]) document.querySelector(selector).content = value;
 }
 function restoreLinkedShop() {
   const params = new URL(location.href).searchParams;
-  const shop = shops.find(shop => shop.id === params.get('shop'));
+  const pathId = location.pathname.match(/^\/puma_oshen_wave\/shops\/([^/]+)\/?$/)?.[1];
+  const shop = shops.find(shop => shop.id === (params.get('shop') || (pathId && decodeURIComponent(pathId))));
   category = shop?.category || params.get('category') || '';
   resetMap();
   renderCategories();
@@ -333,6 +338,7 @@ function locateMe() {
 function resetMap() {
   history.replaceState(null, "", shopUrl(null));
   selectedId = null;
+  updateShopMetadata(null);
   showShopList(false);
   showMap('台南火車站', origin, true);
   const text = node('div');
@@ -351,6 +357,7 @@ function selectShopFromMap(shop) {
 }
 function selectShop(shop, openDetail = true, recenter = true) {
   selectedId = shop.id;
+  updateShopMetadata(shop);
   history.replaceState(null, "", shopUrl(shop.id));
   document.querySelectorAll('.shop-card').forEach(card=>card.setAttribute('data-selected',String(card.dataset.shopId === shop.id)));
   const query = `${shop.address} ${shop.name}`;
@@ -507,7 +514,7 @@ function renderShops(page = 0) {
 }
 async function init(){
   try{
-    const response=await fetch('https://minicourse.dev/puma_oshen_wave/stores.json', {cache:'no-store'});if(!response.ok)throw new Error('Could not load shops');
+    const response=await fetch('/puma_oshen_wave/stores.json', {cache:'no-store'});if(!response.ok)throw new Error('Could not load shops');
     const data=await response.json();const ids=new Set();
     if(!Array.isArray(data.stores))throw new Error('Invalid shop list');
     for(const shop of data.stores){
