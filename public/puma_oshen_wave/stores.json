@@ -2254,10 +2254,11 @@
       "social": {
         "facebook": "https://www.facebook.com/profile.php?id=61555371133069",
         "instagram": "",
-        "threads": ""
+        "threads": "https://www.threads.com/@yutingztw"
       },
       "sources": [
-        "https://www.facebook.com/profile.php?id=61555371133069"
+        "https://www.facebook.com/profile.php?id=61555371133069",
+        "https://www.threads.com/@yutingztw"
       ],
       "giftStatus": "可能有小物",
       "verificationNote": "2026-10-31 使用者指定此地址同時有荷芯藥局與蕭智元服務站，分開收錄；服務站名稱為蕭智元，編號1號，標籤為和順里里長。沿用同址既有座標及蕭智元圖片，不重新查證頭像。",
