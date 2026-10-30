@@ -264,8 +264,9 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         badge.className = useGeneratedMarker ? 'osm-artwork-pin' : 'osm-shop-pin';
         if (shop.verification === false) badge.classList.add('is-unverified');
         const scale = shop.category === '洋流服務站' ? 1.15 : 1;
-        const fullWidth = useGeneratedMarker ? (markerArtwork.width ?? 96) : 24 * scale;
-        const fullHeight = useGeneratedMarker ? (markerArtwork.height ?? 114) : 30 * scale;
+        const legislatorMarker = ['wang-ting-yu-xinfeng-service-office', 'wang-ting-yu-east-service-office', 'letsgolin-service-office'].includes(shop.id);
+        const fullWidth = useGeneratedMarker ? (markerArtwork.width ?? 96) : legislatorMarker ? 120 : 24 * scale;
+        const fullHeight = useGeneratedMarker ? (markerArtwork.height ?? 114) : legislatorMarker ? 169 : 30 * scale;
         let type, name;
         if (useGeneratedMarker) {
           const artwork = document.createElement('img');
