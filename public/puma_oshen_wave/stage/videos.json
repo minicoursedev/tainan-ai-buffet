@@ -860,6 +860,24 @@
       "description": "",
       "disabled": false,
       "hall": "author-yes100-ai-visual-lab"
+    },
+    {
+      "id": "taiwan-beyond-taipei-kaoshan",
+      "title": "沈伯洋｜台北靠山｜台北靠3！台北靠山！｜原創熱血應援曲｜台灣視界・李硯豪",
+      "creator": "台灣視界∣Taiwan & Beyond",
+      "url": "https://www.youtube.com/watch?v=139QekT3P5M",
+      "description": "",
+      "disabled": false,
+      "hall": "author-taiwan-beyond"
+    },
+    {
+      "id": "r-chord-we-are-too-cool",
+      "title": "《我們不叫台獨》#我們叫做太酷",
+      "creator": "謝和弦 R-chord",
+      "url": "https://www.youtube.com/watch?v=s2j7-hIi1Io",
+      "description": "",
+      "disabled": false,
+      "hall": "author-r-chord"
     }
   ]
 }
