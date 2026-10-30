@@ -1,8 +1,9 @@
 import type { APIRoute } from 'astro';
 import { events } from '../lib/data';
+import { stores, shopPath } from '../lib/oshen-stores';
 
 const base = 'https://minicourse.dev/';
-const urls = [`${base}puma_oshen_wave/support/`, `${base}puma_oshen_wave/privacy/`, `${base}youtube-uploader/`, `${base}youtube-uploader/privacy/`, `${base}youtube-uploader/terms/`, base, `${base}friends.html`, ...new Set(events.filter(event => event.slides).map(event => `${base}${event.slides}`))];
+const urls = [`${base}puma_oshen_wave/`, `${base}puma_oshen_wave/shops/`, ...stores.map(store => new URL(shopPath(store.id), base).href), `${base}puma_oshen_wave/support/`, `${base}puma_oshen_wave/privacy/`, `${base}youtube-uploader/`, `${base}youtube-uploader/privacy/`, `${base}youtube-uploader/terms/`, base, `${base}friends.html`, ...new Set(events.filter(event => event.slides).map(event => `${base}${event.slides}`))];
 const escape = (value: string) => value.replace(/[&<>'"]/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character]!);
 
 export const GET = (() => new Response(

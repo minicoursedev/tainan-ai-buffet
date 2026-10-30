@@ -384,7 +384,7 @@ function selectShop(shop, openDetail = true, recenter = true) {
   if (photos) content.append(photos);
   const share = node('div', undefined, 'shop-share');
   const permalink = node('a', '本站店家連結 ↗');
-  permalink.href = shopUrl(shop.id).href;
+  permalink.href = new URL(`/puma_oshen_wave/shops/${encodeURIComponent(shop.id)}/`, location.origin).href;
   const copy = node('button', '複製連結');
   copy.type = 'button';
   const status = node('span');

@@ -1,0 +1,25 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '../../../../layouts/OshenShopLayout.astro';
+import { stores, shopPath, httpsUrl, hoursText, type Store } from '../../../../lib/oshen-stores';
+export const getStaticPaths = (() => stores.map(store => ({ params: { id: store.id }, props: { store } }))) satisfies GetStaticPaths;
+interface Props { store: Store }
+const { store } = Astro.props;
+const title = `${store.name}｜${store.category}｜我們的洋流地圖`;
+const description = `${store.name}，${store.category}，位於${store.address}。在我們的洋流地圖查看店家地址、${hoursText(store) ? '營業時間、' : ''}官方社群與交通導航。`;
+const image = store.shopPhoto?.status === 'verified' ? httpsUrl(store.shopPhoto.url) : undefined;
+const hours = hoursText(store);
+const socialLinks = [['facebook', 'Facebook'], ['instagram', 'Instagram'], ['threads', 'Threads']].map(([key, label]) => ({ label, url: httpsUrl(store.social?.[key]) })).filter(link => link.url);
+const mapUrl = `/puma_oshen_wave/?shop=${encodeURIComponent(store.id)}#map-area`;
+const directions = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(`${store.name} ${store.address}`)}`;
+---
+<Layout title={title} description={description} path={shopPath(store.id)} image={image}>
+  <nav class="breadcrumbs" aria-label="麵包屑"><a href="/puma_oshen_wave/">洋流地圖</a><span>/</span><a href="/puma_oshen_wave/shops/">店家目錄</a></nav>
+  <article>
+    <div class="intro"><div><p class="eyebrow">{store.category}</p><h1>{store.name}</h1><p class="muted">{store.address}</p></div>{image && <img class="logo" src={image} alt={`${store.name} Logo`} width="112" height="112" />}</div>
+    <div class="actions"><a class="button primary" href={mapUrl}>在洋流地圖查看 ↗</a><a class="button" href={directions} target="_blank" rel="noopener noreferrer">導航帶我去 ↗</a></div>
+    <div class="details"><section class="panel"><h2>店家資訊</h2><dl><dt>店別</dt><dd>{store.category}</dd><dt>地址</dt><dd>{store.address}</dd></dl>{store.visitNote && <p>{store.visitNote}</p>}{socialLinks.length > 0 && <><h3>官方社群</h3><div class="socials">{socialLinks.map(link => <a href={link.url} target="_blank" rel="noopener noreferrer">{link.label} ↗</a>)}</div></>}</section><section class="panel"><h2>營業時間</h2>{hours ? <><p class="hours">{hours}</p>{store.openingHours?.note && <p class="muted">{store.openingHours.note}</p>}</> : <p class="muted">尚未提供可確認的營業時間，出發前請向店家確認。</p>}<p class="muted fine">臨時公休與營業異動，請以店家公告為準。</p></section></div>
+    <a class="more" href="/puma_oshen_wave/shops/">← 探索更多洋流店家</a>
+  </article>
+</Layout>
+<style>.intro{display:flex;justify-content:space-between;align-items:center;gap:24px}.logo{object-fit:contain;border-radius:24px;background:white;border:1px solid #eadbd6;padding:8px;flex-shrink:0}.details{display:grid;grid-template-columns:1.2fr 1fr;gap:24px;margin:38px 0}.hours{white-space:pre-line}dl{margin:0}dt{font-size:13px;color:#75615e}dd{margin:2px 0 18px}.socials{display:flex;gap:18px;flex-wrap:wrap}h3{font-size:15px;margin:26px 0 12px}.fine{font-size:13px;margin-top:22px}.more{display:inline-block;margin-top:6px}@media(max-width:700px){.details{grid-template-columns:1fr;gap:16px}.logo{width:72px;height:72px;border-radius:16px}.intro{align-items:flex-start;gap:14px}}</style>
