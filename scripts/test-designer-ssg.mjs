@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
 import { createCatalogue } from '../public/puma_oshen_wave/designer/js/data.js';
-import { designerPath, designerBoothUrl } from '../public/puma_oshen_wave/designer/js/routes.js';
+import { designerPath, designerBoothUrl, resolveDesignerRoute } from '../public/puma_oshen_wave/designer/js/routes.js';
 const read = path => readFileSync(path, 'utf8');
 const raw = JSON.parse(read('public/puma_oshen_wave/designer.json'));
 const catalogue = createCatalogue(raw);
@@ -37,3 +37,13 @@ const products = JSON.parse(read('public/puma_oshen_wave/data/designers/yang-liu
 const yang = read(`dist${designerPath('yang-liu')}index.html`);
 for (const product of products.products.filter(product => product.pinned && !product.disabled)) assert(yang.includes(escape(product.url)), 'Pinned work missing from SSG');
 console.log(`Verified ${count} designer pages: static profile, social links, pinned works, canonical, sitemap and shared UI.`);
+
+const profile = 'https://minicourse.dev/puma_oshen_wave/designer/profiles/yuan-art-space/';
+for (const hash of ['', '#/walk/O01', '#/list', '#/map', '#/designer/wolfsignal-tw']) {
+  assert.deepEqual(resolveDesignerRoute(new URL(profile + hash), { boot: true }), { mode: 'designer', target: 'yuan-art-space' });
+}
+assert.deepEqual(resolveDesignerRoute(new URL('https://minicourse.dev/puma_oshen_wave/designer/#/designer/wolfsignal-tw'), { boot: true }), { mode: 'designer', target: 'wolfsignal-tw', then: undefined });
+assert.equal(resolveDesignerRoute(new URL(profile + '#/list')).mode, 'list');
+assert.deepEqual(resolveDesignerRoute(new URL('https://minicourse.dev/puma_oshen_wave/designer/#/walk/O01-14/open'), { boot: true }), { mode: 'walk', target: 'O01-14', then: 'open' });
+assert.equal(designerBoothUrl('yuan-art-space', profile + '#/walk/O01'), profile);
+console.log('Verified profile precedence, legacy routes and hash-free share URLs.');

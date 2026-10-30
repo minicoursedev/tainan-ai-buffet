@@ -3,6 +3,15 @@ export const designerPath = id => `${designerRoot}profiles/${encodeURIComponent(
 export function designerBoothUrl(id, base = typeof location === 'undefined' ? 'https://minicourse.dev/' : location.href) {
   return new URL(designerPath(id), base).href;
 }
+// A shared profile URL owns the initial view, even with a stale walk hash.
+export function resolveDesignerRoute(url, { boot = false } = {}) {
+  const [mode, target, then] = url.hash.replace(/^#\/?/, '').split('/');
+  const profile = url.pathname.match(/^\/puma_oshen_wave\/designer\/profiles\/([^/]+)\/?$/);
+  if (profile && (boot || !mode)) {
+    return { mode: 'designer', target: decodeURIComponent(profile[1]) };
+  }
+  return { mode, target, then };
+}
 export function updateDesignerMetadata(designer = null) {
   const title = designer ? `${designer.name}｜洋流設計師` : '洋流設計師';
   const description = designer ? `認識${designer.name}，查看作品與官方社群，走進洋流設計師市集探索更多創作。` : '認識洋流設計師、探索設計師地圖。';

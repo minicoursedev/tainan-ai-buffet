@@ -1,7 +1,7 @@
 // Boot and wiring: header, dock, walk view, dialogs, list and map pages, routes (#/walk/<aisle or booth>, #/list, #/map).
 import { state, on, emit, visitedCount, toast } from './state.js';
 import { loadIndex, aisleOfBooth, loadBoothForDesigner } from './data.js?v=20261030-site-data';
-import { goToAisle, designerBoothUrl } from './nav.js?v=20261030-site-data';
+import { goToAisle } from './nav.js?v=20261030-site-data';
 import { createWalkView } from './walk.js?v=20261029-booth-number-layer';
 import { openBooth } from './ui/booth.js?v=20261030-pinned-work';
 import { mountMap } from './ui/map.js?v=20261030-site-data';
@@ -10,7 +10,7 @@ import { loadSchedule, isClosed, closeTagText, msLeft, lastOpenLabel } from './s
 import { loadCats, loadChatter } from './cats.js?v=20261030-site-data';
 import { showClosed } from './ui/closed.js';
 
-import { designerRoot, updateDesignerMetadata } from './routes.js';
+import { designerRoot, updateDesignerMetadata, resolveDesignerRoute } from './routes.js';
 
 const $ = id => document.getElementById(id);
 const BOOTH_ID = /^[A-Z]\d{2}-\d{2}$/;
@@ -143,9 +143,7 @@ async function boot() {
   // Links pasted into the address bar arrive as hashchange.
   const first = state.index.halls.find(h => h.code === 'O').aisles[0].code;
   async function route({ boot = false } = {}) {
-    let [mode, target, then] = location.hash.replace(/^#\/?/, '').split('/');
-    const profile = location.pathname.match(/^\/puma_oshen_wave\/designer\/profiles\/([^/]+)\/?$/);
-    if (!mode && profile) { mode = 'designer'; target = decodeURIComponent(profile[1]); }
+    const { mode, target, then } = resolveDesignerRoute(new URL(location.href), { boot });
     if (mode === 'list' || mode === 'map') { if (boot) await goToAisle(first); setMode(mode); return; }
     let ok = false;
     if (mode === 'designer') {
@@ -155,7 +153,6 @@ async function boot() {
         if (ok) {
           setMode('walk');
           await openBooth(boothId);
-          history.replaceState(null, '', designerBoothUrl(target));
           return;
         }
       } else {
