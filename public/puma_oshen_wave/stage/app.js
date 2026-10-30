@@ -45,11 +45,20 @@ function refreshPublicShowcase() {
   for (const stage of publicShowcase.stages) byBooth.set(stage.boothId, stage);
 }
 
+const stageRoot = '/puma_oshen_wave/stage/';
+const hallUrl = id => `${stageRoot}halls/${encodeURIComponent(id)}/`;
 function stageUrl(id) {
-  const url = new URL(location.href);
-  url.search = '';
-  url.hash = `/stage/${encodeURIComponent(id)}`;
-  return url.href;
+  return new URL(`${stageRoot}videos/${encodeURIComponent(id)}/`, location.origin).href;
+}
+function updateMetadata(stage = null) {
+  const hall = currentHall();
+  const title = stage ? `${stage.title}｜${stage.creator}｜洋流舞台` : hall ? `${hall.name}｜洋流舞台` : '洋流舞台｜我們的洋流地圖';
+  const description = stage ? `${stage.creator}的《${stage.title}》。${stage.description || '在洋流舞台觀看影片與探索作者作品。'}` : hall ? `走進${hall.name}，在洋流舞台探索影片與作者作品。` : '走進洋流舞台，點一座舞台，看一部影片。';
+  const path = stage ? `${stageRoot}videos/${encodeURIComponent(stage.id)}/` : location.pathname === stageRoot ? stageRoot : hall ? hallUrl(hall.id) : stageRoot;
+  const canonical = new URL(path, 'https://minicourse.dev').href;
+  document.title = title;
+  document.querySelector('link[rel="canonical"]').href = canonical;
+  for (const [selector, value] of [['meta[name="description"]', description], ['meta[property="og:title"]', title], ['meta[property="og:description"]', description], ['meta[property="og:url"]', canonical]]) document.querySelector(selector).content = value;
 }
 
 function updateStatus() {
@@ -80,7 +89,8 @@ function setMode(next, navigate = true) {
   if (next === 'walk') walk?.resize();
   if (next === 'list') renderList();
   if (next === 'map') renderMap();
-  if (navigate) history.pushState(null, '', next === 'walk' ? `#/walk/${catalogue.aisles[aisleIndex].code}` : `#/${next}/${hallId}`);
+  if (navigate) history.pushState(null, '', hallUrl(hallId) + (next === 'walk' ? `#/walk/${catalogue.aisles[aisleIndex].code}` : `#/${next}/${hallId}`));
+  updateMetadata();
 }
 
 function goToAisle(index, boothId = null, from = null) {
@@ -134,8 +144,8 @@ function closeVideo(restore = true) {
   stopPlayer();
   current = null;
   if (dialog.open) dialog.close();
-  if (restore && location.hash.startsWith('#/stage/')) history.replaceState(null, '', returnHash);
-  document.title = '洋流舞台｜我們的洋流地圖';
+  if (restore && (location.hash.startsWith('#/stage/') || location.pathname.includes('/stage/videos/'))) history.replaceState(null, '', returnHash);
+  updateMetadata();
 }
 
 function openCreator(stage) {
@@ -156,7 +166,7 @@ function openCreator(stage) {
 function openStage(stage, navigate = true, continuous = false) {
   if (!stage) return;
   if (!continuous) continuousIndex = -1;
-  if (!location.hash.startsWith('#/stage/')) returnHash = location.hash || '#/walk';
+  if (navigate && !current) returnHash = hallUrl(hallId) + (location.hash || '#/walk');
   stopPlayer();
   current = stage;
   $('video-title').textContent = stage.title;
@@ -185,7 +195,7 @@ function openStage(stage, navigate = true, continuous = false) {
   });
   if (!dialog.open) dialog.showModal();
   dialog.querySelector('.dlg-close').focus();
-  document.title = `${stage.title}｜洋流舞台`;
+  updateMetadata(stage);
   visited.add(stage.id);
   try { localStorage.setItem(KEY, JSON.stringify([...visited])); } catch { /* Keep visits in memory. */ }
   walk.refresh();
@@ -253,7 +263,9 @@ function renderMap() {
 }
 
 function route() {
-  const [next, target] = location.hash.replace(/^#\/?/, '').split('/');
+  let [next, target] = location.hash.replace(/^#\/?/, '').split('/');
+  const path = location.pathname.match(/^\/puma_oshen_wave\/stage\/(videos|halls)\/([^/]+)\/?$/);
+  if (!next && path) { next = path[1] === 'videos' ? 'stage' : 'hall'; target = decodeURIComponent(path[2]); }
   if (creatorDialog.open) creatorDialog.close();
   closeVideo(false);
   if (next === 'stage') {
@@ -261,11 +273,15 @@ function route() {
     if (stage) {
       const index = catalogue.aisles.findIndex(aisle => stage.hallId === PUBLIC_HALL ? aisle.hall === PUBLIC_HALL : aisle.code === stage.aisleCode);
       goToAisle(index, stage.hallId === PUBLIC_HALL ? null : stage.boothId);
-      returnHash = `#/walk/${catalogue.aisles[aisleIndex].code}`;
+      returnHash = hallUrl(hallId) + `#/walk/${catalogue.aisles[aisleIndex].code}`;
       openStage(stage, false);
       return;
     }
     toast('找不到這座舞台，影片可能已下架。');
+  }
+  if (next === 'hall') {
+    const index = catalogue.aisles.findIndex(aisle => aisle.hall === target);
+    return goToAisle(index < 0 ? 0 : index);
   }
   if (next === 'list' || next === 'map') {
     const index = catalogue.aisles.findIndex(aisle => aisle.hall === target);
@@ -339,6 +355,7 @@ async function boot() {
   });
   $('walk-canvas').addEventListener('pointerdown', () => $('hint').classList.add('is-gone'), { once: true });
   window.addEventListener('hashchange', route);
+  window.addEventListener('popstate', event => { if (!location.hash) route(); });
   window.addEventListener('pagehide', stopPlayer);
   route();
 }

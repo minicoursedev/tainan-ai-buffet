@@ -1,0 +1,10 @@
+---
+import Layout from '../../../../layouts/OshenMapLayout.astro';
+import StoreList from '../../../../components/OshenStoreList.astro';
+import { categories } from '../../../../lib/oshen-stores';
+export function getStaticPaths() {
+  return categories.map(category => ({ params: { category }, props: { category } }));
+}
+const { category } = Astro.props;
+---
+<Layout category={category}><StoreList category={category} /></Layout>

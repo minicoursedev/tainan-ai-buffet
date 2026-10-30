@@ -1,0 +1,7 @@
+---
+import Layout from '../../../../../layouts/OshenStageLayout.astro';
+import { catalogue } from '../../../../../lib/oshen-stage';
+export function getStaticPaths() { return catalogue.stages.map(item => ({ params: { id: item.id }, props: { id: item.id } })); }
+const { id } = Astro.props;
+---
+<Layout videoId={id} />

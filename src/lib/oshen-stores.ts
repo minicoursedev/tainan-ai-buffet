@@ -14,6 +14,8 @@ export interface Store {
 }
 
 export const stores = (data.stores as Store[]).filter(store => store.disabled !== true);
+export const categories = [...new Set(stores.map(store => store.category))];
+export const categoryPath = (category: string) => `/puma_oshen_wave/categories/${encodeURIComponent(category)}/`;
 export const shopPath = (id: string) => `/puma_oshen_wave/shops/${encodeURIComponent(id)}/`;
 export function httpsUrl(value?: string) {
   try { const url = new URL(value ?? ''); return url.protocol === 'https:' ? url.href : undefined; }

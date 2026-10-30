@@ -1,10 +1,10 @@
 ---
-import type { Store } from '../lib/oshen-stores';
-interface Props { store?: Store }
-const { store } = Astro.props;
-const title = store ? `${store.name}｜${store.category}｜我們的洋流地圖` : '我們的洋流地圖｜一起走走，讓支持成為日常。';
-const description = store ? `${store.name}，${store.category}，位於${store.address}。查看店家資訊、官方社群與洋流地圖，規劃前往路線。` : '我們的洋流地圖，一起走走，讓支持成為日常。喝杯咖啡、吃頓飯，或到一家小店逛逛。打開地圖，找找今天想去的地方。';
-const canonical = new URL(store ? `/puma_oshen_wave/shops/${encodeURIComponent(store.id)}/` : '/puma_oshen_wave/', Astro.site).href;
+import { categories, categoryPath, type Store } from '../lib/oshen-stores';
+interface Props { store?: Store; category?: string }
+const { store, category } = Astro.props;
+const title = store ? `${store.name}｜${store.category}｜我們的洋流地圖` : category ? `${category}店家｜我們的洋流地圖` : '我們的洋流地圖｜一起走走，讓支持成為日常。';
+const description = store ? `${store.name}，${store.category}，位於${store.address}。查看店家資訊、官方社群與洋流地圖，規劃前往路線。` : category ? `探索洋流地圖收錄的${category}店家，查看店家地址、資訊與地圖，規劃前往路線。` : '我們的洋流地圖，一起走走，讓支持成為日常。喝杯咖啡、吃頓飯，或到一家小店逛逛。打開地圖，找找今天想去的地方。';
+const canonical = new URL(store ? `/puma_oshen_wave/shops/${encodeURIComponent(store.id)}/` : category ? categoryPath(category) : '/puma_oshen_wave/', Astro.site).href;
 ---
 <!doctype html>
 <html lang="zh-Hant">
@@ -53,8 +53,8 @@ const canonical = new URL(store ? `/puma_oshen_wave/shops/${encodeURIComponent(s
   <a class="finder-marquee" href="https://forms.gle/1M9SYBFmCK5YQ57w7">
     <div class="marquee-window"><h2 id="finder-title" class="marquee-track"><span>來吧!來吧！讓我們知道要收錄你！</span><span aria-hidden="true">來吧!來吧！讓我們知道要收錄你！</span></h2></div>
   </a>
-  <button id="category-toggle" class="mobile-control" type="button" aria-expanded="false" aria-controls="category-filters">店別：全部店家 ▾</button>
-  <div class="controls"><div id="category-filters" class="category-filters" role="group" aria-label="店別篩選"></div></div>
+  <button id="category-toggle" class="mobile-control" type="button" aria-expanded="false" aria-controls="category-filters">店別：{category || store?.category || '全部店家'} ▾</button>
+  <div class="controls"><div id="category-filters" class="category-filters" role="group" aria-label="店別篩選">{['', ...categories].map(label => <a class="category-button" role="button" aria-pressed={(category || store?.category || '') === label} href={label ? categoryPath(label) : '/puma_oshen_wave/'} aria-current={(category || store?.category || '') === label ? 'page' : undefined}>{label || '全部店家'}</a>)}</div></div>
 </section>
 <section class="map-workspace" id="map-area" aria-label="店家清單與地圖">
   <div class="mobile-views" role="group" aria-label="瀏覽方式"><button type="button" id="list-view" aria-pressed="true">店家清單</button><button type="button" id="map-view" aria-pressed="false">查看地圖</button></div>

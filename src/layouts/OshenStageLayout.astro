@@ -1,38 +1,49 @@
+---
+import { catalogue, stageBase, stagePath, hallPath } from '../lib/oshen-stage';
+interface Props { hallId?: string; videoId?: string }
+const { hallId, videoId } = Astro.props;
+const video = catalogue.stages.find(stage => stage.id === videoId);
+const hall = catalogue.halls.find(hall => hall.id === hallId);
+const members = video ? [video] : hall ? catalogue.stages.filter(stage => stage.hallId === hall.id) : catalogue.stages;
+const title = video ? `${video.title}｜${video.creator}｜洋流舞台` : hall ? `${hall.name}｜洋流舞台` : '洋流舞台｜我們的洋流地圖';
+const description = video ? `${video.creator}的《${video.title}》。${video.description || '在洋流舞台觀看影片與探索作者作品。'}` : hall ? `走進${hall.name}，在洋流舞台探索影片與作者作品。` : '走進洋流舞台，點一座舞台，看一部影片。';
+const canonical = new URL(video ? stagePath(video.id) : hall ? hallPath(hall.id) : stageBase, Astro.site).href;
+---
 <!doctype html>
 <html lang="zh-Hant-TW">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>洋流舞台｜我們的洋流地圖</title>
-<meta name="description" content="走進洋流舞台，點一座舞台，看一部影片。">
+<title>{title}</title>
+<meta name="description" content={description}>
 <meta name="theme-color" content="#f82970">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<link rel="canonical" href="https://minicourse.dev/puma_oshen_wave/stage/">
-<meta property="og:title" content="洋流舞台｜我們的洋流地圖">
-<meta property="og:description" content="走進洋流舞台，點一座舞台，看一部影片。">
+<link rel="canonical" href={canonical}>
+<meta property="og:title" content={title}>
+<meta property="og:description" content={description}>
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://minicourse.dev/puma_oshen_wave/stage/">
+<meta property="og:url" content={canonical}>
 <link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">
-<link rel="stylesheet" href="../designer/css/market.css">
-<link rel="stylesheet" href="./stage.css?v=20261028-creator-permission">
-<script defer src="/assets/analytics.js?v=20261019-content-group"></script>
+<link rel="stylesheet" href="/puma_oshen_wave/designer/css/market.css">
+<link rel="stylesheet" href="/puma_oshen_wave/stage/stage.css?v=20261028-creator-permission">
+<script is:inline defer src="/assets/analytics.js?v=20261019-content-group"></script>
 </head>
 <body>
 <div class="app">
   <header class="bar">
-    <a class="plaque" href="#/walk" aria-label="洋流舞台首頁">洋流舞台</a>
+    <a class="plaque" href="/puma_oshen_wave/stage/#/walk" aria-label="洋流舞台首頁">洋流舞台</a>
     <label class="hall-picker">舞台館別<select id="hall-select" aria-label="選擇舞台館別" disabled></select></label>
     <div class="modes" role="group" aria-label="舞台瀏覽方式">
       <button type="button" data-mode="walk" aria-pressed="true">逛舞台</button>
       <button type="button" data-mode="list" aria-pressed="false">影片列表</button>
       <button type="button" data-mode="map" aria-pressed="false">舞台地圖</button>
     </div>
-    <nav class="stage-links" aria-label="洋流網站"><a class="link-btn" href="../designer/">洋流設計師</a><a class="link-btn" href="../">返回地圖</a></nav>
+    <nav class="stage-links" aria-label="洋流網站"><a class="link-btn" href="/puma_oshen_wave/designer/">洋流設計師</a><a class="link-btn" href="/puma_oshen_wave/">返回地圖</a></nav>
   </header>
-  <main class="stage" id="stage-walk">
+  <main class="stage" id="stage-walk" hidden>
     <canvas id="walk-canvas" tabindex="0" aria-label="洋流舞台：按住拖著小人走，點舞台觀看影片"></canvas>
     <button type="button" class="where" id="btn-where"><b id="where-hall">公共舞台</b><span id="where-aisle"></span><span class="where-switch">看地圖</span></button>
     <div class="status"><span class="tag" id="status-count" role="status">舞台準備中…</span></div>
@@ -44,10 +55,10 @@
       <button type="button" class="btn" id="btn-continuous" disabled>連續播放</button>
     </div>
   </main>
-  <main class="list-mode" id="stage-list" hidden>
-    <div class="stage-page"><h1 id="list-title">影片列表</h1>
+  <main class="list-mode" id="stage-list">
+    <div class="stage-page"><h1 id="list-title">{video?.title || hall?.name || '洋流舞台'}</h1>
       <label class="stage-search">找一部影片<input id="video-search" type="search" placeholder="搜尋影片、創作者" autocomplete="off"></label>
-      <p id="list-count" role="status"></p><div class="video-grid" id="video-list"></div>
+      <p id="list-count" role="status"></p><div class="video-grid" id="video-list">{members.map(stage => <article class="video-card"><a class="video-poster" href={stagePath(stage.id)}>{stage.video.poster && <img src={stage.video.poster} alt="" loading="lazy" />}</a><h2>{stage.title}</h2><p class="muted creator-meta"><a class="creator-name" href={hallPath(stage.hallId)}>{stage.creator}</a></p>{stage.description && <p>{stage.description}</p>}<a class="btn btn-primary" href={stagePath(stage.id)}>觀看影片</a>{video && <a class="btn" href={stage.video.url} target="_blank" rel="noopener noreferrer">到原網站觀看</a>}</article>)}</div>
     </div>
   </main>
   <main class="map-mode" id="stage-map" hidden><div class="stage-page"><h1 id="map-title">舞台地圖</h1><p>選一座舞台，走過去看影片。</p><div id="stage-plan"></div></div></main>
@@ -73,7 +84,7 @@
     <p id="creator-empty" class="muted" hidden>作者尚未提供社群連結。</p>
   </div>
 </dialog>
-<noscript><p class="stage-message">請啟用 JavaScript 瀏覽洋流舞台。<a href="https://www.youtube.com/watch?v=LnIlsGFRB_4">直接觀看《洋流漂過台北城》</a></p></noscript>
-<script type="module" src="./app.js?v=20261030-site-data"></script>
+<noscript><p class="stage-message">啟用 JavaScript 即可使用互動舞台與播放器。</p></noscript>
+<script is:inline type="module" src="/puma_oshen_wave/stage/app.js?v=20261030-site-data"></script>
 </body>
 </html>

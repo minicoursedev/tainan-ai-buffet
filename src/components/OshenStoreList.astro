@@ -1,4 +1,7 @@
 ---
 import { stores, shopPath } from '../lib/oshen-stores';
+interface Props { category?: string }
+const { category } = Astro.props;
+const members = category ? stores.filter(store => store.category === category) : stores;
 ---
-{stores.map(store => <article class="shop-card" data-shop-id={store.id} data-verified={String(store.verification === true)}><div class="shop-card-summary"><div class="shop-card-text"><div class="shop-card-top"><span class="type-tag">{store.category}</span></div><h3>{store.name}</h3><p class="shop-address">{store.address}</p></div></div><a class="shop-card-bottom" href={shopPath(store.id)}>查看店家資訊 ↗</a></article>)}
+{members.map(store => <article class="shop-card" data-shop-id={store.id} data-verified={String(store.verification === true)}><div class="shop-card-summary"><div class="shop-card-text"><div class="shop-card-top"><span class="type-tag">{store.category}</span></div><h3>{store.name}</h3><p class="shop-address">{store.address}</p></div></div><a class="shop-card-bottom" href={shopPath(store.id)}>查看店家資訊 ↗</a></article>)}
