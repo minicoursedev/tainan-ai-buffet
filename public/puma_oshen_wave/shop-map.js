@@ -105,6 +105,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         positions.set(shop.id, position);
         if (shop.category === '洋流服務站') serviceStationIds.add(shop.id);
         const markerArtwork = {
+          'hsiao-chih-yuan-heshun-service-office': {file:'hexin-pharmacy-marker-1-green-v1.webp', label:'① 蕭智元', type:'和順里里長', blankTypeFooter:true, width:120, height:169},
           'tsai-li-ching-guoan-haidian': {file:'tsai-li-ching-marker-1-type-v1.webp', label:'① 蔡麗青', type:'第6選區市議員', blankTypeFooter:true, width:120, height:169},
           'chen-ting-fei-campaign-headquarters': {file:'chen-ting-fei-marker-3-type-v1.webp', label:'③ 陳亭妃', type:'市長候選人', height:135},
           'zenolai-campaign-headquarters': {file:'lai-jui-lung-marker-5-type-v1.webp', label:'⑤ 賴瑞隆', type:'高雄市長', blankTypeFooter:true, height:135},
@@ -262,8 +263,7 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
         const badge = document.createElement('div');
         badge.className = useGeneratedMarker ? 'osm-artwork-pin' : 'osm-shop-pin';
         if (shop.verification === false) badge.classList.add('is-unverified');
-        const scale = (shop.category === '洋流服務站' ? 1.15 : 1)
-          * (shop.id === 'hexin-pharmacy' ? 1.15 : 1);
+        const scale = shop.category === '洋流服務站' ? 1.15 : 1;
         const fullWidth = useGeneratedMarker ? (markerArtwork.width ?? 96) : 24 * scale;
         const fullHeight = useGeneratedMarker ? (markerArtwork.height ?? 114) : 30 * scale;
         let type, name;

@@ -1,5 +1,5 @@
 import {findStar} from './lucky-star.js?v=20261030-site-data';
-import {createShopMap} from './shop-map.js?v=20261027-service-marker-filter-row34';
+import {createShopMap} from './shop-map.js?v=20261031-hexin-green-marker';
 const byId = id => document.getElementById(id);
 const origin = '22.997137,120.21295';
 let shops = [], category = '', selectedId = null;

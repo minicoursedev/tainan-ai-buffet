@@ -2192,7 +2192,7 @@
       "id": "hexin-pharmacy",
       "verification": true,
       "name": "荷芯藥局",
-      "category": "洋流服務站",
+      "category": "日常生活",
       "address": "台南市北區育德路27號",
       "social": {
         "facebook": "https://www.facebook.com/profile.php?id=61555371133069",
@@ -2232,11 +2232,6 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060911097",
       "coordinateNote": "OpenStreetMap 門牌、道路與行政區比對，2026-10-20。",
-      "mapMarker": {
-        "label": "和順里 1 號里長",
-        "image": "https://minicourse.dev/puma_oshen_wave/assets/hexin-pharmacy/logo.webp?v=10bbf87b7bef3c59",
-        "source": "https://www.facebook.com/profile.php?id=61555371133069"
-      },
       "productImages": [
         {
           "url": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/hexin-pharmacy/1.webp?v=20fedd89922a7667",
@@ -2249,6 +2244,49 @@
           "source": "https://www.facebook.com/profile.php?id=61555371133069"
         }
       ]
+    },
+    {
+      "id": "hsiao-chih-yuan-heshun-service-office",
+      "verification": true,
+      "name": "蕭智元",
+      "category": "洋流服務站",
+      "address": "台南市北區育德路27號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=61555371133069",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/profile.php?id=61555371133069"
+      ],
+      "giftStatus": "可能有小物",
+      "verificationNote": "2026-10-31 使用者指定此地址同時有荷芯藥局與蕭智元服務站，分開收錄；服務站名稱為蕭智元，編號1號，標籤為和順里里長。沿用同址既有座標及蕭智元圖片，不重新查證頭像。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "服務時間請洽服務站。",
+        "sources": []
+      },
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/hexin-pharmacy/logo.webp?v=10bbf87b7bef3c59",
+        "source": "https://www.facebook.com/profile.php?id=61555371133069",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-27",
+        "note": "使用者指定依兩張附件以 imagegen 生成「和順里 1 號里長」頭像；非官方社群原頭像。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 23.006321,
+        "lng": 120.2031105
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060911097",
+      "coordinateNote": "使用者指定與荷芯藥局同址，沿用既有已核對門牌座標。",
+      "mapMarker": {
+        "label": "蕭智元",
+        "image": "https://minicourse.dev/puma_oshen_wave/assets/hexin-pharmacy/logo.webp?v=10bbf87b7bef3c59",
+        "source": "https://www.facebook.com/profile.php?id=61555371133069"
+      },
+      "visitNote": "和順里里長 · 1號"
     },
     {
       "id": "dash-pound-cake",
