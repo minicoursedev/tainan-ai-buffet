@@ -10,7 +10,7 @@ import { loadSchedule, isClosed, closeTagText, msLeft, lastOpenLabel } from './s
 import { loadCats, loadChatter } from './cats.js?v=20261030-site-data';
 import { showClosed } from './ui/closed.js';
 
-import { designerRoot, updateDesignerMetadata, resolveDesignerRoute } from './routes.js';
+import { designerRoot, updateDesignerMetadata, resolveDesignerRoute } from './routes.js?v=20261031-profile-route';
 
 const $ = id => document.getElementById(id);
 const BOOTH_ID = /^[A-Z]\d{2}-\d{2}$/;
