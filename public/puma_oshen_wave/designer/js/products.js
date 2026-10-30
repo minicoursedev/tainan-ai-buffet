@@ -22,6 +22,7 @@ export function readProducts(data, designerId, baseUrl) {
     return [{
       id, cover, name: typeof product.alt === 'string' ? product.alt : '',
       caption: typeof product.caption === 'string' ? product.caption : '',
+      pinned: product.pinned === true,
       width: Number.isInteger(product.width) && product.width > 0 ? product.width : 800,
       height: Number.isInteger(product.height) && product.height > 0 ? product.height : 800,
       video: imageUrl(product.videoUrl, baseUrl), url: imageUrl(product.link, baseUrl),
@@ -30,12 +31,13 @@ export function readProducts(data, designerId, baseUrl) {
 }
 
 export function sampleProducts(products, random = Math.random) {
-  const shuffled = products.slice();
+  const pinned = products.filter(product => product.pinned === true);
+  const shuffled = products.filter(product => product.pinned !== true);
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(random() * (i + 1));
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
-  return shuffled.slice(0, PRODUCT_LIMIT);
+  return pinned.concat(shuffled).slice(0, PRODUCT_LIMIT);
 }
 
 export async function loadProducts(url, designerId) {

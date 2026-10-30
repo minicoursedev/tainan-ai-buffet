@@ -26,6 +26,22 @@ test('small and empty catalogues use available images, never repeated padding', 
   }
 });
 
+test('pinned work stays first and counts toward the 20-image limit while other works shuffle', () => {
+  const input = Array.from({ length: 35 }, (_, i) => record(i));
+  input[30].pinned = true;
+  const products = readProducts({ designerId: 'test', products: input }, 'test', base);
+  const before = structuredClone(products);
+  for (const random of [() => 0, () => 0.99, Math.random]) {
+    const selected = sampleProducts(products, random);
+    assert.equal(selected.length, 20);
+    assert.equal(selected[0].id, 'image-30');
+    assert.equal(new Set(selected.map(p => p.id)).size, 20);
+    for (const p of selected) assert.deepEqual(p, products.find(source => source.id === p.id));
+  }
+  assert.notDeepEqual(sampleProducts(products, () => 0).slice(1), sampleProducts(products, () => 0.99).slice(1));
+  assert.deepEqual(products, before);
+});
+
 test('invalid, disabled and duplicate images are excluded before sampling', () => {
   const products = [record(0), record(0), { ...record(1), url: record(0).url },
     { ...record(2), disabled: true }, { ...record(3), url: 'javascript:alert(1)' },
@@ -55,6 +71,12 @@ test('Yang Liu captions stay attached to the supplied images and retain their na
   const data = JSON.parse(await readFile(new URL('../public/puma_oshen_wave/data/designers/yang-liu.products.json', import.meta.url)));
   const products = readProducts(data, 'yang-liu', base);
   assert.equal(products.length, data.products.filter(p => p.disabled !== true).length);
+  const designers = JSON.parse(await readFile(new URL('../public/puma_oshen_wave/designer.json', import.meta.url)));
+  const designer = designers.designers.find(d => d.id === 'yang-liu');
+  for (const random of [() => 0, () => 0.99]) {
+    assert.equal(sampleProducts(products, random)[0].cover, designer.logo.url);
+  }
+  assert.equal(designer.productImages[0].url, designer.logo.url);
   const first = products.find(p => p.id === 'yang-liu-1');
   const second = products.find(p => p.id === 'yang-liu-2');
   assert.equal(first.caption, '招牌就是從這裡開始...');

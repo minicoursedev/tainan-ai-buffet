@@ -1156,6 +1156,14 @@
       "verification": true,
       "productImages": [
         {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/logo.webp?v=e89f25f0c832ab36",
+          "alt": "洋流作者頭像",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/logo.webp?v=e89f25f0c832ab36",
+          "checkedAt": "2026-10-30",
+          "note": "使用者指定作者頭像同時作為第一張作品。",
+          "pinned": true
+        },
+        {
           "url": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/1.webp?v=bce1f7ed5ba6888b",
           "alt": "洋流作品照片 1",
           "source": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/1.webp?v=bce1f7ed5ba6888b",

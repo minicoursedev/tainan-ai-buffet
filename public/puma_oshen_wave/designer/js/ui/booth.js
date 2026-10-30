@@ -3,7 +3,7 @@ import { state, markVisited, findBoothIn, toast } from '../state.js';
 import { loadAisle, aisleOfBooth } from '../data.js?v=20261030-site-data';
 import { goToBooth, designerBoothUrl } from '../nav.js?v=20261030-site-data';
 import { thumbnailUrl, retryOriginal } from '../images.js';
-import { loadProducts, sampleProducts } from '../products.js?v=20261030-site-data';
+import { loadProducts, sampleProducts } from '../products.js?v=20261030-pinned-work';
 
 const dlg = () => document.getElementById('dlg-booth');
 
