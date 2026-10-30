@@ -60,7 +60,8 @@
       "height": 600,
       "link": "https://www.threads.com/@lmanliang/post/DfGb7jKkplk",
       "threadsMediaId": "18127641775900699",
-      "threadsSourceSha256": "29c9774a52366065920b6f73fa24342356d0effb5b1b34af4f140727cb16c6b3"
+      "threadsSourceSha256": "29c9774a52366065920b6f73fa24342356d0effb5b1b34af4f140727cb16c6b3",
+      "disabled": true
     },
     {
       "id": "yang-liu-6",
@@ -71,7 +72,8 @@
       "height": 450,
       "link": "https://www.threads.com/@lmanliang/post/DfGdUn-kqi7",
       "threadsMediaId": "18127841191893389",
-      "threadsSourceSha256": "e42d0419412d7638db74cd44475c91822024552568b25f629eb79f0aa6c70769"
+      "threadsSourceSha256": "e42d0419412d7638db74cd44475c91822024552568b25f629eb79f0aa6c70769",
+      "disabled": true
     },
     {
       "id": "yang-liu-7",
