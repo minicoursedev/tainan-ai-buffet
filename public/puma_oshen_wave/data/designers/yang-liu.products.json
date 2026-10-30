@@ -52,6 +52,17 @@
       "threadsSourceSha256": "785e2a7fac54433d99a60b2d18fa2f768ee8d7f4690271163b0f69aa998280a9"
     },
     {
+      "id": "yang-liu-5",
+      "alt": "洋流作品照片 5",
+      "caption": "",
+      "url": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/5.webp?v=f3ee50b359dfdf01",
+      "width": 800,
+      "height": 600,
+      "link": "https://www.threads.com/@lmanliang/post/DfGb7jKkplk",
+      "threadsMediaId": "18127641775900699",
+      "threadsSourceSha256": "29c9774a52366065920b6f73fa24342356d0effb5b1b34af4f140727cb16c6b3"
+    },
+    {
       "id": "yang-liu-6",
       "alt": "洋流作品照片 6",
       "caption": "留下你的照片，跟一句話\n十年回首，跟自己說聲嗨!你的過的好嗎？ \n\n我們的主題是洋流帶來的「希望」\n\n我記下了洋流店家，設計師，舞台\n有個人提醒我...\n我好像忘記了紀錄洋流本身...\n\n或是，洋流，應該要大家一起紀錄?\n\n一個呼吸的節奏、一個充滿希望的眼神，彼此靠近時的微溫\n它不代表一個人，也不用記得一個人\n要感謝很多人，但也不用感謝很多人\n而是代表一個新時代的開始\n\n本串的照片與留言，不久後會被收錄到洋流地圖-設計師\n也許，在十年後，會在那些，等待與你的對話~",
@@ -94,9 +105,39 @@
       "link": "https://www.threads.com/@lmanliang/post/DfGl0pRkhwc",
       "threadsMediaId": "18000700890010283",
       "threadsSourceSha256": "9a86f2b41e0255671dfbee65365ac137baf5bde8a1717686e0f456dbaf222372"
+    },
+    {
+      "id": "yang-liu-10",
+      "alt": "洋流作品照片 10",
+      "caption": "我其實沒想過，一家老店，會加入這道光",
+      "url": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/10.webp?v=783518440de5ef63",
+      "width": 800,
+      "height": 600,
+      "link": "https://www.threads.com/@lmanliang/post/DfGvun-krn0",
+      "threadsMediaId": "18191929387407164",
+      "threadsSourceSha256": "92fe75ef99b60a5a130837685e4284ba08cd4d4835f8ded8ed0c25de2d849b73"
+    },
+    {
+      "id": "yang-liu-11",
+      "alt": "洋流作品照片 11",
+      "caption": "我其實沒想過，一家老店，會加入這道光",
+      "url": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/11.webp?v=2e3878cc66390bd8",
+      "width": 600,
+      "height": 800,
+      "link": "https://www.threads.com/@lmanliang/post/DfGvun-krn0",
+      "threadsMediaId": "18097629539449809",
+      "threadsSourceSha256": "c0fa053e841a7236e0df459dbcc9043846dffbe10c4049ba357f64d51e3e8b21"
+    },
+    {
+      "id": "yang-liu-12",
+      "alt": "洋流作品照片 12",
+      "caption": "我其實沒想過，一家老店，會加入這道光",
+      "url": "https://minicourse.dev/puma_oshen_wave/assets/yang-liu/12.webp?v=1fe1cd0b9c92cf27",
+      "width": 600,
+      "height": 800,
+      "link": "https://www.threads.com/@lmanliang/post/DfGvun-krn0",
+      "threadsMediaId": "18131540035700407",
+      "threadsSourceSha256": "fe3430360f65d0c731d3f6ee7a537235e578a0d52d74a509761dc6dcf5459714"
     }
-  ],
-  "excludedThreadsMediaIds": [
-    "18127641775900699"
   ]
 }
