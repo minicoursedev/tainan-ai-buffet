@@ -1338,7 +1338,32 @@
       "category": "暖心甜點",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-53/1.webp?v=d15db2686b1f85f3",
+          "alt": "孟延君上手作甜點－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-53/1.webp?v=d15db2686b1f85f3",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：864869381_18114170705141801_2659904693593785133_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566081628248219840/864869381_18114170705141801_2659904693593785133_n.png?ex=6ae73eac&is=6ae5ed2c&hm=e5d2cc79690d93fe75b6edb977611977ddd1a01a1a373496fe2fefeb002ac566&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-53/2.webp?v=01b951f9522f45fd",
+          "alt": "孟延君上手作甜點－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-53/2.webp?v=01b951f9522f45fd",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：841012214_17961833685211084_1435982844045938343_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566081629410033814/841012214_17961833685211084_1435982844045938343_n.png?ex=6ae73eac&is=6ae5ed2c&hm=d8c6409b375053f422f9bc0924c7648a1413e5558cafbab163f57f3d959f5f2b&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-53/3.webp?v=1243e81ef5255e44",
+          "alt": "孟延君上手作甜點－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-53/3.webp?v=1243e81ef5255e44",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：847536427_18113031647141801_2080214002584997285_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566081630798483637/847536427_18113031647141801_2080214002584997285_n.png?ex=6ae73ead&is=6ae5ed2d&hm=bf52e3c5613df5a89c5aaadc01f5bcdad11c53bed0c0213c62bffc56272cae18&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/hsiao.0824/",
         "ig": "https://www.instagram.com/myjs_dessert/",
