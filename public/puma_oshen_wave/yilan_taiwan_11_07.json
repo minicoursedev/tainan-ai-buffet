@@ -1368,7 +1368,32 @@
       "category": "暖心甜點",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-54/1.webp?v=52e9238062fe2dca",
+          "alt": "恩菲提拉米蘇－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-54/1.webp?v=52e9238062fe2dca",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：658161167_17912935176356433_8547630487327537649_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566081330867867768/658161167_17912935176356433_8547630487327537649_n.png?ex=6ae73e65&is=6ae5ece5&hm=3442b35a8ab962b7313c50af70a8f96f53c2e315c3f9fc0f3bed75e8e307fc2d&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-54/2.webp?v=73b47c57540342ea",
+          "alt": "恩菲提拉米蘇－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-54/2.webp?v=73b47c57540342ea",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：656183394_17912935185356433_4446392614320212009_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566081331862184006/656183394_17912935185356433_4446392614320212009_n.png?ex=6ae73e65&is=6ae5ece5&hm=ccae62ca05c27fffcbd48b12d51e9ddd7bd4428323e1bcd9a000662036869258&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-54/3.webp?v=83edcc312389b700",
+          "alt": "恩菲提拉米蘇－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-54/3.webp?v=83edcc312389b700",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：655858627_17912935194356433_7252663065126872064_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566081332822671470/655858627_17912935194356433_7252663065126872064_n.png?ex=6ae73e66&is=6ae5ece6&hm=1cd970335fb0c7ab0d5186fb84e978bcf97f1096489687aa9810c349fa4e479d&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/61567393529912/",
         "ig": "https://www.instagram.com/x830422/",
