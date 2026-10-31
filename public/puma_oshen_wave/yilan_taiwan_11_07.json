@@ -1529,7 +1529,32 @@
       "category": "暖心甜點",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-58/1.webp?v=e666cf75eae9a51b",
+          "alt": "乙夷甜點－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-58/1.webp?v=e666cf75eae9a51b",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供的作品圖片；附件：876519536_18079332476739894_5425287073161429539_n.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566044814439350382/876519536_18079332476739894_5425287073161429539_n.png?ex=6ae71c63&is=6ae5cae3&hm=c2cde07f2fe6cc13af8c9805a9bb3865bb4a5e680129f51ba198126b0d1df4ea&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-58/2.webp?v=66478e1897cacd86",
+          "alt": "乙夷甜點－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-58/2.webp?v=66478e1897cacd86",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供的作品圖片；附件：872509300_18079160150739894_3507128483655617942_n.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566044815198523402/872509300_18079160150739894_3507128483655617942_n.png?ex=6ae71c63&is=6ae5cae3&hm=fefb716cbd90cf3b7a2c899db60ecae56a0230446ba0d2c97c39df1be2637ae2&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-58/3.webp?v=6138dd9544350ef2",
+          "alt": "乙夷甜點－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-58/3.webp?v=6138dd9544350ef2",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供的作品圖片；附件：869454091_18078618803739894_9162719623749508557_n.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566044815853101066/869454091_18078618803739894_9162719623749508557_n.png?ex=6ae71c63&is=6ae5cae3&hm=2e8a95fbed1417e0f96e603f8c32a8f8ce3a0602125f12431bfe9a64eb58ed2d&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/YiYiDessert/",
         "ig": "https://www.instagram.com/yiyi_dessert/",
