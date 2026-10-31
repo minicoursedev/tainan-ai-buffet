@@ -38,9 +38,8 @@ function workHtml(w) {
   const description = w.caption ? `<span class="bo-caption">${esc(w.caption)}</span>` : '';
   if (video) return `<li><div class="bo-work"><video controls playsinline preload="metadata" poster="${esc(safeUrl(w.cover))}" aria-label="${esc(w.name)}" style="display:block;width:100%;max-height:400px" src="${esc(video)}"></video>${description}</div></li>`;
   const url = safeUrl(w.url);
-  const generic = /作品(?:照片|參考)\s*\d+$/.test(w.name || '');
-  const caption = generic || typeof w.caption === 'string' ? '' : `<span class="bo-name">${esc(w.name || '未命名作品')}</span>`;
-  const inner = `${coverHtml(w.cover, w.name, w.width, w.height)}${caption}${description}`;
+  // Image alternative text is not a display title; only explicit captions appear below works.
+  const inner = `${coverHtml(w.cover, w.name, w.width, w.height)}${description}`;
   return url
     ? `<li><a class="bo-work" href="${esc(url)}" target="_blank" rel="noopener">${inner}</a></li>`
     : `<li><span class="bo-work">${inner}</span></li>`;
