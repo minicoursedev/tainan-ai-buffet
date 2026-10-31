@@ -2,7 +2,7 @@ const station = {lat:22.997137,lng:120.21295};
 
 // Coordinates and shop information remain on this website; only base tiles are remote.
 export function createShopMap({container, status, onSelect, onPositionsReady = () => {}}) {
-  let userMarker, starMarker, markerCluster, selectedMarker;
+  let userMarker, starMarker, placeMarker, markerCluster, selectedMarker;
   let map, selected = null, loading, visibleIds = null, largeServiceMarkers = false;
   const markers = new Map(), positions = new Map(), visuals = new Map(), iconFactories = new Map();
   const markerPriorities = new Map();
@@ -55,6 +55,24 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
       radius:8, color:'#fff', weight:3, fillColor:'#009a50', fillOpacity:1
     }).addTo(map).bindTooltip('我的位置');
     map.setView(position, 16);
+    return true;
+  };
+  const clearPlace = () => {const hadPlace = Boolean(placeMarker); placeMarker?.remove(); placeMarker = null; return hadPlace;};
+  const showPlace = ({lat, lng, name, address}) => {
+    if (!map) return false;
+    clearPlace();
+    const text = document.createElement('div');
+    const title = document.createElement('strong');
+    const detail = document.createElement('p');
+    title.textContent = name;
+    detail.textContent = `${address}（位置為附近參考點）`;
+    text.append(title, detail);
+    placeMarker = L.circleMarker({lat, lng}, {
+      radius:10, color:'#fff', weight:3, fillColor:'#d8441e', fillOpacity:1
+    }).addTo(map).bindPopup(text);
+    map.invalidateSize();
+    map.setView({lat, lng}, 17);
+    placeMarker.openPopup();
     return true;
   };
   const clearStar = () => {starMarker?.remove(); starMarker = null;};
@@ -339,5 +357,5 @@ export function createShopMap({container, status, onSelect, onPositionsReady = (
     });
     return loading;
   }
-  return {load, focus, filter, locate, showStar, clearStar, get active(){return Boolean(map);}};
+  return {load, focus, filter, locate, showPlace, clearPlace, showStar, clearStar, get active(){return Boolean(map);}};
 }

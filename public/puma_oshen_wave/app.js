@@ -1,7 +1,8 @@
 import {findStar} from './lucky-star.js?v=20261030-site-data';
-import {createShopMap} from './shop-map.js?v=20261031-service-marker-layers';
+import {createShopMap} from './shop-map.js?v=20261031-yilan-place-2';
 const byId = id => document.getElementById(id);
 const origin = '22.997137,120.21295';
+const initialPlace = new URL(location.href).searchParams.get('place');
 let shops = [], category = '', selectedId = null;
 let starVersion = 0, displayedStar = null;
 let designers = [], designersLoaded = false, designersLoading = false, shopsLoaded = false;
@@ -247,6 +248,10 @@ async function loadDesigners() {
 }
 function showMap(name, query, center = false, recenter = true) {
   clearLuckyStar();
+  if (shopMap.clearPlace()) {
+    byId('map-status').textContent = '';
+    byId('map-status').hidden = true;
+  }
   shopMap.focus(center ? null : selectedId, {recenter});
   byId('location-name').textContent = name;
 }
@@ -528,7 +533,20 @@ async function init(){
     }
     shops=data.stores.filter(shop=>shop.disabled!==true);shopsLoaded=true;renderCategories();renderShops();
     if (!isDesignerRoute()) restoreLinkedShop();
-    void shopMap.load(shops).then(ready => {byId('lucky-star').disabled = !ready;});
+    void shopMap.load(shops).then(ready => {
+      byId('lucky-star').disabled = !ready;
+      if (ready && initialPlace === 'yilan-20261107') {
+        history.replaceState(null, '', '/puma_oshen_wave/?place=yilan-20261107#map-area');
+        setView(true);
+        // Nearby 271號 map marker; 271-1號 has no verified precise point.
+        shopMap.showPlace({lat:24.6766424, lng:121.7776524, name:'宜蘭暖流・台派市集', address:'宜蘭縣羅東鎮光榮路271-1號'});
+        byId('location-name').textContent = '宜蘭暖流・台派市集附近';
+        const status = byId('map-status');
+        status.textContent = '活動地址：宜蘭縣羅東鎮光榮路271-1號；地圖位置為附近參考點。';
+        status.hidden = false;
+        byId('map-area').scrollIntoView({block:'start'});
+      }
+    });
     byId('category-toggle').onclick=()=>{const b=byId('category-toggle');b.setAttribute('aria-expanded',String(b.getAttribute('aria-expanded')!=='true'));};
     byId('list-view').onclick=()=>setView(false);
     byId('map-view').onclick=()=>setView(true);
