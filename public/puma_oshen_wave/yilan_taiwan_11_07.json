@@ -1146,7 +1146,24 @@
       "category": "暖流食堂",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-45/1.webp?v=fcb5732b546a3af1",
+          "alt": "豬大嬸－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-45/1.webp?v=fcb5732b546a3af1",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：825323528_17990337864107701_1546816718369149705_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088753674453072/825323528_17990337864107701_1546816718369149705_n.png?ex=6ae7454f&is=6ae5f3cf&hm=2e364adf332653e50b5c4d1b3b9c25cf542899cbc01d9dc1cce0e943aa92c307&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-45/2.webp?v=f5d062568d883a8a",
+          "alt": "豬大嬸－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-45/2.webp?v=f5d062568d883a8a",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：771821153_17982966015107701_3024630698548774149_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088755255713892/771821153_17982966015107701_3024630698548774149_n.png?ex=6ae7454f&is=6ae5f3cf&hm=418294317c54d62b991a98aee157d31471db574ce10744e4b75d50b5b29f56e0&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/100063985457813/",
         "ig": "https://www.instagram.com/wu600513/",
