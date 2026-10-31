@@ -2553,6 +2553,85 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent-lax3-2.cdninstagram.com/v/t51.2885-19/424819893_658961612927499_5435389741672866567_n.jpg?stp=dst-jpg_s640x640_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44ODIuYzIifQ&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gGjsQCz8IAfy7qRRmBzRJNKWMbRLkq-s-reo8XLEpoQIbHNrPOm6Eps3VpbDWjezYI&_nc_ohc=9EgXEabKfowQ7kNvwFp90UW&_nc_gid=A3d878yFdmnjToe5NSvCiA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQRs5WRozMVX07v7_KY5WQLoEXIpw3RFNsor0HeBOQDIAw&oe=6AEBE42C&_nc_sid=10d13b"
       }
+    },
+    {
+      "id": "gom-boc-visual",
+      "name": "GOM.BOC",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/gom-boc-visual/1.webp?v=56875ecbe83d6de6",
+          "alt": "GOM.BOC作品照片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/gom-boc-visual/1.webp?v=56875ecbe83d6de6",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566150553031934102/875431984_18205212529372698_4203503579261895075_n.png?ex=6ae77edd&is=6ae62d5d&hm=46b9ec15efeabaf7b6c1fa4dc46a7eb087139488d0a769ecf37e99483fa012fd&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/gom-boc-visual/2.webp?v=99692d1c39e95a09",
+          "alt": "GOM.BOC作品照片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/gom-boc-visual/2.webp?v=99692d1c39e95a09",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566150554546085928/883300237_18205212682372698_183923047095238909_n.png?ex=6ae77edd&is=6ae62d5d&hm=e866d35b1c13725cc2dbc6cb2bcfcce0d2fb1995de2a3bcc68a1d766f59c5248&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/gom-boc-visual/3.webp?v=71be45c71d3a7db4",
+          "alt": "GOM.BOC作品照片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/gom-boc-visual/3.webp?v=71be45c71d3a7db4",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566150556370739313/883559031_18205212661372698_3433168401315058677_n.png?ex=6ae77ede&is=6ae62d5e&hm=613826d24b7b6676cdc2267c33483539dd85043a793aa86c4f5e5092bfcd5fbf&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/gom-boc-visual/4.webp?v=daa424839dc8d081",
+          "alt": "GOM.BOC作品照片 4",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/gom-boc-visual/4.webp?v=daa424839dc8d081",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566150557465317486/871276492_18205212667372698_2636635120656363580_n.png?ex=6ae77ede&is=6ae62d5e&hm=4f549c4ccc95fac393502aaf6745a59e493d2e35cd726e5fbbb01e1ec4141ad9&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/gom-boc-visual/5.webp?v=8558045da23ef7bd",
+          "alt": "GOM.BOC作品照片 5",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/gom-boc-visual/5.webp?v=8558045da23ef7bd",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566150558770012301/883558349_18205212643372698_8339266048865061968_n.png?ex=6ae77ede&is=6ae62d5e&hm=5f5fb44eee1ae78a1b87b5b1940701045e70704bd02696c3a297bc583b6a560a&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/gom-boc-visual/6.webp?v=745269e790c71a17",
+          "alt": "GOM.BOC作品照片 6",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/gom-boc-visual/6.webp?v=745269e790c71a17",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566150560158064830/881256141_18205212646372698_4009930435709425529_n.png?ex=6ae77edf&is=6ae62d5f&hm=3378a10b82f2853f94e0525c70f77b06db793dc79b48e74e42e2ebe89375ea82&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/gom-boc-visual/7.webp?v=cffe62a7cc67cb4e",
+          "alt": "GOM.BOC作品照片 7",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/gom-boc-visual/7.webp?v=cffe62a7cc67cb4e",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566150561320009878/883558877_18205212673372698_8895800120085202724_n.png?ex=6ae77edf&is=6ae62d5f&hm=201ad1ad95687389f3356a31975f7825e006906c7f1b3cbfd71291792ef2b856&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@gom.boc.visual",
+        "ig": "https://www.instagram.com/gom.boc.visual/",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/gom-boc-visual/logo.webp?v=c8f8dc2cae9dcbaf",
+        "source": "https://www.threads.com/@gom.boc.visual",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/870731490_18205209700372698_8033641872730389970_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=Lf-q-wotSkgQ7kNvwFc2CVn&_nc_oc=AdroRk7P9N9sinHVQrNm6eBalBbMstWSVaiIJMej-9G2vsJ4gB9zhWyxAshI25vq2b0&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=mMywgu8ehjidyVwFubAzyA&_nc_ss=7920f&oh=00_AQQZVEBwB4lk-4Xo18UmNJUjNBjOGp-bdK_GePKPf_Paww&oe=6AEC1027"
+      }
     }
   ]
 }
