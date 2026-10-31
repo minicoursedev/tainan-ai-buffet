@@ -1,11 +1,11 @@
 // Designer dialog: profile, catalogue images, social links and share link.
-import { state, markVisited, findBoothIn, toast } from '../state.js';
-import { loadAisle, aisleOfBooth } from '../data.js?v=20261030-site-data';
-import { goToBooth, designerBoothUrl } from '../nav.js?v=20261030-site-data';
+import { state, markVisited, findBoothIn, toast } from '../state.js?v=20261031-yilan-zones';
+import { loadAisle, aisleOfBooth } from '../data.js?v=20261031-yilan-zones';
+import { goToBooth, designerBoothUrl } from '../nav.js?v=20261031-yilan-zones';
 import { boothHtml, loadingHtml, failHtml } from './booth-markup.js';
 import { designerRoot, updateDesignerMetadata } from '../routes.js';
 import { retryOriginal } from '../images.js';
-import { loadProducts, sampleProducts } from '../products.js?v=20261030-pinned-work';
+import { loadProducts, sampleProducts } from '../products.js?v=20261031-yilan-zones';
 
 const dlg = () => document.getElementById('dlg-booth');
 

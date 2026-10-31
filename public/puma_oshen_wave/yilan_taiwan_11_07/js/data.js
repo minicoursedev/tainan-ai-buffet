@@ -1,8 +1,8 @@
 // Build the walk, map and search views from one shared designer.json response.
-import { CONFIG } from './config.js?v=20261030-site-data';
+import { CONFIG } from './config.js?v=20261031-yilan-zones';
 
 const HALL = { code: 'O', name: '宜蘭暖流市集' };
-const ZONE = { code: 'DESIGNERS', name: '市集攤位' };
+const DEFAULT_ZONE = '其他攤位';
 const PER_ISLAND = 8;
 const PER_AISLE = PER_ISLAND * 2;
 const pad2 = n => String(n).padStart(2, '0');
@@ -51,10 +51,24 @@ export function createCatalogue(data) {
   const summaries = [];
   const search = [];
 
-  // Keep one empty aisle so the app also works before any designers are listed.
-  for (let start = 0; start < Math.max(1, designers.length); start += PER_AISLE) {
-    const code = `${HALL.code}${pad2(start / PER_AISLE + 1)}`;
-    const members = designers.slice(start, start + PER_AISLE);
+  // Each poster category has its own virtual aisles; never mix categories in one aisle.
+  const groups = new Map();
+  for (const designer of designers) {
+    const name = typeof designer.category === 'string' && designer.category.trim() ? designer.category : DEFAULT_ZONE;
+    if (!groups.has(name)) groups.set(name, []);
+    groups.get(name).push(designer);
+  }
+  const zones = [...groups].map(([name, members], index) => ({ code: `Z${pad2(index + 1)}`, name, members }));
+  const chunks = [];
+  for (const zone of zones) {
+    for (let start = 0; start < zone.members.length; start += PER_AISLE) {
+      chunks.push({ zone, members: zone.members.slice(start, start + PER_AISLE) });
+    }
+  }
+  // Keep an empty aisle so navigation still works for an empty catalogue.
+  if (!chunks.length) chunks.push({ zone: {code: 'Z00', name: DEFAULT_ZONE}, members: [] });
+  for (const [index, {zone, members}] of chunks.entries()) {
+    const code = `${HALL.code}${pad2(index + 1)}`;
     const stores = {};
     const booths = members.map((designer, pos) => {
       const id = `${code}-${pad2(pos + 1)}`;
@@ -76,21 +90,21 @@ export function createCatalogue(data) {
         productsUrl: imageUrl(designer.productsUrl),
         social, address: designer.address || '', locationSource: externalUrl(designer.locationSource), locationNote: designer.locationNote || '', partners: (designer.partners || []).map(partner => ({ name: partner.name, social: Object.fromEntries(Object.entries(partner.social || {}).map(([key, value]) => [key, externalUrl(value)])), address: partner.address || '', locationSource: externalUrl(partner.locationSource), locationNote: partner.locationNote || '', avatar: partner.logo?.status === 'verified' ? imageUrl(partner.logo.url) : '' })), verification: designer.verification === true, booths: 1,
       };
-      search.push([id, designer.name, designer.name, designer.category || ZONE.name, HALL.code, '']);
+      search.push([id, designer.name, designer.name, zone.name, HALL.code, '']);
       return {
         id, pos: pos % PER_ISLAND, store: designer.id,
         corner: pos % PER_ISLAND === 0 || pos % PER_ISLAND === PER_ISLAND - 1 || pos === members.length - 1,
-        zone: ZONE.code, zoneName: designer.category || ZONE.name, type: '',
+        zone: zone.code, zoneName: zone.name, type: '',
         works, total: works.length, also: [],
       };
     });
     const islands = ['N', 'S'].map((side, i) => ({
-      side, zone: ZONE.code, zoneName: ZONE.name,
+      side, zone: zone.code, zoneName: zone.name,
       booths: booths.slice(i * PER_ISLAND, (i + 1) * PER_ISLAND),
     })).filter(island => island.booths.length);
     aisles.set(code, { code, hall: HALL.code, hallName: HALL.name, islands, stores });
     summaries.push({
-      code, booths: booths.length, zones: booths.length ? [ZONE.name] : [],
+      code, booths: booths.length, zones: booths.length ? [zone.name] : [],
       islands: islands.map(island => ({
         side: island.side, zone: island.zone, n: island.booths.length,
         corners: island.booths.map(booth => booth.corner),
@@ -101,7 +115,7 @@ export function createCatalogue(data) {
     index: {
       halls: [{
         ...HALL, aisles: summaries,
-        zones: designers.length ? [{ ...ZONE, booths: designers.length, aisles: summaries.map(a => a.code) }] : [],
+        zones: zones.map(zone => ({ code: zone.code, name: zone.name, booths: zone.members.length, aisles: summaries.filter(a => a.zones.includes(zone.name)).map(a => a.code) })),
       }],
       totals: { designers: designers.length },
     },

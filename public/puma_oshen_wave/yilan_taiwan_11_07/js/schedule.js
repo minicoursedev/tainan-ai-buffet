@@ -1,5 +1,5 @@
 // Optional closing time from schedule.json; a null closeAt keeps the site open.
-import { CONFIG } from './config.js?v=20261030-site-data';
+import { CONFIG } from './config.js?v=20261031-yilan-zones';
 
 let closeAt = null;
 

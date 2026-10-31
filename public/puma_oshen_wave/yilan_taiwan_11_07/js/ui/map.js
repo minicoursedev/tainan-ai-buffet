@@ -1,6 +1,6 @@
 // 市集地圖 page (<main id="stage-map">): hall overview, and a hall plan with one compact row per aisle.
-import { state, on, isVisited } from '../state.js';
-import { goToAisle, goToBooth } from '../nav.js?v=20261030-site-data';
+import { state, on, isVisited } from '../state.js?v=20261031-yilan-zones';
+import { goToAisle, goToBooth } from '../nav.js?v=20261031-yilan-zones';
 
 const ZONES_SHOWN = 8;
 

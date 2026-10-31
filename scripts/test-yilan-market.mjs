@@ -16,6 +16,22 @@ test('all poster booths are present and grouped by category', () => {
   assert.equal(c.index.totals.designers, 60);
   assert.deepEqual(Object.fromEntries([...new Set(data.designers.map(d => d.category))].map(category => [category, data.designers.filter(d => d.category === category).length])), {'暖心日常':13,'台派創集':21,'暖流食堂':12,'暖心甜點':14});
 });
+test('map and walk aisles preserve the four poster zones', () => {
+  const zones = c.index.halls[0].zones;
+  assert.deepEqual(zones.map(({name, booths}) => [name, booths]), [['暖心日常', 13], ['台派創集', 21], ['暖流食堂', 12], ['暖心甜點', 14]]);
+  assert.equal(c.index.halls[0].aisles.length, 5);
+  for (const zone of zones) {
+    assert.ok(zone.aisles.length);
+    for (const code of zone.aisles) {
+      const aisle = c.aisles.get(code);
+      for (const island of aisle.islands) {
+        assert.equal(island.zone, zone.code);
+        assert.equal(island.zoneName, zone.name);
+        for (const booth of island.booths) assert.equal(data.designers.find(d => d.id === booth.store).category, zone.name);
+      }
+    }
+  }
+});
 test('joint booths retain both partners, social links, and addresses', () => {
   for (const [id, names] of [['yilan-20261107-31', ['熱血', '石毛']], ['yilan-20261107-57', ['熊甜宅', '木子口']]]) {
     const {booth, store} = record(id);

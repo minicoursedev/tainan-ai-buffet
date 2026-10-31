@@ -12,7 +12,7 @@ export const emit = (type, detail = {}) => bus.dispatchEvent(new CustomEvent(typ
 export const on = (type, fn) => bus.addEventListener(type, e => fn(e.detail));
 
 // Visited booths live only in this browser.
-const KEY = 'pow-yilan-20261107-visited';
+const KEY = 'pow-yilan-20261107-visited-zones';
 let visited = new Set();
 try { visited = new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); } catch { visited = new Set(); }
 export const isVisited = id => visited.has(id);

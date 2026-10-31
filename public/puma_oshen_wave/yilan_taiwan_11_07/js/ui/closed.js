@@ -1,5 +1,5 @@
 // 休市 screen: shown instead of the market once the opening period is over.
-import { visitedCount } from '../state.js';
+import { visitedCount } from '../state.js?v=20261031-yilan-zones';
 import { lastOpenLabel } from '../schedule.js';
 
 // the hall entrance with its shutter down, a 本場休市 sign, the owner bowing beside a 謝謝光臨 board

@@ -1,8 +1,8 @@
 // Walk view: one aisle drawn as a clean manga page. Ink outlines, halftone tones, warm white paper, pink and green accents.
 // World: a horizontal aisle in world units. N booths on top (poster stand, table, cloth), S booths below (table seen from
 // above, covers lying flat). Redraws only while something moves or an image arrives.
-import { isVisited, toast } from './state.js';
-import { catFits, pickLine, praiseLine } from './cats.js?v=20261030-site-data';
+import { isVisited, toast } from './state.js?v=20261031-yilan-zones';
+import { catFits, pickLine, praiseLine } from './cats.js?v=20261031-yilan-zones';
 import { thumbnailUrl, retryOriginal } from './images.js';
 
 const palette = getComputedStyle(document.documentElement);
