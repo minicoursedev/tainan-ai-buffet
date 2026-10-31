@@ -950,7 +950,24 @@
       "category": "暖流食堂",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-37/1.webp?v=d2dc2e3223fe5a15",
+          "alt": "食光1998餐酒館－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-37/1.webp?v=d2dc2e3223fe5a15",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：624600835_17891120475410533_1599133654172617110_n.png；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566091689154580571/624600835_17891120475410533_1599133654172617110_n.png?ex=6ae7480b&is=6ae5f68b&hm=d59cd002ceab8a1ecaf888035cb68fe8f0290e3b20a3b3a74fc28861cd8a5700&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-37/2.webp?v=9caaf79fb3635da4",
+          "alt": "食光1998餐酒館－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-37/2.webp?v=9caaf79fb3635da4",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：584403514_17885051886410533_1515012474957851280_n.png；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566091690320732220/584403514_17885051886410533_1515012474957851280_n.png?ex=6ae7480b&is=6ae5f68b&hm=739e623bd70c394d4072359572664ff071b18c5db24736f63d4af1aabab9bb7d&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/letemps1998/",
         "ig": "https://www.instagram.com/letemps1998/",
