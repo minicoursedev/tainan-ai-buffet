@@ -61,3 +61,6 @@
 
 .yl-organizers { display: block; font-size: 12px; }
 .yl-cover-organizers { margin: -8px 0 18px; color: #725b52; font-size: 13px; line-height: 1.5; text-wrap: balance; }
+
+.mp-target { flex: 1 0 100%; margin: 0; padding: 9px 12px; border-left: 4px solid #bf3b1d; background: #ffebe1; color: #56342e; }
+.mp-c.is-target { background: #bf3b1d; border-color: #bf3b1d; box-shadow: 0 0 0 2px #f7c3a8; }

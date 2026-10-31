@@ -47,11 +47,15 @@ test('unidentified booth has no invented social links or avatar', () => {
   const {booth, store} = record('yilan-20261107-40');
   const html = boothHtml(booth, store);
   assert.ok(!store.avatar);
-  assert.doesNotMatch(html, /<a class="btn" href=/);
+  assert.doesNotMatch(html, /<a class="btn" href="https?:/);
 });
 test('profile links and routes stay within the Yilan market', () => {
   const id = 'yilan-20261107-57';
   const path = designerPath(id);
   assert.equal(path, `/puma_oshen_wave/yilan_taiwan_11_07/profiles/${id}/`);
   assert.deepEqual(resolveDesignerRoute(new URL(path, 'https://minicourse.dev'), {boot:true}), {mode:'designer', target:id});
+  const {booth, store} = record(id);
+  const html = boothHtml(booth, store);
+  assert.ok(html.includes(`href="/puma_oshen_wave/yilan_taiwan_11_07/#/map/${id}">看看地圖</a>`));
+  assert.deepEqual(resolveDesignerRoute(new URL(`/puma_oshen_wave/yilan_taiwan_11_07/#/map/${id}`, 'https://minicourse.dev'), {boot:true}), {mode:'map', target:id, then:undefined});
 });

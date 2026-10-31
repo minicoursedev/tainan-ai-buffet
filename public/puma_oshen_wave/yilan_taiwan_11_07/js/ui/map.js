@@ -8,7 +8,7 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': 
 const pad2 = n => String(n).padStart(2, '0');
 const fmt = n => Number(n || 0).toLocaleString('zh-TW');
 
-const view = { mode: 'overview', hall: 'O', zone: null };
+const view = { mode: 'overview', hall: 'O', zone: null, booth: null };
 let root = null;   // <main id="stage-map">, scrolls by itself
 let wired = false;
 const shown = () => !!root && !root.hidden;
@@ -23,11 +23,12 @@ export function mountMap(container) {
   return { show: openMap, hide() {} };
 }
 
-function openMap({ hall, overview } = {}) {
+function openMap({ hall, overview, boothId = null } = {}) {
   if (!root || !state.index) return;
   view.hall = hallByCode(hall || state.hallCode)?.code || 'O';
   view.mode = overview ? 'overview' : 'hall';
   view.zone = null;
+  view.booth = boothId;
   root.innerHTML = `
     <div class="mp-page">
     <h1 class="mp-title" id="map-title">市集地圖</h1>
@@ -37,6 +38,7 @@ function openMap({ hall, overview } = {}) {
         ${halls().map(h => `<button type="button" class="mp-tab" data-tab="${h.code}">${esc(h.name)}</button>`).join('')}
       </div>
       <label class="mp-jump"><span>跳到</span><select aria-label="跳到哪一區"></select></label>
+      <p class="mp-target" hidden></p>
     </div>
     <div class="mp-body"></div>
     </div>`;
@@ -96,12 +98,18 @@ function render() {
   const body = root.querySelector('.mp-body');
   const title = root.querySelector('#map-title');
   if (view.mode === 'overview') {
+    root.querySelector('.mp-target').hidden = true;
     title.textContent = '市集地圖・全館總覽';
     jump.hidden = true;
     body.innerHTML = overviewHtml();
     return;
   }
   title.textContent = `市集地圖・${hall.name}`;
+  const targetBooth = view.booth && state.aisle?.islands.flatMap(island => island.booths).find(booth => booth.id === view.booth);
+  const targetName = targetBooth && state.aisle.stores[targetBooth.store]?.name;
+  const target = root.querySelector('.mp-target');
+  target.hidden = !targetName;
+  target.textContent = targetName ? `正在查看：${targetName}（${view.booth}）` : '';
   body.innerHTML = planHtml(hall);
   const zones = [...body.querySelectorAll('.mp-zone-h')];
   jump.hidden = zones.length < 2;
@@ -151,7 +159,7 @@ function planHtml(hall) {
     out.push(rowHtml(a, zoneName));
   }
   return `<div class="mp-plan">${out.join('')}</div>
-    <p class="mp-legend"><span><i class="mp-c"></i>一攤</span><span><i class="mp-c is-visited"></i>逛過</span><span><i class="mp-c is-near"></i>你旁邊這攤</span><span><i class="mp-key-here"></i>你在這條走道</span></p>`;
+    <p class="mp-legend"><span><i class="mp-c"></i>一攤</span><span><i class="mp-c is-visited"></i>逛過</span><span><i class="mp-c is-near"></i>你旁邊這攤</span>${view.booth ? '<span><i class="mp-c is-target"></i>所選攤位</span>' : ''}<span><i class="mp-key-here"></i>你在這條走道</span></p>`;
 }
 
 function rowHtml(a, zoneName) {
@@ -164,7 +172,7 @@ function rowHtml(a, zoneName) {
     for (let i = 0; i < isl.n; i++) {
       slot += 1;
       const id = `${a.code}-${pad2(slot)}`;
-      const cls = id === state.nearBooth && here ? ' is-near' : isVisited(id) ? ' is-visited' : '';
+      const cls = id === view.booth ? ' is-target' : id === state.nearBooth && here ? ' is-near' : isVisited(id) ? ' is-visited' : '';
       cells += `<span class="mp-c${cls}" data-booth="${id}" title="${id} ${esc(zn)}"></span>`;
     }
     (sides[isl.side] || sides.N).push(`<span class="mp-isl">${cells}</span>`);
@@ -189,7 +197,8 @@ function scrollToFocus() {
   requestAnimationFrame(() => {
     if (!shown()) return;
     let el = null;
-    if (view.zone) el = body.querySelector(`.mp-zone-h[data-zones~="${CSS.escape(view.zone)}"]`);
+    if (view.booth) el = body.querySelector(`[data-booth="${CSS.escape(view.booth)}"]`)?.closest('.mp-row');
+    if (!el && view.zone) el = body.querySelector(`.mp-zone-h[data-zones~="${CSS.escape(view.zone)}"]`);
     if (!el) el = body.querySelector('.mp-row.is-here');
     if (el) scrollInto(el, view.zone ? 0.05 : 0.35);
   });

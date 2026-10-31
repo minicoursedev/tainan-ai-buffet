@@ -3,9 +3,9 @@ import { state, on, emit, visitedCount, toast } from './state.js?v=20261031-yila
 import { loadIndex, aisleOfBooth, loadBoothForDesigner } from './data.js?v=20261031-yilan-zones';
 import { goToAisle } from './nav.js?v=20261031-yilan-zones';
 import { createWalkView } from './walk.js?v=20261031-poster-colors';
-import { openBooth } from './ui/booth.js?v=20261031-poster-colors';
-import { mountMap } from './ui/map.js?v=20261031-yilan-zones';
-import { mountList } from './ui/list.js?v=20261031-poster-colors';
+import { openBooth } from './ui/booth.js?v=20261031-market-map';
+import { mountMap } from './ui/map.js?v=20261031-market-map-2';
+import { mountList } from './ui/list.js?v=20261031-market-map';
 import { loadSchedule, isClosed, closeTagText, msLeft, lastOpenLabel } from './schedule.js?v=20261031-yilan-zones';
 import { loadCats, loadChatter } from './cats.js?v=20261031-yilan-zones';
 import { showClosed } from './ui/closed.js?v=20261031-yilan-zones';
@@ -37,7 +37,7 @@ function setMode(mode, opts = {}) {
     const firstVisit = !map; // The first visit shows the hall overview.
     map ||= mountMap($('stage-map'));
     map.show({ hall: state.hallCode, overview: firstVisit, ...opts });
-    history.replaceState(null, '', `${designerRoot}#/map`);
+    history.replaceState(null, '', `${designerRoot}#/map${opts.designerId ? `/${encodeURIComponent(opts.designerId)}` : ''}`);
     updateDesignerMetadata();
   }
   if (mode === 'walk') {
@@ -145,6 +145,14 @@ async function boot() {
   const first = state.index.halls.find(h => h.code === 'O').aisles[0].code;
   async function route({ boot = false } = {}) {
     const { mode, target, then } = resolveDesignerRoute(new URL(location.href), { boot });
+    if (mode === 'map' && target) {
+      const boothId = await loadBoothForDesigner(target);
+      if (boothId && await goToAisle(aisleOfBooth(boothId), { boothId })) {
+        setMode('map', { overview: false, boothId, designerId: target });
+        return;
+      }
+      toast('找不到這個攤位，已顯示市集地圖');
+    }
     if (mode === 'list' || mode === 'map') { if (boot) await goToAisle(first); setMode(mode); return; }
     let ok = false;
     if (mode === 'designer') {

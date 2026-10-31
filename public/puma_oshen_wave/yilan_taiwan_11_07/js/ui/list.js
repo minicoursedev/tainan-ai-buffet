@@ -3,7 +3,7 @@
 import { state, toast, findBoothIn } from '../state.js?v=20261031-yilan-zones';
 import { loadSearch, loadAisle, aisleOfBooth } from '../data.js?v=20261031-yilan-zones';
 import { goToBooth } from '../nav.js?v=20261031-yilan-zones';
-import { openBooth } from './booth.js?v=20261031-poster-colors';
+import { openBooth } from './booth.js?v=20261031-market-map';
 import { thumbnailUrl, retryOriginal } from '../images.js';
 
 const PAGE = 60;
