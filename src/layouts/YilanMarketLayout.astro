@@ -22,9 +22,12 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
 <meta property="og:url" content={canonical}>
 <meta property="og:site_name" content="MiniCourse">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://minicourse.dev/puma_oshen_wave/yilan_taiwan_11_07/cover.webp">
+<meta property="og:image:alt" content="宜蘭山海與市集插畫">
 <meta property="og:title" content={title}>
 <meta property="og:description" content={description}>
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://minicourse.dev/puma_oshen_wave/yilan_taiwan_11_07/cover.webp">
 <meta name="twitter:title" content={title}>
 <meta name="twitter:description" content={description}>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,7 +38,7 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/map.css">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/list.css?v=20261026-video3">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/closed.css">
-<link rel="stylesheet" href="/puma_oshen_wave/yilan_taiwan_11_07/market.css?v=20261031-poster-colors">
+<link rel="stylesheet" href="/puma_oshen_wave/yilan_taiwan_11_07/market.css?v=20261031-market-cover-2">
 </head>
 <body>
 <div class="app">
@@ -75,8 +78,19 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
   <div class="toast" id="toast" role="status" popover="manual"></div>
 </div>
 
+<dialog class="yl-cover" id="yl-cover" aria-labelledby="yl-cover-title" aria-describedby="yl-cover-description">
+  <img class="yl-cover-art" src="/puma_oshen_wave/yilan_taiwan_11_07/cover.webp" width="1440" height="720" alt="" fetchpriority="high">
+  <div class="yl-cover-content">
+    <p class="yl-cover-kicker">2026 · TEAM YILAN, TEAM TAIWAN</p>
+    <h1 id="yl-cover-title">宜蘭暖流<br><span>台派市集</span></h1>
+    <p id="yl-cover-description" class="yl-cover-details">11 月 7 日（六）15:00–19:00<br>羅東後火車站旁廣場</p>
+    <p class="yl-cover-subtitle">60 個攤位，一起逛市集。</p>
+    <button class="yl-cover-enter" type="button">進入市集 <span aria-hidden="true">→</span></button>
+  </div>
+</dialog>
+
 <dialog id="dlg-booth" class="dlg" aria-labelledby="booth-title"></dialog>
 
-<script is:inline type="module" src="/puma_oshen_wave/yilan_taiwan_11_07/js/app.js?v=20261031-poster-colors"></script>
+<script is:inline type="module" src="/puma_oshen_wave/yilan_taiwan_11_07/js/app.js?v=20261031-market-cover"></script>
 </body>
 </html>

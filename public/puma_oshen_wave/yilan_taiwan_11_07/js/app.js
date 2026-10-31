@@ -15,6 +15,7 @@ import { designerRoot, updateDesignerMetadata, resolveDesignerRoute } from './ro
 const $ = id => document.getElementById(id);
 const BOOTH_ID = /^[A-Z]\d{2}-\d{2}$/;
 const AISLE_ID = /^[A-Z]\d{2}$/;
+const showCoverOnEntry = location.pathname === designerRoot && !location.hash;
 
 let walk = null;
 let list = null;
@@ -170,6 +171,11 @@ async function boot() {
   window.addEventListener('hashchange', () => route());
   await route({ boot: true });
   updateStatus();
+  const cover = $('yl-cover');
+  if (cover && showCoverOnEntry) {
+    cover.querySelector('.yl-cover-enter').addEventListener('click', () => cover.close());
+    cover.showModal();
+  }
 }
 
 boot().catch(err => {
