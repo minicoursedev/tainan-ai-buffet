@@ -2,7 +2,7 @@
 import { state, markVisited, findBoothIn, toast } from '../state.js?v=20261031-yilan-zones';
 import { loadAisle, aisleOfBooth } from '../data.js?v=20261031-oshen-shop';
 import { goToBooth, designerBoothUrl } from '../nav.js?v=20261031-oshen-shop';
-import { boothHtml, loadingHtml, failHtml } from './booth-markup.js?v=20261031-address-text';
+import { boothHtml, loadingHtml, failHtml } from './booth-markup.js?v=20261031-actions-row';
 import { designerRoot, updateDesignerMetadata } from '../routes.js';
 import { retryOriginal } from '../images.js';
 import { loadProducts, sampleProducts } from '../products.js?v=20261031-yilan-zones';

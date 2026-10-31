@@ -48,10 +48,10 @@ function workHtml(w) {
 
 export function boothHtml(booth, store) {
   const storeUrl = safeUrl(store?.url);
-  const socialLinks = [['fb', 'Facebook'], ['threads', 'Threads'], ['ig', 'Instagram'], ['web', '網站']]
-    .map(([key, label]) => {
+  const socialLinks = [['fb', 'Facebook', 'facebook.png'], ['threads', 'Threads', 'threads.svg'], ['ig', 'Instagram', 'instagram.svg'], ['web', '官網', 'website.svg']]
+    .map(([key, label, icon]) => {
       const url = safeUrl(store?.social?.[key]);
-      return url ? `<a class="btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${label}</a>` : '';
+      return url ? `<a class="btn bo-social-button" href="${esc(url)}" target="_blank" rel="noopener noreferrer" aria-label="${label}" title="${label}"><img src="/puma_oshen_wave/yilan_taiwan_11_07/assets/buttons/${icon}" width="32" height="32" alt="" decoding="async"></a>` : '';
     }).join('');
   const avatar = safeUrl(store?.avatar);
   const name = store?.name || '設計師';
@@ -93,9 +93,9 @@ export function boothHtml(booth, store) {
     </div>
     <div class="bo-foot">
       ${socialLinks}
-      ${storeUrl ? `<a class="btn btn-primary" href="${esc(storeUrl)}" target="_blank" rel="noopener">看設計師</a>` : ''}
       <span class="bo-count muted">${booth.randomSelection ? `本次顯示 ${works.length} / 共 ${Number(booth.total) || 0} 張` : works.length ? `共 ${Number(booth.total) || works.length} 部作品` : ''}</span>
       <div class="bo-share">
+        ${storeUrl ? `<a class="btn btn-primary" href="${esc(storeUrl)}" target="_blank" rel="noopener">看設計師</a>` : ''}
         <button type="button" class="btn" data-copy-booth="${esc(designerBoothUrl(booth.store))}">複製設計師連結</button>
         <span class="bo-share-status muted" role="status"></span>
       </div>

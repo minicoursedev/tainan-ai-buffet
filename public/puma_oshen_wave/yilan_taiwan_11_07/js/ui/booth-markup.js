@@ -50,10 +50,10 @@ export function boothHtml(booth, store) {
   const storeUrl = safeUrl(store?.url);
   const shopUrl = /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(store?.oshenStoreId || '')
     ? `/puma_oshen_wave/shops/${encodeURIComponent(store.oshenStoreId)}/` : '';
-  const linksFor = social => [['fb', 'Facebook'], ['threads', 'Threads'], ['ig', 'Instagram'], ['web', '網站']]
-    .map(([key, label]) => {
+  const linksFor = social => [['fb', 'Facebook', 'facebook.png'], ['threads', 'Threads', 'threads.svg'], ['ig', 'Instagram', 'instagram.svg'], ['web', '官網', 'website.svg']]
+    .map(([key, label, icon]) => {
       const url = safeUrl(social?.[key]);
-      return url ? `<a class="btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${label}</a>` : '';
+      return url ? `<a class="btn yl-social-button" href="${esc(url)}" target="_blank" rel="noopener noreferrer" aria-label="${label}" title="${label}"><img src="/puma_oshen_wave/yilan_taiwan_11_07/assets/buttons/${icon}" width="32" height="32" alt="" decoding="async"></a>` : '';
     }).join('');
   const locationFor = item => {
     if (!item?.address) return '';
@@ -106,10 +106,10 @@ export function boothHtml(booth, store) {
     </div>
     <div class="bo-foot">
       ${socialLinks}
-      ${shopUrl ? `<a class="btn" href="${esc(shopUrl)}">看看地圖</a>` : ''}
       ${storeUrl ? `<a class="btn btn-primary" href="${esc(storeUrl)}" target="_blank" rel="noopener">看攤位</a>` : ''}
       <span class="bo-count muted">${booth.randomSelection ? `本次顯示 ${works.length} / 共 ${Number(booth.total) || 0} 張` : works.length ? `共 ${Number(booth.total) || works.length} 部作品` : ''}</span>
       <div class="bo-share">
+        ${shopUrl ? `<a class="btn" href="${esc(shopUrl)}">看看地圖</a>` : ''}
         <button type="button" class="btn" data-copy-booth="${esc(designerBoothUrl(booth.store))}">複製攤位連結</button>
         <span class="bo-share-status muted" role="status"></span>
       </div>

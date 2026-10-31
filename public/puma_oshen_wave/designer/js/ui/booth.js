@@ -2,7 +2,7 @@
 import { state, markVisited, findBoothIn, toast } from '../state.js';
 import { loadAisle, aisleOfBooth } from '../data.js?v=20261030-site-data';
 import { goToBooth, designerBoothUrl } from '../nav.js?v=20261030-site-data';
-import { boothHtml, loadingHtml, failHtml } from './booth-markup.js';
+import { boothHtml, loadingHtml, failHtml } from './booth-markup.js?v=20261031-social-buttons';
 import { designerRoot, updateDesignerMetadata } from '../routes.js';
 import { retryOriginal } from '../images.js';
 import { loadProducts, sampleProducts } from '../products.js?v=20261030-pinned-work';
