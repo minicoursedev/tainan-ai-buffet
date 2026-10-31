@@ -1170,7 +1170,32 @@
       "category": "暖流食堂",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-46/1.webp?v=dfece7492c06110b",
+          "alt": "阿芳鹹粥－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-46/1.webp?v=dfece7492c06110b",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：856735398_17965043325237354_6414970518380967333_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088492688216124/856735398_17965043325237354_6414970518380967333_n.png?ex=6ae74511&is=6ae5f391&hm=f783dc29fc59bd7770927328e10562e9bca1b425f1bbc4078905e9ea0e155a85&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-46/2.webp?v=15f2ed5bc79e0033",
+          "alt": "阿芳鹹粥－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-46/2.webp?v=15f2ed5bc79e0033",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：726963382_17945308224237354_3963184284220134216_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088494366072862/726963382_17945308224237354_3963184284220134216_n.png?ex=6ae74511&is=6ae5f391&hm=8b38e681b635dbaaacb4d35313b9280ee0621806f8c942ff100d85798e2a7450&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-46/3.webp?v=5b7e93189cf14155",
+          "alt": "阿芳鹹粥－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-46/3.webp?v=5b7e93189cf14155",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：630110949_18105217666838407_3197623623924105486_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088495238221936/630110949_18105217666838407_3197623623924105486_n.png?ex=6ae74511&is=6ae5f391&hm=7681e38ddc70bd1eae3eec43b4c23060ea82cbffa2530f6fbb7bfdc0235e6609&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/AFANGXZ/",
         "ig": "https://www.instagram.com/aefang_yilan/",
