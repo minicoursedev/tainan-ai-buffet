@@ -1010,7 +1010,24 @@
       "category": "暖流食堂",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-39/1.webp?v=978e08454620e33f",
+          "alt": "三千金冬瓜茶/烤鳥蛋－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-39/1.webp?v=978e08454620e33f",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：769000012_1072350122213596_7242041640178932179_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566091216922083478/769000012_1072350122213596_7242041640178932179_n.png?ex=6ae7479a&is=6ae5f61a&hm=c4c48c796746f76460971d52f2f8eb28b2aa9b7ff51ddafc70aaae6016bcca6f&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-39/2.webp?v=5297f03a3a854f82",
+          "alt": "三千金冬瓜茶/烤鳥蛋－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-39/2.webp?v=5297f03a3a854f82",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：709735370_1011397544975521_1946654334428524270_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566091217455030292/709735370_1011397544975521_1946654334428524270_n.png?ex=6ae7479a&is=6ae5f61a&hm=0742c906ae0b3d6f7190347feb5c406cc2fc6747a1fbf112b08175e3349cbdd3&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/100083158540913/",
         "ig": "",
