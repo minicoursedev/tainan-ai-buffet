@@ -1483,7 +1483,32 @@
       "category": "暖心甜點",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-55/1.webp?v=56240d907c89d14d",
+          "alt": "甜聿家米甜品－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-55/1.webp?v=56240d907c89d14d",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：image.png（第 1 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566082950183919687/image.png?ex=6ae73fe7&is=6ae5ee67&hm=537c31ccfa7d9f543355d82f53b8734cb3e9ca93f77a37cebabcd0d68442682e&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-55/2.webp?v=67fda62ca8566005",
+          "alt": "甜聿家米甜品－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-55/2.webp?v=67fda62ca8566005",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：image.png（第 2 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566082951047811072/image.png?ex=6ae73fe7&is=6ae5ee67&hm=d5612e56ee35824c0a1ffc714f7bbf9c27c0dded769c02afcddd4be0da706b26&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-55/3.webp?v=4e8ea1f1041ce2b2",
+          "alt": "甜聿家米甜品－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-55/3.webp?v=4e8ea1f1041ce2b2",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：image.png（第 3 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566082951815364698/image.png?ex=6ae73fe8&is=6ae5ee68&hm=b55d5d9a21f51299afe67ab238f7e41ff03fd5c8534f9c72beec4ca24b2c0fec&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/SweetRiceDessert/",
         "ig": "https://www.instagram.com/sweetricedessert/",
