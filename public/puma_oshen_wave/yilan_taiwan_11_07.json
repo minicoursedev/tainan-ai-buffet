@@ -1209,7 +1209,32 @@
       "category": "暖心甜點",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-48/1.webp?v=2ed3ca8aaf04ceac",
+          "alt": "小山丘－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-48/1.webp?v=2ed3ca8aaf04ceac",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：833763640_18116413664053196_1103976442689864369_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566087615738937345/833763640_18116413664053196_1103976442689864369_n.png?ex=6ae74440&is=6ae5f2c0&hm=b6134d06babc9ccaabc7d0e27e817959c88640d8d55693d18ce05e7e6b6cddac&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-48/2.webp?v=19841d2b0d9c0ee4",
+          "alt": "小山丘－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-48/2.webp?v=19841d2b0d9c0ee4",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：757889269_18110001053053196_1704658019343800516_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566087616116297768/757889269_18110001053053196_1704658019343800516_n.png?ex=6ae74440&is=6ae5f2c0&hm=8ce3f10ea48a4554e4f87814d2865692292f718f66af3c6e5057bef731123914&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-48/3.webp?v=7050835e1985ae67",
+          "alt": "小山丘－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-48/3.webp?v=7050835e1985ae67",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：709863915_18103533266053196_2853631742610354816_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566087616473075822/709863915_18103533266053196_2853631742610354816_n.png?ex=6ae74440&is=6ae5f2c0&hm=28bbc6a6863ccda8aa2842bf4bde9681875ce87dc2023fa78032521ccf9ae8db&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/whatthehill2020/",
         "ig": "https://www.instagram.com/_what.the.hill/",
