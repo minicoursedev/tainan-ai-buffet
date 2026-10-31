@@ -1,13 +1,27 @@
 import {findStar} from './lucky-star.js?v=20261030-site-data';
 import {createShopMap} from './shop-map.js?v=20261031-yilan-place-2';
+import {createShopSearch, findShopsByName} from './shop-search.js?v=20261031-shop-search';
 const byId = id => document.getElementById(id);
-const origin = '22.997137,120.21295';
 const initialPlace = new URL(location.href).searchParams.get('place');
-let shops = [], category = '', selectedId = null;
+let shops = [], category = '', selectedId = null, searchQuery = '';
 let starVersion = 0, displayedStar = null;
 let designers = [], designersLoaded = false, designersLoading = false, shopsLoaded = false;
-const defaultPageTitle = document.title;
 const shopMap = createShopMap({container:byId('all-shops-map'),status:byId('map-status'),onSelect:selectShopFromMap,onPositionsReady:sortByStationDistance});
+const shopSearch = createShopSearch({
+  form:byId('shop-search'), getShops:() => shops,
+  onSearch(query) {
+    searchQuery = query;
+    if (query) category = '';
+    resetMap(); renderCategories(); renderShops(); setView(false);
+    byId('shop-list').scrollTop = 0;
+    return findShopsByName(shops, searchQuery).filter(shop => !category || shop.category === category).length;
+  },
+  onSelect(shop) {
+    searchQuery = shop.name;
+    category = shop.category === '洋流服務站' ? shop.category : '';
+    renderCategories(); renderShops(); selectShop(shop);
+  }
+});
 // Great-circle distance; independent of the selected shop and category.
 function distanceFromStation({lat, lng}) {
   const radians = value => value * Math.PI / 180;
@@ -246,7 +260,7 @@ async function loadDesigners() {
     list.removeAttribute('aria-busy');
   }
 }
-function showMap(name, query, center = false, recenter = true) {
+function showMap(name, center = false, recenter = true) {
   clearLuckyStar();
   if (shopMap.clearPlace()) {
     byId('map-status').textContent = '';
@@ -270,6 +284,7 @@ function updateShopMetadata(shop) {
   for (const [selector, value] of [['meta[name="description"]', description], ['meta[property="og:title"]', title], ['meta[property="og:description"]', description], ['meta[property="og:url"]', canonical]]) document.querySelector(selector).content = value;
 }
 function restoreLinkedShop() {
+  searchQuery = ''; shopSearch.clear();
   const params = new URL(location.href).searchParams;
   const pathId = location.pathname.match(/^\/puma_oshen_wave\/shops\/([^/]+)\/?$/)?.[1];
   const shop = shops.find(shop => shop.id === (params.get('shop') || (pathId && decodeURIComponent(pathId))));
@@ -347,7 +362,7 @@ function resetMap() {
   selectedId = null;
   updateShopMetadata(null);
   showShopList(false);
-  showMap('台南火車站', origin, true);
+  showMap('台南火車站', true);
   const text = node('div');
   text.append(node('h2','我們的洋流地圖'),node('p','在地圖上選擇店家，查看地址並規劃前往路線。'));
   byId('shop-detail').replaceChildren(node('div','↗','start-icon'),text);
@@ -368,7 +383,7 @@ function selectShop(shop, openDetail = true, recenter = true) {
   history.replaceState(null, "", shopUrl(shop.id));
   document.querySelectorAll('.shop-card').forEach(card=>card.setAttribute('data-selected',String(card.dataset.shopId === shop.id)));
   const query = `${shop.address} ${shop.name}`;
-  showMap(shop.name, query, false, recenter);
+  showMap(shop.name, false, recenter);
   const content = node('div',undefined,'detail-content');
   content.dataset.verified = String(shop.verification === true);
   const heading = node('div',undefined,'detail-heading');
@@ -471,15 +486,15 @@ function renderCategories() {
   }));
 }
 function renderShops(page = 0) {
-  const results=shops.filter(s=>!category||s.category===category);
+  const results=findShopsByName(shops, searchQuery).filter(s=>!category||s.category===category);
   shopMap.filter(results.map(shop=>shop.id), category);
   if(selectedId&&!results.some(s=>s.id===selectedId)) resetMap();
   const list=byId('shop-list');
   list.replaceChildren();
   if(!results.length) {
     const empty=node('div',undefined,'empty-state');
-    empty.append(node('strong',shops.length?'還沒找到符合的店家':'店家名單準備中'),node('p',shops.length?'試試其他店別。':'店家加入後，就會出現在這裡。'));
-    if(shops.length){const clear=node('button','清除篩選');clear.type='button';clear.onclick=()=>{category='';resetMap();renderCategories();renderShops();};empty.append(clear);}
+    empty.append(node('strong',shops.length?'還沒找到符合的店家':'店家名單準備中'),node('p',shops.length?'試試其他店名或店別。':'店家加入後，就會出現在這裡。'));
+    if(shops.length){const clear=node('button','清除篩選');clear.type='button';clear.onclick=()=>{category='';searchQuery='';shopSearch.clear();resetMap();renderCategories();renderShops();};empty.append(clear);}
     list.append(empty);return;
   }
   const pageSize = 30;
@@ -531,7 +546,7 @@ async function init(){
       if(!['id','name','address','category'].every(key=>typeof shop[key]==='string'&&shop[key].trim())||ids.has(shop.id))throw new Error('Invalid shop record');
       ids.add(shop.id);
     }
-    shops=data.stores.filter(shop=>shop.disabled!==true);shopsLoaded=true;renderCategories();renderShops();
+    shops=data.stores.filter(shop=>shop.disabled!==true);shopsLoaded=true;shopSearch.enable();renderCategories();renderShops();
     if (!isDesignerRoute()) restoreLinkedShop();
     void shopMap.load(shops).then(ready => {
       byId('lucky-star').disabled = !ready;

@@ -46,11 +46,10 @@ test('joint poster booths have separate booths with their own information', () =
       assert.equal(store.avatar, new URL(source.logo.url, 'https://minicourse.dev/puma_oshen_wave/yilan_taiwan_11_07.json').href);
       for (const url of Object.values(source.social).filter(Boolean)) assert.ok(html.includes(url.replaceAll('&', '&amp;')));
       if (source.address) assert.ok(html.includes(source.address));
+      const expectedImages = (source.productImages || []).map(image => new URL(image.url, 'https://minicourse.dev/puma_oshen_wave/yilan_taiwan_11_07.json').href);
+      assert.deepEqual(booth.works.map(work => work.cover), expectedImages, `${name} must retain its own works in source order`);
     }
   }
-  const wood = record('yilan-20261107-57-b');
-  assert.equal(wood.booth.works.length, 2);
-  assert.equal(record('yilan-20261107-57').booth.works.length, 0);
 });
 test('unidentified booth has no invented social links or avatar', () => {
   const {booth, store} = record('yilan-20261107-40');

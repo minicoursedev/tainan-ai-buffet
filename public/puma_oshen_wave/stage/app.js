@@ -1,7 +1,7 @@
 import { createWalkView } from '../designer/js/walk.js?v=20261028-creator-socials';
 import { toast } from '../designer/js/state.js';
 import { loadCatalogue, createPublicShowcase } from './data.js?v=20261030-site-data';
-import { mountPlayer } from './player.js';
+import { mountPlayer } from './player.js?v=20261031-player-type';
 
 const $ = id => document.getElementById(id);
 const make = (tag, text, className) => {
@@ -355,7 +355,7 @@ async function boot() {
   });
   $('walk-canvas').addEventListener('pointerdown', () => $('hint').classList.add('is-gone'), { once: true });
   window.addEventListener('hashchange', route);
-  window.addEventListener('popstate', event => { if (!location.hash) route(); });
+  window.addEventListener('popstate', () => { if (!location.hash) route(); });
   window.addEventListener('pagehide', stopPlayer);
   route();
 }

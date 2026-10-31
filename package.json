@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
     "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
-    "check": "ASTRO_TELEMETRY_DISABLED=1 astro check && ASTRO_TELEMETRY_DISABLED=1 astro build && node scripts/check-build.mjs && node scripts/test-shop-ssg.mjs && node --test scripts/test-stage.mjs && node scripts/test-stage-ssg.mjs && node --test scripts/test-designer-products.mjs && node scripts/test-designer-ssg.mjs && node --test scripts/test-yilan-market.mjs",
+    "check": "ASTRO_TELEMETRY_DISABLED=1 astro check && ASTRO_TELEMETRY_DISABLED=1 astro build && node scripts/check-build.mjs && node scripts/test-shop-ssg.mjs && node --test scripts/test-shop-search.mjs && node --test scripts/test-stage.mjs && node scripts/test-stage-ssg.mjs && node --test scripts/test-designer-products.mjs && node scripts/test-designer-ssg.mjs && node --test scripts/test-yilan-market.mjs",
     "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview"
   },
   "dependencies": {

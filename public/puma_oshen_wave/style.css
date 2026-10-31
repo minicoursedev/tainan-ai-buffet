@@ -172,3 +172,16 @@ body:has(#share-dialog[open]){overflow:hidden}
 
 .directory-tabs a{display:flex;align-items:center;justify-content:center;text-decoration:none}
 .directory-tabs a:focus-visible{outline:3px solid var(--pink);outline-offset:-3px}
+
+#shop-search{position:relative;display:flex;gap:8px;margin:0 0 12px}
+#shop-search input{flex:1;min-width:0;width:100%;min-height:44px;padding:10px 12px;border:2px solid #ead8d0;border-radius:10px;background:white;color:var(--ink);font:inherit;font-size:16px}
+#shop-search>button{flex:none;min-height:44px;padding:9px 16px;border:0;border-radius:10px;background:var(--pink);color:white;font:inherit;font-weight:800;white-space:nowrap}
+#shop-search :is(input,button):disabled{opacity:.55}
+#shop-search-suggestions{position:absolute;z-index:5;top:100%;left:0;right:0;margin:4px 0 0;padding:4px;list-style:none;max-height:300px;max-height:min(300px,45dvh);overflow-y:auto;overscroll-behavior:contain;background:white;border:1px solid #ead8d0;border-radius:10px;box-shadow:0 6px 18px #48302b26}
+#shop-search-suggestions[hidden]{display:none}
+#shop-search-suggestions li{padding:10px 8px;border-radius:6px;cursor:pointer;overflow-wrap:anywhere}
+#shop-search-suggestions li:is(:hover,[aria-selected=true]){background:var(--cream);outline:2px solid var(--pink);outline-offset:-2px}
+#shop-search-suggestions strong,#shop-search-suggestions small{display:block}
+#shop-search-suggestions strong{font-size:16px;line-height:1.5}
+#shop-search-suggestions small{margin-top:2px;color:#70645f;font-size:13px;line-height:1.5}
+.shop-search-status{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}

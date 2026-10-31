@@ -27,7 +27,7 @@ const canonical = new URL(store ? `/puma_oshen_wave/shops/${encodeURIComponent(s
 <meta property="og:image:alt" content="我們的洋流地圖 — 洋流帶路，讓支持成為日常">
 <link rel="stylesheet" href="/puma_oshen_wave/vendor/leaflet/leaflet.css"><script is:inline defer src="/puma_oshen_wave/vendor/leaflet/leaflet.js"></script>
 <link rel="stylesheet" href="/puma_oshen_wave/vendor/leaflet-markercluster/MarkerCluster.css"><script is:inline defer src="/puma_oshen_wave/vendor/leaflet-markercluster/leaflet.markercluster.js"></script>
-<link rel="stylesheet" href="/puma_oshen_wave/style.css?v=20261031-yilan-market"><script is:inline type="module" src="/puma_oshen_wave/app.js?v=20261031-yilan-place-3"></script>
+<link rel="stylesheet" href="/puma_oshen_wave/style.css?v=20261031-shop-search"><script is:inline type="module" src="/puma_oshen_wave/app.js?v=20261031-shop-search"></script>
 </head>
 <body>
 
@@ -59,7 +59,15 @@ const canonical = new URL(store ? `/puma_oshen_wave/shops/${encodeURIComponent(s
 </section>
 <section class="map-workspace" id="map-area" aria-label="店家清單與地圖">
   <div class="mobile-views" role="group" aria-label="瀏覽方式"><button type="button" id="list-view" aria-pressed="true">店家清單</button><button type="button" id="map-view" aria-pressed="false">查看地圖</button></div>
-  <aside class="shop-panel"><section id="shop-detail" class="shop-detail" hidden={!store} aria-label="選定店家資訊"><slot name="detail" /></section><div id="shop-list" aria-live="polite" hidden={!!store}><slot /></div></aside>
+  <aside class="shop-panel">
+    <form id="shop-search" role="search" aria-label="搜尋商店名稱">
+      <input id="shop-search-input" type="search" placeholder="輸入店名關鍵字" aria-label="商店名稱" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="shop-search-suggestions" autocomplete="off" enterkeyhint="search" disabled>
+      <button type="submit" disabled>搜尋</button>
+      <ul id="shop-search-suggestions" role="listbox" aria-label="店名建議" hidden></ul>
+      <span class="shop-search-status" role="status"></span>
+    </form>
+    <section id="shop-detail" class="shop-detail" hidden={!store} aria-label="選定店家資訊"><slot name="detail" /></section><div id="shop-list" aria-live="polite" hidden={!!store}><slot /></div>
+  </aside>
   <div class="map-column"><div class="map-frame"><div class="map-bar"><div><span class="location-dot" aria-hidden="true"></span><strong id="location-name">台南火車站</strong><span class="map-label">OPENSTREETMAP</span></div><button id="home-map" type="button">我的位置</button></div><div id="lucky-star-message" class="lucky-star-message" hidden><img src="/puma_oshen_wave/assets/lucky-star.png" width="28" height="28" alt=""><p id="lucky-star-text" role="status"></p><button id="close-star" type="button" aria-label="關閉幸運星訊息">×</button></div><div class="map-canvas"><div id="all-shops-map" hidden aria-label="所有店家位置"></div><button id="lucky-star" type="button" disabled title="幸運星" aria-label="幸運星"><img src="/puma_oshen_wave/assets/lucky-star.png" width="34" height="34" alt=""></button></div><p id="map-status" role="status" hidden></p></div></div>
 </section>
 <p class="closing-strip closing-message">一間店、一個地方，讓我們的洋流繼續流動。</p>

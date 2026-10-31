@@ -71,7 +71,7 @@ export function mountPlayer(container, video, {
   return () => {
     alive = false;
     if (youtube) youtube.destroy();
-    if (video.type === 'file') { element.pause(); element.removeAttribute('src'); element.load(); }
+    if (element instanceof HTMLVideoElement) { element.pause(); element.removeAttribute('src'); element.load(); }
     element.remove();
   };
 }
