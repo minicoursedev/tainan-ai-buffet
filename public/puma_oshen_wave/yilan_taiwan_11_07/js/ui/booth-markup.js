@@ -1,5 +1,5 @@
 import { thumbnailUrl } from '../images.js';
-import { designerBoothUrl, designerRoot } from '../routes.js';
+import { designerBoothUrl } from '../routes.js';
 
 const ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ESC[c]);
@@ -48,6 +48,8 @@ function workHtml(w) {
 
 export function boothHtml(booth, store) {
   const storeUrl = safeUrl(store?.url);
+  const shopUrl = /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(store?.oshenStoreId || '')
+    ? `/puma_oshen_wave/shops/${encodeURIComponent(store.oshenStoreId)}/` : '';
   const linksFor = social => [['fb', 'Facebook'], ['threads', 'Threads'], ['ig', 'Instagram'], ['web', '網站']]
     .map(([key, label]) => {
       const url = safeUrl(social?.[key]);
@@ -105,7 +107,7 @@ export function boothHtml(booth, store) {
     </div>
     <div class="bo-foot">
       ${socialLinks}
-      <a class="btn" href="${esc(designerRoot)}#/map/${encodeURIComponent(booth.store)}">看看地圖</a>
+      ${shopUrl ? `<a class="btn" href="${esc(shopUrl)}">看看地圖</a>` : ''}
       ${storeUrl ? `<a class="btn btn-primary" href="${esc(storeUrl)}" target="_blank" rel="noopener">看攤位</a>` : ''}
       <span class="bo-count muted">${booth.randomSelection ? `本次顯示 ${works.length} / 共 ${Number(booth.total) || 0} 張` : works.length ? `共 ${Number(booth.total) || works.length} 部作品` : ''}</span>
       <div class="bo-share">

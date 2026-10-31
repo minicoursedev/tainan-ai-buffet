@@ -1,11 +1,11 @@
 // Boot and wiring: header, dock, walk view, dialogs, list and map pages, routes (#/walk/<aisle or booth>, #/list, #/map).
 import { state, on, emit, visitedCount, toast } from './state.js?v=20261031-yilan-zones';
-import { loadIndex, aisleOfBooth, loadBoothForDesigner } from './data.js?v=20261031-yilan-zones';
-import { goToAisle } from './nav.js?v=20261031-yilan-zones';
+import { loadIndex, aisleOfBooth, loadBoothForDesigner } from './data.js?v=20261031-oshen-shop';
+import { goToAisle } from './nav.js?v=20261031-oshen-shop';
 import { createWalkView } from './walk.js?v=20261031-poster-colors';
-import { openBooth } from './ui/booth.js?v=20261031-market-map';
-import { mountMap } from './ui/map.js?v=20261031-market-map-2';
-import { mountList } from './ui/list.js?v=20261031-market-map';
+import { openBooth } from './ui/booth.js?v=20261031-oshen-shop';
+import { mountMap } from './ui/map.js?v=20261031-oshen-shop';
+import { mountList } from './ui/list.js?v=20261031-oshen-shop';
 import { loadSchedule, isClosed, closeTagText, msLeft, lastOpenLabel } from './schedule.js?v=20261031-yilan-zones';
 import { loadCats, loadChatter } from './cats.js?v=20261031-yilan-zones';
 import { showClosed } from './ui/closed.js?v=20261031-yilan-zones';

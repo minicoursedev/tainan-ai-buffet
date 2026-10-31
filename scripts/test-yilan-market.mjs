@@ -46,7 +46,6 @@ test('joint poster booths have separate booths with their own information', () =
       assert.equal(store.avatar, new URL(source.logo.url, 'https://minicourse.dev/puma_oshen_wave/yilan_taiwan_11_07.json').href);
       for (const url of Object.values(source.social).filter(Boolean)) assert.ok(html.includes(url.replaceAll('&', '&amp;')));
       if (source.address) assert.ok(html.includes(source.address));
-      assert.ok(html.includes(`#/map/${id}`));
     }
   }
   const wood = record('yilan-20261107-57-b');
@@ -64,8 +63,31 @@ test('profile links and routes stay within the Yilan market', () => {
   const path = designerPath(id);
   assert.equal(path, `/puma_oshen_wave/yilan_taiwan_11_07/profiles/${id}/`);
   assert.deepEqual(resolveDesignerRoute(new URL(path, 'https://minicourse.dev'), {boot:true}), {mode:'designer', target:id});
-  const {booth, store} = record(id);
-  const html = boothHtml(booth, store);
-  assert.ok(html.includes(`href="/puma_oshen_wave/yilan_taiwan_11_07/#/map/${id}">看看地圖</a>`));
   assert.deepEqual(resolveDesignerRoute(new URL(`/puma_oshen_wave/yilan_taiwan_11_07/#/map/${id}`, 'https://minicourse.dev'), {boot:true}), {mode:'map', target:id, then:undefined});
+});
+test('map buttons open the mapped Oshen shop page only when a shop exists', () => {
+  const shops = JSON.parse(readFileSync(new URL('../public/puma_oshen_wave/stores.json', import.meta.url))).stores;
+  for (const designer of data.designers) {
+    const {booth, store} = record(designer.id);
+    const html = boothHtml(booth, store);
+    if (designer.oshenStoreId) {
+      assert.ok(shops.some(shop => shop.id === designer.oshenStoreId && shop.disabled !== true), `${designer.name} must have an active Oshen shop`);
+      assert.ok(html.includes(`href="/puma_oshen_wave/shops/${designer.oshenStoreId}/">看看地圖</a>`));
+    } else {
+      assert.doesNotMatch(html, /看看地圖/);
+    }
+    assert.doesNotMatch(html, /href="[^"]*#\/map/);
+  }
+  for (const [marketId, shopId] of [
+    ['yilan-20261107-05', 'yilan-20261107-05'],
+    ['yilan-20261107-56', 'sabisabi-tainan'],
+    ['yilan-20261107-57', 'yilan-20261107-57-a'],
+    ['yilan-20261107-57-b', 'yilan-20261107-57-b'],
+  ]) assert.equal(record(marketId).store.oshenStoreId, shopId);
+});
+test('invalid shop ids cannot become map links', () => {
+  const {booth, store} = record('yilan-20261107-05');
+  for (const oshenStoreId of ['../elsewhere', 'https://example.com', 'bad" onclick="alert(1)']) {
+    assert.doesNotMatch(boothHtml(booth, {...store, oshenStoreId}), /看看地圖/);
+  }
 });
