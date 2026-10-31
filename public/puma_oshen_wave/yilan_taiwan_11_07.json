@@ -40,7 +40,32 @@
       "category": "暖心日常",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-02/1.webp?v=5c0d99e23f268880",
+          "alt": "森本屋－使用者提供作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-02/1.webp?v=5c0d99e23f268880",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：2026-10-31_2.22.28.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565974510425997342/2026-10-31_2.22.28.png?ex=6ae6dae9&is=6ae58969&hm=00e59f6a428483d97b71229fb08e869b2c569a3a25c0d7d6ea4bda42db584361&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-02/2.webp?v=6dc1abf53a417fe0",
+          "alt": "森本屋－使用者提供作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-02/2.webp?v=6dc1abf53a417fe0",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：2026-10-31_2.23.00.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565974510832984146/2026-10-31_2.23.00.png?ex=6ae6dae9&is=6ae58969&hm=e520cb982b90551a534631a12736ab8d71fd029d091d9be9efeff8718f00bc31&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-02/3.webp?v=28759d6aef8908b8",
+          "alt": "森本屋－使用者提供作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-02/3.webp?v=28759d6aef8908b8",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：2026-10-31_2.23.12.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565974511256477736/2026-10-31_2.23.12.png?ex=6ae6dae9&is=6ae58969&hm=f13168eed1482fb85861bc1582b3bb448c2f9ec6364665709c3aa3ce4d18164d&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/profile.php?id=61572175033854",
         "ig": "https://www.instagram.com/yilanbookforest/",
