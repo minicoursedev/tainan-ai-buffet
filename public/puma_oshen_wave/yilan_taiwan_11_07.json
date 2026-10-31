@@ -1751,7 +1751,32 @@
       "category": "暖心甜點",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/1.webp?v=15decd86fcc0e86b",
+          "alt": "遊牧仕事麵包工作室作品照片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/1.webp?v=15decd86fcc0e86b",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566044540350238740/689969838_17934854085250739_310847763532253147_n.png?ex=6ae71c22&is=6ae5caa2&hm=980ddaa4ffa0772c951994d1f5872806d7817d8dc32a5ccc4ecaefecaea5dfee&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/2.webp?v=4e9ad53a7bd4f430",
+          "alt": "遊牧仕事麵包工作室作品照片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/2.webp?v=4e9ad53a7bd4f430",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566044542002532432/806466455_17955804810250739_8034387160325257035_n.png?ex=6ae71c22&is=6ae5caa2&hm=5d66fbf4d5cf9d2d7189379d3414bfe27f10eec38cd3e973fd455610eed2fd62&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/3.webp?v=51186d46e8a53c1d",
+          "alt": "遊牧仕事麵包工作室作品照片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/3.webp?v=51186d46e8a53c1d",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566044544150020147/789523323_17953616961250739_8911990144326571376_n.png?ex=6ae71c23&is=6ae5caa3&hm=84cef19346e40170f1c23accc29fbe8e8c75d1d0e1d87fbb5877029089790b1b&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/61577712805626/",
         "ig": "https://www.instagram.com/yuuboku_shigoto/",
@@ -1782,7 +1807,32 @@
       "category": "暖心甜點",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-60/1.webp?v=aab4be507d95facf",
+          "alt": "初白時光作品照片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-60/1.webp?v=aab4be507d95facf",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566043177532530868/793580749_17898919590596129_1213142256810631095_n.png?ex=6ae71add&is=6ae5c95d&hm=e560fc34f1b60f9a4118baff823fcb190dcec3bf646007cd0e8d660e7ea8ecf6&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-60/2.webp?v=07b15677bde33a35",
+          "alt": "初白時光作品照片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-60/2.webp?v=07b15677bde33a35",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566043179575279616/knw2mjqnobh18gkp66i7.png?ex=6ae71add&is=6ae5c95d&hm=0f2d68041c0cb40375fc1916d0c413c633775f44728b306a460f310ed19cb5b6&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-60/3.webp?v=0c31595264fadd4b",
+          "alt": "初白時光作品照片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-60/3.webp?v=0c31595264fadd4b",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566043180888105081/765553851_17893772049596129_596691837905491557_n.png?ex=6ae71add&is=6ae5c95d&hm=f38d71533acd88fd62435bf016f914c246e8e8c7d05d4eaa53cb9a6ed97c2e05&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/61590502141774/",
         "ig": "https://www.instagram.com/moment.of.white/",
