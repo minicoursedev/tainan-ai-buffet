@@ -1092,7 +1092,24 @@
       "category": "暖流食堂",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-43/1.webp?v=350268811b0426d3",
+          "alt": "樂生田－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-43/1.webp?v=350268811b0426d3",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：2026-10-31_9.59.18.png；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566089372506259566/2026-10-31_9.59.18.png?ex=6ae745e2&is=6ae5f462&hm=6f9305e36eb8e1ceb932ba12a9faf0bf484eed946610fc156e46e4678687ddbb&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-43/2.webp?v=2c8d91a15fb937d9",
+          "alt": "樂生田－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-43/2.webp?v=2c8d91a15fb937d9",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：2026-10-31_9.59.51.png；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566089372879822990/2026-10-31_9.59.51.png?ex=6ae745e3&is=6ae5f463&hm=ab959b1cfb0682353368b64cbdedfb498bd36afcfdd81300d931de110f01ce83&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/loksengtshan/",
         "ig": "https://www.instagram.com/barkingblue/",
