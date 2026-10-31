@@ -1,0 +1,15 @@
+.yilan-event { padding: 9px 16px; text-align: center; background: #fff4d8; color: #533b28; font-size: 14px; line-height: 1.5; }
+.yilan-event a { color: inherit; font-weight: 700; white-space: nowrap; }
+.yl-partners { display: grid; gap: 16px; }
+.yl-partner { padding: 12px; border: 1px solid #e4d7c8; border-radius: 12px; }
+.yl-partner-heading { display: flex; align-items: center; gap: 10px; }
+.yl-partner-heading img { width: 42px; height: 42px; object-fit: cover; border-radius: 8px; }
+.yl-partner-heading h3 { margin: 0; }
+.yl-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.yl-address, .yl-location-note { margin: 10px 0; line-height: 1.5; overflow-wrap: anywhere; }
+.yl-location-note { font-size: 12px; color: #62594f; }
+.app { grid-template-rows: auto auto minmax(0, 1fr) auto; }
+.yilan-event { grid-row: 2; }
+.app > main { grid-row: 3; }
+.app-footer { grid-row: 4; }
+.yl-address a { display: inline-block; }
