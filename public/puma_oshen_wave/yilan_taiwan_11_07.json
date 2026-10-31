@@ -1271,7 +1271,32 @@
       "category": "暖心甜點",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-50/1.webp?v=abe1f72297f07fd2",
+          "alt": "宜蘭員山蘇菲亞貝果－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-50/1.webp?v=abe1f72297f07fd2",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：860414330_1601362105125427_9184700830188386922_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566082260757643344/860414330_1601362105125427_9184700830188386922_n.png?ex=6ae73f43&is=6ae5edc3&hm=eac68e1c793ce488f1ab54249af2cfb87fdd1d5956d2d579ebc93b1f8ff7c8a5&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-50/2.webp?v=c2f29c7c6ebed5c1",
+          "alt": "宜蘭員山蘇菲亞貝果－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-50/2.webp?v=c2f29c7c6ebed5c1",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：861709469_1601363605125277_7191087266251967009_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566082261483266088/861709469_1601363605125277_7191087266251967009_n.png?ex=6ae73f43&is=6ae5edc3&hm=ba6fa35b52b3ce3b4a8027b8b1fa4089f265d5e7d1683862ad68e12e10e6f2b7&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-50/3.webp?v=6b1a15bc171da108",
+          "alt": "宜蘭員山蘇菲亞貝果－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-50/3.webp?v=6b1a15bc171da108",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：728503550_1490004369594535_8791867822165687433_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566082262351614073/728503550_1490004369594535_8791867822165687433_n.png?ex=6ae73f43&is=6ae5edc3&hm=8a613bdba581fb1417f7de2b024b71872ddcd168427a1a7f828b6eaf829a7eec&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/freshsophiabagel/",
         "ig": "",
