@@ -86,7 +86,7 @@ export function boothHtml(booth, store) {
         <p class="bo-owner">${store?.owner ? `攤商 ${esc(store.owner)}` : ''}</p>
         <p class="bo-meta">
           <span class="tag mono">${esc(booth.id)}</span>
-          ${where.map((t, i) => `<span class="tag${i === 0 ? ' tag-zone' : ''}">${esc(t)}</span>`).join('')}
+          ${where.map((t, i) => `<span class="tag${i === 0 ? ' tag-zone' : ''}" data-category="${esc(t)}">${esc(t)}</span>`).join('')}
           ${store?.corp ? '<span class="tag bo-corp">法人</span>' : ''}
         </p>
       </div>

@@ -1,4 +1,19 @@
-.yilan-event { padding: 9px 16px; text-align: center; background: #fff4d8; color: #533b28; font-size: 14px; line-height: 1.5; }
+/* 宜蘭暖流海報：米白紙色、朱橘與山綠；四區保留海報識別色。 */
+:root {
+  --ink: #56342e;
+  --paper: #fffdfb;
+  --paper-2: #fbf5f1;
+  --pink: #eb4b20;
+  --pink-soft: #ffebe1;
+  --pink-ink: #9f3118;
+  --green: #18a44a;
+  --green-deep: #087334;
+  --green-soft: #e7f3e5;
+  --line: #e5c9b8;
+  --muted: #725b52;
+  --tone: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='6'%3E%3Ccircle cx='3' cy='3' r='1.15' fill='%2318a44a' fill-opacity='.25'/%3E%3C/svg%3E");
+}
+.yilan-event { padding: 9px 16px; text-align: center; background: #f6e4d7; color: #713b2e; font-size: 14px; line-height: 1.5; }
 .yilan-event a { color: inherit; font-weight: 700; white-space: nowrap; }
 .yl-partners { display: grid; gap: 16px; }
 .yl-partner { padding: 12px; border: 1px solid #e4d7c8; border-radius: 12px; }
@@ -13,3 +28,15 @@
 .app > main { grid-row: 3; }
 .app-footer { grid-row: 4; }
 .yl-address a { display: inline-block; }
+
+/* The category markers mirror the coloured dots on the poster. */
+.mp-zone[data-zone="Z01"], .mp-zone-h[data-zone="Z01"], .lc[data-category="暖心日常"], .tag-zone[data-category="暖心日常"] { --zone-color: #86c143; --zone-tint: #f0f7e9; }
+.mp-zone[data-zone="Z02"], .mp-zone-h[data-zone="Z02"], .lc[data-category="台派創集"], .tag-zone[data-category="台派創集"] { --zone-color: #9d9d9d; --zone-tint: #f2f1f0; }
+.mp-zone[data-zone="Z03"], .mp-zone-h[data-zone="Z03"], .lc[data-category="暖流食堂"], .tag-zone[data-category="暖流食堂"] { --zone-color: #d8a08d; --zone-tint: #fbf0eb; }
+.mp-zone[data-zone="Z04"], .mp-zone-h[data-zone="Z04"], .lc[data-category="暖心甜點"], .tag-zone[data-category="暖心甜點"] { --zone-color: #a292b1; --zone-tint: #f3eff6; }
+.mp-zone[data-zone] { border: 2px solid var(--zone-color, var(--line)); background-color: var(--zone-tint, var(--paper)); }
+.mp-zone[data-zone] b::before { content: ''; display: inline-block; width: .7em; height: .7em; margin-right: .4em; border-radius: 50%; background: var(--zone-color); }
+.mp-zone-h[data-zone] { border-bottom-color: var(--zone-color, var(--line)); }
+.lc[data-category] { border-top: 4px solid var(--zone-color, var(--line)); }
+.tag-zone[data-category] { border-color: var(--zone-color, var(--line)); background: var(--zone-tint, var(--paper)); color: var(--ink); }
+.plaque { background: #bf3b1d; }

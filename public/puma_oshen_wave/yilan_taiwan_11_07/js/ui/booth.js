@@ -2,7 +2,7 @@
 import { state, markVisited, findBoothIn, toast } from '../state.js?v=20261031-yilan-zones';
 import { loadAisle, aisleOfBooth } from '../data.js?v=20261031-yilan-zones';
 import { goToBooth, designerBoothUrl } from '../nav.js?v=20261031-yilan-zones';
-import { boothHtml, loadingHtml, failHtml } from './booth-markup.js';
+import { boothHtml, loadingHtml, failHtml } from './booth-markup.js?v=20261031-poster-colors';
 import { designerRoot, updateDesignerMetadata } from '../routes.js';
 import { retryOriginal } from '../images.js';
 import { loadProducts, sampleProducts } from '../products.js?v=20261031-yilan-zones';

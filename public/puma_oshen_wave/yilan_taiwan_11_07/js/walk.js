@@ -613,7 +613,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     list.push(null);
     list.sort((a, b) => (a ? a.y : player.y) - (b ? b.y : player.y));
     const cloths = [GREEN_SOFT, PAPER2, PINK_SOFT];
-    const glowColors = [PINK, '#4fe590', '#39d9ff'];
+    const glowColors = [PINK, '#86c143', '#a292b1'];
     for (const n of list) {
       if (n && n.cat) drawCat(n);
       else if (n) person(n.x, n.y, n.s, cloths[n.cloth], n.dir, n.phase, n.pause <= 0 && !reduce.matches, n.bag ? PAPER : null, 2, glowColors[n.cloth]);

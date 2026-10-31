@@ -3,7 +3,7 @@
 import { state, toast, findBoothIn } from '../state.js?v=20261031-yilan-zones';
 import { loadSearch, loadAisle, aisleOfBooth } from '../data.js?v=20261031-yilan-zones';
 import { goToBooth } from '../nav.js?v=20261031-yilan-zones';
-import { openBooth } from './booth.js?v=20261031-yilan-zones';
+import { openBooth } from './booth.js?v=20261031-poster-colors';
 import { thumbnailUrl, retryOriginal } from '../images.js';
 
 const PAGE = 60;
@@ -109,7 +109,7 @@ export function mountList(container) {
 
   function cardHtml(r) {
     const where = r.zone;
-    return `<article class="lc" data-id="${esc(r.id)}">
+    return `<article class="lc" data-id="${esc(r.id)}" data-category="${esc(r.zone)}">
       <div class="lc-heading"><span class="lc-logo lc-cv" aria-hidden="true"></span><h3 class="lc-name"><button type="button" class="lc-open">${esc(r.store)}</button></h3></div>
       <div class="lc-covers" aria-hidden="true"></div>
       <div class="lc-meta"><span class="lc-id mono">${esc(r.id)}</span>${r.type ? `<span class="lc-type">${esc(r.type)}</span>` : ''}</div>

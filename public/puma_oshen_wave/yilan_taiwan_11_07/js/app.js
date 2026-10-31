@@ -2,10 +2,10 @@
 import { state, on, emit, visitedCount, toast } from './state.js?v=20261031-yilan-zones';
 import { loadIndex, aisleOfBooth, loadBoothForDesigner } from './data.js?v=20261031-yilan-zones';
 import { goToAisle } from './nav.js?v=20261031-yilan-zones';
-import { createWalkView } from './walk.js?v=20261031-yilan-zones';
-import { openBooth } from './ui/booth.js?v=20261031-yilan-zones';
+import { createWalkView } from './walk.js?v=20261031-poster-colors';
+import { openBooth } from './ui/booth.js?v=20261031-poster-colors';
 import { mountMap } from './ui/map.js?v=20261031-yilan-zones';
-import { mountList } from './ui/list.js?v=20261031-yilan-zones';
+import { mountList } from './ui/list.js?v=20261031-poster-colors';
 import { loadSchedule, isClosed, closeTagText, msLeft, lastOpenLabel } from './schedule.js?v=20261031-yilan-zones';
 import { loadCats, loadChatter } from './cats.js?v=20261031-yilan-zones';
 import { showClosed } from './ui/closed.js?v=20261031-yilan-zones';
