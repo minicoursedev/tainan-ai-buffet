@@ -58,3 +58,6 @@
   .yl-cover-content { padding: 18px 20px 22px; }
   .yl-cover-details { margin-top: 12px; }
 }
+
+.yl-organizers { display: block; font-size: 12px; }
+.yl-cover-organizers { margin: -8px 0 18px; color: #725b52; font-size: 13px; line-height: 1.5; text-wrap: balance; }

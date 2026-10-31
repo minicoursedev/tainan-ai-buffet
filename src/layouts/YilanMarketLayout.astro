@@ -1,6 +1,7 @@
 ---
 import { designers, designerRoot, designerPath } from '../lib/yilan-market';
 import { boothHtml } from '../../public/puma_oshen_wave/yilan_taiwan_11_07/js/ui/booth-markup.js';
+import market from '../../public/puma_oshen_wave/yilan_taiwan_11_07.json';
 interface Props { designerId?: string }
 const designer = designers.find(profile => profile.id === Astro.props.designerId);
 const title = designer ? `${designer.name}｜宜蘭暖流・台派市集` : '宜蘭暖流・台派市集';
@@ -38,7 +39,7 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/map.css">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/list.css?v=20261026-video3">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/closed.css">
-<link rel="stylesheet" href="/puma_oshen_wave/yilan_taiwan_11_07/market.css?v=20261031-market-cover-2">
+<link rel="stylesheet" href="/puma_oshen_wave/yilan_taiwan_11_07/market.css?v=20261031-organizers">
 </head>
 <body>
 <div class="app">
@@ -56,7 +57,7 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
     <a class="link-btn back-to-map" href="/puma_oshen_wave/">返回地圖</a>
   </header>
 
-  <div class="yilan-event">11 月 7 日（六）15:00–19:00・羅東後火車站旁廣場・以下為線上虛擬攤位 <a href="/puma_oshen_wave/?place=yilan-20261107#map-area">查看地點</a></div>
+  <div class="yilan-event">11 月 7 日（六）15:00–19:00・羅東後火車站旁廣場・以下為線上虛擬攤位 <a href="/puma_oshen_wave/?place=yilan-20261107#map-area">查看地點</a><span class="yl-organizers">主辦單位：{market.market.organizers.join('、')}</span></div>
   <main class="stage" id="stage-walk" hidden>
     <canvas id="walk-canvas" tabindex="0" aria-label="逛場子畫面：按住拖著小人走，點攤位即可查看介紹"></canvas>
     <button type="button" class="where" id="btn-where"><b id="where-hall">宜蘭暖流市集</b><span id="where-aisle"></span><span class="where-switch">換館</span></button>
@@ -85,6 +86,7 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
     <h1 id="yl-cover-title">宜蘭暖流<br><span>台派市集</span></h1>
     <p id="yl-cover-description" class="yl-cover-details">11 月 7 日（六）15:00–19:00<br>羅東後火車站旁廣場</p>
     <p class="yl-cover-subtitle">60 個攤位，一起逛市集。</p>
+    <p class="yl-cover-organizers">主辦單位：{market.market.organizers.join('、')}</p>
     <button class="yl-cover-enter" type="button">進入市集 <span aria-hidden="true">→</span></button>
   </div>
 </dialog>
