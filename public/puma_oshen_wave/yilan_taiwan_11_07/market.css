@@ -28,7 +28,7 @@
 .app > main { grid-row: 3; }
 .app-footer { grid-row: 4; }
 .yl-address a { display: inline-block; }
-.bo-foot { padding-block: 6px; row-gap: 6px; }
+.bo-foot { padding-block: 6px; row-gap: 4px; }
 .bo-foot .btn { min-height: 32px; padding-block: 2px; }
 .bo-share { display: grid; grid-template-columns: max-content max-content; gap: 6px 8px; }
 .bo-share .btn { padding-inline: clamp(4px, 2vw, 16px); }
@@ -36,11 +36,11 @@
 .bo-share-status:empty { display: none; }
 /* Official marks remain unaltered, with at least half a mark of clear space. */
 .bo-foot .yl-social-button, .yl-links .yl-social-button {
-  flex: none; width: 68px; height: 68px; min-height: 68px; padding: 18px;
+  flex: none; width: 44px; height: 44px; min-height: 44px; padding: 12px;
   border: 0; border-radius: 8px; box-shadow: none;
   background: #fff url('./assets/buttons/button-background.png') center / 100% 100% no-repeat;
 }
-.yl-social-button img { display: block; width: 32px; height: 32px; object-fit: contain; }
+.yl-social-button img { display: block; width: 20px; height: 20px; object-fit: contain; }
 .yl-social-button:active:not(:disabled) { transform: none; box-shadow: none; }
 .yl-social-button:hover { outline: 2px solid var(--green-deep); outline-offset: 2px; }
 

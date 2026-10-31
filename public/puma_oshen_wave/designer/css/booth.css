@@ -77,17 +77,17 @@ a.bo-more:focus-visible { outline: 3px solid var(--pink); outline-offset: 2px; }
 .bo-also-item .mono { flex: none; font-size: 12px; }
 
 .bo-foot {
-  flex: none; display: flex; align-items: center; gap: 6px 12px; flex-wrap: wrap;
+  flex: none; display: flex; align-items: center; gap: 4px 8px; flex-wrap: wrap;
   padding: 6px 16px; border-top: 2px solid var(--line); background: var(--paper-2);
 }
 .bo-foot .btn { min-height: 32px; padding-block: 2px; }
 /* Reuse the market's unaltered official marks and approved button artwork. */
 .bo-foot .bo-social-button {
-  flex: none; width: 68px; height: 68px; min-height: 68px; padding: 18px;
+  flex: none; width: 44px; height: 44px; min-height: 44px; padding: 12px;
   border: 0; border-radius: 8px; box-shadow: none;
   background: #fff url('../../yilan_taiwan_11_07/assets/buttons/button-background.png') center / 100% 100% no-repeat;
 }
-.bo-social-button img { display: block; width: 32px; height: 32px; object-fit: contain; }
+.bo-social-button img { display: block; width: 20px; height: 20px; object-fit: contain; }
 .bo-social-button:active:not(:disabled) { transform: none; box-shadow: none; }
 .bo-social-button:hover { outline: 2px solid var(--green-deep); outline-offset: 2px; }
 .bo-count { margin-left: auto; font-size: 13px; }
