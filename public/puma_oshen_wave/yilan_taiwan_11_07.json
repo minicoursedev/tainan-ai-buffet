@@ -1123,7 +1123,32 @@
       "category": "暖流食堂",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-44/1.webp?v=ab0f151b2685abbc",
+          "alt": "HAHADOGS－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-44/1.webp?v=ab0f151b2685abbc",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供的 Discord 附件，依附件順序追加第 1 張；原始附件檔名：731787408_18115211242759221_7588984953842814578_n.png。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088978405523526/731787408_18115211242759221_7588984953842814578_n.png?ex=6ae74584&is=6ae5f404&hm=3f9c0185d9db2b7b5c77d1a5e8c88b3ed2d90dd7962097d6494f6aa916af6927&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-44/2.webp?v=5f2fb048026e3e40",
+          "alt": "HAHADOGS－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-44/2.webp?v=5f2fb048026e3e40",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供的 Discord 附件，依附件順序追加第 2 張；原始附件檔名：724164275_18057647153562175_3255471340266593024_n.png。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088979168624740/724164275_18057647153562175_3255471340266593024_n.png?ex=6ae74585&is=6ae5f405&hm=b1cde1181e2da5a1e5ded489cc7d1652a578bd9cfdd543d857cd27a677afbb9f&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-44/3.webp?v=c9801633ac821eef",
+          "alt": "HAHADOGS－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-44/3.webp?v=c9801633ac821eef",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供的 Discord 附件，依附件順序追加第 3 張；原始附件檔名：722809900_18057647162562175_583747416321521711_n.png。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088979764219924/722809900_18057647162562175_583747416321521711_n.png?ex=6ae74585&is=6ae5f405&hm=e94df04e0b8f9fb672ab72da80e8559f9d3706d2c95a81655943d2b95168d9a0&"
+        }
+      ],
       "social": {
         "fb": "",
         "ig": "https://www.instagram.com/_hahadogss/",
