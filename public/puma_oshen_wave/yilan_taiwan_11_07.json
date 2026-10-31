@@ -1240,7 +1240,32 @@
       "category": "暖心甜點",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-49/1.webp?v=86af3db338fe72c7",
+          "alt": "實樸生活－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-49/1.webp?v=86af3db338fe72c7",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：834317527_17959863834231165_1584137054887979576_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566087273810890903/834317527_17959863834231165_1584137054887979576_n.png?ex=6ae743ee&is=6ae5f26e&hm=53337555f65c89fd7852a44e92e443da5024ed4956036a6838df1266940e9162&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-49/2.webp?v=48979f230f52bceb",
+          "alt": "實樸生活－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-49/2.webp?v=48979f230f52bceb",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：843103546_17959863831231165_1674487712001313468_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566087275190812813/843103546_17959863831231165_1674487712001313468_n.png?ex=6ae743ee&is=6ae5f26e&hm=2c98f78cec0aea13b101f85167416b259b091151b04da7e57e281554e640216c&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-49/3.webp?v=c6ba62f27c0dfb3a",
+          "alt": "實樸生活－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-49/3.webp?v=c6ba62f27c0dfb3a",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：799676901_17956244784231165_4064420148160650396_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566087276218421248/799676901_17956244784231165_4064420148160650396_n.png?ex=6ae743ef&is=6ae5f26f&hm=392db2f8f9ccd14a3a0cb0720f1f3ad979885eedf16ae52d2a08580098171f0a&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/profile.php?id=61562239195403",
         "ig": "https://www.instagram.com/family_earthy_shop/",
