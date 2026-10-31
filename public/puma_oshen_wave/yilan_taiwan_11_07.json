@@ -226,7 +226,7 @@
         "fb": "https://www.facebook.com/Daujiang2021/",
         "ig": "https://www.instagram.com/daujiang2200/",
         "threads": "",
-        "web": ""
+        "web": "https://eco.my1shop.com/dousu"
       },
       "logo": {
         "url": "./assets/yilan-20261107-09/logo.webp",
@@ -242,7 +242,8 @@
         "lat": 24.6634276,
         "lng": 121.6346756
       },
-      "locationSource": "https://www.google.com/maps/place/島匠商行/@24.6634276,121.6346756,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e149c4adadcb:0x463c07605918b499!8m2!3d24.6634276!4d121.6346756!16s%2Fg%2F11vqnmxx18"
+      "locationSource": "https://www.google.com/maps/place/島匠商行/@24.6634276,121.6346756,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e149c4adadcb:0x463c07605918b499!8m2!3d24.6634276!4d121.6346756!16s%2Fg%2F11vqnmxx18",
+      "socialNote": "網站欄為 Google 地圖所連結的島匠商行訂購頁（eco.tw/dousu 導向）。"
     },
     {
       "id": "yilan-20261107-10",
