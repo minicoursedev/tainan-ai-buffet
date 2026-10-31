@@ -57,8 +57,7 @@ export function boothHtml(booth, store) {
     }).join('');
   const locationFor = item => {
     if (!item?.address) return '';
-    const url = safeUrl(item.locationSource);
-    return `<p class="yl-address">地址：${esc(item.address)} ${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">地圖</a>` : ''}</p>${item.locationNote ? `<p class="yl-location-note">${esc(item.locationNote.replace(/地址來源：https?:\/\/\S+$/, ''))}</p>` : ''}`;
+    return `<p class="yl-address">地址：${esc(item.address)}</p>${item.locationNote ? `<p class="yl-location-note">${esc(item.locationNote.replace(/地址來源：https?:\/\/\S+$/, ''))}</p>` : ''}`;
   };
   const partners = Array.isArray(store?.partners) ? store.partners : [];
   const socialLinks = partners.length ? '' : linksFor(store?.social);
