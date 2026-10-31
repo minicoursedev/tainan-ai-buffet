@@ -705,7 +705,7 @@
     },
     {
       "id": "yilan-20261107-31",
-      "name": "熱血 x 石毛",
+      "name": "熱血",
       "category": "台派創集",
       "disabled": false,
       "verification": false,
@@ -716,56 +716,42 @@
         "threads": "https://www.threads.com/@hot_write",
         "web": "https://linktr.ee/hot_write"
       },
-      "partners": [
-        {
-          "name": "熱血",
-          "social": {
-            "fb": "",
-            "ig": "https://www.instagram.com/hot_write/",
-            "threads": "https://www.threads.com/@hot_write",
-            "web": "https://linktr.ee/hot_write"
-          },
-          "logo": {
-            "url": "./assets/yilan-20261107-31/logo-a.webp",
-            "source": "https://www.instagram.com/hot_write/",
-            "platform": "instagram",
-            "status": "verified",
-            "checkedAt": "2026-10-31",
-            "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
-            "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/109824775_3131736223559609_3354157363000949849_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=109&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=_F9D90k71OkQ7kNvwGM04LW&_nc_oc=Adp9eXQJDjoAR793GIgnJTFttg6Py4Zrjqfjr28ukLgiGlYYi2eFfFs1c1DVKarAE9g&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQScYGuhxCfBUl6Cf4a1AVt9-7F6HPMoZjZbfBB_82oO8A&oe=6AEAAC42"
-          },
-          "socialNote": "網站欄為品牌 Instagram 直接連結的 Linktree 官方連結頁。"
-        },
-        {
-          "name": "石毛",
-          "social": {
-            "fb": "",
-            "ig": "https://www.instagram.com/shumao_write/",
-            "threads": "https://www.threads.com/@shumao_write",
-            "web": ""
-          },
-          "logo": {
-            "url": "./assets/yilan-20261107-31/logo-b.webp",
-            "source": "https://www.instagram.com/shumao_write/",
-            "platform": "instagram",
-            "status": "verified",
-            "checkedAt": "2026-10-31",
-            "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
-            "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/257467092_678003666939012_1415787509739386402_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=p7e2UCpScDQQ7kNvwGwsnPe&_nc_oc=AdrPeEYQEHJ80JgkI_8HnCdNOnO7BHT0SY5SU3VvgCf8XOyEazdVs8mPWoPfFlOQwZw&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQTHALLBpkl-StYKiXpBWs0S4d2Ze-2_0vVJ71PwxpSXcA&oe=6AEAC02D"
-          },
-          "socialNote": "2026-10-31 查核 Instagram 個人頁，當時未列外部網站；不代表沒有官網。"
-        }
-      ],
       "logo": {
         "url": "./assets/yilan-20261107-31/logo-a.webp",
         "source": "https://www.instagram.com/hot_write/",
         "platform": "instagram",
         "status": "verified",
         "checkedAt": "2026-10-31",
-        "note": "共同攤位暫用熱血的 Instagram 頭像代表；各品牌頭像均列於 partners。",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/109824775_3131736223559609_3354157363000949849_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=109&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=_F9D90k71OkQ7kNvwGM04LW&_nc_oc=Adp9eXQJDjoAR793GIgnJTFttg6Py4Zrjqfjr28ukLgiGlYYi2eFfFs1c1DVKarAE9g&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQScYGuhxCfBUl6Cf4a1AVt9-7F6HPMoZjZbfBB_82oO8A&oe=6AEAAC42"
       },
-      "socialNote": "共同攤位的頂層社群連結暫以「熱血」為代表；各品牌的完整社群連結請見 partners。網站欄為熱血的 Linktree 連結頁。"
+      "socialNote": "網站欄為品牌 Instagram 直接連結的 Linktree 官方連結頁。",
+      "posterBoothName": "熱血 x 石毛"
+    },
+    {
+      "id": "yilan-20261107-31-b",
+      "name": "石毛",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/shumao_write/",
+        "threads": "https://www.threads.com/@shumao_write",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-31/logo-b.webp",
+        "source": "https://www.instagram.com/shumao_write/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/257467092_678003666939012_1415787509739386402_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=p7e2UCpScDQQ7kNvwGwsnPe&_nc_oc=AdrPeEYQEHJ80JgkI_8HnCdNOnO7BHT0SY5SU3VvgCf8XOyEazdVs8mPWoPfFlOQwZw&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQTHALLBpkl-StYKiXpBWs0S4d2Ze-2_0vVJ71PwxpSXcA&oe=6AEAC02D"
+      },
+      "socialNote": "2026-10-31 查核 Instagram 個人頁，當時未列外部網站；不代表沒有官網。",
+      "posterBoothName": "熱血 x 石毛"
     },
     {
       "id": "yilan-20261107-32",
@@ -1392,7 +1378,37 @@
     },
     {
       "id": "yilan-20261107-57",
-      "name": "熊甜宅X木子口",
+      "name": "熊甜宅",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/profile.php?id=61551361427442",
+        "ig": "https://www.instagram.com/bearhouse.2021/",
+        "threads": "https://www.threads.com/@bearhouse.2021",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-57/logo-a.webp",
+        "source": "https://www.instagram.com/bearhouse.2021/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/385197482_153915041124485_2503586083563697821_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zNTQuQzMifQ%3D%3D&_nc_ohc=f_VABJ366vIQ7kNvwE2JYHO&_nc_oc=AdrqF6cNANxfc1GGBS_VUOr_x5DDc6mzZWyDR34kxJLmKEW1AzStpH-4erfMxt0_DQo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQxyyn4Z1JCUrzeNq1aDS1walsYmRfj2K142-70PeYh_w&oe=6AEAAB1A"
+      },
+      "address": "269宜蘭縣冬山鄉南興村冬山路146號",
+      "latlng": {
+        "lat": 24.6345444,
+        "lng": 121.7911883
+      },
+      "locationSource": "https://www.google.com/maps/place/熊甜宅/@24.6345444,121.7911883,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7ef3a9cd443:0x368b412c0c082f97!8m2!3d24.6345444!4d121.7911883!16s%2Fg%2F11w4mygdr1",
+      "posterBoothName": "熊甜宅X木子口"
+    },
+    {
+      "id": "yilan-20261107-57-b",
+      "name": "木子口",
       "category": "暖心甜點",
       "disabled": false,
       "verification": false,
@@ -1411,87 +1427,29 @@
         }
       ],
       "social": {
-        "fb": "https://www.facebook.com/profile.php?id=61551361427442",
-        "ig": "https://www.instagram.com/bearhouse.2021/",
-        "threads": "https://www.threads.com/@bearhouse.2021",
-        "web": ""
+        "fb": "https://www.facebook.com/share/1MZVHdu84v/",
+        "ig": "https://www.instagram.com/mu_zu_ko/",
+        "threads": "https://www.threads.com/@mu_zu_ko",
+        "web": "https://linkgoods.com/muzuko"
       },
-      "partners": [
-        {
-          "name": "熊甜宅",
-          "social": {
-            "fb": "https://www.facebook.com/profile.php?id=61551361427442",
-            "ig": "https://www.instagram.com/bearhouse.2021/",
-            "threads": "https://www.threads.com/@bearhouse.2021",
-            "web": ""
-          },
-          "logo": {
-            "url": "./assets/yilan-20261107-57/logo-a.webp",
-            "source": "https://www.instagram.com/bearhouse.2021/",
-            "platform": "instagram",
-            "status": "verified",
-            "checkedAt": "2026-10-31",
-            "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
-            "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/385197482_153915041124485_2503586083563697821_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zNTQuQzMifQ%3D%3D&_nc_ohc=f_VABJ366vIQ7kNvwE2JYHO&_nc_oc=AdrqF6cNANxfc1GGBS_VUOr_x5DDc6mzZWyDR34kxJLmKEW1AzStpH-4erfMxt0_DQo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQxyyn4Z1JCUrzeNq1aDS1walsYmRfj2K142-70PeYh_w&oe=6AEAAB1A"
-          },
-          "address": "269宜蘭縣冬山鄉南興村冬山路146號",
-          "latlng": {
-            "lat": 24.6345444,
-            "lng": 121.7911883
-          },
-          "locationSource": "https://www.google.com/maps/place/熊甜宅/@24.6345444,121.7911883,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7ef3a9cd443:0x368b412c0c082f97!8m2!3d24.6345444!4d121.7911883!16s%2Fg%2F11w4mygdr1"
-        },
-        {
-          "name": "木子口",
-          "social": {
-            "fb": "https://www.facebook.com/share/1MZVHdu84v/",
-            "ig": "https://www.instagram.com/mu_zu_ko/",
-            "threads": "https://www.threads.com/@mu_zu_ko",
-            "web": "https://linkgoods.com/muzuko"
-          },
-          "logo": {
-            "url": "./assets/yilan-20261107-57/logo-b.webp",
-            "source": "https://www.instagram.com/mu_zu_ko/",
-            "platform": "instagram",
-            "status": "verified",
-            "checkedAt": "2026-10-31",
-            "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
-            "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/84332827_2541799812702690_4513438830509948928_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=UwizvStMXLAQ7kNvwGVJfXa&_nc_oc=AdqnyQl7xVbtGMb8sIkKsJuQY7siabVa3qPzXN8b5Pngw0VlzNuoAvxDlUsHbL4xZG4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQ12AfWn1a9U5t5cgJ_6OD4Zb-Kcu1wxyX2boZXnPbAgw&oe=6AEAABB6"
-          },
-          "socialNote": "網站欄為品牌 Instagram 直接連結的 LINKGOODS 官方連結頁。",
-          "address": "269宜蘭縣冬山鄉香和村冬山路66巷1號",
-          "latlng": {
-            "lat": 24.6325347,
-            "lng": 121.7953909
-          },
-          "locationSource": "https://www.google.com/maps/place/%E6%9C%A8%E5%AD%90%E5%8F%A3MUZUKO%E7%83%98%E7%84%99%E5%B7%A5%E4%BD%9C%E5%AE%A4/@24.6325347,121.7953909,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7be186a401f:0xbe43b40644392cc2!8m2!3d24.6325347!4d121.7953909!16s%2Fg%2F11vq96kz27",
-          "locationNote": "Google 地圖與品牌 IG 均顯示工作室目前不對外營業，以預訂方式為主。",
-          "productImages": [
-            {
-              "url": "./assets/yilan-20261107-57-b/1.webp?v=74cc8310ef70ee58",
-              "alt": "木子口作品：麵包捲",
-              "checkedAt": "2026-10-31",
-              "note": "使用者提供，歸屬木子口。"
-            },
-            {
-              "url": "./assets/yilan-20261107-57-b/2.webp?v=6f1327734b59cecd",
-              "alt": "木子口作品：烘焙點心禮盒",
-              "checkedAt": "2026-10-31",
-              "note": "使用者提供，歸屬木子口。"
-            }
-          ]
-        }
-      ],
       "logo": {
-        "url": "./assets/yilan-20261107-57/logo-a.webp",
-        "source": "https://www.instagram.com/bearhouse.2021/",
+        "url": "./assets/yilan-20261107-57/logo-b.webp",
+        "source": "https://www.instagram.com/mu_zu_ko/",
         "platform": "instagram",
         "status": "verified",
         "checkedAt": "2026-10-31",
-        "note": "共同攤位暫用熊甜宅的 Instagram 頭像代表；各品牌頭像均列於 partners。",
-        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/385197482_153915041124485_2503586083563697821_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zNTQuQzMifQ%3D%3D&_nc_ohc=f_VABJ366vIQ7kNvwE2JYHO&_nc_oc=AdrqF6cNANxfc1GGBS_VUOr_x5DDc6mzZWyDR34kxJLmKEW1AzStpH-4erfMxt0_DQo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQxyyn4Z1JCUrzeNq1aDS1walsYmRfj2K142-70PeYh_w&oe=6AEAAB1A"
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/84332827_2541799812702690_4513438830509948928_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=UwizvStMXLAQ7kNvwGVJfXa&_nc_oc=AdqnyQl7xVbtGMb8sIkKsJuQY7siabVa3qPzXN8b5Pngw0VlzNuoAvxDlUsHbL4xZG4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQ12AfWn1a9U5t5cgJ_6OD4Zb-Kcu1wxyX2boZXnPbAgw&oe=6AEAABB6"
       },
-      "socialNote": "共同攤位的頂層社群連結暫以「熊甜宅」為代表；各品牌的完整社群連結請見 partners。"
+      "socialNote": "網站欄為品牌 Instagram 直接連結的 LINKGOODS 官方連結頁。",
+      "address": "269宜蘭縣冬山鄉香和村冬山路66巷1號",
+      "latlng": {
+        "lat": 24.6325347,
+        "lng": 121.7953909
+      },
+      "locationSource": "https://www.google.com/maps/place/%E6%9C%A8%E5%AD%90%E5%8F%A3MUZUKO%E7%83%98%E7%84%99%E5%B7%A5%E4%BD%9C%E5%AE%A4/@24.6325347,121.7953909,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7be186a401f:0xbe43b40644392cc2!8m2!3d24.6325347!4d121.7953909!16s%2Fg%2F11vq96kz27",
+      "locationNote": "Google 地圖與品牌 IG 均顯示工作室目前不對外營業，以預訂方式為主。",
+      "posterBoothName": "熊甜宅X木子口"
     },
     {
       "id": "yilan-20261107-58",
