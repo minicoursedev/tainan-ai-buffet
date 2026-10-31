@@ -95,7 +95,32 @@
       "category": "暖心日常",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-03/1.webp?v=e20d3a980cb6016b",
+          "alt": "文邑二手書店－使用者提供作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-03/1.webp?v=e20d3a980cb6016b",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：854558770_18110405528179363_4412863388186113715_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565975126820790282/854558770_18110405528179363_4412863388186113715_n.png?ex=6ae6db7c&is=6ae589fc&hm=39b861c3bc9d8dfd507d0d1d488c12d71d00195daf5f944ea817c4196b31be3f&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-03/2.webp?v=5e4275542b063961",
+          "alt": "文邑二手書店－使用者提供作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-03/2.webp?v=5e4275542b063961",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：855479262_18110405537179363_142417778276050216_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565975129165533204/855479262_18110405537179363_142417778276050216_n.png?ex=6ae6db7d&is=6ae589fd&hm=9c0daafa4953f0e6bd900a6f77f9a164a468dc6b4bda5bc55072c014467240cf&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-03/3.webp?v=83c395060d68baa9",
+          "alt": "文邑二手書店－使用者提供作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-03/3.webp?v=83c395060d68baa9",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：858088865_18110405555179363_7245918491191909885_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565975130688061500/858088865_18110405555179363_7245918491191909885_n.png?ex=6ae6db7d&is=6ae589fd&hm=b3ea4ca548c713cd8ca673832398b7653a30d5d70afdad246777784483a03387&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/bookoftaiwanese/",
         "ig": "https://www.instagram.com/bookoftaiwanese/",
