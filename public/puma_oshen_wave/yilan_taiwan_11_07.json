@@ -889,7 +889,32 @@
       "category": "暖流食堂",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-35/1.webp?v=38aafbbf9a6c6ecb",
+          "alt": "悟饕泰山店－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-35/1.webp?v=38aafbbf9a6c6ecb",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：866456052_122116502415332468_1077951901669329456_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566092235769126912/866456052_122116502415332468_1077951901669329456_n.png?ex=6ae7488d&is=6ae5f70d&hm=38809896c84687026ed05d1f0e0a49a252226d2328699d605e741615e825e84b&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-35/2.webp?v=339638e27d8fddb0",
+          "alt": "悟饕泰山店－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-35/2.webp?v=339638e27d8fddb0",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：857462896_122115963177332468_5930052865093371359_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566092236440207471/857462896_122115963177332468_5930052865093371359_n.png?ex=6ae7488d&is=6ae5f70d&hm=508007bbe656e3d24dd122f82a013bc04d90fedb68f1bb851e41f8474a7510e4&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-35/3.webp?v=271d2c2692336fd5",
+          "alt": "悟饕泰山店－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-35/3.webp?v=271d2c2692336fd5",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：814393626_122112664719332468_4218170855659182563_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566092237262168154/814393626_122112664719332468_4218170855659182563_n.png?ex=6ae7488d&is=6ae5f70d&hm=7f85896cd687542a1d700d32d821c39e44fe0838071c4c7bafb832defae52057&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/61589974041963/",
         "ig": "",
