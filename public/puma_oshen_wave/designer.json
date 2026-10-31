@@ -2474,6 +2474,55 @@
         "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/681329376_17875643073596129_2835495803046133620_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=CKdmrggFaS8Q7kNvwFxvvPo&_nc_oc=AdpwukmwHcv2I-Znj84CBDhOcWQ6r11YvhurwXNswM6wDXFHlTyQVlIHC9m56IWgsoc&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=KQZUF30yiy920XQspMfy4w&_nc_ss=7b689&oh=00_AQSLSp0rdNFcorGHIJF5JAeOHl7mecAPuErwATz1n-wVtQ&oe=6AEABF41"
       }
+    },
+    {
+      "id": "yilan-20261107-59",
+      "name": "遊牧仕事麵包工作室",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/1.webp?v=15decd86fcc0e86b",
+          "alt": "遊牧仕事麵包工作室作品照片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/1.webp?v=15decd86fcc0e86b",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566044540350238740/689969838_17934854085250739_310847763532253147_n.png?ex=6ae71c22&is=6ae5caa2&hm=980ddaa4ffa0772c951994d1f5872806d7817d8dc32a5ccc4ecaefecaea5dfee&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/2.webp?v=4e9ad53a7bd4f430",
+          "alt": "遊牧仕事麵包工作室作品照片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/2.webp?v=4e9ad53a7bd4f430",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566044542002532432/806466455_17955804810250739_8034387160325257035_n.png?ex=6ae71c22&is=6ae5caa2&hm=5d66fbf4d5cf9d2d7189379d3414bfe27f10eec38cd3e973fd455610eed2fd62&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/3.webp?v=51186d46e8a53c1d",
+          "alt": "遊牧仕事麵包工作室作品照片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/3.webp?v=51186d46e8a53c1d",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566044544150020147/789523323_17953616961250739_8911990144326571376_n.png?ex=6ae71c23&is=6ae5caa3&hm=84cef19346e40170f1c23accc29fbe8e8c75d1d0e1d87fbb5877029089790b1b&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/61577712805626/",
+        "ig": "https://www.instagram.com/yuuboku_shigoto/",
+        "threads": "https://www.threads.com/@yuuboku_shigoto",
+        "web": "https://dandy.tw/yuuboku-shigoto"
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/logo.webp?v=e72d5a2d914efbd9",
+        "source": "https://www.instagram.com/yuuboku_shigoto/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/439143082_1096888198087995_5099073877886111619_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Ewx4Zc-rIBEQ7kNvwGSHBeT&_nc_oc=Ado-TfG3qdHquOXNnTkKifM7DFiCMR3PPLmM7Um0tOeVv9LwX5wqPuxvG4P992d1_Ws&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQR5CNLrdhZSc6dlF21Z5RAn1VAEShjzD8PPbHMY5O786w&oe=6AEAD1C6"
+      },
+      "oshenStoreId": "yilan-20261107-59"
     }
   ]
 }
