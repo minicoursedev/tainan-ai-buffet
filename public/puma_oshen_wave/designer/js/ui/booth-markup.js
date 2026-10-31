@@ -93,7 +93,6 @@ export function boothHtml(booth, store) {
     </div>
     <div class="bo-foot">
       ${socialLinks}
-      <span class="bo-count muted">${booth.randomSelection ? `本次顯示 ${works.length} / 共 ${Number(booth.total) || 0} 張` : works.length ? `共 ${Number(booth.total) || works.length} 部作品` : ''}</span>
       <div class="bo-share">
         ${storeUrl ? `<a class="btn btn-primary" href="${esc(storeUrl)}" target="_blank" rel="noopener">看設計師</a>` : ''}
         <button type="button" class="btn" data-copy-booth="${esc(designerBoothUrl(booth.store))}">複製設計師連結</button>
