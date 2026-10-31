@@ -1882,28 +1882,28 @@
       "verification": false,
       "productImages": [
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/1.webp?v=26ddcb0da6b46f73",
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/4.webp?v=606f7c700bb524c3",
           "alt": "熊甜宅－作品圖片 1",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/1.webp?v=26ddcb0da6b46f73",
-          "checkedAt": "2026-10-31",
-          "note": "使用者提供附件：684152144_17942390475188080_5436590836885004154_n.png；依附件順序追加，非官方查證。",
-          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566045139112038531/684152144_17942390475188080_5436590836885004154_n.png?ex=6ae71cb0&is=6ae5cb30&hm=a525718dc51fab8b9040156a71f1971477260587e2c43b3c78b7b054c9972ad8&"
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/4.webp?v=606f7c700bb524c3",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件圖2（image.png）；依要求刪除原有產品照後，按附件順序新增，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566122448091615452/image.png?ex=6ae764b0&is=6ae61330&hm=1c1f67b85fd82eab36ff7598584ba3feb272a1f4153ff2450bd66087fdb567f5&"
         },
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/2.webp?v=40a44a19a3691f4a",
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/5.webp?v=847ac8509c8d9fbc",
           "alt": "熊甜宅－作品圖片 2",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/2.webp?v=40a44a19a3691f4a",
-          "checkedAt": "2026-10-31",
-          "note": "使用者提供附件：658974831_17939174529188080_1598044238620445870_n.png；依附件順序追加，非官方查證。",
-          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566045139586121768/658974831_17939174529188080_1598044238620445870_n.png?ex=6ae71cb0&is=6ae5cb30&hm=ac2b5dad0a49ff6570e34e00d0feb61c5eb78465a5cd67043394ecf218da6e6b&"
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/5.webp?v=847ac8509c8d9fbc",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件圖3（image.png）；依要求刪除原有產品照後，按附件順序新增，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566122448729153656/image.png?ex=6ae764b0&is=6ae61330&hm=52d43ef069fb62ffb9c7427f77ad8f537dc86223f59d6b78f387d1438f8405e4&"
         },
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/3.webp?v=b74b282fafb278d5",
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/6.webp?v=f1f8d1e62cfb0db4",
           "alt": "熊甜宅－作品圖片 3",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/3.webp?v=b74b282fafb278d5",
-          "checkedAt": "2026-10-31",
-          "note": "使用者提供附件：662202485_17938637304188080_8820990171486186992_n.png；依附件順序追加，非官方查證。",
-          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566045140114608198/662202485_17938637304188080_8820990171486186992_n.png?ex=6ae71cb1&is=6ae5cb31&hm=4b6fe42f4c501d7791347c6d43342c66b81e76830a7a502e0bf8288d0eabc839&"
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/6.webp?v=f1f8d1e62cfb0db4",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件圖4（image.png）；依要求刪除原有產品照後，按附件順序新增，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566122449295253534/image.png?ex=6ae764b1&is=6ae61331&hm=51b2e43a984b69286a996c54952bc16a82977e23be2dcbda8a793b21220a5f81&"
         }
       ],
       "social": {
@@ -1913,13 +1913,13 @@
         "web": ""
       },
       "logo": {
-        "url": "./assets/yilan-20261107-57/logo-a.webp",
-        "source": "https://www.instagram.com/bearhouse.2021/",
-        "platform": "instagram",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/logo.webp?v=89c700dd4f9438ae",
+        "source": "https://cdn.discordapp.com/attachments/1553247600935833680/1566122447613329418/image.png?ex=6ae764b0&is=6ae61330&hm=eb9990b3558bee7907de69dee44cbadc551ebac63b5d89830d4e65428537f509&",
+        "platform": "user-provided",
         "status": "verified",
-        "checkedAt": "2026-10-31",
-        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
-        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/385197482_153915041124485_2503586083563697821_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zNTQuQzMifQ%3D%3D&_nc_ohc=f_VABJ366vIQ7kNvwE2JYHO&_nc_oc=AdrqF6cNANxfc1GGBS_VUOr_x5DDc6mzZWyDR34kxJLmKEW1AzStpH-4erfMxt0_DQo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQxyyn4Z1JCUrzeNq1aDS1walsYmRfj2K142-70PeYh_w&oe=6AEAAB1A"
+        "checkedAt": "2026-11-01",
+        "note": "使用者提供附件圖一（image.png），明確指定替換 Logo；HTTPS 圖片可讀取，非官方查證。",
+        "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566122447613329418/image.png?ex=6ae764b0&is=6ae61330&hm=eb9990b3558bee7907de69dee44cbadc551ebac63b5d89830d4e65428537f509&"
       },
       "address": "269宜蘭縣冬山鄉南興村冬山路146號",
       "latlng": {
