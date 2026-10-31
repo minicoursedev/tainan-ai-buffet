@@ -1,7 +1,7 @@
 /* Designer dialog, catalogue images and share controls. */
 
 /* ---------- booth dialog ---------- */
-.bo-head { align-items: flex-start; gap: 12px; background: var(--paper); }
+.bo-head { flex: none; align-items: flex-start; gap: 12px; background: var(--paper); }
 .bo-avatar {
   flex: none; width: 56px; height: 56px; border: 2.5px solid var(--line); border-radius: 50%; overflow: hidden;
   background: var(--paper); box-shadow: 2px 2px 0 var(--line);
@@ -18,7 +18,7 @@
 .bo-meta .tag { max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
 .bo-corp { background: var(--ink); color: var(--pink-soft); }
 
-.bo-body { padding-bottom: 20px; }
+.bo-body { padding-bottom: 20px; overscroll-behavior-y: contain; }
 .bo-note { margin: 8px 0; color: var(--muted); }
 
 .bo-works {
@@ -97,6 +97,14 @@ a.bo-more:focus-visible { outline: 3px solid var(--pink); outline-offset: 2px; }
 .bo-share-status:empty { display: none; }
 
 @media (max-width: 560px) {
+  /* Keep controls inside Safari's visible area when its bars or text size change. */
+  #dlg-booth {
+    --bo-top-gap: max(12px, env(safe-area-inset-top, 0px));
+    --bo-bottom-gap: max(18px, env(safe-area-inset-bottom, 0px));
+    position: fixed; top: var(--bo-top-gap); bottom: auto; margin-block: 0;
+    max-height: calc(100svh - var(--bo-top-gap) - var(--bo-bottom-gap));
+    max-height: calc(100dvh - var(--bo-top-gap) - var(--bo-bottom-gap));
+  }
   .bo-avatar { width: 46px; height: 46px; }
   .bo-head h2 { font-size: 16px; }
 }
