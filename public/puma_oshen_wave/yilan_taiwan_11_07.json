@@ -1,0 +1,1529 @@
+{
+  "market": {
+    "name": "2026 宜蘭暖流・台派市集",
+    "date": "2026-11-07",
+    "startTime": "15:00",
+    "endTime": "19:00",
+    "address": "宜蘭縣羅東鎮光榮路271-1號（羅東後火車站旁廣場）",
+    "source": "https://inthealley.tw/?p=95156"
+  },
+  "designers": [
+    {
+      "id": "yilan-20261107-01",
+      "name": "兒童小天地",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-02",
+      "name": "森本屋",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/profile.php?id=61572175033854",
+        "ig": "https://www.instagram.com/yilanbookforest/",
+        "threads": "https://www.threads.com/@yilanbookforest",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-02/logo.webp",
+        "source": "https://www.instagram.com/yilanbookforest/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，未放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.75761-19/497567692_17846914749471368_5245307117976855901_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=111&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=wWOt5e_QNzEQ7kNvwFlSgMy&_nc_oc=AdrgftJu4GJfYcVQItPS1z2hBlzBru3-Y2IPBdVDfSN4PoyRz5CFXr8qRgaMBilbFK0&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=VewhSsf3d7LpPRRGExTWJQ&_nc_ss=7b689&oh=00_AQR80XG6dl-jLhEkr4lnCrb4O5dchLxmbQtSLI3JpDR4cg&oe=6AEAAADD"
+      },
+      "address": "265008宜蘭縣羅東鎮信義里中正北路124巷2號",
+      "latlng": {
+        "lat": 24.6851058,
+        "lng": 121.7713042
+      },
+      "locationSource": "https://www.google.com/maps/place/%E6%A3%AE%E6%9C%AC%E5%B1%8B/@24.6851058,121.7713042,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e5d8b4597d7b:0x3948687133791e12!8m2!3d24.6851058!4d121.7713042!16s%2Fg%2F11xflzc4g4"
+    },
+    {
+      "id": "yilan-20261107-03",
+      "name": "文邑二手書店",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/bookoftaiwanese/",
+        "ig": "https://www.instagram.com/bookoftaiwanese/",
+        "threads": "https://www.threads.com/@bookoftaiwanese",
+        "web": ""
+      },
+      "socialNote": "Facebook 粉專名稱為「文邑｜群」，簡介介紹文邑書店。",
+      "logo": {
+        "url": "./assets/yilan-20261107-03/logo.webp",
+        "source": "https://www.instagram.com/bookoftaiwanese/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/97289242_234067421354770_8293606201040568320_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=110&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=NKedpArh5TMQ7kNvwFPKG7p&_nc_oc=AdqNDSn3Kt_aBLEQWQEpHKaE4Wyq8UeMjxGdFmPazxlXp1ZpVUfhre-kooMAX_h6brI&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQS6Usu-pquM73LA8hv5U8O4jNwO_6tLOGXzxnKGSQedgA&oe=6AEAB594"
+      },
+      "address": "265宜蘭縣羅東鎮漢民里國華街24號",
+      "latlng": {
+        "lat": 24.6761453,
+        "lng": 121.7608209
+      },
+      "locationSource": "https://www.google.com/maps/place/文邑二手書店/@24.6761453,121.7608209,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e73250f9d8f1:0x5aabd84d82f3f76b!8m2!3d24.6761453!4d121.7608209!16s%2Fg%2F11j8kyl4m8"
+    },
+    {
+      "id": "yilan-20261107-04",
+      "name": "超ㄅㄧㄤˋ",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-05",
+      "name": "MASLOW CAFE",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/maslowcafetw/",
+        "ig": "https://www.instagram.com/maslowcafetw/",
+        "threads": "https://www.threads.com/@maslowcafetw",
+        "web": "https://maslowbakery.1shop-app.com/"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-05/logo.webp",
+        "source": "https://www.instagram.com/maslowcafetw/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/236791286_3036816973205027_6136317553291622236_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=lj4z0Ae54CUQ7kNvwFnGoM7&_nc_oc=AdquDbYPHFsXvzkkOuVDNaojkcdmXEhW-UP2okYNpt5sEno-uyDBqBZ08yURQq3s1SE&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQT294cPo_gJ0216kZvinV1P_hWWzkqVqVZ_OFqtz4F2ew&oe=6AEAD14E"
+      },
+      "address": "26645宜蘭縣三星鄉上將路二段433巷17弄12號",
+      "latlng": {
+        "lat": 24.6926629,
+        "lng": 121.7293011
+      },
+      "locationSource": "https://www.google.com/maps/place/MASLOW CAFE/@24.6926629,121.7293011,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e5d83c604827:0xdbe444346e729c40!8m2!3d24.6926629!4d121.7293011!16s%2Fg%2F11h46v0961"
+    },
+    {
+      "id": "yilan-20261107-06",
+      "name": "啾飲",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/61574385638802/",
+        "ig": "https://www.instagram.com/chu_in0530/",
+        "threads": "https://www.threads.com/@chu_in0530",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-06/logo.webp",
+        "source": "https://www.instagram.com/chu_in0530/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/486109537_996685655359911_2802019449349390879_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=OYSf73hTMjcQ7kNvwEH_ay6&_nc_oc=Adqm5BWH7tqZSDZBbWqDj6DBof-Wf9CEi9Sj92nvqoL-PXMlcq1qgorjj6j121UpY8Y&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQSNEyjdmzcF1P0v9GzSv4QZx3FrexZBKf287_fZ7jtvvw&oe=6AEAA82C"
+      },
+      "locationNote": "品牌 Instagram 貼文顯示於夜市及活動出攤，尚未確認固定店址。"
+    },
+    {
+      "id": "yilan-20261107-07",
+      "name": "啤 咖 酒",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/profile.php?id=100063807535492",
+        "ig": "https://www.instagram.com/cafebarturntablespinthatshit/",
+        "threads": "https://www.threads.com/@cafebarturntablespinthatshit",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-07/logo.webp",
+        "source": "https://www.instagram.com/cafebarturntablespinthatshit/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/425365093_312366898485404_1156890301597628180_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=IJcgsMumaSQQ7kNvwEtVGNa&_nc_oc=Ado-6Z09uapP8nQQuX-3TTCsHBQAVlS7-PiFx1lYd2FNRBciPDnawx9xhA-9rb9HK84&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQ9Mmj2AmvDsjcHXa2cZfoHjDXVEHeTr_euQRs9Tk2jZw&oe=6AEADB8B"
+      },
+      "address": "261宜蘭縣頭城鎮城東里和平東路37號",
+      "latlng": {
+        "lat": 24.8586404,
+        "lng": 121.8255125
+      },
+      "locationSource": "https://www.google.com/maps/place/啤 咖 酒/@24.8586404,121.8255125,17z/data=!3m1!4b1!4m6!3m5!1s0x345d4f308cb8bfcb:0xb181cde6b93f7096!8m2!3d24.8586404!4d121.8255125!16s%2Fg%2F11pc0vxwlz"
+    },
+    {
+      "id": "yilan-20261107-08",
+      "name": "ㄕㄨˋㄖㄣˊ咖啡",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/ourspace1256/",
+        "ig": "https://www.instagram.com/ourspace1256/",
+        "threads": "https://www.threads.com/@ourspace1256",
+        "web": "https://campsite.bio/ourspace1256"
+      },
+      "socialNote": "網站欄為品牌 IG 直接連結的 Campsite 官方連結頁。",
+      "logo": {
+        "url": "./assets/yilan-20261107-08/logo.webp",
+        "source": "https://www.instagram.com/ourspace1256/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/516347651_18076702127495500_3600196221481555150_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy42NjguQzMifQ%3D%3D&_nc_ohc=Sz1rLrG2-9AQ7kNvwFfK-uP&_nc_oc=Ado4a_QVOrRoI8Qw2OmpzuugMcmnBxxJUrL1Ca1CYP6R8sE1VQA3ky7t77Q37NIu97k&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=DMk4v8Z37Tb_kt3QTQXBoA&_nc_ss=7b689&oh=00_AQRPdH09nK6sSFEO5dH9ToArZxdU7fWihmgE5fDKIZOfvQ&oe=6AEAA551"
+      },
+      "address": "265宜蘭縣羅東鎮樹林里樹人路6號",
+      "latlng": {
+        "lat": 24.680736,
+        "lng": 121.7631982
+      },
+      "locationSource": "https://www.google.com/maps/place/ㄕㄨˋㄖㄣˊ咖啡/@24.680736,121.7631982,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e734acf960af:0xd55d851d3ea88ddd!8m2!3d24.680736!4d121.7631982!16s%2Fg%2F11n6q3cvqy"
+    },
+    {
+      "id": "yilan-20261107-09",
+      "name": "島匠商行",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/Daujiang2021/",
+        "ig": "https://www.instagram.com/daujiang2200/",
+        "threads": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-09/logo.webp",
+        "source": "https://www.instagram.com/daujiang2200/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/358337408_812040026881475_1779379715112584903_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy42MDYuQzMifQ%3D%3D&_nc_ohc=qW4HDDpT4jQQ7kNvwFbOkHL&_nc_oc=AdpVcCjiQsf_DK_ZhZtdK70mRrOQFjp3vCgonEoHsV9CEDj-4lmQDT_TatYc82LPzUQ&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQtKZ7djdYJAqmVcZK7npXumKvqDlow417J5ZbeSk5vUg&oe=6AEAC8A5"
+      },
+      "address": "266宜蘭縣三星鄉雙賢村三星路六段686號",
+      "latlng": {
+        "lat": 24.6634276,
+        "lng": 121.6346756
+      },
+      "locationSource": "https://www.google.com/maps/place/島匠商行/@24.6634276,121.6346756,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e149c4adadcb:0x463c07605918b499!8m2!3d24.6634276!4d121.6346756!16s%2Fg%2F11vqnmxx18"
+    },
+    {
+      "id": "yilan-20261107-10",
+      "name": "尚禾家SHOWAYA",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/showaya_taiwan_yilan/",
+        "threads": "https://www.threads.com/@lin_yu_fang_",
+        "web": "https://tosubuyme.easy.co/"
+      },
+      "socialNote": "Instagram 個人頁連結至「島嶼菜櫥」選物網站；網站頁尾標示尚禾有限公司。 Threads 為相關人員個人帳號，其貼文自介尚禾家並連結品牌 IG。",
+      "logo": {
+        "url": "./assets/yilan-20261107-10/logo.webp",
+        "source": "https://www.instagram.com/showaya_taiwan_yilan/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/775416812_17981277555118582_8572990163339993680_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=100&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy42NjkuQzMifQ%3D%3D&_nc_ohc=P5eKGs-p7HIQ7kNvwE51HPa&_nc_oc=AdrbP50L1wwaP99F9QKqu54mZRYkrZPXc4TMgdlhWWFnFP84hjJK1w8Ln8xFtov_i-Q&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Wf17MHA0nxN0g_YzFROHlA&_nc_ss=7b689&oh=00_AQREXgDgeAqyKnJ7RMsUlCfeXY8ajLBJEFyVTFqmY12_aA&oe=6AEAAEE7"
+      }
+    },
+    {
+      "id": "yilan-20261107-11",
+      "name": "喵喵米是人吃的",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/meowmeowfarm/",
+        "ig": "https://www.instagram.com/meowmeowfarm/",
+        "threads": "https://www.threads.com/@meowmeowfarm",
+        "web": "https://portaly.cc/meowmeowrice"
+      },
+      "socialNote": "網站欄為品牌 IG 直接連結的 Portaly 官方連結頁。",
+      "logo": {
+        "url": "./assets/yilan-20261107-11/logo.webp",
+        "source": "https://www.instagram.com/meowmeowfarm/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/190781004_5422322304504422_1967244207437326335_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40OTMuQzMifQ%3D%3D&_nc_ohc=aRXQZBuUnD4Q7kNvwHRGApK&_nc_oc=AdoxRAQ9Schsvihj8EJvEHzrlybXkALCZGuolqu9_-iNoHHYCSbUKTqRRC-QD-iHUUs&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQRcJZ5-kSAqvdh_2FPjIdKyuf4ce6krDtHYEc3QEGMSbA&oe=6AEAD8C9"
+      },
+      "address": "266宜蘭縣三星鄉行健二路一段112號",
+      "latlng": {
+        "lat": 24.6717431,
+        "lng": 121.6999821
+      },
+      "locationSource": "https://www.google.com/maps/place/喵喵米是人吃的/@24.6717431,121.6999821,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e110e38601a3:0x17cf12e8beaa3b9e!8m2!3d24.6717431!4d121.6999821!16s%2Fg%2F11cmbfkyt5"
+    },
+    {
+      "id": "yilan-20261107-12",
+      "name": "烘然天成手作寵物零食",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/61574163009409/",
+        "ig": "https://www.instagram.com/naturalpets2025/",
+        "threads": "https://www.threads.com/@naturalpets2025",
+        "web": "https://myship.7-11.com.tw/general/detail/GM2504035631257"
+      },
+      "socialNote": "網站欄為品牌 IG 直接連結的 7-ELEVEN 賣貨便賣場。",
+      "logo": {
+        "url": "./assets/yilan-20261107-12/logo.webp",
+        "source": "https://www.instagram.com/naturalpets2025/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/587597431_17876579511446159_2483270021223121971_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=110&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZWKpEbId1yYQ7kNvwHE3FE8&_nc_oc=AdomV5ltYej7HR-26HaclhOWVTwgaxl13CiYT3endd18Ejl3vCMXB91ZuwBWwY7kbjY&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=moD5WnUJ-RJiL5acdyav2Q&_nc_ss=7b689&oh=00_AQQ-nOcyt0erF_r3ALgtP9NytDLtfPOAFyhqJJDIJE1AEg&oe=6AEAC439"
+      }
+    },
+    {
+      "id": "yilan-20261107-13",
+      "name": "浪黑貓二手商品",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-14",
+      "name": "漂亮把拔鉤織髮帶",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/prettypapahandmade/",
+        "threads": "https://www.threads.com/@prettypapa1987",
+        "web": ""
+      },
+      "socialNote": "Threads 為「漂亮把拔」創作者帳號，曾提及髮帶販售與出攤。",
+      "logo": {
+        "url": "./assets/yilan-20261107-14/logo.webp",
+        "source": "https://www.instagram.com/prettypapahandmade/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/784394296_18096087680068410_4506737899361321965_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Qh-rLenxnKEQ7kNvwGWtzJf&_nc_oc=AdqVafq2r2wOFbGLJ7tgmRtJZKNxLCTiEX-L6kFVZBG8OZnMJh0sGfPARBHnlUOT3cQ&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=eeZI-w6iHh6kQdJLWpXsJA&_nc_ss=7b689&oh=00_AQQc003NcUXL6FcDIGr6pvZC0UiKiAXlTCdUB0iZcqnoAg&oe=6AEAC9F1"
+      }
+    },
+    {
+      "id": "yilan-20261107-15",
+      "name": "芳姐服飾",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-16",
+      "name": "芯有所物",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-17",
+      "name": "艾比好物挖寶屋",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-18",
+      "name": "柔兒小舖",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-19",
+      "name": "豐革手作",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/chenshandmadeleathercraft/",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-19/logo.webp",
+        "source": "https://www.facebook.com/chenshandmadeleathercraft/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Facebook 粉專頭像，來源 480 × 480。",
+        "originalUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/301549994_541305631134786_5855463753742141357_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s480x480&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=6yH_BuBBnUIQ7kNvwGzf3cj&_nc_oc=AdpU2VkJy7AjgJS2HzZ-_F9acVYlwtynyoyrcdRROIFu8TTMVWEoEBHXBNLqzvGnF-E&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=Og7GhSP2Waa0sPNfSNeAAQ&_nc_ss=7b289&oh=00_AQQtmfp7T7GgkkFMMdBN8D-Czp36Zf72WcrIcXgWVuGf_w&oe=6AEABE4F"
+      }
+    },
+    {
+      "id": "yilan-20261107-20",
+      "name": "瑄老闆生活選物",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-21",
+      "name": "魔創3D",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/61591111642809/",
+        "ig": "https://www.instagram.com/tron.motion/",
+        "threads": "https://www.threads.com/@tron.motion",
+        "web": "https://tw.shp.ee/iyoeJjZp"
+      },
+      "socialNote": "Facebook 與 Instagram 個人頁均連至相同的品牌蝦皮賣場，可對應兩個帳號。 網站欄為品牌 IG 直接連結的蝦皮賣場；查閱時平台要求登入。",
+      "logo": {
+        "url": "./assets/yilan-20261107-21/logo.webp",
+        "source": "https://www.instagram.com/tron.motion/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/812940368_18121521556850234_4967108696226415217_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=1KGaRM9Mx7QQ7kNvwH6M3uq&_nc_oc=AdqFVzwX8c4rRFl24BKVVFS4kexA2cBNGTI-ljkslXXZV_0r7xRwcKdevclh9aju2N8&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=RKwT8ACIvgMedcE5apZkcw&_nc_ss=7b689&oh=00_AQSI7fiW-hc2M3TqdjqTldkbfWsDavrEm4fiSdguv2YSUw&oe=6AEAD2D0"
+      }
+    },
+    {
+      "id": "yilan-20261107-22",
+      "name": "MIN HONG LEE",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/min_hong_lee_/",
+        "threads": "https://www.threads.com/@min_hong_lee_",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-22/logo.webp",
+        "source": "https://www.instagram.com/min_hong_lee_/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/102549184_1258073927731324_3181580171301289528_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Vn2wSV4x7wEQ7kNvwGO96AP&_nc_oc=AdoAdSZj5dnVTCOXPKSfhZ8xyk8Df0woOy18E8iZzPCtoAQagjebSDr1BNDl6Y9YmDw&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQCb_GQWpagF-lh8GHNuC4_rlhbbW_dnIplGiKnfqMkNg&oe=6AEADB3C"
+      }
+    },
+    {
+      "id": "yilan-20261107-23",
+      "name": "The Kind V. 植食所",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/KindV.Homemade/",
+        "ig": "https://www.instagram.com/the_kind_v/",
+        "threads": "https://www.threads.com/@the_kind_v",
+        "web": "https://linktr.ee/thekindv"
+      },
+      "socialNote": "網站欄為品牌 IG 直接連結的 Linktree 官方連結頁。",
+      "logo": {
+        "url": "./assets/yilan-20261107-23/logo.webp",
+        "source": "https://www.instagram.com/the_kind_v/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/384299877_239949128663028_2367555257841409084_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43NjEuQzMifQ%3D%3D&_nc_ohc=F6xGFNx0zWkQ7kNvwHo5KyS&_nc_oc=AdqlUhNwg_7-mRYkLeeLr9LOQ4Jo9Lat2LzedEUBiHCSMLbVEOha7y1FB_aOMRO9RIY&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQMPeb1GRWN5t9wadFf19z5wKTWjJbXo1p3CHFEtsTHOw&oe=6AEAA7EF"
+      }
+    },
+    {
+      "id": "yilan-20261107-24",
+      "name": "Rikoz Parfum",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/rikoz_parfum/",
+        "threads": "https://www.threads.com/@rikoz_parfum",
+        "web": "https://rikozparfum.com.tw/"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-24/logo.webp",
+        "source": "https://www.instagram.com/rikoz_parfum/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/726002070_18102880175517431_6913358181914115735_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Lc7ZV18vLbsQ7kNvwE0-G3g&_nc_oc=AdpQCHdjw1OsIwu4OGtLmd4cLTE0DC9U8oKZ7oSO09qA9juN4GVGkaUJqnME3Zl0yTA&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=i1wWWvYRLW551TE7PPEoCQ&_nc_ss=7b689&oh=00_AQRilqRc8C9TfFFAL_crhHMUKbjn9A8CftxT96S5GImlGQ&oe=6AEAB49F"
+      }
+    },
+    {
+      "id": "yilan-20261107-25",
+      "name": "我家的巷子口",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/alley.handy/",
+        "threads": "",
+        "web": "https://linktr.ee/alley.handy"
+      },
+      "socialNote": "Instagram 發布本次市集出攤公告：https://www.instagram.com/p/De8M_lUTKEL/ 網站欄為品牌 IG 直接連結的 Linktree 官方連結頁。",
+      "logo": {
+        "url": "./assets/yilan-20261107-25/logo.webp",
+        "source": "https://www.instagram.com/alley.handy/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/488558694_3971985066409526_1838574545473863635_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zMTUuQzMifQ%3D%3D&_nc_ohc=C1otAp2-3JUQ7kNvwFvkZFe&_nc_oc=AdpVYulvsh1DTgViIx0gWlNUGeTBuf8T_35-MoFEhFRrZOuo8caTrGocbX8YANf4cLM&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQRdEtxmhV21loFD3C5YGVre4XSmEr021J9Vem8F3aGjgg&oe=6AEACA05"
+      }
+    },
+    {
+      "id": "yilan-20261107-26",
+      "name": "No.7m.陶芸",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/7m_pottery/",
+        "threads": "https://www.threads.com/@7m_pottery",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-26/logo.webp",
+        "source": "https://www.instagram.com/7m_pottery/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/752723624_18083438432425436_4131317545262113106_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=110&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41NzIuQzMifQ%3D%3D&_nc_ohc=FNUyQIvyOPAQ7kNvwGU1dll&_nc_oc=AdpE9D8sGX-90SMe--w3ROLdsSmyUV2RMIYneU9Z2AeQMb2nv88hG8svwPt_SfGBWe4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=VbkZ3On_cJcpgYCCVjp_ww&_nc_ss=7b689&oh=00_AQQ2C7ynXZLASQNnY47Gx1PEHIZjs9eAzWCk9-LqExWBuA&oe=6AEAAD0E"
+      }
+    },
+    {
+      "id": "yilan-20261107-27",
+      "name": "好日文化",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/HaorihCreativeStudio/",
+        "ig": "https://www.instagram.com/haorihcreativestudio/",
+        "threads": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-27/logo.webp",
+        "source": "https://www.instagram.com/haorihcreativestudio/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/435610957_3798963227082154_504797371379427116_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MDUuQzMifQ%3D%3D&_nc_ohc=aTyAr7RPAxEQ7kNvwHFRZaY&_nc_oc=AdqJ9w3WZjPLDT4a0ynj499HqjPMZxuE-aZv0OYu0MJCBrltctL_ka-lhZD8uAXW-jA&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQSpT6C5Q6DvoyouZTkmhkZ2za8gNLnVKf7p-e5-0kfs3Q&oe=6AEAD15B"
+      },
+      "address": "260宜蘭縣宜蘭市新生里中山路五段48號",
+      "latlng": {
+        "lat": 24.7673858,
+        "lng": 121.7563932
+      },
+      "locationSource": "https://www.google.com/maps/place/好日文化/@24.7673858,121.7563932,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e4d2e16289f5:0xb83ad75f887ca0fd!8m2!3d24.7673858!4d121.7563932!16s%2Fg%2F11ddx6z3vv"
+    },
+    {
+      "id": "yilan-20261107-28",
+      "name": "ANE Object",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/ane_object/",
+        "threads": "https://www.threads.com/@ane_object",
+        "web": "https://ane-object.nanaooo.studio/"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-28/logo.webp",
+        "source": "https://www.instagram.com/ane_object/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/515204997_17845285764517323_5612160363168857264_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=110&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy42MzAuQzMifQ%3D%3D&_nc_ohc=McZfp4iqI0QQ7kNvwF2VjWW&_nc_oc=AdoYks-wniBhmSMlzUlLabfhSPr-YQXF_BxA6zoWG8I1N_fTHWD5It9BGrjhybiVHMg&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=PiZ48m-1MHx-QPod_aCqnw&_nc_ss=7b689&oh=00_AQT8wbgbvR3IMcf4OiRgtpHUT-DOLcwvBaq5qKSZGgWmUw&oe=6AEADC8A"
+      },
+      "address": "270宜蘭縣蘇澳鎮南強里南澳路2號",
+      "latlng": {
+        "lat": 24.462478,
+        "lng": 121.8060849
+      },
+      "locationSource": "https://www.google.com/maps/place/ANE Object/@24.462478,121.8060849,17z/data=!3m1!4b1!4m6!3m5!1s0x3467db8248dc5cdb:0x93aced08b685bdd7!8m2!3d24.462478!4d121.8060849!16s%2Fg%2F11zckkd70d"
+    },
+    {
+      "id": "yilan-20261107-29",
+      "name": "米飯錢浪愛小舖",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/2022mifan/",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      },
+      "socialNote": "芒草 café 於 2026-10-26 介紹小舖時表示攤主目前只有 Facebook，沒有 IG 或 Threads：https://www.threads.com/@silvergrass2023/post/De8vOX_mT5e/",
+      "logo": {
+        "url": "./assets/yilan-20261107-29/logo.webp",
+        "source": "https://www.facebook.com/2022mifan/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Facebook 粉專頭像，原圖 480 × 480，不放大。",
+        "originalUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/272336118_112020671388788_7003559007703056176_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s480x480&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=8wOGu-9HRt0Q7kNvwEHDJ6T&_nc_oc=AdoTEDzWyeC4P-iuGL6iWrHeTWqYSp75xLH1e_hodE1l1yqiWZGOJcJu1qWwq8o3XDk&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=EGFYQL3lBuw9RcE8B7jDww&_nc_ss=7b289&oh=00_AQTUKv_GBXtJwdNlA2OHdbjFIECqPNDRwjuvyCnY59Kyog&oe=6AEB2426"
+      }
+    },
+    {
+      "id": "yilan-20261107-30",
+      "name": "星月水晶",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-31",
+      "name": "熱血 x 石毛",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/hot_write/",
+        "threads": "https://www.threads.com/@hot_write",
+        "web": "https://linktr.ee/hot_write"
+      },
+      "partners": [
+        {
+          "name": "熱血",
+          "social": {
+            "fb": "",
+            "ig": "https://www.instagram.com/hot_write/",
+            "threads": "https://www.threads.com/@hot_write",
+            "web": "https://linktr.ee/hot_write"
+          },
+          "logo": {
+            "url": "./assets/yilan-20261107-31/logo-a.webp",
+            "source": "https://www.instagram.com/hot_write/",
+            "platform": "instagram",
+            "status": "verified",
+            "checkedAt": "2026-10-31",
+            "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+            "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/109824775_3131736223559609_3354157363000949849_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=109&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=_F9D90k71OkQ7kNvwGM04LW&_nc_oc=Adp9eXQJDjoAR793GIgnJTFttg6Py4Zrjqfjr28ukLgiGlYYi2eFfFs1c1DVKarAE9g&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQScYGuhxCfBUl6Cf4a1AVt9-7F6HPMoZjZbfBB_82oO8A&oe=6AEAAC42"
+          },
+          "socialNote": "網站欄為品牌 Instagram 直接連結的 Linktree 官方連結頁。"
+        },
+        {
+          "name": "石毛",
+          "social": {
+            "fb": "",
+            "ig": "https://www.instagram.com/shumao_write/",
+            "threads": "https://www.threads.com/@shumao_write",
+            "web": ""
+          },
+          "logo": {
+            "url": "./assets/yilan-20261107-31/logo-b.webp",
+            "source": "https://www.instagram.com/shumao_write/",
+            "platform": "instagram",
+            "status": "verified",
+            "checkedAt": "2026-10-31",
+            "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+            "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/257467092_678003666939012_1415787509739386402_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=p7e2UCpScDQQ7kNvwGwsnPe&_nc_oc=AdrPeEYQEHJ80JgkI_8HnCdNOnO7BHT0SY5SU3VvgCf8XOyEazdVs8mPWoPfFlOQwZw&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQTHALLBpkl-StYKiXpBWs0S4d2Ze-2_0vVJ71PwxpSXcA&oe=6AEAC02D"
+          },
+          "socialNote": "2026-10-31 查核 Instagram 個人頁，當時未列外部網站；不代表沒有官網。"
+        }
+      ],
+      "logo": {
+        "url": "./assets/yilan-20261107-31/logo-a.webp",
+        "source": "https://www.instagram.com/hot_write/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "共同攤位暫用熱血的 Instagram 頭像代表；各品牌頭像均列於 partners。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/109824775_3131736223559609_3354157363000949849_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=109&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=_F9D90k71OkQ7kNvwGM04LW&_nc_oc=Adp9eXQJDjoAR793GIgnJTFttg6Py4Zrjqfjr28ukLgiGlYYi2eFfFs1c1DVKarAE9g&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQScYGuhxCfBUl6Cf4a1AVt9-7F6HPMoZjZbfBB_82oO8A&oe=6AEAAC42"
+      },
+      "socialNote": "共同攤位的頂層社群連結暫以「熱血」為代表；各品牌的完整社群連結請見 partners。網站欄為熱血的 Linktree 連結頁。"
+    },
+    {
+      "id": "yilan-20261107-32",
+      "name": "植巫",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/imdanwang/",
+        "ig": "https://www.instagram.com/plantstoldme/",
+        "threads": "https://www.threads.com/@plantstoldme",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-32/logo.webp",
+        "source": "https://www.instagram.com/plantstoldme/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/363878467_692294709399308_579672341696981959_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43MDkuQzMifQ%3D%3D&_nc_ohc=XOQise_4HQwQ7kNvwEXIKDK&_nc_oc=AdpywdtQ8eTAY-XpkSfXQIroYxPOp6elc3oV589-DMwxxIjcyQlemZZ9CIq63LmSCGM&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQ1MEDXDIJDdv9mzUHTbDlUeikFNB4qZqWTFOVCzqONtg&oe=6AEABE72"
+      }
+    },
+    {
+      "id": "yilan-20261107-33",
+      "name": "綠朵里的雜貨店",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/midorino.lab/",
+        "ig": "https://www.instagram.com/dorino____/",
+        "threads": "https://www.threads.com/@dorino____",
+        "web": "https://www.midorinolab.com/cosmos"
+      },
+      "socialNote": "Facebook 為綠朵里品牌公司「綠野品牌實驗室」粉專，雜貨店專屬 FB 尚待確認；官網雜貨店欄位連結此 Instagram，帳號目前名稱為「綠朵里的榕樹下」。",
+      "logo": {
+        "url": "./assets/yilan-20261107-33/logo.webp",
+        "source": "https://www.instagram.com/dorino____/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "官網雜貨店欄所連結的 Instagram 現稱「綠朵里的榕樹下」，頭像代表相關節目帳號，非已確認的雜貨店專屬標誌；原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/606172098_17967110189976707_6103807045440540089_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=110&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mlcB_rNcS0QQ7kNvwHwSCdT&_nc_oc=AdrIx1ddOkrDjb5NkDqW3fA8TUpJm0ymZ96vshHtNd64mXaEEBFI1qqd6utjyZenm24&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=rPcdfgDlkH6dGOXiogXyiA&_nc_ss=7b689&oh=00_AQS6nxTMnDQZZ1zZNDlVBPqvbkqQXUGVQsztMTJtifpccg&oe=6AEAB9E6"
+      }
+    },
+    {
+      "id": "yilan-20261107-34",
+      "name": "注意！似顏繪",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/p_ause.art/",
+        "threads": "https://www.threads.com/@p_ause.art",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-34/logo.webp",
+        "source": "https://www.instagram.com/p_ause.art/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/514913349_17958885341955983_4295871197619528458_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=106&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=0bB5K7SlW2IQ7kNvwG1lwMS&_nc_oc=AdrLkjWivcSOvdVWILLFaGtVuiIOcfDON4rGBg4T9RJ4c8-pzaEOcGVH3QmSelTAeJo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=CO7yilT5usiIWM4FtRdV4w&_nc_ss=7b689&oh=00_AQTzV4DMTwCXocDupPBdnbtbEc0jKv7z-7xdu8vDMPYGGQ&oe=6AEADD0C"
+      }
+    },
+    {
+      "id": "yilan-20261107-35",
+      "name": "悟饕泰山店",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/61589974041963/",
+        "ig": "",
+        "threads": "",
+        "web": "https://www.wu-tau.com/store.php"
+      },
+      "socialNote": "FB 為悟饕品牌粉絲專頁，尚未確認宜蘭泰山店專屬 FB；網站為品牌門市資訊。",
+      "address": "260宜蘭縣宜蘭市泰山路154號",
+      "latlng": {
+        "lat": 24.7522258,
+        "lng": 121.7395161
+      },
+      "locationSource": "https://www.google.com/maps/place/悟饕泰山店/@24.7522258,121.7395161,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e506ff847103:0x7394d95905dff9c!8m2!3d24.7522258!4d121.7395161!16s%2Fg%2F11zg9clfcj",
+      "logo": {
+        "url": "./assets/yilan-20261107-35/logo.webp",
+        "source": "https://www.facebook.com/61589974041963/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "悟饕品牌粉專頭像，非泰山店專屬粉專；原圖 480 × 480，不放大。",
+        "originalUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/701635586_26683721141255726_2893192542018388603_n.jpg?stp=dst-jpg_tt6&cstp=mx1333x1333&ctp=s480x480&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=_Bm6ZxogfWcQ7kNvwGTtvw0&_nc_oc=Ador-ZFJ-hjgbngkbvAiWAg1za36axtxdI8waAkjaIlhGQfi3XjQD0ihZC7moeLe7XM&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=Wavh6vA6wpRYo5MyvWqBIQ&_nc_ss=7b289&oh=00_AQRbiGS9fv0N2Oh6CcTOt5h7b0Ezp6sitFhx689fsUV7WA&oe=6AEB0C10"
+      }
+    },
+    {
+      "id": "yilan-20261107-36",
+      "name": "好森x大吉",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/TREE.GIII/",
+        "ig": "https://www.instagram.com/tree_giii/",
+        "threads": "https://www.threads.com/@a0939527550",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-36/logo.webp",
+        "source": "https://www.instagram.com/tree_giii/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/295534273_108182165240126_1552852519488717818_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=108&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy45MTYuQzMifQ%3D%3D&_nc_ohc=QPoVu-8TtJgQ7kNvwEHnZg7&_nc_oc=AdrX7fhPI_HKJf_tr03fyVqV59xg8-2qGG6HLZZORNhcZcUsENHMUlV4o__SNLiS4G8&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQpHYjX_knspWeKd7hB6OK0-WUjYS-aFr6yM7Op7SXskw&oe=6AEABA3D"
+      },
+      "address": "268宜蘭縣五結鄉大吉村大吉一路435巷5弄8號",
+      "latlng": {
+        "lat": 24.7065576,
+        "lng": 121.806774
+      },
+      "locationSource": "https://www.google.com/maps/place/好森x大吉/@24.7065576,121.806774,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e67f099c2461:0xbf2ea262a3fb7cdb!8m2!3d24.7065576!4d121.806774!16s%2Fg%2F11b7hhjzrf"
+    },
+    {
+      "id": "yilan-20261107-37",
+      "name": "食光1998餐酒館",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/letemps1998/",
+        "ig": "https://www.instagram.com/letemps1998/",
+        "threads": "https://www.threads.com/@letemps1998",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-37/logo.webp",
+        "source": "https://www.instagram.com/letemps1998/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/280542291_367220325375343_5375434303892369503_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=109&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=TOHE7Ey2q6sQ7kNvwFfMbIe&_nc_oc=AdqDlnJMAp9jYoQo6PFv0NOuqfLnqunm0rOzgEj3CO97ocwDw7xhjhiZV6lcVtIOTgw&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQSwd_INRHu4_skexVgm83WVKmeJxHVVI9uz_YLgK7K1ZA&oe=6AEAD972"
+      },
+      "address": "260宜蘭縣宜蘭市民權里中山路二段187巷25號",
+      "latlng": {
+        "lat": 24.7500762,
+        "lng": 121.7529404
+      },
+      "locationSource": "https://www.google.com/maps/place/食光1998餐酒館/@24.7500762,121.7529404,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e4db9e74ce85:0xba540b857f6756d9!8m2!3d24.7500762!4d121.7529404!16s%2Fg%2F11b637tgdy"
+    },
+    {
+      "id": "yilan-20261107-38",
+      "name": "咕莫呢。廚房",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/GMK0330/",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-38/logo.webp",
+        "source": "https://www.facebook.com/GMK0330/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Facebook 粉專頭像，原圖 180 × 180，最長邊 256 像素、不放大。",
+        "originalUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/302230878_584591956703157_5787760247228777617_n.jpg?stp=dst-jpg_tt6&cstp=mx180x180&ctp=s180x180&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=InF3FkyoGVEQ7kNvwHMtHau&_nc_oc=AdrzBiOQ36TSIYf8OpAbyhIeDVRc0tSOH6nYUlBpmajxBx7uZN-PJYjfe0MkDq8v4Dk&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=SPX2b66SuIi9lytWnDaoIQ&_nc_ss=7b289&oh=00_AQSsm47E8UEazsz0mJLcu4OW-387NIeY-Zx6yflTH2FX2w&oe=6AEB05DA"
+      },
+      "address": "265宜蘭縣羅東鎮北成里中山路四段280號",
+      "latlng": {
+        "lat": 24.6730338,
+        "lng": 121.7581145
+      },
+      "locationSource": "https://www.google.com/maps/place/咕莫呢。廚房/@24.6730338,121.7581145,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e68f5e3bbe6d:0xbdcb9f7e68f6d9d2!8m2!3d24.6730338!4d121.7581145!16s%2Fg%2F11cmykz00n"
+    },
+    {
+      "id": "yilan-20261107-39",
+      "name": "三千金冬瓜茶/烤鳥蛋",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/100083158540913/",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-39/logo.webp",
+        "source": "https://www.facebook.com/100083158540913/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Facebook 粉專頭像，原圖 480 × 480，最長邊 256 像素、不放大。",
+        "originalUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/275846411_105217102131575_2778084558753011590_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s480x480&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=HnRVWscZelAQ7kNvwHz_rlh&_nc_oc=AdoFx8EVDn1AO_xKQ-49sZYiGWISTTfF9ZQbn0QDy8IJgWF-e-1udWvjWj6VzLNZD8Y&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=NyPLrKDmi23fYvyr51grAQ&_nc_ss=7b289&oh=00_AQRWOFaUySUlUTBA5pp2DfxqC4nf6YhYikxyWmUra1zBhg&oe=6AEB0806"
+      },
+      "address": "269宜蘭縣冬山鄉永清路",
+      "latlng": {
+        "lat": 24.6648133,
+        "lng": 121.7610505
+      },
+      "locationSource": "https://www.google.com/maps/place/三千金冬瓜茶/烤鳥蛋/@24.6648133,121.7610505,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7b9e613f0e1:0x86455bf828e9578c!8m2!3d24.6648133!4d121.7610505!16s%2Fg%2F11x0rw0sh7",
+      "locationNote": "Google 地圖僅列出路名、沒有門牌；座標為地圖標記位置，實際出攤位置可能不同。"
+    },
+    {
+      "id": "yilan-20261107-40",
+      "name": "現煮食",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-41",
+      "name": "Pochacha金山魚板",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/manjok.studio/",
+        "ig": "https://www.instagram.com/manjok.tw/",
+        "threads": "https://www.threads.com/@manjok.tw",
+        "web": "https://www.manjokstudio.com/"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-41/logo.webp",
+        "source": "https://www.instagram.com/manjok.tw/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/575319609_18021732857785943_6275132927357826617_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41MDAuQzMifQ%3D%3D&_nc_ohc=00hMPTf_8GAQ7kNvwFgcOBy&_nc_oc=AdqGtpUaZCKIyXs2pd7m9cRA-4n9aATMCbiWNIhYqxiYOBpVFtj5N8TNKrGj97JvLvE&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=jPOtmj-0QVSquYoMb6FcQA&_nc_ss=7b689&oh=00_AQSUpNir38aj71VmRqjIW9MPdyH9yr8cbO0M5CMP0rzZoQ&oe=6AEAB69A"
+      },
+      "locationNote": "品牌 Instagram 表示每日出攤地點見限時動態，尚未確認固定店址。"
+    },
+    {
+      "id": "yilan-20261107-42",
+      "name": "老頭家小吃部",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-43",
+      "name": "樂生田",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/loksengtshan/",
+        "ig": "https://www.instagram.com/barkingblue/",
+        "threads": "https://www.threads.com/@barkingblue",
+        "web": ""
+      },
+      "socialNote": "IG 與 Threads 為「樂生田小農」個人帳號。",
+      "logo": {
+        "url": "./assets/yilan-20261107-43/logo.webp",
+        "source": "https://www.facebook.com/loksengtshan/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Facebook 粉專頭像，原圖 480 × 480，最長邊 256 像素、不放大。",
+        "originalUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/294508140_474594598010041_6752776771461024993_n.jpg?stp=dst-jpg_tt6&cstp=mx1333x1333&ctp=s480x480&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=nCO0O8cn1jMQ7kNvwH79dKc&_nc_oc=AdroyT73kWfA6AFDAET3Mf49UiBkilH4QX_1TonubWPEbkD27RSC8RNJSpjZJIvlKJc&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=DUiThJ13OZTsqFV77cdY6A&_nc_ss=7b289&oh=00_AQTAXj2SFOU4TIN6N9Ydi4iyzGBhxf3YFvZ9v7jyTMCHlw&oe=6AEB39A7"
+      },
+      "address": "264宜蘭縣員山鄉深溝村思源路97巷台灣 188",
+      "latlng": {
+        "lat": 24.7216505,
+        "lng": 121.711791
+      },
+      "locationSource": "https://www.google.com/maps/place/樂生田/@24.7216505,121.711791,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e38e84ee0add:0xd88c87017fefeba8!8m2!3d24.7216505!4d121.711791!16s%2Fg%2F11by_h5ff4",
+      "locationNote": "地址依 Google 地圖所示原樣記錄，門牌格式待確認。"
+    },
+    {
+      "id": "yilan-20261107-44",
+      "name": "HAHADOGS",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/_hahadogss/",
+        "threads": "https://www.threads.com/@_hahadogss",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-44/logo.webp",
+        "source": "https://www.instagram.com/_hahadogss/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/671119718_18049156367562175_3566455100946998089_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41ODQuQzMifQ%3D%3D&_nc_ohc=vj3n5GRe33oQ7kNvwEVnG15&_nc_oc=AdoZFZjqLRSE_n9l3odR1YGjTNWKPVfoM9oFS4Tv1N6-qQZgiAYzTQ2F89ZGNggBa7Y&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=xLZwEoJAhtyoVJgyz9S-CA&_nc_ss=7b689&oh=00_AQSteRtq0Zmx-9q1f75g4TZhFcbC363_bXCGs48OY59TaA&oe=6AEABF5B"
+      }
+    },
+    {
+      "id": "yilan-20261107-45",
+      "name": "豬大嬸",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/100063985457813/",
+        "ig": "https://www.instagram.com/wu600513/",
+        "threads": "https://www.threads.com/@wu600513",
+        "web": ""
+      },
+      "socialNote": "IG 為攤主個人帳號；Threads 名稱為「豬大嬸」，貼文提及攤位地址與商品。",
+      "logo": {
+        "url": "./assets/yilan-20261107-45/logo.webp",
+        "source": "https://www.facebook.com/100063985457813/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Facebook 粉專頭像，原圖 479 × 480，最長邊 256 像素、不放大。",
+        "originalUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/592517672_1280857077390462_7500991781687567671_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1082&ctp=s480x480&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=OkW6isFeQ6QQ7kNvwFVrqSj&_nc_oc=Adp3g7Z8x1vWOiw8OVQe7ydrUD5FJojYwmLSqCxTAxP7UEX7IlKyVAl_RqjCHo3bsAc&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=u9XTlauE1sSWFEa-4Mfw1A&_nc_ss=7b289&oh=00_AQSiGBGh5EW4esL-xMZhfA0EV7DdiNF9e4xln9cy_-iKJQ&oe=6AEB26C6"
+      }
+    },
+    {
+      "id": "yilan-20261107-46",
+      "name": "阿芳鹹粥",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/AFANGXZ/",
+        "ig": "https://www.instagram.com/aefang_yilan/",
+        "threads": "https://www.threads.com/@aefang_yilan",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-46/logo.webp",
+        "source": "https://www.instagram.com/aefang_yilan/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/198750718_538335690674083_1404175785417369647_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=100&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=D0FhBOobCcoQ7kNvwEeX7Wt&_nc_oc=AdqBsUIyhVf8khTkGyn8bSCwBLDHN7SE26hyqbbRh2Gc-YauwPUDdCuwNLLlXvqbod8&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQSOykbyJDBCU1OjudfIWfIUHEzHmW4pcx-PavSco5g4Vg&oe=6AEABE7A"
+      }
+    },
+    {
+      "id": "yilan-20261107-47",
+      "name": "1989 可麗餅",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-48",
+      "name": "小山丘",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/whatthehill2020/",
+        "ig": "https://www.instagram.com/_what.the.hill/",
+        "threads": "https://www.threads.com/@_what.the.hill",
+        "web": "https://linktr.ee/Whatthehill"
+      },
+      "socialNote": "網站欄為品牌 IG 直接連結的 Linktree 官方連結頁。",
+      "logo": {
+        "url": "./assets/yilan-20261107-48/logo.webp",
+        "source": "https://www.instagram.com/_what.the.hill/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/447921887_3433110970268848_5927895406586883761_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy44MjguQzMifQ%3D%3D&_nc_ohc=9JIFeV2Lmn8Q7kNvwHgqcwX&_nc_oc=AdrcFW18DE-nb68APVw4HaB6nbIp_jX0Y-5_Cz5fg3cv5TY_15sZgdQm4nTaaD-dzOk&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQSgI-CEeqTmmpS9a4eGrd9VsXzjbKI5vQ0uTPWXAwPMYA&oe=6AEAB65E"
+      },
+      "address": "265宜蘭縣羅東鎮信義里復興路一段100巷1號",
+      "latlng": {
+        "lat": 24.6828865,
+        "lng": 121.7688565
+      },
+      "locationSource": "https://www.google.com/maps/place/小山丘/@24.6828865,121.7688565,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e775ae26eb41:0x31c51173122ee4f7!8m2!3d24.6828865!4d121.7688565!16s%2Fg%2F11qhsdb2sb"
+    },
+    {
+      "id": "yilan-20261107-49",
+      "name": "實樸生活",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/profile.php?id=61562239195403",
+        "ig": "https://www.instagram.com/family_earthy_shop/",
+        "threads": "https://www.threads.com/@family_earthy_shop",
+        "web": "https://myship.7-11.com.tw/general/detail/GM2606291938932"
+      },
+      "socialNote": "網站欄為品牌 IG 直接連結的 7-ELEVEN 賣貨便賣場。",
+      "logo": {
+        "url": "./assets/yilan-20261107-49/logo.webp",
+        "source": "https://www.instagram.com/family_earthy_shop/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/671199152_17934375924212882_1948629258354654203_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=0bOt7N8sp-8Q7kNvwEwKca7&_nc_oc=AdoGsZCdKKNmJ7nwSqj8YGM7Peb2q8Un4xkrssHtdTSm3uI5k-9q9aWrZ2toBLjEE2I&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=0J3XXhXZ2ykoRe03sqnDdA&_nc_ss=7b689&oh=00_AQSc7kaSoIKMCK9iQKcnEkeqwNsXIW_kIJQL3-PbZwXf3Q&oe=6AEADAFE"
+      },
+      "address": "266宜蘭縣三星鄉大義村上將路三段338號",
+      "latlng": {
+        "lat": 24.6855743,
+        "lng": 121.7064732
+      },
+      "locationSource": "https://www.google.com/maps/place/實樸生活/@24.6855743,121.7064732,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e5000ec43fd9:0xe40f0635510e2262!8m2!3d24.6855743!4d121.7064732!16s%2Fg%2F11w3w_py1s"
+    },
+    {
+      "id": "yilan-20261107-50",
+      "name": "宜蘭員山蘇菲亞貝果",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/freshsophiabagel/",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-50/logo.webp",
+        "source": "https://www.facebook.com/freshsophiabagel/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Facebook 粉專頭像，原圖 480 × 480，最長邊 256 像素、不放大。",
+        "originalUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/571234536_1291910686070572_7539459627225415901_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x2048&ctp=s480x480&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=Qog6-ySCiegQ7kNvwHUlOYu&_nc_oc=AdrskI8Xu0uQhIRNPr3VE-fw8p8vxov5UPh7Ams_PdhTbMu_Dx2q9zfakkTiPsEXJds&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=Pk18HwX8z-fOMqfd9zd38A&_nc_ss=7b289&oh=00_AQSqm5ZHiXmTREvKgFt5DQ3BQGw1zPUBiQ5v381PROeSNQ&oe=6AEB30B7"
+      }
+    },
+    {
+      "id": "yilan-20261107-51",
+      "name": "臟燒雞蛋糕",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/61581061663356/",
+        "ig": "https://www.instagram.com/organeggcake/",
+        "threads": "https://www.threads.com/@organeggcake",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-51/logo.webp",
+        "source": "https://www.instagram.com/organeggcake/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/553042066_17847542172568397_3185193284879851583_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=wTgTIeXiMaQQ7kNvwHYcDFe&_nc_oc=AdqhVbc8Vp2iQZBjFHB9Q1ldPfixKtEJ_IzeRBN5DBC7WL23Xn6fk42C04B0XbR1a3c&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=FpjL3zSP-qeMvIoKkaP_wg&_nc_ss=7b689&oh=00_AQSiQX4rynVIXpZ2Or65FNhV-MfQH6t0k-m3is06lHnJFQ&oe=6AEACFEB"
+      },
+      "address": "265宜蘭縣羅東鎮大新里和平路166號",
+      "latlng": {
+        "lat": 24.6777591,
+        "lng": 121.7728589
+      },
+      "locationSource": "https://www.google.com/maps/place/臟燒雞蛋糕/@24.6777591,121.7728589,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7a3782b7bef:0x4e5eadc3694a5ba7!8m2!3d24.6777591!4d121.7728589!16s%2Fg%2F11zhx37hgb"
+    },
+    {
+      "id": "yilan-20261107-52",
+      "name": "日日青",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-53",
+      "name": "孟延君上手作甜點",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/hsiao.0824/",
+        "ig": "https://www.instagram.com/myjs_dessert/",
+        "threads": "https://www.threads.com/@myjs_dessert",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-53/logo.webp",
+        "source": "https://www.instagram.com/myjs_dessert/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/662439603_18093640136141801_6709172424838157666_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=100&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy45OTguQzMifQ%3D%3D&_nc_ohc=T7ZjP-VQEUIQ7kNvwFb9v2J&_nc_oc=AdrGIwf7TmZfFWEoZY5z7NIy5GNCg1110EBatQ1s_0Sata0d85S2BuWXuGFXpvlNyOg&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=u-dBAYF9orTRv8RAuIWTQQ&_nc_ss=7b689&oh=00_AQTKWzyApr2kV8fN1BfVVHYiRIcm68_XeddFI6ydD1zwyA&oe=6AEAAEB4"
+      },
+      "address": "260宜蘭縣宜蘭市擺厘里自強路168號",
+      "latlng": {
+        "lat": 24.7430099,
+        "lng": 121.7481363
+      },
+      "locationSource": "https://www.google.com/maps/place/孟延君上手作甜點/@24.7430099,121.7481363,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e50001e78f4f:0x7922c65bbc06247d!8m2!3d24.7430099!4d121.7481363!16s%2Fg%2F11vwypdbhg"
+    },
+    {
+      "id": "yilan-20261107-54",
+      "name": "恩菲提拉米蘇",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/61567393529912/",
+        "ig": "https://www.instagram.com/x830422/",
+        "threads": "https://www.threads.com/@x830422",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-54/logo.webp",
+        "source": "https://www.instagram.com/x830422/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/469388563_1098781031486196_7145280798430660153_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=5opCc0F0PboQ7kNvwHZdfjT&_nc_oc=AdrsH3EyUM_GCLQKpm3CowbxBcXsbbvmUHBU_VoOEKb1KuPqEvcMp6buL4w4Z40Y1rI&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQSmAbyfpYfertRq7lwhJIFgRZ7jlMQ1PcQDGTlAu_dRHw&oe=6AEACC2B"
+      }
+    },
+    {
+      "id": "yilan-20261107-55",
+      "name": "甜聿家米甜品",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/SweetRiceDessert/",
+        "ig": "https://www.instagram.com/sweetricedessert/",
+        "threads": "https://www.threads.com/@sweetricedessert",
+        "web": "https://myship.7-11.com.tw/general/detail/GM2201192139016"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-55/logo.webp",
+        "source": "https://www.instagram.com/sweetricedessert/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/169966107_448940126165103_3231490657733624735_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=108&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDE0LkMzIn0%3D&_nc_ohc=PqGeh4bkjjIQ7kNvwGDSIpu&_nc_oc=AdohniUsOwuVb8phQSf_TP24ixCrIPmZJ8UUfuMiF73NPYKxgYT-aJdA8Ip8kOHtgCI&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQfTKttnNznaDqcB-nshzS1yI7c40ZT4W-hrp1wotvkjg&oe=6AEAB8A7"
+      },
+      "address": "970花蓮縣花蓮市國威里三民街35-2號",
+      "latlng": {
+        "lat": 23.9808061,
+        "lng": 121.6083312
+      },
+      "locationSource": "https://www.google.com/maps/place/甜聿家米甜品/@23.9808061,121.6083312,17z/data=!3m1!4b1!4m6!3m5!1s0x3468a192b21668cf:0xb5ec92ab5975d916!8m2!3d23.9808061!4d121.6083312!16s%2Fg%2F11jwzyh21c",
+      "socialNote": "網站欄為品牌 Instagram 直接連結的 7-ELEVEN 常溫商品賣場；賣場所列店址與 Google 地圖相符。"
+    },
+    {
+      "id": "yilan-20261107-56",
+      "name": "花蓮老宅神級肉桂捲在台南",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/SabiSabi2022/",
+        "ig": "https://www.instagram.com/sabisabi_2022/",
+        "threads": "https://www.threads.com/@sabisabi_2022",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/sabisabi-tainan/logo.webp?v=a3cae2d5c84aa3c4",
+        "source": "https://www.facebook.com/SabiSabi2022/?locale=zh_TW",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。",
+        "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/sabisabi-tainan.png?v=98c91c924925a7f7"
+      },
+      "address": "700臺南市中西區永華里開山路122巷16號",
+      "latlng": {
+        "lat": 22.9895703,
+        "lng": 120.2066167
+      },
+      "locationSource": "https://www.google.com/maps/place/%E8%8A%B1%E8%93%AE%E8%80%81%E5%AE%85%E7%A5%9E%E7%B4%9A%E8%82%89%E6%A1%82%E6%8D%B2%E5%9C%A8%E5%8F%B0%E5%8D%97+SabiSabi+Coffee%26Sweets+in+Tainan/@22.9895703,120.2066167,17z/data=!3m1!4b1!4m6!3m5!1s0x346e771403a92d89:0x52d95ca3a33826fe!8m2!3d22.9895703!4d120.2066167!16s%2Fg%2F11ypvs65gg?entry=ttu"
+    },
+    {
+      "id": "yilan-20261107-57",
+      "name": "熊甜宅X木子口",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/profile.php?id=61551361427442",
+        "ig": "https://www.instagram.com/bearhouse.2021/",
+        "threads": "https://www.threads.com/@bearhouse.2021",
+        "web": ""
+      },
+      "partners": [
+        {
+          "name": "熊甜宅",
+          "social": {
+            "fb": "https://www.facebook.com/profile.php?id=61551361427442",
+            "ig": "https://www.instagram.com/bearhouse.2021/",
+            "threads": "https://www.threads.com/@bearhouse.2021",
+            "web": ""
+          },
+          "logo": {
+            "url": "./assets/yilan-20261107-57/logo-a.webp",
+            "source": "https://www.instagram.com/bearhouse.2021/",
+            "platform": "instagram",
+            "status": "verified",
+            "checkedAt": "2026-10-31",
+            "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+            "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/385197482_153915041124485_2503586083563697821_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zNTQuQzMifQ%3D%3D&_nc_ohc=f_VABJ366vIQ7kNvwE2JYHO&_nc_oc=AdrqF6cNANxfc1GGBS_VUOr_x5DDc6mzZWyDR34kxJLmKEW1AzStpH-4erfMxt0_DQo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQxyyn4Z1JCUrzeNq1aDS1walsYmRfj2K142-70PeYh_w&oe=6AEAAB1A"
+          },
+          "address": "269宜蘭縣冬山鄉南興村冬山路146號",
+          "latlng": {
+            "lat": 24.6345444,
+            "lng": 121.7911883
+          },
+          "locationSource": "https://www.google.com/maps/place/熊甜宅/@24.6345444,121.7911883,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7ef3a9cd443:0x368b412c0c082f97!8m2!3d24.6345444!4d121.7911883!16s%2Fg%2F11w4mygdr1"
+        },
+        {
+          "name": "木子口",
+          "social": {
+            "fb": "https://www.facebook.com/share/1MZVHdu84v/",
+            "ig": "https://www.instagram.com/mu_zu_ko/",
+            "threads": "https://www.threads.com/@mu_zu_ko",
+            "web": "https://linkgoods.com/muzuko"
+          },
+          "logo": {
+            "url": "./assets/yilan-20261107-57/logo-b.webp",
+            "source": "https://www.instagram.com/mu_zu_ko/",
+            "platform": "instagram",
+            "status": "verified",
+            "checkedAt": "2026-10-31",
+            "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+            "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/84332827_2541799812702690_4513438830509948928_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=UwizvStMXLAQ7kNvwGVJfXa&_nc_oc=AdqnyQl7xVbtGMb8sIkKsJuQY7siabVa3qPzXN8b5Pngw0VlzNuoAvxDlUsHbL4xZG4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQ12AfWn1a9U5t5cgJ_6OD4Zb-Kcu1wxyX2boZXnPbAgw&oe=6AEAABB6"
+          },
+          "socialNote": "網站欄為品牌 Instagram 直接連結的 LINKGOODS 官方連結頁。",
+          "address": "269宜蘭縣冬山鄉香和村冬山路66巷1號",
+          "latlng": {
+            "lat": 24.6325347,
+            "lng": 121.7953909
+          },
+          "locationSource": "https://www.google.com/maps/place/%E6%9C%A8%E5%AD%90%E5%8F%A3MUZUKO%E7%83%98%E7%84%99%E5%B7%A5%E4%BD%9C%E5%AE%A4/@24.6325347,121.7953909,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7be186a401f:0xbe43b40644392cc2!8m2!3d24.6325347!4d121.7953909!16s%2Fg%2F11vq96kz27",
+          "locationNote": "Google 地圖與品牌 IG 均顯示工作室目前不對外營業，以預訂方式為主。"
+        }
+      ],
+      "logo": {
+        "url": "./assets/yilan-20261107-57/logo-a.webp",
+        "source": "https://www.instagram.com/bearhouse.2021/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "共同攤位暫用熊甜宅的 Instagram 頭像代表；各品牌頭像均列於 partners。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/385197482_153915041124485_2503586083563697821_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zNTQuQzMifQ%3D%3D&_nc_ohc=f_VABJ366vIQ7kNvwE2JYHO&_nc_oc=AdrqF6cNANxfc1GGBS_VUOr_x5DDc6mzZWyDR34kxJLmKEW1AzStpH-4erfMxt0_DQo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQxyyn4Z1JCUrzeNq1aDS1walsYmRfj2K142-70PeYh_w&oe=6AEAAB1A"
+      },
+      "socialNote": "共同攤位的頂層社群連結暫以「熊甜宅」為代表；各品牌的完整社群連結請見 partners。"
+    },
+    {
+      "id": "yilan-20261107-58",
+      "name": "乙夷甜點",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/YiYiDessert/",
+        "ig": "https://www.instagram.com/yiyi_dessert/",
+        "threads": "https://www.threads.com/@yiyi_dessert",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-58/logo.webp",
+        "source": "https://www.instagram.com/yiyi_dessert/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/421010800_779129890813316_7239723467202019513_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43ODAuQzMifQ%3D%3D&_nc_ohc=kkQLXyZWidMQ7kNvwFINpEX&_nc_oc=AdpKXjRBzRajMj-xeLmG8PCfhmxsv4hKvs7b8-CGjCB7D5N5nsPAo2nUM1XS3PLW7qs&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQT38Ihhlt6Xw12lNzCSosfXWyRpnDopALpJMGirRKmVcg&oe=6AEAC6C5"
+      },
+      "address": "970花蓮縣花蓮市國風里仁愛街104巷2號",
+      "latlng": {
+        "lat": 23.9781874,
+        "lng": 121.6024109
+      },
+      "locationSource": "https://www.google.com/maps/place/%E4%B9%99%E5%A4%B7%E7%94%9C%E9%BB%9E/@23.9781874,121.6024109,17z/data=!3m1!4b1!4m6!3m5!1s0x34689f0078ecaab1:0x6ce97a0826ec34ce!8m2!3d23.9781874!4d121.6024109!16s%2Fg%2F11vrvy_pnl"
+    },
+    {
+      "id": "yilan-20261107-59",
+      "name": "遊牧仕事麵包工作室",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/61577712805626/",
+        "ig": "https://www.instagram.com/yuuboku_shigoto/",
+        "threads": "https://www.threads.com/@yuuboku_shigoto",
+        "web": "https://dandy.tw/yuuboku-shigoto"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-59/logo.webp",
+        "source": "https://www.instagram.com/yuuboku_shigoto/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/439143082_1096888198087995_5099073877886111619_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Ewx4Zc-rIBEQ7kNvwGSHBeT&_nc_oc=Ado-TfG3qdHquOXNnTkKifM7DFiCMR3PPLmM7Um0tOeVv9LwX5wqPuxvG4P992d1_Ws&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQR5CNLrdhZSc6dlF21Z5RAn1VAEShjzD8PPbHMY5O786w&oe=6AEAD1C6"
+      },
+      "address": "261宜蘭縣頭城鎮城南里東興街116號",
+      "latlng": {
+        "lat": 24.8557882,
+        "lng": 121.8249884
+      },
+      "locationSource": "https://www.google.com/maps/place/遊牧仕事麵包工作室/@24.8557882,121.8249884,17z/data=!3m1!4b1!4m6!3m5!1s0x3467f70074586fe3:0xc0f5e63db2e478d4!8m2!3d24.8557882!4d121.8249884!16s%2Fg%2F11ym1f_mr3",
+      "socialNote": "網站欄為 Google 地圖所列品牌訂購頁，頁面連結至相同 Instagram。"
+    },
+    {
+      "id": "yilan-20261107-60",
+      "name": "初白時光",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "https://www.facebook.com/61590502141774/",
+        "ig": "https://www.instagram.com/moment.of.white/",
+        "threads": "https://www.threads.com/@moment.of.white",
+        "web": "https://pudding.urland.com.tw/"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-60/logo.webp",
+        "source": "https://www.instagram.com/moment.of.white/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/681329376_17875643073596129_2835495803046133620_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=CKdmrggFaS8Q7kNvwFxvvPo&_nc_oc=AdpwukmwHcv2I-Znj84CBDhOcWQ6r11YvhurwXNswM6wDXFHlTyQVlIHC9m56IWgsoc&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=KQZUF30yiy920XQspMfy4w&_nc_ss=7b689&oh=00_AQSLSp0rdNFcorGHIJF5JAeOHl7mecAPuErwATz1n-wVtQ&oe=6AEABF41"
+      }
+    }
+  ]
+}
