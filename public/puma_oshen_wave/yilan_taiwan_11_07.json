@@ -1396,7 +1396,20 @@
       "category": "暖心甜點",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "./assets/yilan-20261107-57-b/1.webp?v=74cc8310ef70ee58",
+          "alt": "木子口作品：麵包捲",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，歸屬木子口。"
+        },
+        {
+          "url": "./assets/yilan-20261107-57-b/2.webp?v=6f1327734b59cecd",
+          "alt": "木子口作品：烘焙點心禮盒",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，歸屬木子口。"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/profile.php?id=61551361427442",
         "ig": "https://www.instagram.com/bearhouse.2021/",
@@ -1452,7 +1465,21 @@
             "lng": 121.7953909
           },
           "locationSource": "https://www.google.com/maps/place/%E6%9C%A8%E5%AD%90%E5%8F%A3MUZUKO%E7%83%98%E7%84%99%E5%B7%A5%E4%BD%9C%E5%AE%A4/@24.6325347,121.7953909,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7be186a401f:0xbe43b40644392cc2!8m2!3d24.6325347!4d121.7953909!16s%2Fg%2F11vq96kz27",
-          "locationNote": "Google 地圖與品牌 IG 均顯示工作室目前不對外營業，以預訂方式為主。"
+          "locationNote": "Google 地圖與品牌 IG 均顯示工作室目前不對外營業，以預訂方式為主。",
+          "productImages": [
+            {
+              "url": "./assets/yilan-20261107-57-b/1.webp?v=74cc8310ef70ee58",
+              "alt": "木子口作品：麵包捲",
+              "checkedAt": "2026-10-31",
+              "note": "使用者提供，歸屬木子口。"
+            },
+            {
+              "url": "./assets/yilan-20261107-57-b/2.webp?v=6f1327734b59cecd",
+              "alt": "木子口作品：烘焙點心禮盒",
+              "checkedAt": "2026-10-31",
+              "note": "使用者提供，歸屬木子口。"
+            }
+          ]
         }
       ],
       "logo": {

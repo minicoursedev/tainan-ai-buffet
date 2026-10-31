@@ -16178,7 +16178,21 @@
       },
       "coordinateSource": "https://www.google.com/maps/place/%E6%9C%A8%E5%AD%90%E5%8F%A3MUZUKO%E7%83%98%E7%84%99%E5%B7%A5%E4%BD%9C%E5%AE%A4/@24.6325347,121.7953909,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7be186a401f:0xbe43b40644392cc2!8m2!3d24.6325347!4d121.7953909!16s%2Fg%2F11vq96kz27",
       "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
-      "visitNote": "工作室以預訂為主，地圖顯示目前店面不營業；前往前請先聯繫。"
+      "visitNote": "工作室以預訂為主，地圖顯示目前店面不營業；前往前請先聯繫。",
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57-b/1.webp?v=74cc8310ef70ee58",
+          "alt": "木子口作品：麵包捲",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，歸屬木子口。"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57-b/2.webp?v=6f1327734b59cecd",
+          "alt": "木子口作品：烘焙點心禮盒",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，歸屬木子口。"
+        }
+      ]
     },
     {
       "id": "yilan-20261107-58",
