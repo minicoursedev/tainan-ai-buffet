@@ -8,6 +8,11 @@
     "source": "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl",
     "additionalSources": [
       "https://inthealley.tw/?p=95156"
+    ],
+    "vendorListSources": [
+      "https://www.threads.com/@yilan_taiwan/post/DfHnB7uH3sG",
+      "https://www.threads.com/@yilan_taiwan/post/DfHnB-gH1CJ",
+      "https://www.threads.com/@yilan_taiwan/post/DfHnB-6H5PG"
     ]
   },
   "designers": [
@@ -982,7 +987,7 @@
     },
     {
       "id": "yilan-20261107-41",
-      "name": "Pochacha金山魚板",
+      "name": "Pochacha釜山魚板",
       "category": "暖流食堂",
       "disabled": false,
       "verification": false,
