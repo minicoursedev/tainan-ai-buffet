@@ -15409,6 +15409,852 @@
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；貓寓咖啡 l 沖繩風料理 l 緬因貓 l 文化藝術 l 高雄景點 (@cathouse.art) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。"
       },
       "visitNote": "沖繩風緬因貓咖啡廳，供應咖啡及沖繩料理，並提供手作體驗與藝術展覽；電話0963-117-770。巷弄較窄，建議先查看官方 Instagram 導引；營業時間與不定期店休日請先確認。"
+    },
+    {
+      "id": "yilan-20261107-02",
+      "verification": false,
+      "category": "書店",
+      "giftStatus": "可能有小物",
+      "name": "森本屋",
+      "address": "265008宜蘭縣羅東鎮信義里中正北路124巷2號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=61572175033854",
+        "instagram": "https://www.instagram.com/yilanbookforest/",
+        "threads": "https://www.threads.com/@yilanbookforest"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/%E6%A3%AE%E6%9C%AC%E5%B1%8B/@24.6851058,121.7713042,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e5d8b4597d7b:0x3948687133791e12!8m2!3d24.6851058!4d121.7713042!16s%2Fg%2F11xflzc4g4",
+        "https://www.facebook.com/profile.php?id=61572175033854",
+        "https://www.instagram.com/yilanbookforest/",
+        "https://www.threads.com/@yilanbookforest",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6851058,
+        "lng": 121.7713042
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E6%A3%AE%E6%9C%AC%E5%B1%8B/@24.6851058,121.7713042,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e5d8b4597d7b:0x3948687133791e12!8m2!3d24.6851058!4d121.7713042!16s%2Fg%2F11xflzc4g4",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-02/logo.webp?v=96fea9b90dc3560c",
+        "source": "https://www.instagram.com/yilanbookforest/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-03",
+      "verification": false,
+      "category": "書店",
+      "giftStatus": "可能有小物",
+      "name": "文邑二手書店",
+      "address": "265宜蘭縣羅東鎮漢民里國華街24號",
+      "social": {
+        "facebook": "https://www.facebook.com/bookoftaiwanese/",
+        "instagram": "https://www.instagram.com/bookoftaiwanese/",
+        "threads": "https://www.threads.com/@bookoftaiwanese"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/文邑二手書店/@24.6761453,121.7608209,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e73250f9d8f1:0x5aabd84d82f3f76b!8m2!3d24.6761453!4d121.7608209!16s%2Fg%2F11j8kyl4m8",
+        "https://www.facebook.com/bookoftaiwanese/",
+        "https://www.instagram.com/bookoftaiwanese/",
+        "https://www.threads.com/@bookoftaiwanese",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6761453,
+        "lng": 121.7608209
+      },
+      "coordinateSource": "https://www.google.com/maps/place/文邑二手書店/@24.6761453,121.7608209,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e73250f9d8f1:0x5aabd84d82f3f76b!8m2!3d24.6761453!4d121.7608209!16s%2Fg%2F11j8kyl4m8",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-03/logo.webp?v=332a376cd6ab69a9",
+        "source": "https://www.instagram.com/bookoftaiwanese/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-05",
+      "verification": false,
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "MASLOW CAFE",
+      "address": "26645宜蘭縣三星鄉上將路二段433巷17弄12號",
+      "social": {
+        "facebook": "https://www.facebook.com/maslowcafetw/",
+        "instagram": "https://www.instagram.com/maslowcafetw/",
+        "threads": "https://www.threads.com/@maslowcafetw"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/MASLOW CAFE/@24.6926629,121.7293011,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e5d83c604827:0xdbe444346e729c40!8m2!3d24.6926629!4d121.7293011!16s%2Fg%2F11h46v0961",
+        "https://www.facebook.com/maslowcafetw/",
+        "https://www.instagram.com/maslowcafetw/",
+        "https://www.threads.com/@maslowcafetw",
+        "https://maslowbakery.1shop-app.com/",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6926629,
+        "lng": 121.7293011
+      },
+      "coordinateSource": "https://www.google.com/maps/place/MASLOW CAFE/@24.6926629,121.7293011,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e5d83c604827:0xdbe444346e729c40!8m2!3d24.6926629!4d121.7293011!16s%2Fg%2F11h46v0961",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-05/logo.webp?v=a1b936b2b7b56cbc",
+        "source": "https://www.instagram.com/maslowcafetw/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-07",
+      "verification": false,
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "啤 咖 酒",
+      "address": "261宜蘭縣頭城鎮城東里和平東路37號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=100063807535492",
+        "instagram": "https://www.instagram.com/cafebarturntablespinthatshit/",
+        "threads": "https://www.threads.com/@cafebarturntablespinthatshit"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/啤 咖 酒/@24.8586404,121.8255125,17z/data=!3m1!4b1!4m6!3m5!1s0x345d4f308cb8bfcb:0xb181cde6b93f7096!8m2!3d24.8586404!4d121.8255125!16s%2Fg%2F11pc0vxwlz",
+        "https://www.facebook.com/profile.php?id=100063807535492",
+        "https://www.instagram.com/cafebarturntablespinthatshit/",
+        "https://www.threads.com/@cafebarturntablespinthatshit",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.8586404,
+        "lng": 121.8255125
+      },
+      "coordinateSource": "https://www.google.com/maps/place/啤 咖 酒/@24.8586404,121.8255125,17z/data=!3m1!4b1!4m6!3m5!1s0x345d4f308cb8bfcb:0xb181cde6b93f7096!8m2!3d24.8586404!4d121.8255125!16s%2Fg%2F11pc0vxwlz",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-07/logo.webp?v=170c933fb22fcef0",
+        "source": "https://www.instagram.com/cafebarturntablespinthatshit/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-08",
+      "verification": false,
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "ㄕㄨˋㄖㄣˊ咖啡",
+      "address": "265宜蘭縣羅東鎮樹林里樹人路6號",
+      "social": {
+        "facebook": "https://www.facebook.com/ourspace1256/",
+        "instagram": "https://www.instagram.com/ourspace1256/",
+        "threads": "https://www.threads.com/@ourspace1256"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/ㄕㄨˋㄖㄣˊ咖啡/@24.680736,121.7631982,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e734acf960af:0xd55d851d3ea88ddd!8m2!3d24.680736!4d121.7631982!16s%2Fg%2F11n6q3cvqy",
+        "https://www.facebook.com/ourspace1256/",
+        "https://www.instagram.com/ourspace1256/",
+        "https://www.threads.com/@ourspace1256",
+        "https://campsite.bio/ourspace1256",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.680736,
+        "lng": 121.7631982
+      },
+      "coordinateSource": "https://www.google.com/maps/place/ㄕㄨˋㄖㄣˊ咖啡/@24.680736,121.7631982,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e734acf960af:0xd55d851d3ea88ddd!8m2!3d24.680736!4d121.7631982!16s%2Fg%2F11n6q3cvqy",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-08/logo.webp?v=e8760128c2d0ef01",
+        "source": "https://www.instagram.com/ourspace1256/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-09",
+      "verification": false,
+      "category": "選物雜貨",
+      "giftStatus": "可能有小物",
+      "name": "島匠商行",
+      "address": "266宜蘭縣三星鄉雙賢村三星路六段686號",
+      "social": {
+        "facebook": "https://www.facebook.com/Daujiang2021/",
+        "instagram": "https://www.instagram.com/daujiang2200/",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.google.com/maps/place/島匠商行/@24.6634276,121.6346756,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e149c4adadcb:0x463c07605918b499!8m2!3d24.6634276!4d121.6346756!16s%2Fg%2F11vqnmxx18",
+        "https://www.facebook.com/Daujiang2021/",
+        "https://www.instagram.com/daujiang2200/",
+        "https://eco.my1shop.com/dousu",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6634276,
+        "lng": 121.6346756
+      },
+      "coordinateSource": "https://www.google.com/maps/place/島匠商行/@24.6634276,121.6346756,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e149c4adadcb:0x463c07605918b499!8m2!3d24.6634276!4d121.6346756!16s%2Fg%2F11vqnmxx18",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-09/logo.webp?v=c1821a16dc8117c2",
+        "source": "https://www.instagram.com/daujiang2200/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-11",
+      "verification": false,
+      "category": "農業",
+      "giftStatus": "可能有小物",
+      "name": "喵喵米是人吃的",
+      "address": "266宜蘭縣三星鄉行健二路一段112號",
+      "social": {
+        "facebook": "https://www.facebook.com/meowmeowfarm/",
+        "instagram": "https://www.instagram.com/meowmeowfarm/",
+        "threads": "https://www.threads.com/@meowmeowfarm"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/喵喵米是人吃的/@24.6717431,121.6999821,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e110e38601a3:0x17cf12e8beaa3b9e!8m2!3d24.6717431!4d121.6999821!16s%2Fg%2F11cmbfkyt5",
+        "https://www.facebook.com/meowmeowfarm/",
+        "https://www.instagram.com/meowmeowfarm/",
+        "https://www.threads.com/@meowmeowfarm",
+        "https://portaly.cc/meowmeowrice",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6717431,
+        "lng": 121.6999821
+      },
+      "coordinateSource": "https://www.google.com/maps/place/喵喵米是人吃的/@24.6717431,121.6999821,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e110e38601a3:0x17cf12e8beaa3b9e!8m2!3d24.6717431!4d121.6999821!16s%2Fg%2F11cmbfkyt5",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "visitNote": "此地址為農場，是否開放訪客尚未確認；前往前請先聯繫店家。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-11/logo.webp?v=4a7cc72edaa63c97",
+        "source": "https://www.instagram.com/meowmeowfarm/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-24",
+      "verification": false,
+      "category": "選物雜貨",
+      "giftStatus": "可能有小物",
+      "name": "Rikoz Parfum",
+      "address": "宜蘭縣宜蘭市復興路二段43巷24號",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/rikoz_parfum/",
+        "threads": "https://www.threads.com/@rikoz_parfum"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/%E6%B7%BA%E9%9C%B2%E5%93%81%E9%A6%99%EF%BD%9C%E9%A0%90%E7%B4%84%E5%88%B6%E8%AA%BF%E9%A6%99%E9%AB%94%E9%A9%97%EF%BD%9C%E9%A6%99%E6%B0%9B%E8%A0%9F%E7%87%AD/@24.7481453,121.7484284,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e5da2905b005:0x346a4e8b6eac38b0!8m2!3d24.7481453!4d121.7484284!16s%2Fg%2F11y86d8zsx",
+        "https://www.instagram.com/rikoz_parfum/",
+        "https://www.threads.com/@rikoz_parfum",
+        "https://rikozparfum.com.tw/",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.7481453,
+        "lng": 121.7484284
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E6%B7%BA%E9%9C%B2%E5%93%81%E9%A6%99%EF%BD%9C%E9%A0%90%E7%B4%84%E5%88%B6%E8%AA%BF%E9%A6%99%E9%AB%94%E9%A9%97%EF%BD%9C%E9%A6%99%E6%B0%9B%E8%A0%9F%E7%87%AD/@24.7481453,121.7484284,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e5da2905b005:0x346a4e8b6eac38b0!8m2!3d24.7481453!4d121.7484284!16s%2Fg%2F11y86d8zsx",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "visitNote": "此為品牌官網列出的聯絡地址；同址的地圖標記為淺露品香，尚未確認是否為可到訪的品牌門市。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-24/logo.webp?v=74b7d2de0cedb3e3",
+        "source": "https://www.instagram.com/rikoz_parfum/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-27",
+      "verification": false,
+      "category": "其它",
+      "giftStatus": "可能有小物",
+      "name": "好日文化",
+      "address": "260宜蘭縣宜蘭市新生里中山路五段48號",
+      "social": {
+        "facebook": "https://www.facebook.com/HaorihCreativeStudio/",
+        "instagram": "https://www.instagram.com/haorihcreativestudio/",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.google.com/maps/place/好日文化/@24.7673858,121.7563932,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e4d2e16289f5:0xb83ad75f887ca0fd!8m2!3d24.7673858!4d121.7563932!16s%2Fg%2F11ddx6z3vv",
+        "https://www.facebook.com/HaorihCreativeStudio/",
+        "https://www.instagram.com/haorihcreativestudio/",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.7673858,
+        "lng": 121.7563932
+      },
+      "coordinateSource": "https://www.google.com/maps/place/好日文化/@24.7673858,121.7563932,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e4d2e16289f5:0xb83ad75f887ca0fd!8m2!3d24.7673858!4d121.7563932!16s%2Fg%2F11ddx6z3vv",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "visitNote": "此為公司聯絡地址，是否開放現場購物尚未確認；前往前請先聯繫。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-27/logo.webp?v=1fda1129bca7ff91",
+        "source": "https://www.instagram.com/haorihcreativestudio/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-28",
+      "verification": false,
+      "category": "選物雜貨",
+      "giftStatus": "可能有小物",
+      "name": "ANE Object",
+      "address": "270宜蘭縣蘇澳鎮南強里南澳路2號",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/ane_object/",
+        "threads": "https://www.threads.com/@ane_object"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/ANE Object/@24.462478,121.8060849,17z/data=!3m1!4b1!4m6!3m5!1s0x3467db8248dc5cdb:0x93aced08b685bdd7!8m2!3d24.462478!4d121.8060849!16s%2Fg%2F11zckkd70d",
+        "https://www.instagram.com/ane_object/",
+        "https://www.threads.com/@ane_object",
+        "https://ane-object.nanaooo.studio/",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.462478,
+        "lng": 121.8060849
+      },
+      "coordinateSource": "https://www.google.com/maps/place/ANE Object/@24.462478,121.8060849,17z/data=!3m1!4b1!4m6!3m5!1s0x3467db8248dc5cdb:0x93aced08b685bdd7!8m2!3d24.462478!4d121.8060849!16s%2Fg%2F11zckkd70d",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-28/logo.webp?v=bdf32335fdefb6aa",
+        "source": "https://www.instagram.com/ane_object/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-35",
+      "verification": false,
+      "category": "正餐",
+      "giftStatus": "可能有小物",
+      "name": "悟饕泰山店",
+      "address": "260宜蘭縣宜蘭市泰山路154號",
+      "social": {
+        "facebook": "https://www.facebook.com/61589974041963/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.google.com/maps/place/悟饕泰山店/@24.7522258,121.7395161,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e506ff847103:0x7394d95905dff9c!8m2!3d24.7522258!4d121.7395161!16s%2Fg%2F11zg9clfcj",
+        "https://www.facebook.com/61589974041963/",
+        "https://www.wu-tau.com/store.php",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.7522258,
+        "lng": 121.7395161
+      },
+      "coordinateSource": "https://www.google.com/maps/place/悟饕泰山店/@24.7522258,121.7395161,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e506ff847103:0x7394d95905dff9c!8m2!3d24.7522258!4d121.7395161!16s%2Fg%2F11zg9clfcj",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "visitNote": "Facebook 連結為悟饕品牌粉絲專頁；門市社群尚未確認。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-35/logo.webp?v=104fafa8631a4b7b",
+        "source": "https://www.facebook.com/61589974041963/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-36",
+      "verification": false,
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "好森x大吉",
+      "address": "268宜蘭縣五結鄉大吉村大吉一路435巷5弄8號",
+      "social": {
+        "facebook": "https://www.facebook.com/TREE.GIII/",
+        "instagram": "https://www.instagram.com/tree_giii/",
+        "threads": "https://www.threads.com/@a0939527550"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/好森x大吉/@24.7065576,121.806774,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e67f099c2461:0xbf2ea262a3fb7cdb!8m2!3d24.7065576!4d121.806774!16s%2Fg%2F11b7hhjzrf",
+        "https://www.facebook.com/TREE.GIII/",
+        "https://www.instagram.com/tree_giii/",
+        "https://www.threads.com/@a0939527550",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.7065576,
+        "lng": 121.806774
+      },
+      "coordinateSource": "https://www.google.com/maps/place/好森x大吉/@24.7065576,121.806774,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e67f099c2461:0xbf2ea262a3fb7cdb!8m2!3d24.7065576!4d121.806774!16s%2Fg%2F11b7hhjzrf",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-36/logo.webp?v=169663c40c3a764c",
+        "source": "https://www.instagram.com/tree_giii/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-37",
+      "verification": false,
+      "category": "正餐",
+      "giftStatus": "可能有小物",
+      "name": "食光1998餐酒館",
+      "address": "260宜蘭縣宜蘭市民權里中山路二段187巷25號",
+      "social": {
+        "facebook": "https://www.facebook.com/letemps1998/",
+        "instagram": "https://www.instagram.com/letemps1998/",
+        "threads": "https://www.threads.com/@letemps1998"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/食光1998餐酒館/@24.7500762,121.7529404,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e4db9e74ce85:0xba540b857f6756d9!8m2!3d24.7500762!4d121.7529404!16s%2Fg%2F11b637tgdy",
+        "https://www.facebook.com/letemps1998/",
+        "https://www.instagram.com/letemps1998/",
+        "https://www.threads.com/@letemps1998",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.7500762,
+        "lng": 121.7529404
+      },
+      "coordinateSource": "https://www.google.com/maps/place/食光1998餐酒館/@24.7500762,121.7529404,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e4db9e74ce85:0xba540b857f6756d9!8m2!3d24.7500762!4d121.7529404!16s%2Fg%2F11b637tgdy",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-37/logo.webp?v=b82aef8fa5b57b4d",
+        "source": "https://www.instagram.com/letemps1998/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-38",
+      "verification": false,
+      "category": "正餐",
+      "giftStatus": "可能有小物",
+      "name": "咕莫呢。廚房",
+      "address": "265宜蘭縣羅東鎮北成里中山路四段280號",
+      "social": {
+        "facebook": "https://www.facebook.com/GMK0330/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.google.com/maps/place/咕莫呢。廚房/@24.6730338,121.7581145,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e68f5e3bbe6d:0xbdcb9f7e68f6d9d2!8m2!3d24.6730338!4d121.7581145!16s%2Fg%2F11cmykz00n",
+        "https://www.facebook.com/GMK0330/",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6730338,
+        "lng": 121.7581145
+      },
+      "coordinateSource": "https://www.google.com/maps/place/咕莫呢。廚房/@24.6730338,121.7581145,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e68f5e3bbe6d:0xbdcb9f7e68f6d9d2!8m2!3d24.6730338!4d121.7581145!16s%2Fg%2F11cmykz00n",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-38/logo.webp?v=5ce5e636f6780b86",
+        "source": "https://www.facebook.com/GMK0330/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-48",
+      "verification": false,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "小山丘",
+      "address": "265宜蘭縣羅東鎮信義里復興路一段100巷1號",
+      "social": {
+        "facebook": "https://www.facebook.com/whatthehill2020/",
+        "instagram": "https://www.instagram.com/_what.the.hill/",
+        "threads": "https://www.threads.com/@_what.the.hill"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/小山丘/@24.6828865,121.7688565,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e775ae26eb41:0x31c51173122ee4f7!8m2!3d24.6828865!4d121.7688565!16s%2Fg%2F11qhsdb2sb",
+        "https://www.facebook.com/whatthehill2020/",
+        "https://www.instagram.com/_what.the.hill/",
+        "https://www.threads.com/@_what.the.hill",
+        "https://linktr.ee/Whatthehill",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6828865,
+        "lng": 121.7688565
+      },
+      "coordinateSource": "https://www.google.com/maps/place/小山丘/@24.6828865,121.7688565,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e775ae26eb41:0x31c51173122ee4f7!8m2!3d24.6828865!4d121.7688565!16s%2Fg%2F11qhsdb2sb",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-48/logo.webp?v=dfde7a95f2e30153",
+        "source": "https://www.instagram.com/_what.the.hill/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-49",
+      "verification": false,
+      "category": "烘焙",
+      "giftStatus": "可能有小物",
+      "name": "實樸生活",
+      "address": "266宜蘭縣三星鄉大義村上將路三段338號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=61562239195403",
+        "instagram": "https://www.instagram.com/family_earthy_shop/",
+        "threads": "https://www.threads.com/@family_earthy_shop"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/實樸生活/@24.6855743,121.7064732,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e5000ec43fd9:0xe40f0635510e2262!8m2!3d24.6855743!4d121.7064732!16s%2Fg%2F11w3w_py1s",
+        "https://www.facebook.com/profile.php?id=61562239195403",
+        "https://www.instagram.com/family_earthy_shop/",
+        "https://www.threads.com/@family_earthy_shop",
+        "https://myship.7-11.com.tw/general/detail/GM2606291938932",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6855743,
+        "lng": 121.7064732
+      },
+      "coordinateSource": "https://www.google.com/maps/place/實樸生活/@24.6855743,121.7064732,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e5000ec43fd9:0xe40f0635510e2262!8m2!3d24.6855743!4d121.7064732!16s%2Fg%2F11w3w_py1s",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "visitNote": "地圖資料顯示提供外帶，不提供內用。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-49/logo.webp?v=b22dc6a16350feac",
+        "source": "https://www.instagram.com/family_earthy_shop/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-51",
+      "verification": false,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "臟燒雞蛋糕",
+      "address": "265宜蘭縣羅東鎮大新里和平路166號",
+      "social": {
+        "facebook": "https://www.facebook.com/61581061663356/",
+        "instagram": "https://www.instagram.com/organeggcake/",
+        "threads": "https://www.threads.com/@organeggcake"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/臟燒雞蛋糕/@24.6777591,121.7728589,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7a3782b7bef:0x4e5eadc3694a5ba7!8m2!3d24.6777591!4d121.7728589!16s%2Fg%2F11zhx37hgb",
+        "https://www.facebook.com/61581061663356/",
+        "https://www.instagram.com/organeggcake/",
+        "https://www.threads.com/@organeggcake",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6777591,
+        "lng": 121.7728589
+      },
+      "coordinateSource": "https://www.google.com/maps/place/臟燒雞蛋糕/@24.6777591,121.7728589,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7a3782b7bef:0x4e5eadc3694a5ba7!8m2!3d24.6777591!4d121.7728589!16s%2Fg%2F11zhx37hgb",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-51/logo.webp?v=186c87649faee009",
+        "source": "https://www.instagram.com/organeggcake/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-53",
+      "verification": false,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "孟延君上手作甜點",
+      "address": "260宜蘭縣宜蘭市擺厘里自強路168號",
+      "social": {
+        "facebook": "https://www.facebook.com/hsiao.0824/",
+        "instagram": "https://www.instagram.com/myjs_dessert/",
+        "threads": "https://www.threads.com/@myjs_dessert"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/孟延君上手作甜點/@24.7430099,121.7481363,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e50001e78f4f:0x7922c65bbc06247d!8m2!3d24.7430099!4d121.7481363!16s%2Fg%2F11vwypdbhg",
+        "https://www.facebook.com/hsiao.0824/",
+        "https://www.instagram.com/myjs_dessert/",
+        "https://www.threads.com/@myjs_dessert",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.7430099,
+        "lng": 121.7481363
+      },
+      "coordinateSource": "https://www.google.com/maps/place/孟延君上手作甜點/@24.7430099,121.7481363,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e50001e78f4f:0x7922c65bbc06247d!8m2!3d24.7430099!4d121.7481363!16s%2Fg%2F11vwypdbhg",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-53/logo.webp?v=e0c3e773f8cb868c",
+        "source": "https://www.instagram.com/myjs_dessert/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-55",
+      "verification": false,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "甜聿家米甜品",
+      "address": "970花蓮縣花蓮市國威里三民街35-2號",
+      "social": {
+        "facebook": "https://www.facebook.com/SweetRiceDessert/",
+        "instagram": "https://www.instagram.com/sweetricedessert/",
+        "threads": "https://www.threads.com/@sweetricedessert"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/甜聿家米甜品/@23.9808061,121.6083312,17z/data=!3m1!4b1!4m6!3m5!1s0x3468a192b21668cf:0xb5ec92ab5975d916!8m2!3d23.9808061!4d121.6083312!16s%2Fg%2F11jwzyh21c",
+        "https://www.facebook.com/SweetRiceDessert/",
+        "https://www.instagram.com/sweetricedessert/",
+        "https://www.threads.com/@sweetricedessert",
+        "https://myship.7-11.com.tw/general/detail/GM2201192139016",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 23.9808061,
+        "lng": 121.6083312
+      },
+      "coordinateSource": "https://www.google.com/maps/place/甜聿家米甜品/@23.9808061,121.6083312,17z/data=!3m1!4b1!4m6!3m5!1s0x3468a192b21668cf:0xb5ec92ab5975d916!8m2!3d23.9808061!4d121.6083312!16s%2Fg%2F11jwzyh21c",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-55/logo.webp?v=c5c85a115d27ccf8",
+        "source": "https://www.instagram.com/sweetricedessert/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-57-a",
+      "verification": false,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "熊甜宅",
+      "address": "269宜蘭縣冬山鄉南興村冬山路146號",
+      "social": {
+        "facebook": "https://www.facebook.com/profile.php?id=61551361427442",
+        "instagram": "https://www.instagram.com/bearhouse.2021/",
+        "threads": "https://www.threads.com/@bearhouse.2021"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/熊甜宅/@24.6345444,121.7911883,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7ef3a9cd443:0x368b412c0c082f97!8m2!3d24.6345444!4d121.7911883!16s%2Fg%2F11w4mygdr1",
+        "https://www.facebook.com/profile.php?id=61551361427442",
+        "https://www.instagram.com/bearhouse.2021/",
+        "https://www.threads.com/@bearhouse.2021",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6345444,
+        "lng": 121.7911883
+      },
+      "coordinateSource": "https://www.google.com/maps/place/熊甜宅/@24.6345444,121.7911883,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7ef3a9cd443:0x368b412c0c082f97!8m2!3d24.6345444!4d121.7911883!16s%2Fg%2F11w4mygdr1",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。"
+    },
+    {
+      "id": "yilan-20261107-57-b",
+      "verification": false,
+      "category": "烘焙",
+      "giftStatus": "可能有小物",
+      "name": "木子口",
+      "address": "269宜蘭縣冬山鄉香和村冬山路66巷1號",
+      "social": {
+        "facebook": "https://www.facebook.com/share/1MZVHdu84v/",
+        "instagram": "https://www.instagram.com/mu_zu_ko/",
+        "threads": "https://www.threads.com/@mu_zu_ko"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/%E6%9C%A8%E5%AD%90%E5%8F%A3MUZUKO%E7%83%98%E7%84%99%E5%B7%A5%E4%BD%9C%E5%AE%A4/@24.6325347,121.7953909,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7be186a401f:0xbe43b40644392cc2!8m2!3d24.6325347!4d121.7953909!16s%2Fg%2F11vq96kz27",
+        "https://www.facebook.com/share/1MZVHdu84v/",
+        "https://www.instagram.com/mu_zu_ko/",
+        "https://www.threads.com/@mu_zu_ko",
+        "https://linkgoods.com/muzuko",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.6325347,
+        "lng": 121.7953909
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E6%9C%A8%E5%AD%90%E5%8F%A3MUZUKO%E7%83%98%E7%84%99%E5%B7%A5%E4%BD%9C%E5%AE%A4/@24.6325347,121.7953909,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7be186a401f:0xbe43b40644392cc2!8m2!3d24.6325347!4d121.7953909!16s%2Fg%2F11vq96kz27",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "visitNote": "工作室以預訂為主，地圖顯示目前店面不營業；前往前請先聯繫。"
+    },
+    {
+      "id": "yilan-20261107-58",
+      "verification": false,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "乙夷甜點",
+      "address": "970花蓮縣花蓮市國風里仁愛街104巷2號",
+      "social": {
+        "facebook": "https://www.facebook.com/YiYiDessert/",
+        "instagram": "https://www.instagram.com/yiyi_dessert/",
+        "threads": "https://www.threads.com/@yiyi_dessert"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/%E4%B9%99%E5%A4%B7%E7%94%9C%E9%BB%9E/@23.9781874,121.6024109,17z/data=!3m1!4b1!4m6!3m5!1s0x34689f0078ecaab1:0x6ce97a0826ec34ce!8m2!3d23.9781874!4d121.6024109!16s%2Fg%2F11vrvy_pnl",
+        "https://www.facebook.com/YiYiDessert/",
+        "https://www.instagram.com/yiyi_dessert/",
+        "https://www.threads.com/@yiyi_dessert",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 23.9781874,
+        "lng": 121.6024109
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E4%B9%99%E5%A4%B7%E7%94%9C%E9%BB%9E/@23.9781874,121.6024109,17z/data=!3m1!4b1!4m6!3m5!1s0x34689f0078ecaab1:0x6ce97a0826ec34ce!8m2!3d23.9781874!4d121.6024109!16s%2Fg%2F11vrvy_pnl",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-58/logo.webp?v=c693de0f38bc5cb5",
+        "source": "https://www.instagram.com/yiyi_dessert/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-59",
+      "verification": false,
+      "category": "烘焙",
+      "giftStatus": "可能有小物",
+      "name": "遊牧仕事麵包工作室",
+      "address": "261宜蘭縣頭城鎮城南里東興街116號",
+      "social": {
+        "facebook": "https://www.facebook.com/61577712805626/",
+        "instagram": "https://www.instagram.com/yuuboku_shigoto/",
+        "threads": "https://www.threads.com/@yuuboku_shigoto"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/遊牧仕事麵包工作室/@24.8557882,121.8249884,17z/data=!3m1!4b1!4m6!3m5!1s0x3467f70074586fe3:0xc0f5e63db2e478d4!8m2!3d24.8557882!4d121.8249884!16s%2Fg%2F11ym1f_mr3",
+        "https://www.facebook.com/61577712805626/",
+        "https://www.instagram.com/yuuboku_shigoto/",
+        "https://www.threads.com/@yuuboku_shigoto",
+        "https://dandy.tw/yuuboku-shigoto",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 24.8557882,
+        "lng": 121.8249884
+      },
+      "coordinateSource": "https://www.google.com/maps/place/遊牧仕事麵包工作室/@24.8557882,121.8249884,17z/data=!3m1!4b1!4m6!3m5!1s0x3467f70074586fe3:0xc0f5e63db2e478d4!8m2!3d24.8557882!4d121.8249884!16s%2Fg%2F11ym1f_mr3",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "visitNote": "Google 地圖目前標示暫時關閉，前往或取貨前請先聯繫店家確認。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/logo.webp?v=e72d5a2d914efbd9",
+        "source": "https://www.instagram.com/yuuboku_shigoto/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
     }
   ],
   "pendingStores": []
