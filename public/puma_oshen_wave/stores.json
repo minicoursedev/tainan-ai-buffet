@@ -16307,12 +16307,12 @@
       "coordinateSource": "https://www.google.com.tw/maps/place/262%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%A4%81%E6%BA%AA%E9%84%89%E6%BA%AB%E6%B3%89%E8%B7%AF58%E8%99%9F/@24.8283898,121.7713796,17z/data=!3m1!4b1!4m6!3m5!1s0x3467fa482a32e37b:0xdc8a03c1bd77a7d4!8m2!3d24.828385!4d121.7739545!16s%2Fg%2F11c2bybtsq?hl=zh-TW&entry=tts&shorturl=1",
       "coordinateNote": "OpenStreetMap 完整地址、簡化地址及結構化門牌查詢未取得可核對的門牌位置；改以 HTTP 讀取 Google Maps 地點短連結轉址，確認地點地址為宜蘭縣礁溪鄉溫泉路58號，採最終地點網址 !3d、!4d 座標，未使用 @ 地圖視窗中心。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/maslow-walker-jiaoxi/logo.webp?v=9608f0188387d3db",
         "source": "https://www.threads.com/@maslowwalker?hl=zh-tw",
         "platform": "threads",
         "status": "verified",
         "checkedAt": "2026-11-01",
-        "note": "官方 Threads 公開個人頁（?hl=zh-tw）data.user 的 username、full_name 與店家地址相符，hd_profile_pic_versions 明示 320×320 個人頭像；唯讀檢查原生圖片回應 HTTP 200、Content-Type image/jpeg、實際尺寸 320×320，未改寫 CDN 尺寸或簽章參數。"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；MASLOW WALKER 咖啡所（@maslowwalker） • Threads，暢所欲言；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。"
       }
     }
   ],
