@@ -276,7 +276,7 @@ function shopUrl(id) {
   return url;
 }
 function updateShopMetadata(shop) {
-  const title = shop ? `${shop.name}｜${shop.category}｜我們的洋流地圖` : category ? `${category}店家｜我們的洋流地圖` : '我們的洋流地圖｜一起走走，讓支持成為日常。';
+  const title = shop ? `${shop.name}｜${shop.category}｜我們的洋流地圖` : category ? `${category}店家｜我們的洋流地圖` : '我們的洋流地圖｜探索在地小店，尋找各種服務';
   const description = shop ? `${shop.name}，${shop.category}，位於${shop.address}。查看店家資訊、官方社群與洋流地圖，規劃前往路線。` : category ? `探索洋流地圖收錄的${category}店家，查看店家地址、資訊與地圖，規劃前往路線。` : '我們的洋流地圖，一起走走，讓支持成為日常。喝杯咖啡、吃頓飯，或到一家小店逛逛。打開地圖，找找今天想去的地方。';
   const canonical = new URL(shop ? `/puma_oshen_wave/shops/${encodeURIComponent(shop.id)}/` : category ? categoryPath(category) : '/puma_oshen_wave/', 'https://minicourse.dev').href;
   document.title = title;

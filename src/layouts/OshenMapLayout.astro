@@ -2,7 +2,7 @@
 import { categories, categoryPath, type Store } from '../lib/oshen-stores';
 interface Props { store?: Store; category?: string }
 const { store, category } = Astro.props;
-const title = store ? `${store.name}｜${store.category}｜我們的洋流地圖` : category ? `${category}店家｜我們的洋流地圖` : '我們的洋流地圖｜一起走走，讓支持成為日常。';
+const title = store ? `${store.name}｜${store.category}｜我們的洋流地圖` : category ? `${category}店家｜我們的洋流地圖` : '我們的洋流地圖｜探索在地小店，尋找各種服務';
 const description = store ? `${store.name}，${store.category}，位於${store.address}。查看店家資訊、官方社群與洋流地圖，規劃前往路線。` : category ? `探索洋流地圖收錄的${category}店家，查看店家地址、資訊與地圖，規劃前往路線。` : '我們的洋流地圖，一起走走，讓支持成為日常。喝杯咖啡、吃頓飯，或到一家小店逛逛。打開地圖，找找今天想去的地方。';
 const canonical = new URL(store ? `/puma_oshen_wave/shops/${encodeURIComponent(store.id)}/` : category ? categoryPath(category) : '/puma_oshen_wave/', Astro.site).href;
 ---
@@ -27,7 +27,7 @@ const canonical = new URL(store ? `/puma_oshen_wave/shops/${encodeURIComponent(s
 <meta property="og:image:alt" content="我們的洋流地圖 — 洋流帶路，讓支持成為日常">
 <link rel="stylesheet" href="/puma_oshen_wave/vendor/leaflet/leaflet.css"><script is:inline defer src="/puma_oshen_wave/vendor/leaflet/leaflet.js"></script>
 <link rel="stylesheet" href="/puma_oshen_wave/vendor/leaflet-markercluster/MarkerCluster.css"><script is:inline defer src="/puma_oshen_wave/vendor/leaflet-markercluster/leaflet.markercluster.js"></script>
-<link rel="stylesheet" href="/puma_oshen_wave/style.css?v=20261031-shop-search"><script is:inline type="module" src="/puma_oshen_wave/app.js?v=20261031-shop-search"></script>
+<link rel="stylesheet" href="/puma_oshen_wave/style.css?v=20261031-shop-search"><script is:inline type="module" src="/puma_oshen_wave/app.js?v=20261101-map-title"></script>
 </head>
 <body>
 
