@@ -12166,6 +12166,45 @@
       "lastAttempt": "2026-10-30T12:52:59+08:00",
       "result": "unchanged",
       "reason": "像素內容相同或僅有輕微轉碼差異"
+    },
+    "maslow-walker-jiaoxi": {
+      "qualityChecks": [
+        {
+          "source": "https://www.threads.com/@maslowwalker?hl=zh-tw",
+          "platform": "threads",
+          "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/358526709_277928214782574_2894430198421505551_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjEuYzIifQ&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFkP6ra7bIePaw_km-SHv184jxnYnvMcVd9cSSjxFHnYDkG4CiWAmlxl9KgIgPOHcc&_nc_ohc=3EuCnZ8HBEoQ7kNvwHwpRb-&_nc_gid=tLXbfmlJBJEGw6KixjzUEg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQTopWBqwTjtXpoTnhZjtDAXqIUC2RwWkMNkmCJENB0McA&oe=6AECBA49&_nc_sid=10d13b",
+          "size": [
+            320,
+            320
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；MASLOW WALKER 咖啡所（@maslowwalker） • Threads，暢所欲言；相同帳號公開資料 hd_profile_pic_versions",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "9608f0188387d3dbf9556cdaa2e3dd135157c91d08478917412d127620a35223",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        320,
+        320
+      ],
+      "imageValidators": {
+        "last-modified": "Thu, 06 Jul 2023 12:18:56 GMT"
+      },
+      "source": "https://www.threads.com/@maslowwalker?hl=zh-tw",
+      "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/358526709_277928214782574_2894430198421505551_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjEuYzIifQ&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFkP6ra7bIePaw_km-SHv184jxnYnvMcVd9cSSjxFHnYDkG4CiWAmlxl9KgIgPOHcc&_nc_ohc=3EuCnZ8HBEoQ7kNvwHwpRb-&_nc_gid=tLXbfmlJBJEGw6KixjzUEg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQTopWBqwTjtXpoTnhZjtDAXqIUC2RwWkMNkmCJENB0McA&oe=6AECBA49&_nc_sid=10d13b",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；MASLOW WALKER 咖啡所（@maslowwalker） • Threads，暢所欲言；相同帳號公開資料 hd_profile_pic_versions",
+      "filename": "maslow-walker-jiaoxi/logo.webp",
+      "lastSuccess": "2026-11-01T16:43:33+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-11-01T16:43:33+08:00",
+      "result": "updated",
+      "reason": "首次保存"
     }
   }
 }
