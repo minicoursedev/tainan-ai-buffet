@@ -165,7 +165,32 @@
       "category": "暖心日常",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-05/1.webp?v=bcb96525ec4d2869",
+          "alt": "MASLOW CAFE－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-05/1.webp?v=bcb96525ec4d2869",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：866062508_17996640453114187_7703303259263815522_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566263450488021042/866062508_17996640453114187_7703303259263815522_n.png?ex=6ae7e802&is=6ae69682&hm=e427e5c871a520bb2ca08081ef5dc2edac5ca19a5e0691f5b524c68e34c8c40e&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-05/2.webp?v=42c405750c45c716",
+          "alt": "MASLOW CAFE－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-05/2.webp?v=42c405750c45c716",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：781906092_17984291700099674_1517609529287289511_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566263451058180126/781906092_17984291700099674_1517609529287289511_n.png?ex=6ae7e802&is=6ae69682&hm=a150f8a591dc2d82082305807562406b75bc890986785408bcb0902f2721cf79&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-05/3.webp?v=a57dc8c8cf386b4e",
+          "alt": "MASLOW CAFE－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-05/3.webp?v=a57dc8c8cf386b4e",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：784617570_17984291736099674_6894465909583276081_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566263452350152744/784617570_17984291736099674_6894465909583276081_n.png?ex=6ae7e802&is=6ae69682&hm=0696b8d6385bfcd76d0170905b237fbaab618e8eb33a2ec8ac9bc93c42eb56d1&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/maslowcafetw/",
         "ig": "https://www.instagram.com/maslowcafetw/",
