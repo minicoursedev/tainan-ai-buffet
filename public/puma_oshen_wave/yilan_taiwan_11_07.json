@@ -794,7 +794,32 @@
       "category": "台派創集",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31-b/1.webp?v=a9887669488cc746",
+          "alt": "石毛－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31-b/1.webp?v=a9887669488cc746",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：879215343_17903405895670881_971326599871728291_n.png（本次附件第 1 張）；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566256913337950309/879215343_17903405895670881_971326599871728291_n.png?ex=6ae7e1eb&is=6ae6906b&hm=de0e42139ab1beaa80634696a58c18daf2deb0b3ba0a647769a711b89cef36d6&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31-b/2.webp?v=07956af5e30c04cf",
+          "alt": "石毛－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31-b/2.webp?v=07956af5e30c04cf",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：865373070_17903227782670881_3581069546415738661_n.png（本次附件第 2 張）；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566256915850469376/865373070_17903227782670881_3581069546415738661_n.png?ex=6ae7e1ec&is=6ae6906c&hm=b0f7d515dc11503395cf66c111bab6f4129354ae474dca5367fcd38c7f436251&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31-b/3.webp?v=53e5b8b9bb579d01",
+          "alt": "石毛－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31-b/3.webp?v=53e5b8b9bb579d01",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：870149188_17902790049670881_6035935986667844359_n.png（本次附件第 3 張）；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566256917720858655/870149188_17902790049670881_6035935986667844359_n.png?ex=6ae7e1ec&is=6ae6906c&hm=21ad2273c7a273a150701dd7e57942ec5731d2872aa15b9566e97b3f3ffb6942&"
+        }
+      ],
       "social": {
         "fb": "",
         "ig": "https://www.instagram.com/shumao_write/",
@@ -810,7 +835,7 @@
         "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/257467092_678003666939012_1415787509739386402_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=p7e2UCpScDQQ7kNvwGwsnPe&_nc_oc=AdrPeEYQEHJ80JgkI_8HnCdNOnO7BHT0SY5SU3VvgCf8XOyEazdVs8mPWoPfFlOQwZw&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQTHALLBpkl-StYKiXpBWs0S4d2Ze-2_0vVJ71PwxpSXcA&oe=6AEAC02D"
       },
-      "socialNote": "2026-10-31 查核 Instagram 個人頁，當時未列外部網站；不代表沒有官網。",
+      "socialNote": "2026-10-31 查核 Instagram 個人頁，當時未列外部網站；不代表沒有官網。 2026-11-01 使用者提供 Threads：https://www.threads.com/@shumao_write，與既有帳號一致；本次無法讀取該頁面，未作官方查證。",
       "posterBoothName": "熱血 x 石毛"
     },
     {
