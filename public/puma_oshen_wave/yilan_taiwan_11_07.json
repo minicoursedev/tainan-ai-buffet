@@ -866,7 +866,32 @@
       "category": "台派創集",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-34/1.webp?v=2dcda319a0bb4a2a",
+          "alt": "注意！似顏繪－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-34/1.webp?v=2dcda319a0bb4a2a",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：535947915_17853634983515483_3054671636107152914_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566255346995953786/535947915_17853634983515483_3054671636107152914_n.png?ex=6ae7e076&is=6ae68ef6&hm=e441dd18993867a93751fdb424a5087167cad2d93d94af314c435e0e493e2842&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-34/2.webp?v=4c63449776c2f9c2",
+          "alt": "注意！似顏繪－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-34/2.webp?v=4c63449776c2f9c2",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：535840714_17853634992515483_5117220434793835801_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566255347742675034/535840714_17853634992515483_5117220434793835801_n.png?ex=6ae7e076&is=6ae68ef6&hm=0f69d31b2e382d4ef98ceec34006468780dfa7f0e34a9cc5b3a95ce0d261d36c&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-34/3.webp?v=214a58aa4588ea01",
+          "alt": "注意！似顏繪－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-34/3.webp?v=214a58aa4588ea01",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：783374648_17905620165515483_4361912148081812864_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566255348375887963/783374648_17905620165515483_4361912148081812864_n.png?ex=6ae7e076&is=6ae68ef6&hm=394b7590ca34864174bfa17cfe4a50d39485078032bf824f196a3ad8c78bea5f&"
+        }
+      ],
       "social": {
         "fb": "",
         "ig": "https://www.instagram.com/p_ause.art/",
