@@ -280,7 +280,32 @@
       "category": "暖心日常",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-09/1.webp?v=7d26d9069255af1a",
+          "alt": "島匠商行－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-09/1.webp?v=7d26d9069255af1a",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：471866088_17921430339009988_2942713414522703627_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566262318038519968/471866088_17921430339009988_2942713414522703627_n.png?ex=6ae7e6f4&is=6ae69574&hm=749aa40f15c89eb7ea707f08ba32625e0c35fb176bdde0f238f7cd9ab749e915&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-09/2.webp?v=e77495babc060452",
+          "alt": "島匠商行－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-09/2.webp?v=e77495babc060452",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：860150785_1123215306875737_7894344670933543673_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566262318692565092/860150785_1123215306875737_7894344670933543673_n.png?ex=6ae7e6f4&is=6ae69574&hm=63fe9e13fe81c756153f6d975d9068b92837ca43297fdb95073525c0cd2609db&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-09/3.webp?v=bb27b59e92116293",
+          "alt": "島匠商行－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-09/3.webp?v=bb27b59e92116293",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：759871721_1049646314232637_9058341066767888906_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566262319259058286/759871721_1049646314232637_9058341066767888906_n.png?ex=6ae7e6f4&is=6ae69574&hm=2cc66f668c7707ee72f3a03f6a1fc779571f8b3346295d009f49a8fcf129d6fa&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/Daujiang2021/",
         "ig": "https://www.instagram.com/daujiang2200/",
