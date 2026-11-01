@@ -879,7 +879,32 @@
       "category": "台派創集",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-27/1.webp?v=626ec2f6ba24146c",
+          "alt": "好日文化－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-27/1.webp?v=626ec2f6ba24146c",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：774241968_1590163029788943_1855514983303846908_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566260600214913226/774241968_1590163029788943_1855514983303846908_n.png?ex=6ae7e55a&is=6ae693da&hm=178c6bd62cf9ed463069e510858ed7ad494f454acfe5e323789f1991c62109fd&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-27/2.webp?v=fd619c6e3a40f5cd",
+          "alt": "好日文化－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-27/2.webp?v=fd619c6e3a40f5cd",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：782124657_1590038953134684_9091110845910006411_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566260600785469500/782124657_1590038953134684_9091110845910006411_n.png?ex=6ae7e55a&is=6ae693da&hm=cdf114510fee20a32252ca33e9971fda1191d8fa83cb1da94cc8fb9d7314da5d&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-27/3.webp?v=4a1a90daa222c4d0",
+          "alt": "好日文化－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-27/3.webp?v=4a1a90daa222c4d0",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：776576559_1590163956455517_5705572651326816889_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566260601334796378/776576559_1590163956455517_5705572651326816889_n.png?ex=6ae7e55b&is=6ae693db&hm=7aaf8844fb8e516b62f3864779e311c1789221500f58cd64893442cd86f3f22c&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/HaorihCreativeStudio/",
         "ig": "https://www.instagram.com/haorihcreativestudio/",
