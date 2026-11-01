@@ -50,11 +50,14 @@ function rng(s) {
 }
 
 export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, onCreator = () => {}, onEnd = () => {}, catContext = () => ({}), display = 'booth', visited = isVisited } = {}) {
+  // Give the lower booth the same 56-unit logo as the upper booth by
+  // moving its front up and using a shorter upper number panel.
+  const boothShift = display === 'stage' ? 0 : 16;
   const Y = {
-    SIGN_N: 10, POSTER: 56, BACK: 150, TABLE_N: 162, CLOTH_N: 200,
-    AISLE_BOT: 352, FRONT_S: 362, TABLE_S: 430, STRIP: 458, SIGN_S: 464,
+    SIGN_N: 10, POSTER: 56, BACK: 150, TABLE_N: 162, CLOTH_N: 200 - boothShift,
+    AISLE_BOT: 352 - boothShift, FRONT_S: 362 - boothShift, TABLE_S: 430, STRIP: 458, SIGN_S: 464,
   };
-  let worldH = 500, PY_MIN = 232, PY_MAX = 342, AISLE_MID = 276;
+  let worldH = 500, PY_MIN = 232 - boothShift, PY_MAX = 342 - boothShift, AISLE_MID = 276 - boothShift;
   let compactAisle = false;
   const BW = display === 'stage' ? 224 : 112;
   const c = canvas.getContext('2d');
@@ -505,7 +508,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     for (const f of [0.2, 0.8]) { const fx = x + BW * f; c.moveTo(fx, Y.TABLE_N + 5); c.quadraticCurveTo(fx + 2.5, Y.TABLE_N + 20, fx - 1, Y.CLOTH_N - 3); }
     c.stroke();
     c.strokeStyle = INK; c.lineWidth = 2; c.strokeRect(x + 1, Y.TABLE_N, BW - 2, Y.CLOTH_N - Y.TABLE_N);
-    plate(cx, 181, b, full, near);
+    plate(cx, (Y.TABLE_N + Y.CLOTH_N) / 2, b, full, near);
   }
   function boothS(B) {
     if (display === 'stage') return videoStage(B);
@@ -1032,7 +1035,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     const nd = Math.min(2, window.devicePixelRatio || 1);
     if (w === cssW && h === cssH && nd === dpr && T) return;
     cssW = w; cssH = h; dpr = nd;
-    const compact = window.innerWidth <= 1024 && window.matchMedia('(orientation: landscape)').matches;
+    const compact = window.innerWidth <= 1024;
     if (compact !== compactAisle) {
       const mapY = y => compact ? Y.CLOTH_N + (y - Y.CLOTH_N) / 2 : Y.CLOTH_N + (y - Y.CLOTH_N) * 2;
       player.y = mapY(player.y);
@@ -1041,11 +1044,11 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
       compactAisle = compact;
     }
     const shift = compactAisle ? 76 : 0;
-    Object.assign(Y, { AISLE_BOT: 352 - shift, FRONT_S: 362 - shift, TABLE_S: 430 - shift, STRIP: 458 - shift, SIGN_S: 464 - shift });
+    Object.assign(Y, { AISLE_BOT: 352 - boothShift - shift, FRONT_S: 362 - boothShift - shift, TABLE_S: 430 - shift, STRIP: 458 - shift, SIGN_S: 464 - shift });
     worldH = 500 - shift;
-    PY_MIN = compactAisle ? 216 : 232;
-    PY_MAX = compactAisle ? 271 : 342;
-    AISLE_MID = compactAisle ? 238 : 276;
+    PY_MIN = 232 - boothShift - (compactAisle ? 16 : 0);
+    PY_MAX = 342 - boothShift - (compactAisle ? 71 : 0);
+    AISLE_MID = 276 - boothShift - (compactAisle ? 38 : 0);
     canvas.width = Math.round(w * dpr); canvas.height = Math.round(h * dpr);
     // In a short landscape viewport, use the full canvas and overlay the controls.
     let top = w <= 560 ? 82 : 58, bottom = 54;

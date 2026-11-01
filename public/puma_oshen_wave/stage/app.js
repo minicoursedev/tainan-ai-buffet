@@ -1,4 +1,4 @@
-import { createWalkView } from '../designer/js/walk.js?v=20261101-mobile-space';
+import { createWalkView } from '../designer/js/walk.js?v=20261101-equal-logos';
 import { wireFloatingNav } from '../designer/js/floating-nav.js';
 import { toast } from '../designer/js/state.js';
 import { loadCatalogue, createPublicShowcase } from './data.js?v=20261030-site-data';
