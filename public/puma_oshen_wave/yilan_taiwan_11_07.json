@@ -989,7 +989,24 @@
       "category": "台派創集",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-29/1.webp?v=6f6661330c3ba255",
+          "alt": "米飯錢浪愛小舖－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-29/1.webp?v=6f6661330c3ba255",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：852999794_975532995623309_8711536843056323807_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566261063920656384/852999794_975532995623309_8711536843056323807_n.png?ex=6ae7e5c9&is=6ae69449&hm=074474d0070cb845d7df35a45b07ab968f065b568284ae424cd70e67eee45f42&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-29/2.webp?v=b1124c136e33b04b",
+          "alt": "米飯錢浪愛小舖－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-29/2.webp?v=b1124c136e33b04b",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：2026-11-01_9.22.04.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566261064423964712/2026-11-01_9.22.04.png?ex=6ae7e5c9&is=6ae69449&hm=e39d5e4d50629544dd74cba83675dad030d3d9be7f67782f01749aeced7395b4&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/2022mifan/",
         "ig": "",
