@@ -111,3 +111,11 @@ a.bo-more:focus-visible { outline: 3px solid var(--pink); outline-offset: 2px; }
 @media (prefers-reduced-motion: reduce) {
   .bo-cover { transition: none; }
 }
+
+/* Keep the booth heading to one line in landscape; long details can scroll. */
+@media (orientation: landscape) {
+  #dlg-booth .bo-head { align-items: center; gap: 8px; }
+  #dlg-booth .bo-title { display: flex; align-items: center; gap: 8px; overflow-x: auto; }
+  #dlg-booth .bo-title h2, #dlg-booth .bo-owner { flex: none; white-space: nowrap; }
+  #dlg-booth .bo-meta { flex: none; flex-wrap: nowrap; margin: 0; }
+}
