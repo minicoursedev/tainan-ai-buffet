@@ -521,7 +521,32 @@
       "category": "台派創集",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-21/1.webp?v=6f454667474a76d5",
+          "alt": "魔創3D－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-21/1.webp?v=6f454667474a76d5",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供的作品圖片，依本次附件順序第 1 張；來源為 Discord 附件原始 HTTPS URL。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257383120834800/774512107_18124521661744153_9126774696000742252_n.png?ex=6ae7e25b&is=6ae690db&hm=659876680b3bb106c9b67de5f9dc44bf52edc3dbcb73f2c837317e32d4a75e6d&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-21/2.webp?v=232919332df2a402",
+          "alt": "魔創3D－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-21/2.webp?v=232919332df2a402",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供的作品圖片，依本次附件順序第 2 張；來源為 Discord 附件原始 HTTPS URL。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257384228266085/762864168_18113868268850234_3676570790898182882_n.png?ex=6ae7e25c&is=6ae690dc&hm=003e05b10f2eba1e896b8409ffbef3c6d8d2961c07ae1043a43b3fd4922fa75f&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-21/3.webp?v=91640e913843c8bd",
+          "alt": "魔創3D－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-21/3.webp?v=91640e913843c8bd",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供的作品圖片，依本次附件順序第 3 張；來源為 Discord 附件原始 HTTPS URL。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257384928837653/727757558_122098162029370388_3791886120779314694_n.png?ex=6ae7e25c&is=6ae690dc&hm=caa99455d0e315bab5afa085259c10ead30261433221538ba2bac864066ebc04&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/61591111642809/",
         "ig": "https://www.instagram.com/tron.motion/",
