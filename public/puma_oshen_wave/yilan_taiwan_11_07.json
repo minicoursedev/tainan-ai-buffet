@@ -195,7 +195,24 @@
       "category": "暖心日常",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-06/1.webp?v=370593de4cdc99ec",
+          "alt": "啾飲－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-06/1.webp?v=370593de4cdc99ec",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：842255486_17904511275570345_5617393021157927538_n.png；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566263229104005120/842255486_17904511275570345_5617393021157927538_n.png?ex=6ae7e7cd&is=6ae6964d&hm=3c63e2219d995110410823458b92a1ecd32ed90a8b4a9a006e9d116e04bed06c&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-06/2.webp?v=65e34dd62ac4b3bf",
+          "alt": "啾飲－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-06/2.webp?v=65e34dd62ac4b3bf",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：793850128_17899524336570345_6211154350197491723_n.png；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566263230068826112/793850128_17899524336570345_6211154350197491723_n.png?ex=6ae7e7cd&is=6ae6964d&hm=e6c785c820aa1a59b97f6494669f85f54aaa6bd44f3f92af6e1df102122cc561&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/61574385638802/",
         "ig": "https://www.instagram.com/chu_in0530/",
