@@ -6,12 +6,12 @@ import { createWalkView } from './walk.js?v=20261101-landscape-row';
 import { wireFloatingNav } from './floating-nav.js';
 import { openBooth } from './ui/booth.js?v=20261031-photo-labels';
 import { mountMap } from './ui/map.js?v=20261030-site-data';
-import { mountList } from './ui/list.js?v=20261031-photo-labels';
+import { mountList } from './ui/list.js?v=20261101-profile-links';
 import { loadSchedule, isClosed, closeTagText, msLeft, lastOpenLabel } from './schedule.js?v=20261030-site-data';
 import { loadCats, loadChatter } from './cats.js?v=20261030-site-data';
 import { showClosed } from './ui/closed.js';
 
-import { designerRoot, updateDesignerMetadata, resolveDesignerRoute } from './routes.js?v=20261031-profile-route';
+import { designerRoot, updateDesignerMetadata, resolveDesignerRoute } from './routes.js?v=20261101-home-seo';
 
 const $ = id => document.getElementById(id);
 const BOOTH_ID = /^[A-Z]\d{2}-\d{2}$/;

@@ -5,6 +5,7 @@ import { loadSearch, loadAisle, aisleOfBooth } from '../data.js?v=20261030-site-
 import { goToBooth } from '../nav.js?v=20261030-site-data';
 import { openBooth } from './booth.js?v=20261031-photo-labels';
 import { thumbnailUrl, retryOriginal } from '../images.js';
+import { designerPath } from '../routes.js';
 
 const PAGE = 60;
 const TYPES = ['漫畫', '插圖', '小說', '攝影', '有聲'];
@@ -65,7 +66,11 @@ export function mountList(container) {
   });
 
   async function ensureRows() {
-    if (!rows) rows = (await loadSearch()).map(toRow);
+    if (!rows) rows = await Promise.all((await loadSearch()).map(async r => {
+      const aisle = await loadAisle(aisleOfBooth(r[0]));
+      const booth = findBoothIn(aisle, r[0]);
+      return { ...toRow(r), designerId: booth.store };
+    }));
   }
 
   function filterRows() {
@@ -121,7 +126,7 @@ export function mountList(container) {
   function cardHtml(r) {
     const where = r.zone;
     return `<article class="lc" data-id="${esc(r.id)}">
-      <div class="lc-heading"><span class="lc-logo lc-cv" aria-hidden="true"></span><h3 class="lc-name"><button type="button" class="lc-open">${esc(r.store)}</button></h3></div>
+      <div class="lc-heading"><span class="lc-logo lc-cv" aria-hidden="true"></span><h3 class="lc-name"><a class="lc-open" href="${esc(designerPath(r.designerId))}">${esc(r.store)}</a></h3></div>
       <div class="lc-covers" aria-hidden="true"></div>
       <div class="lc-meta"><span class="lc-id mono">${esc(r.id)}</span>${r.type ? `<span class="lc-type">${esc(r.type)}</span>` : ''}</div>
       <p class="lc-owner">設計師 ${esc(r.owner)}</p>
@@ -242,7 +247,13 @@ export function mountList(container) {
       goToBooth(id);
       return;
     }
-    if (t.closest('.lc-open') || !t.closest('button, a')) openBooth(id);
+    if (t.closest('.lc-open')) {
+      if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      e.preventDefault();
+      openBooth(id);
+      return;
+    }
+    if (!t.closest('button, a')) openBooth(id);
   });
 
   zoneSel.addEventListener('change', () => { f.zone = zoneSel.value; refresh(); });
