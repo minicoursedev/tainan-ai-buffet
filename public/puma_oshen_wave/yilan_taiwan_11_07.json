@@ -1396,7 +1396,24 @@
       "category": "台派創集",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-20/1.webp?v=06034868a8acd571",
+          "alt": "瑄老闆生活選物－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-20/1.webp?v=06034868a8acd571",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（第 1 張）；依附件順序追加。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566464796906496110/image.png?ex=6ae8a387&is=6ae75207&hm=3ca6eb24813e0b397e3d51d987a45a666177e6f6efef2244557b764ea6a35d6f&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-20/2.webp?v=00ec704d0ef5616f",
+          "alt": "瑄老闆生活選物－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-20/2.webp?v=00ec704d0ef5616f",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（第 2 張）；依附件順序追加。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566464798059667556/image.png?ex=6ae8a387&is=6ae75207&hm=e6f100b6ee505b83329b8e7a9eb8c9aaa720fcdd23834dc7e9f88d83f65b83a8&"
+        }
+      ],
       "social": {
         "fb": "",
         "ig": "",
