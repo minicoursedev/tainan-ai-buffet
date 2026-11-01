@@ -21,20 +21,6 @@
   },
   "designers": [
     {
-      "id": "yilan-20261107-01",
-      "name": "兒童小天地",
-      "category": "暖心日常",
-      "disabled": false,
-      "verification": false,
-      "productImages": [],
-      "social": {
-        "fb": "",
-        "ig": "",
-        "threads": "",
-        "web": ""
-      }
-    },
-    {
       "id": "yilan-20261107-02",
       "name": "森本屋",
       "category": "暖心日常",
@@ -144,20 +130,6 @@
       },
       "locationSource": "https://www.google.com/maps/place/文邑二手書店/@24.6761453,121.7608209,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e73250f9d8f1:0x5aabd84d82f3f76b!8m2!3d24.6761453!4d121.7608209!16s%2Fg%2F11j8kyl4m8",
       "oshenStoreId": "yilan-20261107-03"
-    },
-    {
-      "id": "yilan-20261107-04",
-      "name": "超ㄅㄧㄤˋ",
-      "category": "暖心日常",
-      "disabled": false,
-      "verification": false,
-      "productImages": [],
-      "social": {
-        "fb": "",
-        "ig": "",
-        "threads": "",
-        "web": ""
-      }
     },
     {
       "id": "yilan-20261107-05",
@@ -553,6 +525,34 @@
       }
     },
     {
+      "id": "yilan-20261107-01",
+      "name": "兒童小天地",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-04",
+      "name": "超ㄅㄧㄤˋ",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
       "id": "yilan-20261107-13",
       "name": "浪黑貓二手商品",
       "category": "暖心日常",
@@ -616,62 +616,6 @@
       }
     },
     {
-      "id": "yilan-20261107-15",
-      "name": "芳姐服飾",
-      "category": "台派創集",
-      "disabled": false,
-      "verification": false,
-      "productImages": [],
-      "social": {
-        "fb": "",
-        "ig": "",
-        "threads": "",
-        "web": ""
-      }
-    },
-    {
-      "id": "yilan-20261107-16",
-      "name": "芯有所物",
-      "category": "台派創集",
-      "disabled": false,
-      "verification": false,
-      "productImages": [],
-      "social": {
-        "fb": "",
-        "ig": "",
-        "threads": "",
-        "web": ""
-      }
-    },
-    {
-      "id": "yilan-20261107-17",
-      "name": "艾比好物挖寶屋",
-      "category": "台派創集",
-      "disabled": false,
-      "verification": false,
-      "productImages": [],
-      "social": {
-        "fb": "",
-        "ig": "",
-        "threads": "",
-        "web": ""
-      }
-    },
-    {
-      "id": "yilan-20261107-18",
-      "name": "柔兒小舖",
-      "category": "台派創集",
-      "disabled": false,
-      "verification": false,
-      "productImages": [],
-      "social": {
-        "fb": "",
-        "ig": "",
-        "threads": "",
-        "web": ""
-      }
-    },
-    {
       "id": "yilan-20261107-19",
       "name": "豐革手作",
       "category": "台派創集",
@@ -717,20 +661,6 @@
         "checkedAt": "2026-10-31",
         "note": "品牌 Facebook 粉專頭像，來源 480 × 480。",
         "originalUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/301549994_541305631134786_5855463753742141357_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s480x480&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=6yH_BuBBnUIQ7kNvwGzf3cj&_nc_oc=AdpU2VkJy7AjgJS2HzZ-_F9acVYlwtynyoyrcdRROIFu8TTMVWEoEBHXBNLqzvGnF-E&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=Og7GhSP2Waa0sPNfSNeAAQ&_nc_ss=7b289&oh=00_AQQtmfp7T7GgkkFMMdBN8D-Czp36Zf72WcrIcXgWVuGf_w&oe=6AEABE4F"
-      }
-    },
-    {
-      "id": "yilan-20261107-20",
-      "name": "瑄老闆生活選物",
-      "category": "台派創集",
-      "disabled": false,
-      "verification": false,
-      "productImages": [],
-      "social": {
-        "fb": "",
-        "ig": "",
-        "threads": "",
-        "web": ""
       }
     },
     {
@@ -1168,20 +1098,6 @@
       }
     },
     {
-      "id": "yilan-20261107-30",
-      "name": "星月水晶",
-      "category": "台派創集",
-      "disabled": false,
-      "verification": false,
-      "productImages": [],
-      "social": {
-        "fb": "",
-        "ig": "",
-        "threads": "",
-        "web": ""
-      }
-    },
-    {
       "id": "yilan-20261107-31",
       "name": "熱血",
       "category": "台派創集",
@@ -1392,6 +1308,90 @@
         "checkedAt": "2026-10-31",
         "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/514913349_17958885341955983_4295871197619528458_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=106&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=0bB5K7SlW2IQ7kNvwG1lwMS&_nc_oc=AdrLkjWivcSOvdVWILLFaGtVuiIOcfDON4rGBg4T9RJ4c8-pzaEOcGVH3QmSelTAeJo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=CO7yilT5usiIWM4FtRdV4w&_nc_ss=7b689&oh=00_AQTzV4DMTwCXocDupPBdnbtbEc0jKv7z-7xdu8vDMPYGGQ&oe=6AEADD0C"
+      }
+    },
+    {
+      "id": "yilan-20261107-15",
+      "name": "芳姐服飾",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-16",
+      "name": "芯有所物",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-17",
+      "name": "艾比好物挖寶屋",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-18",
+      "name": "柔兒小舖",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-20",
+      "name": "瑄老闆生活選物",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-30",
+      "name": "星月水晶",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
       }
     },
     {
@@ -1671,20 +1671,6 @@
       "locationNote": "Google 地圖僅列出路名、沒有門牌；座標為地圖標記位置，實際出攤位置可能不同。"
     },
     {
-      "id": "yilan-20261107-40",
-      "name": "現煮食",
-      "category": "暖流食堂",
-      "disabled": false,
-      "verification": false,
-      "productImages": [],
-      "social": {
-        "fb": "",
-        "ig": "",
-        "threads": "",
-        "web": ""
-      }
-    },
-    {
       "id": "yilan-20261107-41",
       "name": "Pochacha釜山魚板",
       "category": "暖流食堂",
@@ -1724,20 +1710,6 @@
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/575319609_18021732857785943_6275132927357826617_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41MDAuQzMifQ%3D%3D&_nc_ohc=00hMPTf_8GAQ7kNvwFgcOBy&_nc_oc=AdqGtpUaZCKIyXs2pd7m9cRA-4n9aATMCbiWNIhYqxiYOBpVFtj5N8TNKrGj97JvLvE&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=jPOtmj-0QVSquYoMb6FcQA&_nc_ss=7b689&oh=00_AQSUpNir38aj71VmRqjIW9MPdyH9yr8cbO0M5CMP0rzZoQ&oe=6AEAB69A"
       },
       "locationNote": "品牌 Instagram 表示每日出攤地點見限時動態，尚未確認固定店址。"
-    },
-    {
-      "id": "yilan-20261107-42",
-      "name": "老頭家小吃部",
-      "category": "暖流食堂",
-      "disabled": false,
-      "verification": false,
-      "productImages": [],
-      "social": {
-        "fb": "",
-        "ig": "",
-        "threads": "",
-        "web": ""
-      }
     },
     {
       "id": "yilan-20261107-43",
@@ -1927,28 +1899,32 @@
       "locationStatusSource": "https://www.facebook.com/AFANGXZ/posts/pfbid0syXQhWHxjqkMgVcuKK4398HuU94ke2yrFgCLXtxd9cRkT7VK5w5HevyRngJnVncjl"
     },
     {
-      "id": "yilan-20261107-47",
-      "name": "1989 可麗餅",
-      "category": "暖心甜點",
+      "id": "yilan-20261107-40",
+      "name": "現煮食",
+      "category": "暖流食堂",
       "disabled": false,
       "verification": false,
       "productImages": [],
       "social": {
         "fb": "",
-        "ig": "https://www.instagram.com/new22tanya01/",
-        "threads": "https://www.threads.com/@new22tanya01",
+        "ig": "",
+        "threads": "",
         "web": ""
-      },
-      "logo": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-47/logo.webp?v=85634a7132ab1d18",
-        "source": "https://cdn.discordapp.com/attachments/1553247600935833680/1566092557677625415/image.png?ex=6ae748da&is=6ae5f75a&hm=e156df3355edcc84818845ace5251bda102db8fc9010bbac16b19e0df6b6f7e1&",
-        "platform": "user-provided",
-        "status": "verified",
-        "checkedAt": "2026-10-31",
-        "note": "使用者提供的 Logo 附件（image.png），指定用於 1989 可麗餅（yilan-20261107-47）；HTTPS 圖片可讀，原圖為 560 × 600 PNG。",
-        "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566092557677625415/image.png?ex=6ae748da&is=6ae5f75a&hm=e156df3355edcc84818845ace5251bda102db8fc9010bbac16b19e0df6b6f7e1&"
-      },
-      "socialNote": "2026-10-31 使用者提供 Instagram 與 Threads 連結，依指定攤位網址 ID yilan-20261107-47 對應至 1989 可麗餅；未作官方查證。"
+      }
+    },
+    {
+      "id": "yilan-20261107-42",
+      "name": "老頭家小吃部",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
     },
     {
       "id": "yilan-20261107-48",
@@ -2156,20 +2132,6 @@
       },
       "locationSource": "https://www.google.com/maps/place/臟燒雞蛋糕/@24.6777591,121.7728589,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7a3782b7bef:0x4e5eadc3694a5ba7!8m2!3d24.6777591!4d121.7728589!16s%2Fg%2F11zhx37hgb",
       "oshenStoreId": "yilan-20261107-51"
-    },
-    {
-      "id": "yilan-20261107-52",
-      "name": "日日青",
-      "category": "暖心甜點",
-      "disabled": false,
-      "verification": false,
-      "productImages": [],
-      "social": {
-        "fb": "",
-        "ig": "",
-        "threads": "",
-        "web": ""
-      }
     },
     {
       "id": "yilan-20261107-53",
@@ -2684,6 +2646,44 @@
         "checkedAt": "2026-10-31",
         "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/681329376_17875643073596129_2835495803046133620_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=CKdmrggFaS8Q7kNvwFxvvPo&_nc_oc=AdpwukmwHcv2I-Znj84CBDhOcWQ6r11YvhurwXNswM6wDXFHlTyQVlIHC9m56IWgsoc&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=KQZUF30yiy920XQspMfy4w&_nc_ss=7b689&oh=00_AQSLSp0rdNFcorGHIJF5JAeOHl7mecAPuErwATz1n-wVtQ&oe=6AEABF41"
+      }
+    },
+    {
+      "id": "yilan-20261107-47",
+      "name": "1989 可麗餅",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/new22tanya01/",
+        "threads": "https://www.threads.com/@new22tanya01",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-47/logo.webp?v=85634a7132ab1d18",
+        "source": "https://cdn.discordapp.com/attachments/1553247600935833680/1566092557677625415/image.png?ex=6ae748da&is=6ae5f75a&hm=e156df3355edcc84818845ace5251bda102db8fc9010bbac16b19e0df6b6f7e1&",
+        "platform": "user-provided",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "使用者提供的 Logo 附件（image.png），指定用於 1989 可麗餅（yilan-20261107-47）；HTTPS 圖片可讀，原圖為 560 × 600 PNG。",
+        "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566092557677625415/image.png?ex=6ae748da&is=6ae5f75a&hm=e156df3355edcc84818845ace5251bda102db8fc9010bbac16b19e0df6b6f7e1&"
+      },
+      "socialNote": "2026-10-31 使用者提供 Instagram 與 Threads 連結，依指定攤位網址 ID yilan-20261107-47 對應至 1989 可麗餅；未作官方查證。"
+    },
+    {
+      "id": "yilan-20261107-52",
+      "name": "日日青",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
       }
     }
   ]
