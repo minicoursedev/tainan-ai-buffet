@@ -58,7 +58,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     AISLE_BOT: 352 - boothShift, FRONT_S: 362 - boothShift, TABLE_S: 430, STRIP: 458, SIGN_S: 464,
   };
   let worldH = 500, PY_MIN = 232 - boothShift, PY_MAX = 342 - boothShift, AISLE_MID = 276 - boothShift;
-  let compactAisle = false;
+  let compactAisle = false, singleRow = false;
   const BW = display === 'stage' ? 224 : 112;
   const c = canvas.getContext('2d');
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -195,6 +195,22 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     }));
   }
   function build(d) {
+    if (singleRow) {
+      const booths = [], islands = [], byId = new Map();
+      let x = EXIT_W;
+      const groups = d.islands.filter(i => i.booths.length);
+      for (const [index, isl] of groups.entries()) {
+        const I = { side: 'N', isl, x0: x, x1: x + isl.booths.length * BW, signs: [] };
+        isl.booths.forEach((b, i) => {
+          const B = { b, side: 'N', x: x + i * BW, cx: x + i * BW + BW / 2, h: hash(b.id), I };
+          booths.push(B); byId.set(b.id, B);
+        });
+        I.signs = signsOf(I);
+        islands.push(I);
+        x = I.x1 + (index < groups.length - 1 ? CROSS : 0);
+      }
+      return { booths, islands, byId, order: booths.slice(), worldW: x + EXIT_W };
+    }
     const nIs = d.islands.filter(i => i.side === 'N');
     const sIs = d.islands.filter(i => i.side === 'S');
     const cols = Math.max(nIs.length, sIs.length);
@@ -864,7 +880,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
   function updateNear(force) {
     let id = null;
     if (L) {
-      const side = display === 'stage' || player.y < AISLE_MID ? 'N' : 'S';
+      const side = singleRow || display === 'stage' || player.y < AISLE_MID ? 'N' : 'S';
       const fx = player.x + player.face * BW * 0.12;
       let best = null, bd = Infinity;
       for (const B of L.booths) {
@@ -1035,6 +1051,12 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     const nd = Math.min(2, window.devicePixelRatio || 1);
     if (w === cssW && h === cssH && nd === dpr && T) return;
     cssW = w; cssH = h; dpr = nd;
+    const nextSingleRow = display === 'booth' && window.matchMedia('(orientation: landscape)').matches;
+    const layoutChanged = nextSingleRow !== singleRow;
+    const oldBooth = layoutChanged && L && (L.byId.get(nearId) || L.booths.reduce((best, B) =>
+      !best || Math.abs(B.cx - player.x) < Math.abs(best.cx - player.x) ? B : best, null));
+    const relativeX = oldBooth ? player.x - oldBooth.cx : 0;
+    singleRow = nextSingleRow;
     const compact = window.innerWidth <= 1024;
     if (compact !== compactAisle) {
       const mapY = y => compact ? Y.CLOTH_N + (y - Y.CLOTH_N) / 2 : Y.CLOTH_N + (y - Y.CLOTH_N) * 2;
@@ -1049,6 +1071,27 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     PY_MIN = 232 - boothShift - (compactAisle ? 16 : 0);
     PY_MAX = 342 - boothShift - (compactAisle ? 71 : 0);
     AISLE_MID = 276 - boothShift - (compactAisle ? 38 : 0);
+    if (singleRow) {
+      Y.AISLE_BOT = 292;
+      Y.STRIP = 292;
+      worldH = 300;
+      PY_MIN = 216; PY_MAX = 270; AISLE_MID = 243;
+    }
+    if (layoutChanged && data && L) {
+      stopAll();
+      L = build(data);
+      const nextBooth = oldBooth && L.byId.get(oldBooth.b.id);
+      if (nextBooth) {
+        player.x = clamp(nextBooth.cx + relativeX, X_MIN, L.worldW - X_MIN);
+        player.y = frontOf(nextBooth).y;
+      } else {
+        player.x = clamp(player.x, X_MIN, L.worldW - X_MIN);
+        player.y = clamp(player.y, PY_MIN, PY_MAX);
+      }
+      initNpcs(data.code);
+      initCats(data.code);
+      updateNear(true);
+    }
     canvas.width = Math.round(w * dpr); canvas.height = Math.round(h * dpr);
     // In a short landscape viewport, use the full canvas and overlay the controls.
     let top = w <= 560 ? 82 : 58, bottom = 54;
@@ -1098,7 +1141,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     const i = ref ? order.findIndex(B => B.b.id === ref) : -1;
     if (i < 0) {
       // not at a booth: the first booth ahead on this side, else the closest one
-      const side = display === 'stage' || player.y < AISLE_MID ? 'N' : 'S';
+      const side = singleRow || display === 'stage' || player.y < AISLE_MID ? 'N' : 'S';
       let best = order.find(B => B.side === side && B.cx >= player.x - BW * 0.3);
       if (!best) {
         let bd = Infinity;

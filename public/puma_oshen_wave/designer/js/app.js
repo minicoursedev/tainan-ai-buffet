@@ -2,7 +2,7 @@
 import { state, on, emit, visitedCount, toast } from './state.js';
 import { loadIndex, aisleOfBooth, loadBoothForDesigner } from './data.js?v=20261030-site-data';
 import { goToAisle } from './nav.js?v=20261030-site-data';
-import { createWalkView } from './walk.js?v=20261101-equal-logos';
+import { createWalkView } from './walk.js?v=20261101-landscape-row';
 import { wireFloatingNav } from './floating-nav.js';
 import { openBooth } from './ui/booth.js?v=20261031-photo-labels';
 import { mountMap } from './ui/map.js?v=20261030-site-data';

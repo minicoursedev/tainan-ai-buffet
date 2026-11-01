@@ -2,7 +2,7 @@
 import { state, on, emit, visitedCount, toast } from './state.js?v=20261031-yilan-zones';
 import { loadIndex, aisleOfBooth, loadBoothForDesigner } from './data.js?v=20261031-oshen-shop';
 import { goToAisle } from './nav.js?v=20261031-oshen-shop';
-import { createWalkView } from './walk.js?v=20261101-equal-logos';
+import { createWalkView } from './walk.js?v=20261101-landscape-row';
 import { openBooth } from './ui/booth.js?v=20261031-photo-labels';
 import { mountMap } from './ui/map.js?v=20261031-oshen-shop';
 import { mountList } from './ui/list.js?v=20261031-photo-labels';
