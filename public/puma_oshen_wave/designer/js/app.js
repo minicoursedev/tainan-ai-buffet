@@ -2,7 +2,8 @@
 import { state, on, emit, visitedCount, toast } from './state.js';
 import { loadIndex, aisleOfBooth, loadBoothForDesigner } from './data.js?v=20261030-site-data';
 import { goToAisle } from './nav.js?v=20261030-site-data';
-import { createWalkView } from './walk.js?v=20261029-booth-number-layer';
+import { createWalkView } from './walk.js?v=20261101-mobile-space';
+import { wireFloatingNav } from './floating-nav.js';
 import { openBooth } from './ui/booth.js?v=20261031-photo-labels';
 import { mountMap } from './ui/map.js?v=20261030-site-data';
 import { mountList } from './ui/list.js?v=20261031-photo-labels';
@@ -66,6 +67,7 @@ function wireDialogs() {
 
 async function boot() {
   wireDialogs();
+  wireFloatingNav();
 
   // opening period: closed means the 休市 screen only, nothing else loads
   await loadSchedule();

@@ -2,7 +2,7 @@
 import { state, on, emit, visitedCount, toast } from './state.js?v=20261031-yilan-zones';
 import { loadIndex, aisleOfBooth, loadBoothForDesigner } from './data.js?v=20261031-oshen-shop';
 import { goToAisle } from './nav.js?v=20261031-oshen-shop';
-import { createWalkView } from './walk.js?v=20261031-poster-colors';
+import { createWalkView } from './walk.js?v=20261101-booth-text';
 import { openBooth } from './ui/booth.js?v=20261031-photo-labels';
 import { mountMap } from './ui/map.js?v=20261031-oshen-shop';
 import { mountList } from './ui/list.js?v=20261031-photo-labels';
@@ -67,6 +67,17 @@ function wireDialogs() {
 
 async function boot() {
   wireDialogs();
+  const menu = $('yl-nav');
+  menu.addEventListener('click', e => {
+    if (e.target.closest('.modes button, .plaque, .link-btn')) menu.open = false;
+  });
+  document.addEventListener('click', e => { if (!menu.contains(e.target)) menu.open = false; });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && menu.open) {
+      menu.open = false;
+      menu.querySelector('summary').focus();
+    }
+  });
 
   // opening period: closed means the 休市 screen only, nothing else loads
   await loadSchedule();

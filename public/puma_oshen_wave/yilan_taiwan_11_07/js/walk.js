@@ -22,20 +22,7 @@ const MONO = '"IBM Plex Mono", ui-monospace, Consolas, monospace';
 const CROSS = 104;       // cross aisle between two islands on the same side
 const EXIT_W = 190;      // exit area at each end of the aisle
 const EXIT_TRIG = 72;    // walking this close to an end leaves the aisle
-const Y = {
-  SIGN_N: 10,            // hanging signs over the N rows
-  POSTER: 56,            // top of the N poster stands
-  BACK: 150,             // far floor line, back edge of the N tables
-  TABLE_N: 162,          // front edge of the N tables
-  CLOTH_N: 200,          // bottom of the N table cloth = top of the aisle
-  AISLE_BOT: 352,        // front edge of the S tables
-  FRONT_S: 362,          // S table top starts
-  TABLE_S: 430,          // S table back edge
-  STRIP: 458,            // foreground strip
-  SIGN_S: 464,           // signs of the S rows
-};
-const WORLD_H = 500;
-const PY_MIN = 232, PY_MAX = 342, AISLE_MID = 276, X_MIN = 22;
+const X_MIN = 22;
 const SPEED = 260;
 const KEYS = {
   arrowleft: [-1, 0], a: [-1, 0], arrowright: [1, 0], d: [1, 0],
@@ -63,6 +50,13 @@ function rng(s) {
 }
 
 export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, onCreator = () => {}, onEnd = () => {}, catContext = () => ({}), display = 'booth', visited = isVisited } = {}) {
+  // The landscape layout halves the aisle depth without squashing the booths or people.
+  const Y = {
+    SIGN_N: 10, POSTER: 56, BACK: 150, TABLE_N: 162, CLOTH_N: 200,
+    AISLE_BOT: 352, FRONT_S: 362, TABLE_S: 430, STRIP: 458, SIGN_S: 464,
+  };
+  let worldH = 500, PY_MIN = 232, PY_MAX = 342, AISLE_MID = 276;
+  let compactAisle = false;
   const BW = display === 'stage' ? 224 : 112;
   const c = canvas.getContext('2d');
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -266,7 +260,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     c.save(); c.globalAlpha = 0.16; c.lineWidth = 1;
     c.beginPath();
     for (let x = Math.floor((x0 - 320) / 140) * 140; x < x1 + 320; x += 140) { c.moveTo(x, Y.BACK); c.lineTo(x + (x - vcx) * 0.42, floorEnd); }
-    for (const y of [Y.CLOTH_N + 50, Y.CLOTH_N + 104]) { c.moveTo(x0, y); c.lineTo(x1, y); }
+    for (const part of [50 / 152, 104 / 152]) { const y = Y.CLOTH_N + (Y.AISLE_BOT - Y.CLOTH_N) * part; c.moveTo(x0, y); c.lineTo(x1, y); }
     c.stroke();
     c.restore();
     if (display === 'stage') return; // The stage has an open audience area, without a lower row.
@@ -418,7 +412,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     const w = author ? BW - 32 : full ? 66 : 32, h = 17;
     c.fillStyle = near ? PINK_SOFT : PAPER; c.fillRect(cx - w / 2, cy - h / 2, w, h);
     c.strokeStyle = INK; c.lineWidth = near ? 2 : 1.6; c.strokeRect(cx - w / 2, cy - h / 2, w, h);
-    c.fillStyle = INK; c.font = `600 ${full ? 11.5 : 12.5}px ${author ? FONT : MONO}`;
+    c.fillStyle = INK; c.font = `600 ${full ? 13.225 : 14.375}px ${author ? FONT : MONO}`;
     const text = author ? fit(label, w - 24) : label;
     c.fillText(text, cx, cy + 0.5);
     if (author) {
@@ -496,7 +490,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     c.strokeStyle = INK; c.lineWidth = 2; c.strokeRect(px, py, pw, ph);
     c.fillStyle = INK; c.fillRect(px + 14, py - 3, 7, 5); c.fillRect(px + pw - 21, py - 3, 7, 5);
     c.lineWidth = 1.4; line(px, py + 15, px + pw, py + 15);
-    c.fillStyle = INK; c.font = `700 10.5px ${FONT}`;
+    c.fillStyle = INK; c.font = `700 12.075px ${FONT}`;
     c.fillText(fit(storeName(b), pw - 8), cx, py + 8.5);
     const size = Math.min(ph - 23, (pw - 10) * 2 / 3);
     const width = size + 4 + (size - 4) / 2;
@@ -530,7 +524,7 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     // name card at the back of the table
     c.fillStyle = PAPER; c.fillRect(x + 9, Y.TABLE_S - 20, BW - 18, 14);
     c.strokeStyle = INK; c.lineWidth = 1.2; c.strokeRect(x + 9, Y.TABLE_S - 20, BW - 18, 14);
-    c.fillStyle = INK; c.font = `700 10.5px ${FONT}`;
+    c.fillStyle = INK; c.font = `700 12.075px ${FONT}`;
     c.fillText(fit(storeName(b), BW - 26), cx, Y.TABLE_S - 12.5);
   }
   function islandEdges(x0, x1) {
@@ -743,7 +737,8 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     for (let i = 0; i < n; i++) {
       const x = span ? lo + span * ((i + 0.2 + R() * 0.6) / n) : L.worldW / 2;
       // middle of the aisle only, so the spots in front of the booths stay free
-      const y = PY_MIN + 34 + R() * (PY_MAX - PY_MIN - 64);
+      const margin = Math.min(34, (PY_MAX - PY_MIN) / 3);
+      const y = PY_MIN + margin + R() * (PY_MAX - PY_MIN - 2 * margin);
       cats.push({ cat: true, cfg: order[i], x, y, face: R() < 0.5 ? -1 : 1, line: null, last: null });
     }
     // passers-by that start on top of a cat step aside
@@ -1038,14 +1033,29 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
     const nd = Math.min(2, window.devicePixelRatio || 1);
     if (w === cssW && h === cssH && nd === dpr && T) return;
     cssW = w; cssH = h; dpr = nd;
+    const compact = display === 'booth' && window.innerWidth <= 1024 && window.matchMedia('(orientation: landscape)').matches;
+    if (compact !== compactAisle) {
+      const mapY = y => compact ? Y.CLOTH_N + (y - Y.CLOTH_N) / 2 : Y.CLOTH_N + (y - Y.CLOTH_N) * 2;
+      player.y = mapY(player.y);
+      for (const actor of [...npcs, ...cats]) actor.y = mapY(actor.y);
+      if (target) target.y = mapY(target.y);
+      compactAisle = compact;
+    }
+    const shift = compactAisle ? 76 : 0;
+    Object.assign(Y, { AISLE_BOT: 352 - shift, FRONT_S: 362 - shift, TABLE_S: 430 - shift, STRIP: 458 - shift, SIGN_S: 464 - shift });
+    worldH = 500 - shift;
+    PY_MIN = compactAisle ? 216 : 232;
+    PY_MAX = compactAisle ? 271 : 342;
+    AISLE_MID = compactAisle ? 238 : 276;
     canvas.width = Math.round(w * dpr); canvas.height = Math.round(h * dpr);
     // leave room for the overlays: place label and status on top, the dock at the bottom
-    let top = w <= 560 ? 94 : 58, bottom = 66;
-    if (h < 520) { if (w > 560) top = 52; bottom = 58; } // narrow screens keep the room under the status tags
+    let top = w <= 560 ? 82 : 58, bottom = 54;
+    if (h < 520) { top = w <= 560 ? 76 : 46; bottom = 48; }
     if (display === 'stage' && w <= 560) bottom = 136; // Leave space below the banquet for the hint and two rows of actions.
-    const avail = Math.max(140, h - top - bottom);
-    scale = clamp(avail / WORLD_H, 0.42, 2.4);
-    offY = top + (avail - WORLD_H * scale) / 2;
+    const landscape = w > h && h < 500;
+    const avail = landscape ? h : Math.max(140, h - top - bottom);
+    scale = clamp(avail / worldH, landscape ? 0.25 : 0.42, 2.4);
+    offY = landscape ? (h - worldH * scale) / 2 : top + (avail - worldH * scale) / 2;
     buildTones();
     fitCache.clear();
     placeCamera(0, true);

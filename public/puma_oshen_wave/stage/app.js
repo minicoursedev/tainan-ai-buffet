@@ -1,4 +1,5 @@
-import { createWalkView } from '../designer/js/walk.js?v=20261028-creator-socials';
+import { createWalkView } from '../designer/js/walk.js?v=20261101-mobile-space';
+import { wireFloatingNav } from '../designer/js/floating-nav.js';
 import { toast } from '../designer/js/state.js';
 import { loadCatalogue, createPublicShowcase } from './data.js?v=20261030-site-data';
 import { mountPlayer } from './player.js?v=20261031-player-type';
@@ -297,6 +298,7 @@ function route() {
 }
 
 async function boot() {
+  wireFloatingNav();
   catalogue = await loadCatalogue();
   $('hall-select').replaceChildren(...catalogue.halls.map(hall => {
     const option = make('option', hall.name);

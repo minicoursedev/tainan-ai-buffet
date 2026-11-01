@@ -35,10 +35,13 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/map.css">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/list.css?v=20261026-video3">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/closed.css">
+<link rel="stylesheet" href="/puma_oshen_wave/designer/css/floating-nav.css?v=20261101">
 </head>
 <body>
 <div class="app">
-  <header class="bar">
+  <details class="floating-nav" id="floating-nav">
+    <summary class="floating-nav-toggle" aria-label="導覽選單"><span aria-hidden="true">☰</span> 選單</summary>
+    <nav class="bar" aria-label="導覽選單">
     <a class="plaque" href="#/walk" aria-label="洋流設計師">
       <span>洋流設計師</span>
     </a>
@@ -50,7 +53,8 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
     <span class="tag close-tag" id="close-tag" hidden></span>
     <a class="link-btn" href="/puma_oshen_wave/stage/">洋流舞台</a>
     <a class="link-btn back-to-map" href="/puma_oshen_wave/">返回地圖</a>
-  </header>
+    </nav>
+  </details>
 
   <main class="stage" id="stage-walk" hidden>
     <canvas id="walk-canvas" tabindex="0" aria-label="逛場子畫面：按住拖著小人走，點設計師即可查看介紹"></canvas>
@@ -68,13 +72,14 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
   </div></main>
   <main class="map-mode" id="stage-map" hidden></main>
   <footer class="app-footer">
-    <small>© 2026 MiniCourse｜本站歸 MiniCourse 所有；收錄之設計師資料、作品與商標，其權利歸各設計師或原權利人所有。</small>
+    <small class="footer-full">© 2026 MiniCourse｜本站歸 MiniCourse 所有；收錄之設計師資料、作品與商標，其權利歸各設計師或原權利人所有。</small>
+    <details class="footer-details"><summary>© 2026 MiniCourse・版權資訊</summary><small>本站歸 MiniCourse 所有；收錄之設計師資料、作品與商標，其權利歸各設計師或原權利人所有。</small></details>
   </footer>
   <div class="toast" id="toast" role="status" popover="manual"></div>
 </div>
 
 <dialog id="dlg-booth" class="dlg" aria-labelledby="booth-title"></dialog>
 
-<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261031-photo-labels"></script>
+<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261101-floating-nav"></script>
 </body>
 </html>

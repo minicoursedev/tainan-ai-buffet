@@ -39,11 +39,13 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/map.css">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/list.css?v=20261026-video3">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/closed.css">
-<link rel="stylesheet" href="/puma_oshen_wave/yilan_taiwan_11_07/market.css?v=20261031-compact-icons">
+<link rel="stylesheet" href="/puma_oshen_wave/yilan_taiwan_11_07/market.css?v=20261101-floating-menu">
 </head>
 <body>
 <div class="app">
-  <header class="bar">
+  <details class="yl-nav" id="yl-nav">
+    <summary class="yl-nav-toggle" aria-label="市集選單"><span aria-hidden="true">☰</span> 選單</summary>
+    <nav class="bar" aria-label="市集選單">
     <a class="plaque" href="#/walk" aria-label="宜蘭暖流・台派市集">
       <span>宜蘭暖流・台派市集</span>
     </a>
@@ -53,16 +55,24 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
       <button type="button" data-mode="map" aria-pressed="false">市集地圖</button>
     </div>
     <span class="tag close-tag" id="close-tag" hidden></span>
+    <a class="link-btn" href="/puma_oshen_wave/designer/">洋流設計師</a>
     <a class="link-btn" href="/puma_oshen_wave/stage/">洋流舞台</a>
     <a class="link-btn back-to-map" href="/puma_oshen_wave/">返回地圖</a>
-  </header>
+    </nav>
+  </details>
 
-  <div class="yilan-event">11 月 7 日（六）15:00–19:00・羅東後火車站旁廣場・以下為線上虛擬攤位 <a href="/puma_oshen_wave/?place=yilan-20261107#map-area">查看地點</a><span class="yl-organizers">主辦單位：{market.market.organizers.join('、')}</span></div>
+  <div class="yilan-event">
+    <span class="yl-event-full">11 月 7 日（六）15:00–19:00・羅東後火車站旁廣場・以下為線上虛擬攤位 <a href="/puma_oshen_wave/?place=yilan-20261107#map-area">查看地點</a><span class="yl-organizers">主辦單位：{market.market.organizers.join('、')}</span></span>
+    <details class="yl-event-details">
+      <summary>活動資訊</summary>
+      <span>11 月 7 日（六）15:00–19:00・羅東後火車站旁廣場・以下為線上虛擬攤位 <a href="/puma_oshen_wave/?place=yilan-20261107#map-area">查看地點</a><span class="yl-organizers">主辦單位：{market.market.organizers.join('、')}</span></span>
+    </details>
+  </div>
   <main class="stage" id="stage-walk" hidden>
     <canvas id="walk-canvas" tabindex="0" aria-label="逛場子畫面：按住拖著小人走，點攤位即可查看介紹"></canvas>
     <button type="button" class="where" id="btn-where"><b id="where-hall">宜蘭暖流市集</b><span id="where-aisle"></span><span class="where-switch">換館</span></button>
     <div class="status"><span class="tag tag-zone" id="status-zone"></span><span class="tag" id="status-count"></span></div>
-    <p class="hint" id="hint">按住畫面拖著小人走，點一下就走過去，點攤位查看介紹。電腦可以用方向鍵。</p>
+    <p class="hint" id="hint">拖曳或點畫面移動，點攤位看介紹；電腦可用方向鍵。</p>
     <div class="dock">
       <button type="button" class="btn btn-primary" id="btn-browse" disabled>靠近即可認識攤商</button>
       <button type="button" class="btn" id="btn-next">下一攤</button>
@@ -74,7 +84,8 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
   </div></main>
   <main class="map-mode" id="stage-map" hidden></main>
   <footer class="app-footer">
-    <small>© 2026 MiniCourse｜本站歸 MiniCourse 所有；收錄之攤商資料、作品與商標，其權利歸各攤商或原權利人所有。</small>
+    <small class="yl-footer-full">© 2026 MiniCourse｜本站歸 MiniCourse 所有；收錄之攤商資料、作品與商標，其權利歸各攤商或原權利人所有。</small>
+    <details class="yl-footer-details"><summary>© 2026 MiniCourse・版權資訊</summary><small>本站歸 MiniCourse 所有；收錄之攤商資料、作品與商標，其權利歸各攤商或原權利人所有。</small></details>
   </footer>
   <div class="toast" id="toast" role="status" popover="manual"></div>
 </div>
@@ -93,6 +104,6 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
 
 <dialog id="dlg-booth" class="dlg" aria-labelledby="booth-title"></dialog>
 
-<script is:inline type="module" src="/puma_oshen_wave/yilan_taiwan_11_07/js/app.js?v=20261031-photo-labels"></script>
+<script is:inline type="module" src="/puma_oshen_wave/yilan_taiwan_11_07/js/app.js?v=20261101-booth-text"></script>
 </body>
 </html>

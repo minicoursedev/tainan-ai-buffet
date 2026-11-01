@@ -29,11 +29,14 @@ const canonical = new URL(video ? stagePath(video.id) : hall ? hallPath(hall.id)
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/market.css">
 <link rel="stylesheet" href="/puma_oshen_wave/stage/stage.css?v=20261028-creator-permission">
+<link rel="stylesheet" href="/puma_oshen_wave/designer/css/floating-nav.css?v=20261101">
 <script is:inline defer src="/assets/analytics.js?v=20261019-content-group"></script>
 </head>
 <body>
 <div class="app">
-  <header class="bar">
+  <details class="floating-nav" id="floating-nav">
+    <summary class="floating-nav-toggle" aria-label="導覽選單"><span aria-hidden="true">☰</span> 選單</summary>
+    <nav class="bar" aria-label="導覽選單">
     <a class="plaque" href="/puma_oshen_wave/stage/#/walk" aria-label="洋流舞台首頁">洋流舞台</a>
     <label class="hall-picker">舞台館別<select id="hall-select" aria-label="選擇舞台館別" disabled></select></label>
     <div class="modes" role="group" aria-label="舞台瀏覽方式">
@@ -42,7 +45,8 @@ const canonical = new URL(video ? stagePath(video.id) : hall ? hallPath(hall.id)
       <button type="button" data-mode="map" aria-pressed="false">舞台地圖</button>
     </div>
     <nav class="stage-links" aria-label="洋流網站"><a class="link-btn" href="/puma_oshen_wave/designer/">洋流設計師</a><a class="link-btn" href="/puma_oshen_wave/">返回地圖</a></nav>
-  </header>
+    </nav>
+  </details>
   <main class="stage" id="stage-walk" hidden>
     <canvas id="walk-canvas" tabindex="0" aria-label="洋流舞台：按住拖著小人走，點舞台觀看影片"></canvas>
     <button type="button" class="where" id="btn-where"><b id="where-hall">公共舞台</b><span id="where-aisle"></span><span class="where-switch">看地圖</span></button>
@@ -62,7 +66,7 @@ const canonical = new URL(video ? stagePath(video.id) : hall ? hallPath(hall.id)
     </div>
   </main>
   <main class="map-mode" id="stage-map" hidden><div class="stage-page"><h1 id="map-title">舞台地圖</h1><p>選一座舞台，走過去看影片。</p><div id="stage-plan"></div></div></main>
-  <footer class="app-footer"><small>© 2026 MiniCourse｜影片及相關內容權利歸原創作者或原權利人所有。</small></footer>
+  <footer class="app-footer"><small class="footer-full">© 2026 MiniCourse｜影片及相關內容權利歸原創作者或原權利人所有。</small><details class="footer-details"><summary>© 2026 MiniCourse・版權資訊</summary><small>影片及相關內容權利歸原創作者或原權利人所有。</small></details></footer>
   <div class="toast" id="toast" role="status" popover="manual"></div>
 </div>
 <dialog id="video-dialog" class="dlg video-dialog" aria-labelledby="video-title">
@@ -85,6 +89,6 @@ const canonical = new URL(video ? stagePath(video.id) : hall ? hallPath(hall.id)
   </div>
 </dialog>
 <noscript><p class="stage-message">啟用 JavaScript 即可使用互動舞台與播放器。</p></noscript>
-<script is:inline type="module" src="/puma_oshen_wave/stage/app.js?v=20261031-player-type"></script>
+<script is:inline type="module" src="/puma_oshen_wave/stage/app.js?v=20261101-floating-nav"></script>
 </body>
 </html>
