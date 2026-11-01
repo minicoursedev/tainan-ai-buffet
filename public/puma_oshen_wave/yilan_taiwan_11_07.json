@@ -2678,12 +2678,78 @@
       "category": "暖心甜點",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/1.webp?v=28fa8f5b7d96b6e4",
+          "alt": "日日青－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/1.webp?v=28fa8f5b7d96b6e4",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：C0F2ACC1-F7E6-4EE1-8E31-40897DB50B8A.png；依附件順序追加為作品圖片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319924320673792/C0F2ACC1-F7E6-4EE1-8E31-40897DB50B8A.png?ex=6ae81c9a&is=6ae6cb1a&hm=eaa344901dfec4b28fdffcca791440d77fd2341e7dcd1518847c4bb82473eee9&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/2.webp?v=057f5fbab20866c2",
+          "alt": "日日青－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/2.webp?v=057f5fbab20866c2",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_1784.jpeg；依附件順序追加為作品圖片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319924693962762/IMG_1784.jpeg?ex=6ae81c9a&is=6ae6cb1a&hm=352b551d604ea4a3d28e8c6ad0e81c4339968e9bb979b631d72aac80e4f9aa16&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/3.webp?v=fbffd2557af2b6a2",
+          "alt": "日日青－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/3.webp?v=fbffd2557af2b6a2",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_1785.jpeg；依附件順序追加為作品圖片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319924979171362/IMG_1785.jpeg?ex=6ae81c9a&is=6ae6cb1a&hm=d17fa1d6596a16b76861b25508cf131ddbe1bb3128fdfe0c3557b4814409e1b2&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/4.webp?v=4f27dcb0b897d93d",
+          "alt": "日日青－作品圖片 4",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/4.webp?v=4f27dcb0b897d93d",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_1786.jpeg；依附件順序追加為作品圖片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319925310783568/IMG_1786.jpeg?ex=6ae81c9b&is=6ae6cb1b&hm=d70460324eb485f878b0719ba4bc89b11762b53277951ab41b9b65e24e429861&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/5.webp?v=b1d1dd8c86902857",
+          "alt": "日日青－作品圖片 5",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/5.webp?v=b1d1dd8c86902857",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_1787.jpeg；依附件順序追加為作品圖片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319925859983370/IMG_1787.jpeg?ex=6ae81c9b&is=6ae6cb1b&hm=96d388b3f9c9ab11f42209d907fda534f67a7eb32e509c121abee3ff3a0cb48b&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/6.webp?v=8fac887cb43cf97a",
+          "alt": "日日青－作品圖片 6",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/6.webp?v=8fac887cb43cf97a",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_1788.jpeg；依附件順序追加為作品圖片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319926245851156/IMG_1788.jpeg?ex=6ae81c9b&is=6ae6cb1b&hm=7e0b5b1827023ec9040380e42fc1b0e132c43f485ebd5ffbefbdf745e4f26fab&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/7.webp?v=89edc1f77478530c",
+          "alt": "日日青－作品圖片 7",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/7.webp?v=89edc1f77478530c",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_9757.jpeg；依附件順序追加為作品圖片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319926707359824/IMG_9757.jpeg?ex=6ae81c9b&is=6ae6cb1b&hm=d451053f32c04e00b514b82d7125fefaa675c99637aa3a3c3459ff117aee1a3c&"
+        }
+      ],
       "social": {
         "fb": "",
         "ig": "",
         "threads": "",
         "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/logo.webp?v=6dbe592a0b63f0a6",
+        "source": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319923813417040/IMG_1358.jpeg?ex=6ae81c9a&is=6ae6cb1a&hm=38efaf45233fbc39466a9d0fa891a964d1a35042da35f4c8cff211f0650a86ef&",
+        "platform": "user-provided",
+        "status": "verified",
+        "checkedAt": "2026-11-01",
+        "note": "使用者提供附件：IMG_1358.jpeg；明確指定第一張為 Logo，已確認 HTTPS 圖片可讀。",
+        "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319923813417040/IMG_1358.jpeg?ex=6ae81c9a&is=6ae6cb1a&hm=38efaf45233fbc39466a9d0fa891a964d1a35042da35f4c8cff211f0650a86ef&"
       }
     }
   ]
