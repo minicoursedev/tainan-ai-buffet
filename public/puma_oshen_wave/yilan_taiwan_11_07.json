@@ -335,7 +335,32 @@
       "category": "暖心日常",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-11/1.webp?v=2d6bd07190e694db",
+          "alt": "喵喵米是人吃的－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-11/1.webp?v=2d6bd07190e694db",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（第 1 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566260035279917156/image.png?ex=6ae7e4d4&is=6ae69354&hm=3296d5bc17f7e9510e6c2f227fddd30fd8c802b5b5458bafc98327c73f4686bf&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-11/2.webp?v=21c56324bcd1ae61",
+          "alt": "喵喵米是人吃的－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-11/2.webp?v=21c56324bcd1ae61",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（第 2 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566260035896483930/image.png?ex=6ae7e4d4&is=6ae69354&hm=4c6639c68e984dccb8efe1640fbf82b369b3b71edf2938027d971ff681c1a51e&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-11/3.webp?v=442a5fbea106d560",
+          "alt": "喵喵米是人吃的－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-11/3.webp?v=442a5fbea106d560",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（第 3 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566260036349730896/image.png?ex=6ae7e4d4&is=6ae69354&hm=a9697204c0ead8dcb6f3c25bc1e7cf8a9f5d099ddcd75bed4aea04c05a5b09e1&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/meowmeowfarm/",
         "ig": "https://www.instagram.com/meowmeowfarm/",
