@@ -249,7 +249,32 @@
       "category": "暖心日常",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-08/1.webp?v=c59c01db9c422458",
+          "alt": "ㄕㄨˋㄖㄣˊ咖啡－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-08/1.webp?v=c59c01db9c422458",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：794647056_18129911558495500_2703877232686667415_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566262539090923530/794647056_18129911558495500_2703877232686667415_n.png?ex=6ae7e729&is=6ae695a9&hm=f095cb1b95b2bafac5fa28d07765ebc13097361259081e12991c043565ff48fd&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-08/2.webp?v=330f7afd659199f4",
+          "alt": "ㄕㄨˋㄖㄣˊ咖啡－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-08/2.webp?v=330f7afd659199f4",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：799634226_18128131766495500_6962254676831865718_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566262540772581456/799634226_18128131766495500_6962254676831865718_n.png?ex=6ae7e729&is=6ae695a9&hm=f2aa00109bc24bc24a0880b2f882c16ec74ec42791d2c9092e91c7efe05019c3&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-08/3.webp?v=4ab0aa52d0bb0623",
+          "alt": "ㄕㄨˋㄖㄣˊ咖啡－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-08/3.webp?v=4ab0aa52d0bb0623",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：682126446_18112662002495500_8709916912721606750_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566262542450565230/682126446_18112662002495500_8709916912721606750_n.png?ex=6ae7e729&is=6ae695a9&hm=2c584c12fdf08f49ad9fc9e6ce250c92d84ab41574a0f67eb4da029e5585eef9&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/ourspace1256/",
         "ig": "https://www.instagram.com/ourspace1256/",
