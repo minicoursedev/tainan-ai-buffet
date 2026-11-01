@@ -404,7 +404,32 @@
       "category": "台派創集",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/1.webp?v=686c73232d91da48",
+          "alt": "漂亮把拔鉤織髮帶－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/1.webp?v=686c73232d91da48",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：855547035_17910644397490528_6688208258562789957_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566258151383113728/855547035_17910644397490528_6688208258562789957_n.png?ex=6ae7e312&is=6ae69192&hm=3a6cb82cedf57480a149894719861964a80a650b8f7d233639dece452b4dc633&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/2.webp?v=afd5333f9fedee68",
+          "alt": "漂亮把拔鉤織髮帶－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/2.webp?v=afd5333f9fedee68",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：847832461_17910034074490528_8169103428835428502_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566258152889122816/847832461_17910034074490528_8169103428835428502_n.png?ex=6ae7e313&is=6ae69193&hm=0173d1577c71771787591188ed0e606fd122de5e4d1073d0081cf249eae0c61d&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/3.webp?v=d863d0c266226635",
+          "alt": "漂亮把拔鉤織髮帶－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/3.webp?v=d863d0c266226635",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：830856827_18107952872068410_3905311733203049692_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566258154608660591/830856827_18107952872068410_3905311733203049692_n.png?ex=6ae7e313&is=6ae69193&hm=6b369e74ad4ed471ad944bf2cadf5d57c610e284c38db3f09c24dc36437b906c&"
+        }
+      ],
       "social": {
         "fb": "",
         "ig": "https://www.instagram.com/prettypapahandmade/",
