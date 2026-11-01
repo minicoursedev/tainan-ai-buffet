@@ -6,9 +6,9 @@ import { boothHtml } from '../public/puma_oshen_wave/yilan_taiwan_11_07/js/ui/bo
 import { resolveDesignerRoute, designerPath } from '../public/puma_oshen_wave/yilan_taiwan_11_07/js/routes.js';
 const data = JSON.parse(readFileSync(new URL('../public/puma_oshen_wave/yilan_taiwan_11_07.json', import.meta.url)));
 const c = createCatalogue(data);
-function record(id) {
-  const boothId = c.designerBooths.get(id);
-  const aisle = c.aisles.get(boothId.split('-')[0]);
+function record(id, catalogue = c) {
+  const boothId = catalogue.designerBooths.get(id);
+  const aisle = catalogue.aisles.get(boothId.split('-')[0]);
   return { booth: aisle.islands.flatMap(i => i.booths).find(b => b.store === id), store: aisle.stores[id] };
 }
 test('all vendors are present and grouped by poster category', () => {
@@ -51,8 +51,12 @@ test('joint poster booths have separate booths with their own information', () =
     }
   }
 });
-test('unidentified booth has no invented social links or avatar', () => {
-  const {booth, store} = record('yilan-20261107-40');
+test('booth without supplied details has no invented social links or avatar', () => {
+  const catalogue = createCatalogue({designers: [{
+    id: 'missing-details', name: '待補資料攤位', category: '暖流食堂',
+    social: {fb: '', ig: '', threads: '', web: ''}, productImages: [],
+  }]});
+  const {booth, store} = record('missing-details', catalogue);
   const html = boothHtml(booth, store);
   assert.ok(!store.avatar);
   assert.doesNotMatch(html, /<a class="btn" href="https?:/);
