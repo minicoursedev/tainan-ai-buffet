@@ -525,6 +525,45 @@
       }
     },
     {
+      "id": "yilan-20261107-peggy",
+      "name": "Peggy 的二手小物",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-peggy/1.webp?v=74ac2f84282cfddd",
+          "alt": "Peggy 的二手小物－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-peggy/1.webp?v=74ac2f84282cfddd",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png；依附件順序新增，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566465472801804338/image.png?ex=6ae8a428&is=6ae752a8&hm=8075f9be2e4a53e9fd7d2bdd1630de154c8692a3814af2a4dfda84d51b683317&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-peggy/2.webp?v=b6638e86d69b8b2f",
+          "alt": "Peggy 的二手小物－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-peggy/2.webp?v=b6638e86d69b8b2f",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png；依附件順序新增，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566465473426759760/image.png?ex=6ae8a428&is=6ae752a8&hm=69fb97aa6542fa19518859869c7525c585ff2325cf675b454439ac14a4d92455&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-peggy/3.webp?v=564697bfdf37eb8f",
+          "alt": "Peggy 的二手小物－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-peggy/3.webp?v=564697bfdf37eb8f",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png；依附件順序新增，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566465474303234068/image.png?ex=6ae8a428&is=6ae752a8&hm=11e4e1fa65ec6125ab45420627ad2d2db685954e0cbc75b2db8cd6ecd885c48e&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
       "id": "yilan-20261107-01",
       "name": "兒童小天地",
       "category": "暖心日常",
