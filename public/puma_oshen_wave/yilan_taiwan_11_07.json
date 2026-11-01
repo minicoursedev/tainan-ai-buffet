@@ -769,7 +769,32 @@
       "category": "台派創集",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31/1.webp?v=29d88d98ddeccd5a",
+          "alt": "熱血－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31/1.webp?v=29d88d98ddeccd5a",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：880871709_17991932595118401_8867819046883584080_n.png（本次附件第 1 張）；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257064303534170/880871709_17991932595118401_8867819046883584080_n.png?ex=6ae7e20f&is=6ae6908f&hm=5ec247b3113ae9f0791a5489227d084667f8bf06e1907e85fc62a57d7d944181&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31/2.webp?v=9886529c6ea958d1",
+          "alt": "熱血－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31/2.webp?v=9886529c6ea958d1",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：867571449_17991324942118401_4949929088022980924_n.png（本次附件第 2 張）；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257064739872878/867571449_17991324942118401_4949929088022980924_n.png?ex=6ae7e20f&is=6ae6908f&hm=573374811371f7aee2f16d16a7272d992ba4bece0dfb28edc292d52dc8e23a79&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31/3.webp?v=7459b7c1d8a322df",
+          "alt": "熱血－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31/3.webp?v=7459b7c1d8a322df",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：864023059_17990608257118401_5722501963562917553_n.png（本次附件第 3 張）；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257065146585098/864023059_17990608257118401_5722501963562917553_n.png?ex=6ae7e20f&is=6ae6908f&hm=d947533763081db50ca13dc402778bef860a758246c2072b7e6cf21c6c54c116&"
+        }
+      ],
       "social": {
         "fb": "",
         "ig": "https://www.instagram.com/hot_write/",
