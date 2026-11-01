@@ -6,20 +6,23 @@ import { boothHtml } from '../public/puma_oshen_wave/yilan_taiwan_11_07/js/ui/bo
 import { resolveDesignerRoute, designerPath } from '../public/puma_oshen_wave/yilan_taiwan_11_07/js/routes.js';
 const data = JSON.parse(readFileSync(new URL('../public/puma_oshen_wave/yilan_taiwan_11_07.json', import.meta.url)));
 const c = createCatalogue(data);
+const activeVendors = data.designers.filter(vendor => vendor.disabled !== true);
+const expectedZones = [...new Set(activeVendors.map(vendor => vendor.category))]
+  .map(category => [category, activeVendors.filter(vendor => vendor.category === category).length]);
 function record(id, catalogue = c) {
   const boothId = catalogue.designerBooths.get(id);
   const aisle = catalogue.aisles.get(boothId.split('-')[0]);
   return { booth: aisle.islands.flatMap(i => i.booths).find(b => b.store === id), store: aisle.stores[id] };
 }
 test('all vendors are present and grouped by poster category', () => {
-  assert.equal(data.designers.length, 62);
-  assert.equal(c.index.totals.designers, 62);
-  assert.deepEqual(Object.fromEntries([...new Set(data.designers.map(d => d.category))].map(category => [category, data.designers.filter(d => d.category === category).length])), {'暖心日常':13,'台派創集':22,'暖流食堂':12,'暖心甜點':15});
+  const displayedIds = [...c.aisles.values()].flatMap(aisle => aisle.islands.flatMap(island => island.booths.map(booth => booth.store)));
+  assert.equal(c.index.totals.designers, activeVendors.length);
+  assert.deepEqual(displayedIds.slice().sort(), activeVendors.map(vendor => vendor.id).sort());
 });
-test('map and walk aisles preserve the four poster zones', () => {
+test('map and walk aisles preserve the catalogue categories', () => {
   const zones = c.index.halls[0].zones;
-  assert.deepEqual(zones.map(({name, booths}) => [name, booths]), [['暖心日常', 13], ['台派創集', 22], ['暖流食堂', 12], ['暖心甜點', 15]]);
-  assert.equal(c.index.halls[0].aisles.length, 5);
+  assert.deepEqual(zones.map(({name, booths}) => [name, booths]), expectedZones);
+  assert.deepEqual(zones.flatMap(zone => zone.aisles).sort(), [...c.aisles.keys()].sort());
   for (const zone of zones) {
     assert.ok(zone.aisles.length);
     for (const code of zone.aisles) {
