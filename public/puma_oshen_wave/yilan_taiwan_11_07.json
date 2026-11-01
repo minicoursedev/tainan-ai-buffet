@@ -669,7 +669,16 @@
       "category": "台派創集",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-23/1.webp?v=86115f02e8042a7f",
+          "alt": "The Kind V. 植食所－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-23/1.webp?v=86115f02e8042a7f",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：475841440_621397423627337_8353452535837903450_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566258774149304470/475841440_621397423627337_8353452535837903450_n.png?ex=6ae7e3a7&is=6ae69227&hm=8769ed3813aaadae74075dc5c087dc9cbec8c90dc2dec6d133dd01dcbc5353a4&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/KindV.Homemade/",
         "ig": "https://www.instagram.com/the_kind_v/",
