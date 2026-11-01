@@ -25,6 +25,82 @@
     "其它",
     "咖啡豆"
   ],
-  "stores": [],
+  "stores": [
+    {
+      "id": "yilan-20261107-55",
+      "verification": false,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "甜聿家米甜品",
+      "address": "970花蓮縣花蓮市國威里三民街35-2號",
+      "social": {
+        "facebook": "https://www.facebook.com/SweetRiceDessert/",
+        "instagram": "https://www.instagram.com/sweetricedessert/",
+        "threads": "https://www.threads.com/@sweetricedessert"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/甜聿家米甜品/@23.9808061,121.6083312,17z/data=!3m1!4b1!4m6!3m5!1s0x3468a192b21668cf:0xb5ec92ab5975d916!8m2!3d23.9808061!4d121.6083312!16s%2Fg%2F11jwzyh21c",
+        "https://www.facebook.com/SweetRiceDessert/",
+        "https://www.instagram.com/sweetricedessert/",
+        "https://www.threads.com/@sweetricedessert",
+        "https://myship.7-11.com.tw/general/detail/GM2201192139016",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 23.9808061,
+        "lng": 121.6083312
+      },
+      "coordinateSource": "https://www.google.com/maps/place/甜聿家米甜品/@23.9808061,121.6083312,17z/data=!3m1!4b1!4m6!3m5!1s0x3468a192b21668cf:0xb5ec92ab5975d916!8m2!3d23.9808061!4d121.6083312!16s%2Fg%2F11jwzyh21c",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-55/logo.webp?v=c5c85a115d27ccf8",
+        "source": "https://www.instagram.com/sweetricedessert/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    },
+    {
+      "id": "yilan-20261107-58",
+      "verification": false,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "乙夷甜點",
+      "address": "970花蓮縣花蓮市國風里仁愛街104巷2號",
+      "social": {
+        "facebook": "https://www.facebook.com/YiYiDessert/",
+        "instagram": "https://www.instagram.com/yiyi_dessert/",
+        "threads": "https://www.threads.com/@yiyi_dessert"
+      },
+      "sources": [
+        "https://www.google.com/maps/place/%E4%B9%99%E5%A4%B7%E7%94%9C%E9%BB%9E/@23.9781874,121.6024109,17z/data=!3m1!4b1!4m6!3m5!1s0x34689f0078ecaab1:0x6ce97a0826ec34ce!8m2!3d23.9781874!4d121.6024109!16s%2Fg%2F11vrvy_pnl",
+        "https://www.facebook.com/YiYiDessert/",
+        "https://www.instagram.com/yiyi_dessert/",
+        "https://www.threads.com/@yiyi_dessert",
+        "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl"
+      ],
+      "verifiedAt": "2026-10-31",
+      "verificationNote": "使用者指定收錄的宜蘭暖流・台派市集攤商；是否同意收錄尚未確認。",
+      "disabled": false,
+      "latlng": {
+        "lat": 23.9781874,
+        "lng": 121.6024109
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E4%B9%99%E5%A4%B7%E7%94%9C%E9%BB%9E/@23.9781874,121.6024109,17z/data=!3m1!4b1!4m6!3m5!1s0x34689f0078ecaab1:0x6ce97a0826ec34ce!8m2!3d23.9781874!4d121.6024109!16s%2Fg%2F11vrvy_pnl",
+      "coordinateNote": "採用店家地址相符的 Google 地圖地點座標（!3d、!4d）；未使用地圖視窗中心。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-58/logo.webp?v=c693de0f38bc5cb5",
+        "source": "https://www.instagram.com/yiyi_dessert/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "沿用已查證並發布的市集攤商品牌社群頭像。"
+      }
+    }
+  ],
   "pendingStores": []
 }
