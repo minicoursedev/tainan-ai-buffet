@@ -484,7 +484,32 @@
       "category": "台派創集",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-19/1.webp?v=28e4fa589a0d60ce",
+          "alt": "豐革手作－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-19/1.webp?v=28e4fa589a0d60ce",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：877649777_1653858056546199_5725982278471945441_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257778203295884/877649777_1653858056546199_5725982278471945441_n.png?ex=6ae7e2b9&is=6ae69139&hm=9fd8aeb6dfdac4e79e4a4ed293faa967e1ea146acb707eee789ab38095618a8e&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-19/2.webp?v=2f329352c5c40608",
+          "alt": "豐革手作－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-19/2.webp?v=2f329352c5c40608",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：864026184_1653818056550199_1129059120841491439_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257779289628773/864026184_1653818056550199_1129059120841491439_n.png?ex=6ae7e2ba&is=6ae6913a&hm=bda4cdd56f5c8c409c3bec4f68f48c7c8b70d268c756e8860c316d4f62afac75&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-19/3.webp?v=df83bbd17d37b164",
+          "alt": "豐革手作－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-19/3.webp?v=df83bbd17d37b164",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：876793203_1653810856550919_4384127237700670077_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257780396916907/876793203_1653810856550919_4384127237700670077_n.png?ex=6ae7e2ba&is=6ae6913a&hm=0b3aec37a5039e614d30381abe0d3ac019c92292817e5c1c4ceff49d36717d94&"
+        }
+      ],
       "social": {
         "fb": "https://www.facebook.com/chenshandmadeleathercraft/",
         "ig": "",
