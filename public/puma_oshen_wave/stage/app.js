@@ -85,6 +85,10 @@ function updateHall() {
 
 function setMode(next, navigate = true) {
   mode = next;
+  // Keep hall selection available in every view, next to the next-hall button while walking.
+  const picker = document.querySelector('.hall-picker');
+  if (next === 'walk') document.querySelector('.hall-controls').append(picker);
+  else document.querySelector('.floating-nav .bar').insertBefore(picker, document.querySelector('.floating-nav .modes'));
   for (const name of ['walk', 'list', 'map']) $(`stage-${name}`).hidden = name !== next;
   for (const button of document.querySelectorAll('[data-mode]')) button.setAttribute('aria-pressed', String(button.dataset.mode === next));
   if (next === 'walk') walk?.resize();

@@ -28,7 +28,7 @@ const canonical = new URL(video ? stagePath(video.id) : hall ? hallPath(hall.id)
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/market.css">
-<link rel="stylesheet" href="/puma_oshen_wave/stage/stage.css?v=20261028-creator-permission">
+<link rel="stylesheet" href="/puma_oshen_wave/stage/stage.css?v=20261101-hall-picker">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/floating-nav.css?v=20261101">
 <script is:inline defer src="/assets/analytics.js?v=20261019-content-group"></script>
 </head>
@@ -38,7 +38,6 @@ const canonical = new URL(video ? stagePath(video.id) : hall ? hallPath(hall.id)
     <summary class="floating-nav-toggle" aria-label="導覽選單"><span aria-hidden="true">☰</span> 選單</summary>
     <nav class="bar" aria-label="導覽選單">
     <a class="plaque" href="/puma_oshen_wave/stage/#/walk" aria-label="洋流舞台首頁">洋流舞台</a>
-    <label class="hall-picker">舞台館別<select id="hall-select" aria-label="選擇舞台館別" disabled></select></label>
     <div class="modes" role="group" aria-label="舞台瀏覽方式">
       <button type="button" data-mode="walk" aria-pressed="true">逛舞台</button>
       <button type="button" data-mode="list" aria-pressed="false">影片列表</button>
@@ -55,7 +54,10 @@ const canonical = new URL(video ? stagePath(video.id) : hall ? hallPath(hall.id)
     <p class="stage-message" id="stage-message" role="status" hidden></p>
     <div class="dock">
       <button type="button" class="btn btn-primary" id="btn-watch" disabled>靠近舞台看影片</button>
-      <button type="button" class="btn" id="btn-next" disabled>下一個館別</button>
+      <div class="hall-controls">
+        <button type="button" class="btn" id="btn-next" disabled>下一個館別</button>
+        <label class="hall-picker"><select id="hall-select" aria-label="選擇舞台館別" disabled></select></label>
+      </div>
       <button type="button" class="btn" id="btn-continuous" disabled>連續播放</button>
     </div>
   </main>
@@ -89,6 +91,6 @@ const canonical = new URL(video ? stagePath(video.id) : hall ? hallPath(hall.id)
   </div>
 </dialog>
 <noscript><p class="stage-message">啟用 JavaScript 即可使用互動舞台與播放器。</p></noscript>
-<script is:inline type="module" src="/puma_oshen_wave/stage/app.js?v=20261101-landscape-row"></script>
+<script is:inline type="module" src="/puma_oshen_wave/stage/app.js?v=20261101-hall-picker"></script>
 </body>
 </html>
