@@ -49,7 +49,7 @@ export function boothHtml(booth, store) {
   const storeUrl = safeUrl(store?.url);
   const shopUrl = /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(store?.oshenStoreId || '')
     ? `/puma_oshen_wave/shops/${encodeURIComponent(store.oshenStoreId)}/` : '';
-  const linksFor = social => [['fb', 'Facebook', 'facebook.png'], ['threads', 'Threads', 'threads.svg'], ['ig', 'Instagram', 'instagram.svg'], ['web', '官網', 'website.svg']]
+  const linksFor = social => [['fb', 'Facebook', 'facebook.png'], ['threads', 'Threads', 'threads.svg'], ['ig', 'Instagram', 'instagram.svg'], ['line', '官方 LINE', 'line.svg'], ['web', '官網', 'website.svg']]
     .map(([key, label, icon]) => {
       const url = safeUrl(social?.[key]);
       return url ? `<a class="btn yl-social-button" href="${esc(url)}" target="_blank" rel="noopener noreferrer" aria-label="${label}" title="${label}"><img src="/puma_oshen_wave/yilan_taiwan_11_07/assets/buttons/${icon}" width="32" height="32" alt="" decoding="async"></a>` : '';
