@@ -6,6 +6,7 @@ const designer = designers.find(profile => profile.id === Astro.props.designerId
 const title = designer ? `${designer.name}｜洋流設計師` : '洋流設計師｜探索設計師、創作作品與線上市集';
 const description = designer ? `認識${designer.name}，查看作品與官方社群，走進洋流設計師市集探索更多創作。` : '走進洋流設計師線上市集，瀏覽設計師介紹、創作作品與官方社群。透過設計師列表、地圖與互動攤位，找到喜歡的創作者。';
 const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, Astro.site).href;
+const exhibitionImage = new URL('/puma_oshen_wave/designer/assets/exhibition-og.png?v=19f09d0c7c56f7bd', Astro.site).href;
 ---
 <!doctype html>
 <html lang="zh-Hant-TW">
@@ -24,6 +25,13 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
 <meta property="og:locale" content="zh_TW">
 <meta property="og:title" content={title}>
 <meta property="og:description" content={description}>
+{!designer && <>
+  <meta property="og:image" content={exhibitionImage}>
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="2622">
+  <meta property="og:image:height" content="1206">
+  <meta property="og:image:alt" content="洋流設計師展逛攤畫面">
+</>}
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content={title}>
 <meta name="twitter:description" content={description}>
