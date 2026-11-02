@@ -2885,6 +2885,37 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/590277772_17932724835118135_944437322036316334_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=slMNpx7XOcIQ7kNvwFIJ-Sj&_nc_oc=AdpFUi4SACQHsakzb0grdN0jjSy92k8G5D2eyrJoJI81b9T9LqqxZ-GKbJ1eV-0stkI&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=_Cutty-pvRtH1MTiIMJo4Q&_nc_ss=7920f&oh=00_AQTWeY7byypkfKAY67y_1utnnaQCrJz9LPUdNPfMhzyMEA&oe=6AEE1D17"
       }
+    },
+    {
+      "id": "zinger-8-88",
+      "name": "zinger_8_88",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/zinger-8-88/1.webp?v=79028be312bce2fd",
+          "alt": "zinger_8_88 作品照片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/zinger-8-88/1.webp?v=79028be312bce2fd",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566772699982864515/825323712_17958883680237511_4782410178947904901_n.png?ex=6ae9c248&is=6ae870c8&hm=f4de19778886d03648819d3e4d9afae891918e687538a1d5a7162f271ccaf243&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@zinger_8_88",
+        "ig": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/zinger-8-88/logo.webp?v=224f4082e604a048",
+        "source": "https://www.threads.com/@zinger_8_88",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-02",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-19/809209268_17957675520237511_3206581209626983064_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=_SOHec2UPYoQ7kNvwHnWlv2&_nc_oc=AdqsUIqgZ-oQ4d-NTBwnX6Xs_-YBIDRXQaTOweUajMhjrpg5MpoooU3rgR79Q9xAzow&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=zdtJxAVZhJWabI0smCDUBg&_nc_ss=7f20f&oh=00_AQQn0rOi3aFFhAOk2Be-_gC5zJbkbWBXJEuMXNNPadJYJg&oe=6AEE4D6C"
+      }
     }
   ]
 }
