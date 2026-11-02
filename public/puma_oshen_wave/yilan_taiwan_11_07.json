@@ -2030,12 +2030,62 @@
       "category": "暖流食堂",
       "disabled": false,
       "verification": false,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/1.webp?v=b4a1b748a9cb45e5",
+          "alt": "老頭家小吃部－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/1.webp?v=b4a1b748a9cb45e5",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件：image.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566643874892488774/image.png?ex=6ae94a4e&is=6ae7f8ce&hm=edf8aff2489291e31e090a8d978338214d0722164cd2b3facb2d4404de210789&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/2.webp?v=86b45b7dbc3f5e9e",
+          "alt": "老頭家小吃部－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/2.webp?v=86b45b7dbc3f5e9e",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件：image.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566643875538538557/image.png?ex=6ae94a4e&is=6ae7f8ce&hm=8e94a747daf68bf39975020751d560953acb6ce45683c99d77ebad3da58e8770&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/3.webp?v=4527786da036d368",
+          "alt": "老頭家小吃部－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/3.webp?v=4527786da036d368",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件：image.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566643876020752414/image.png?ex=6ae94a4e&is=6ae7f8ce&hm=9ff183d1e246f14d43c30c1515502dbace80ac7135ebe4a5918d67e17bdb6ec0&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/4.webp?v=f42e41df29cd4b91",
+          "alt": "老頭家小吃部－作品圖片 4",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/4.webp?v=f42e41df29cd4b91",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件：image.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566643876834320467/image.png?ex=6ae94a4f&is=6ae7f8cf&hm=287f04b23ecc2bd594ee99f5c5aaeb29a34d44dd9c9f955f155bdfb51847ee06&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/5.webp?v=24c3535ec826a7e5",
+          "alt": "老頭家小吃部－作品圖片 5",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/5.webp?v=24c3535ec826a7e5",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件：image.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566643877656526988/image.png?ex=6ae94a4f&is=6ae7f8cf&hm=2213d05187964c6946bee86e0ee745bbcccb239f8e87711b71b7facfc7931af9&"
+        }
+      ],
       "social": {
         "fb": "",
         "ig": "",
         "threads": "",
         "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/logo.webp?v=d8e3bd643ac8f561",
+        "source": "https://cdn.discordapp.com/attachments/1553247600935833680/1566643874363871273/image.png?ex=6ae94a4e&is=6ae7f8ce&hm=531bcab40b7cdaf4c34be6421538a683624872a8cacfffb50e31846b9b155e86&",
+        "platform": "user-provided",
+        "status": "verified",
+        "checkedAt": "2026-11-02",
+        "note": "使用者提供的 Logo 附件：image.png；已檢視固定腳本產生的本地預覽。",
+        "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566643874363871273/image.png?ex=6ae94a4e&is=6ae7f8ce&hm=531bcab40b7cdaf4c34be6421538a683624872a8cacfffb50e31846b9b155e86&"
       }
     },
     {
