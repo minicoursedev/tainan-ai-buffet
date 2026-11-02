@@ -22,6 +22,7 @@
     "美髮",
     "農業",
     "洋流服務站",
+    "印刷小組",
     "其它",
     "咖啡豆"
   ],
@@ -253,7 +254,7 @@
     {
       "id": "shencai181",
       "verification": true,
-      "category": "其它",
+      "category": "印刷小組",
       "giftStatus": "可能有小物",
       "name": "神彩影像輸出",
       "address": "台南市東區育樂街188號",
@@ -7365,6 +7366,36 @@
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；欣悅食堂 | East District, Tainan City ；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。"
       },
       "visitNote": "供應手作日式料理，提供內用與外帶；電話0906-560-458。"
+    },
+    {
+      "id": "luny-tw",
+      "verification": true,
+      "name": "LUNY 如你所願",
+      "category": "印刷小組",
+      "giftStatus": "可能有小物",
+      "address": "台南市南區興昌路9巷3號（光禾社區管理室）",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/luny.tw/",
+        "threads": "https://www.threads.com/@luny.tw"
+      },
+      "sources": [
+        "https://www.luny.tw/",
+        "https://www.luny.tw/About",
+        "https://www.luny.tw/pickup",
+        "https://www.threads.com/@luny.tw",
+        "https://www.instagram.com/luny.tw/"
+      ],
+      "verifiedAt": "2026-11-02",
+      "verificationNote": "品牌官網列出 Threads 與 Instagram 的 luny.tw 帳號，官方取件指南確認光禾社區管理室為台南自取點。",
+      "visitNote": "客製貼紙請先在線上下單。收到取件通知後，14 天內可全天至管理室取件，現場不提供印製服務。",
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9762561,
+        "lng": 120.1998878
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11061022624",
+      "coordinateNote": "取自 OpenStreetMap 的興昌路9巷3號門牌，與官網自取指南所附 Google 地圖標記吻合。"
     }
   ],
   "pendingStores": []
