@@ -2858,14 +2858,6 @@
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319924320673792/C0F2ACC1-F7E6-4EE1-8E31-40897DB50B8A.png?ex=6ae81c9a&is=6ae6cb1a&hm=eaa344901dfec4b28fdffcca791440d77fd2341e7dcd1518847c4bb82473eee9&"
         },
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/2.webp?v=057f5fbab20866c2",
-          "alt": "日日青－作品圖片 2",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/2.webp?v=057f5fbab20866c2",
-          "checkedAt": "2026-11-01",
-          "note": "使用者提供附件：IMG_1784.jpeg；依附件順序追加為作品圖片。",
-          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319924693962762/IMG_1784.jpeg?ex=6ae81c9a&is=6ae6cb1a&hm=352b551d604ea4a3d28e8c6ad0e81c4339968e9bb979b631d72aac80e4f9aa16&"
-        },
-        {
           "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/3.webp?v=fbffd2557af2b6a2",
           "alt": "日日青－作品圖片 3",
           "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/3.webp?v=fbffd2557af2b6a2",
@@ -2908,19 +2900,20 @@
       ],
       "social": {
         "fb": "",
-        "ig": "",
-        "threads": "",
+        "ig": "https://www.instagram.com/mi.s_churros?mdxt=NXkzdDM1djFyczl6&utm_source=qr",
+        "threads": "https://www.threads.com/@mi.s_churros?igshid=NTc4MTIwNjQ2YQ==",
         "web": ""
       },
       "logo": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/logo.webp?v=6dbe592a0b63f0a6",
-        "source": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319923813417040/IMG_1358.jpeg?ex=6ae81c9a&is=6ae6cb1a&hm=38efaf45233fbc39466a9d0fa891a964d1a35042da35f4c8cff211f0650a86ef&",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/logo.webp?v=1abeb4f5a02b0edc",
+        "source": "https://cdn.discordapp.com/attachments/1553247600935833680/1566671836165439509/IMG_9828.jpeg?ex=6ae96459&is=6ae812d9&hm=6df272bdbe7c3ca6085c791b72c630b6744e6a0f75488460e804e26c87c2dd8c&",
         "platform": "user-provided",
         "status": "verified",
-        "checkedAt": "2026-11-01",
-        "note": "使用者提供附件：IMG_1358.jpeg；明確指定第一張為 Logo，已確認 HTTPS 圖片可讀。",
-        "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319923813417040/IMG_1358.jpeg?ex=6ae81c9a&is=6ae6cb1a&hm=38efaf45233fbc39466a9d0fa891a964d1a35042da35f4c8cff211f0650a86ef&"
-      }
+        "checkedAt": "2026-11-02",
+        "note": "使用者提供附件 IMG_9828.jpeg，指定作為 Logo；本地預覽可讀，未作官方查證。",
+        "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566671836165439509/IMG_9828.jpeg?ex=6ae96459&is=6ae812d9&hm=6df272bdbe7c3ca6085c791b72c630b6744e6a0f75488460e804e26c87c2dd8c&"
+      },
+      "socialNote": "Instagram 與 Threads 連結由使用者提供，依指定攤位網址對應；未作官方查證。"
     }
   ]
 }
