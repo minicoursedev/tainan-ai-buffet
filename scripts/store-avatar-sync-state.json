@@ -12205,6 +12205,45 @@
       "lastAttempt": "2026-11-01T16:43:33+08:00",
       "result": "updated",
       "reason": "首次保存"
+    },
+    "luny-tw": {
+      "qualityChecks": [
+        {
+          "source": "https://www.threads.com/@luny.tw",
+          "platform": "threads",
+          "imageUrl": "https://instagram.fkhh1-1.fna.fbcdn.net/v/t51.82787-19/532229294_17921038455106851_5504927184473262488_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fkhh1-1.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2gF72mSetp5MRbfr9qMvaAoUqd12ozdtOtdgQAXkh0m6Ke_B-osN20JOR46UXgfquQM&_nc_ohc=kH2PyuSVLigQ7kNvwFO6hvU&_nc_gid=2j07eVFkjagPkiZr3jvT9g&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQTKq2YwIqAWze7cPvf4rMUuZrvA5x1SZCkMP9KyNuJQvg&oe=6AEE2563&_nc_sid=10d13b",
+          "size": [
+            320,
+            320
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Luny 如你所願 客製化貼紙 (@luny.tw) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "d93ce458cee3c3a8455aab9ad8407b166dcaf3d34a8ccc2309676349096030b2",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        320,
+        320
+      ],
+      "imageValidators": {
+        "last-modified": "Mon, 11 Aug 2025 08:38:31 GMT"
+      },
+      "source": "https://www.threads.com/@luny.tw",
+      "imageUrl": "https://instagram.fkhh1-1.fna.fbcdn.net/v/t51.82787-19/532229294_17921038455106851_5504927184473262488_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fkhh1-1.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2gF72mSetp5MRbfr9qMvaAoUqd12ozdtOtdgQAXkh0m6Ke_B-osN20JOR46UXgfquQM&_nc_ohc=kH2PyuSVLigQ7kNvwFO6hvU&_nc_gid=2j07eVFkjagPkiZr3jvT9g&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQTKq2YwIqAWze7cPvf4rMUuZrvA5x1SZCkMP9KyNuJQvg&oe=6AEE2563&_nc_sid=10d13b",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Luny 如你所願 客製化貼紙 (@luny.tw) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+      "filename": "luny-tw/logo.webp",
+      "lastSuccess": "2026-11-02T15:41:54+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-11-02T15:41:54+08:00",
+      "result": "updated",
+      "reason": "首次保存"
     }
   }
 }

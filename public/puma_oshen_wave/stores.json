@@ -16344,7 +16344,15 @@
         "lng": 120.1998878
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11061022624",
-      "coordinateNote": "取自 OpenStreetMap 的興昌路9巷3號門牌，與官網自取指南所附 Google 地圖標記吻合。"
+      "coordinateNote": "取自 OpenStreetMap 的興昌路9巷3號門牌，與官網自取指南所附 Google 地圖標記吻合。",
+      "shopPhoto": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/luny-tw/logo.webp?v=d93ce458cee3c3a8",
+        "source": "https://www.threads.com/@luny.tw",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-02",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Luny 如你所願 客製化貼紙 (@luny.tw) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。"
+      }
     }
   ],
   "pendingStores": []
