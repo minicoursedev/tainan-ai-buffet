@@ -3054,12 +3054,13 @@
         "web": ""
       },
       "logo": {
-        "url": "",
-        "source": "",
-        "platform": "",
-        "status": "unverified",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/dipsydisplay/logo.webp?v=82e4caddf2f38f1a",
+        "source": "https://www.threads.com/@dipsydisplay",
+        "platform": "threads",
+        "status": "verified",
         "checkedAt": "2026-11-03",
-        "note": "未確認可讀取的官方個人檔案頭像。"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；迪普西躺在L型沙發上 (@dipsydisplay) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。",
+        "originalUrl": "https://instagram.fkhh1-1.fna.fbcdn.net/v/t51.82787-19/825324772_18104247443197742_6571127600333039164_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zMjAuYzIifQ&_nc_ht=instagram.fkhh1-1.fna.fbcdn.net&_nc_cat=102&_nc_oc=Q6cZ2gFmTa8cAsYteb2MCv1MfTKscl8lsl-syzz8KWXQVdpGakxVW76hEw20U7IlGuQqLxw&_nc_ohc=6UyUQeFzaF8Q7kNvwFcV1xK&_nc_gid=PoqVEVzc250zmLdjW81o7A&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQQNcVoRlXd2OC7qrdb7_QSL6bYjNcSc-fZ3BqT2IB4MnQ&oe=6AEF17FA&_nc_sid=10d13b"
       }
     }
   ]
