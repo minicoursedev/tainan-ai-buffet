@@ -3007,12 +3007,13 @@
         "web": ""
       },
       "logo": {
-        "url": "",
-        "source": "",
-        "platform": "",
-        "status": "unverified",
-        "checkedAt": "2026-11-02",
-        "note": "未確認官方個人檔案頭像。"
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/awaawa-no-hibi/logo.webp?v=e60e1dbd913b62b8",
+        "source": "https://www.threads.com/@awaawa.no.hibi",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-03",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；@awaawa.no.hibi • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。",
+        "originalUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-19/786106793_17968346049149348_6734139351226215848_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby41MDAuYzIifQ&_nc_ht=instagram.fkhh1-2.fna.fbcdn.net&_nc_cat=108&_nc_oc=Q6cZ2gFSV4YI53hOKaDUtMo2HIBtdbM58VYcHKKIn-pkvxl_eMC7eJUEVA2YZB5wb0j99MM&_nc_ohc=DbbzDMY8hykQ7kNvwGuT_bN&_nc_gid=Ym0bHtJ2rJEJjWFqtlMNKg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQTswqmNVgP3RzcXOYEknhzNMKcd-tnlTrD59o2NHXZ9qA&oe=6AEF0B5C&_nc_sid=10d13b"
       }
     },
     {
