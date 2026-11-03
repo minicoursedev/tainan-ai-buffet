@@ -3014,6 +3014,52 @@
         "checkedAt": "2026-11-02",
         "note": "未確認官方個人檔案頭像。"
       }
+    },
+    {
+      "id": "dipsydisplay",
+      "name": "迪普西 Dipsy",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/dipsydisplay/1.webp?v=17e955405dace8a8",
+          "alt": "迪普西 Dipsy 作品照片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/dipsydisplay/1.webp?v=17e955405dace8a8",
+          "checkedAt": "2026-11-03",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567004213513560154/888739859_1161087376499381_5883502237245444840_n.png?ex=6aea99e6&is=6ae94866&hm=5e877f9bd8787023ccfe268735ebff6a3a6fcc557c781fb9b697275f4ce27715&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/dipsydisplay/2.webp?v=9285285fb72aee91",
+          "alt": "迪普西 Dipsy 作品照片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/dipsydisplay/2.webp?v=9285285fb72aee91",
+          "checkedAt": "2026-11-03",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567004214016610395/885665723_1846635206671486_8374900106776193534_n.png?ex=6aea99e6&is=6ae94866&hm=20dab6fd394a3a2c96ebf8558c3168629b6ba6968d4d4997a2cf66ebef7c33b4&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/dipsydisplay/3.webp?v=b1ac048f9c16edad",
+          "alt": "迪普西 Dipsy 作品照片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/dipsydisplay/3.webp?v=b1ac048f9c16edad",
+          "checkedAt": "2026-11-03",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567004214700539954/886258883_1646542316818999_898822508291553526_n.png?ex=6aea99e6&is=6ae94866&hm=862b8997e5ecc552bb24cfa6a6acb3a0fd6a1f04c02c3fe1181cc4f27378cbbc&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@dipsydisplay",
+        "ig": "https://www.instagram.com/dipsydisplay/",
+        "web": ""
+      },
+      "logo": {
+        "url": "",
+        "source": "",
+        "platform": "",
+        "status": "unverified",
+        "checkedAt": "2026-11-03",
+        "note": "未確認可讀取的官方個人檔案頭像。"
+      }
     }
   ]
 }
