@@ -1024,7 +1024,17 @@
         "checkedAt": "2026-10-26",
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/591152634_17930976786117350_3915922176714528028_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=Nw2aZEzy76EQ7kNvwFlsWFH&_nc_oc=AdpsE3mo30zziODnRi51mxPZs9MAQEi0W137qWxpioWPvSuZ-QsS9yiLd-m8YJs6u84&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Wy2ZwCX-hB7EUZ-qnoy_EQ&_nc_ss=7920f&oh=00_AQMVqi_JhYtKZxzksRsMDl0DUu_m6zPOyhTpf6eEBhivhw&oe=6AE4AF5A"
-      }
+      },
+      "links": [
+        {
+          "label": "全家賣場 1",
+          "url": "https://famistore.famiport.com.tw/famistore/users/2069757/malls/6a7d6cb5922a018a7ccfd0ea"
+        },
+        {
+          "label": "全家賣場 2",
+          "url": "https://famistore.famiport.com.tw/famistore/users/2069757/malls/6a4e5ece5568585de2895a31"
+        }
+      ]
     },
     {
       "id": "hope-huang17",
