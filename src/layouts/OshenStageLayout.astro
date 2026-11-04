@@ -28,7 +28,7 @@ const canonical = new URL(video ? stagePath(video.id) : hall ? hallPath(hall.id)
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/market.css">
-<link rel="stylesheet" href="/puma_oshen_wave/stage/stage.css?v=20261101-hall-picker">
+<link rel="stylesheet" href="/puma_oshen_wave/stage/stage.css?v=20261104-songs-notice">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/floating-nav.css?v=20261101">
 <script is:inline defer src="/assets/analytics.js?v=20261019-content-group"></script>
 </head>
@@ -90,7 +90,28 @@ const canonical = new URL(video ? stagePath(video.id) : hall ? hallPath(hall.id)
     <p id="creator-empty" class="muted" hidden>作者尚未提供社群連結。</p>
   </div>
 </dialog>
+{!hallId && !videoId && <dialog id="songs-notice" class="songs-notice" aria-labelledby="songs-notice-title" aria-describedby="songs-notice-intro" tabindex="-1" autofocus closedby="none">
+  <div class="songs-notice-head">
+    <span class="songs-notice-badge">洋流舞台公告</span>
+  </div>
+  <a class="songs-notice-link" href="https://puma.taipei/songs">
+    <span class="songs-notice-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M13 23V9l14-3v14M13 13l14-3" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="8.5" cy="24" rx="4.5" ry="3.5" fill="currentColor"/><ellipse cx="22.5" cy="21" rx="4.5" ry="3.5" fill="currentColor"/></svg></span>
+    <p id="songs-notice-intro" class="songs-notice-intro">請轉至 <strong>沈伯洋</strong></p>
+    <h2 id="songs-notice-title">台北順起來<span class="songs-notice-subtitle">・市民共創歌曲</span></h2>
+    <span class="songs-notice-action">前往 <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <span class="songs-notice-url">puma.taipei/songs</span>
+  </a>
+</dialog>}
 <noscript><p class="stage-message">啟用 JavaScript 即可使用互動舞台與播放器。</p></noscript>
 <script is:inline type="module" src="/puma_oshen_wave/stage/app.js?v=20261101-hall-picker"></script>
+<script is:inline>
+  const songsNotice = document.getElementById('songs-notice');
+  songsNotice?.addEventListener('cancel', event => event.preventDefault());
+  songsNotice?.addEventListener('keydown', event => {
+    if (event.key === 'Escape') event.preventDefault();
+  });
+  songsNotice?.showModal();
+  songsNotice?.focus({ preventScroll: true });
+</script>
 </body>
 </html>
