@@ -52,6 +52,10 @@ export function boothHtml(booth, store) {
       const url = safeUrl(store?.social?.[key]);
       return url ? `<a class="btn bo-social-button" href="${esc(url)}" target="_blank" rel="noopener noreferrer" aria-label="${label}" title="${label}"><img src="/puma_oshen_wave/yilan_taiwan_11_07/assets/buttons/${icon}" width="32" height="32" alt="" decoding="async"></a>` : '';
     }).join('');
+  const genericLinks = (store?.links || []).map(link => {
+    const url = safeUrl(link.url);
+    return url ? `<a class="btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer" title="${esc(url)}">${esc(link.label)} ↗</a>` : '';
+  }).join('');
   const avatar = safeUrl(store?.avatar);
   const name = store?.name || '設計師';
   const where = [booth.zoneName].filter(Boolean);
@@ -92,6 +96,7 @@ export function boothHtml(booth, store) {
     </div>
     <div class="bo-foot">
       ${socialLinks}
+      ${genericLinks ? `<div class="bo-share bo-links" aria-label="通用連結">${genericLinks}</div>` : ''}
       <div class="bo-share">
         ${storeUrl ? `<a class="btn btn-primary" href="${esc(storeUrl)}" target="_blank" rel="noopener">看設計師</a>` : ''}
         <button type="button" class="btn" data-copy-booth="${esc(designerBoothUrl(booth.store))}">複製設計師連結</button>

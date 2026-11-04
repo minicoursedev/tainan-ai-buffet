@@ -75,6 +75,10 @@ export function createCatalogue(data) {
         avatar: designer.logo?.status === 'verified' ? imageUrl(designer.logo.url) : '',
         avatarFit: designer.logo?.fit === 'contain' ? 'contain' : 'cover',
         productsUrl: imageUrl(designer.productsUrl),
+        links: (Array.isArray(designer.links) ? designer.links : []).map((link, index) => ({
+          url: externalUrl(typeof link === 'string' ? link : link?.url),
+          label: typeof link?.label === 'string' && link.label.trim() ? link.label : `連結 ${index + 1}`,
+        })).filter(link => link.url),
         social, verification: designer.verification === true, booths: 1,
       };
       search.push([id, designer.name, designer.name, ZONE.name, HALL.code, '']);
