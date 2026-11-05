@@ -16353,6 +16353,51 @@
         "checkedAt": "2026-11-02",
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Luny 如你所願 客製化貼紙 (@luny.tw) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。"
       }
+    },
+    {
+      "id": "jieyuan-interior-design",
+      "verification": false,
+      "category": "其它",
+      "giftStatus": "可能有小物",
+      "name": "婕源室內裝修 JIE YUAN",
+      "address": "臺南市安平區安億路278號",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/jieyuan.1928/",
+        "threads": "https://www.threads.com/@jieyuan.1928"
+      },
+      "sources": [
+        "https://www.threads.com/@jieyuan.1928",
+        "https://www.instagram.com/jieyuan.1928/"
+      ],
+      "verifiedAt": "2026-11-05",
+      "verificationNote": "使用者指定收錄；官方 Threads 列出名稱、服務項目及安平籌備地址，Instagram 名稱與聯絡方式相符。",
+      "openingHours": {
+        "status": "unknown",
+        "text": "營業時間尚未公告。",
+        "sources": [
+          "https://www.threads.com/@jieyuan.1928",
+          "https://www.instagram.com/jieyuan.1928/"
+        ],
+        "checkedAt": "2026-11-05",
+        "auditNote": "官方 Instagram 表示安平辦公室籌備中，諮詢請先透過官方 LINE 預約；未見固定營業時間。"
+      },
+      "visitNote": "安平店面籌備中，諮詢請先透過官方 LINE 預約。",
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9938381,
+        "lng": 120.1596718
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/7222980265",
+      "coordinateNote": "OpenStreetMap 門牌資料列為臺南市安平區安億路278號，與官方公布的籌備地址相符。",
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.threads.com/@jieyuan.1928",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-05",
+        "note": "官方 Threads 個人頁資料的 profile_pic_url 與頁面明示的 640 × 640 圖片檔名一致；圖片回應為 image/jpeg，HTTP 200。"
+      }
     }
   ],
   "pendingStores": []
