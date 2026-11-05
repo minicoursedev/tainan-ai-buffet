@@ -3496,6 +3496,61 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/886224697_17919362115534611_5663364562615287685_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=OE1RF0a8dloQ7kNvwFIJAMk&_nc_oc=AdriC5fWMpnwpKllNu7GqAc19lZw8F7yAE3zQWrUOmLHuEs9WiX5bzBM-oro2q4XP1Y&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=4f-1BbGke7u7wqhldsc5Vw&_nc_ss=7920f&oh=00_AQTs1yTWv-JNsDKHx6MiC_nInPOqTmlyBzLwJ3cJ-bd5Lw&oe=6AF21605"
       }
+    },
+    {
+      "id": "sep18-maker",
+      "name": "Kimi",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/sep18-maker/1.webp?v=bd12b045718ca01d",
+          "alt": "Kimi 作品照片 1",
+          "source": "https://drive.google.com/file/d/182b2729FBuJ-6wlP3QLajjwDmAf3fMeY/view",
+          "checkedAt": "2026-11-05",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://drive.usercontent.google.com/download?id=182b2729FBuJ-6wlP3QLajjwDmAf3fMeY&export=download"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/sep18-maker/2.webp?v=8c2368f2bdf1f809",
+          "alt": "Kimi 作品照片 2",
+          "source": "https://www.threads.com/share/FzA0W9S8y",
+          "checkedAt": "2026-11-05",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/857660466_17949067200346414_5682427740951771399_n.jpg?stp=cp6_dst-jpegr_e35_tt6&_nc_cat=103&ig_cache_key=NDAxMDY2OTU3NzU1NjM5MzUzOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=e5qVwW9LJqIQ7kNvwGyB-D3&_nc_oc=AdpsNUwHI0AitnOjxM47kCshoaPJV79d3mu8gSQYrKPdIYhkJFs9IFj1Cx4ZR3uoTgc&_nc_zt=23&se=-1&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=oI94dOUXbKMe0o3dOEFhuQ&_nc_ss=7920f&oh=00_AQTGxo4qENAvlXFvx5CzhAnE5Iv7uKiNqAjuDine7rYMhQ&oe=6AF24297"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/sep18-maker/3.webp?v=fd96bcfbccc4c4d0",
+          "alt": "Kimi 作品照片 3",
+          "source": "https://www.threads.com/@sep18_maker/post/DfMIof4lI8l",
+          "checkedAt": "2026-11-05",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/874107924_17951715627346414_4901803458549635317_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=NDAyMDYyMDYyMzY0MTgxOTgwMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNDA5Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=fDMLiEenhGEQ7kNvwFRpdho&_nc_oc=AdoVCxevpP6Yuma1DpgMw8cOPQv4wWtk1v_oiRrtOox6Q8rfds1uJEAnmQ0eVtFLo48&_nc_zt=23&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_gid=RcSUxJVfWxL1GljSm6U5bg&_nc_ss=7920f&oh=00_AQQ-VTK3r2DUVoCX8I8tj1jGMTpbAEKKCCikZtFqXlVh5g&oe=6AF25331"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/sep18-maker/4.webp?v=927ad5b99b87de6e",
+          "alt": "Kimi 作品照片 4",
+          "source": "https://www.threads.com/@sep18_maker/post/DeomH1RFH5W",
+          "checkedAt": "2026-11-05",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://scontent-lax7-1.cdninstagram.com/v/t51.82787-15/850668352_17949051261346414_3848859652407830724_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=NDAxMDYxODYxMjk0NTc4MjEyMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNDA5Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=JBdVzdkqv9YQ7kNvwGKbI57&_nc_oc=Adp5LAArUv0RtojbdCN6j43TB9gUfDnOnxYe0yadqrpwQJ4xnLqxLcN5tmI-ggCFW7Y&_nc_zt=23&_nc_ht=scontent-lax7-1.cdninstagram.com&_nc_gid=rB4l8oDpLQaFfMeSUj4J0A&_nc_ss=7920f&oh=00_AQRpXxMCPU56RZJljUrPtbmeNpuWbgZCOrRdoxQD-tWTYA&oe=6AF26C76"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@sep18_maker",
+        "ig": "https://www.instagram.com/sep18_maker/",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/sep18-maker/logo.webp?v=b75678285e95722e",
+        "source": "https://www.threads.com/@sep18_maker",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-05",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent-lax3-1.cdninstagram.com/v/t51.2885-19/467868524_1076046590675031_1659671882562232616_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=b0tXLwI7v7IQ7kNvwHjCrW1&_nc_oc=AdpqGghF-gLC4M53izHT8L1txF3xLZ_pKEPOXtTUmRCPw2QdzoC3usL8Kz5cybW0D8E&_nc_zt=24&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_ss=7920f&oh=00_AQSYClJgsAANN_gaTiOmRVReDf7cvFPR43oFTCyrizFGRw&oe=6AF27456"
+      }
     }
   ]
 }
