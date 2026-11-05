@@ -16391,12 +16391,12 @@
       "coordinateSource": "https://www.openstreetmap.org/node/7222980265",
       "coordinateNote": "OpenStreetMap 門牌資料列為臺南市安平區安億路278號，與官方公布的籌備地址相符。",
       "shopPhoto": {
-        "url": "",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/jieyuan-interior-design/logo.webp?v=2716a67f6cbbaff3",
         "source": "https://www.threads.com/@jieyuan.1928",
         "platform": "threads",
         "status": "verified",
         "checkedAt": "2026-11-05",
-        "note": "官方 Threads 個人頁資料的 profile_pic_url 與頁面明示的 640 × 640 圖片檔名一致；圖片回應為 image/jpeg，HTTP 200。"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；婕源室內裝修 JIE YUAN (@jieyuan.1928) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。"
       }
     }
   ],
