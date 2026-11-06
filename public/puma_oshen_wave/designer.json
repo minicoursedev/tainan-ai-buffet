@@ -3892,6 +3892,69 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/747439955_17977466568106173_4713621898410078475_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=e8LM2mORwCYQ7kNvwHryvwQ&_nc_oc=AdpL_loxVPdtQEFZBZGN9XEZ4jHkvKx2HliYlq9PKWAUiY0Os73_pKFX1SMX4zUTF8Q&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=XqVMrPoKVhJfiHi3FKTHww&_nc_ss=7920f&oh=00_AQRX9m2byavCvNXbFTie7ev4LFBUtgPw3dulM1rIP3bvGQ&oe=6AF3DFE7"
       }
+    },
+    {
+      "id": "lijessicali",
+      "name": "Jessica Li",
+      "category": "創作者",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/lijessicali/1.webp?v=0bed8022f7cf1c5c",
+          "alt": "Jessica Li 作品照片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/lijessicali/1.webp?v=0bed8022f7cf1c5c",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568314562422374471/890119878_17973833550188362_4002126212615031012_n.png?ex=6aef5e41&is=6aee0cc1&hm=88afd1505827566abdbee97fa57470f4384400bed7b67b8c222c5e76c154bb5a&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/lijessicali/2.webp?v=b9843178687893a3",
+          "alt": "Jessica Li 作品照片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/lijessicali/2.webp?v=b9843178687893a3",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568314563357712496/877657396_17972830575188362_2396928738752790750_n.png?ex=6aef5e41&is=6aee0cc1&hm=8460455ffcea6075e5272e8319e6c7305956b2a2e99a7ccac5918a7fd7390af2&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/lijessicali/3.webp?v=78492f91eacc7191",
+          "alt": "Jessica Li 作品照片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/lijessicali/3.webp?v=78492f91eacc7191",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568314563898638497/876480922_17972831346188362_3728435455004648050_n.png?ex=6aef5e41&is=6aee0cc1&hm=593dd72d11d8ad7537c0ec1f1381fd09e33dfc4154b1fbaf447c96a775dc1289&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/lijessicali/4.webp?v=57bccd8fdc11e21e",
+          "alt": "Jessica Li 作品照片 4",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/lijessicali/4.webp?v=57bccd8fdc11e21e",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568314564473524275/874101626_17972831337188362_1152483551068834145_n.png?ex=6aef5e42&is=6aee0cc2&hm=3d9a2e4cc93156fc39c230875fbd88db0312ae3374596bd4cc2629e55fb3933f&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/lijessicali/5.webp?v=68c64f572abc1389",
+          "alt": "Jessica Li 作品照片 5",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/lijessicali/5.webp?v=68c64f572abc1389",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568314565081702420/870141395_17972451561188362_5121433032815529255_n.png?ex=6aef5e42&is=6aee0cc2&hm=82fdfdb5b770aae30ff6a7174fcb2850196486a45359934382a57e0803035a9e&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@lijessicali",
+        "ig": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "",
+        "source": "https://www.threads.com/@lijessicali",
+        "platform": "threads",
+        "status": "unverified",
+        "checkedAt": "2026-11-07",
+        "note": "Threads 無法確認可讀取的官方頭像"
+      }
     }
   ]
 }
