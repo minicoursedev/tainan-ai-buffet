@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
 import { createCatalogue } from '../public/puma_oshen_wave/designer/js/data.js';
+import { boothHtml } from '../public/puma_oshen_wave/designer/js/ui/booth-markup.js';
 import { designerPath, designerBoothUrl, resolveDesignerRoute } from '../public/puma_oshen_wave/designer/js/routes.js';
 const read = path => readFileSync(path, 'utf8');
 const raw = JSON.parse(read('public/puma_oshen_wave/designer.json'));
@@ -18,6 +19,10 @@ for (const designer of raw.designers) {
   }
   count++;
   const html = read(`dist${path}index.html`);
+  const category = designer.category || '設計師';
+  assert(html.includes(`<p class="bo-owner">${category} ${escape(designer.name)}</p>`), `Wrong owner category: ${designer.id}`);
+  assert(html.includes(`<span class="tag tag-zone">${category}</span>`), `Wrong category tag: ${designer.id}`);
+  assert(home.includes(`<p class="lc-owner">${category} ${escape(designer.name)}</p>`), `Wrong directory category: ${designer.id}`);
   assert(html.includes(`<h2 id="static-designer-title">${escape(designer.name)}</h2>`));
   assert(html.includes(`<link rel="canonical" href="https://minicourse.dev${path}">`));
   assert(html.includes(`<meta property="og:url" content="https://minicourse.dev${path}">`));
@@ -37,6 +42,19 @@ const products = JSON.parse(read('public/puma_oshen_wave/data/designers/yang-liu
 const yang = read(`dist${designerPath('yang-liu')}index.html`);
 for (const product of products.products.filter(product => product.pinned && !product.disabled)) assert(yang.includes(escape(product.url)), 'Pinned work missing from SSG');
 console.log(`Verified ${count} designer pages: static profile, social links, pinned works, canonical, sitemap and shared UI.`);
+
+const classified = createCatalogue({ designers: [
+  { id: 'default-artist', name: '既有作者' },
+  { id: 'creator', name: '創作者範例', category: '創作者' },
+] });
+const aisle = classified.aisles.get('O01');
+assert.equal(classified.designerBooths.get('creator'), 'O01-02', 'Category must not move existing booths');
+assert.deepEqual(classified.search.map(row => row[3]), ['設計師', '創作者'], 'List category filter must use each author category');
+const creatorBooth = aisle.islands[0].booths[1];
+assert.equal(creatorBooth.zoneName, '創作者');
+assert.equal(aisle.stores['default-artist'].category, '設計師');
+assert(boothHtml(creatorBooth, aisle.stores.creator).includes('<p class="bo-owner">創作者 創作者範例</p>'));
+console.log('Verified optional author categories in profiles and list filters without moving booths.');
 
 const profile = 'https://minicourse.dev/puma_oshen_wave/designer/profiles/yuan-art-space/';
 for (const hash of ['', '#/walk/O01', '#/list', '#/map', '#/designer/wolfsignal-tw']) {

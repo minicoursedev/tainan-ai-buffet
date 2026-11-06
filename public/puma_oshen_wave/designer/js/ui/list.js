@@ -1,9 +1,9 @@
 // 設計師列表模式 <main id="stage-list">: filter the search rows in memory, render 60 cards at a time,
 // Fill each card’s logo and product images as it scrolls into view.
 import { state, toast, findBoothIn } from '../state.js';
-import { loadSearch, loadAisle, aisleOfBooth } from '../data.js?v=20261104-generic-links';
-import { goToBooth } from '../nav.js?v=20261104-generic-links';
-import { openBooth } from './booth.js?v=20261104-generic-links';
+import { loadSearch, loadAisle, aisleOfBooth } from '../data.js?v=20261106-author-category';
+import { goToBooth } from '../nav.js?v=20261106-author-category';
+import { openBooth } from './booth.js?v=20261106-author-category';
 import { thumbnailUrl, retryOriginal } from '../images.js';
 import { designerPath } from '../routes.js';
 
@@ -89,8 +89,8 @@ export function mountList(container) {
     zoneSel.disabled = !hall;
     const names = [];
     if (hall) {
-      for (const z of hall.zones) {
-        if (!names.includes(z.name)) names.push(z.name);
+      for (const row of rows.filter(row => row.hall === hall.code)) {
+        if (!names.includes(row.zone)) names.push(row.zone);
       }
     }
     if (!names.includes(f.zone)) f.zone = '';
@@ -129,9 +129,9 @@ export function mountList(container) {
       <div class="lc-heading"><span class="lc-logo lc-cv" aria-hidden="true"></span><h3 class="lc-name"><a class="lc-open" href="${esc(designerPath(r.designerId))}">${esc(r.store)}</a></h3></div>
       <div class="lc-covers" aria-hidden="true"></div>
       <div class="lc-meta"><span class="lc-id mono">${esc(r.id)}</span>${r.type ? `<span class="lc-type">${esc(r.type)}</span>` : ''}</div>
-      <p class="lc-owner">設計師 ${esc(r.owner)}</p>
+      <p class="lc-owner">${esc(r.zone)} ${esc(r.owner)}</p>
       <p class="lc-zone">${esc(hallName(r.hall))}・${esc(where)}</p>
-      <button type="button" class="btn lc-go">看設計師</button>
+      <button type="button" class="btn lc-go">看${esc(r.zone)}</button>
     </article>`;
   }
 

@@ -76,7 +76,7 @@ const exhibitionImage = new URL('/puma_oshen_wave/designer/assets/exhibition-og.
   </main>
 
   <main class="list-mode" id="stage-list"><div class="ls-wrap">
-  {designer ? <section aria-label={designer.name} set:html={boothHtml(designer.booth, designer.store).replaceAll('id="booth-title"', 'id="static-designer-title"')} /> : <><h1 class="ls-title">設計師列表</h1><div class="ls-grid">{designers.map(profile => <article class="lc"><div class="lc-heading"><h3 class="lc-name"><a class="lc-open" href={designerPath(profile.id)}>{profile.name}</a></h3></div><p class="lc-owner">設計師 {profile.name}</p><p class="lc-zone">設計師館・設計師</p><a class="btn lc-go" href={designerPath(profile.id)}>看設計師</a></article>)}</div></>}
+  {designer ? <section aria-label={designer.name} set:html={boothHtml(designer.booth, designer.store).replaceAll('id="booth-title"', 'id="static-designer-title"')} /> : <><h1 class="ls-title">設計師列表</h1><div class="ls-grid">{designers.map(profile => <article class="lc"><div class="lc-heading"><h3 class="lc-name"><a class="lc-open" href={designerPath(profile.id)}>{profile.name}</a></h3></div><p class="lc-owner">{profile.store.category} {profile.name}</p><p class="lc-zone">設計師館・{profile.store.category}</p><a class="btn lc-go" href={designerPath(profile.id)}>看{profile.store.category}</a></article>)}</div></>}
   </div></main>
   <main class="map-mode" id="stage-map" hidden></main>
   <footer class="app-footer">
@@ -88,6 +88,6 @@ const exhibitionImage = new URL('/puma_oshen_wave/designer/assets/exhibition-og.
 
 <dialog id="dlg-booth" class="dlg" aria-labelledby="booth-title"></dialog>
 
-<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261104-generic-links"></script>
+<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261106-author-category"></script>
 </body>
 </html>

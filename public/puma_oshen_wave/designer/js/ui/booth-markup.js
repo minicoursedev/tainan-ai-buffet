@@ -58,6 +58,7 @@ export function boothHtml(booth, store) {
   }).join('');
   const avatar = safeUrl(store?.avatar);
   const name = store?.name || '設計師';
+  const category = store?.category || '設計師';
   const where = [booth.zoneName].filter(Boolean);
   const works = booth.works || [];
   const more = booth.randomSelection ? 0 : Math.max(0, (booth.total || 0) - works.length);
@@ -75,7 +76,7 @@ export function boothHtml(booth, store) {
       <span class="bo-avatar${store?.avatarFit === 'contain' ? ' bo-avatar-contain' : ''}${avatar ? '' : ' bo-avatar-none'}" aria-hidden="true">${avatar ? `<img src="${esc(thumbnailUrl(avatar))}" data-original="${esc(avatar)}" alt="" loading="lazy" decoding="async">` : ''}</span>
       <div class="bo-title">
         <h2 id="booth-title">${esc(name)}</h2>
-        <p class="bo-owner">${store?.owner ? `設計師 ${esc(store.owner)}` : ''}</p>
+        <p class="bo-owner">${store?.owner ? `${esc(category)} ${esc(store.owner)}` : ''}</p>
         <p class="bo-meta">
           <span class="tag mono">${esc(booth.id)}</span>
           ${where.map((t, i) => `<span class="tag${i === 0 ? ' tag-zone' : ''}">${esc(t)}</span>`).join('')}

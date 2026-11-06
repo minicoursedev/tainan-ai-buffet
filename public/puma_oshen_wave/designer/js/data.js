@@ -58,6 +58,7 @@ export function createCatalogue(data) {
     const stores = {};
     const booths = members.map((designer, pos) => {
       const id = `${code}-${pad2(pos + 1)}`;
+      const category = designer.category === '創作者' ? '創作者' : ZONE.name;
       designerBooths.set(designer.id, id);
       const social = Object.fromEntries(Object.entries(designer.social || {})
         .map(([key, value]) => [key, externalUrl(value)]));
@@ -71,7 +72,7 @@ export function createCatalogue(data) {
           url: productLink(product),
         })).filter(work => work.cover);
       stores[designer.id] = {
-        id: designer.id, name: designer.name, owner: designer.name,
+        id: designer.id, name: designer.name, owner: designer.name, category,
         avatar: designer.logo?.status === 'verified' ? imageUrl(designer.logo.url) : '',
         avatarFit: designer.logo?.fit === 'contain' ? 'contain' : 'cover',
         productsUrl: imageUrl(designer.productsUrl),
@@ -81,11 +82,11 @@ export function createCatalogue(data) {
         })).filter(link => link.url),
         social, verification: designer.verification === true, booths: 1,
       };
-      search.push([id, designer.name, designer.name, ZONE.name, HALL.code, '']);
+      search.push([id, designer.name, designer.name, category, HALL.code, '']);
       return {
         id, pos: pos % PER_ISLAND, store: designer.id,
         corner: pos % PER_ISLAND === 0 || pos % PER_ISLAND === PER_ISLAND - 1 || pos === members.length - 1,
-        zone: ZONE.code, zoneName: ZONE.name, type: '',
+        zone: ZONE.code, zoneName: category, type: '',
         works, total: works.length, also: [],
       };
     });
