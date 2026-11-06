@@ -39,7 +39,7 @@ const exhibitionImage = new URL('/puma_oshen_wave/designer/assets/exhibition-og.
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/market.css">
-<link rel="stylesheet" href="/puma_oshen_wave/designer/css/booth.css?v=20261101-landscape-heading">
+<link rel="stylesheet" href="/puma_oshen_wave/designer/css/booth.css?v=20261106-designer-share">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/map.css">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/list.css?v=20261101-profile-links">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/closed.css">
@@ -87,7 +87,17 @@ const exhibitionImage = new URL('/puma_oshen_wave/designer/assets/exhibition-og.
 </div>
 
 <dialog id="dlg-booth" class="dlg" aria-labelledby="booth-title"></dialog>
+<dialog id="designer-share-dialog" class="dlg designer-share-dialog" aria-labelledby="designer-share-title" aria-describedby="designer-share-description">
+  <div class="dlg-head"><h2 id="designer-share-title">分享設計師</h2><button type="button" class="dlg-close" aria-label="關閉分享">×</button></div>
+  <div class="dlg-body">
+    <p id="designer-share-description">掃描 QRCode，開啟這位設計師的本站連結。</p>
+    <img id="designer-share-qr" width="264" height="264" alt="" hidden>
+    <a id="designer-share-url" target="_blank" rel="noopener noreferrer"></a>
+    <div class="designer-share-actions"><button id="designer-share-copy" type="button" class="btn btn-primary" autofocus>複製連結</button><form method="dialog"><button class="btn">關閉</button></form></div>
+    <p id="designer-share-status" class="muted" role="status" aria-live="polite"></p>
+  </div>
+</dialog>
 
-<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261106-author-category"></script>
+<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261106-designer-share"></script>
 </body>
 </html>

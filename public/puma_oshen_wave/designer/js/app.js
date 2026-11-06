@@ -4,9 +4,9 @@ import { loadIndex, aisleOfBooth, loadBoothForDesigner } from './data.js?v=20261
 import { goToAisle } from './nav.js?v=20261106-author-category';
 import { createWalkView } from './walk.js?v=20261101-landscape-row';
 import { wireFloatingNav } from './floating-nav.js';
-import { openBooth } from './ui/booth.js?v=20261106-author-category';
+import { openBooth } from './ui/booth.js?v=20261106-designer-share';
 import { mountMap } from './ui/map.js?v=20261106-author-category';
-import { mountList } from './ui/list.js?v=20261106-author-category';
+import { mountList } from './ui/list.js?v=20261106-designer-share';
 import { loadSchedule, isClosed, closeTagText, msLeft, lastOpenLabel } from './schedule.js?v=20261030-site-data';
 import { loadCats, loadChatter } from './cats.js?v=20261030-site-data';
 import { showClosed } from './ui/closed.js';

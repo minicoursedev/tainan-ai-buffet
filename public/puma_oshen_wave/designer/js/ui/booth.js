@@ -2,7 +2,7 @@
 import { state, markVisited, findBoothIn, toast } from '../state.js';
 import { loadAisle, aisleOfBooth } from '../data.js?v=20261106-author-category';
 import { goToBooth, designerBoothUrl } from '../nav.js?v=20261106-author-category';
-import { boothHtml, loadingHtml, failHtml } from './booth-markup.js?v=20261106-author-category';
+import { boothHtml, loadingHtml, failHtml } from './booth-markup.js?v=20261106-designer-share';
 import { designerRoot, updateDesignerMetadata } from '../routes.js';
 import { retryOriginal } from '../images.js';
 import { loadProducts, sampleProducts } from '../products.js?v=20261030-pinned-work';
@@ -78,16 +78,32 @@ function switchToWalk() {
   if (list && !list.hidden) document.querySelector('.modes button[data-mode="walk"]')?.click();
 }
 
-async function copyBoothLink(button) {
+async function shareDesigner(button) {
   const share = button.closest('.bo-share');
-  const link = button.dataset.copyBooth;
+  const link = button.dataset.shareDesigner;
   const status = share.querySelector('[role="status"]');
   button.disabled = true;
+  status.textContent = '';
   try {
-    await navigator.clipboard.writeText(link);
-    status.textContent = '設計師連結已複製';
+    const { qrcode } = await import('../../../vendor/qrcode-generator/qrcode-2.0.4.mjs');
+    if (!button.isConnected || !dlg().open) return;
+    const qr = qrcode(0, 'M');
+    qr.addData(link);
+    qr.make();
+    const name = document.getElementById('booth-title').textContent;
+    const shareDialog = document.getElementById('designer-share-dialog');
+    document.getElementById('designer-share-title').textContent = name;
+    const image = document.getElementById('designer-share-qr');
+    image.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(qr.createSvgTag({ cellSize: 6, margin: 24, scalable: true }));
+    image.alt = `${name} QR Code，掃描開啟 ${link}`;
+    image.hidden = false;
+    const url = document.getElementById('designer-share-url');
+    url.href = link;
+    url.textContent = link;
+    document.getElementById('designer-share-status').textContent = '';
+    shareDialog.showModal();
   } catch {
-    status.textContent = `無法自動複製，請複製此網址：${link}`;
+    status.textContent = '暫時無法產生 QRCode，請稍後再試。';
   } finally {
     button.disabled = false;
   }
@@ -97,8 +113,8 @@ function wire() {
   const d = dlg();
   if (!d) return;
   d.addEventListener('click', e => {
-    const copy = e.target.closest('[data-copy-booth]');
-    if (copy) { copyBoothLink(copy); return; }
+    const share = e.target.closest('[data-share-designer]');
+    if (share) { shareDesigner(share); return; }
     const go = e.target.closest('[data-go]');
     if (go) {
       const id = go.dataset.go;
@@ -121,6 +137,15 @@ function wire() {
     if (location.pathname.startsWith(`${designerRoot}profiles/`) || location.hash.startsWith('#/designer/')) {
       history.replaceState(null, '', `${designerRoot}#/walk/${state.aisleCode || ''}`);
       updateDesignerMetadata();
+    }
+  });
+  document.getElementById('designer-share-copy').addEventListener('click', async () => {
+    const status = document.getElementById('designer-share-status');
+    try {
+      await navigator.clipboard.writeText(document.getElementById('designer-share-url').href);
+      status.textContent = '已複製連結';
+    } catch {
+      status.textContent = '無法自動複製，請長按或右鍵上方網址複製。';
     }
   });
 }

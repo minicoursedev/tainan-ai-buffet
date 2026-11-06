@@ -96,6 +96,18 @@ a.bo-more:focus-visible { outline: 3px solid var(--pink); outline-offset: 2px; }
 .bo-share-status { grid-column: 1 / -1; font-size: 13px; }
 .bo-share-status:empty { display: none; }
 
+.designer-share-dialog { width: min(360px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); }
+#designer-share-title { overflow-wrap: anywhere; }
+#designer-share-description { margin: 0 0 16px; font-size: 14px; line-height: 1.7; }
+#designer-share-qr { display: block; width: 220px; max-width: 100%; height: auto; margin: 0 auto 16px; }
+#designer-share-qr[hidden] { display: none; }
+#designer-share-url { display: block; margin-bottom: 16px; overflow-wrap: anywhere; font-size: 13px; line-height: 1.7; color: var(--green-deep); }
+.designer-share-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.designer-share-actions form { margin: 0; }
+.designer-share-actions .btn { width: 100%; }
+#designer-share-status { margin: 12px 0 0; font-size: 13px; line-height: 1.7; }
+#designer-share-status:empty { display: none; }
+
 @media (max-width: 560px) {
   /* Keep controls inside Safari's visible area when its bars or text size change. */
   #dlg-booth {

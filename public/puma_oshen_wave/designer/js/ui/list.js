@@ -3,7 +3,7 @@
 import { state, toast, findBoothIn } from '../state.js';
 import { loadSearch, loadAisle, aisleOfBooth } from '../data.js?v=20261106-author-category';
 import { goToBooth } from '../nav.js?v=20261106-author-category';
-import { openBooth } from './booth.js?v=20261106-author-category';
+import { openBooth } from './booth.js?v=20261106-designer-share';
 import { thumbnailUrl, retryOriginal } from '../images.js';
 import { designerPath } from '../routes.js';
 

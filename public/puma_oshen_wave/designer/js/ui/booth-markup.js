@@ -100,7 +100,7 @@ export function boothHtml(booth, store) {
       ${genericLinks ? `<div class="bo-share bo-links" aria-label="通用連結">${genericLinks}</div>` : ''}
       <div class="bo-share">
         ${storeUrl ? `<a class="btn btn-primary" href="${esc(storeUrl)}" target="_blank" rel="noopener">看設計師</a>` : ''}
-        <button type="button" class="btn" data-copy-booth="${esc(designerBoothUrl(booth.store))}">複製設計師連結</button>
+        <button type="button" class="btn" data-share-designer="${esc(designerBoothUrl(booth.store))}" aria-haspopup="dialog" aria-controls="designer-share-dialog">分享設計師</button>
         <span class="bo-share-status muted" role="status"></span>
       </div>
     </div>`;
