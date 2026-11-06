@@ -2,6 +2,8 @@ import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
 import { createCatalogue } from '../public/puma_oshen_wave/designer/js/data.js';
 import { boothHtml } from '../public/puma_oshen_wave/designer/js/ui/booth-markup.js';
+import { renderDesignerOg } from './designer-og.mjs';
+import sharp from 'sharp';
 import { designerPath, designerBoothUrl, resolveDesignerRoute } from '../public/puma_oshen_wave/designer/js/routes.js';
 const read = path => readFileSync(path, 'utf8');
 const raw = JSON.parse(read('public/puma_oshen_wave/designer.json'));
@@ -21,11 +23,19 @@ for (const designer of raw.designers) {
   }
   count++;
   const html = read(`dist${path}index.html`);
-  const previewImage = designer.logo?.status === 'verified' && designer.logo.url
-    ? designer.logo.url : designer.productImages?.[0]?.url || exhibitionImage;
+  const og = await renderDesignerOg(designer);
+  const previewImage = og?.url || exhibitionImage;
   assert.equal((html.match(/property="og:image"/g) || []).length, 1, `Expected one explicit OG image: ${designer.id}`);
   assert(html.includes(`<meta property="og:image" content="${escape(previewImage)}">`), `Missing author OG image: ${designer.id}`);
   assert(html.includes(`<meta name="twitter:image" content="${escape(previewImage)}">`), `Missing author Twitter image: ${designer.id}`);
+  if (og) {
+    const generated = readFileSync(`dist/${og.relativePath}`);
+    const dimensions = await sharp(generated).metadata();
+    assert.deepEqual([dimensions.width, dimensions.height], [600, 315], `Wrong OG dimensions: ${designer.id}`);
+    assert(generated.equals(og.buffer), `OG image and metadata must match: ${designer.id}`);
+    assert(html.includes('<meta property="og:image:width" content="600">'));
+    assert(html.includes('<meta property="og:image:height" content="315">'));
+  }
   const category = designer.category || '設計師';
   assert(html.includes(`<p class="bo-owner">${category} ${escape(designer.name)}</p>`), `Wrong owner category: ${designer.id}`);
   assert(html.includes(`<span class="tag tag-zone">${category}</span>`), `Wrong category tag: ${designer.id}`);

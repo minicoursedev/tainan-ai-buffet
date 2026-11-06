@@ -7,12 +7,8 @@ const title = designer ? `${designer.name}｜洋流設計師` : '洋流設計師
 const description = designer ? `認識${designer.name}，查看作品與官方社群，走進洋流設計師市集探索更多創作。` : '走進洋流設計師線上市集，瀏覽設計師介紹、創作作品與官方社群。透過設計師列表、地圖與互動攤位，找到喜歡的創作者。';
 const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, Astro.site).href;
 const exhibitionImage = new URL('/puma_oshen_wave/designer/assets/exhibition-og.png?v=19f09d0c7c56f7bd', Astro.site).href;
-const firstWork = designer?.booth.works[0] as { cover?: string; name?: string } | undefined;
-const authorImage = designer?.store.avatar || firstWork?.cover;
-const shareImage = authorImage || exhibitionImage;
-const shareImageAlt = authorImage && designer
-  ? (designer.store.avatar ? `${designer.name}的頭像` : firstWork?.name || `${designer.name}的作品`)
-  : '洋流設計師展逛攤畫面';
+const shareImage = designer?.og?.url || exhibitionImage;
+const shareImageAlt = designer?.og?.alt || '洋流設計師展逛攤畫面';
 ---
 <!doctype html>
 <html lang="zh-Hant-TW">
@@ -33,11 +29,9 @@ const shareImageAlt = authorImage && designer
 <meta property="og:description" content={description}>
 <meta property="og:image" content={shareImage}>
 <meta property="og:image:alt" content={shareImageAlt}>
-{shareImage === exhibitionImage && <>
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="2622">
-  <meta property="og:image:height" content="1206">
-</>}
+<meta property="og:image:type" content={designer?.og?.type || 'image/png'}>
+<meta property="og:image:width" content={designer?.og?.width || 2622}>
+<meta property="og:image:height" content={designer?.og?.height || 1206}>
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content={title}>
 <meta name="twitter:description" content={description}>
