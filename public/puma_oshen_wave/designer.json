@@ -3821,6 +3821,77 @@
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/882140659_17918530176499233_165863814484342789_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=QyJOi_ccQFYQ7kNvwFf-4p3&_nc_oc=AdrKSj_N2HJgEMFb4PCSGYwt7VIrIbrN4LRHrP_9nWb9fnJoDs7ZwVPMZF1dTcKquu4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=cg2PZ1gu1t1HNQMr1co-6g&_nc_ss=7920f&oh=00_AQSjuRdfUxX01XOKrj_JhNz93hfDd9EVYwzmyci-GpYZ6Q&oe=6AF3CFB7"
       }
+    },
+    {
+      "id": "flower-6104",
+      "name": "花花🌹",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/flower-6104/1.webp?v=442d3d9e2dde613b",
+          "alt": "花花🌹作品照片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/flower-6104/1.webp?v=442d3d9e2dde613b",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568312908209979532/MEITU_20261017_153636610.jpg?ex=6aef5cb7&is=6aee0b37&hm=eb1eb5516d0bac3f93796bdd4ad7ad6b1838af92c843736f231a3dcd3f19cc38&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/flower-6104/2.webp?v=201a131fadc72efd",
+          "alt": "花花🌹作品照片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/flower-6104/2.webp?v=201a131fadc72efd",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568312909115695174/20261017_135812.jpg?ex=6aef5cb7&is=6aee0b37&hm=52ef25ad3aab2f79ac099bead000bbc957d1ea2a4bf095426bbb502dd9912177&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/flower-6104/3.webp?v=31fedb67616e497a",
+          "alt": "花花🌹作品照片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/flower-6104/3.webp?v=31fedb67616e497a",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568312909992566874/20261106_191503.jpg?ex=6aef5cb7&is=6aee0b37&hm=e9e0f636bcf45fc169f84a919c467ebc80aa0bc77cf281a534b68765e108ad91&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/flower-6104/4.webp?v=c22336d494ed91e2",
+          "alt": "花花🌹作品照片 4",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/flower-6104/4.webp?v=c22336d494ed91e2",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568312910894334002/20261107_001738.jpg?ex=6aef5cb7&is=6aee0b37&hm=c05dd783ddd51fae794eb1ec4b50c24c0c37caa7fa455f2cf17566f09511b9c7&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/flower-6104/5.webp?v=bfae4d378a609e43",
+          "alt": "花花🌹作品照片 5",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/flower-6104/5.webp?v=bfae4d378a609e43",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568312911854698566/20261107_001755.jpg?ex=6aef5cb8&is=6aee0b38&hm=f869689d2386cf80ba94a7d9210dee24f77d87d5a88238900555bcecf7d0a7f3&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/flower-6104/6.webp?v=756591fc4f187021",
+          "alt": "花花🌹作品照片 6",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/flower-6104/6.webp?v=756591fc4f187021",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568312921891803298/MEITU_20261017_142647334.jpg?ex=6aef5cba&is=6aee0b3a&hm=0c2317fd831eec96f98208c024e8f6b2e4908da187770c1ee758f1a7c93976ac&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@flower_6104",
+        "ig": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/flower-6104/logo.webp?v=afede636cb079003",
+        "source": "https://www.threads.com/@flower_6104",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-06",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/747439955_17977466568106173_4713621898410078475_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=e8LM2mORwCYQ7kNvwHryvwQ&_nc_oc=AdpL_loxVPdtQEFZBZGN9XEZ4jHkvKx2HliYlq9PKWAUiY0Os73_pKFX1SMX4zUTF8Q&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=XqVMrPoKVhJfiHi3FKTHww&_nc_ss=7920f&oh=00_AQRX9m2byavCvNXbFTie7ev4LFBUtgPw3dulM1rIP3bvGQ&oe=6AF3DFE7"
+      }
     }
   ]
 }
