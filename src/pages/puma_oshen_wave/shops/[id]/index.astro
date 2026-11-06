@@ -1,7 +1,7 @@
 ---
 import type { GetStaticPaths } from 'astro';
 import Layout from '../../../../layouts/OshenMapLayout.astro';
-import { stores, shopPath, httpsUrl, hoursText, type Store } from '../../../../lib/oshen-stores';
+import { stores, httpsUrl, hoursText, type Store } from '../../../../lib/oshen-stores';
 export const getStaticPaths = (() => stores.map(store => ({ params: { id: store.id }, props: { store } }))) satisfies GetStaticPaths;
 interface Props { store: Store }
 const { store } = Astro.props;
@@ -20,7 +20,7 @@ const directions = `https://www.google.com/maps/dir/?api=1&destination=${encodeU
       {hours && <section class="business-hours"><h3>營業時間</h3><p class="hours-schedule">{hours}</p>{store.openingHours?.note && <p class="hours-note">{store.openingHours.note}</p>}</section>}
       {store.visitNote && <p>{store.visitNote}</p>}
       <div class="detail-bottom"><div class="socials">{socialLinks.length ? socialLinks.map(link => <a href={link.url} target="_blank" rel="noopener noreferrer">{link.label} ↗</a>) : <span>尚未提供社群連結</span>}</div><a class="directions" href={directions} target="_blank" rel="noopener noreferrer">導航帶我去 ↗</a></div>
-      <div class="shop-share"><a href={shopPath(store.id)}>本站店家連結 ↗</a></div>
+      <div class="shop-share"><button type="button" aria-haspopup="dialog" aria-controls="share-dialog" disabled>分享店家</button></div>
     </div>
   </Fragment>
 

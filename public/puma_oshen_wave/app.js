@@ -414,21 +414,31 @@ function selectShop(shop, openDetail = true, recenter = true) {
   const photos = designerProducts(shop, '店家照片');
   if (photos) content.append(photos);
   const share = node('div', undefined, 'shop-share');
-  const permalink = node('a', '本站店家連結 ↗');
-  permalink.href = new URL(`/puma_oshen_wave/shops/${encodeURIComponent(shop.id)}/`, location.origin).href;
-  const copy = node('button', '複製連結');
-  copy.type = 'button';
+  const permalink = new URL(`/puma_oshen_wave/shops/${encodeURIComponent(shop.id)}/`, location.origin).href;
   const status = node('span');
   status.setAttribute('role', 'status');
-  copy.onclick = async () => {
+  const shareButton = node('button', '分享店家');
+  shareButton.type = 'button';
+  shareButton.setAttribute('aria-haspopup', 'dialog');
+  shareButton.setAttribute('aria-controls', 'share-dialog');
+  shareButton.onclick = async () => {
+    shareButton.disabled = true;
+    status.textContent = '';
     try {
-      await navigator.clipboard.writeText(permalink.href);
-      status.textContent = '已複製';
+      const { qrcode } = await import('./vendor/qrcode-generator/qrcode-2.0.4.mjs');
+      if (!shareButton.isConnected) return;
+      const qr = qrcode(0, 'M');
+      qr.addData(permalink);
+      qr.make();
+      const image = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(qr.createSvgTag({ cellSize: 6, margin: 24, scalable: true }));
+      openShareDialog(shop.name, '掃描 QRCode，開啟這家店的本站連結。', permalink, image);
     } catch {
-      status.textContent = '請長按或右鍵「本站店家連結」複製網址。';
+      status.textContent = '暫時無法產生 QRCode，請稍後再試。';
+    } finally {
+      shareButton.disabled = false;
     }
   };
-  share.append(permalink, copy, status);
+  share.append(shareButton, status);
   content.append(bottom, share);
   const back = node('button','← 返回店家清單','back-to-shops');
   back.type='button';back.onclick=()=>showShopList();
@@ -613,9 +623,20 @@ byId('lucky-star').addEventListener('click', async () => {
 byId('home-map').addEventListener('click', locateMe);
 const shareDialog = byId('share-dialog');
 const shareStatus = byId('share-status');
-byId('share-open').addEventListener('click', () => {
+function openShareDialog(title, description, url, image) {
+  byId('share-title').textContent = title;
+  byId('share-description').textContent = description;
+  const link = byId('share-url');
+  link.href = url;
+  link.textContent = url;
+  const qrImage = shareDialog.querySelector('img');
+  qrImage.src = image;
+  qrImage.alt = `${title} QR Code，掃描開啟 ${url}`;
   shareStatus.textContent = '';
   shareDialog.showModal();
+}
+byId('share-open').addEventListener('click', () => {
+  openShareDialog('我們的洋流地圖', '分享給朋友，下次一起去。', 'https://minicourse.dev/puma_oshen_wave/', '/puma_oshen_wave/assets/map-share-qr.svg');
 });
 byId('share-copy').addEventListener('click', async () => {
   try {
