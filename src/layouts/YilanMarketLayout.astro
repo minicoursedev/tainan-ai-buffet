@@ -39,7 +39,7 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/map.css">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/list.css?v=20261026-video3">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/closed.css">
-<link rel="stylesheet" href="/puma_oshen_wave/yilan_taiwan_11_07/market.css?v=20261101-floating-menu">
+<link rel="stylesheet" href="/puma_oshen_wave/yilan_taiwan_11_07/market.css?v=20261106-booth-share">
 </head>
 <body>
 <div class="app">
@@ -103,7 +103,17 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
 </dialog>
 
 <dialog id="dlg-booth" class="dlg" aria-labelledby="booth-title"></dialog>
+<dialog id="booth-share-dialog" class="dlg booth-share-dialog" aria-labelledby="booth-share-title" aria-describedby="booth-share-description">
+  <div class="dlg-head"><h2 id="booth-share-title">分享攤位</h2><button type="button" class="dlg-close" aria-label="關閉分享">×</button></div>
+  <div class="dlg-body">
+    <p id="booth-share-description">掃描 QRCode，開啟這個攤位的本站連結。</p>
+    <img id="booth-share-qr" width="264" height="264" alt="" hidden>
+    <a id="booth-share-url" target="_blank" rel="noopener noreferrer"></a>
+    <div class="booth-share-actions"><button id="booth-share-copy" type="button" class="btn btn-primary" autofocus>複製連結</button><form method="dialog"><button class="btn">關閉</button></form></div>
+    <p id="booth-share-status" class="muted" role="status" aria-live="polite"></p>
+  </div>
+</dialog>
 
-<script is:inline type="module" src="/puma_oshen_wave/yilan_taiwan_11_07/js/app.js?v=20261102-official-line"></script>
+<script is:inline type="module" src="/puma_oshen_wave/yilan_taiwan_11_07/js/app.js?v=20261106-booth-share"></script>
 </body>
 </html>

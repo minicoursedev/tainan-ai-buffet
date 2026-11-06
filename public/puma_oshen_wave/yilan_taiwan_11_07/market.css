@@ -164,3 +164,15 @@
   .yl-nav .modes button { padding-block: 4px; }
   .yl-nav .link-btn { padding-block: 2px; }
 }
+
+.booth-share-dialog { width: min(360px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); }
+#booth-share-title { overflow-wrap: anywhere; }
+#booth-share-description { margin: 0 0 16px; font-size: 14px; line-height: 1.7; }
+#booth-share-qr { display: block; width: 220px; max-width: 100%; height: auto; margin: 0 auto 16px; }
+#booth-share-qr[hidden] { display: none; }
+#booth-share-url { display: block; margin-bottom: 16px; overflow-wrap: anywhere; font-size: 13px; line-height: 1.7; color: var(--green-deep); }
+.booth-share-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.booth-share-actions form { margin: 0; }
+.booth-share-actions .btn { width: 100%; }
+#booth-share-status { margin: 12px 0 0; font-size: 13px; line-height: 1.7; }
+#booth-share-status:empty { display: none; }

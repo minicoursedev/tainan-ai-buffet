@@ -108,7 +108,7 @@ export function boothHtml(booth, store) {
       ${storeUrl ? `<a class="btn btn-primary" href="${esc(storeUrl)}" target="_blank" rel="noopener">看攤位</a>` : ''}
       <div class="bo-share">
         ${shopUrl ? `<a class="btn" href="${esc(shopUrl)}">看看地圖</a>` : ''}
-        <button type="button" class="btn" data-copy-booth="${esc(designerBoothUrl(booth.store))}">複製攤位連結</button>
+        <button type="button" class="btn" data-share-booth="${esc(designerBoothUrl(booth.store))}" aria-haspopup="dialog" aria-controls="booth-share-dialog">分享攤位</button>
         <span class="bo-share-status muted" role="status"></span>
       </div>
     </div>`;
