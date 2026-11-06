@@ -3773,6 +3773,54 @@
         "note": "使用者指定為此設計師 Logo",
         "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568279409549639801/892534205_17956487610278614_3882027791394425389_n.png?ex=6aef3d84&is=6aedec04&hm=8f1bc70081a3c64fe11ef3f8f386b85bec251501b4d643a968a6b2948760935b&"
       }
+    },
+    {
+      "id": "jiala-beefnoodle",
+      "name": "家辣麻辣鴨血",
+      "category": "創作者",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/jiala-beefnoodle/1.webp?v=a3fcc1d18b1683db",
+          "alt": "家辣麻辣鴨血作品照片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/jiala-beefnoodle/1.webp?v=a3fcc1d18b1683db",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568311599557517483/890649620_17918533581499233_3173426815907756373_n.png?ex=6aef5b7f&is=6aee09ff&hm=d37a54fba42372735c130c452f82699d8b00958235694b3df3845b6108dc8d8b&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/jiala-beefnoodle/2.webp?v=c5e814d8558aae53",
+          "alt": "家辣麻辣鴨血作品照片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/jiala-beefnoodle/2.webp?v=c5e814d8558aae53",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568311600962867210/891989560_17918533629499233_8379633628332915978_n.png?ex=6aef5b7f&is=6aee09ff&hm=cb5d52f980a7dc9d23380bb2224f547c82dc959ace0b7552ccdb8bd5c276ce46&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/jiala-beefnoodle/3.webp?v=051ba2f57830b1e5",
+          "alt": "家辣麻辣鴨血作品照片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/jiala-beefnoodle/3.webp?v=051ba2f57830b1e5",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568311602095194242/893281761_17918533716499233_4516978740291851371_n.png?ex=6aef5b7f&is=6aee09ff&hm=2435d9e442ea49aaed6a4a92156c88981b031da6f26673842d72d5a54964496b&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@jiala_beefnoodle",
+        "ig": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/jiala-beefnoodle/logo.webp?v=3df8ddf36969d079",
+        "source": "https://www.threads.com/@jiala_beefnoodle",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-06",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/882140659_17918530176499233_165863814484342789_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=QyJOi_ccQFYQ7kNvwFf-4p3&_nc_oc=AdrKSj_N2HJgEMFb4PCSGYwt7VIrIbrN4LRHrP_9nWb9fnJoDs7ZwVPMZF1dTcKquu4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=cg2PZ1gu1t1HNQMr1co-6g&_nc_ss=7920f&oh=00_AQSjuRdfUxX01XOKrj_JhNz93hfDd9EVYwzmyci-GpYZ6Q&oe=6AF3CFB7"
+      }
     }
   ]
 }
