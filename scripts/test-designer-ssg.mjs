@@ -9,6 +9,8 @@ const catalogue = createCatalogue(raw);
 const home = read('dist/puma_oshen_wave/designer/index.html');
 const sitemap = read('dist/sitemap.xml');
 const escape = value => value.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+const exhibitionImage = 'https://minicourse.dev/puma_oshen_wave/designer/assets/exhibition-og.png?v=19f09d0c7c56f7bd';
+assert(home.includes(`<meta property="og:image" content="${exhibitionImage}">`), 'Exhibition share image must remain unchanged');
 let count = 0;
 for (const designer of raw.designers) {
   const path = designerPath(designer.id);
@@ -19,6 +21,11 @@ for (const designer of raw.designers) {
   }
   count++;
   const html = read(`dist${path}index.html`);
+  const previewImage = designer.logo?.status === 'verified' && designer.logo.url
+    ? designer.logo.url : designer.productImages?.[0]?.url || exhibitionImage;
+  assert.equal((html.match(/property="og:image"/g) || []).length, 1, `Expected one explicit OG image: ${designer.id}`);
+  assert(html.includes(`<meta property="og:image" content="${escape(previewImage)}">`), `Missing author OG image: ${designer.id}`);
+  assert(html.includes(`<meta name="twitter:image" content="${escape(previewImage)}">`), `Missing author Twitter image: ${designer.id}`);
   const category = designer.category || '設計師';
   assert(html.includes(`<p class="bo-owner">${category} ${escape(designer.name)}</p>`), `Wrong owner category: ${designer.id}`);
   assert(html.includes(`<span class="tag tag-zone">${category}</span>`), `Wrong category tag: ${designer.id}`);
