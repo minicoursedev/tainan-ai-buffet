@@ -5,6 +5,7 @@ import { boothHtml } from '../public/puma_oshen_wave/designer/js/ui/booth-markup
 import { renderDesignerOg } from './designer-og.mjs';
 import sharp from 'sharp';
 import { designerPath, designerBoothUrl, resolveDesignerRoute } from '../public/puma_oshen_wave/designer/js/routes.js';
+import { designerMetadata, designerStructuredData, serializeStructuredData } from '../public/puma_oshen_wave/designer/js/profile-seo.js';
 const read = path => readFileSync(path, 'utf8');
 const raw = JSON.parse(read('public/puma_oshen_wave/designer.json'));
 const catalogue = createCatalogue(raw);
@@ -41,10 +42,34 @@ for (const designer of raw.designers) {
     assert(html.includes('<meta property="og:image:height" content="315">'));
   }
   const category = designer.category || '設計師';
-  assert(html.includes(`<p class="bo-owner">${category} ${escape(designer.name)}</p>`), `Wrong owner category: ${designer.id}`);
+  assert(!html.includes('class="bo-owner"'), `Profile subtitle must not repeat the name: ${designer.id}`);
   assert(html.includes(`<span class="tag tag-zone">${category}</span>`), `Wrong category tag: ${designer.id}`);
   assert(home.includes(`<p class="lc-owner">${category} ${escape(designer.name)}</p>`), `Wrong directory category: ${designer.id}`);
-  assert(html.includes(`<h2 id="static-designer-title">${escape(designer.name)}</h2>`));
+  assert(html.includes(`<h1 id="static-designer-title">${escape(designer.name)}</h1>`));
+  assert.equal((html.match(/<h1[ >]/g) || []).length, 1, `Expected one page heading: ${designer.id}`);
+  assert(html.includes('>作品選集</h2>'), `Missing works section: ${designer.id}`);
+  assert.equal(html.includes('class="bo-intro"'), !!designer.description?.trim(), `Missing biographies must stay empty: ${designer.id}`);
+  assert(html.includes('class="bo-breadcrumbs"'), `Missing visible breadcrumbs: ${designer.id}`);
+  assert(!html.includes('aria-label="關閉">×</button></div>'), 'Static profiles must not display a nonfunctional close control');
+  const graph = JSON.parse(html.match(/<script[^>]*id="designer-structured-data"[^>]*>(.*?)<\/script>/s)[1])['@graph'];
+  const page = graph.find(node => node['@type'] === 'WebPage' || node['@type'] === 'ProfilePage');
+  const entity = graph.find(node => node['@id'] === page.mainEntity['@id']);
+  assert.equal(entity.name, designer.name);
+  assert.equal(page.url, `https://minicourse.dev${path}`);
+  assert.equal(page.inLanguage, 'zh-Hant-TW');
+  assert(html.includes(`<title>${escape(page.name)}</title>`), 'Structured title must match the visible page metadata');
+  if (designer.description?.trim()) {
+    assert(html.includes(`<meta name="description" content="${escape(page.description)}">`), 'Structured description must match meta description');
+  } else {
+    assert(!html.includes('<meta name="description"') && !html.includes('property="og:description"') && !html.includes('name="twitter:description"'), 'Missing biographies must not generate generic summaries');
+    assert(!('description' in page) && !('description' in entity));
+  }
+  const breadcrumbs = graph.find(node => node['@type'] === 'BreadcrumbList').itemListElement;
+  assert.equal(breadcrumbs.at(-1).item, page.url);
+  for (const node of graph.filter(node => node['@type'] === 'ImageObject')) {
+    assert(html.includes(escape(node.contentUrl)), `Structured image must be visible in the profile: ${designer.id}`);
+    if (node.caption) assert(html.includes(escape(node.caption)), 'Structured captions must also be visible');
+  }
   assert(html.includes(`<link rel="canonical" href="https://minicourse.dev${path}">`));
   assert(html.includes(`<meta property="og:url" content="https://minicourse.dev${path}">`));
   assert(html.includes('src="/puma_oshen_wave/designer/js/app.js?'));
@@ -76,6 +101,45 @@ assert.equal(creatorBooth.zoneName, '創作者');
 assert.equal(aisle.stores['default-artist'].category, '設計師');
 assert(boothHtml(creatorBooth, aisle.stores.creator).includes('<p class="bo-owner">創作者 創作者範例</p>'));
 console.log('Verified optional author categories in profiles and list filters without moving booths.');
+
+// Future records with a biography use it in both rendering paths; sparse records remain valid.
+const sample = { id: 'future-studio', name: '未來工作室 & 朋友', category: '創作者',
+  description: '以木工與插畫記錄日常。\n每件作品都保留手作紋理。', entityType: 'Organization',
+  social: { ig: 'https://www.instagram.com/example/', web: 'javascript:alert(1)' } };
+const sampleCatalogue = createCatalogue({ designers: [sample] });
+const sampleAisle = sampleCatalogue.aisles.get('O01');
+const sampleStore = sampleAisle.stores[sample.id];
+const sampleBooth = sampleAisle.islands[0].booths[0];
+const metadata = designerMetadata(sampleStore);
+assert.equal(metadata.introduction, sample.description);
+assert.equal(metadata.description, sample.description.replace(/\s+/g, ' '));
+for (const staticProfile of [true, false]) {
+  const rendered = boothHtml(sampleBooth, sampleStore, { profile: true, staticProfile });
+  assert(rendered.includes(escape(sample.description)), 'Biography must be visible in static and interactive profiles');
+  assert(rendered.includes('<h1 ') && rendered.includes('<h2>簡介</h2>'));
+  assert(!rendered.includes('javascript:'), 'Invalid official URLs must not become links');
+}
+const sampleUrl = `https://minicourse.dev${designerPath(sample.id)}`;
+const sampleGraph = designerStructuredData(sampleStore, sampleBooth, sampleUrl, 'https://minicourse.dev/puma_oshen_wave/designer/')['@graph'];
+assert.equal(sampleGraph[0]['@type'], 'ProfilePage');
+assert.equal(sampleGraph[1]['@type'], 'Organization');
+assert.deepEqual(sampleGraph[1].sameAs, [sample.social.ig]);
+const sparse = { id: 'future-person', name: '未來作者' };
+assert(!designerMetadata(sparse).introduction.includes('官方連結'), 'Do not invent missing social profiles');
+assert.equal(designerMetadata(sparse).introduction, '', 'Missing biographies must remain empty');
+assert.equal(designerMetadata(sparse).description, '', 'Missing biographies must not generate a search summary');
+assert(!boothHtml(sampleBooth, { ...sampleStore, description: '' }, { profile: true }).includes('class="bo-intro"'), 'Do not show a placeholder introduction');
+const sparseGraph = designerStructuredData(sparse, { works: [] }, sampleUrl, 'https://minicourse.dev/puma_oshen_wave/designer/')['@graph'];
+assert.equal(sparseGraph[1]['@type'], 'Thing', 'Do not guess person vs organization from a display name');
+assert(!('image' in sparseGraph[1]) && !('sameAs' in sparseGraph[1]), 'Do not insert placeholder entity data');
+const hostile = '</script><script>alert(1)</script>';
+assert(!serializeStructuredData({ description: hostile }).includes('</script>'));
+assert.equal(JSON.parse(serializeStructuredData({ description: hostile })).description, hostile);
+const escapedProfile = boothHtml(sampleBooth, { ...sampleStore, description: hostile }, { profile: true });
+assert(!escapedProfile.includes('<script>'), 'Description must render as text');
+const longBio = designerMetadata({ ...sparse, description: '🙂'.repeat(200) });
+assert.equal(Array.from(longBio.description).length, 160, 'Snippet truncation must preserve Unicode characters');
+console.log('Verified biography support, sparse/future profiles, safe structured data and static/interactive parity.');
 
 const profile = 'https://minicourse.dev/puma_oshen_wave/designer/profiles/yuan-art-space/';
 for (const hash of ['', '#/walk/O01', '#/list', '#/map', '#/designer/wolfsignal-tw']) {

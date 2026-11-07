@@ -6,6 +6,16 @@
 
 ## 資料維護
 
+### 設計師介紹頁 SEO
+
+1. 所有啟用設計師的 `/puma_oshen_wave/designer/profiles/<id>/` 共用介紹模板。原始 HTML 與互動介紹使用相同的摘要規則、H1／H2、麵包屑與結構化資料。
+2. `designer.json` 的設計師記錄可填入選用的 `description` 純文字簡介。模板會完整顯示簡介，並擷取至多 160 字作為搜尋與社群摘要；未填就不顯示介紹區塊，也不輸出 description 標記，不自動拼接介紹或填入通用文案。
+3. `productImages[].alt` 為圖片替代文字，`caption` 為圖片下方可見圖說，兩者用途分開。作品獨立清單同樣使用 `alt`、`caption`；沒有圖說不把替代文字強制顯示為圖說。請依來源填入具體內容。
+4. 選用的 `entityType` 僅接受 `Person` 或 `Organization`，應依已確認的身分填寫；未確認時使用通用 `WebPage`／`Thing`，不自動將品牌當成個人。不推測成立日期、地址、評價或商品價格。
+5. `npm run check` 會驗證所有啟用頁的主標題、摘要、canonical、結構化資料、圖片與圖說、目錄／sitemap 連結，也驗證未填簡介及未來新增記錄的相容性。
+
+### 店家資料
+
 編輯 stores.json 的 stores 陣列。店家欄位：id（唯一）、category、giftStatus、name、address、social（facebook、instagram、threads）。小物資訊為靜態資料，giftStatus 固定為「可能有小物」，不提供狀態篩選或回報功能。社群沒有資料則留空字串。文字以 textContent 呈現，社群外連只接受 HTTPS。
 
 目前花田 HANA DA 的店名、地址、Facebook 是既有查證資料；「可能有小物」為靜態提示，不代表即時庫存。保留資料來源與查證日期於 JSON。

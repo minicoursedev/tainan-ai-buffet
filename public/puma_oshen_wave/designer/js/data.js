@@ -73,6 +73,8 @@ export function createCatalogue(data) {
         })).filter(work => work.cover);
       stores[designer.id] = {
         id: designer.id, name: designer.name, owner: designer.name, category,
+        description: typeof designer.description === 'string' ? designer.description.trim() : '',
+        entityType: ['Person', 'Organization'].includes(designer.entityType) ? designer.entityType : '',
         avatar: designer.logo?.status === 'verified' ? imageUrl(designer.logo.url) : '',
         avatarFit: designer.logo?.fit === 'contain' ? 'contain' : 'cover',
         productsUrl: imageUrl(designer.productsUrl),

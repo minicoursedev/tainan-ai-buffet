@@ -1,9 +1,9 @@
 // Designer dialog: profile, catalogue images, social links and share link.
 import { state, markVisited, findBoothIn, toast } from '../state.js';
-import { loadAisle, aisleOfBooth } from '../data.js?v=20261106-author-category';
-import { goToBooth, designerBoothUrl } from '../nav.js?v=20261106-author-category';
-import { boothHtml, loadingHtml, failHtml } from './booth-markup.js?v=20261106-designer-share';
-import { designerRoot, updateDesignerMetadata } from '../routes.js';
+import { loadAisle, aisleOfBooth } from '../data.js?v=20261107-profile-seo';
+import { goToBooth, designerBoothUrl } from '../nav.js?v=20261107-profile-seo';
+import { boothHtml, loadingHtml, failHtml } from './booth-markup.js?v=20261107-profile-seo';
+import { designerRoot, updateDesignerMetadata } from '../routes.js?v=20261107-profile-seo';
 import { retryOriginal } from '../images.js';
 import { loadProducts, sampleProducts } from '../products.js?v=20261030-pinned-work';
 
@@ -20,7 +20,9 @@ function paint() {
   const { booth, aisle } = current;
   const store = aisle.stores?.[booth.store] || null;
   const scroll = d.querySelector('.dlg-body')?.scrollTop || 0;
-  d.innerHTML = boothHtml(booth, store);
+  // Replace the static fallback only once the complete interactive profile is ready.
+  document.getElementById('static-designer-profile')?.remove();
+  d.innerHTML = boothHtml(booth, store, { profile: true });
   const body = d.querySelector('.dlg-body');
   if (body) body.scrollTop = scroll;
 }
@@ -66,7 +68,7 @@ export async function openBooth(boothId) {
   }
   current = { boothId, booth, aisle };
   history.replaceState(null, '', designerBoothUrl(booth.store));
-  updateDesignerMetadata({ id: booth.store, name: store?.name || '設計師' });
+  updateDesignerMetadata(store, booth);
   paint();
   if (!d.open) d.showModal();
   d.querySelector('.dlg-close')?.focus();

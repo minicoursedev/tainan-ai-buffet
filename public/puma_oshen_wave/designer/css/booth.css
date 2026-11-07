@@ -1,7 +1,9 @@
 /* Designer dialog, catalogue images and share controls. */
 
 /* ---------- booth dialog ---------- */
-.bo-head { flex: none; align-items: flex-start; gap: 12px; background: var(--paper); }
+.bo-head { position: relative; flex: none; align-items: center; justify-content: center; padding-inline: 64px; background: var(--paper); }
+.bo-identity { display: flex; align-items: center; justify-content: center; gap: 12px; width: 100%; min-width: 0; }
+.bo-head > .dlg-close { position: absolute; right: 16px; top: 50%; margin-left: 0; transform: translateY(-50%); }
 .bo-avatar {
   flex: none; width: 56px; height: 56px; border: 2.5px solid var(--line); border-radius: 50%; overflow: hidden;
   background: var(--paper); box-shadow: 2px 2px 0 var(--line);
@@ -10,11 +12,21 @@
 .bo-avatar-contain { border-radius: 4px; }
 .bo-avatar-contain img { object-fit: contain; }
 .bo-avatar-none { background-color: var(--paper); background-image: var(--tone); }
-.bo-title { min-width: 0; flex: 1 1 auto; }
-.bo-title h2 { overflow-wrap: anywhere; }
+.bo-title { min-width: 0; flex: 0 1 auto; text-align: center; }
+@media (orientation: portrait) {
+  .bo-head { padding-inline: 16px 64px; }
+  .bo-identity { justify-content: flex-start; }
+  .bo-title { text-align: left; }
+}
+.bo-title h1, .bo-title h2 { margin: 0; font-size: 20px; overflow-wrap: anywhere; }
+.bo-breadcrumbs { flex: none; padding: 10px 16px; font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
+.bo-breadcrumbs a { color: var(--green-deep); }
+.bo-intro { margin-bottom: 20px; }
+.bo-intro h2, .bo-intro h3, .bo-section-title { margin: 0 0 8px; font-size: 16px; line-height: 1.5; }
+.bo-intro p { margin: 0; line-height: 1.8; white-space: pre-line; overflow-wrap: anywhere; }
 .bo-owner { margin: 0; font-size: 13px; color: var(--muted); overflow-wrap: anywhere; }
 .bo-owner:empty { display: none; }
-.bo-meta { margin: 6px 0 0; display: flex; flex-wrap: wrap; gap: 4px 6px; }
+.bo-meta { display: none; }
 .bo-meta .tag { max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
 .bo-corp { background: var(--ink); color: var(--pink-soft); }
 
@@ -118,16 +130,8 @@ a.bo-more:focus-visible { outline: 3px solid var(--pink); outline-offset: 2px; }
     max-height: calc(100dvh - var(--bo-top-gap) - var(--bo-bottom-gap));
   }
   .bo-avatar { width: 46px; height: 46px; }
-  .bo-head h2 { font-size: 16px; }
+  .bo-head h1, .bo-head h2 { font-size: 16px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .bo-cover { transition: none; }
-}
-
-/* Keep the booth heading to one line in landscape; long details can scroll. */
-@media (orientation: landscape) {
-  #dlg-booth .bo-head { align-items: center; gap: 8px; }
-  #dlg-booth .bo-title { display: flex; align-items: center; gap: 8px; overflow-x: auto; }
-  #dlg-booth .bo-title h2, #dlg-booth .bo-owner { flex: none; white-space: nowrap; }
-  #dlg-booth .bo-meta { flex: none; flex-wrap: nowrap; margin: 0; }
 }

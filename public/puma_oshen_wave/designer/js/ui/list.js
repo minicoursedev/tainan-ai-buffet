@@ -1,11 +1,11 @@
 // 設計師列表模式 <main id="stage-list">: filter the search rows in memory, render 60 cards at a time,
 // Fill each card’s logo and product images as it scrolls into view.
 import { state, toast, findBoothIn } from '../state.js';
-import { loadSearch, loadAisle, aisleOfBooth } from '../data.js?v=20261106-author-category';
-import { goToBooth } from '../nav.js?v=20261106-author-category';
-import { openBooth } from './booth.js?v=20261106-designer-share';
+import { loadSearch, loadAisle, aisleOfBooth } from '../data.js?v=20261107-profile-seo';
+import { goToBooth } from '../nav.js?v=20261107-profile-seo';
+import { openBooth } from './booth.js?v=20261107-profile-seo';
 import { thumbnailUrl, retryOriginal } from '../images.js';
-import { designerPath } from '../routes.js';
+import { designerPath } from '../routes.js?v=20261107-profile-seo';
 
 const PAGE = 60;
 const TYPES = ['漫畫', '插圖', '小說', '攝影', '有聲'];
