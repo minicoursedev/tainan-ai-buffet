@@ -37,7 +37,7 @@ export function updateDesignerMetadata(designer = null, booth = {}) {
     if (!tag) { tag = document.createElement('meta'); tag.setAttribute(attribute, key); document.head.append(tag); }
     tag.content = value;
   }
-  const preview = designer && initialPreview?.id === designer.id ? initialPreview : designer && publicUrl(designer.avatar)
+  const preview = designer?.og ? { ...designer.og, image: designer.og.url } : designer && initialPreview?.id === designer.id ? initialPreview : designer && publicUrl(designer.avatar)
     ? { image: publicUrl(designer.avatar) } : { image: exhibitionImage, width: '2622', height: '1206', type: 'image/png' };
   const imageAlt = preview.alt || (designer && publicUrl(designer.avatar) ? `${designer.name}的頭像` : '洋流設計師展逛攤畫面');
   for (const selector of ['meta[property="og:image"]', 'meta[name="twitter:image"]']) document.querySelector(selector).content = preview.image;

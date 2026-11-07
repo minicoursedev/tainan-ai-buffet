@@ -524,7 +524,7 @@
     {
       "id": "axmonart",
       "name": "顧紫蝶 | 阿猛。AxMon手繪工作室",
-      "description": "臺灣人，自由藝術的創作者\n創立AxMon手繪工作室，獨立品牌\n從小很喜歡畫畫，自學自畫的方式在創作\n作品中常有動物，像貓頭鷹、神靈，遵循當下\n直覺的靈感在創作，家中供奉黑虎大將軍、玄天\n上帝。有承接大小型牆面彩繪壁畫、商業插畫、似顏繪、個人創作。",
+      "description": "從小很喜歡畫畫，自學自畫的方式在創作\n作品中常有動物，像貓頭鷹、神靈，遵循當下\n直覺的靈感在創作，家中供奉黑虎大將軍、玄天\n上帝。",
       "disabled": false,
       "verification": true,
       "productImages": [
@@ -3819,6 +3819,7 @@
     {
       "id": "jiala-beefnoodle",
       "name": "家辣麻辣鴨血",
+      "description": "多重障礙的女兒的構思，我們幫她圓夢。\n感謝透過此方式，讓她更有自信，\n也謝謝我的市長沈伯洋，接住孩子。",
       "category": "創作者",
       "disabled": false,
       "verification": true,

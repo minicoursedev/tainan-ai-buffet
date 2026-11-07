@@ -14,7 +14,7 @@ export default defineConfig({
       'astro:build:done': async ({ dir }) => {
         const data = JSON.parse(await readFile(new URL('./public/puma_oshen_wave/designer.json', import.meta.url), 'utf8'));
         const images = await writeDesignerOgImages(data.designers, { root, outDir: fileURLToPath(dir) });
-        console.log(`Generated ${images.length} author OG images: 600×315, white background, no enlargement.`);
+        console.log(`Generated ${images.length} author OG images: 1200×630, left logo, right name and supplied biography.`);
       },
     },
   }],

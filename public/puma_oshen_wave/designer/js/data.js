@@ -35,7 +35,7 @@ function productLink(product) {
   return source;
 }
 
-export function createCatalogue(data) {
+export function createCatalogue(data, { ogImages = {} } = {}) {
   if (!Array.isArray(data?.designers)) throw new Error('Invalid designer list');
   const ids = new Set();
   for (const designer of data.designers) {
@@ -75,6 +75,7 @@ export function createCatalogue(data) {
         id: designer.id, name: designer.name, owner: designer.name, category,
         description: typeof designer.description === 'string' ? designer.description.trim() : '',
         entityType: ['Person', 'Organization'].includes(designer.entityType) ? designer.entityType : '',
+        og: ogImages[designer.id] || null,
         avatar: designer.logo?.status === 'verified' ? imageUrl(designer.logo.url) : '',
         avatarFit: designer.logo?.fit === 'contain' ? 'contain' : 'cover',
         productsUrl: imageUrl(designer.productsUrl),
@@ -120,11 +121,15 @@ export function createCatalogue(data) {
 let catalogue = null;
 function loadCatalogue() {
   if (!catalogue) {
-    catalogue = fetch(new URL('../../designer.json', import.meta.url), { credentials: 'omit', cache: 'no-store' })
+    const designers = fetch(new URL('../../designer.json', import.meta.url), { credentials: 'omit', cache: 'no-store' })
       .then(response => {
         if (!response.ok) throw new Error(`Could not load designer.json: HTTP ${response.status}`);
         return response.json();
-      }).then(createCatalogue)
+      });
+    const previews = fetch(new URL('../og-images.json', import.meta.url), { credentials: 'omit', cache: 'no-store' })
+      .then(response => response.ok ? response.json() : {}).catch(() => ({}));
+    catalogue = Promise.all([designers, previews])
+      .then(([data, ogImages]) => createCatalogue(data, { ogImages }))
       .catch(error => { catalogue = null; throw error; });
   }
   return catalogue;

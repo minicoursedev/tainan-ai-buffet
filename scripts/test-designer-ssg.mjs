@@ -11,6 +11,8 @@ const raw = JSON.parse(read('public/puma_oshen_wave/designer.json'));
 const catalogue = createCatalogue(raw);
 const home = read('dist/puma_oshen_wave/designer/index.html');
 const sitemap = read('dist/sitemap.xml');
+const previewManifest = JSON.parse(read('dist/puma_oshen_wave/designer/og-images.json'));
+const runtimeCatalogue = createCatalogue(raw, { ogImages: previewManifest });
 const escape = value => value.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
 const exhibitionImage = 'https://minicourse.dev/puma_oshen_wave/designer/assets/exhibition-og.png?v=19f09d0c7c56f7bd';
 assert(home.includes(`<meta property="og:image" content="${exhibitionImage}">`), 'Exhibition share image must remain unchanged');
@@ -23,6 +25,7 @@ for (const designer of raw.designers) {
   if (designer.disabled === true) {
     assert(!existsSync(`dist${path}index.html`));
     assert(!sitemap.includes(`https://minicourse.dev${path}`));
+    assert(!(designer.id in previewManifest));
     continue;
   }
   count++;
@@ -34,12 +37,16 @@ for (const designer of raw.designers) {
   assert(html.includes(`<meta property="og:image" content="${escape(previewImage)}">`), `Missing author OG image: ${designer.id}`);
   assert(html.includes(`<meta name="twitter:image" content="${escape(previewImage)}">`), `Missing author Twitter image: ${designer.id}`);
   if (og) {
+    assert.equal(previewManifest[designer.id].url, og.url, 'Runtime share preview must match the static OG image');
+    const runtimeAisle = runtimeCatalogue.aisles.get(catalogue.designerBooths.get(designer.id).split('-')[0]);
+    assert.deepEqual(runtimeAisle.stores[designer.id].og, previewManifest[designer.id]);
+    assert.equal(og.biography?.text || '', designer.description?.trim() || '', 'Only supplied biographies may appear in OG images');
     const generated = readFileSync(`dist/${og.relativePath}`);
     const dimensions = await sharp(generated).metadata();
-    assert.deepEqual([dimensions.width, dimensions.height], [600, 315], `Wrong OG dimensions: ${designer.id}`);
+    assert.deepEqual([dimensions.width, dimensions.height], [1200, 630], `Wrong OG dimensions: ${designer.id}`);
     assert(generated.equals(og.buffer), `OG image and metadata must match: ${designer.id}`);
-    assert(html.includes('<meta property="og:image:width" content="600">'));
-    assert(html.includes('<meta property="og:image:height" content="315">'));
+    assert(html.includes('<meta property="og:image:width" content="1200">'));
+    assert(html.includes('<meta property="og:image:height" content="630">'));
   }
   const category = designer.category || '設計師';
   assert(!html.includes('class="bo-owner"'), `Profile subtitle must not repeat the name: ${designer.id}`);

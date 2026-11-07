@@ -13,6 +13,7 @@
 3. `productImages[].alt` 為圖片替代文字，`caption` 為圖片下方可見圖說，兩者用途分開。作品獨立清單同樣使用 `alt`、`caption`；沒有圖說不把替代文字強制顯示為圖說。請依來源填入具體內容。
 4. 選用的 `entityType` 僅接受 `Person` 或 `Organization`，應依已確認的身分填寫；未確認時使用通用 `WebPage`／`Thing`，不自動將品牌當成個人。不推測成立日期、地址、評價或商品價格。
 5. `npm run check` 會驗證所有啟用頁的主標題、摘要、canonical、結構化資料、圖片與圖說、目錄／sitemap 連結，也驗證未填簡介及未來新增記錄的相容性。
+6. OG 圖由 `scripts/designer-og.mjs` 在建置時統一產生為 1200×630：左側 Logo，右側名字與既有 `description`，沒有簡介留空，沒有網站名稱或網址頁尾。圖片來源與 Logo 原檔不變，版本依完整圖片內容計算。`designer/og-images.json` 保存同批圖片網址與尺寸，互動切換設計師時同步使用。繁中與 Emoji 字型、授權與來源版本保存於 `scripts/fonts/`，建置時無須下載。
 
 ### 店家資料
 
