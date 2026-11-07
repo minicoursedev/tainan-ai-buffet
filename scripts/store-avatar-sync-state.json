@@ -2257,19 +2257,19 @@
         "last-modified": "Thu, 30 Nov 2023 07:34:36 GMT"
       },
       "source": "https://www.facebook.com/meoweatmeow/",
-      "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/406976333_851443246986720_1603270059396060247_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1ebt_PPzL-sQ7kNvwFJhqcV&_nc_oc=Adq9Ei1a5qvlWgXtpH0ncfclayhAcTxFCFcohApx7C3NFUbUyiO5-3gfnhlBb62TmtY&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=sLopkD3A6sJI8425JTuUgQ&_nc_ss=7320f&oh=00_AQMumPMHijXjrGBywr-0BI7ZMCL1D7Md11UbeVbRcfGUOg&oe=6AE358D9",
+      "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/406976333_851443246986720_1603270059396060247_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1vq3tnM6D68Q7kNvwFUaJ6g&_nc_oc=AdrnJEAa-lVDWf-xhYQK65Q9M5A1D2zb6SDh_P-8t6SlSDS1tA9tMkYi7xzGbVzLmKc&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=f-P6wHJj0-7PY9292_J8yg&_nc_ss=7920f&oh=00_AQS2NflTgB_M9H4WMKMqQwSnTM2Ui2Hc_4EvAdxG-3FjRg&oe=6AF4B499",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Oh Mo貓吃 | Tainan ",
       "filename": "oh-mo-meow/logo.webp",
-      "lastSuccess": "2026-10-25T11:01:08+08:00",
+      "lastSuccess": "2026-11-07T16:28:13+08:00",
       "sourceValidators": {},
-      "lastAttempt": "2026-10-25T11:01:08+08:00",
-      "result": "updated",
-      "reason": "來源頭像內容改變",
+      "lastAttempt": "2026-11-07T16:28:13+08:00",
+      "result": "unchanged",
+      "reason": "像素內容相同或僅有輕微轉碼差異",
       "qualityChecks": [
         {
           "source": "https://www.facebook.com/meoweatmeow/",
           "platform": "facebook",
-          "imageUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/406976333_851443246986720_1603270059396060247_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1ebt_PPzL-sQ7kNvwFJhqcV&_nc_oc=Adq9Ei1a5qvlWgXtpH0ncfclayhAcTxFCFcohApx7C3NFUbUyiO5-3gfnhlBb62TmtY&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=sLopkD3A6sJI8425JTuUgQ&_nc_ss=7320f&oh=00_AQMumPMHijXjrGBywr-0BI7ZMCL1D7Md11UbeVbRcfGUOg&oe=6AE358D9",
+          "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/406976333_851443246986720_1603270059396060247_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1vq3tnM6D68Q7kNvwFUaJ6g&_nc_oc=AdrnJEAa-lVDWf-xhYQK65Q9M5A1D2zb6SDh_P-8t6SlSDS1tA9tMkYi7xzGbVzLmKc&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=f-P6wHJj0-7PY9292_J8yg&_nc_ss=7920f&oh=00_AQS2NflTgB_M9H4WMKMqQwSnTM2Ui2Hc_4EvAdxG-3FjRg&oe=6AF4B499",
           "size": [
             720,
             720
