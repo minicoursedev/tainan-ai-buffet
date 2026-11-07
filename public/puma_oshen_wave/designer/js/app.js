@@ -21,6 +21,11 @@ let walk = null;
 let list = null;
 let map = null;
 
+function finishBoot() {
+  document.documentElement.classList.remove('designer-booting');
+  if (!$('stage-walk').hidden) walk?.resize();
+}
+
 // three pages share the header tabs: 逛場子 (walk), 設計師列表 (list), 設計師地圖 (map)
 function setMode(mode, opts = {}) {
   $('stage-walk').hidden = mode !== 'walk';
@@ -68,6 +73,7 @@ function wireDialogs() {
 async function boot() {
   wireDialogs();
   wireFloatingNav();
+  $('designer-loading-retry')?.addEventListener('click', () => location.reload());
 
   // opening period: closed means the 休市 screen only, nothing else loads
   await loadSchedule();
@@ -78,6 +84,7 @@ async function boot() {
     closed = true;
     tag.textContent = '已休市'; tag.hidden = false;
     showClosed();
+    finishBoot();
   };
   if (isClosed()) return close();
   const tick = () => {
@@ -172,9 +179,16 @@ async function boot() {
   window.addEventListener('hashchange', () => route());
   await route({ boot: true });
   updateStatus();
+  finishBoot();
 }
 
 boot().catch(err => {
   console.error(err);
+  const message = $('designer-loading-message'), retry = $('designer-loading-retry');
+  if (message) {
+    message.textContent = '市集載入失敗，請重新載入。';
+    message.classList.remove('designer-loading-sr');
+  }
+  if (retry) retry.hidden = false;
   toast('載入失敗，請重新整理再試一次');
 });

@@ -13,6 +13,9 @@ const sitemap = read('dist/sitemap.xml');
 const escape = value => value.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
 const exhibitionImage = 'https://minicourse.dev/puma_oshen_wave/designer/assets/exhibition-og.png?v=19f09d0c7c56f7bd';
 assert(home.includes(`<meta property="og:image" content="${exhibitionImage}">`), 'Exhibition share image must remain unchanged');
+assert(home.includes('id="stage-loading"'), 'Entry must provide a loading state before routing');
+assert(home.includes("classList.add('designer-booting')"), 'Entry must hide the fallback list before the first paint');
+assert(!/<html[^>]*data-designer-profile/.test(home), 'Entry must start in loading mode');
 let count = 0;
 for (const designer of raw.designers) {
   const path = designerPath(designer.id);
@@ -23,6 +26,7 @@ for (const designer of raw.designers) {
   }
   count++;
   const html = read(`dist${path}index.html`);
+  assert(html.includes(`data-designer-profile="${designer.id}"`), 'Direct profiles must keep their static content while booting');
   const og = await renderDesignerOg(designer);
   const previewImage = og?.url || exhibitionImage;
   assert.equal((html.match(/property="og:image"/g) || []).length, 1, `Expected one explicit OG image: ${designer.id}`);

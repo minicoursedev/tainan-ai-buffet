@@ -11,9 +11,24 @@ const shareImage = designer?.og?.url || exhibitionImage;
 const shareImageAlt = designer?.og?.alt || '洋流設計師展逛攤畫面';
 ---
 <!doctype html>
-<html lang="zh-Hant-TW">
+<html lang="zh-Hant-TW" data-designer-profile={designer?.id}>
 <head>
 <meta charset="utf-8">
+<script is:inline>
+  if (!document.documentElement.hasAttribute('data-designer-profile')) {
+    document.documentElement.classList.add('designer-booting');
+  }
+</script>
+<style is:global>
+  #stage-loading { display: none; min-height: 0; flex-direction: column; align-items: center; justify-content: center; gap: 16px; background: var(--paper-2); text-align: center; }
+  #stage-loading img { display: block; width: min(600px, calc(100% - 32px)); height: auto; max-height: calc(100svh - 150px); object-fit: contain; }
+  #stage-loading p { margin: 0; color: var(--green-deep); font-weight: 700; }
+  #stage-loading .designer-loading-sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+  html.designer-booting #stage-loading { display: flex; }
+  html.designer-booting #stage-walk,
+  html.designer-booting #stage-list,
+  html.designer-booting #stage-map { display: none !important; }
+</style>
 <script is:inline defer src="/assets/analytics.js?v=20261019-content-group"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{title}</title>
@@ -66,6 +81,11 @@ const shareImageAlt = designer?.og?.alt || '洋流設計師展逛攤畫面';
     </nav>
   </details>
 
+  <main id="stage-loading" aria-label="載入市集">
+    {!designer && <img src="/puma_oshen_wave/designer/assets/loading-market-v1.webp?v=a8357891a028f24f" width="960" height="640" alt="" fetchpriority="high" decoding="async" />}
+    <p id="designer-loading-message" class="designer-loading-sr" role="status">設計師市集，載入中，馬上來</p>
+    <button id="designer-loading-retry" type="button" class="btn" hidden>重新載入</button>
+  </main>
   <main class="stage" id="stage-walk" hidden>
     <canvas id="walk-canvas" tabindex="0" aria-label="逛場子畫面：按住拖著小人走，點設計師即可查看介紹"></canvas>
     <button type="button" class="where" id="btn-where"><b id="where-hall">設計師館</b><span id="where-aisle"></span><span class="where-switch">換館</span></button>
@@ -100,6 +120,6 @@ const shareImageAlt = designer?.og?.alt || '洋流設計師展逛攤畫面';
   </div>
 </dialog>
 
-<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261106-designer-share"></script>
+<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261107-entry-loading-art"></script>
 </body>
 </html>
