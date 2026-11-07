@@ -1,8 +1,8 @@
 /* Designer dialog, catalogue images and share controls. */
 
 /* ---------- booth dialog ---------- */
-.bo-head { position: relative; flex: none; align-items: center; justify-content: center; padding-inline: 64px; background: var(--paper); }
-.bo-identity { display: flex; align-items: center; justify-content: center; gap: 12px; width: 100%; min-width: 0; }
+.bo-head { position: relative; flex: none; align-items: center; justify-content: flex-start; padding-inline: 16px 64px; background: var(--paper); }
+.bo-identity { display: flex; align-items: center; justify-content: flex-start; gap: 12px; width: 100%; min-width: 0; }
 .bo-head > .dlg-close { position: absolute; right: 16px; top: 50%; margin-left: 0; transform: translateY(-50%); }
 .bo-avatar {
   flex: none; width: 56px; height: 56px; border: 2.5px solid var(--line); border-radius: 50%; overflow: hidden;
@@ -12,12 +12,7 @@
 .bo-avatar-contain { border-radius: 4px; }
 .bo-avatar-contain img { object-fit: contain; }
 .bo-avatar-none { background-color: var(--paper); background-image: var(--tone); }
-.bo-title { min-width: 0; flex: 0 1 auto; text-align: center; }
-@media (orientation: portrait) {
-  .bo-head { padding-inline: 16px 64px; }
-  .bo-identity { justify-content: flex-start; }
-  .bo-title { text-align: left; }
-}
+.bo-title { min-width: 0; flex: 0 1 auto; text-align: left; }
 .bo-title h1, .bo-title h2 { margin: 0; font-size: 20px; overflow-wrap: anywhere; }
 .bo-breadcrumbs { flex: none; padding: 10px 16px; font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
 .bo-breadcrumbs a { color: var(--green-deep); }
