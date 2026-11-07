@@ -6443,18 +6443,19 @@
         "sources": [
           "https://www.threads.com/@meet.the.old.house.coffee",
           "https://www.instagram.com/meet.the.old.house.coffee/",
-          "https://www.facebook.com/meet.the.old.house.coffee/"
+          "https://www.facebook.com/meet.the.old.house.coffee/",
+          "https://www.khafterparty.tw/Store/Detail/VKgmOlwO2nxA?cateId=33"
         ],
-        "checkedAt": "2026-10-24",
-        "auditNote": "查證子代理與主代理直接讀取官方社群公開自介：Threads及Instagram列11點–17點、17點最後收客及點餐；Facebook列11:00–17:30、最後點餐17:00。打烊時間有差異，故標為unverified，不填定關店時間。公休日以官方Google地圖為準，不推定固定每週營業日；未採2023年食記的10:00–18:00、週二公休或商圈頁的部分營業日。"
+        "checkedAt": "2026-11-07",
+        "auditNote": "先前查證官方社群公開自介：Threads及Instagram列11點–17點、17點最後收客及點餐；Facebook列11:00–17:30、最後點餐17:00。2026-11-07核對高雄商圈店家頁，列11點–17點、17點最後收客及點餐，公休日以Google地圖為準。打烊時間仍有差異，故標為unverified，不填定關店時間，也不推定固定每週營業日。"
       },
       "shopPhoto": {
         "url": "https://minicourse.dev/puma_oshen_wave/assets/meet-the-old-house-coffee/logo.webp?v=cbeb591c45475225",
         "source": "https://www.facebook.com/meet.the.old.house.coffee/",
         "platform": "facebook",
         "status": "verified",
-        "checkedAt": "2026-10-25",
-        "note": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。",
+        "checkedAt": "2026-11-07",
+        "note": "官方 Facebook 公開頁名稱與店家相符；個人檔案登入提示圖與頁面明示圖片為同一檔案，原始圖片回應正常，尺寸 720 × 720；未更改圖片網址尺寸參數。",
         "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/meet-the-old-house-coffee.png?v=3405ad7fc27f3768"
       },
       "disabled": false,
