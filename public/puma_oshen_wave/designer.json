@@ -3955,6 +3955,61 @@
         "checkedAt": "2026-11-07",
         "note": "Threads 無法確認可讀取的官方頭像"
       }
+    },
+    {
+      "id": "moonshow",
+      "name": "林麓",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/moonshow/1.webp?v=e7ff75a539f3fcb8",
+          "alt": "林麓作品照片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/moonshow/1.webp?v=e7ff75a539f3fcb8",
+          "checkedAt": "2026-11-07",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568451146891141202/892091364_17918110641531992_385970288161251428_n.png?ex=6aefdd75&is=6aee8bf5&hm=2c6e19eb217b76003ac9d082cf7f2bfa4eba0e2a960dc52ea878429fa48554e9&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/moonshow/2.webp?v=5f50780753ebf997",
+          "alt": "林麓作品照片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/moonshow/2.webp?v=5f50780753ebf997",
+          "checkedAt": "2026-11-07",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568451147243724831/886340638_17918110659531992_2280971021967484783_n.png?ex=6aefdd75&is=6aee8bf5&hm=ed76687e020d6a506f9f9aa258cf02923cd44cee337728d1eb6715c4388a78cf&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/moonshow/3.webp?v=72a83f8752c2f5d3",
+          "alt": "林麓作品照片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/moonshow/3.webp?v=72a83f8752c2f5d3",
+          "checkedAt": "2026-11-07",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568451147616886906/886895023_17917969860531992_6394606158285200413_n.png?ex=6aefdd76&is=6aee8bf6&hm=fd30cc6bfac1745311d98209d28e5bf32273cd91f72d9f3874c4b9a5834c635a&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/moonshow/4.webp?v=6b18d3eb00f9b91c",
+          "alt": "林麓作品照片 4",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/moonshow/4.webp?v=6b18d3eb00f9b91c",
+          "checkedAt": "2026-11-07",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568451148044828702/886677184_17917804710531992_3872690627229344774_n.png?ex=6aefdd76&is=6aee8bf6&hm=c9c2f3e0d30f01823cca22c240706e1c55cbe589cedc5b45caece1b5f98ac57c&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@moonshow___",
+        "ig": "https://www.instagram.com/moonshow___/",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/moonshow/logo.webp?v=0f8addf78349c7fb",
+        "source": "https://www.threads.com/@moonshow___",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-07",
+        "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/892892323_17918233602531992_1282169928996834970_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=o63f86iO0bEQ7kNvwFL_si8&_nc_oc=AdrDGV7tg_-XOMBW_pSazlQ1qpDSURbHVcE44AZ1HRlR29OyMjNT7SnaOo0QemR25Sc&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=X-5y2THTgpEzexmm5IPIkA&_nc_ss=7920f&oh=00_AQSbAyWYsPZ6P-83AqTdWeiXUN_8OAxag0yHFM7s-FjpLA&oe=6AF46419"
+      }
     }
   ]
 }
