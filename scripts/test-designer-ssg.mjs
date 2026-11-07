@@ -14,6 +14,8 @@ const sitemap = read('dist/sitemap.xml');
 const previewManifest = JSON.parse(read('dist/puma_oshen_wave/designer/og-images.json'));
 const runtimeCatalogue = createCatalogue(raw, { ogImages: previewManifest });
 const escape = value => value.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+const unescape = value => value.replace(/&(amp|lt|gt|quot|apos|#39|#x27);/g,
+  (_, entity) => ({ amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", '#39': "'", '#x27': "'" })[entity]);
 const exhibitionImage = 'https://minicourse.dev/puma_oshen_wave/designer/assets/exhibition-og.png?v=19f09d0c7c56f7bd';
 assert(home.includes(`<meta property="og:image" content="${exhibitionImage}">`), 'Exhibition share image must remain unchanged');
 assert(home.includes('id="stage-loading"'), 'Entry must provide a loading state before routing');
@@ -66,7 +68,9 @@ for (const designer of raw.designers) {
   assert.equal(page.inLanguage, 'zh-Hant-TW');
   assert(html.includes(`<title>${escape(page.name)}</title>`), 'Structured title must match the visible page metadata');
   if (designer.description?.trim()) {
-    assert(html.includes(`<meta name="description" content="${escape(page.description)}">`), 'Structured description must match meta description');
+    const attribute = html.match(/<meta name="description" content="([^"]*)">/);
+    assert(attribute, `Missing meta description: ${designer.id}`);
+    assert.equal(unescape(attribute[1]), page.description, `Structured description must match meta description: ${designer.id}`);
   } else {
     assert(!html.includes('<meta name="description"') && !html.includes('property="og:description"') && !html.includes('name="twitter:description"'), 'Missing biographies must not generate generic summaries');
     assert(!('description' in page) && !('description' in entity));

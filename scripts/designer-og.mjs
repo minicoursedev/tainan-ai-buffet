@@ -50,6 +50,8 @@ async function biographyLines(description) {
   if (!/[，。；！？]/u.test(description)) return description;
   const widths = new Map();
   async function fits(text) {
+    // Direction marks alone have no visible width and cannot be rasterized by Pango.
+    if (!/[^\p{Cf}\s]/u.test(text)) return true;
     if (!widths.has(text)) {
       const result = await sharp({ text: {
         text: escape(text), font: 'Noto Sans TC 40',

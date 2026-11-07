@@ -94,6 +94,15 @@ test('long multilingual text fits the card and markup-like input stays literal',
   assert.equal(sentences.biography.renderedText, '第一段。\n第二段。', 'Do not add blank lines after existing sentence breaks');
 });
 
+test('biographies with trailing direction marks render without changing their text', async () => {
+  const f = await fixture(256, 256);
+  f.row.description = '\u200e你發現了一隻野生的繪師ฅ^•ﻌ•^ฅ\n說我1450的請先匯給我1450再說不遲。\u200e';
+  const image = await renderDesignerOg(f.row, f);
+  assert.deepEqual([image.width, image.height], [1200, 630]);
+  assert.equal(image.biography.text, f.row.description);
+  assert.equal(image.biography.renderedText.replace(/\s/g, ''), f.row.description.replace(/\s/g, ''));
+});
+
 test('build emits only active authors and never changes source data or source images', async () => {
   const f = await fixture(256, 256);
   const rows = [f.row, { ...f.row, id: 'disabled', disabled: true }];
