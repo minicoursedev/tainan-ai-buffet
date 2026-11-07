@@ -5500,24 +5500,24 @@
         "last-modified": "Thu, 07 Jul 2022 05:09:51 GMT"
       },
       "source": "https://www.facebook.com/meet.the.old.house.coffee/",
-      "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/292098046_117560840988402_505332733803147224_n.jpg?stp=dst-jpg_tt6&cstp=mx958x958&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5mDJiGDgcOkQ7kNvwH2w70O&_nc_oc=Ado1Gt_6F3WfXpmKmNsBMKGDm3wdlaefhBvZ-XIcjq20trN6edzVvDIRymFFHraF0Tw&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=ohRbZYvl3q1a8zuOpEYkIg&_nc_ss=7320f&oh=00_AQPz4q7-auOQwK0PXFKoF_d8fnb8yiBg0sqF0iFHqS03-w&oe=6AE34379",
-      "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
+      "imageUrl": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/292098046_117560840988402_505332733803147224_n.jpg?stp=dst-jpg_tt6&cstp=mx958x958&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QVdh1Q16NGsQ7kNvwGL1so0&_nc_oc=AdpDF2hZeiIT_fXzgYsuMnB8FD2p26nJVgHILmvb_4AYNJMpAhpcFS8-VWuEWHhUFEM&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=DUCeQdbnBo0X0oOqQ6Sjbg&_nc_ss=7920f&oh=00_AQSB-wgPAfdvws-xwSsETGgWiR9BBL-fVsW-mjieQVYo1g&oe=6AF50FB9",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；癒見老宅咖啡 | Kaohsiung ",
       "filename": "meet-the-old-house-coffee/logo.webp",
-      "lastSuccess": "2026-10-25T11:03:05+08:00",
+      "lastSuccess": "2026-11-07T21:35:41+08:00",
       "sourceValidators": {},
-      "lastAttempt": "2026-10-25T11:03:05+08:00",
-      "result": "updated",
-      "reason": "取得較高解析度官方頭像",
+      "lastAttempt": "2026-11-07T21:35:41+08:00",
+      "result": "unchanged",
+      "reason": "像素內容相同或僅有輕微轉碼差異",
       "qualityChecks": [
         {
           "source": "https://www.facebook.com/meet.the.old.house.coffee/",
           "platform": "facebook",
-          "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/292098046_117560840988402_505332733803147224_n.jpg?stp=dst-jpg_tt6&cstp=mx958x958&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5mDJiGDgcOkQ7kNvwH2w70O&_nc_oc=Ado1Gt_6F3WfXpmKmNsBMKGDm3wdlaefhBvZ-XIcjq20trN6edzVvDIRymFFHraF0Tw&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=ohRbZYvl3q1a8zuOpEYkIg&_nc_ss=7320f&oh=00_AQPz4q7-auOQwK0PXFKoF_d8fnb8yiBg0sqF0iFHqS03-w&oe=6AE34379",
+          "imageUrl": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/292098046_117560840988402_505332733803147224_n.jpg?stp=dst-jpg_tt6&cstp=mx958x958&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QVdh1Q16NGsQ7kNvwGL1so0&_nc_oc=AdpDF2hZeiIT_fXzgYsuMnB8FD2p26nJVgHILmvb_4AYNJMpAhpcFS8-VWuEWHhUFEM&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=DUCeQdbnBo0X0oOqQ6Sjbg&_nc_ss=7920f&oh=00_AQSB-wgPAfdvws-xwSsETGgWiR9BBL-fVsW-mjieQVYo1g&oe=6AF50FB9",
           "size": [
             720,
             720
           ],
-          "evidence": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數",
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；癒見老宅咖啡 | Kaohsiung ",
           "result": "sufficient"
         }
       ],
