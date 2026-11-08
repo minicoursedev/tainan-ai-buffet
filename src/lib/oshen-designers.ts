@@ -22,5 +22,5 @@ export const designers = await Promise.all(data.designers.filter(designer => des
   }
   const image = await renderDesignerOg(designer);
   const og = image ? { url: image.url, width: image.width, height: image.height, type: image.type, alt: image.alt } : null;
-  return { id: designer.id, name: designer.name, hallName: aisle.hallName, booth, store, og };
+  return { id: designer.id, name: designer.name, hallCode: aisle.hall, hallName: aisle.hallName, booth, store, og };
 }));

@@ -2,10 +2,10 @@
 // Fill each card’s logo and product images as it scrolls into view.
 import { state, toast, findBoothIn } from '../state.js';
 import { loadSearch, loadAisle, aisleOfBooth } from '../data.js?v=20261108-amateur-hall';
-import { goToBooth } from '../nav.js?v=20261108-hall-passages';
-import { openBooth } from './booth.js?v=20261108-hall-passages';
+import { goToBooth } from '../nav.js?v=20261108-amateur-og';
+import { openBooth } from './booth.js?v=20261108-amateur-og';
 import { thumbnailUrl, retryOriginal } from '../images.js';
-import { designerPath } from '../routes.js?v=20261107-og-1200';
+import { designerPath } from '../routes.js?v=20261108-amateur-og';
 
 const PAGE = 60;
 const TYPES = ['漫畫', '插圖', '小說', '攝影', '有聲'];

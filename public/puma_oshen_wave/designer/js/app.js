@@ -1,17 +1,17 @@
 // Boot and wiring: header, dock, walk view, dialogs, list and map pages, routes (#/walk/<aisle or booth>, #/list, #/map).
 import { state, on, emit, visitedCount, toast } from './state.js';
 import { loadIndex, aisleOfBooth, loadBoothForDesigner } from './data.js?v=20261108-amateur-hall';
-import { goToAisle } from './nav.js?v=20261108-hall-passages';
+import { goToAisle } from './nav.js?v=20261108-amateur-og';
 import { createWalkView } from './walk.js?v=20261108-hall-signs';
 import { wireFloatingNav } from './floating-nav.js';
-import { openBooth } from './ui/booth.js?v=20261108-hall-passages';
-import { mountMap } from './ui/map.js?v=20261108-hall-passages';
-import { mountList } from './ui/list.js?v=20261108-hall-passages';
+import { openBooth } from './ui/booth.js?v=20261108-amateur-og';
+import { mountMap } from './ui/map.js?v=20261108-amateur-og';
+import { mountList } from './ui/list.js?v=20261108-amateur-og';
 import { loadSchedule, isClosed, closeTagText, msLeft, lastOpenLabel } from './schedule.js?v=20261030-site-data';
 import { loadCats, loadChatter } from './cats.js?v=20261030-site-data';
 import { showClosed } from './ui/closed.js';
 
-import { designerRoot, updateDesignerMetadata, resolveDesignerRoute } from './routes.js?v=20261107-og-1200';
+import { designerHallRoot, designerWalkPath, hallPageForPath, updateDesignerMetadata, resolveDesignerRoute } from './routes.js?v=20261108-amateur-og';
 
 const $ = id => document.getElementById(id);
 const BOOTH_ID = /^[A-Z]\d{2}-\d{2}$/;
@@ -35,19 +35,19 @@ function setMode(mode, opts = {}) {
   if (mode === 'list') {
     list ||= mountList($('stage-list'));
     list.show();
-    history.replaceState(null, '', `${designerRoot}#/list`);
+    history.replaceState(null, '', `${designerHallRoot(state.hallCode)}#/list`);
     updateDesignerMetadata();
   } else list?.hide();
   if (mode === 'map') {
     const firstVisit = !map; // The first visit shows the hall overview.
     map ||= mountMap($('stage-map'));
     map.show({ hall: state.hallCode, overview: firstVisit, ...opts });
-    history.replaceState(null, '', `${designerRoot}#/map`);
+    history.replaceState(null, '', `${designerHallRoot(state.hallCode)}#/map`);
     updateDesignerMetadata();
   }
   if (mode === 'walk') {
     walk?.resize();
-    if (state.aisleCode && !location.hash.startsWith('#/walk/')) history.replaceState(null, '', `${designerRoot}#/walk/${state.aisleCode}`);
+    if (state.aisleCode && !location.hash.startsWith('#/walk/')) history.replaceState(null, '', designerWalkPath(state.aisleCode));
   }
 }
 
@@ -156,7 +156,8 @@ async function boot() {
   // Shared links use #/designer/<id>; resolve the current booth after catalogue updates.
   // Also support #/walk/<aisle or booth>, #/walk/<booth>/open, #/list and #/map.
   // Links pasted into the address bar arrive as hashchange.
-  const first = state.index.halls.find(h => h.code === 'O').aisles[0].code;
+  const entryHall = hallPageForPath(location.pathname)?.code || 'O';
+  const first = state.index.halls.find(h => h.code === entryHall).aisles[0].code;
   async function route({ boot = false } = {}) {
     const { mode, target, then } = resolveDesignerRoute(new URL(location.href), { boot });
     if (mode === 'list' || mode === 'map') { if (boot) await goToAisle(first); setMode(mode); return; }

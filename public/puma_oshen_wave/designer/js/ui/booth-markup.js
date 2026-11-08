@@ -1,5 +1,5 @@
 import { thumbnailUrl } from '../images.js';
-import { designerBoothUrl } from '../routes.js?v=20261107-og-1200';
+import { designerBoothUrl } from '../routes.js?v=20261108-amateur-og';
 import { designerMetadata } from '../profile-seo.js';
 
 const ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };

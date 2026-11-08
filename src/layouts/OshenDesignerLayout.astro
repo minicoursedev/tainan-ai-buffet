@@ -2,16 +2,19 @@
 import { designers, designerRoot, designerPath } from '../lib/oshen-designers';
 import { boothHtml } from '../../public/puma_oshen_wave/designer/js/ui/booth-markup.js';
 import { designerMetadata, designerStructuredData, serializeStructuredData } from '../../public/puma_oshen_wave/designer/js/profile-seo.js';
-interface Props { designerId?: string }
+import { hallPageForCode } from '../../public/puma_oshen_wave/designer/js/hall-pages.js';
+interface Props { designerId?: string; hallCode?: string }
 const designer = designers.find(profile => profile.id === Astro.props.designerId);
+const hall = designer ? null : hallPageForCode(Astro.props.hallCode);
+const listedDesigners = hall ? designers.filter(profile => profile.hallCode === hall.code) : designers;
 const metadata = designer && designerMetadata(designer.store);
-const title = metadata ? metadata.title : '洋流設計師｜探索設計師、創作作品與線上市集';
-const description = metadata ? metadata.description : '走進洋流設計師線上市集，瀏覽設計師介紹、創作作品與官方社群。透過設計師列表、地圖與互動攤位，找到喜歡的創作者。';
-const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, Astro.site).href;
+const title = metadata ? metadata.title : hall?.title || '洋流設計師｜探索設計師、創作作品與線上市集';
+const description = metadata ? metadata.description : hall?.description || '走進洋流設計師線上市集，瀏覽設計師介紹、創作作品與官方社群。透過設計師列表、地圖與互動攤位，找到喜歡的創作者。';
+const canonical = new URL(designer ? designerPath(designer.id) : hall?.path || designerRoot, Astro.site).href;
 const structuredData = designer && designerStructuredData(designer.store, designer.booth, canonical, new URL(designerRoot, Astro.site).href);
 const exhibitionImage = new URL('/puma_oshen_wave/designer/assets/exhibition-og.png?v=19f09d0c7c56f7bd', Astro.site).href;
-const shareImage = designer?.og?.url || exhibitionImage;
-const shareImageAlt = designer?.og?.alt || '洋流設計師展逛攤畫面';
+const shareImage = designer?.og?.url || hall?.image || exhibitionImage;
+const shareImageAlt = designer?.og?.alt || hall?.alt || '洋流設計師展逛攤畫面';
 ---
 <!doctype html>
 <html lang="zh-Hant-TW" data-designer-profile={designer?.id}>
@@ -47,10 +50,10 @@ const shareImageAlt = designer?.og?.alt || '洋流設計師展逛攤畫面';
 {description && <meta property="og:description" content={description}>}
 <meta property="og:image" content={shareImage}>
 <meta property="og:image:alt" content={shareImageAlt}>
-<meta property="og:image:type" content={designer?.og?.type || 'image/png'}>
-<meta property="og:image:width" content={designer?.og?.width || 2622}>
-<meta property="og:image:height" content={designer?.og?.height || 1206}>
-<meta name="twitter:card" content="summary">
+<meta property="og:image:type" content={designer?.og?.type || hall?.type || 'image/png'}>
+<meta property="og:image:width" content={designer?.og?.width || hall?.width || 2622}>
+<meta property="og:image:height" content={designer?.og?.height || hall?.height || 1206}>
+<meta name="twitter:card" content={hall ? 'summary_large_image' : 'summary'}>
 <meta name="twitter:title" content={title}>
 {description && <meta name="twitter:description" content={description}>}
 <meta name="twitter:image" content={shareImage}>
@@ -102,7 +105,7 @@ const shareImageAlt = designer?.og?.alt || '洋流設計師展逛攤畫面';
   </main>
 
   <main class="list-mode" id="stage-list"><div class="ls-wrap">
-  {designer ? <article id="static-designer-profile" aria-label={designer.name} set:html={boothHtml(designer.booth, designer.store, { profile: true, staticProfile: true })} /> : <><h1 class="ls-title">設計師列表</h1><div class="ls-grid">{designers.map(profile => <article class="lc"><div class="lc-heading"><h3 class="lc-name"><a class="lc-open" href={designerPath(profile.id)}>{profile.name}</a></h3></div><p class="lc-owner">{profile.store.category} {profile.name}</p><p class="lc-zone">{profile.hallName}・{profile.store.category}</p><a class="btn lc-go" href={designerPath(profile.id)}>看{profile.store.category}</a></article>)}</div></>}
+  {designer ? <article id="static-designer-profile" aria-label={designer.name} set:html={boothHtml(designer.booth, designer.store, { profile: true, staticProfile: true })} /> : <><h1 class="ls-title">{hall?.name || '設計師列表'}</h1><div class="ls-grid">{listedDesigners.map(profile => <article class="lc"><div class="lc-heading"><h3 class="lc-name"><a class="lc-open" href={designerPath(profile.id)}>{profile.name}</a></h3></div><p class="lc-owner">{profile.store.category} {profile.name}</p><p class="lc-zone">{profile.hallName}・{profile.store.category}</p><a class="btn lc-go" href={designerPath(profile.id)}>看{profile.store.category}</a></article>)}</div></>}
   </div></main>
   <main class="map-mode" id="stage-map" hidden></main>
   <footer class="app-footer">
@@ -124,6 +127,6 @@ const shareImageAlt = designer?.og?.alt || '洋流設計師展逛攤畫面';
   </div>
 </dialog>
 
-<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261108-hall-signs"></script>
+<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261108-amateur-og"></script>
 </body>
 </html>

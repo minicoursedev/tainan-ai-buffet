@@ -6,7 +6,9 @@ import { state } from '../public/puma_oshen_wave/designer/js/state.js';
 import { boothHtml } from '../public/puma_oshen_wave/designer/js/ui/booth-markup.js';
 import { renderDesignerOg } from './designer-og.mjs';
 import sharp from 'sharp';
-import { designerPath, designerBoothUrl, resolveDesignerRoute } from '../public/puma_oshen_wave/designer/js/routes.js';
+import { createHash } from 'node:crypto';
+import { designerPath, designerBoothUrl, resolveDesignerRoute, designerWalkPath } from '../public/puma_oshen_wave/designer/js/routes.js';
+import { hallPages } from '../public/puma_oshen_wave/designer/js/hall-pages.js';
 import { designerMetadata, designerStructuredData, serializeStructuredData } from '../public/puma_oshen_wave/designer/js/profile-seo.js';
 const read = path => readFileSync(path, 'utf8');
 const raw = JSON.parse(read('public/puma_oshen_wave/designer.json'));
@@ -23,6 +25,35 @@ assert(home.includes(`<meta property="og:image" content="${exhibitionImage}">`),
 assert(home.includes('id="stage-loading"'), 'Entry must provide a loading state before routing');
 assert(home.includes("classList.add('designer-booting')"), 'Entry must hide the fallback list before the first paint');
 assert(!/<html[^>]*data-designer-profile/.test(home), 'Entry must start in loading mode');
+const amateurHall = hallPages.find(hall => hall.code === 'A');
+const amateurUrl = `https://minicourse.dev${amateurHall.path}`;
+const amateurHtml = read(`dist${amateurHall.path}index.html`);
+assert(amateurHtml.includes(`<title>${amateurHall.title}</title>`));
+assert(amateurHtml.includes(`<link rel="canonical" href="${amateurUrl}">`));
+assert(amateurHtml.includes(`<meta property="og:url" content="${amateurUrl}">`));
+assert.equal((amateurHtml.match(/property="og:image"/g) || []).length, 1);
+assert(amateurHtml.includes(`<meta property="og:image" content="${amateurHall.image}">`));
+assert(amateurHtml.includes(`<meta name="twitter:image" content="${amateurHall.image}">`));
+assert(amateurHtml.includes('<meta name="twitter:card" content="summary_large_image">'));
+assert(sitemap.includes(`<loc>${amateurUrl}</loc>`));
+const amateurImageUrl = new URL(amateurHall.image);
+const amateurImage = readFileSync(`dist${amateurImageUrl.pathname}`);
+const amateurDimensions = await sharp(amateurImage).metadata();
+assert.deepEqual([amateurDimensions.width, amateurDimensions.height], [1200, 630]);
+assert(amateurImage.length <= 100000);
+assert.equal(amateurImageUrl.searchParams.get('v'), createHash('sha256').update(amateurImage).digest('hex').slice(0, 16));
+for (const author of raw.designers) {
+  const shouldList = author.disabled !== true && author.category === '愛好者';
+  assert.equal(amateurHtml.includes(`href="${designerPath(author.id)}"`), shouldList, `Wrong hall directory entry: ${author.id}`);
+}
+assert.deepEqual(resolveDesignerRoute(new URL(amateurUrl), { boot: true }), { mode: 'walk', target: 'A01', then: undefined });
+assert.equal(resolveDesignerRoute(new URL(amateurUrl + '#/list'), { boot: true }).mode, 'list');
+assert.equal(designerWalkPath('A01'), amateurHall.path);
+assert.equal(designerWalkPath('A02'), `${amateurHall.path}#/walk/A02`);
+assert.equal(designerWalkPath('A01', 'A01-03'), `${amateurHall.path}#/walk/A01-03`);
+assert.equal(designerWalkPath('O01'), '/puma_oshen_wave/designer/#/walk/O01');
+assert.equal(designerBoothUrl('yang-liu', amateurUrl), 'https://minicourse.dev/puma_oshen_wave/designer/profiles/yang-liu/');
+console.log('Verified independent amateur hall URL, static OG image, sitemap, hall directory and legacy routes.');
 let count = 0;
 for (const designer of raw.designers) {
   const path = designerPath(designer.id);
