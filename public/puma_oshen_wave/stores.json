@@ -16430,12 +16430,12 @@
         "auditNote": "官方頁公開簡介未列固定營業時段。"
       },
       "shopPhoto": {
-        "url": "",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/so-what/logo.webp?v=9b8ff1407f8e4149",
         "source": "https://www.facebook.com/9478sowhat/",
         "platform": "facebook",
         "status": "verified",
         "checkedAt": "2026-11-08",
-        "note": "官方 Facebook 頁面 profile_photo 與公開 515 × 515 頭像版本為同一圖片；原始圖片回應為 image/jpeg。"
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；So What；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 515 × 515。"
       },
       "disabled": false,
       "latlng": {
