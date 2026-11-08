@@ -936,7 +936,8 @@
         "note": "官方 Threads 個人檔案頭像；已核對名稱 LiAn、帳號 fabliansohappy 與個人檔案頁面圖片，並確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/470917088_1256114148977303_8655405289533520509_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=H7PqNTmGEeMQ7kNvwGfi4Sq&_nc_oc=AdrYejwW-wcaigJCRLoENI_ZBBjkSKa1FExh_sf6e-sz1Hm5cp1pdUhzjmNkmTONgqE&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_ss=7f20f&oh=00_AQNZlWfLn6aKot3Nmx72jVNnoORJooI3uLwNCXBRgDDOIw&oe=6AE4A94C"
       },
-      "description": "廢文專區\n我要跟阿席達卡結婚"
+      "description": "廢文專區\n我要跟阿席達卡結婚",
+      "category": "愛好者"
     },
     {
       "id": "yuan-art-space",
@@ -2087,7 +2088,8 @@
         "checkedAt": "2026-10-27",
         "note": "官方 Threads 個人檔案頭像，已確認 HTTPS 圖片可讀取。",
         "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/433079021_840970697751220_1858138831033016355_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=ucTZwi5SzEQQ7kNvwGpad7X&_nc_oc=AdqW-4K1YFjkEc856cWurOZooSg9IcPl89IOM6HzvHcjr_B98F3bq2H_p3IqrdLD1jg&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=7f20f&oh=00_AQMgfpHkRdiNO2nbUr7ZqPICzfeWv2Ba1E4c3axSGqsnYQ&oe=6AE628C7"
-      }
+      },
+      "category": "愛好者"
     },
     {
       "id": "mousebearhello",
@@ -3445,7 +3447,8 @@
         "checkedAt": "2026-11-04",
         "note": "使用者指定為此設計師 Logo",
         "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567545048466460853/885274223_1122454003498702_6355451430436055190_n.png?ex=6aec9197&is=6aeb4017&hm=4417a33bf889ebda50102190b2b8fd17e5df91420e27d54764269a8836034015&"
-      }
+      },
+      "category": "愛好者"
     },
     {
       "id": "twczzn",
@@ -5123,7 +5126,7 @@
       "id": "qi-jun-1608",
       "name": "qi_jun_1608",
       "description": "",
-      "category": "設計師",
+      "category": "愛好者",
       "disabled": false,
       "verification": true,
       "productImages": [
