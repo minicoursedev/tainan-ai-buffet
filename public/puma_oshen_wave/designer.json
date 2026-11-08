@@ -5070,6 +5070,54 @@
       },
       "description": "",
       "category": "愛好者"
+    },
+    {
+      "id": "catsfang",
+      "name": "catsfang",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/catsfang/1.webp?v=ec7d9ae4287c9035",
+          "alt": "黑色布料上的橘色刺繡圖案",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/catsfang/1.webp?v=ec7d9ae4287c9035",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568831106608795708/886292603_17980194837140524_9104607305253967292_n.png?ex=6af13f53&is=6aefedd3&hm=cadd80fe407bfec0bed18cf929d5eb11cdac9937793b99f4bed05f1bb92c36da&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/catsfang/2.webp?v=132386bf80bbbffb",
+          "alt": "白色布料上的藍橘色刺繡圖案",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/catsfang/2.webp?v=132386bf80bbbffb",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568831107074629673/882288447_17980194858140524_7583655456302322864_n.png?ex=6af13f53&is=6aefedd3&hm=cd83bf7f7d8bdd1b269767062386b6bbebd14c221a6f02f5053a30d7dec7d4c3&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/catsfang/3.webp?v=09373d64ac41d281",
+          "alt": "白色提袋上的藍橘色刺繡圖案",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/catsfang/3.webp?v=09373d64ac41d281",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568831107842048050/882747307_17980194867140524_1332597504481223123_n.png?ex=6af13f53&is=6aefedd3&hm=6f5e50346f841fbc04fdad9a5408873c13cb83ec7e6f07c7015c17a6c31d0604&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@catsfang",
+        "ig": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "",
+        "source": "https://www.threads.com/@catsfang",
+        "platform": "threads",
+        "status": "unverified",
+        "checkedAt": "2026-11-08",
+        "note": "Threads HTTP 429"
+      },
+      "description": "",
+      "category": "愛好者"
     }
   ]
 }
