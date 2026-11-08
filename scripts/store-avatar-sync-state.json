@@ -12172,7 +12172,7 @@
         {
           "source": "https://www.threads.com/@maslowwalker?hl=zh-tw",
           "platform": "threads",
-          "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/358526709_277928214782574_2894430198421505551_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjEuYzIifQ&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFkP6ra7bIePaw_km-SHv184jxnYnvMcVd9cSSjxFHnYDkG4CiWAmlxl9KgIgPOHcc&_nc_ohc=3EuCnZ8HBEoQ7kNvwHwpRb-&_nc_gid=tLXbfmlJBJEGw6KixjzUEg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQTopWBqwTjtXpoTnhZjtDAXqIUC2RwWkMNkmCJENB0McA&oe=6AECBA49&_nc_sid=10d13b",
+          "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/358526709_277928214782574_2894430198421505551_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjEuYzIifQ&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gHOSx2bHWPjQgGFiu2bKb2AYQcT5xOIWWQ-nStnVhxhTKxe5JxRVeMQ7Zb4BIdQWf8&_nc_ohc=q49FNbXqPPYQ7kNvwFmbVur&_nc_gid=1iVQac9n4DkPATh0YeqMrw&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQQ-NyYoDZcEjfHEkddVlcueboWn-WgqK5W4JqXXmh4jjw&oe=6AF66549&_nc_sid=10d13b",
           "size": [
             320,
             320
@@ -12196,15 +12196,15 @@
         "last-modified": "Thu, 06 Jul 2023 12:18:56 GMT"
       },
       "source": "https://www.threads.com/@maslowwalker?hl=zh-tw",
-      "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/358526709_277928214782574_2894430198421505551_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjEuYzIifQ&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFkP6ra7bIePaw_km-SHv184jxnYnvMcVd9cSSjxFHnYDkG4CiWAmlxl9KgIgPOHcc&_nc_ohc=3EuCnZ8HBEoQ7kNvwHwpRb-&_nc_gid=tLXbfmlJBJEGw6KixjzUEg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQTopWBqwTjtXpoTnhZjtDAXqIUC2RwWkMNkmCJENB0McA&oe=6AECBA49&_nc_sid=10d13b",
+      "imageUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.2885-19/358526709_277928214782574_2894430198421505551_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjEuYzIifQ&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gHOSx2bHWPjQgGFiu2bKb2AYQcT5xOIWWQ-nStnVhxhTKxe5JxRVeMQ7Zb4BIdQWf8&_nc_ohc=q49FNbXqPPYQ7kNvwFmbVur&_nc_gid=1iVQac9n4DkPATh0YeqMrw&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQQ-NyYoDZcEjfHEkddVlcueboWn-WgqK5W4JqXXmh4jjw&oe=6AF66549&_nc_sid=10d13b",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；MASLOW WALKER 咖啡所（@maslowwalker） • Threads，暢所欲言；相同帳號公開資料 hd_profile_pic_versions",
       "filename": "maslow-walker-jiaoxi/logo.webp",
-      "lastSuccess": "2026-11-01T16:43:33+08:00",
+      "lastSuccess": "2026-11-08T23:53:26+08:00",
       "discoveryVersion": 3,
       "sourceValidators": {},
-      "lastAttempt": "2026-11-01T16:43:33+08:00",
-      "result": "updated",
-      "reason": "首次保存"
+      "lastAttempt": "2026-11-08T23:53:26+08:00",
+      "result": "unchanged",
+      "reason": "像素內容相同或僅有輕微轉碼差異"
     },
     "luny-tw": {
       "qualityChecks": [
@@ -12281,6 +12281,45 @@
       "discoveryVersion": 3,
       "sourceValidators": {},
       "lastAttempt": "2026-11-05T16:10:16+08:00",
+      "result": "updated",
+      "reason": "首次保存"
+    },
+    "so-what": {
+      "qualityChecks": [
+        {
+          "source": "https://www.facebook.com/9478sowhat/",
+          "platform": "facebook",
+          "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/408557824_759642662847523_22929347609817300_n.jpg?stp=dst-jpg_tt6&cstp=mx515x515&ctp=s515x515&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lzokiH3pAP8Q7kNvwGdBQtJ&_nc_oc=Adoe5Dv8IPJpBH4AXWPB2LftchBiTZJaFCttlk5D5B_KjaN6_xhDLqIAiJq5fGB5EiU&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=Ie0uT7uBOYz2LR0kNjlItw&_nc_ss=7920f&oh=00_AQShtlafWWd3waSC1rO3IzURZkfQOW5r7f6WP0EyBUDUHA&oe=6AF684E7",
+          "size": [
+            515,
+            515
+          ],
+          "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；So What",
+          "result": "sufficient"
+        }
+      ],
+      "sha256": "9b8ff1407f8e4149e6b8c48f62cf7c04f531d7e382fa306e9e2c971d0327b4ec",
+      "contentBox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "sourceSize": [
+        515,
+        515
+      ],
+      "imageValidators": {
+        "last-modified": "Sun, 10 Dec 2023 10:46:38 GMT"
+      },
+      "source": "https://www.facebook.com/9478sowhat/",
+      "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/408557824_759642662847523_22929347609817300_n.jpg?stp=dst-jpg_tt6&cstp=mx515x515&ctp=s515x515&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lzokiH3pAP8Q7kNvwGdBQtJ&_nc_oc=Adoe5Dv8IPJpBH4AXWPB2LftchBiTZJaFCttlk5D5B_KjaN6_xhDLqIAiJq5fGB5EiU&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=Ie0uT7uBOYz2LR0kNjlItw&_nc_ss=7920f&oh=00_AQShtlafWWd3waSC1rO3IzURZkfQOW5r7f6WP0EyBUDUHA&oe=6AF684E7",
+      "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；So What",
+      "filename": "so-what/logo.webp",
+      "lastSuccess": "2026-11-08T23:53:28+08:00",
+      "discoveryVersion": 3,
+      "sourceValidators": {},
+      "lastAttempt": "2026-11-08T23:53:28+08:00",
       "result": "updated",
       "reason": "首次保存"
     }
