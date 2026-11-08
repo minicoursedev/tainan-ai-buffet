@@ -4664,81 +4664,129 @@
       "verification": true,
       "productImages": [
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/1.webp?v=1a9cb4b40874d4b6",
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/1.webp?v=9870acc0b35f8ec4",
+          "alt": "波式速攻丨Poe Design 作品照片（本次提供第 1 張）",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/1.webp?v=9870acc0b35f8ec4",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815970703908874/01.JPG?ex=6af1313a&is=6aefdfba&hm=2db972d393f9afab7e44293f91af495ab97ee14e77cf46f1a89da21987e68f64&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/2.webp?v=1d6a7c6acb64abee",
+          "alt": "波式速攻丨Poe Design 作品照片（本次提供第 2 張）",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/2.webp?v=1d6a7c6acb64abee",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815971202760724/02.JPG?ex=6af1313a&is=6aefdfba&hm=acd37ab79885b7d39d0fb547ee54f9e161686eb5e31d6ebc542e1909435ce51d&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/3.webp?v=32c16e38bfb8dcea",
+          "alt": "波式速攻丨Poe Design 作品照片（本次提供第 3 張）",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/3.webp?v=32c16e38bfb8dcea",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815971647496212/T_shirt.png?ex=6af1313a&is=6aefdfba&hm=f8e7c78587dd63cfc068be0638d6316833c052eaed36068e5d875df6e5c1fae5&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/4.webp?v=d1036fe238668ff6",
+          "alt": "波式速攻丨Poe Design 作品照片（本次提供第 4 張）",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/4.webp?v=d1036fe238668ff6",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815972976959538/1fb815276797d814.png?ex=6af1313b&is=6aefdfbb&hm=0e0c47521f032acac08bd8ac1d7e88e8f451429fa5bed6eb2c62da4560f5f8ef&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/5.webp?v=57b39b38a37fd094",
+          "alt": "波式速攻丨Poe Design 作品照片（本次提供第 5 張）",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/5.webp?v=57b39b38a37fd094",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815973492981840/1b31f2b1002e94f7.png?ex=6af1313b&is=6aefdfbb&hm=1905902e599cdca795f1ed44f3886c7b19a3f59ac26f2f6fe24e2ce4949fd180&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/6.webp?v=66c51ee522d05257",
+          "alt": "波式速攻丨Poe Design 作品照片（本次提供第 6 張）",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/6.webp?v=66c51ee522d05257",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815975053402182/d9004ede54d53c2d.png?ex=6af1313b&is=6aefdfbb&hm=e5d852d0bca4694207ee4eca30e406e1001bc4b7f9caec23cf315af0d34a6fcb&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/7.webp?v=1a9cb4b40874d4b6",
           "alt": "波式速攻丨Poe Design 作品照片 1",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/1.webp?v=1a9cb4b40874d4b6",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/7.webp?v=1a9cb4b40874d4b6",
           "checkedAt": "2026-11-08",
           "note": "使用者提供，指定為此設計師作品照片",
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815882480783473/a06ada4e1a842345.png?ex=6af13125&is=6aefdfa5&hm=ccd2caaaee2c0ac9723bc23505200568441f40cd7678b66aa169b9ce19bef90f&"
         },
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/2.webp?v=9ff4ee0352e694e8",
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/8.webp?v=9ff4ee0352e694e8",
           "alt": "波式速攻丨Poe Design 作品照片 2",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/2.webp?v=9ff4ee0352e694e8",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/8.webp?v=9ff4ee0352e694e8",
           "checkedAt": "2026-11-08",
           "note": "使用者提供，指定為此設計師作品照片",
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815883214790798/ca8d142fe976c440.png?ex=6af13125&is=6aefdfa5&hm=e3fe7911c3b3c3edd134a6cc5911ff047cf67cdff24a8f8f6e96dbb3a065a0bd&"
         },
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/3.webp?v=bff1b911f4fa306d",
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/9.webp?v=bff1b911f4fa306d",
           "alt": "波式速攻丨Poe Design 作品照片 3",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/3.webp?v=bff1b911f4fa306d",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/9.webp?v=bff1b911f4fa306d",
           "checkedAt": "2026-11-08",
           "note": "使用者提供，指定為此設計師作品照片",
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815883671834795/FB_cover_photo_.png?ex=6af13125&is=6aefdfa5&hm=ea1cf78490e484bee8e1a1c219a7a235e3d75cf7057221e497c2f209a4b872bf&"
         },
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/4.webp?v=926d83da59f32766",
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/10.webp?v=926d83da59f32766",
           "alt": "波式速攻丨Poe Design 作品照片 4",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/4.webp?v=926d83da59f32766",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/10.webp?v=926d83da59f32766",
           "checkedAt": "2026-11-08",
           "note": "使用者提供，指定為此設計師作品照片",
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815884343185468/8f3c3ad54754fab9.png?ex=6af13126&is=6aefdfa6&hm=f68f41b23d602e58ccbe279a4b9369652060a46a7eae9286b48d8853981abfae&"
         },
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/5.webp?v=79c754c984d6c8ab",
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/11.webp?v=79c754c984d6c8ab",
           "alt": "波式速攻丨Poe Design 作品照片 5",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/5.webp?v=79c754c984d6c8ab",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/11.webp?v=79c754c984d6c8ab",
           "checkedAt": "2026-11-08",
           "note": "使用者提供，指定為此設計師作品照片",
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815885282578432/3f1564e396db7f22.png?ex=6af13126&is=6aefdfa6&hm=459c985528ff653c77fe844a035c4cfdb34b6e9adc66ca518ac1e180acfc2cc4&"
         },
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/6.webp?v=95763e2ed6403df0",
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/12.webp?v=95763e2ed6403df0",
           "alt": "波式速攻丨Poe Design 作品照片 6",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/6.webp?v=95763e2ed6403df0",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/12.webp?v=95763e2ed6403df0",
           "checkedAt": "2026-11-08",
           "note": "使用者提供，指定為此設計師作品照片",
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815885949341936/1d61774146f16be5.png?ex=6af13126&is=6aefdfa6&hm=840eb8eb0aac1166752b60ad8ca20a7bb521a8702c15d702109808e38e19d3e2&"
         },
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/7.webp?v=aa6c6c4696db414b",
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/13.webp?v=aa6c6c4696db414b",
           "alt": "波式速攻丨Poe Design 作品照片 7",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/7.webp?v=aa6c6c4696db414b",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/13.webp?v=aa6c6c4696db414b",
           "checkedAt": "2026-11-08",
           "note": "使用者提供，指定為此設計師作品照片",
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815886700249198/c8bb982927a048fd.png?ex=6af13126&is=6aefdfa6&hm=834909de3acbc3f8ede77978a0caff1889af2696b9e0b04f3692136d7f878847&"
         },
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/8.webp?v=33dd53c6ffd286f1",
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/14.webp?v=33dd53c6ffd286f1",
           "alt": "波式速攻丨Poe Design 作品照片 8",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/8.webp?v=33dd53c6ffd286f1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/14.webp?v=33dd53c6ffd286f1",
           "checkedAt": "2026-11-08",
           "note": "使用者提供，指定為此設計師作品照片",
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815887635456090/d2754d8e13a55895.png?ex=6af13126&is=6aefdfa6&hm=519135c06c7c5f47c1570d865f5e35119833d38424345f7d29dba5d2ba3686b3&"
         },
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/9.webp?v=576dfa3c2c78e4ae",
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/15.webp?v=576dfa3c2c78e4ae",
           "alt": "波式速攻丨Poe Design 作品照片 9",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/9.webp?v=576dfa3c2c78e4ae",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/15.webp?v=576dfa3c2c78e4ae",
           "checkedAt": "2026-11-08",
           "note": "使用者提供，指定為此設計師作品照片",
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815888415723520/2c551d49d7e3ab92.png?ex=6af13126&is=6aefdfa6&hm=061588b42bbd327e6552dbb75c71021dfef3e93a2e597deecab00333ccc40317&"
         },
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/10.webp?v=b0f75cd664dc9837",
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/16.webp?v=b0f75cd664dc9837",
           "alt": "波式速攻丨Poe Design 作品照片 10",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/10.webp?v=b0f75cd664dc9837",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/poe-design/16.webp?v=b0f75cd664dc9837",
           "checkedAt": "2026-11-08",
           "note": "使用者提供，指定為此設計師作品照片",
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568815889946648706/Ft._.png?ex=6af13127&is=6aefdfa7&hm=58c2a9f547d679c78a670716981e9dd6e0ab133d91fc7267c68870a00b33c17a&"
