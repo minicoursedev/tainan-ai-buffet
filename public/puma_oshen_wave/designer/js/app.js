@@ -2,7 +2,7 @@
 import { state, on, emit, visitedCount, toast } from './state.js';
 import { loadIndex, aisleOfBooth, loadBoothForDesigner } from './data.js?v=20261108-amateur-hall';
 import { goToAisle } from './nav.js?v=20261108-hall-passages';
-import { createWalkView } from './walk.js?v=20261101-landscape-row';
+import { createWalkView } from './walk.js?v=20261108-hall-signs';
 import { wireFloatingNav } from './floating-nav.js';
 import { openBooth } from './ui/booth.js?v=20261108-hall-passages';
 import { mountMap } from './ui/map.js?v=20261108-hall-passages';
@@ -130,7 +130,13 @@ async function boot() {
   on('aisle', d => {
     if ($('stage-walk').hidden) setMode('walk');
     state.neighbors = { prev: d.prev, next: d.next };
-    walk.setAisle(d.data, d);
+    const prevHall = state.index.halls.find(hall => hall.code === d.prev?.[0] && hall.code !== d.data.hall);
+    const nextHall = state.index.halls.find(hall => hall.code === d.next?.[0] && hall.code !== d.data.hall);
+    walk.setAisle(d.data, {
+      ...d,
+      prevLabel: prevHall ? `← 往${prevHall.name}` : null,
+      nextLabel: nextHall ? `往${nextHall.name} →` : null,
+    });
     $('walk-canvas').setAttribute('aria-label', `${d.data.hallName} ${d.code} 走道：按住拖著小人走，點設計師即可查看介紹`);
     updateStatus();
   });

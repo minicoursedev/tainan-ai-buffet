@@ -388,11 +388,11 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
   }
   function ends(x0, x1, yTop) {
     if (x0 < EXIT_W) {
-      if (opts.prev) exitDoor(EXIT_W / 2, -1, '← 上一條走道', opts.prev, yTop);
+      if (opts.prev) exitDoor(EXIT_W / 2, -1, opts.prevLabel || '← 上一條走道', opts.prev, yTop);
       else wallEnd(-1, '第一條走道', yTop);
     }
     if (x1 > L.worldW - EXIT_W) {
-      if (opts.next) exitDoor(L.worldW - EXIT_W / 2, 1, '下一條走道 →', opts.next, yTop);
+      if (opts.next) exitDoor(L.worldW - EXIT_W / 2, 1, opts.nextLabel || '下一條走道 →', opts.next, yTop);
       else wallEnd(1, '這館最後一條走道', yTop);
     }
   }
@@ -1108,7 +1108,8 @@ export function createWalkView(canvas, { onNear = () => {}, onOpen = () => {}, o
   }
   function setAisle(d, o = {}) {
     data = d;
-    opts = { prev: o.prev || null, next: o.next || null };
+    opts = { prev: o.prev || null, next: o.next || null,
+      prevLabel: o.prevLabel || null, nextLabel: o.nextLabel || null };
     L = build(d);
     halt(); ptr = null; hover = null; hoverExit = null;
     const B = o.boothId ? L.byId.get(o.boothId) : null;
