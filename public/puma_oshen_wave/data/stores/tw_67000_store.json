@@ -7538,6 +7538,53 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060053942",
       "coordinateNote": "OpenStreetMap 門牌節點列臺南市安南區國安街56巷111弄16號，與同名店家公開頁地址相符；店家實際地址仍待官方直接確認。"
+    },
+    {
+      "id": "at-coffee-tainan",
+      "verification": true,
+      "category": "咖啡廳",
+      "giftStatus": "可能有小物",
+      "name": "AT Coffee 艾緹咖啡",
+      "address": "台南市安平區慶平路567號",
+      "social": {
+        "facebook": "https://www.facebook.com/atcoffee.tainan/",
+        "instagram": "https://www.instagram.com/at_coffee_tainan/",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.instagram.com/at_coffee_tainan/",
+        "https://www.104.com.tw/company/1a2x6bnecz",
+        "https://scatn.meepshoper.com/products/2314087c-7fad-4f17-b1f3-4e061fb29e2c",
+        "https://www.openstreetmap.org/node/11060242484"
+      ],
+      "verifiedAt": "2026-11-08",
+      "verificationNote": "使用者指定 Instagram 收錄；104 公司頁將該帳號列為艾緹咖啡網址，台南市精品咖啡協會列同名店家地址及 Facebook。Threads 未查證。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "營業時間及公休日請依店家最新公告。",
+        "sources": [
+          "https://woowa.tw/restaurant/10844",
+          "https://www.mirueat.com.tw/2026/05/5_4.html",
+          "https://www.findglocal.com/TW/Tainan/170064826998044/AT-Coffee-%E8%89%BE%E7%B7%B9%E5%92%96%E5%95%A1"
+        ],
+        "checkedAt": "2026-11-08",
+        "auditNote": "公開資料對週三、週四時段不一致；店家2026年7月公告依月份列公休日，且曾有特別營業時間，最新固定時段待確認。"
+      },
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.instagram.com/at_coffee_tainan/",
+        "platform": "instagram",
+        "status": "unavailable",
+        "checkedAt": "2026-11-08",
+        "note": "官方 Instagram 公開頁無法擷取，官方 Facebook 公頁受限；尚未確認可存取且原生長邊達 256px 的個人頭像。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9974582,
+        "lng": 120.1700505
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060242484",
+      "coordinateNote": "OpenStreetMap 門牌節點列臺南市安平區慶平路567號，與店家公開地址相符。"
     }
   ],
   "pendingStores": []
