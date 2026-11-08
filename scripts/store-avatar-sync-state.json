@@ -12322,6 +12322,16 @@
       "lastAttempt": "2026-11-08T23:53:28+08:00",
       "result": "updated",
       "reason": "首次保存"
+    },
+    "penguindaddy-massage": {
+      "lastAttempt": "2026-11-08T23:59:44+08:00",
+      "result": "needs-review",
+      "reason": "既有頭像未確認為官方頭像"
+    },
+    "at-coffee-tainan": {
+      "lastAttempt": "2026-11-08T23:59:44+08:00",
+      "result": "needs-review",
+      "reason": "既有頭像未確認為官方頭像"
     }
   }
 }
