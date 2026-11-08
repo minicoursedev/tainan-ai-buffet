@@ -4850,6 +4850,39 @@
       },
       "description": "劇場舞台設計，害羞台派。",
       "category": "愛好者"
+    },
+    {
+      "id": "yeloshi0628",
+      "name": "Ning Fang",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yeloshi0628/1.webp?v=8bd2fe71e2fe634a",
+          "alt": "Ning Fang 作品照片",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yeloshi0628/1.webp?v=8bd2fe71e2fe634a",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568823362694676560/881716971_17981375955134644_2312247032145295235_n.png?ex=6af1381c&is=6aefe69c&hm=9dca6e23c546f4009fc37a19bf68e3ac2090ddb0f3ef534a26d606c13f690b9d&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@yeloshi0628",
+        "ig": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yeloshi0628/logo.webp?v=dacdd7f94111df6e",
+        "source": "https://www.threads.com/@yeloshi0628",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-08",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Ning Fang (@yeloshi0628) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+        "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/808322437_17973949806134644_7480040671580219869_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42MTIuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGUZ_aOQ3XyFQk_u_Ko7C2Gx_fY8gd1GVed5BgV7eZdo8T6K6rYrlGRzAp00rA7VoQ&_nc_ohc=yvchBqY18SsQ7kNvwEyfBrX&_nc_gid=TRt58hGA5T2Kfdb9FJeSHA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQSwFgg2ed4oIHnYQyIovRu5akzi_mubHqXImSg-1Rzmsg&oe=6AF5C252&_nc_sid=10d13b"
+      },
+      "description": "INFP，自信勇敢的台灣囡仔\n挺同、反共、抗中保台、愛動物、從常轉發政治文洗版的1450/2758再升級成正港DPP\n死忠貓派_各種類型的貓\n本祖媽有學居合道\n不想見血受傷的少來惹我",
+      "category": "愛好者"
     }
   ]
 }
