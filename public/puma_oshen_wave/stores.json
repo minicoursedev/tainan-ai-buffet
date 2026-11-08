@@ -16401,6 +16401,49 @@
         "checkedAt": "2026-11-05",
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；婕源室內裝修 JIE YUAN (@jieyuan.1928) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 320 × 320。"
       }
+    },
+    {
+      "id": "so-what",
+      "verification": true,
+      "category": "正餐",
+      "giftStatus": "可能有小物",
+      "name": "So What",
+      "address": "台南市東區東門路一段281巷8號",
+      "social": {
+        "facebook": "https://www.facebook.com/9478sowhat/",
+        "instagram": "",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.facebook.com/9478sowhat/",
+        "https://team-taiwan.app/store/So-What-%E4%B8%8D%E6%8E%A5%E7%95%B6%E6%97%A5%E5%AE%A2%E4%BA%BA-%E8%AB%8B%E5%8B%99%E5%BF%85%E6%9C%80%E6%99%9A%E5%89%8D%E4%B8%80%E5%A4%A9%E9%A0%90%E7%B4%84%E4%B8%A6%E9%BB%9E%E9%A4%90-%E5%8A%A0LINE%E5%8F%AF%E7%9C%8B%E8%8F%9C%E5%96%AE-2863/",
+        "https://lin.ee/ts4SvCf"
+      ],
+      "verifiedAt": "2026-11-08",
+      "verificationNote": "使用者提供 Facebook 頁面指定收錄；官方頁列店名、地址、預約及先點餐資訊，台派店家名錄列相同地址並分類為美國菜。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "採預約制，請先預約並點餐；固定營業時間待查。",
+        "sources": [
+          "https://www.facebook.com/9478sowhat/"
+        ],
+        "auditNote": "官方頁公開簡介未列固定營業時段。"
+      },
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.facebook.com/9478sowhat/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-11-08",
+        "note": "官方 Facebook 頁面 profile_photo 與公開 515 × 515 頭像版本為同一圖片；原始圖片回應為 image/jpeg。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9871574,
+        "lng": 120.2184811
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11060468536",
+      "coordinateNote": "OpenStreetMap 門牌節點核對東門路一段281巷8號及台南市東區。"
     }
   ],
   "pendingStores": []
