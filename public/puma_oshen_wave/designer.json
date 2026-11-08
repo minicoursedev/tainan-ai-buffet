@@ -4973,6 +4973,63 @@
       },
       "description": "我是台派\n此生只當台灣🇹🇼人\n不忘初心保持蛻變\n幸福無限♾️永遠豐盛\n心安平安日日安\n光亮自己照耀別人\n輕易豐盛\n一切唯心造",
       "category": "愛好者"
+    },
+    {
+      "id": "zhuying-tw",
+      "name": "築映 ZHUYING｜3D列印設計",
+      "description": "🏛️ 建築 × 3D列印 × 居家美學\n🏠 建築模型｜居家擺飾\n✨ 將建築的記憶，融入生活\n📩 客製化設計・合作",
+      "category": "設計師",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/zhuying-tw/1.webp?v=4b4bd2eb32d066a2",
+          "alt": "橘色台灣輪廓吊飾",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/zhuying-tw/1.webp?v=4b4bd2eb32d066a2",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568829175547301928/2611071425947659.png?ex=6af13d86&is=6aefec06&hm=96f7c7997c95b43be2d218ac9d281fbca86e761e396840a0dbad58201925947f&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/zhuying-tw/2.webp?v=49a183c84e03aa03",
+          "alt": "橘白色文字造型吊飾",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/zhuying-tw/2.webp?v=49a183c84e03aa03",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568829177711558777/2611071425947670.png?ex=6af13d87&is=6aefec07&hm=28a3a71d3c6f6b840a0fa5f08542844b114023423535ade09d146ef3373ac6e3&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/zhuying-tw/3.webp?v=80a71969377e4d1c",
+          "alt": "綠色台灣輪廓鑰匙圈",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/zhuying-tw/3.webp?v=80a71969377e4d1c",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568829180186071061/2611071425947784.png?ex=6af13d87&is=6aefec07&hm=fde1029cf895a3076d48c508e553f95ad6c53fc21ea35b15be81fc2585a82e9c&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/zhuying-tw/4.webp?v=a2941eceea825fa4",
+          "alt": "綠色文字造型鑰匙圈",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/zhuying-tw/4.webp?v=a2941eceea825fa4",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568829182949982371/2611071425947878.png?ex=6af13d88&is=6aefec08&hm=33857b378d4c147f4dc431f1fe3ba787405e22c665f32960270a1b49b4b67588&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@zhuying.tw",
+        "ig": "https://www.instagram.com/zhuying.tw/",
+        "web": "https://myship.7-11.com.tw/general/detail/GM2611069195216"
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/zhuying-tw/logo.webp?v=5e24f34f289c6236",
+        "source": "https://www.threads.com/@zhuying.tw",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-08",
+        "note": "官方 Threads 個人檔案頭像。",
+        "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/887092252_18031174616717155_506310373718043638_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=108&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=GnN8bT8dJx8Q7kNvwGUSbMx&_nc_oc=AdpJnSE3dJHFugFvwCI2uWayjDwyu4NMhuSw-vysGhmJY-yyIkv8hTwHNaiL_Pd3pV8&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=fsn0I3n8Vj66rhrWYzBgDQ&_nc_ss=7920f&oh=00_AQRm4zxw9CZFd5b8zXP5LC9nGQ-xvDMATwl3SBkX1HXqEw&oe=6AF5A757"
+      }
     }
   ]
 }
