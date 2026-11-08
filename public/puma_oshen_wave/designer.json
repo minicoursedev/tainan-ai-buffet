@@ -5158,6 +5158,55 @@
         "checkedAt": "2026-11-08",
         "note": "Threads HTTP 429"
       }
+    },
+    {
+      "id": "wendy7668yahoo-com-tw",
+      "name": "wendy7668yahoo.com.tw",
+      "description": "狗奴",
+      "category": "愛好者",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wendy7668yahoo-com-tw/1.webp?v=85ca0993128b5263",
+          "alt": "紅色洋流達摩造型圓形徽章",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wendy7668yahoo-com-tw/1.webp?v=85ca0993128b5263",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568835872604946563/892091373_17963641038253236_7730719864407155517_n.png?ex=6af143c3&is=6aeff243&hm=6d2292ec02737121824f9e9832c7859289ec962efffd767a7ff6f1219436924d&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wendy7668yahoo-com-tw/2.webp?v=f3183ca9617b61a3",
+          "alt": "洋流手繪看板與文字緞帶",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wendy7668yahoo-com-tw/2.webp?v=f3183ca9617b61a3",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568835873976492112/890019072_17911963656578837_2496462361851848426_n.png?ex=6af143c3&is=6aeff243&hm=87b7e81e93ec1b229d5dcc18bed93355726d1cd0e3c0d8f828fca1e0b18c8460&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wendy7668yahoo-com-tw/3.webp?v=631835e82aca4a96",
+          "alt": "車門上的花蓮翻轉吧看板與洋流緞帶",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wendy7668yahoo-com-tw/3.webp?v=631835e82aca4a96",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568835876144943175/894034005_17911963674578837_2273722096902896943_n.png?ex=6af143c4&is=6aeff244&hm=c153a7a0d9018849bd41780448766bf081553b802589febf4208df14b9516fe1&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@wendy7668yahoo.com.tw",
+        "ig": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/wendy7668yahoo-com-tw/logo.webp?v=645a02fcb5f82ae6",
+        "source": "https://www.threads.com/@wendy7668yahoo.com.tw",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-08",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Wendy Yang (@wendy7668yahoo.com.tw) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+        "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/452491809_1444202106461949_6279632703334710424_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gEs5_vx2WyyX3r8RjhWd-T1HGlB2TuoG87w9Yyei9vYSXoqAI5S_bM6GdzDz-Su5BM&_nc_ohc=9Hqv-3dYTfMQ7kNvwF_fmA8&_nc_gid=sYjTdlZAg1hPNnRUy-QZ8Q&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQQ2dQa3BpRIaTh2EWuxPtHdEoLYoKUqpZtihNTbrDxviQ&oe=6AF5D6F5&_nc_sid=10d13b"
+      }
     }
   ]
 }
