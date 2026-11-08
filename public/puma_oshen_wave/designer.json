@@ -5207,6 +5207,47 @@
         "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；Wendy Yang (@wendy7668yahoo.com.tw) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
         "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/452491809_1444202106461949_6279632703334710424_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gEs5_vx2WyyX3r8RjhWd-T1HGlB2TuoG87w9Yyei9vYSXoqAI5S_bM6GdzDz-Su5BM&_nc_ohc=9Hqv-3dYTfMQ7kNvwF_fmA8&_nc_gid=sYjTdlZAg1hPNnRUy-QZ8Q&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQQ2dQa3BpRIaTh2EWuxPtHdEoLYoKUqpZtihNTbrDxviQ&oe=6AF5D6F5&_nc_sid=10d13b"
       }
+    },
+    {
+      "id": "chamber-hiroto",
+      "name": "Hiroto",
+      "description": "高屏小小平面設計/插畫🙋‍♂️\n如有設計需求請寄到信箱🙋",
+      "category": "設計師",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/chamber-hiroto/1.webp?v=e25703269500933a",
+          "alt": "屏東山海飄帶設計圖",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/chamber-hiroto/1.webp?v=e25703269500933a",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568855918773538826/858897155_18088722137310811_6066880475610985849_n.png?ex=6af1566e&is=6af004ee&hm=30752ebb2b5ad115097517447120cdaeefa766d3bf7cf25f729d6c0ad053ea47&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/chamber-hiroto/2.webp?v=8e677a823f5fb5b0",
+          "alt": "屏東山海飄帶示意圖",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/chamber-hiroto/2.webp?v=8e677a823f5fb5b0",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568855919339642990/860975091_18088722134310811_2505953491243314570_n.png?ex=6af1566f&is=6af004ef&hm=95e36a59890e009b627ea57bfbdf914ca626dc2c0fb73e756930e38697423b1b&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@chamber_hiroto",
+        "ig": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/chamber-hiroto/logo.webp?v=596257f2f4c1df3a",
+        "source": "https://www.threads.com/@chamber_hiroto",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-08",
+        "note": "Threads 官方個人檔案頭像，已確認 HTTPS 圖片可讀取。",
+        "originalUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-19/846347326_18086435255310811_7152722509621546580_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=wjbRPzXYiIsQ7kNvwHVY03r&_nc_oc=Adqq6jg_3Hfhn-InCHtKOj-k2mgUYsPUrPA2NjOxIcD6m3YB93hpmtJb-ylcjNNTNW0&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=uK_pMMyH9M02Yyk71AI_JQ&_nc_ss=7920f&oh=00_AQQnuXC5B91dRo1hsk5dyYFwje9APKCdgQFYmwY_eRkBQA&oe=6AF5BBE3"
+      }
     }
   ]
 }
