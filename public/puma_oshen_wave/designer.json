@@ -5030,6 +5030,46 @@
         "note": "官方 Threads 個人檔案頭像。",
         "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/887092252_18031174616717155_506310373718043638_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=108&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=GnN8bT8dJx8Q7kNvwGUSbMx&_nc_oc=AdpJnSE3dJHFugFvwCI2uWayjDwyu4NMhuSw-vysGhmJY-yyIkv8hTwHNaiL_Pd3pV8&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=fsn0I3n8Vj66rhrWYzBgDQ&_nc_ss=7920f&oh=00_AQRm4zxw9CZFd5b8zXP5LC9nGQ-xvDMATwl3SBkX1HXqEw&oe=6AF5A757"
       }
+    },
+    {
+      "id": "shaopingmeng",
+      "name": "shaopingmeng",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/shaopingmeng/1.webp?v=c659689db7a592be",
+          "alt": "shaopingmeng 作品照片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/shaopingmeng/1.webp?v=c659689db7a592be",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568829410738700439/865746410_17891981064683415_1081886095966889430_n.png?ex=6af13dbe&is=6aefec3e&hm=5d189244909ff5b97998f64560b21eff22dc2135ddaf46df3c380fec7d5731f8&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/shaopingmeng/2.webp?v=10661ce9070b47e8",
+          "alt": "shaopingmeng 作品照片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/shaopingmeng/2.webp?v=10661ce9070b47e8",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568829411497746462/864452129_17891981010683415_254465169192893501_n.png?ex=6af13dbf&is=6aefec3f&hm=16d6a6fc5aa6080b263841742d7f2bb126b9ac64e4d3ac6f2ebef63de357b8a7&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@shaopingmeng",
+        "ig": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "",
+        "source": "https://www.threads.com/@shaopingmeng",
+        "platform": "threads",
+        "status": "unverified",
+        "checkedAt": "2026-11-08",
+        "note": "Threads HTTP 429"
+      },
+      "description": "",
+      "category": "愛好者"
     }
   ]
 }
