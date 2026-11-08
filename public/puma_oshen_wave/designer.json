@@ -5118,6 +5118,46 @@
       },
       "description": "",
       "category": "愛好者"
+    },
+    {
+      "id": "qi-jun-1608",
+      "name": "qi_jun_1608",
+      "description": "",
+      "category": "設計師",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/qi-jun-1608/1.webp?v=269b0cdac70c6bfb",
+          "alt": "紫橘色圓形文字圖案作品",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/qi-jun-1608/1.webp?v=269b0cdac70c6bfb",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568832176068235356/885278759_17984240613120644_3997236096811937745_n.png?ex=6af14052&is=6aefeed2&hm=11f85dfaa200437d63d5ebf19e32662982fc642a9c32ecd743b1291cb5347091&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/qi-jun-1608/2.webp?v=a6574323b3611ce6",
+          "alt": "橘藍色圓形狗狗插畫作品",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/qi-jun-1608/2.webp?v=a6574323b3611ce6",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568832176815083530/887186728_17984240673120644_7043432729072926606_n.png?ex=6af14052&is=6aefeed2&hm=bb8b1adec33502a647f36ca4dea5d4ee65d9e555833eddef38c24cc559bd0cab&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "threads": "https://www.threads.com/@qi_jun_1608",
+        "ig": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "",
+        "source": "https://www.threads.com/@qi_jun_1608",
+        "platform": "threads",
+        "status": "unverified",
+        "checkedAt": "2026-11-08",
+        "note": "Threads HTTP 429"
+      }
     }
   ]
 }
