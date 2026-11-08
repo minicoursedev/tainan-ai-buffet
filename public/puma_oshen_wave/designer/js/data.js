@@ -58,7 +58,7 @@ export function createCatalogue(data, { ogImages = {} } = {}) {
     const stores = {};
     const booths = members.map((designer, pos) => {
       const id = `${code}-${pad2(pos + 1)}`;
-      const category = designer.category === '創作者' ? '創作者' : ZONE.name;
+      const category = ['設計師', '創作者', '愛好者'].includes(designer.category) ? designer.category : ZONE.name;
       designerBooths.set(designer.id, id);
       const social = Object.fromEntries(Object.entries(designer.social || {})
         .map(([key, value]) => [key, externalUrl(value)]));

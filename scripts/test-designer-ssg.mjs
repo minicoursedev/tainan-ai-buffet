@@ -103,14 +103,21 @@ console.log(`Verified ${count} designer pages: static profile, social links, pin
 const classified = createCatalogue({ designers: [
   { id: 'default-artist', name: '既有作者' },
   { id: 'creator', name: '創作者範例', category: '創作者' },
+  { id: 'amateur', name: '愛好者範例', category: '愛好者' },
 ] });
 const aisle = classified.aisles.get('O01');
 assert.equal(classified.designerBooths.get('creator'), 'O01-02', 'Category must not move existing booths');
-assert.deepEqual(classified.search.map(row => row[3]), ['設計師', '創作者'], 'List category filter must use each author category');
+assert.deepEqual(classified.search.map(row => row[3]), ['設計師', '創作者', '愛好者'], 'List category filter must use each author category');
 const creatorBooth = aisle.islands[0].booths[1];
 assert.equal(creatorBooth.zoneName, '創作者');
 assert.equal(aisle.stores['default-artist'].category, '設計師');
 assert(boothHtml(creatorBooth, aisle.stores.creator).includes('<p class="bo-owner">創作者 創作者範例</p>'));
+const amateurBooth = aisle.islands[0].booths[2];
+assert.equal(classified.designerBooths.get('amateur'), 'O01-03');
+assert.equal(amateurBooth.zoneName, '愛好者');
+assert.equal(aisle.stores.amateur.category, '愛好者');
+assert(boothHtml(amateurBooth, aisle.stores.amateur).includes('<span class="tag tag-zone">愛好者</span>'));
+assert.equal(classified.index.halls.length, 1, 'Author categories share the existing hall');
 console.log('Verified optional author categories in profiles and list filters without moving booths.');
 
 // Future records with a biography use it in both rendering paths; sparse records remain valid.
