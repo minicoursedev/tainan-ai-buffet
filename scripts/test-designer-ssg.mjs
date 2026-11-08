@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
 import { createCatalogue } from '../public/puma_oshen_wave/designer/js/data.js';
+import { aisleNeighbors } from '../public/puma_oshen_wave/designer/js/nav.js';
+import { state } from '../public/puma_oshen_wave/designer/js/state.js';
 import { boothHtml } from '../public/puma_oshen_wave/designer/js/ui/booth-markup.js';
 import { renderDesignerOg } from './designer-og.mjs';
 import sharp from 'sharp';
@@ -91,6 +93,9 @@ for (const designer of raw.designers) {
   assert(sitemap.includes(`<loc>https://minicourse.dev${path}</loc>`));
   assert.equal(designerBoothUrl(designer.id, 'https://minicourse.dev/puma_oshen_wave/designer/#/list'), `https://minicourse.dev${path}`);
   const booth = catalogue.designerBooths.get(designer.id);
+  const hallName = category === '愛好者' ? '愛好者館' : '設計師館';
+  assert.equal(booth[0], category === '愛好者' ? 'A' : 'O', `Wrong hall: ${designer.id}`);
+  assert(home.includes(`<p class="lc-zone">${hallName}・${category}</p>`), `Wrong static directory hall: ${designer.id}`);
   assert(html.includes(booth), 'Static and interactive booth must match');
   for (const social of Object.values(designer.social || {}).filter(url => /^https?:/.test(url))) assert(html.includes(escape(social)), `Missing social: ${designer.id}`);
   assert(!html.includes('originalUrl'), 'Internal provenance exposed');
@@ -112,13 +117,45 @@ const creatorBooth = aisle.islands[0].booths[1];
 assert.equal(creatorBooth.zoneName, '創作者');
 assert.equal(aisle.stores['default-artist'].category, '設計師');
 assert(boothHtml(creatorBooth, aisle.stores.creator).includes('<p class="bo-owner">創作者 創作者範例</p>'));
-const amateurBooth = aisle.islands[0].booths[2];
-assert.equal(classified.designerBooths.get('amateur'), 'O01-03');
+const amateurAisle = classified.aisles.get('A01');
+const amateurBooth = amateurAisle.islands[0].booths[0];
+assert.equal(classified.designerBooths.get('amateur'), 'A01-01');
 assert.equal(amateurBooth.zoneName, '愛好者');
-assert.equal(aisle.stores.amateur.category, '愛好者');
-assert(boothHtml(amateurBooth, aisle.stores.amateur).includes('<span class="tag tag-zone">愛好者</span>'));
-assert.equal(classified.index.halls.length, 1, 'Author categories share the existing hall');
-console.log('Verified optional author categories in profiles and list filters without moving booths.');
+assert.equal(amateurAisle.hallName, '愛好者館');
+assert.equal(amateurAisle.stores.amateur.category, '愛好者');
+assert(boothHtml(amateurBooth, amateurAisle.stores.amateur).includes('<span class="tag tag-zone">愛好者</span>'));
+assert(!('amateur' in aisle.stores), 'Amateurs must not also appear in the designer hall');
+assert.deepEqual(classified.index.halls.map(hall => [hall.code, hall.name, hall.zones[0].booths]),
+  [['O', '設計師館', 2], ['A', '愛好者館', 1]]);
+assert.deepEqual(classified.search.map(row => row[4]), ['O', 'O', 'A'], 'List hall filters must match the walk/map halls');
+const empty = createCatalogue({ designers: [] });
+assert.equal(empty.index.halls.length, 2);
+assert(empty.aisles.has('O01') && empty.aisles.has('A01'), 'Both empty halls must have a valid entry route');
+const overflow = createCatalogue({ designers: [
+  ...Array.from({ length: 17 }, (_, i) => ({ id: `amateur-${i}`, name: `愛好者 ${i}`, category: '愛好者' })),
+  { id: 'designer-after-amateurs', name: '設計師' },
+  { id: 'disabled-amateur', name: '下架愛好者', category: '愛好者', disabled: true },
+] });
+assert.equal(overflow.designerBooths.get('amateur-16'), 'A02-01', 'Amateur aisles must paginate independently');
+assert.equal(overflow.designerBooths.get('designer-after-amateurs'), 'O01-01');
+assert(!overflow.designerBooths.has('disabled-amateur'));
+assert.equal(overflow.index.totals.designers, 18);
+console.log('Verified separate designer/amateur halls, category filters, empty halls and independent aisle pagination.');
+
+const previousIndex = state.index;
+try {
+  state.index = catalogue.index;
+  const lastDesignerAisle = catalogue.index.halls.find(hall => hall.code === 'O').aisles.at(-1).code;
+  assert.equal(aisleNeighbors(lastDesignerAisle).next, 'A01', 'The designer hall exit must lead to the amateur hall');
+  assert.equal(aisleNeighbors('A01').prev, lastDesignerAisle, 'The amateur hall entrance must return to the designer hall');
+  assert.equal(aisleNeighbors('O01').prev, null, 'The first entrance remains the start of the route');
+  state.index = overflow.index;
+  assert.deepEqual(aisleNeighbors('A01'), { prev: 'O01', next: 'A02' });
+  assert.deepEqual(aisleNeighbors('A02'), { prev: 'A01', next: null });
+} finally {
+  state.index = previousIndex;
+}
+console.log('Verified two-way hall passages and unchanged aisle/end navigation.');
 
 // Future records with a biography use it in both rendering paths; sparse records remain valid.
 const sample = { id: 'future-studio', name: '未來工作室 & 朋友', category: '創作者',

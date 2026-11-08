@@ -1,8 +1,10 @@
 // Build the walk, map and search views from one shared designer.json response.
 import { CONFIG } from './config.js?v=20261030-site-data';
 
-const HALL = { code: 'O', name: '設計師館' };
-const ZONE = { code: 'DESIGNERS', name: '設計師' };
+const HALLS = [
+  { code: 'O', name: '設計師館', zone: { code: 'DESIGNERS', name: '設計師' } },
+  { code: 'A', name: '愛好者館', zone: { code: 'AMATEURS', name: '愛好者' } },
+];
 const PER_ISLAND = 8;
 const PER_AISLE = PER_ISLAND * 2;
 const pad2 = n => String(n).padStart(2, '0');
@@ -48,70 +50,76 @@ export function createCatalogue(data, { ogImages = {} } = {}) {
   const designers = data.designers.filter(d => d.disabled !== true);
   const aisles = new Map();
   const designerBooths = new Map();
-  const summaries = [];
   const search = [];
+  const halls = [];
 
-  // Keep one empty aisle so the app also works before any designers are listed.
-  for (let start = 0; start < Math.max(1, designers.length); start += PER_AISLE) {
-    const code = `${HALL.code}${pad2(start / PER_AISLE + 1)}`;
-    const members = designers.slice(start, start + PER_AISLE);
-    const stores = {};
-    const booths = members.map((designer, pos) => {
-      const id = `${code}-${pad2(pos + 1)}`;
-      const category = ['設計師', '創作者', '愛好者'].includes(designer.category) ? designer.category : ZONE.name;
-      designerBooths.set(designer.id, id);
-      const social = Object.fromEntries(Object.entries(designer.social || {})
-        .map(([key, value]) => [key, externalUrl(value)]));
-      const works = (Array.isArray(designer.productImages) ? designer.productImages : [])
-        .map((product, i) => ({
-          id: `${designer.id}-${i + 1}`,
-          name: typeof product?.alt === 'string' && product.alt.trim() ? product.alt : `${designer.name} 作品參考 ${i + 1}`,
-          caption: typeof product?.caption === 'string' ? product.caption : '',
-          cover: imageUrl(product?.url),
-          video: imageUrl(product?.videoUrl),
-          url: productLink(product),
-        })).filter(work => work.cover);
-      stores[designer.id] = {
-        id: designer.id, name: designer.name, owner: designer.name, category,
-        description: typeof designer.description === 'string' ? designer.description.trim() : '',
-        entityType: ['Person', 'Organization'].includes(designer.entityType) ? designer.entityType : '',
-        og: ogImages[designer.id] || null,
-        avatar: designer.logo?.status === 'verified' ? imageUrl(designer.logo.url) : '',
-        avatarFit: designer.logo?.fit === 'contain' ? 'contain' : 'cover',
-        productsUrl: imageUrl(designer.productsUrl),
-        links: (Array.isArray(designer.links) ? designer.links : []).map((link, index) => ({
-          url: externalUrl(typeof link === 'string' ? link : link?.url),
-          label: typeof link?.label === 'string' && link.label.trim() ? link.label : `連結 ${index + 1}`,
-        })).filter(link => link.url),
-        social, verification: designer.verification === true, booths: 1,
-      };
-      search.push([id, designer.name, designer.name, category, HALL.code, '']);
-      return {
-        id, pos: pos % PER_ISLAND, store: designer.id,
-        corner: pos % PER_ISLAND === 0 || pos % PER_ISLAND === PER_ISLAND - 1 || pos === members.length - 1,
-        zone: ZONE.code, zoneName: category, type: '',
-        works, total: works.length, also: [],
-      };
-    });
-    const islands = ['N', 'S'].map((side, i) => ({
-      side, zone: ZONE.code, zoneName: ZONE.name,
-      booths: booths.slice(i * PER_ISLAND, (i + 1) * PER_ISLAND),
-    })).filter(island => island.booths.length);
-    aisles.set(code, { code, hall: HALL.code, hallName: HALL.name, islands, stores });
-    summaries.push({
-      code, booths: booths.length, zones: booths.length ? [ZONE.name] : [],
-      islands: islands.map(island => ({
-        side: island.side, zone: island.zone, n: island.booths.length,
-        corners: island.booths.map(booth => booth.corner),
-      })),
+  for (const HALL of HALLS) {
+    const ZONE = HALL.zone;
+    const hallDesigners = designers.filter(designer => (designer.category === '愛好者') === (HALL.code === 'A'));
+    const summaries = [];
+    // Keep one empty aisle in each hall, including before its first author is listed.
+    for (let start = 0; start < Math.max(1, hallDesigners.length); start += PER_AISLE) {
+      const code = `${HALL.code}${pad2(start / PER_AISLE + 1)}`;
+      const members = hallDesigners.slice(start, start + PER_AISLE);
+      const stores = {};
+      const booths = members.map((designer, pos) => {
+        const id = `${code}-${pad2(pos + 1)}`;
+        const category = ['設計師', '創作者', '愛好者'].includes(designer.category) ? designer.category : ZONE.name;
+        designerBooths.set(designer.id, id);
+        const social = Object.fromEntries(Object.entries(designer.social || {})
+          .map(([key, value]) => [key, externalUrl(value)]));
+        const works = (Array.isArray(designer.productImages) ? designer.productImages : [])
+          .map((product, i) => ({
+            id: `${designer.id}-${i + 1}`,
+            name: typeof product?.alt === 'string' && product.alt.trim() ? product.alt : `${designer.name} 作品參考 ${i + 1}`,
+            caption: typeof product?.caption === 'string' ? product.caption : '',
+            cover: imageUrl(product?.url),
+            video: imageUrl(product?.videoUrl),
+            url: productLink(product),
+          })).filter(work => work.cover);
+        stores[designer.id] = {
+          id: designer.id, name: designer.name, owner: designer.name, category,
+          description: typeof designer.description === 'string' ? designer.description.trim() : '',
+          entityType: ['Person', 'Organization'].includes(designer.entityType) ? designer.entityType : '',
+          og: ogImages[designer.id] || null,
+          avatar: designer.logo?.status === 'verified' ? imageUrl(designer.logo.url) : '',
+          avatarFit: designer.logo?.fit === 'contain' ? 'contain' : 'cover',
+          productsUrl: imageUrl(designer.productsUrl),
+          links: (Array.isArray(designer.links) ? designer.links : []).map((link, index) => ({
+            url: externalUrl(typeof link === 'string' ? link : link?.url),
+            label: typeof link?.label === 'string' && link.label.trim() ? link.label : `連結 ${index + 1}`,
+          })).filter(link => link.url),
+          social, verification: designer.verification === true, booths: 1,
+        };
+        search.push([id, designer.name, designer.name, category, HALL.code, '']);
+        return {
+          id, pos: pos % PER_ISLAND, store: designer.id,
+          corner: pos % PER_ISLAND === 0 || pos % PER_ISLAND === PER_ISLAND - 1 || pos === members.length - 1,
+          zone: ZONE.code, zoneName: category, type: '',
+          works, total: works.length, also: [],
+        };
+      });
+      const islands = ['N', 'S'].map((side, i) => ({
+        side, zone: ZONE.code, zoneName: ZONE.name,
+        booths: booths.slice(i * PER_ISLAND, (i + 1) * PER_ISLAND),
+      })).filter(island => island.booths.length);
+      aisles.set(code, { code, hall: HALL.code, hallName: HALL.name, islands, stores });
+      summaries.push({
+        code, booths: booths.length, zones: booths.length ? [ZONE.name] : [],
+        islands: islands.map(island => ({
+          side: island.side, zone: island.zone, n: island.booths.length,
+          corners: island.booths.map(booth => booth.corner),
+        })),
+      });
+    }
+    halls.push({
+      code: HALL.code, name: HALL.name, aisles: summaries,
+      zones: hallDesigners.length ? [{ ...ZONE, booths: hallDesigners.length, aisles: summaries.map(a => a.code) }] : [],
     });
   }
   return {
     index: {
-      halls: [{
-        ...HALL, aisles: summaries,
-        zones: designers.length ? [{ ...ZONE, booths: designers.length, aisles: summaries.map(a => a.code) }] : [],
-      }],
+      halls,
       totals: { designers: designers.length },
     },
     aisles, search, designerBooths,

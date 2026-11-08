@@ -102,7 +102,7 @@ const shareImageAlt = designer?.og?.alt || '洋流設計師展逛攤畫面';
   </main>
 
   <main class="list-mode" id="stage-list"><div class="ls-wrap">
-  {designer ? <article id="static-designer-profile" aria-label={designer.name} set:html={boothHtml(designer.booth, designer.store, { profile: true, staticProfile: true })} /> : <><h1 class="ls-title">設計師列表</h1><div class="ls-grid">{designers.map(profile => <article class="lc"><div class="lc-heading"><h3 class="lc-name"><a class="lc-open" href={designerPath(profile.id)}>{profile.name}</a></h3></div><p class="lc-owner">{profile.store.category} {profile.name}</p><p class="lc-zone">設計師館・{profile.store.category}</p><a class="btn lc-go" href={designerPath(profile.id)}>看{profile.store.category}</a></article>)}</div></>}
+  {designer ? <article id="static-designer-profile" aria-label={designer.name} set:html={boothHtml(designer.booth, designer.store, { profile: true, staticProfile: true })} /> : <><h1 class="ls-title">設計師列表</h1><div class="ls-grid">{designers.map(profile => <article class="lc"><div class="lc-heading"><h3 class="lc-name"><a class="lc-open" href={designerPath(profile.id)}>{profile.name}</a></h3></div><p class="lc-owner">{profile.store.category} {profile.name}</p><p class="lc-zone">{profile.hallName}・{profile.store.category}</p><a class="btn lc-go" href={designerPath(profile.id)}>看{profile.store.category}</a></article>)}</div></>}
   </div></main>
   <main class="map-mode" id="stage-map" hidden></main>
   <footer class="app-footer">
@@ -124,6 +124,6 @@ const shareImageAlt = designer?.og?.alt || '洋流設計師展逛攤畫面';
   </div>
 </dialog>
 
-<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261108-si-category"></script>
+<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261108-hall-passages"></script>
 </body>
 </html>

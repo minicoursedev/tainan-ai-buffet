@@ -1,19 +1,18 @@
 // Move between designer aisles and resolve share links.
 import { designerRoot, updateDesignerMetadata } from './routes.js?v=20261107-og-1200';
 import { state, emit, toast } from './state.js';
-import { loadAisle, aisleOfBooth, hallOf } from './data.js?v=20261108-si-category';
+import { loadAisle, aisleOfBooth, hallOf } from './data.js?v=20261108-amateur-hall';
 
 const hallOfIndex = code => state.index.halls.find(h => h.code === hallOf(code));
 
 export { designerBoothUrl } from './routes.js?v=20261107-og-1200';
 
 export function aisleNeighbors(code) {
-  const hall = hallOfIndex(code);
-  const list = hall.aisles;
+  const list = state.index.halls.flatMap(hall => hall.aisles);
   const i = list.findIndex(a => a.code === code);
   return {
-    prev: list[i - 1]?.code || null,
-    next: list[i + 1]?.code || null,
+    prev: i > 0 ? list[i - 1].code : null,
+    next: i >= 0 ? list[i + 1]?.code || null : null,
   };
 }
 
