@@ -5427,6 +5427,90 @@
         "note": "已核對 Yi-Pei Wu（@kewpiewu）官方帳號大頭貼照；該帳號連至 Eventual by Design 官網。",
         "originalUrl": "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-19/656068489_17949407088119654_3339896521445085590_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=107&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=hm0f19f1L-8Q7kNvwGWik51&_nc_oc=AdrIv-r8ds4fpuaFu-2c7qVF9Hc02W5xc2E0syS-ED4vx44c-jchbVBdJ07vR_5MV-0&_nc_zt=24&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=7ov2Y7mBpxEHOdj7i2cOZQ&_nc_ss=7020f&oh=00_AQR-lOUxHLRXBvBIajmCcwdu4qlqB_r9WmisjOj3xPbhfA&oe=6AF5F380"
       }
+    },
+    {
+      "id": "shua-liao",
+      "name": "書亞 SHUA",
+      "description": "我是書亞 aka 魔法部長\n游走於平面視覺與音樂之間的創作者，憲法法庭公投連署前發言人。\n相信設計與創作是溝通的橋樑，能將複雜的市政議題與島嶼認同，化作日常裡有溫度的視覺媒介。\n\n我喜歡製作各種不同媒介的數位圖卡&實體傳單，\n以及好看的限時動態濾鏡。\n期許透過每一次的圖像整理與美學轉譯，\n讓想分享家鄉的人手上有素材，\n讓想了解公共事務的人有個容易入門的開始。",
+      "category": "創作者",
+      "entityType": "Person",
+      "disabled": false,
+      "verification": true,
+      "social": {
+        "fb": "https://www.facebook.com/share/1F8ddjbSCQ/?mibextid=wwXIfr",
+        "threads": "",
+        "ig": "https://www.instagram.com/shua_liao__",
+        "web": "https://portaly.cc/Joshua"
+      },
+      "links": [
+        {
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/4ZPApia4YNHraw5nhgp804?si=3ufDET65Ts22LdB8awYeZA&utm_source=copy-link"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://youtube.com/@shua0809"
+        }
+      ],
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/shua-liao/logo.webp?v=93b3f285b36da2ae",
+        "source": "https://portaly.cc/Joshua",
+        "platform": "website",
+        "status": "verified",
+        "checkedAt": "2026-11-08",
+        "note": "書亞官方 Portaly 頁面頭像；該頁名稱 SHUA、自介書亞，並連至使用者提供的 Instagram、Spotify 及 YouTube 帳號。",
+        "originalUrl": "https://img.portaly.cc/3qTVYhKfFaVAPdo4-n6T1YtEtYp9vLwEFJC0rJHDraQ/rs:fill:640/q:75/aHR0cHM6Ly9maXJlYmFzZXN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vdjAvYi9wb3J0YWx5LWNhOWUxLmFwcHNwb3QuY29tL28vOVkzTWpUWmpmeHpVYVNPVGs0MlclMkZhdmF0YXI_YWx0PW1lZGlhJnRva2VuPTc5OTAxM2UyLTJmMjctNDM5OC04MmViLTQ3OTljYjNhY2M2Mw"
+      },
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/shua-liao/1.webp?v=b36ab23046e5313b",
+          "alt": "《台北市感性心經》符紙",
+          "caption": "《台北市感性心經》符紙",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/shua-liao/1.webp?v=b36ab23046e5313b",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供原檔：《台北市感性心經》符紙.heic。"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/shua-liao/2.webp?v=c74b57f84984f9c9",
+          "alt": "《台北市感性心經》網路圖卡",
+          "caption": "《台北市感性心經》網路圖卡",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/shua-liao/2.webp?v=c74b57f84984f9c9",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供原檔：《台北市感性心經》網路圖卡.heic。"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/shua-liao/3.webp?v=8fd4c2773458eccd",
+          "alt": "《台北市感性心經》符紙實體",
+          "caption": "《台北市感性心經》符紙實體",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/shua-liao/3.webp?v=8fd4c2773458eccd",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供原檔：《台北市感性心經》符紙實體.jpg。"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/shua-liao/4.webp?v=c90bc3b11b97e247",
+          "alt": "《台灣隊》鄉鎮市民代表篇",
+          "caption": "《台灣隊》鄉鎮市民代表篇",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/shua-liao/4.webp?v=c90bc3b11b97e247",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供原檔：《台灣隊》鄉鎮市民代表篇.heif。"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/shua-liao/5.webp?v=f7bbb3b1b54e5457",
+          "alt": "《台灣隊》鄉鎮市長篇",
+          "caption": "《台灣隊》鄉鎮市長篇",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/shua-liao/5.webp?v=f7bbb3b1b54e5457",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供原檔：《台灣隊》鄉鎮市長篇.heif。"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/shua-liao/6.webp?v=db78ce3bd94193be",
+          "alt": "《台灣隊》市議員篇",
+          "caption": "《台灣隊》市議員篇",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/shua-liao/6.webp?v=db78ce3bd94193be",
+          "checkedAt": "2026-11-08",
+          "note": "使用者提供原檔：《台灣隊》圖卡_市議員篇.heif。"
+        }
+      ]
     }
   ]
 }
