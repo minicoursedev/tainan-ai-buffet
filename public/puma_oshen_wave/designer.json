@@ -5576,7 +5576,20 @@
       "name": "@xiekamaoshi",
       "disabled": true,
       "social": {
-        "threads": "https://www.threads.com/@xiekamaoshi"
+        "threads": "https://www.threads.com/@xiekamaoshi",
+        "fb": "",
+        "ig": "",
+        "web": ""
+      },
+      "verification": true,
+      "productImages": [],
+      "logo": {
+        "url": "",
+        "source": "",
+        "platform": "",
+        "status": "unverified",
+        "checkedAt": "",
+        "note": "待確認官方頭像"
       }
     },
     {
@@ -5584,23 +5597,97 @@
       "name": "@xiaru_art",
       "disabled": true,
       "social": {
-        "threads": "https://www.threads.com/@xiaru_art"
+        "threads": "https://www.threads.com/@xiaru_art",
+        "fb": "",
+        "ig": "",
+        "web": ""
+      },
+      "verification": true,
+      "productImages": [],
+      "logo": {
+        "url": "",
+        "source": "",
+        "platform": "",
+        "status": "unverified",
+        "checkedAt": "",
+        "note": "待確認官方頭像"
       }
     },
     {
       "id": "cute-bambis",
-      "name": "@cute_bambis",
-      "disabled": true,
+      "name": "BambiFarm•班比牧場",
+      "disabled": false,
       "social": {
-        "threads": "https://www.threads.com/@cute_bambis"
-      }
+        "threads": "https://www.threads.com/@cute_bambis",
+        "fb": "",
+        "ig": "https://www.instagram.com/cute_bambis/",
+        "web": ""
+      },
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/cute-bambis/1.webp?v=575dd3503f901c6e",
+          "alt": "班比牧場作品照片 4",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/cute-bambis/1.webp?v=575dd3503f901c6e",
+          "checkedAt": "2026-11-09",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1569179505933684767/aHR0cHM6Ly9maXJlYmFzZXN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vdjAvYi9wb3J0YWx5LWNhOWUxLmFwcHNwb3QuY29tL28vc2xBT3gxemV4WHNHVVpGNGsxb1YlMkZibG9ja3MlMkZpTlZ2UjFlbmZaRW1xRDl0OVJ1NCUyRml0ZW1NYXAub1lDdnVPczJ6N1VlNUdWNGdCanhKLmltYWdlP2FsdD1tZWRpYSZ0b2tlbj01OGNhMTAwNy02ZWZiLTRkNDAtYWQyZi1iOGEwM2JjMWU2ZDU.png?ex=6af283cc&is=6af1324c&hm=453bea4bdb00bb16556499b2515b5f0649189b7b691d71b75c5d4598421170be&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/cute-bambis/2.webp?v=99d3eaf45a8d5684",
+          "alt": "班比牧場作品照片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/cute-bambis/2.webp?v=99d3eaf45a8d5684",
+          "checkedAt": "2026-11-09",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://instagram.fkhh1-2.fna.fbcdn.net/v/t51.82787-15/753628315_17949924942230283_5207425681188442416_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ig_cache_key=Mzk0ODgzMzU5ODYzOTA2NzE2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzcwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=84cT0ZSBGIEQ7kNvwH8TQ6p&_nc_oc=AdpQp6GtYfZJmrhvL99o31Ru-78mswDvomczx0mWrRCzdI43MFYM7xjh9LoHYyaxfRQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fkhh1-2.fna&_nc_gid=iyTgxckVdF8_QVJ1Ep_bYw&_nc_ss=7a22e&oh=00_AQRdGofbhkZg5FVLxrYntwM5DdiC7sGpJSh-TwgOxOpTig&oe=6AF70008"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/cute-bambis/3.webp?v=3c40e4c58adf8561",
+          "alt": "班比牧場作品照片 1",
+          "source": "https://www.instagram.com/p/DdY66fpk4kf/?img_index=1",
+          "checkedAt": "2026-11-09",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/811028248_18091904246659990_3498627871640058409_n.jpg?stp=c400.0.1200.1200a_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fX3uyLFOP5gQ7kNvwG85kOI&_nc_oc=AdqJJQHYACRl5mUsTRhCqdPS5VmoM7RBGkqvtCf_f7yLmIvHEtfFa1OJRriHyBR1UdE&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=86hPZNRZshAHJcLasQc8uw&_nc_ss=79500&oh=00_AQTW-jfFLntd-H-2s_QYepYXZEmjMGlAHEahv9nq7FpFhw&oe=6AF71796"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/cute-bambis/4.webp?v=2b478cd818c6e0c4",
+          "alt": "班比牧場作品照片 2",
+          "source": "https://www.threads.com/@cute_bambis/post/DdacLutlOmK/media",
+          "checkedAt": "2026-11-09",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://instagram.fkhh1-1.fna.fbcdn.net/v/t51.82787-15/814624373_17958728877230283_5609673999618482149_n.jpg?stp=cp6_dst-jpegr_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=Mzk4ODYyNDM3MTM2MzQwODI2Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjQ0My5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=MJUJ7DxHEm8Q7kNvwHyb8tX&_nc_oc=AdqdcbN46jBjFoIMK454hnTE76Uxh7_S4qFXa6A1B89Ux0XU0sslUpJIZyq49zS9xVg&_nc_zt=23&se=-1&_nc_ht=instagram.fkhh1-1.fna&_nc_gid=D1W9RpgKnFw_3hjjfNrKJg&_nc_ss=7920f&oh=00_AQQ-tLocHA1HFZIhcIxe2wMQ7oYg8O-pC-yaNrHduC1L7g&oe=6AF71224"
+        }
+      ],
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/cute-bambis/logo.webp?v=de9e799996aa5c54",
+        "source": "https://www.threads.com/@cute_bambis",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-09",
+        "note": "官方 Threads 個人檔案頭像，已確認圖片可讀取。",
+        "originalUrl": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/809632848_17958284385230283_7174177948960522251_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=7LuSTb56GMMQ7kNvwGiR8xF&_nc_oc=AdrJ52C_aBkLIUHtxd3hBcMrCBw_I19jraFwxHhkgqpKSHSv6Ux-icgIQdlSc8NQCH4&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=chNE-32aa-eIlBO35_w7FQ&_nc_ss=7920f&oh=00_AQRO8Pua92EgoCDoWTxigVDFkGgWmwTYXYCpr78Jxc0zKQ&oe=6AF6F235"
+      },
+      "description": "#台派\nLine 貼圖/ 顏文字/主題/塗鴉帳。\nラインスタンプ/絵文字\n#PLLI PLAVE 團推偏貓。\n⚠️ 黃牛過敏。會封鎖代搶&有去黃牛版面留言的帳號 🙏\n--\n出攤資訊請見 Portaly ⬇️"
     },
     {
       "id": "wenchanee",
       "name": "@wenchanee",
       "disabled": true,
       "social": {
-        "threads": "https://www.threads.com/@wenchanee"
+        "threads": "https://www.threads.com/@wenchanee",
+        "fb": "",
+        "ig": "",
+        "web": ""
+      },
+      "verification": true,
+      "productImages": [],
+      "logo": {
+        "url": "",
+        "source": "",
+        "platform": "",
+        "status": "unverified",
+        "checkedAt": "",
+        "note": "待確認官方頭像"
       }
     },
     {
@@ -5608,7 +5695,20 @@
       "name": "@yuantea2200",
       "disabled": true,
       "social": {
-        "threads": "https://www.threads.com/@yuantea2200"
+        "threads": "https://www.threads.com/@yuantea2200",
+        "fb": "",
+        "ig": "",
+        "web": ""
+      },
+      "verification": true,
+      "productImages": [],
+      "logo": {
+        "url": "",
+        "source": "",
+        "platform": "",
+        "status": "unverified",
+        "checkedAt": "",
+        "note": "待確認官方頭像"
       }
     },
     {
@@ -5616,7 +5716,20 @@
       "name": "@hong_boss_life",
       "disabled": true,
       "social": {
-        "threads": "https://www.threads.com/@hong_boss_life"
+        "threads": "https://www.threads.com/@hong_boss_life",
+        "fb": "",
+        "ig": "",
+        "web": ""
+      },
+      "verification": true,
+      "productImages": [],
+      "logo": {
+        "url": "",
+        "source": "",
+        "platform": "",
+        "status": "unverified",
+        "checkedAt": "",
+        "note": "待確認官方頭像"
       }
     },
     {
@@ -5624,7 +5737,20 @@
       "name": "@cfoodc",
       "disabled": true,
       "social": {
-        "threads": "https://www.threads.com/@cfoodc"
+        "threads": "https://www.threads.com/@cfoodc",
+        "fb": "",
+        "ig": "",
+        "web": ""
+      },
+      "verification": true,
+      "productImages": [],
+      "logo": {
+        "url": "",
+        "source": "",
+        "platform": "",
+        "status": "unverified",
+        "checkedAt": "",
+        "note": "待確認官方頭像"
       }
     }
   ]
