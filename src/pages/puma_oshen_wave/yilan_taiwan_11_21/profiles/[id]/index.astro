@@ -1,7 +1,0 @@
----
-import Layout from '../../../../../layouts/YilanMarket1121Layout.astro';
-import { designers } from '../../../../../lib/yilan-market-1121';
-export function getStaticPaths() { return designers.map(designer => ({ params: { id: designer.id }, props: { id: designer.id } })); }
-const { id } = Astro.props;
----
-<Layout designerId={id} />
