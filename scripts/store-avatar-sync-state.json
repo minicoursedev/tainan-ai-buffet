@@ -12289,7 +12289,7 @@
         {
           "source": "https://www.facebook.com/9478sowhat/",
           "platform": "facebook",
-          "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/408557824_759642662847523_22929347609817300_n.jpg?stp=dst-jpg_tt6&cstp=mx515x515&ctp=s515x515&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lzokiH3pAP8Q7kNvwGdBQtJ&_nc_oc=Adoe5Dv8IPJpBH4AXWPB2LftchBiTZJaFCttlk5D5B_KjaN6_xhDLqIAiJq5fGB5EiU&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=Ie0uT7uBOYz2LR0kNjlItw&_nc_ss=7920f&oh=00_AQShtlafWWd3waSC1rO3IzURZkfQOW5r7f6WP0EyBUDUHA&oe=6AF684E7",
+          "imageUrl": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/408557824_759642662847523_22929347609817300_n.jpg?stp=dst-jpg_tt6&cstp=mx515x515&ctp=s515x515&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lzokiH3pAP8Q7kNvwGdBQtJ&_nc_oc=Adoe5Dv8IPJpBH4AXWPB2LftchBiTZJaFCttlk5D5B_KjaN6_xhDLqIAiJq5fGB5EiU&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=4qQ_ZtI01uEQxG0m6Bn8vg&_nc_ss=7920f&oh=00_AQTrW92ozoJ731WMEmaMIigfytzMBdssgd8Lx_9o3SZLaQ&oe=6AF79E27",
           "size": [
             515,
             515
@@ -12313,15 +12313,15 @@
         "last-modified": "Sun, 10 Dec 2023 10:46:38 GMT"
       },
       "source": "https://www.facebook.com/9478sowhat/",
-      "imageUrl": "https://scontent-tpe5-1.xx.fbcdn.net/v/t39.30808-1/408557824_759642662847523_22929347609817300_n.jpg?stp=dst-jpg_tt6&cstp=mx515x515&ctp=s515x515&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lzokiH3pAP8Q7kNvwGdBQtJ&_nc_oc=Adoe5Dv8IPJpBH4AXWPB2LftchBiTZJaFCttlk5D5B_KjaN6_xhDLqIAiJq5fGB5EiU&_nc_zt=24&_nc_ht=scontent-tpe5-1.xx&_nc_gid=Ie0uT7uBOYz2LR0kNjlItw&_nc_ss=7920f&oh=00_AQShtlafWWd3waSC1rO3IzURZkfQOW5r7f6WP0EyBUDUHA&oe=6AF684E7",
+      "imageUrl": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/408557824_759642662847523_22929347609817300_n.jpg?stp=dst-jpg_tt6&cstp=mx515x515&ctp=s515x515&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lzokiH3pAP8Q7kNvwGdBQtJ&_nc_oc=Adoe5Dv8IPJpBH4AXWPB2LftchBiTZJaFCttlk5D5B_KjaN6_xhDLqIAiJq5fGB5EiU&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=4qQ_ZtI01uEQxG0m6Bn8vg&_nc_ss=7920f&oh=00_AQTrW92ozoJ731WMEmaMIigfytzMBdssgd8Lx_9o3SZLaQ&oe=6AF79E27",
       "evidence": "官方帳號 og:url 相符；個人頭像 CDN 路徑；So What",
       "filename": "so-what/logo.webp",
-      "lastSuccess": "2026-11-08T23:53:28+08:00",
+      "lastSuccess": "2026-11-09T22:37:03+08:00",
       "discoveryVersion": 3,
       "sourceValidators": {},
-      "lastAttempt": "2026-11-08T23:53:28+08:00",
-      "result": "updated",
-      "reason": "首次保存"
+      "lastAttempt": "2026-11-09T22:37:03+08:00",
+      "result": "unchanged",
+      "reason": "像素內容相同或僅有輕微轉碼差異"
     },
     "penguindaddy-massage": {
       "lastAttempt": "2026-11-08T23:59:44+08:00",
