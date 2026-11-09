@@ -5877,6 +5877,47 @@
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1569262573814026322/250mm-.pdf?ex=6af2d129&is=6af17fa9&hm=3f546b26b13058a2c29373920127b82893079b2b8f8248f01ba1ca515c947294&"
         }
       ]
+    },
+    {
+      "id": "machiko324",
+      "name": "雪路／YUKIJI",
+      "description": "就是LINE貼圖的那隻兔子\n-\n喜歡各種迷因，轉推的都是我喜歡的\n脆喜歡默默轉發不太愛發文",
+      "category": "設計師",
+      "disabled": false,
+      "verification": true,
+      "social": {
+        "fb": "https://www.facebook.com/machiko324",
+        "threads": "https://www.threads.com/@machiko324",
+        "ig": "https://www.instagram.com/machiko324/",
+        "web": "https://portaly.cc/machiko"
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/machiko324/logo.webp?v=bd787cae9bf4df3a",
+        "source": "https://www.threads.com/@machiko324",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-09",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；ㄇㄚˊ幾(まちこ) ©YUKIJI (@machiko324) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+        "originalUrl": "https://scontent-lax3-1.cdninstagram.com/v/t51.2885-19/358077883_2033351473671488_1088013579198008051_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGkRRcey9dAMh-wI5vTH2uXBj-2VYe6G7AzUrzrirKwPUyTE6I4Hjbg2trjOatxUX0&_nc_ohc=zrfgQzbAJxcQ7kNvwG-ohXT&_nc_gid=KGApnxouXh4mYZ6rv6CEvw&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQQdykzDDN3DkHh6giOub6-AXROVpJ2UWm7C5BQW9tEcjQ&oe=6AF7A289&_nc_sid=10d13b"
+      },
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/machiko324/1.webp?v=5130c7174e76f712",
+          "alt": "雪路／YUKIJI 作品照片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/machiko324/1.webp?v=5130c7174e76f712",
+          "checkedAt": "2026-11-09",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1569328621448077422/885491771_17995339185103728_1773486275687439274_n.png?ex=6af30eac&is=6af1bd2c&hm=9837c6e5972431581ce747e9a262eea15aab04015e97c616cca04879ac58a664&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/machiko324/2.webp?v=fb809854e3100869",
+          "alt": "雪路／YUKIJI 作品照片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/machiko324/2.webp?v=fb809854e3100869",
+          "checkedAt": "2026-11-09",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1569328621934350496/888947470_17995339200103728_4134169030832345887_n.png?ex=6af30eac&is=6af1bd2c&hm=116043ce6cb39c81dc7ef34d990eecef1d04afb6d42b43e029a88826aa24d67b&"
+        }
+      ]
     }
   ]
 }
