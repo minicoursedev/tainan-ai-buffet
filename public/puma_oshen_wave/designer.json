@@ -5589,24 +5589,43 @@
     },
     {
       "id": "xiekamaoshi",
-      "name": "@xiekamaoshi",
-      "disabled": true,
+      "name": "諧咖貓室",
+      "disabled": false,
       "social": {
         "threads": "https://www.threads.com/@xiekamaoshi",
-        "fb": "",
-        "ig": "",
-        "web": ""
+        "fb": "https://www.facebook.com/XiekaMaoshi",
+        "ig": "https://www.instagram.com/xiekamaoshi",
+        "web": "https://myship.7-11.com.tw/general/detail/GM2602023247690"
       },
       "verification": true,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/xiekamaoshi/1.webp?v=9254d49e7333a0af",
+          "alt": "諧咖貓室作品：四款貓咪插畫（第1張）",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/xiekamaoshi/1.webp?v=9254d49e7333a0af",
+          "checkedAt": "2026-11-09",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1569277809602469978/I-BON-01-cmyk-01.jpg?ex=6af2df59&is=6af18dd9&hm=7cc5f57c3855a799c8f923e1e0ac8775d874ed74ecb25c9329ccf9d2a522ac64&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/xiekamaoshi/2.webp?v=4a50fda9abba21a7",
+          "alt": "諧咖貓室作品：四款貓咪插畫（第2張）",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/xiekamaoshi/2.webp?v=4a50fda9abba21a7",
+          "checkedAt": "2026-11-09",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1569277810021765170/I-BON-01-cmyk-02.jpg?ex=6af2df59&is=6af18dd9&hm=ae34b68a3696dae0769cd60f36ce73ebf5e9b3fddf2ed891fa55c59d6d0049ae&"
+        }
+      ],
       "logo": {
-        "url": "",
-        "source": "",
-        "platform": "",
-        "status": "unverified",
-        "checkedAt": "",
-        "note": "待確認官方頭像"
-      }
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/xiekamaoshi/logo.webp?v=58b4458f1df7685e",
+        "source": "https://www.threads.com/@xiekamaoshi",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-09",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；諧咖貓室 (@xiekamaoshi) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+        "originalUrl": "https://instagram.fkhh1-1.fna.fbcdn.net/v/t51.82787-19/829909642_17893947150610590_2351085995168264856_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fkhh1-1.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2gEkAGOwhRh9Ar9-4OirbYQx3uovxl8ZtOOfyafSpp8vmQaT-VwHOp3IhofG3AEeY38&_nc_ohc=Vg38-CxFsMMQ7kNvwERcMz_&_nc_gid=vSOh75XYA-KIE0fy6Z1Z0w&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQRu352MzT12dibGmT1Y1I25ERkIliBtRGWMkYJwytnogA&oe=6AF7454D&_nc_sid=10d13b"
+      },
+      "description": "🎨養貓插畫家和品牌小編組成的雙人工作室\n一起分享貓咪趣事與觀察\n😼用插畫與周邊，散播貓的可愛\n😸領養不棄養\n沒養過貓的品牌小編  #筆編  常態現身\n貓奴插畫家  #畫編  不定期出沒"
     },
     {
       "id": "xiaru-art",
