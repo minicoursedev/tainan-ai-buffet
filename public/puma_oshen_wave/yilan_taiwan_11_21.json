@@ -1,0 +1,3108 @@
+{
+  "market": {
+    "name": "2026 宜蘭歌仔．台派市集",
+    "date": "2026-11-21",
+    "startTime": "15:00",
+    "endTime": "19:00",
+    "address": "宜蘭縣羅東鎮光榮路271-1號（羅東後火車站旁廣場）",
+    "source": "https://www.facebook.com/AFANGXZ/posts/pfbid0b2k4qhS6LpnYp1vYuYzWMoMLjk4k2XvdGYUvKBLBASKZRu2iinNUABnGunMmsMatl",
+    "additionalSources": [
+      "https://inthealley.tw/?p=95156"
+    ],
+    "vendorListSources": [
+      "https://www.threads.com/@yilan_taiwan/post/DfHnB7uH3sG",
+      "https://www.threads.com/@yilan_taiwan/post/DfHnB-gH1CJ",
+      "https://www.threads.com/@yilan_taiwan/post/DfHnB-6H5PG"
+    ],
+    "organizers": [
+      "阿芳鹹粥",
+      "宜蘭縣長候選人林國漳青年後援會"
+    ]
+  },
+  "designers": [
+    {
+      "id": "yilan-20261107-02",
+      "name": "森本屋",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-02/1.webp?v=5c0d99e23f268880",
+          "alt": "森本屋－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-02/1.webp?v=5c0d99e23f268880",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：2026-10-31_2.22.28.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565974510425997342/2026-10-31_2.22.28.png?ex=6ae6dae9&is=6ae58969&hm=00e59f6a428483d97b71229fb08e869b2c569a3a25c0d7d6ea4bda42db584361&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-02/2.webp?v=6dc1abf53a417fe0",
+          "alt": "森本屋－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-02/2.webp?v=6dc1abf53a417fe0",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：2026-10-31_2.23.00.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565974510832984146/2026-10-31_2.23.00.png?ex=6ae6dae9&is=6ae58969&hm=e520cb982b90551a534631a12736ab8d71fd029d091d9be9efeff8718f00bc31&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-02/3.webp?v=28759d6aef8908b8",
+          "alt": "森本屋－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-02/3.webp?v=28759d6aef8908b8",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：2026-10-31_2.23.12.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565974511256477736/2026-10-31_2.23.12.png?ex=6ae6dae9&is=6ae58969&hm=f13168eed1482fb85861bc1582b3bb448c2f9ec6364665709c3aa3ce4d18164d&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/profile.php?id=61572175033854",
+        "ig": "https://www.instagram.com/yilanbookforest/",
+        "threads": "https://www.threads.com/@yilanbookforest",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-02/logo.webp",
+        "source": "https://www.instagram.com/yilanbookforest/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，未放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.75761-19/497567692_17846914749471368_5245307117976855901_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=111&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=wWOt5e_QNzEQ7kNvwFlSgMy&_nc_oc=AdrgftJu4GJfYcVQItPS1z2hBlzBru3-Y2IPBdVDfSN4PoyRz5CFXr8qRgaMBilbFK0&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=VewhSsf3d7LpPRRGExTWJQ&_nc_ss=7b689&oh=00_AQR80XG6dl-jLhEkr4lnCrb4O5dchLxmbQtSLI3JpDR4cg&oe=6AEAAADD"
+      },
+      "address": "265008宜蘭縣羅東鎮信義里中正北路124巷2號",
+      "latlng": {
+        "lat": 24.6851058,
+        "lng": 121.7713042
+      },
+      "locationSource": "https://www.google.com/maps/place/%E6%A3%AE%E6%9C%AC%E5%B1%8B/@24.6851058,121.7713042,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e5d8b4597d7b:0x3948687133791e12!8m2!3d24.6851058!4d121.7713042!16s%2Fg%2F11xflzc4g4",
+      "oshenStoreId": "yilan-20261107-02"
+    },
+    {
+      "id": "yilan-20261107-03",
+      "name": "文邑二手書店",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-03/1.webp?v=e20d3a980cb6016b",
+          "alt": "文邑二手書店－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-03/1.webp?v=e20d3a980cb6016b",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：854558770_18110405528179363_4412863388186113715_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565975126820790282/854558770_18110405528179363_4412863388186113715_n.png?ex=6ae6db7c&is=6ae589fc&hm=39b861c3bc9d8dfd507d0d1d488c12d71d00195daf5f944ea817c4196b31be3f&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-03/2.webp?v=5e4275542b063961",
+          "alt": "文邑二手書店－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-03/2.webp?v=5e4275542b063961",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：855479262_18110405537179363_142417778276050216_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565975129165533204/855479262_18110405537179363_142417778276050216_n.png?ex=6ae6db7d&is=6ae589fd&hm=9c0daafa4953f0e6bd900a6f77f9a164a468dc6b4bda5bc55072c014467240cf&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-03/3.webp?v=83c395060d68baa9",
+          "alt": "文邑二手書店－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-03/3.webp?v=83c395060d68baa9",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：858088865_18110405555179363_7245918491191909885_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1565975130688061500/858088865_18110405555179363_7245918491191909885_n.png?ex=6ae6db7d&is=6ae589fd&hm=b3ea4ca548c713cd8ca673832398b7653a30d5d70afdad246777784483a03387&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/bookoftaiwanese/",
+        "ig": "https://www.instagram.com/bookoftaiwanese/",
+        "threads": "https://www.threads.com/@bookoftaiwanese",
+        "web": ""
+      },
+      "socialNote": "Facebook 粉專名稱為「文邑｜群」，簡介介紹文邑書店。",
+      "logo": {
+        "url": "./assets/yilan-20261107-03/logo.webp",
+        "source": "https://www.instagram.com/bookoftaiwanese/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/97289242_234067421354770_8293606201040568320_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=110&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=NKedpArh5TMQ7kNvwFPKG7p&_nc_oc=AdqNDSn3Kt_aBLEQWQEpHKaE4Wyq8UeMjxGdFmPazxlXp1ZpVUfhre-kooMAX_h6brI&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQS6Usu-pquM73LA8hv5U8O4jNwO_6tLOGXzxnKGSQedgA&oe=6AEAB594"
+      },
+      "address": "265宜蘭縣羅東鎮漢民里國華街24號",
+      "latlng": {
+        "lat": 24.6761453,
+        "lng": 121.7608209
+      },
+      "locationSource": "https://www.google.com/maps/place/文邑二手書店/@24.6761453,121.7608209,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e73250f9d8f1:0x5aabd84d82f3f76b!8m2!3d24.6761453!4d121.7608209!16s%2Fg%2F11j8kyl4m8",
+      "oshenStoreId": "yilan-20261107-03"
+    },
+    {
+      "id": "yilan-20261107-05",
+      "name": "MASLOW CAFE",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-05/1.webp?v=bcb96525ec4d2869",
+          "alt": "MASLOW CAFE－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-05/1.webp?v=bcb96525ec4d2869",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：866062508_17996640453114187_7703303259263815522_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566263450488021042/866062508_17996640453114187_7703303259263815522_n.png?ex=6ae7e802&is=6ae69682&hm=e427e5c871a520bb2ca08081ef5dc2edac5ca19a5e0691f5b524c68e34c8c40e&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-05/2.webp?v=42c405750c45c716",
+          "alt": "MASLOW CAFE－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-05/2.webp?v=42c405750c45c716",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：781906092_17984291700099674_1517609529287289511_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566263451058180126/781906092_17984291700099674_1517609529287289511_n.png?ex=6ae7e802&is=6ae69682&hm=a150f8a591dc2d82082305807562406b75bc890986785408bcb0902f2721cf79&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-05/3.webp?v=a57dc8c8cf386b4e",
+          "alt": "MASLOW CAFE－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-05/3.webp?v=a57dc8c8cf386b4e",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：784617570_17984291736099674_6894465909583276081_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566263452350152744/784617570_17984291736099674_6894465909583276081_n.png?ex=6ae7e802&is=6ae69682&hm=0696b8d6385bfcd76d0170905b237fbaab618e8eb33a2ec8ac9bc93c42eb56d1&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/maslowcafetw/",
+        "ig": "https://www.instagram.com/maslowcafetw/",
+        "threads": "https://www.threads.com/@maslowcafetw",
+        "web": "https://maslowbakery.1shop-app.com/"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-05/logo.webp",
+        "source": "https://www.instagram.com/maslowcafetw/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/236791286_3036816973205027_6136317553291622236_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=lj4z0Ae54CUQ7kNvwFnGoM7&_nc_oc=AdquDbYPHFsXvzkkOuVDNaojkcdmXEhW-UP2okYNpt5sEno-uyDBqBZ08yURQq3s1SE&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQT294cPo_gJ0216kZvinV1P_hWWzkqVqVZ_OFqtz4F2ew&oe=6AEAD14E"
+      },
+      "address": "26645宜蘭縣三星鄉上將路二段433巷17弄12號",
+      "latlng": {
+        "lat": 24.6926629,
+        "lng": 121.7293011
+      },
+      "locationSource": "https://www.google.com/maps/place/MASLOW CAFE/@24.6926629,121.7293011,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e5d83c604827:0xdbe444346e729c40!8m2!3d24.6926629!4d121.7293011!16s%2Fg%2F11h46v0961",
+      "oshenStoreId": "yilan-20261107-05"
+    },
+    {
+      "id": "yilan-20261107-06",
+      "name": "啾飲",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-06/1.webp?v=370593de4cdc99ec",
+          "alt": "啾飲－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-06/1.webp?v=370593de4cdc99ec",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：842255486_17904511275570345_5617393021157927538_n.png；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566263229104005120/842255486_17904511275570345_5617393021157927538_n.png?ex=6ae7e7cd&is=6ae6964d&hm=3c63e2219d995110410823458b92a1ecd32ed90a8b4a9a006e9d116e04bed06c&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-06/2.webp?v=65e34dd62ac4b3bf",
+          "alt": "啾飲－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-06/2.webp?v=65e34dd62ac4b3bf",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：793850128_17899524336570345_6211154350197491723_n.png；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566263230068826112/793850128_17899524336570345_6211154350197491723_n.png?ex=6ae7e7cd&is=6ae6964d&hm=e6c785c820aa1a59b97f6494669f85f54aaa6bd44f3f92af6e1df102122cc561&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/61574385638802/",
+        "ig": "https://www.instagram.com/chu_in0530/",
+        "threads": "https://www.threads.com/@chu_in0530",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-06/logo.webp",
+        "source": "https://www.instagram.com/chu_in0530/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/486109537_996685655359911_2802019449349390879_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=OYSf73hTMjcQ7kNvwEH_ay6&_nc_oc=Adqm5BWH7tqZSDZBbWqDj6DBof-Wf9CEi9Sj92nvqoL-PXMlcq1qgorjj6j121UpY8Y&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQSNEyjdmzcF1P0v9GzSv4QZx3FrexZBKf287_fZ7jtvvw&oe=6AEAA82C"
+      },
+      "locationNote": "品牌 Instagram 貼文顯示於夜市及活動出攤，尚未確認固定店址。"
+    },
+    {
+      "id": "yilan-20261107-07",
+      "name": "啤 咖 酒",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-07/1.webp?v=ac3ca1d23c25f9ea",
+          "alt": "啤 咖 酒－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-07/1.webp?v=ac3ca1d23c25f9ea",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：836047644_1440865044619354_4499456698123929809_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566262997721292800/836047644_1440865044619354_4499456698123929809_n.png?ex=6ae7e796&is=6ae69616&hm=6bcc3304c7d17edcc1c23b6f584c4e5730665bb44791dcc8a01a7c1b318a9dd7&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-07/2.webp?v=63e0401d010139ba",
+          "alt": "啤 咖 酒－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-07/2.webp?v=63e0401d010139ba",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：836261580_1674764767993758_3789318261834342456_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566262998618603590/836261580_1674764767993758_3789318261834342456_n.png?ex=6ae7e796&is=6ae69616&hm=2c245d8d778bc6ee6e9fcdb10c57a91804692ec8fdc4d14c2fa40e3880011eca&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/profile.php?id=100063807535492",
+        "ig": "https://www.instagram.com/cafebarturntablespinthatshit/",
+        "threads": "https://www.threads.com/@cafebarturntablespinthatshit",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-07/logo.webp",
+        "source": "https://www.instagram.com/cafebarturntablespinthatshit/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/425365093_312366898485404_1156890301597628180_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=IJcgsMumaSQQ7kNvwEtVGNa&_nc_oc=Ado-6Z09uapP8nQQuX-3TTCsHBQAVlS7-PiFx1lYd2FNRBciPDnawx9xhA-9rb9HK84&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQ9Mmj2AmvDsjcHXa2cZfoHjDXVEHeTr_euQRs9Tk2jZw&oe=6AEADB8B"
+      },
+      "address": "261宜蘭縣頭城鎮城東里和平東路37號",
+      "latlng": {
+        "lat": 24.8586404,
+        "lng": 121.8255125
+      },
+      "locationSource": "https://www.google.com/maps/place/啤 咖 酒/@24.8586404,121.8255125,17z/data=!3m1!4b1!4m6!3m5!1s0x345d4f308cb8bfcb:0xb181cde6b93f7096!8m2!3d24.8586404!4d121.8255125!16s%2Fg%2F11pc0vxwlz",
+      "oshenStoreId": "yilan-20261107-07"
+    },
+    {
+      "id": "yilan-20261107-08",
+      "name": "ㄕㄨˋㄖㄣˊ咖啡",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-08/1.webp?v=c59c01db9c422458",
+          "alt": "ㄕㄨˋㄖㄣˊ咖啡－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-08/1.webp?v=c59c01db9c422458",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：794647056_18129911558495500_2703877232686667415_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566262539090923530/794647056_18129911558495500_2703877232686667415_n.png?ex=6ae7e729&is=6ae695a9&hm=f095cb1b95b2bafac5fa28d07765ebc13097361259081e12991c043565ff48fd&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-08/2.webp?v=330f7afd659199f4",
+          "alt": "ㄕㄨˋㄖㄣˊ咖啡－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-08/2.webp?v=330f7afd659199f4",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：799634226_18128131766495500_6962254676831865718_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566262540772581456/799634226_18128131766495500_6962254676831865718_n.png?ex=6ae7e729&is=6ae695a9&hm=f2aa00109bc24bc24a0880b2f882c16ec74ec42791d2c9092e91c7efe05019c3&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-08/3.webp?v=4ab0aa52d0bb0623",
+          "alt": "ㄕㄨˋㄖㄣˊ咖啡－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-08/3.webp?v=4ab0aa52d0bb0623",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：682126446_18112662002495500_8709916912721606750_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566262542450565230/682126446_18112662002495500_8709916912721606750_n.png?ex=6ae7e729&is=6ae695a9&hm=2c584c12fdf08f49ad9fc9e6ce250c92d84ab41574a0f67eb4da029e5585eef9&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/ourspace1256/",
+        "ig": "https://www.instagram.com/ourspace1256/",
+        "threads": "https://www.threads.com/@ourspace1256",
+        "web": "https://campsite.bio/ourspace1256"
+      },
+      "socialNote": "網站欄為品牌 IG 直接連結的 Campsite 官方連結頁。",
+      "logo": {
+        "url": "./assets/yilan-20261107-08/logo.webp",
+        "source": "https://www.instagram.com/ourspace1256/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/516347651_18076702127495500_3600196221481555150_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy42NjguQzMifQ%3D%3D&_nc_ohc=Sz1rLrG2-9AQ7kNvwFfK-uP&_nc_oc=Ado4a_QVOrRoI8Qw2OmpzuugMcmnBxxJUrL1Ca1CYP6R8sE1VQA3ky7t77Q37NIu97k&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=DMk4v8Z37Tb_kt3QTQXBoA&_nc_ss=7b689&oh=00_AQRPdH09nK6sSFEO5dH9ToArZxdU7fWihmgE5fDKIZOfvQ&oe=6AEAA551"
+      },
+      "address": "265宜蘭縣羅東鎮樹林里樹人路6號",
+      "latlng": {
+        "lat": 24.680736,
+        "lng": 121.7631982
+      },
+      "locationSource": "https://www.google.com/maps/place/ㄕㄨˋㄖㄣˊ咖啡/@24.680736,121.7631982,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e734acf960af:0xd55d851d3ea88ddd!8m2!3d24.680736!4d121.7631982!16s%2Fg%2F11n6q3cvqy",
+      "oshenStoreId": "yilan-20261107-08"
+    },
+    {
+      "id": "yilan-20261107-09",
+      "name": "島匠商行",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-09/1.webp?v=7d26d9069255af1a",
+          "alt": "島匠商行－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-09/1.webp?v=7d26d9069255af1a",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：471866088_17921430339009988_2942713414522703627_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566262318038519968/471866088_17921430339009988_2942713414522703627_n.png?ex=6ae7e6f4&is=6ae69574&hm=749aa40f15c89eb7ea707f08ba32625e0c35fb176bdde0f238f7cd9ab749e915&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-09/2.webp?v=e77495babc060452",
+          "alt": "島匠商行－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-09/2.webp?v=e77495babc060452",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：860150785_1123215306875737_7894344670933543673_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566262318692565092/860150785_1123215306875737_7894344670933543673_n.png?ex=6ae7e6f4&is=6ae69574&hm=63fe9e13fe81c756153f6d975d9068b92837ca43297fdb95073525c0cd2609db&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-09/3.webp?v=bb27b59e92116293",
+          "alt": "島匠商行－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-09/3.webp?v=bb27b59e92116293",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：759871721_1049646314232637_9058341066767888906_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566262319259058286/759871721_1049646314232637_9058341066767888906_n.png?ex=6ae7e6f4&is=6ae69574&hm=2cc66f668c7707ee72f3a03f6a1fc779571f8b3346295d009f49a8fcf129d6fa&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/Daujiang2021/",
+        "ig": "https://www.instagram.com/daujiang2200/",
+        "threads": "",
+        "web": "https://eco.my1shop.com/dousu"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-09/logo.webp",
+        "source": "https://www.instagram.com/daujiang2200/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/358337408_812040026881475_1779379715112584903_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy42MDYuQzMifQ%3D%3D&_nc_ohc=qW4HDDpT4jQQ7kNvwFbOkHL&_nc_oc=AdpVcCjiQsf_DK_ZhZtdK70mRrOQFjp3vCgonEoHsV9CEDj-4lmQDT_TatYc82LPzUQ&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQtKZ7djdYJAqmVcZK7npXumKvqDlow417J5ZbeSk5vUg&oe=6AEAC8A5"
+      },
+      "address": "266宜蘭縣三星鄉雙賢村三星路六段686號",
+      "latlng": {
+        "lat": 24.6634276,
+        "lng": 121.6346756
+      },
+      "locationSource": "https://www.google.com/maps/place/島匠商行/@24.6634276,121.6346756,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e149c4adadcb:0x463c07605918b499!8m2!3d24.6634276!4d121.6346756!16s%2Fg%2F11vqnmxx18",
+      "socialNote": "網站欄為 Google 地圖所連結的島匠商行訂購頁（eco.tw/dousu 導向）。",
+      "oshenStoreId": "yilan-20261107-09"
+    },
+    {
+      "id": "yilan-20261107-10",
+      "name": "尚禾家SHOWAYA",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-10/1.webp?v=145a1bc120f71da6",
+          "alt": "尚禾家SHOWAYA－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-10/1.webp?v=145a1bc120f71da6",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：849773391_17973819738141007_2145492945328713982_n.png（第 1 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566261999443247174/849773391_17973819738141007_2145492945328713982_n.png?ex=6ae7e6a8&is=6ae69528&hm=cc9777be9bb93b5cbff3387c7fe102017960aa529299c367a2d39ed7ee1b81d0&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/showaya_taiwan_yilan/",
+        "threads": "https://www.threads.com/@lin_yu_fang_",
+        "web": "https://tosubuyme.easy.co/"
+      },
+      "socialNote": "Instagram 個人頁連結至「島嶼菜櫥」選物網站；網站頁尾標示尚禾有限公司。 Threads 為相關人員個人帳號，其貼文自介尚禾家並連結品牌 IG。",
+      "logo": {
+        "url": "./assets/yilan-20261107-10/logo.webp",
+        "source": "https://www.instagram.com/showaya_taiwan_yilan/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/775416812_17981277555118582_8572990163339993680_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=100&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy42NjkuQzMifQ%3D%3D&_nc_ohc=P5eKGs-p7HIQ7kNvwE51HPa&_nc_oc=AdrbP50L1wwaP99F9QKqu54mZRYkrZPXc4TMgdlhWWFnFP84hjJK1w8Ln8xFtov_i-Q&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=Wf17MHA0nxN0g_YzFROHlA&_nc_ss=7b689&oh=00_AQREXgDgeAqyKnJ7RMsUlCfeXY8ajLBJEFyVTFqmY12_aA&oe=6AEAAEE7"
+      }
+    },
+    {
+      "id": "yilan-20261107-11",
+      "name": "喵喵米是人吃的",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-11/1.webp?v=2d6bd07190e694db",
+          "alt": "喵喵米是人吃的－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-11/1.webp?v=2d6bd07190e694db",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（第 1 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566260035279917156/image.png?ex=6ae7e4d4&is=6ae69354&hm=3296d5bc17f7e9510e6c2f227fddd30fd8c802b5b5458bafc98327c73f4686bf&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-11/2.webp?v=21c56324bcd1ae61",
+          "alt": "喵喵米是人吃的－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-11/2.webp?v=21c56324bcd1ae61",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（第 2 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566260035896483930/image.png?ex=6ae7e4d4&is=6ae69354&hm=4c6639c68e984dccb8efe1640fbf82b369b3b71edf2938027d971ff681c1a51e&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-11/3.webp?v=442a5fbea106d560",
+          "alt": "喵喵米是人吃的－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-11/3.webp?v=442a5fbea106d560",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（第 3 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566260036349730896/image.png?ex=6ae7e4d4&is=6ae69354&hm=a9697204c0ead8dcb6f3c25bc1e7cf8a9f5d099ddcd75bed4aea04c05a5b09e1&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/meowmeowfarm/",
+        "ig": "https://www.instagram.com/meowmeowfarm/",
+        "threads": "https://www.threads.com/@meowmeowfarm",
+        "web": "https://portaly.cc/meowmeowrice"
+      },
+      "socialNote": "網站欄為品牌 IG 直接連結的 Portaly 官方連結頁。",
+      "logo": {
+        "url": "./assets/yilan-20261107-11/logo.webp",
+        "source": "https://www.instagram.com/meowmeowfarm/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/190781004_5422322304504422_1967244207437326335_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40OTMuQzMifQ%3D%3D&_nc_ohc=aRXQZBuUnD4Q7kNvwHRGApK&_nc_oc=AdoxRAQ9Schsvihj8EJvEHzrlybXkALCZGuolqu9_-iNoHHYCSbUKTqRRC-QD-iHUUs&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQRcJZ5-kSAqvdh_2FPjIdKyuf4ce6krDtHYEc3QEGMSbA&oe=6AEAD8C9"
+      },
+      "address": "266宜蘭縣三星鄉行健二路一段112號",
+      "latlng": {
+        "lat": 24.6717431,
+        "lng": 121.6999821
+      },
+      "locationSource": "https://www.google.com/maps/place/喵喵米是人吃的/@24.6717431,121.6999821,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e110e38601a3:0x17cf12e8beaa3b9e!8m2!3d24.6717431!4d121.6999821!16s%2Fg%2F11cmbfkyt5",
+      "oshenStoreId": "yilan-20261107-11"
+    },
+    {
+      "id": "yilan-20261107-12",
+      "name": "烘然天成手作寵物零食",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-12/1.webp?v=ca136dfca13b06dc",
+          "alt": "烘然天成手作寵物零食－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-12/1.webp?v=ca136dfca13b06dc",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：831532601_17916852282446159_6728783773446372548_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566261780219559976/831532601_17916852282446159_6728783773446372548_n.png?ex=6ae7e674&is=6ae694f4&hm=e2b8178d4b5122bb8d5fa26038c7785cc8086957fffa0381c9c6877cb7220870&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-12/2.webp?v=df778d83728f092a",
+          "alt": "烘然天成手作寵物零食－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-12/2.webp?v=df778d83728f092a",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：785214195_17912140659446159_8271564639070800758_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566261781867790336/785214195_17912140659446159_8271564639070800758_n.png?ex=6ae7e674&is=6ae694f4&hm=ba919c746fd203f1fb3738c55182e1c3c7c58da7dffc318636205a616e6dba7a&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-12/3.webp?v=adad683dbd825716",
+          "alt": "烘然天成手作寵物零食－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-12/3.webp?v=adad683dbd825716",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：783255379_17911339935446159_8033016369634979962_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566261783684194354/783255379_17911339935446159_8033016369634979962_n.png?ex=6ae7e674&is=6ae694f4&hm=bec34637d38f46516656b4a32edd58fc309aef086c8998d39412d408e73a2cb8&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/61574163009409/",
+        "ig": "https://www.instagram.com/naturalpets2025/",
+        "threads": "https://www.threads.com/@naturalpets2025",
+        "web": "https://myship.7-11.com.tw/general/detail/GM2504035631257"
+      },
+      "socialNote": "網站欄為品牌 IG 直接連結的 7-ELEVEN 賣貨便賣場。",
+      "logo": {
+        "url": "./assets/yilan-20261107-12/logo.webp",
+        "source": "https://www.instagram.com/naturalpets2025/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/587597431_17876579511446159_2483270021223121971_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=110&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZWKpEbId1yYQ7kNvwHE3FE8&_nc_oc=AdomV5ltYej7HR-26HaclhOWVTwgaxl13CiYT3endd18Ejl3vCMXB91ZuwBWwY7kbjY&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=moD5WnUJ-RJiL5acdyav2Q&_nc_ss=7b689&oh=00_AQQ-nOcyt0erF_r3ALgtP9NytDLtfPOAFyhqJJDIJE1AEg&oe=6AEAC439"
+      }
+    },
+    {
+      "id": "yilan-20261107-peggy",
+      "name": "Peggy 的二手小物",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-peggy/1.webp?v=74ac2f84282cfddd",
+          "alt": "Peggy 的二手小物－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-peggy/1.webp?v=74ac2f84282cfddd",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png；依附件順序新增，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566465472801804338/image.png?ex=6ae8a428&is=6ae752a8&hm=8075f9be2e4a53e9fd7d2bdd1630de154c8692a3814af2a4dfda84d51b683317&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-peggy/2.webp?v=b6638e86d69b8b2f",
+          "alt": "Peggy 的二手小物－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-peggy/2.webp?v=b6638e86d69b8b2f",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png；依附件順序新增，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566465473426759760/image.png?ex=6ae8a428&is=6ae752a8&hm=69fb97aa6542fa19518859869c7525c585ff2325cf675b454439ac14a4d92455&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-peggy/3.webp?v=564697bfdf37eb8f",
+          "alt": "Peggy 的二手小物－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-peggy/3.webp?v=564697bfdf37eb8f",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png；依附件順序新增，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566465474303234068/image.png?ex=6ae8a428&is=6ae752a8&hm=11e4e1fa65ec6125ab45420627ad2d2db685954e0cbc75b2db8cd6ecd885c48e&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-01",
+      "name": "兒童小天地",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-04",
+      "name": "超ㄅㄧㄤˋ",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-13",
+      "name": "浪黑貓二手商品",
+      "category": "暖心日常",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-14",
+      "name": "漂亮把拔鉤織髮帶",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/4.webp?v=3a576a1ba0ad74b8",
+          "alt": "漂亮把拔鉤織髮帶－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/4.webp?v=3a576a1ba0ad74b8",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_9638.jpeg；依指定順序替換原產品照片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566323934364700704/IMG_9638.jpeg?ex=6ae82056&is=6ae6ced6&hm=c8cc3b76207e7e3694beb18537e7c804aa9cadf80ba53af01cb76693f99b4d79&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/5.webp?v=c6c328249072c30f",
+          "alt": "漂亮把拔鉤織髮帶－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/5.webp?v=c6c328249072c30f",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_9647.jpeg；依指定順序替換原產品照片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566323934985592992/IMG_9647.jpeg?ex=6ae82056&is=6ae6ced6&hm=820f215fe15ade7fea2904dfb753b805ae5640bca280072b86709110626d045f&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/6.webp?v=be789348e8786f77",
+          "alt": "漂亮把拔鉤織髮帶－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/6.webp?v=be789348e8786f77",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_9653.jpeg；依指定順序替換原產品照片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566323936025772032/IMG_9653.jpeg?ex=6ae82057&is=6ae6ced7&hm=568bd219444ca54a942ffa4061e251377b6406d4afbcf4ba88f02cbd6574e728&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/7.webp?v=4d2a9b29d175f915",
+          "alt": "漂亮把拔鉤織髮帶－作品圖片 4",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/7.webp?v=4d2a9b29d175f915",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_9666.jpeg；依指定順序替換原產品照片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566323937095323768/IMG_9666.jpeg?ex=6ae82057&is=6ae6ced7&hm=bf8a92b9f241f467c0e96c10f0a8d249ea4809925bbd8065a1653b482f312b4e&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/8.webp?v=d049d7a03c2fe74d",
+          "alt": "漂亮把拔鉤織髮帶－作品圖片 5",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/8.webp?v=d049d7a03c2fe74d",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_9673.jpeg；依指定順序替換原產品照片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566323938160541716/IMG_9673.jpeg?ex=6ae82057&is=6ae6ced7&hm=6955115cd054db5c1f7cb1b2ac07914c5cffb2788bb8f671d38fc2432650e8a4&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/9.webp?v=d0cad0e13574003d",
+          "alt": "漂亮把拔鉤織髮帶－作品圖片 6",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-14/9.webp?v=d0cad0e13574003d",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_9672.jpeg；依指定順序替換原產品照片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566323939234418709/IMG_9672.jpeg?ex=6ae82058&is=6ae6ced8&hm=02aa77a8efca5217e2487d4b1e8afe450cb97dea4ccb4c1a82349c1466206e3b&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/prettypapahandmade/",
+        "threads": "https://www.threads.com/@prettypapa1987",
+        "web": ""
+      },
+      "socialNote": "Threads 為「漂亮把拔」創作者帳號，曾提及髮帶販售與出攤。",
+      "logo": {
+        "url": "./assets/yilan-20261107-14/logo.webp",
+        "source": "https://www.instagram.com/prettypapahandmade/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/784394296_18096087680068410_4506737899361321965_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Qh-rLenxnKEQ7kNvwGWtzJf&_nc_oc=AdqVafq2r2wOFbGLJ7tgmRtJZKNxLCTiEX-L6kFVZBG8OZnMJh0sGfPARBHnlUOT3cQ&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=eeZI-w6iHh6kQdJLWpXsJA&_nc_ss=7b689&oh=00_AQQc003NcUXL6FcDIGr6pvZC0UiKiAXlTCdUB0iZcqnoAg&oe=6AEAC9F1"
+      }
+    },
+    {
+      "id": "yilan-20261107-19",
+      "name": "豐革手作",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-19/1.webp?v=28e4fa589a0d60ce",
+          "alt": "豐革手作－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-19/1.webp?v=28e4fa589a0d60ce",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：877649777_1653858056546199_5725982278471945441_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257778203295884/877649777_1653858056546199_5725982278471945441_n.png?ex=6ae7e2b9&is=6ae69139&hm=9fd8aeb6dfdac4e79e4a4ed293faa967e1ea146acb707eee789ab38095618a8e&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-19/2.webp?v=2f329352c5c40608",
+          "alt": "豐革手作－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-19/2.webp?v=2f329352c5c40608",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：864026184_1653818056550199_1129059120841491439_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257779289628773/864026184_1653818056550199_1129059120841491439_n.png?ex=6ae7e2ba&is=6ae6913a&hm=bda4cdd56f5c8c409c3bec4f68f48c7c8b70d268c756e8860c316d4f62afac75&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-19/3.webp?v=df83bbd17d37b164",
+          "alt": "豐革手作－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-19/3.webp?v=df83bbd17d37b164",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：876793203_1653810856550919_4384127237700670077_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257780396916907/876793203_1653810856550919_4384127237700670077_n.png?ex=6ae7e2ba&is=6ae6913a&hm=0b3aec37a5039e614d30381abe0d3ac019c92292817e5c1c4ceff49d36717d94&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/chenshandmadeleathercraft/",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-19/logo.webp",
+        "source": "https://www.facebook.com/chenshandmadeleathercraft/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Facebook 粉專頭像，來源 480 × 480。",
+        "originalUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/301549994_541305631134786_5855463753742141357_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s480x480&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=6yH_BuBBnUIQ7kNvwGzf3cj&_nc_oc=AdpU2VkJy7AjgJS2HzZ-_F9acVYlwtynyoyrcdRROIFu8TTMVWEoEBHXBNLqzvGnF-E&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=Og7GhSP2Waa0sPNfSNeAAQ&_nc_ss=7b289&oh=00_AQQtmfp7T7GgkkFMMdBN8D-Czp36Zf72WcrIcXgWVuGf_w&oe=6AEABE4F"
+      }
+    },
+    {
+      "id": "yilan-20261107-21",
+      "name": "魔創3D",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-21/1.webp?v=6f454667474a76d5",
+          "alt": "魔創3D－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-21/1.webp?v=6f454667474a76d5",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供的作品圖片，依本次附件順序第 1 張；來源為 Discord 附件原始 HTTPS URL。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257383120834800/774512107_18124521661744153_9126774696000742252_n.png?ex=6ae7e25b&is=6ae690db&hm=659876680b3bb106c9b67de5f9dc44bf52edc3dbcb73f2c837317e32d4a75e6d&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-21/2.webp?v=232919332df2a402",
+          "alt": "魔創3D－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-21/2.webp?v=232919332df2a402",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供的作品圖片，依本次附件順序第 2 張；來源為 Discord 附件原始 HTTPS URL。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257384228266085/762864168_18113868268850234_3676570790898182882_n.png?ex=6ae7e25c&is=6ae690dc&hm=003e05b10f2eba1e896b8409ffbef3c6d8d2961c07ae1043a43b3fd4922fa75f&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-21/3.webp?v=91640e913843c8bd",
+          "alt": "魔創3D－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-21/3.webp?v=91640e913843c8bd",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供的作品圖片，依本次附件順序第 3 張；來源為 Discord 附件原始 HTTPS URL。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257384928837653/727757558_122098162029370388_3791886120779314694_n.png?ex=6ae7e25c&is=6ae690dc&hm=caa99455d0e315bab5afa085259c10ead30261433221538ba2bac864066ebc04&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/61591111642809/",
+        "ig": "https://www.instagram.com/tron.motion/",
+        "threads": "https://www.threads.com/@tron.motion",
+        "web": "https://tw.shp.ee/iyoeJjZp"
+      },
+      "socialNote": "Facebook 與 Instagram 個人頁均連至相同的品牌蝦皮賣場，可對應兩個帳號。 網站欄為品牌 IG 直接連結的蝦皮賣場；查閱時平台要求登入。",
+      "logo": {
+        "url": "./assets/yilan-20261107-21/logo.webp",
+        "source": "https://www.instagram.com/tron.motion/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/812940368_18121521556850234_4967108696226415217_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=1KGaRM9Mx7QQ7kNvwH6M3uq&_nc_oc=AdqFVzwX8c4rRFl24BKVVFS4kexA2cBNGTI-ljkslXXZV_0r7xRwcKdevclh9aju2N8&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=RKwT8ACIvgMedcE5apZkcw&_nc_ss=7b689&oh=00_AQSI7fiW-hc2M3TqdjqTldkbfWsDavrEm4fiSdguv2YSUw&oe=6AEAD2D0"
+      }
+    },
+    {
+      "id": "yilan-20261107-22",
+      "name": "MIN HONG LEE",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-22/1.webp?v=fb1c17aea44746be",
+          "alt": "MIN HONG LEE－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-22/1.webp?v=fb1c17aea44746be",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：883559120_17916168882531271_5808806024490590636_n.png；依附件順序追加。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566258382321750106/883559120_17916168882531271_5808806024490590636_n.png?ex=6ae7e34a&is=6ae691ca&hm=b5c8adf6ab53fd642a14adb8dc6eed137e197ed4d8ed2cac3354a30752fc0de9&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-22/2.webp?v=956158799affe304",
+          "alt": "MIN HONG LEE－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-22/2.webp?v=956158799affe304",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：870640304_17915788272531271_7327086777699895882_n.png；依附件順序追加。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566258382698971257/870640304_17915788272531271_7327086777699895882_n.png?ex=6ae7e34a&is=6ae691ca&hm=6061e2055a4881e00ebff69e8797aff7d1996bc2199c12bf205ed3b1c3eb8570&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-22/3.webp?v=9dedd017d7fc10af",
+          "alt": "MIN HONG LEE－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-22/3.webp?v=9dedd017d7fc10af",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：864661634_18111028133230405_4270697605588565165_n.png；依附件順序追加。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566258383055749262/864661634_18111028133230405_4270697605588565165_n.png?ex=6ae7e34a&is=6ae691ca&hm=735a0f402a24f0304a16e061c0bf2d34fbd58043ba16cf75c5c98e02d5620a1e&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/min_hong_lee_/",
+        "threads": "https://www.threads.com/@min_hong_lee_",
+        "web": "https://payhip.com/MINHONGLEE"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-22/logo.webp",
+        "source": "https://www.instagram.com/min_hong_lee_/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/102549184_1258073927731324_3181580171301289528_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Vn2wSV4x7wEQ7kNvwGO96AP&_nc_oc=AdoAdSZj5dnVTCOXPKSfhZ8xyk8Df0woOy18E8iZzPCtoAQagjebSDr1BNDl6Y9YmDw&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQCb_GQWpagF-lh8GHNuC4_rlhbbW_dnIplGiKnfqMkNg&oe=6AEADB3C"
+      },
+      "socialNote": "品牌 IG 連結的 Linktree（https://linktr.ee/MINHONGLEE）列有此國際商店及台灣賣場。"
+    },
+    {
+      "id": "yilan-20261107-23",
+      "name": "The Kind V. 植食所",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-23/1.webp?v=86115f02e8042a7f",
+          "alt": "The Kind V. 植食所－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-23/1.webp?v=86115f02e8042a7f",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：475841440_621397423627337_8353452535837903450_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566258774149304470/475841440_621397423627337_8353452535837903450_n.png?ex=6ae7e3a7&is=6ae69227&hm=8769ed3813aaadae74075dc5c087dc9cbec8c90dc2dec6d133dd01dcbc5353a4&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/KindV.Homemade/",
+        "ig": "https://www.instagram.com/the_kind_v/",
+        "threads": "https://www.threads.com/@the_kind_v",
+        "web": "https://linktr.ee/thekindv"
+      },
+      "socialNote": "網站欄為品牌 IG 直接連結的 Linktree 官方連結頁。",
+      "logo": {
+        "url": "./assets/yilan-20261107-23/logo.webp",
+        "source": "https://www.instagram.com/the_kind_v/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/384299877_239949128663028_2367555257841409084_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43NjEuQzMifQ%3D%3D&_nc_ohc=F6xGFNx0zWkQ7kNvwHo5KyS&_nc_oc=AdqlUhNwg_7-mRYkLeeLr9LOQ4Jo9Lat2LzedEUBiHCSMLbVEOha7y1FB_aOMRO9RIY&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQMPeb1GRWN5t9wadFf19z5wKTWjJbXo1p3CHFEtsTHOw&oe=6AEAA7EF"
+      }
+    },
+    {
+      "id": "yilan-20261107-24",
+      "name": "Rikoz Parfum",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-24/1.webp?v=025c0f4267383351",
+          "alt": "Rikoz Parfum－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-24/1.webp?v=025c0f4267383351",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：814629376_17868387474648346_8513241164743464884_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566259297812226068/814629376_17868387474648346_8513241164743464884_n.png?ex=6ae7e424&is=6ae692a4&hm=8186da3a9f5f60c4a24a2f4111739459bd5d0b0225b78ebd33f3bdb02dd72d8d&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-24/2.webp?v=f38871b1a710789b",
+          "alt": "Rikoz Parfum－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-24/2.webp?v=f38871b1a710789b",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：763618443_18109461416517431_1314058373933080225_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566259298483441795/763618443_18109461416517431_1314058373933080225_n.png?ex=6ae7e424&is=6ae692a4&hm=5c3649a63bc091bbb867f2abd4b03f35e7f585cc8cfee813f01796b159746cae&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-24/3.webp?v=d4878f741f7e9378",
+          "alt": "Rikoz Parfum－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-24/3.webp?v=d4878f741f7e9378",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：730083249_18104187677517431_5785045779573170108_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566259299305529485/730083249_18104187677517431_5785045779573170108_n.png?ex=6ae7e424&is=6ae692a4&hm=dc1455e387f325489fb0c177bab66f5136f149492ddc2b913e5331d6059b55c1&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/rikoz_parfum/",
+        "threads": "https://www.threads.com/@rikoz_parfum",
+        "web": "https://rikozparfum.com.tw/"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-24/logo.webp",
+        "source": "https://www.instagram.com/rikoz_parfum/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/726002070_18102880175517431_6913358181914115735_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Lc7ZV18vLbsQ7kNvwE0-G3g&_nc_oc=AdpQCHdjw1OsIwu4OGtLmd4cLTE0DC9U8oKZ7oSO09qA9juN4GVGkaUJqnME3Zl0yTA&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=i1wWWvYRLW551TE7PPEoCQ&_nc_ss=7b689&oh=00_AQRilqRc8C9TfFFAL_crhHMUKbjn9A8CftxT96S5GImlGQ&oe=6AEAB49F"
+      },
+      "address": "宜蘭縣宜蘭市復興路二段43巷24號",
+      "latlng": {
+        "lat": 24.7481453,
+        "lng": 121.7484284
+      },
+      "locationSource": "https://www.google.com/maps/place/%E6%B7%BA%E9%9C%B2%E5%93%81%E9%A6%99%EF%BD%9C%E9%A0%90%E7%B4%84%E5%88%B6%E8%AA%BF%E9%A6%99%E9%AB%94%E9%A9%97%EF%BD%9C%E9%A6%99%E6%B0%9B%E8%A0%9F%E7%87%AD/@24.7481453,121.7484284,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e5da2905b005:0x346a4e8b6eac38b0!8m2!3d24.7481453!4d121.7484284!16s%2Fg%2F11y86d8zsx",
+      "oshenStoreId": "yilan-20261107-24"
+    },
+    {
+      "id": "yilan-20261107-25",
+      "name": "我家的巷子口",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-25/1.webp?v=c2bf3925178df294",
+          "alt": "我家的巷子口－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-25/1.webp?v=c2bf3925178df294",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：2026-11-01_9.16.29.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566259799614816326/2026-11-01_9.16.29.png?ex=6ae7e49b&is=6ae6931b&hm=1c3059216abd5cb3d387a3c936d66fb59476d8b3d5603b096290ac5030293f7e&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-25/2.webp?v=2fd50e24aafaba12",
+          "alt": "我家的巷子口－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-25/2.webp?v=2fd50e24aafaba12",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：2026-11-01_9.16.59.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566259800281718935/2026-11-01_9.16.59.png?ex=6ae7e49c&is=6ae6931c&hm=eb77e1c9d3d77ebe505a16329f4fba5d5710158310a382974a45f4e9ef3ca5b6&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-25/3.webp?v=b6421515936c97a8",
+          "alt": "我家的巷子口－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-25/3.webp?v=b6421515936c97a8",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：2026-11-01_9.17.09.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566259800793419857/2026-11-01_9.17.09.png?ex=6ae7e49c&is=6ae6931c&hm=bd6a202f59b6ba8f790afcc24eb540e871ecb450d9cdcdc36d11e190f73dd9f3&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/alley.handy/",
+        "threads": "",
+        "web": "https://linktr.ee/alley.handy"
+      },
+      "socialNote": "Instagram 發布本次市集出攤公告：https://www.instagram.com/p/De8M_lUTKEL/ 網站欄為品牌 IG 直接連結的 Linktree 官方連結頁。",
+      "logo": {
+        "url": "./assets/yilan-20261107-25/logo.webp",
+        "source": "https://www.instagram.com/alley.handy/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/488558694_3971985066409526_1838574545473863635_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zMTUuQzMifQ%3D%3D&_nc_ohc=C1otAp2-3JUQ7kNvwFvkZFe&_nc_oc=AdpVYulvsh1DTgViIx0gWlNUGeTBuf8T_35-MoFEhFRrZOuo8caTrGocbX8YANf4cLM&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQRdEtxmhV21loFD3C5YGVre4XSmEr021J9Vem8F3aGjgg&oe=6AEACA05"
+      }
+    },
+    {
+      "id": "yilan-20261107-26",
+      "name": "No.7m.陶芸",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-26/1.webp?v=2d74ef0fcc2eb6c1",
+          "alt": "No.7m.陶芸－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-26/1.webp?v=2d74ef0fcc2eb6c1",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：865584189_18132384766765328_7380394671570201111_n.png；依附件順序追加。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566260356198695012/865584189_18132384766765328_7380394671570201111_n.png?ex=6ae7e520&is=6ae693a0&hm=67cd7d62a4a07b788e1f965535a895363de8955292d5bcc6ae41588bf536a511&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-26/2.webp?v=a37136fc2ccb0792",
+          "alt": "No.7m.陶芸－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-26/2.webp?v=a37136fc2ccb0792",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：785885944_18089655596425436_6059451004299601124_n.png；依附件順序追加。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566260357238890596/785885944_18089655596425436_6059451004299601124_n.png?ex=6ae7e520&is=6ae693a0&hm=abdac302f4951e85e5f1bb2244c8ae89ecef89747049db4f13cea9a699030696&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-26/3.webp?v=b031c9ed0a380927",
+          "alt": "No.7m.陶芸－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-26/3.webp?v=b031c9ed0a380927",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：783286531_18089654753425436_3236436505432763526_n.png；依附件順序追加。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566260358333861898/783286531_18089654753425436_3236436505432763526_n.png?ex=6ae7e521&is=6ae693a1&hm=892a02eec50463b7c2cc2a9764ebfe4686d7028ba4bfaa5c39be672f20d81b6e&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/7m_pottery/",
+        "threads": "https://www.threads.com/@7m_pottery",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-26/logo.webp",
+        "source": "https://www.instagram.com/7m_pottery/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/752723624_18083438432425436_4131317545262113106_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=110&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41NzIuQzMifQ%3D%3D&_nc_ohc=FNUyQIvyOPAQ7kNvwGU1dll&_nc_oc=AdpE9D8sGX-90SMe--w3ROLdsSmyUV2RMIYneU9Z2AeQMb2nv88hG8svwPt_SfGBWe4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=VbkZ3On_cJcpgYCCVjp_ww&_nc_ss=7b689&oh=00_AQQ2C7ynXZLASQNnY47Gx1PEHIZjs9eAzWCk9-LqExWBuA&oe=6AEAAD0E"
+      }
+    },
+    {
+      "id": "yilan-20261107-27",
+      "name": "好日文化",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-27/4.webp?v=948171e81343b9c8",
+          "alt": "好日文化－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-27/4.webp?v=948171e81343b9c8",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件 image.png，依指定替換作品圖片；未作官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566787033135845508/image.png?ex=6ae9cfa2&is=6ae87e22&hm=d0a9bc5b5c6c37ccc73ae10c07c0de80288d55bd0a1e8338023759e85ad41aa0&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-27/5.webp?v=5c5be9ebdc357154",
+          "alt": "好日文化－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-27/5.webp?v=5c5be9ebdc357154",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件 image.png，依指定替換作品圖片；未作官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566787034130026676/image.png?ex=6ae9cfa2&is=6ae87e22&hm=45715704698819eefff58af622a0307ef954a340e96ab2a6199503539498a15d&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-27/6.webp?v=b295d5bce86d6c2c",
+          "alt": "好日文化－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-27/6.webp?v=b295d5bce86d6c2c",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件 image.png，依指定替換作品圖片；未作官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566787035497238580/image.png?ex=6ae9cfa2&is=6ae87e22&hm=a4a264269bafd8b255398a53dd2e4529a17656e5af825a270fe45d4be733951f&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/HaorihCreativeStudio/",
+        "ig": "https://www.instagram.com/haorihcreativestudio/",
+        "threads": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-27/logo.webp",
+        "source": "https://www.instagram.com/haorihcreativestudio/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/435610957_3798963227082154_504797371379427116_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MDUuQzMifQ%3D%3D&_nc_ohc=aTyAr7RPAxEQ7kNvwHFRZaY&_nc_oc=AdqJ9w3WZjPLDT4a0ynj499HqjPMZxuE-aZv0OYu0MJCBrltctL_ka-lhZD8uAXW-jA&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQSpT6C5Q6DvoyouZTkmhkZ2za8gNLnVKf7p-e5-0kfs3Q&oe=6AEAD15B"
+      },
+      "address": "260宜蘭縣宜蘭市新生里中山路五段48號",
+      "latlng": {
+        "lat": 24.7673858,
+        "lng": 121.7563932
+      },
+      "locationSource": "https://www.google.com/maps/place/好日文化/@24.7673858,121.7563932,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e4d2e16289f5:0xb83ad75f887ca0fd!8m2!3d24.7673858!4d121.7563932!16s%2Fg%2F11ddx6z3vv",
+      "oshenStoreId": "yilan-20261107-27"
+    },
+    {
+      "id": "yilan-20261107-28",
+      "name": "ANE Object",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-28/1.webp?v=26fffc026cfe4238",
+          "alt": "ANE Object－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-28/1.webp?v=26fffc026cfe4238",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：856577457_17912758434519556_3187746032082100900_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566260756570316931/856577457_17912758434519556_3187746032082100900_n.png?ex=6ae7e580&is=6ae69400&hm=c8836ffe1fdcd245e31d350840ea5a55388d1fefcae5c840a8e4cbf77f6dbc30&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-28/2.webp?v=078df531ac5db781",
+          "alt": "ANE Object－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-28/2.webp?v=078df531ac5db781",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：852591341_17912758446519556_9144427273313635566_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566260758101233664/852591341_17912758446519556_9144427273313635566_n.png?ex=6ae7e580&is=6ae69400&hm=87083d1dd97d77f3f774cc41e958daf0f43390666f1867749d544e03b0545df9&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-28/3.webp?v=99a6042233b813bf",
+          "alt": "ANE Object－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-28/3.webp?v=99a6042233b813bf",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：843533587_17911583973519556_7345464539776985426_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566260760123015178/843533587_17911583973519556_7345464539776985426_n.png?ex=6ae7e580&is=6ae69400&hm=8a6cfa3a9f305bbca4141458ac98d5071d0a60c9340015e3f6aaf50957098ae5&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/ane_object/",
+        "threads": "https://www.threads.com/@ane_object",
+        "web": "https://ane-object.nanaooo.studio/"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-28/logo.webp",
+        "source": "https://www.instagram.com/ane_object/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/515204997_17845285764517323_5612160363168857264_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=110&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy42MzAuQzMifQ%3D%3D&_nc_ohc=McZfp4iqI0QQ7kNvwF2VjWW&_nc_oc=AdoYks-wniBhmSMlzUlLabfhSPr-YQXF_BxA6zoWG8I1N_fTHWD5It9BGrjhybiVHMg&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=PiZ48m-1MHx-QPod_aCqnw&_nc_ss=7b689&oh=00_AQT8wbgbvR3IMcf4OiRgtpHUT-DOLcwvBaq5qKSZGgWmUw&oe=6AEADC8A"
+      },
+      "address": "270宜蘭縣蘇澳鎮南強里南澳路2號",
+      "latlng": {
+        "lat": 24.462478,
+        "lng": 121.8060849
+      },
+      "locationSource": "https://www.google.com/maps/place/ANE Object/@24.462478,121.8060849,17z/data=!3m1!4b1!4m6!3m5!1s0x3467db8248dc5cdb:0x93aced08b685bdd7!8m2!3d24.462478!4d121.8060849!16s%2Fg%2F11zckkd70d",
+      "oshenStoreId": "yilan-20261107-28"
+    },
+    {
+      "id": "yilan-20261107-29",
+      "name": "米飯錢浪愛小舖",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-29/1.webp?v=6f6661330c3ba255",
+          "alt": "米飯錢浪愛小舖－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-29/1.webp?v=6f6661330c3ba255",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：852999794_975532995623309_8711536843056323807_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566261063920656384/852999794_975532995623309_8711536843056323807_n.png?ex=6ae7e5c9&is=6ae69449&hm=074474d0070cb845d7df35a45b07ab968f065b568284ae424cd70e67eee45f42&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-29/2.webp?v=b1124c136e33b04b",
+          "alt": "米飯錢浪愛小舖－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-29/2.webp?v=b1124c136e33b04b",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：2026-11-01_9.22.04.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566261064423964712/2026-11-01_9.22.04.png?ex=6ae7e5c9&is=6ae69449&hm=e39d5e4d50629544dd74cba83675dad030d3d9be7f67782f01749aeced7395b4&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/2022mifan/",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      },
+      "socialNote": "芒草 café 於 2026-10-26 介紹小舖時表示攤主目前只有 Facebook，沒有 IG 或 Threads：https://www.threads.com/@silvergrass2023/post/De8vOX_mT5e/",
+      "logo": {
+        "url": "./assets/yilan-20261107-29/logo.webp",
+        "source": "https://www.facebook.com/2022mifan/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Facebook 粉專頭像，原圖 480 × 480，不放大。",
+        "originalUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/272336118_112020671388788_7003559007703056176_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s480x480&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=8wOGu-9HRt0Q7kNvwEHDJ6T&_nc_oc=AdoTEDzWyeC4P-iuGL6iWrHeTWqYSp75xLH1e_hodE1l1yqiWZGOJcJu1qWwq8o3XDk&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=EGFYQL3lBuw9RcE8B7jDww&_nc_ss=7b289&oh=00_AQTUKv_GBXtJwdNlA2OHdbjFIECqPNDRwjuvyCnY59Kyog&oe=6AEB2426"
+      }
+    },
+    {
+      "id": "yilan-20261107-31",
+      "name": "熱血",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31/1.webp?v=29d88d98ddeccd5a",
+          "alt": "熱血－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31/1.webp?v=29d88d98ddeccd5a",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：880871709_17991932595118401_8867819046883584080_n.png（本次附件第 1 張）；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257064303534170/880871709_17991932595118401_8867819046883584080_n.png?ex=6ae7e20f&is=6ae6908f&hm=5ec247b3113ae9f0791a5489227d084667f8bf06e1907e85fc62a57d7d944181&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31/2.webp?v=9886529c6ea958d1",
+          "alt": "熱血－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31/2.webp?v=9886529c6ea958d1",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：867571449_17991324942118401_4949929088022980924_n.png（本次附件第 2 張）；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257064739872878/867571449_17991324942118401_4949929088022980924_n.png?ex=6ae7e20f&is=6ae6908f&hm=573374811371f7aee2f16d16a7272d992ba4bece0dfb28edc292d52dc8e23a79&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31/3.webp?v=7459b7c1d8a322df",
+          "alt": "熱血－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31/3.webp?v=7459b7c1d8a322df",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：864023059_17990608257118401_5722501963562917553_n.png（本次附件第 3 張）；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566257065146585098/864023059_17990608257118401_5722501963562917553_n.png?ex=6ae7e20f&is=6ae6908f&hm=d947533763081db50ca13dc402778bef860a758246c2072b7e6cf21c6c54c116&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/hot_write/",
+        "threads": "https://www.threads.com/@hot_write",
+        "web": "https://linktr.ee/hot_write"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-31/logo-a.webp",
+        "source": "https://www.instagram.com/hot_write/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/109824775_3131736223559609_3354157363000949849_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=109&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=_F9D90k71OkQ7kNvwGM04LW&_nc_oc=Adp9eXQJDjoAR793GIgnJTFttg6Py4Zrjqfjr28ukLgiGlYYi2eFfFs1c1DVKarAE9g&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQScYGuhxCfBUl6Cf4a1AVt9-7F6HPMoZjZbfBB_82oO8A&oe=6AEAAC42"
+      },
+      "socialNote": "網站欄為品牌 Instagram 直接連結的 Linktree 官方連結頁。",
+      "posterBoothName": "熱血 x 石毛"
+    },
+    {
+      "id": "yilan-20261107-31-b",
+      "name": "石毛",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31-b/1.webp?v=a9887669488cc746",
+          "alt": "石毛－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31-b/1.webp?v=a9887669488cc746",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：879215343_17903405895670881_971326599871728291_n.png（本次附件第 1 張）；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566256913337950309/879215343_17903405895670881_971326599871728291_n.png?ex=6ae7e1eb&is=6ae6906b&hm=de0e42139ab1beaa80634696a58c18daf2deb0b3ba0a647769a711b89cef36d6&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31-b/2.webp?v=07956af5e30c04cf",
+          "alt": "石毛－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31-b/2.webp?v=07956af5e30c04cf",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：865373070_17903227782670881_3581069546415738661_n.png（本次附件第 2 張）；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566256915850469376/865373070_17903227782670881_3581069546415738661_n.png?ex=6ae7e1ec&is=6ae6906c&hm=b0f7d515dc11503395cf66c111bab6f4129354ae474dca5367fcd38c7f436251&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31-b/3.webp?v=53e5b8b9bb579d01",
+          "alt": "石毛－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-31-b/3.webp?v=53e5b8b9bb579d01",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：870149188_17902790049670881_6035935986667844359_n.png（本次附件第 3 張）；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566256917720858655/870149188_17902790049670881_6035935986667844359_n.png?ex=6ae7e1ec&is=6ae6906c&hm=21ad2273c7a273a150701dd7e57942ec5731d2872aa15b9566e97b3f3ffb6942&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/shumao_write/",
+        "threads": "https://www.threads.com/@shumao_write",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-31/logo-b.webp",
+        "source": "https://www.instagram.com/shumao_write/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/257467092_678003666939012_1415787509739386402_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=p7e2UCpScDQQ7kNvwGwsnPe&_nc_oc=AdrPeEYQEHJ80JgkI_8HnCdNOnO7BHT0SY5SU3VvgCf8XOyEazdVs8mPWoPfFlOQwZw&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQTHALLBpkl-StYKiXpBWs0S4d2Ze-2_0vVJ71PwxpSXcA&oe=6AEAC02D"
+      },
+      "socialNote": "2026-10-31 查核 Instagram 個人頁，當時未列外部網站；不代表沒有官網。 2026-11-01 使用者提供 Threads：https://www.threads.com/@shumao_write，與既有帳號一致；本次無法讀取該頁面，未作官方查證。",
+      "posterBoothName": "熱血 x 石毛"
+    },
+    {
+      "id": "yilan-20261107-32",
+      "name": "植巫",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-32/1.webp?v=96095e19fc0d6e0e",
+          "alt": "植巫－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-32/1.webp?v=96095e19fc0d6e0e",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：652543927_18572204644024406_6193475975928088673_n.png；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566256761021800629/652543927_18572204644024406_6193475975928088673_n.png?ex=6ae7e1c7&is=6ae69047&hm=81495313e43148fb2af354b3531c868b27fe4a43cf40df513b80cfd4db16c3d6&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/imdanwang/",
+        "ig": "https://www.instagram.com/plantstoldme/",
+        "threads": "https://www.threads.com/@plantstoldme",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-32/logo.webp",
+        "source": "https://www.instagram.com/plantstoldme/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/363878467_692294709399308_579672341696981959_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43MDkuQzMifQ%3D%3D&_nc_ohc=XOQise_4HQwQ7kNvwEXIKDK&_nc_oc=AdpywdtQ8eTAY-XpkSfXQIroYxPOp6elc3oV589-DMwxxIjcyQlemZZ9CIq63LmSCGM&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQ1MEDXDIJDdv9mzUHTbDlUeikFNB4qZqWTFOVCzqONtg&oe=6AEABE72"
+      }
+    },
+    {
+      "id": "yilan-20261107-33",
+      "name": "綠朵里的雜貨店",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-33/1.webp?v=fd8839389d26fdec",
+          "alt": "綠朵里的雜貨店－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-33/1.webp?v=fd8839389d26fdec",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：479081703_17856455238373615_2775059160083560844_n.png；依附件順序追加；2026-11-01 讀取原圖回傳 HTTP 403，未能檢視內容，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566256144526217346/479081703_17856455238373615_2775059160083560844_n.png?ex=6ae7e134&is=6ae68fb4&hm=9ffe34af5505a31ff09b8a64eea25b1763a2e8765fc1e22a4a2dfec9f4576ccc&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/midorino.lab/",
+        "ig": "https://www.instagram.com/dorino____/",
+        "threads": "https://www.threads.com/@dorino____",
+        "web": "https://www.midorinolab.com/cosmos"
+      },
+      "socialNote": "Facebook 為綠朵里品牌公司「綠野品牌實驗室」粉專，雜貨店專屬 FB 尚待確認；官網雜貨店欄位連結此 Instagram，帳號目前名稱為「綠朵里的榕樹下」。",
+      "logo": {
+        "url": "./assets/yilan-20261107-33/logo.webp",
+        "source": "https://www.instagram.com/dorino____/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "官網雜貨店欄所連結的 Instagram 現稱「綠朵里的榕樹下」，頭像代表相關節目帳號，非已確認的雜貨店專屬標誌；原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/606172098_17967110189976707_6103807045440540089_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=110&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=mlcB_rNcS0QQ7kNvwHwSCdT&_nc_oc=AdrIx1ddOkrDjb5NkDqW3fA8TUpJm0ymZ96vshHtNd64mXaEEBFI1qqd6utjyZenm24&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=rPcdfgDlkH6dGOXiogXyiA&_nc_ss=7b689&oh=00_AQS6nxTMnDQZZ1zZNDlVBPqvbkqQXUGVQsztMTJtifpccg&oe=6AEAB9E6"
+      }
+    },
+    {
+      "id": "yilan-20261107-34",
+      "name": "注意！似顏繪",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-34/1.webp?v=2dcda319a0bb4a2a",
+          "alt": "注意！似顏繪－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-34/1.webp?v=2dcda319a0bb4a2a",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：535947915_17853634983515483_3054671636107152914_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566255346995953786/535947915_17853634983515483_3054671636107152914_n.png?ex=6ae7e076&is=6ae68ef6&hm=e441dd18993867a93751fdb424a5087167cad2d93d94af314c435e0e493e2842&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-34/2.webp?v=4c63449776c2f9c2",
+          "alt": "注意！似顏繪－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-34/2.webp?v=4c63449776c2f9c2",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：535840714_17853634992515483_5117220434793835801_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566255347742675034/535840714_17853634992515483_5117220434793835801_n.png?ex=6ae7e076&is=6ae68ef6&hm=0f69d31b2e382d4ef98ceec34006468780dfa7f0e34a9cc5b3a95ce0d261d36c&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-34/3.webp?v=214a58aa4588ea01",
+          "alt": "注意！似顏繪－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-34/3.webp?v=214a58aa4588ea01",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：783374648_17905620165515483_4361912148081812864_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566255348375887963/783374648_17905620165515483_4361912148081812864_n.png?ex=6ae7e076&is=6ae68ef6&hm=394b7590ca34864174bfa17cfe4a50d39485078032bf824f196a3ad8c78bea5f&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/p_ause.art/",
+        "threads": "https://www.threads.com/@p_ause.art",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-34/logo.webp",
+        "source": "https://www.instagram.com/p_ause.art/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/514913349_17958885341955983_4295871197619528458_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=106&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=0bB5K7SlW2IQ7kNvwG1lwMS&_nc_oc=AdrLkjWivcSOvdVWILLFaGtVuiIOcfDON4rGBg4T9RJ4c8-pzaEOcGVH3QmSelTAeJo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=CO7yilT5usiIWM4FtRdV4w&_nc_ss=7b689&oh=00_AQTzV4DMTwCXocDupPBdnbtbEc0jKv7z-7xdu8vDMPYGGQ&oe=6AEADD0C"
+      }
+    },
+    {
+      "id": "yilan-20261107-kawaiin",
+      "name": "卡哇印",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/kawaiin.3d/",
+        "threads": "https://www.threads.com/@kawaiin.3d",
+        "web": ""
+      },
+      "socialNote": "原提案 92aedea9a71a 提供的 Instagram、Threads 網址。",
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/1.webp?v=3cfaddd2fdd2d256",
+          "alt": "卡哇印－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/1.webp?v=3cfaddd2fdd2d256",
+          "checkedAt": "2026-11-05",
+          "note": "原提案 92aedea9a71a 使用者提供附件 1：image.png；依附件順序保存。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567755330228719677/image.png?ex=6aed556e&is=6aec03ee&hm=b3aa16ea70afbc0e5284b5ea8e81478baf89d13425ce87404d9f9af925df6426&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/2.webp?v=409febf6e9ad1993",
+          "alt": "卡哇印－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/2.webp?v=409febf6e9ad1993",
+          "checkedAt": "2026-11-05",
+          "note": "原提案 92aedea9a71a 使用者提供附件 2：image.png；依附件順序保存。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567755330514059264/image.png?ex=6aed556e&is=6aec03ee&hm=d20195a2e36cf738ad78733d00d7600424aaa7c98d490cd1be2d016b6c3c285b&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/3.webp?v=89203dd39f02b1bf",
+          "alt": "卡哇印－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/3.webp?v=89203dd39f02b1bf",
+          "checkedAt": "2026-11-05",
+          "note": "原提案 92aedea9a71a 使用者提供附件 3：image.png；依附件順序保存。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567755330967048342/image.png?ex=6aed556e&is=6aec03ee&hm=e5a58e1f004a6928d9f1dec95b8ca2e4f5d2cdad7c99e59fcd9bdbcfb9a7a30e&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/4.webp?v=236dc91b05f73fc9",
+          "alt": "卡哇印－作品圖片 4",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/4.webp?v=236dc91b05f73fc9",
+          "checkedAt": "2026-11-05",
+          "note": "原提案 92aedea9a71a 使用者提供附件 4：image.png；依附件順序保存。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567755331638005841/image.png?ex=6aed556e&is=6aec03ee&hm=67168fa28c54d83f35671d0668dd8fbae49deb0afbdbdb4af0fd60e52afa1382&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/5.webp?v=0eca63bab100839b",
+          "alt": "卡哇印－作品圖片 5",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/5.webp?v=0eca63bab100839b",
+          "checkedAt": "2026-11-05",
+          "note": "原提案 92aedea9a71a 使用者提供附件 5：image.png；依附件順序保存。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567755332435050577/image.png?ex=6aed556e&is=6aec03ee&hm=fb87ec89b1b6e3a89c01590617696d553c5e5c86b0b9f59cc9acd9b54ac1dd30&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/6.webp?v=1bd89a87c7a29874",
+          "alt": "卡哇印－作品圖片 6",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/6.webp?v=1bd89a87c7a29874",
+          "checkedAt": "2026-11-05",
+          "note": "原提案 92aedea9a71a 使用者提供附件 6：image.png；依附件順序保存。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567755332904558632/image.png?ex=6aed556e&is=6aec03ee&hm=9e442d1c606b3b99b4726ada7b1550e4fd1eb53f0a7fb38996f3272e48db8dd0&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/7.webp?v=8f6c876e2de9d736",
+          "alt": "卡哇印－作品圖片 7",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/7.webp?v=8f6c876e2de9d736",
+          "checkedAt": "2026-11-05",
+          "note": "原提案 92aedea9a71a 使用者提供附件 7：image.png；依附件順序保存。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567755333542215700/image.png?ex=6aed556f&is=6aec03ef&hm=76f8bdf2c90c754b528da87771149e7e995b3404f42f7c480252c7c2df9f3d50&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/8.webp?v=2da9f382e74b4e5d",
+          "alt": "卡哇印－作品圖片 8",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/8.webp?v=2da9f382e74b4e5d",
+          "checkedAt": "2026-11-05",
+          "note": "原提案 92aedea9a71a 使用者提供附件 8：image.png；依附件順序保存。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567755334125232189/image.png?ex=6aed556f&is=6aec03ef&hm=21e58d02b5dcc9c0efb41c4946890d0500e62ad9583b52b4e7a998a5f85f653e&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/9.webp?v=58ff9c3baaca12b1",
+          "alt": "卡哇印－作品圖片 9",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-kawaiin/9.webp?v=58ff9c3baaca12b1",
+          "checkedAt": "2026-11-05",
+          "note": "原提案 92aedea9a71a 使用者提供附件 9：image.png；依附件順序保存。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567755334486069377/image.png?ex=6aed556f&is=6aec03ef&hm=4cf176f4eb45843f09830aea7e58c61511fc80121c8646f96d29940034afaebe&"
+        }
+      ]
+    },
+    {
+      "id": "yilan-20261107-15",
+      "name": "芳姐服飾",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-16",
+      "name": "芯有所物",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-17",
+      "name": "艾比好物挖寶屋",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-18",
+      "name": "柔兒小舖",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-20",
+      "name": "瑄老闆生活選物",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-20/1.webp?v=06034868a8acd571",
+          "alt": "瑄老闆生活選物－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-20/1.webp?v=06034868a8acd571",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（第 1 張）；依附件順序追加。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566464796906496110/image.png?ex=6ae8a387&is=6ae75207&hm=3ca6eb24813e0b397e3d51d987a45a666177e6f6efef2244557b764ea6a35d6f&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-20/2.webp?v=00ec704d0ef5616f",
+          "alt": "瑄老闆生活選物－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-20/2.webp?v=00ec704d0ef5616f",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（第 2 張）；依附件順序追加。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566464798059667556/image.png?ex=6ae8a387&is=6ae75207&hm=e6f100b6ee505b83329b8e7a9eb8c9aaa720fcdd23834dc7e9f88d83f65b83a8&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-20/3.webp?v=71c59b964c17bdfa",
+          "alt": "瑄老闆生活選物－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-20/3.webp?v=71c59b964c17bdfa",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（本次第 1 張）；保留既有作品並追加。附件網址目前回應 HTTP 403，未能檢視內容。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566464915869274205/image.png?ex=6ae8a3a3&is=6ae75223&hm=1eff2849952a97631fc1d6c56283c96da76be8f34b2d6197e46ea64e60792a52&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      }
+    },
+    {
+      "id": "yilan-20261107-30",
+      "name": "星月水晶",
+      "category": "台派創集",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-30/1.webp?v=41e4d89211e8b5be",
+          "alt": "星月水晶－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-30/1.webp?v=41e4d89211e8b5be",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件 image.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566745124623487186/image.png?ex=6ae9a89a&is=6ae8571a&hm=1f40effe0e9c5852bf1e9aaedd52d9840546b59f75cfbe9b2315c065ba25a9c3&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-30/2.webp?v=fd00f7b3399c0c3c",
+          "alt": "星月水晶－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-30/2.webp?v=fd00f7b3399c0c3c",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件 image.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566745125219213312/image.png?ex=6ae9a89a&is=6ae8571a&hm=5e12cf53e7c46d473e417d557420d4e90169f89e1a684bfb76ec565195a84dae&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-30/3.webp?v=eadff393614898c4",
+          "alt": "星月水晶－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-30/3.webp?v=eadff393614898c4",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件 image.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566745125915197540/image.png?ex=6ae9a89a&is=6ae8571a&hm=ebffb39d469a4d596c13e077764284bd6db322154108f29c748ececc90bba824&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-30/4.webp?v=47eb5cc981d345db",
+          "alt": "星月水晶－作品圖片 4",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-30/4.webp?v=47eb5cc981d345db",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件 image.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566745126582100068/image.png?ex=6ae9a89a&is=6ae8571a&hm=9e5d4e50de1841b0e6b96e8c3ecb2ab8e62e6e67d5d745c8f276ccb2ad97ff75&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-30/5.webp?v=ad2e04c2d66c2c3c",
+          "alt": "星月水晶－作品圖片 5",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-30/5.webp?v=ad2e04c2d66c2c3c",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件 image.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566745127018430514/image.png?ex=6ae9a89a&is=6ae8571a&hm=c066667d2853e7bdca4583b4267a74bcac7254c00b1bdeff62bbb385c2da86ca&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/stellalunanox?rpxt=aGtmamszbGxwaTh3",
+        "threads": "",
+        "web": "",
+        "line": "https://line.me/R/ti/p/@948wyvmj"
+      },
+      "socialNote": "Instagram 連結由使用者提供，依指定攤位網址對應；未作官方查證。LINE 連結由使用者提供，未作官方查證。",
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-30/logo.webp?v=10acaa4cd0194a29",
+        "source": "https://cdn.discordapp.com/attachments/1553247600935833680/1566745124208382002/image.png?ex=6ae9a89a&is=6ae8571a&hm=e8868cd1a663b2f0fe928e80062a298bd65991fd6cdae4effa9935effa6ba095&",
+        "platform": "user-provided",
+        "status": "verified",
+        "checkedAt": "2026-11-02",
+        "note": "使用者提供附件 image.png，指定作為 Logo；本地預覽可讀，未作官方查證。",
+        "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566745124208382002/image.png?ex=6ae9a89a&is=6ae8571a&hm=e8868cd1a663b2f0fe928e80062a298bd65991fd6cdae4effa9935effa6ba095&"
+      }
+    },
+    {
+      "id": "yilan-20261107-35",
+      "name": "悟饕泰山店",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-35/1.webp?v=38aafbbf9a6c6ecb",
+          "alt": "悟饕泰山店－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-35/1.webp?v=38aafbbf9a6c6ecb",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：866456052_122116502415332468_1077951901669329456_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566092235769126912/866456052_122116502415332468_1077951901669329456_n.png?ex=6ae7488d&is=6ae5f70d&hm=38809896c84687026ed05d1f0e0a49a252226d2328699d605e741615e825e84b&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-35/2.webp?v=339638e27d8fddb0",
+          "alt": "悟饕泰山店－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-35/2.webp?v=339638e27d8fddb0",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：857462896_122115963177332468_5930052865093371359_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566092236440207471/857462896_122115963177332468_5930052865093371359_n.png?ex=6ae7488d&is=6ae5f70d&hm=508007bbe656e3d24dd122f82a013bc04d90fedb68f1bb851e41f8474a7510e4&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-35/3.webp?v=271d2c2692336fd5",
+          "alt": "悟饕泰山店－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-35/3.webp?v=271d2c2692336fd5",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：814393626_122112664719332468_4218170855659182563_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566092237262168154/814393626_122112664719332468_4218170855659182563_n.png?ex=6ae7488d&is=6ae5f70d&hm=7f85896cd687542a1d700d32d821c39e44fe0838071c4c7bafb832defae52057&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/61589974041963/",
+        "ig": "",
+        "threads": "",
+        "web": "https://www.wu-tau.com/store.php"
+      },
+      "socialNote": "FB 為悟饕品牌粉絲專頁，尚未確認宜蘭泰山店專屬 FB；網站為品牌門市資訊。",
+      "address": "260宜蘭縣宜蘭市泰山路154號",
+      "latlng": {
+        "lat": 24.7522258,
+        "lng": 121.7395161
+      },
+      "locationSource": "https://www.google.com/maps/place/悟饕泰山店/@24.7522258,121.7395161,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e506ff847103:0x7394d95905dff9c!8m2!3d24.7522258!4d121.7395161!16s%2Fg%2F11zg9clfcj",
+      "logo": {
+        "url": "./assets/yilan-20261107-35/logo.webp",
+        "source": "https://www.facebook.com/61589974041963/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "悟饕品牌粉專頭像，非泰山店專屬粉專；原圖 480 × 480，不放大。",
+        "originalUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/701635586_26683721141255726_2893192542018388603_n.jpg?stp=dst-jpg_tt6&cstp=mx1333x1333&ctp=s480x480&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=_Bm6ZxogfWcQ7kNvwGTtvw0&_nc_oc=Ador-ZFJ-hjgbngkbvAiWAg1za36axtxdI8waAkjaIlhGQfi3XjQD0ihZC7moeLe7XM&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=Wavh6vA6wpRYo5MyvWqBIQ&_nc_ss=7b289&oh=00_AQRbiGS9fv0N2Oh6CcTOt5h7b0Ezp6sitFhx689fsUV7WA&oe=6AEB0C10"
+      },
+      "oshenStoreId": "yilan-20261107-35"
+    },
+    {
+      "id": "yilan-20261107-36",
+      "name": "好森x大吉",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-36/3.webp?v=1b79829c5dfbf5cc",
+          "alt": "好森x大吉－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-36/3.webp?v=1b79829c5dfbf5cc",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：image.png（本次第 1 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566097997501038701/image.png?ex=6ae74deb&is=6ae5fc6b&hm=ff3564c5d7b937451e23a971131a7061295cabdfef51f035aca42be10c734b13&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-36/4.webp?v=5f6beb457ad133d5",
+          "alt": "好森x大吉－作品圖片 4",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-36/4.webp?v=5f6beb457ad133d5",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：image.png（本次第 2 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566097997937516624/image.png?ex=6ae74deb&is=6ae5fc6b&hm=1a162e79f0fcf0019d0181dbba6bae092b497b1f2d2fb082dd829f87ad278097&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-36/5.webp?v=ac1c8b35486f5d54",
+          "alt": "好森x大吉－作品圖片 5",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-36/5.webp?v=ac1c8b35486f5d54",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：image.png（本次第 3 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566097998633635951/image.png?ex=6ae74deb&is=6ae5fc6b&hm=b57ac3bae48db966233a4ed1b467de703b46f3a442e573ec2591b3cd026195a6&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-36/6.webp?v=f0b999c9507d21d2",
+          "alt": "好森x大吉－作品圖片 6",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-36/6.webp?v=f0b999c9507d21d2",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：image.png（本次第 4 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566097999141015572/image.png?ex=6ae74deb&is=6ae5fc6b&hm=e1dc28ec5dd2ba8ac7bc0222d9ecab9df018af0334edf26f3391c562a45165ab&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-36/7.webp?v=2e120960d7935583",
+          "alt": "好森x大吉－作品圖片 7",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-36/7.webp?v=2e120960d7935583",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：image.png（本次第 5 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566097999904374825/image.png?ex=6ae74deb&is=6ae5fc6b&hm=5e8cf05e69d4ed8d2e961a73c4c661cd7fb5bcf247eda1b6c240a7e2bde85574&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-36/8.webp?v=7ca376845e3f370a",
+          "alt": "好森x大吉－作品圖片 8",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-36/8.webp?v=7ca376845e3f370a",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：image.png（本次第 6 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566098000453963877/image.png?ex=6ae74dec&is=6ae5fc6c&hm=3b201fcf35c180e9b032507da5bf2cd6229238070092455d42bf3481d9675e9c&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/TREE.GIII/",
+        "ig": "https://www.instagram.com/tree_giii/",
+        "threads": "https://www.threads.com/@a0939527550",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-36/logo.webp",
+        "source": "https://www.instagram.com/tree_giii/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/295534273_108182165240126_1552852519488717818_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=108&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy45MTYuQzMifQ%3D%3D&_nc_ohc=QPoVu-8TtJgQ7kNvwEHnZg7&_nc_oc=AdrX7fhPI_HKJf_tr03fyVqV59xg8-2qGG6HLZZORNhcZcUsENHMUlV4o__SNLiS4G8&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQpHYjX_knspWeKd7hB6OK0-WUjYS-aFr6yM7Op7SXskw&oe=6AEABA3D"
+      },
+      "address": "268宜蘭縣五結鄉大吉村大吉一路435巷5弄8號",
+      "latlng": {
+        "lat": 24.7065576,
+        "lng": 121.806774
+      },
+      "locationSource": "https://www.google.com/maps/place/好森x大吉/@24.7065576,121.806774,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e67f099c2461:0xbf2ea262a3fb7cdb!8m2!3d24.7065576!4d121.806774!16s%2Fg%2F11b7hhjzrf",
+      "oshenStoreId": "yilan-20261107-36"
+    },
+    {
+      "id": "yilan-20261107-37",
+      "name": "食光1998餐酒館",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-37/5.webp?v=63a89526b589621f",
+          "alt": "食光1998餐酒館－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-37/5.webp?v=63a89526b589621f",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_4518.jpg；依本次要求取代既有作品，按附件順序排列，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566344775723130880/IMG_4518.jpg?ex=6ae833bf&is=6ae6e23f&hm=8216ba2ddd1bb49da47bbd470e19bb5ec749bafa1edb2d063406f3e8c8af9947&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-37/6.webp?v=b9fe59ff115810cd",
+          "alt": "食光1998餐酒館－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-37/6.webp?v=b9fe59ff115810cd",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_4519.jpg；依本次要求取代既有作品，按附件順序排列，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566344776100352071/IMG_4519.jpg?ex=6ae833bf&is=6ae6e23f&hm=03fcdf390291b3725b80b23d560f0d856ff5a6663be67a18fcff88201796bc50&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/letemps1998/",
+        "ig": "https://www.instagram.com/letemps1998/",
+        "threads": "https://www.threads.com/@letemps1998",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-37/logo.webp",
+        "source": "https://www.instagram.com/letemps1998/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/280542291_367220325375343_5375434303892369503_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=109&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=TOHE7Ey2q6sQ7kNvwFfMbIe&_nc_oc=AdqDlnJMAp9jYoQo6PFv0NOuqfLnqunm0rOzgEj3CO97ocwDw7xhjhiZV6lcVtIOTgw&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQSwd_INRHu4_skexVgm83WVKmeJxHVVI9uz_YLgK7K1ZA&oe=6AEAD972"
+      },
+      "address": "260宜蘭縣宜蘭市民權里中山路二段187巷25號",
+      "latlng": {
+        "lat": 24.7500762,
+        "lng": 121.7529404
+      },
+      "locationSource": "https://www.google.com/maps/place/食光1998餐酒館/@24.7500762,121.7529404,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e4db9e74ce85:0xba540b857f6756d9!8m2!3d24.7500762!4d121.7529404!16s%2Fg%2F11b637tgdy",
+      "oshenStoreId": "yilan-20261107-37"
+    },
+    {
+      "id": "yilan-20261107-38",
+      "name": "咕莫呢。廚房",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-38/3.webp?v=699003d33839fc9e",
+          "alt": "咕莫呢。廚房－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-38/3.webp?v=699003d33839fc9e",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：1000067780.png；依本次「照片取代」要求，按附件順序取代原有作品照片；非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566450567423729807/1000067780.png?ex=6ae89646&is=6ae744c6&hm=287281ba1de97955388999be13284e1768b755f7252cd6f79c698ae7c91848c8&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-38/4.webp?v=2a683bf38849228f",
+          "alt": "咕莫呢。廚房－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-38/4.webp?v=2a683bf38849228f",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：1000068074.jpg；依本次「照片取代」要求，按附件順序取代原有作品照片；非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566450568350662706/1000068074.jpg?ex=6ae89646&is=6ae744c6&hm=225558ab0170c684c93621ea14ee856e9f6ffec717fafff37528a2e438936bd1&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-38/5.webp?v=76496551113e8bea",
+          "alt": "咕莫呢。廚房－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-38/5.webp?v=76496551113e8bea",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：1000068112.png；依本次「照片取代」要求，按附件順序取代原有作品照片；非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566450568883478679/1000068112.png?ex=6ae89646&is=6ae744c6&hm=9e1d17fae494c63785e53ea722f3448a82733527b2bd7a12307dc4e5f30804da&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/GMK0330/",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-38/logo.webp",
+        "source": "https://www.facebook.com/GMK0330/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Facebook 粉專頭像，原圖 180 × 180，最長邊 256 像素、不放大。",
+        "originalUrl": "https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-1/302230878_584591956703157_5787760247228777617_n.jpg?stp=dst-jpg_tt6&cstp=mx180x180&ctp=s180x180&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=InF3FkyoGVEQ7kNvwHMtHau&_nc_oc=AdrzBiOQ36TSIYf8OpAbyhIeDVRc0tSOH6nYUlBpmajxBx7uZN-PJYjfe0MkDq8v4Dk&_nc_zt=24&_nc_ht=scontent.fkhh1-2.fna&_nc_gid=SPX2b66SuIi9lytWnDaoIQ&_nc_ss=7b289&oh=00_AQSsm47E8UEazsz0mJLcu4OW-387NIeY-Zx6yflTH2FX2w&oe=6AEB05DA"
+      },
+      "address": "羅東鎮中山路四段280號(羅商旁)",
+      "latlng": null,
+      "locationSource": "https://www.google.com/maps/place/咕莫呢。廚房/@24.6730338,121.7581145,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e68f5e3bbe6d:0xbdcb9f7e68f6d9d2!8m2!3d24.6730338!4d121.7581145!16s%2Fg%2F11cmykz00n",
+      "oshenStoreId": "yilan-20261107-38",
+      "locationNote": "2026-11-01 使用者提供地址：羅東鎮中山路四段280號(羅商旁)。保留既有 Google Maps 來源連結供追溯；本次無法讀取地圖頁面並重新確認座標，因此 latlng 設為 null，不沿用既有座標。"
+    },
+    {
+      "id": "yilan-20261107-39",
+      "name": "三千金冬瓜茶/烤鳥蛋",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-39/1.webp?v=978e08454620e33f",
+          "alt": "三千金冬瓜茶/烤鳥蛋－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-39/1.webp?v=978e08454620e33f",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：769000012_1072350122213596_7242041640178932179_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566091216922083478/769000012_1072350122213596_7242041640178932179_n.png?ex=6ae7479a&is=6ae5f61a&hm=c4c48c796746f76460971d52f2f8eb28b2aa9b7ff51ddafc70aaae6016bcca6f&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-39/2.webp?v=5297f03a3a854f82",
+          "alt": "三千金冬瓜茶/烤鳥蛋－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-39/2.webp?v=5297f03a3a854f82",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：709735370_1011397544975521_1946654334428524270_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566091217455030292/709735370_1011397544975521_1946654334428524270_n.png?ex=6ae7479a&is=6ae5f61a&hm=0742c906ae0b3d6f7190347feb5c406cc2fc6747a1fbf112b08175e3349cbdd3&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/100083158540913/",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-39/logo.webp",
+        "source": "https://www.facebook.com/100083158540913/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Facebook 粉專頭像，原圖 480 × 480，最長邊 256 像素、不放大。",
+        "originalUrl": "https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-1/275846411_105217102131575_2778084558753011590_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s480x480&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=HnRVWscZelAQ7kNvwHz_rlh&_nc_oc=AdoFx8EVDn1AO_xKQ-49sZYiGWISTTfF9ZQbn0QDy8IJgWF-e-1udWvjWj6VzLNZD8Y&_nc_zt=24&_nc_ht=scontent.fkhh1-1.fna&_nc_gid=NyPLrKDmi23fYvyr51grAQ&_nc_ss=7b289&oh=00_AQRWOFaUySUlUTBA5pp2DfxqC4nf6YhYikxyWmUra1zBhg&oe=6AEB0806"
+      },
+      "address": "269宜蘭縣冬山鄉永清路",
+      "latlng": {
+        "lat": 24.6648133,
+        "lng": 121.7610505
+      },
+      "locationSource": "https://www.google.com/maps/place/三千金冬瓜茶/烤鳥蛋/@24.6648133,121.7610505,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7b9e613f0e1:0x86455bf828e9578c!8m2!3d24.6648133!4d121.7610505!16s%2Fg%2F11x0rw0sh7",
+      "locationNote": "Google 地圖僅列出路名、沒有門牌；座標為地圖標記位置，實際出攤位置可能不同。"
+    },
+    {
+      "id": "yilan-20261107-41",
+      "name": "Pochacha釜山魚板",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-41/1.webp?v=b58425cd46a623a1",
+          "alt": "Pochacha釜山魚板－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-41/1.webp?v=b58425cd46a623a1",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：765007821_17900547468553977_1688629863755549127_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566090881973354627/765007821_17900547468553977_1688629863755549127_n.png?ex=6ae7474a&is=6ae5f5ca&hm=ea01e17acecf13257631870abb92f6c1872cea4600a409d708b8ad38865cdc5a&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-41/2.webp?v=a361e214651e4368",
+          "alt": "Pochacha釜山魚板－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-41/2.webp?v=a361e214651e4368",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：756434625_17898601584553977_2284396687500559187_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566090882778931301/756434625_17898601584553977_2284396687500559187_n.png?ex=6ae7474b&is=6ae5f5cb&hm=594551eaa41595d7ec75870593f83956bb8e6cabb82b05a613e015098d88a3db&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/manjok.studio/",
+        "ig": "https://www.instagram.com/manjok.tw/",
+        "threads": "https://www.threads.com/@manjok.tw",
+        "web": "https://www.manjokstudio.com/"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-41/logo.webp",
+        "source": "https://www.instagram.com/manjok.tw/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/575319609_18021732857785943_6275132927357826617_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41MDAuQzMifQ%3D%3D&_nc_ohc=00hMPTf_8GAQ7kNvwFgcOBy&_nc_oc=AdqGtpUaZCKIyXs2pd7m9cRA-4n9aATMCbiWNIhYqxiYOBpVFtj5N8TNKrGj97JvLvE&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=jPOtmj-0QVSquYoMb6FcQA&_nc_ss=7b689&oh=00_AQSUpNir38aj71VmRqjIW9MPdyH9yr8cbO0M5CMP0rzZoQ&oe=6AEAB69A"
+      },
+      "locationNote": "品牌 Instagram 表示每日出攤地點見限時動態，尚未確認固定店址。"
+    },
+    {
+      "id": "yilan-20261107-43",
+      "name": "樂生田",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-43/1.webp?v=350268811b0426d3",
+          "alt": "樂生田－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-43/1.webp?v=350268811b0426d3",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：2026-10-31_9.59.18.png；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566089372506259566/2026-10-31_9.59.18.png?ex=6ae745e2&is=6ae5f462&hm=6f9305e36eb8e1ceb932ba12a9faf0bf484eed946610fc156e46e4678687ddbb&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-43/2.webp?v=2c8d91a15fb937d9",
+          "alt": "樂生田－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-43/2.webp?v=2c8d91a15fb937d9",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：2026-10-31_9.59.51.png；依附件順序追加，未提供作品名稱，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566089372879822990/2026-10-31_9.59.51.png?ex=6ae745e3&is=6ae5f463&hm=ab959b1cfb0682353368b64cbdedfb498bd36afcfdd81300d931de110f01ce83&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/loksengtshan/",
+        "ig": "https://www.instagram.com/barkingblue/",
+        "threads": "https://www.threads.com/@barkingblue",
+        "web": ""
+      },
+      "socialNote": "IG 與 Threads 為「樂生田小農」個人帳號。",
+      "logo": {
+        "url": "./assets/yilan-20261107-43/logo.webp",
+        "source": "https://www.facebook.com/loksengtshan/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Facebook 粉專頭像，原圖 480 × 480，最長邊 256 像素、不放大。",
+        "originalUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/294508140_474594598010041_6752776771461024993_n.jpg?stp=dst-jpg_tt6&cstp=mx1333x1333&ctp=s480x480&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=nCO0O8cn1jMQ7kNvwH79dKc&_nc_oc=AdroyT73kWfA6AFDAET3Mf49UiBkilH4QX_1TonubWPEbkD27RSC8RNJSpjZJIvlKJc&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=DUiThJ13OZTsqFV77cdY6A&_nc_ss=7b289&oh=00_AQTAXj2SFOU4TIN6N9Ydi4iyzGBhxf3YFvZ9v7jyTMCHlw&oe=6AEB39A7"
+      },
+      "address": "264宜蘭縣員山鄉深溝村思源路97巷台灣 188",
+      "latlng": {
+        "lat": 24.7216505,
+        "lng": 121.711791
+      },
+      "locationSource": "https://www.google.com/maps/place/樂生田/@24.7216505,121.711791,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e38e84ee0add:0xd88c87017fefeba8!8m2!3d24.7216505!4d121.711791!16s%2Fg%2F11by_h5ff4",
+      "locationNote": "地址依 Google 地圖所示原樣記錄，門牌格式待確認。"
+    },
+    {
+      "id": "yilan-20261107-44",
+      "name": "HAHADOGS",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-44/1.webp?v=ab0f151b2685abbc",
+          "alt": "HAHADOGS－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-44/1.webp?v=ab0f151b2685abbc",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供的 Discord 附件，依附件順序追加第 1 張；原始附件檔名：731787408_18115211242759221_7588984953842814578_n.png。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088978405523526/731787408_18115211242759221_7588984953842814578_n.png?ex=6ae74584&is=6ae5f404&hm=3f9c0185d9db2b7b5c77d1a5e8c88b3ed2d90dd7962097d6494f6aa916af6927&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-44/2.webp?v=5f2fb048026e3e40",
+          "alt": "HAHADOGS－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-44/2.webp?v=5f2fb048026e3e40",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供的 Discord 附件，依附件順序追加第 2 張；原始附件檔名：724164275_18057647153562175_3255471340266593024_n.png。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088979168624740/724164275_18057647153562175_3255471340266593024_n.png?ex=6ae74585&is=6ae5f405&hm=b1cde1181e2da5a1e5ded489cc7d1652a578bd9cfdd543d857cd27a677afbb9f&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-44/3.webp?v=c9801633ac821eef",
+          "alt": "HAHADOGS－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-44/3.webp?v=c9801633ac821eef",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供的 Discord 附件，依附件順序追加第 3 張；原始附件檔名：722809900_18057647162562175_583747416321521711_n.png。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088979764219924/722809900_18057647162562175_583747416321521711_n.png?ex=6ae74585&is=6ae5f405&hm=e94df04e0b8f9fb672ab72da80e8559f9d3706d2c95a81655943d2b95168d9a0&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/_hahadogss/",
+        "threads": "https://www.threads.com/@_hahadogss",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-44/logo.webp",
+        "source": "https://www.instagram.com/_hahadogss/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/671119718_18049156367562175_3566455100946998089_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41ODQuQzMifQ%3D%3D&_nc_ohc=vj3n5GRe33oQ7kNvwEVnG15&_nc_oc=AdoZFZjqLRSE_n9l3odR1YGjTNWKPVfoM9oFS4Tv1N6-qQZgiAYzTQ2F89ZGNggBa7Y&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=xLZwEoJAhtyoVJgyz9S-CA&_nc_ss=7b689&oh=00_AQSteRtq0Zmx-9q1f75g4TZhFcbC363_bXCGs48OY59TaA&oe=6AEABF5B"
+      }
+    },
+    {
+      "id": "yilan-20261107-45",
+      "name": "豬大嬸",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-45/1.webp?v=fcb5732b546a3af1",
+          "alt": "豬大嬸－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-45/1.webp?v=fcb5732b546a3af1",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：825323528_17990337864107701_1546816718369149705_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088753674453072/825323528_17990337864107701_1546816718369149705_n.png?ex=6ae7454f&is=6ae5f3cf&hm=2e364adf332653e50b5c4d1b3b9c25cf542899cbc01d9dc1cce0e943aa92c307&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-45/2.webp?v=f5d062568d883a8a",
+          "alt": "豬大嬸－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-45/2.webp?v=f5d062568d883a8a",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：771821153_17982966015107701_3024630698548774149_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088755255713892/771821153_17982966015107701_3024630698548774149_n.png?ex=6ae7454f&is=6ae5f3cf&hm=418294317c54d62b991a98aee157d31471db574ce10744e4b75d50b5b29f56e0&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/100063985457813/",
+        "ig": "https://www.instagram.com/wu600513/",
+        "threads": "https://www.threads.com/@wu600513",
+        "web": ""
+      },
+      "socialNote": "IG 為攤主個人帳號；Threads 名稱為「豬大嬸」，貼文提及攤位地址與商品。",
+      "logo": {
+        "url": "./assets/yilan-20261107-45/logo.webp",
+        "source": "https://www.facebook.com/100063985457813/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Facebook 粉專頭像，原圖 479 × 480，最長邊 256 像素、不放大。",
+        "originalUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/592517672_1280857077390462_7500991781687567671_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1082&ctp=s480x480&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=OkW6isFeQ6QQ7kNvwFVrqSj&_nc_oc=Adp3g7Z8x1vWOiw8OVQe7ydrUD5FJojYwmLSqCxTAxP7UEX7IlKyVAl_RqjCHo3bsAc&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=u9XTlauE1sSWFEa-4Mfw1A&_nc_ss=7b289&oh=00_AQSiGBGh5EW4esL-xMZhfA0EV7DdiNF9e4xln9cy_-iKJQ&oe=6AEB26C6"
+      }
+    },
+    {
+      "id": "yilan-20261107-46",
+      "name": "阿芳鹹粥",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-46/1.webp?v=dfece7492c06110b",
+          "alt": "阿芳鹹粥－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-46/1.webp?v=dfece7492c06110b",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：856735398_17965043325237354_6414970518380967333_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088492688216124/856735398_17965043325237354_6414970518380967333_n.png?ex=6ae74511&is=6ae5f391&hm=f783dc29fc59bd7770927328e10562e9bca1b425f1bbc4078905e9ea0e155a85&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-46/2.webp?v=15f2ed5bc79e0033",
+          "alt": "阿芳鹹粥－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-46/2.webp?v=15f2ed5bc79e0033",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：726963382_17945308224237354_3963184284220134216_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088494366072862/726963382_17945308224237354_3963184284220134216_n.png?ex=6ae74511&is=6ae5f391&hm=8b38e681b635dbaaacb4d35313b9280ee0621806f8c942ff100d85798e2a7450&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-46/3.webp?v=5b7e93189cf14155",
+          "alt": "阿芳鹹粥－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-46/3.webp?v=5b7e93189cf14155",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：630110949_18105217666838407_3197623623924105486_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566088495238221936/630110949_18105217666838407_3197623623924105486_n.png?ex=6ae74511&is=6ae5f391&hm=7681e38ddc70bd1eae3eec43b4c23060ea82cbffa2530f6fbb7bfdc0235e6609&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/AFANGXZ/",
+        "ig": "https://www.instagram.com/aefang_yilan/",
+        "threads": "https://www.threads.com/@aefang_yilan",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-46/logo.webp",
+        "source": "https://www.instagram.com/aefang_yilan/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/198750718_538335690674083_1404175785417369647_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=100&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=D0FhBOobCcoQ7kNvwEeX7Wt&_nc_oc=AdqBsUIyhVf8khTkGyn8bSCwBLDHN7SE26hyqbbRh2Gc-YauwPUDdCuwNLLlXvqbod8&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQSOykbyJDBCU1OjudfIWfIUHEzHmW4pcx-PavSco5g4Vg&oe=6AEABE7A"
+      },
+      "locationNote": "店家 2026-10-19 公告新店仍在籌備，未公布開店時間；Google 地圖標示搬遷中，故未採用舊址。",
+      "locationStatusSource": "https://www.facebook.com/AFANGXZ/posts/pfbid0syXQhWHxjqkMgVcuKK4398HuU94ke2yrFgCLXtxd9cRkT7VK5w5HevyRngJnVncjl"
+    },
+    {
+      "id": "yilan-20261107-40",
+      "name": "現煮食",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-40/1.webp?v=27f1548a1ef44b64",
+          "alt": "現煮食－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-40/1.webp?v=27f1548a1ef44b64",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件第 2 張（image.png），明確指定為產品圖片；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566369087955796049/image.png?ex=6ae84a64&is=6ae6f8e4&hm=0222a300fe5d21cefbc9208a42f14f3a3daa33f30e238f130ec08ff87a4e884d&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-40/logo.webp?v=6c224c159f175d83",
+        "source": "https://cdn.discordapp.com/attachments/1553247600935833680/1566369087251021905/image.png?ex=6ae84a64&is=6ae6f8e4&hm=b6309397c151a688088315df1f41337af090aed1977fead7eecf7a0de64763d2&",
+        "platform": "user-provided",
+        "status": "verified",
+        "checkedAt": "2026-11-01",
+        "note": "使用者提供附件第 1 張（image.png），明確指定為 Logo；已確認 HTTPS 圖片可讀，非官方查證。",
+        "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566369087251021905/image.png?ex=6ae84a64&is=6ae6f8e4&hm=b6309397c151a688088315df1f41337af090aed1977fead7eecf7a0de64763d2&"
+      }
+    },
+    {
+      "id": "yilan-20261107-42",
+      "name": "老頭家小吃部",
+      "category": "暖流食堂",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/1.webp?v=b4a1b748a9cb45e5",
+          "alt": "老頭家小吃部－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/1.webp?v=b4a1b748a9cb45e5",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件：image.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566643874892488774/image.png?ex=6ae94a4e&is=6ae7f8ce&hm=edf8aff2489291e31e090a8d978338214d0722164cd2b3facb2d4404de210789&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/2.webp?v=86b45b7dbc3f5e9e",
+          "alt": "老頭家小吃部－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/2.webp?v=86b45b7dbc3f5e9e",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件：image.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566643875538538557/image.png?ex=6ae94a4e&is=6ae7f8ce&hm=8e94a747daf68bf39975020751d560953acb6ce45683c99d77ebad3da58e8770&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/3.webp?v=4527786da036d368",
+          "alt": "老頭家小吃部－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/3.webp?v=4527786da036d368",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件：image.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566643876020752414/image.png?ex=6ae94a4e&is=6ae7f8ce&hm=9ff183d1e246f14d43c30c1515502dbace80ac7135ebe4a5918d67e17bdb6ec0&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/4.webp?v=f42e41df29cd4b91",
+          "alt": "老頭家小吃部－作品圖片 4",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/4.webp?v=f42e41df29cd4b91",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件：image.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566643876834320467/image.png?ex=6ae94a4f&is=6ae7f8cf&hm=287f04b23ecc2bd594ee99f5c5aaeb29a34d44dd9c9f955f155bdfb51847ee06&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/5.webp?v=24c3535ec826a7e5",
+          "alt": "老頭家小吃部－作品圖片 5",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/5.webp?v=24c3535ec826a7e5",
+          "checkedAt": "2026-11-02",
+          "note": "使用者提供附件：image.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566643877656526988/image.png?ex=6ae94a4f&is=6ae7f8cf&hm=2213d05187964c6946bee86e0ee745bbcccb239f8e87711b71b7facfc7931af9&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-42/logo.webp?v=d8e3bd643ac8f561",
+        "source": "https://cdn.discordapp.com/attachments/1553247600935833680/1566643874363871273/image.png?ex=6ae94a4e&is=6ae7f8ce&hm=531bcab40b7cdaf4c34be6421538a683624872a8cacfffb50e31846b9b155e86&",
+        "platform": "user-provided",
+        "status": "verified",
+        "checkedAt": "2026-11-02",
+        "note": "使用者提供的 Logo 附件：image.png；已檢視固定腳本產生的本地預覽。",
+        "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566643874363871273/image.png?ex=6ae94a4e&is=6ae7f8ce&hm=531bcab40b7cdaf4c34be6421538a683624872a8cacfffb50e31846b9b155e86&"
+      }
+    },
+    {
+      "id": "yilan-20261107-48",
+      "name": "小山丘",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-48/1.webp?v=2ed3ca8aaf04ceac",
+          "alt": "小山丘－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-48/1.webp?v=2ed3ca8aaf04ceac",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：833763640_18116413664053196_1103976442689864369_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566087615738937345/833763640_18116413664053196_1103976442689864369_n.png?ex=6ae74440&is=6ae5f2c0&hm=b6134d06babc9ccaabc7d0e27e817959c88640d8d55693d18ce05e7e6b6cddac&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-48/2.webp?v=19841d2b0d9c0ee4",
+          "alt": "小山丘－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-48/2.webp?v=19841d2b0d9c0ee4",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：757889269_18110001053053196_1704658019343800516_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566087616116297768/757889269_18110001053053196_1704658019343800516_n.png?ex=6ae74440&is=6ae5f2c0&hm=8ce3f10ea48a4554e4f87814d2865692292f718f66af3c6e5057bef731123914&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-48/3.webp?v=7050835e1985ae67",
+          "alt": "小山丘－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-48/3.webp?v=7050835e1985ae67",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：709863915_18103533266053196_2853631742610354816_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566087616473075822/709863915_18103533266053196_2853631742610354816_n.png?ex=6ae74440&is=6ae5f2c0&hm=28bbc6a6863ccda8aa2842bf4bde9681875ce87dc2023fa78032521ccf9ae8db&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/whatthehill2020/",
+        "ig": "https://www.instagram.com/_what.the.hill/",
+        "threads": "https://www.threads.com/@_what.the.hill",
+        "web": "https://linktr.ee/Whatthehill"
+      },
+      "socialNote": "網站欄為品牌 IG 直接連結的 Linktree 官方連結頁。",
+      "logo": {
+        "url": "./assets/yilan-20261107-48/logo.webp",
+        "source": "https://www.instagram.com/_what.the.hill/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/447921887_3433110970268848_5927895406586883761_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy44MjguQzMifQ%3D%3D&_nc_ohc=9JIFeV2Lmn8Q7kNvwHgqcwX&_nc_oc=AdrcFW18DE-nb68APVw4HaB6nbIp_jX0Y-5_Cz5fg3cv5TY_15sZgdQm4nTaaD-dzOk&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQSgI-CEeqTmmpS9a4eGrd9VsXzjbKI5vQ0uTPWXAwPMYA&oe=6AEAB65E"
+      },
+      "address": "265宜蘭縣羅東鎮信義里復興路一段100巷1號",
+      "latlng": {
+        "lat": 24.6828865,
+        "lng": 121.7688565
+      },
+      "locationSource": "https://www.google.com/maps/place/小山丘/@24.6828865,121.7688565,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e775ae26eb41:0x31c51173122ee4f7!8m2!3d24.6828865!4d121.7688565!16s%2Fg%2F11qhsdb2sb",
+      "oshenStoreId": "yilan-20261107-48"
+    },
+    {
+      "id": "yilan-20261107-49",
+      "name": "實樸生活",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-49/1.webp?v=86af3db338fe72c7",
+          "alt": "實樸生活－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-49/1.webp?v=86af3db338fe72c7",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：834317527_17959863834231165_1584137054887979576_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566087273810890903/834317527_17959863834231165_1584137054887979576_n.png?ex=6ae743ee&is=6ae5f26e&hm=53337555f65c89fd7852a44e92e443da5024ed4956036a6838df1266940e9162&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-49/2.webp?v=48979f230f52bceb",
+          "alt": "實樸生活－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-49/2.webp?v=48979f230f52bceb",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：843103546_17959863831231165_1674487712001313468_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566087275190812813/843103546_17959863831231165_1674487712001313468_n.png?ex=6ae743ee&is=6ae5f26e&hm=2c98f78cec0aea13b101f85167416b259b091151b04da7e57e281554e640216c&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-49/3.webp?v=c6ba62f27c0dfb3a",
+          "alt": "實樸生活－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-49/3.webp?v=c6ba62f27c0dfb3a",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：799676901_17956244784231165_4064420148160650396_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566087276218421248/799676901_17956244784231165_4064420148160650396_n.png?ex=6ae743ef&is=6ae5f26f&hm=392db2f8f9ccd14a3a0cb0720f1f3ad979885eedf16ae52d2a08580098171f0a&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/profile.php?id=61562239195403",
+        "ig": "https://www.instagram.com/family_earthy_shop/",
+        "threads": "https://www.threads.com/@family_earthy_shop",
+        "web": "https://myship.7-11.com.tw/general/detail/GM2606291938932"
+      },
+      "socialNote": "網站欄為品牌 IG 直接連結的 7-ELEVEN 賣貨便賣場。",
+      "logo": {
+        "url": "./assets/yilan-20261107-49/logo.webp",
+        "source": "https://www.instagram.com/family_earthy_shop/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/671199152_17934375924212882_1948629258354654203_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=104&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=0bOt7N8sp-8Q7kNvwEwKca7&_nc_oc=AdoGsZCdKKNmJ7nwSqj8YGM7Peb2q8Un4xkrssHtdTSm3uI5k-9q9aWrZ2toBLjEE2I&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=0J3XXhXZ2ykoRe03sqnDdA&_nc_ss=7b689&oh=00_AQSc7kaSoIKMCK9iQKcnEkeqwNsXIW_kIJQL3-PbZwXf3Q&oe=6AEADAFE"
+      },
+      "address": "266宜蘭縣三星鄉大義村上將路三段338號",
+      "latlng": {
+        "lat": 24.6855743,
+        "lng": 121.7064732
+      },
+      "locationSource": "https://www.google.com/maps/place/實樸生活/@24.6855743,121.7064732,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e5000ec43fd9:0xe40f0635510e2262!8m2!3d24.6855743!4d121.7064732!16s%2Fg%2F11w3w_py1s",
+      "oshenStoreId": "yilan-20261107-49"
+    },
+    {
+      "id": "yilan-20261107-50",
+      "name": "宜蘭員山蘇菲亞貝果",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-50/1.webp?v=abe1f72297f07fd2",
+          "alt": "宜蘭員山蘇菲亞貝果－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-50/1.webp?v=abe1f72297f07fd2",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：860414330_1601362105125427_9184700830188386922_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566082260757643344/860414330_1601362105125427_9184700830188386922_n.png?ex=6ae73f43&is=6ae5edc3&hm=eac68e1c793ce488f1ab54249af2cfb87fdd1d5956d2d579ebc93b1f8ff7c8a5&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-50/2.webp?v=c2f29c7c6ebed5c1",
+          "alt": "宜蘭員山蘇菲亞貝果－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-50/2.webp?v=c2f29c7c6ebed5c1",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：861709469_1601363605125277_7191087266251967009_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566082261483266088/861709469_1601363605125277_7191087266251967009_n.png?ex=6ae73f43&is=6ae5edc3&hm=ba6fa35b52b3ce3b4a8027b8b1fa4089f265d5e7d1683862ad68e12e10e6f2b7&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-50/3.webp?v=6b1a15bc171da108",
+          "alt": "宜蘭員山蘇菲亞貝果－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-50/3.webp?v=6b1a15bc171da108",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：728503550_1490004369594535_8791867822165687433_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566082262351614073/728503550_1490004369594535_8791867822165687433_n.png?ex=6ae73f43&is=6ae5edc3&hm=8a613bdba581fb1417f7de2b024b71872ddcd168427a1a7f828b6eaf829a7eec&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/freshsophiabagel/",
+        "ig": "",
+        "threads": "",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-50/logo.webp",
+        "source": "https://www.facebook.com/freshsophiabagel/",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Facebook 粉專頭像，原圖 480 × 480，最長邊 256 像素、不放大。",
+        "originalUrl": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/571234536_1291910686070572_7539459627225415901_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x2048&ctp=s480x480&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=Qog6-ySCiegQ7kNvwHUlOYu&_nc_oc=AdrskI8Xu0uQhIRNPr3VE-fw8p8vxov5UPh7Ams_PdhTbMu_Dx2q9zfakkTiPsEXJds&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=Pk18HwX8z-fOMqfd9zd38A&_nc_ss=7b289&oh=00_AQSqm5ZHiXmTREvKgFt5DQ3BQGw1zPUBiQ5v381PROeSNQ&oe=6AEB30B7"
+      }
+    },
+    {
+      "id": "yilan-20261107-51",
+      "name": "臟燒雞蛋糕",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-51/3.webp?v=27723714a858dc99",
+          "alt": "臟燒雞蛋糕－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-51/3.webp?v=27723714a858dc99",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供附件 image.png，未提供作品名稱；未作官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568126612543639695/image.png?ex=6aeeaf36&is=6aed5db6&hm=1a256a9883c519e789591108c24c0b59c119cefeaf300e573104474007f430e5&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-51/4.webp?v=3ba3cbb255553de9",
+          "alt": "臟燒雞蛋糕－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-51/4.webp?v=3ba3cbb255553de9",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供附件 image.png，未提供作品名稱；未作官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568126613055610942/image.png?ex=6aeeaf36&is=6aed5db6&hm=06cab6dd97ee5af4fc8681bb10fef23fc4a488a631cf7a680f33309aed16f70a&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-51/5.webp?v=22b6e59446c2c96f",
+          "alt": "臟燒雞蛋糕－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-51/5.webp?v=22b6e59446c2c96f",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供附件 image.png，未提供作品名稱；未作官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568126613562859612/image.png?ex=6aeeaf37&is=6aed5db7&hm=bad0b0df58a4eea568636c927c664de35848846b5d463ae885c346cd15239c82&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-51/6.webp?v=3ed0d3b0d6a7ac16",
+          "alt": "臟燒雞蛋糕－作品圖片 4",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-51/6.webp?v=3ed0d3b0d6a7ac16",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供附件 image.png，未提供作品名稱；未作官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568126613965635644/image.png?ex=6aeeaf37&is=6aed5db7&hm=eafe50fa2c6761794387ea9e10f48e6cd1a1d49b332254e47f99eab3f516b350&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-51/7.webp?v=8df9d2f90a80c6b8",
+          "alt": "臟燒雞蛋糕－作品圖片 5",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-51/7.webp?v=8df9d2f90a80c6b8",
+          "checkedAt": "2026-11-06",
+          "note": "使用者提供附件 image.png，未提供作品名稱；未作官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1568126614431338506/image.png?ex=6aeeaf37&is=6aed5db7&hm=abca03c4f29f24c495de91ce7721456aff033302582c3a7f41c1551b6153d14d&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/61581061663356/",
+        "ig": "https://www.instagram.com/organeggcake/",
+        "threads": "https://www.threads.com/@organeggcake",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-51/logo.webp",
+        "source": "https://www.instagram.com/organeggcake/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "品牌 Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/553042066_17847542172568397_3185193284879851583_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=wTgTIeXiMaQQ7kNvwHYcDFe&_nc_oc=AdqhVbc8Vp2iQZBjFHB9Q1ldPfixKtEJ_IzeRBN5DBC7WL23Xn6fk42C04B0XbR1a3c&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=FpjL3zSP-qeMvIoKkaP_wg&_nc_ss=7b689&oh=00_AQSiQX4rynVIXpZ2Or65FNhV-MfQH6t0k-m3is06lHnJFQ&oe=6AEACFEB"
+      },
+      "address": "265宜蘭縣羅東鎮大新里和平路166號",
+      "latlng": {
+        "lat": 24.6777591,
+        "lng": 121.7728589
+      },
+      "locationSource": "https://www.google.com/maps/place/臟燒雞蛋糕/@24.6777591,121.7728589,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7a3782b7bef:0x4e5eadc3694a5ba7!8m2!3d24.6777591!4d121.7728589!16s%2Fg%2F11zhx37hgb",
+      "oshenStoreId": "yilan-20261107-51"
+    },
+    {
+      "id": "yilan-20261107-53",
+      "name": "孟延君上手作甜點",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-53/1.webp?v=d15db2686b1f85f3",
+          "alt": "孟延君上手作甜點－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-53/1.webp?v=d15db2686b1f85f3",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：864869381_18114170705141801_2659904693593785133_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566081628248219840/864869381_18114170705141801_2659904693593785133_n.png?ex=6ae73eac&is=6ae5ed2c&hm=e5d2cc79690d93fe75b6edb977611977ddd1a01a1a373496fe2fefeb002ac566&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-53/2.webp?v=01b951f9522f45fd",
+          "alt": "孟延君上手作甜點－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-53/2.webp?v=01b951f9522f45fd",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：841012214_17961833685211084_1435982844045938343_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566081629410033814/841012214_17961833685211084_1435982844045938343_n.png?ex=6ae73eac&is=6ae5ed2c&hm=d8c6409b375053f422f9bc0924c7648a1413e5558cafbab163f57f3d959f5f2b&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-53/3.webp?v=1243e81ef5255e44",
+          "alt": "孟延君上手作甜點－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-53/3.webp?v=1243e81ef5255e44",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：847536427_18113031647141801_2080214002584997285_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566081630798483637/847536427_18113031647141801_2080214002584997285_n.png?ex=6ae73ead&is=6ae5ed2d&hm=bf52e3c5613df5a89c5aaadc01f5bcdad11c53bed0c0213c62bffc56272cae18&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/hsiao.0824/",
+        "ig": "https://www.instagram.com/myjs_dessert/",
+        "threads": "https://www.threads.com/@myjs_dessert",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-53/logo.webp",
+        "source": "https://www.instagram.com/myjs_dessert/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/662439603_18093640136141801_6709172424838157666_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=100&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy45OTguQzMifQ%3D%3D&_nc_ohc=T7ZjP-VQEUIQ7kNvwFb9v2J&_nc_oc=AdrGIwf7TmZfFWEoZY5z7NIy5GNCg1110EBatQ1s_0Sata0d85S2BuWXuGFXpvlNyOg&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=u-dBAYF9orTRv8RAuIWTQQ&_nc_ss=7b689&oh=00_AQTKWzyApr2kV8fN1BfVVHYiRIcm68_XeddFI6ydD1zwyA&oe=6AEAAEB4"
+      },
+      "address": "260宜蘭縣宜蘭市擺厘里自強路168號",
+      "latlng": {
+        "lat": 24.7430099,
+        "lng": 121.7481363
+      },
+      "locationSource": "https://www.google.com/maps/place/孟延君上手作甜點/@24.7430099,121.7481363,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e50001e78f4f:0x7922c65bbc06247d!8m2!3d24.7430099!4d121.7481363!16s%2Fg%2F11vwypdbhg",
+      "oshenStoreId": "yilan-20261107-53"
+    },
+    {
+      "id": "yilan-20261107-54",
+      "name": "恩菲提拉米蘇",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-54/1.webp?v=52e9238062fe2dca",
+          "alt": "恩菲提拉米蘇－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-54/1.webp?v=52e9238062fe2dca",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：658161167_17912935176356433_8547630487327537649_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566081330867867768/658161167_17912935176356433_8547630487327537649_n.png?ex=6ae73e65&is=6ae5ece5&hm=3442b35a8ab962b7313c50af70a8f96f53c2e315c3f9fc0f3bed75e8e307fc2d&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-54/2.webp?v=73b47c57540342ea",
+          "alt": "恩菲提拉米蘇－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-54/2.webp?v=73b47c57540342ea",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：656183394_17912935185356433_4446392614320212009_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566081331862184006/656183394_17912935185356433_4446392614320212009_n.png?ex=6ae73e65&is=6ae5ece5&hm=ccae62ca05c27fffcbd48b12d51e9ddd7bd4428323e1bcd9a000662036869258&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-54/3.webp?v=83edcc312389b700",
+          "alt": "恩菲提拉米蘇－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-54/3.webp?v=83edcc312389b700",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：655858627_17912935194356433_7252663065126872064_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566081332822671470/655858627_17912935194356433_7252663065126872064_n.png?ex=6ae73e66&is=6ae5ece6&hm=1cd970335fb0c7ab0d5186fb84e978bcf97f1096489687aa9810c349fa4e479d&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/61567393529912/",
+        "ig": "https://www.instagram.com/x830422/",
+        "threads": "https://www.threads.com/@x830422",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-54/logo.webp",
+        "source": "https://www.instagram.com/x830422/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/469388563_1098781031486196_7145280798430660153_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=5opCc0F0PboQ7kNvwHZdfjT&_nc_oc=AdrsH3EyUM_GCLQKpm3CowbxBcXsbbvmUHBU_VoOEKb1KuPqEvcMp6buL4w4Z40Y1rI&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQSmAbyfpYfertRq7lwhJIFgRZ7jlMQ1PcQDGTlAu_dRHw&oe=6AEACC2B"
+      }
+    },
+    {
+      "id": "yilan-20261107-55",
+      "name": "甜聿家米甜品",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-55/1.webp?v=56240d907c89d14d",
+          "alt": "甜聿家米甜品－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-55/1.webp?v=56240d907c89d14d",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：image.png（第 1 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566082950183919687/image.png?ex=6ae73fe7&is=6ae5ee67&hm=537c31ccfa7d9f543355d82f53b8734cb3e9ca93f77a37cebabcd0d68442682e&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-55/2.webp?v=67fda62ca8566005",
+          "alt": "甜聿家米甜品－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-55/2.webp?v=67fda62ca8566005",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：image.png（第 2 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566082951047811072/image.png?ex=6ae73fe7&is=6ae5ee67&hm=d5612e56ee35824c0a1ffc714f7bbf9c27c0dded769c02afcddd4be0da706b26&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-55/3.webp?v=4e8ea1f1041ce2b2",
+          "alt": "甜聿家米甜品－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-55/3.webp?v=4e8ea1f1041ce2b2",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：image.png（第 3 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566082951815364698/image.png?ex=6ae73fe8&is=6ae5ee68&hm=b55d5d9a21f51299afe67ab238f7e41ff03fd5c8534f9c72beec4ca24b2c0fec&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/SweetRiceDessert/",
+        "ig": "https://www.instagram.com/sweetricedessert/",
+        "threads": "https://www.threads.com/@sweetricedessert",
+        "web": "https://myship.7-11.com.tw/general/detail/GM2201192139016"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-55/logo.webp",
+        "source": "https://www.instagram.com/sweetricedessert/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/169966107_448940126165103_3231490657733624735_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=108&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDE0LkMzIn0%3D&_nc_ohc=PqGeh4bkjjIQ7kNvwGDSIpu&_nc_oc=AdohniUsOwuVb8phQSf_TP24ixCrIPmZJ8UUfuMiF73NPYKxgYT-aJdA8Ip8kOHtgCI&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQfTKttnNznaDqcB-nshzS1yI7c40ZT4W-hrp1wotvkjg&oe=6AEAB8A7"
+      },
+      "address": "970花蓮縣花蓮市國威里三民街35-2號",
+      "latlng": {
+        "lat": 23.9808061,
+        "lng": 121.6083312
+      },
+      "locationSource": "https://www.google.com/maps/place/甜聿家米甜品/@23.9808061,121.6083312,17z/data=!3m1!4b1!4m6!3m5!1s0x3468a192b21668cf:0xb5ec92ab5975d916!8m2!3d23.9808061!4d121.6083312!16s%2Fg%2F11jwzyh21c",
+      "socialNote": "網站欄為品牌 Instagram 直接連結的 7-ELEVEN 常溫商品賣場；賣場所列店址與 Google 地圖相符。",
+      "oshenStoreId": "yilan-20261107-55"
+    },
+    {
+      "id": "yilan-20261107-56",
+      "name": "花蓮老宅神級肉桂捲在台南",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/1.webp?v=8ba72b14f1ec8e5a",
+          "alt": "花蓮老宅神級肉桂捲在台南－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/1.webp?v=8ba72b14f1ec8e5a",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：876199326_17993025921115283_6401877315663466306_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566047326508814427/876199326_17993025921115283_6401877315663466306_n.png?ex=6ae71eba&is=6ae5cd3a&hm=2f9763b72dc024847c4724855867c81bb0d7b1e65b5fad0d76e2a97a4fdf8fac&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/2.webp?v=29f4ff853a44f4c3",
+          "alt": "花蓮老宅神級肉桂捲在台南－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/2.webp?v=29f4ff853a44f4c3",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：881313539_17993025948115283_884104286395804284_n.png；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566047327024582706/881313539_17993025948115283_884104286395804284_n.png?ex=6ae71eba&is=6ae5cd3a&hm=d907ab4b84c5ef359841f59e683cc9c50fc3ec0b785274f6ff2a62906dbadcff&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/4.webp?v=1cfc6bca381fdcc4",
+          "alt": "花蓮老宅神級肉桂捲在台南－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/4.webp?v=1cfc6bca381fdcc4",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供附件：image.png；依要求刪除原第 3 張作品圖片後追加此圖，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566077169107468409/image.png?ex=6ae73a85&is=6ae5e905&hm=389cf523b463cfa1b6dc5475057a9dd5377a1d26c5d4b14e964ebe7e0ca760dd&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/5.webp?v=079193d86cd9a524",
+          "alt": "花蓮老宅神級肉桂捲在台南－作品圖片 4",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/5.webp?v=079193d86cd9a524",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（本次附件第 1 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566129983204626644/image.png?ex=6ae76bb5&is=6ae61a35&hm=a14502094702931b4267e67979281590e0dae8c85626ffaf0fcaf790c440f6ec&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/6.webp?v=927ed520df81dd20",
+          "alt": "花蓮老宅神級肉桂捲在台南－作品圖片 5",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/6.webp?v=927ed520df81dd20",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（本次附件第 2 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566129983871778829/image.png?ex=6ae76bb5&is=6ae61a35&hm=677d311f7141bdcbf3472fc516a6bf0a5b0762cbbb46e3924ce06533ad6d65fe&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/7.webp?v=dd33a3f0d5516831",
+          "alt": "花蓮老宅神級肉桂捲在台南－作品圖片 6",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/7.webp?v=dd33a3f0d5516831",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（本次附件第 3 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566129984815366204/image.png?ex=6ae76bb5&is=6ae61a35&hm=45c610dad4a90abe66708eb08cddf580954f61d0b4a0d50c4e7bdc74af9bb5ee&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/8.webp?v=e64fa9ed9478266b",
+          "alt": "花蓮老宅神級肉桂捲在台南－作品圖片 7",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/8.webp?v=e64fa9ed9478266b",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（本次附件第 4 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566129985704698057/image.png?ex=6ae76bb5&is=6ae61a35&hm=8857b2d8ab8b5f12ff207a988cf26f15f1ccfb780dd8fcca8a152ddde92bb835&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/9.webp?v=3f7db96b1593122e",
+          "alt": "花蓮老宅神級肉桂捲在台南－作品圖片 8",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-56/9.webp?v=3f7db96b1593122e",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：image.png（本次附件第 5 張）；依附件順序追加，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566129986371330108/image.png?ex=6ae76bb6&is=6ae61a36&hm=ba01a9ab3a288b7396a648efeb3f3ecfc3bc7af3e74b4b2ba7d92f15663ae7a8&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/SabiSabi2022/",
+        "ig": "https://www.instagram.com/sabisabi_2022/",
+        "threads": "https://www.threads.com/@sabisabi_2022",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/sabisabi-tainan/logo.webp?v=a3cae2d5c84aa3c4",
+        "source": "https://www.facebook.com/SabiSabi2022/?locale=zh_TW",
+        "platform": "facebook",
+        "status": "verified",
+        "checkedAt": "2026-10-25",
+        "note": "人工核對該店官方 facebook 個人頭像；原始網址下載並解碼驗證，未變更圖片尺寸參數；本站 Logo 最長邊 256 px、完整置中、小圖不放大；來源尺寸 720 × 720。",
+        "originalUrl": "https://raw.githubusercontent.com/minicoursedev/tainan-ai-buffet/main/public/puma_oshen_wave/assets/store-avatars/sabisabi-tainan.png?v=98c91c924925a7f7"
+      },
+      "address": "700臺南市中西區永華里開山路122巷16號",
+      "latlng": {
+        "lat": 22.9895703,
+        "lng": 120.2066167
+      },
+      "locationSource": "https://www.google.com/maps/place/%E8%8A%B1%E8%93%AE%E8%80%81%E5%AE%85%E7%A5%9E%E7%B4%9A%E8%82%89%E6%A1%82%E6%8D%B2%E5%9C%A8%E5%8F%B0%E5%8D%97+SabiSabi+Coffee%26Sweets+in+Tainan/@22.9895703,120.2066167,17z/data=!3m1!4b1!4m6!3m5!1s0x346e771403a92d89:0x52d95ca3a33826fe!8m2!3d22.9895703!4d120.2066167!16s%2Fg%2F11ypvs65gg?entry=ttu",
+      "oshenStoreId": "sabisabi-tainan"
+    },
+    {
+      "id": "yilan-20261107-57",
+      "name": "熊甜宅",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/4.webp?v=606f7c700bb524c3",
+          "alt": "熊甜宅－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/4.webp?v=606f7c700bb524c3",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件圖2（image.png）；依要求刪除原有產品照後，按附件順序新增，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566122448091615452/image.png?ex=6ae764b0&is=6ae61330&hm=1c1f67b85fd82eab36ff7598584ba3feb272a1f4153ff2450bd66087fdb567f5&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/5.webp?v=847ac8509c8d9fbc",
+          "alt": "熊甜宅－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/5.webp?v=847ac8509c8d9fbc",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件圖3（image.png）；依要求刪除原有產品照後，按附件順序新增，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566122448729153656/image.png?ex=6ae764b0&is=6ae61330&hm=52d43ef069fb62ffb9c7427f77ad8f537dc86223f59d6b78f387d1438f8405e4&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/6.webp?v=f1f8d1e62cfb0db4",
+          "alt": "熊甜宅－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/6.webp?v=f1f8d1e62cfb0db4",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件圖4（image.png）；依要求刪除原有產品照後，按附件順序新增，非官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566122449295253534/image.png?ex=6ae764b1&is=6ae61331&hm=51b2e43a984b69286a996c54952bc16a82977e23be2dcbda8a793b21220a5f81&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/profile.php?id=61551361427442",
+        "ig": "https://www.instagram.com/bearhouse.2021/",
+        "threads": "https://www.threads.com/@bearhouse.2021",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-57/logo.webp?v=89c700dd4f9438ae",
+        "source": "https://cdn.discordapp.com/attachments/1553247600935833680/1566122447613329418/image.png?ex=6ae764b0&is=6ae61330&hm=eb9990b3558bee7907de69dee44cbadc551ebac63b5d89830d4e65428537f509&",
+        "platform": "user-provided",
+        "status": "verified",
+        "checkedAt": "2026-11-01",
+        "note": "使用者提供附件圖一（image.png），明確指定替換 Logo；HTTPS 圖片可讀取，非官方查證。",
+        "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566122447613329418/image.png?ex=6ae764b0&is=6ae61330&hm=eb9990b3558bee7907de69dee44cbadc551ebac63b5d89830d4e65428537f509&"
+      },
+      "address": "269宜蘭縣冬山鄉南興村冬山路146號",
+      "latlng": {
+        "lat": 24.6345444,
+        "lng": 121.7911883
+      },
+      "locationSource": "https://www.google.com/maps/place/熊甜宅/@24.6345444,121.7911883,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7ef3a9cd443:0x368b412c0c082f97!8m2!3d24.6345444!4d121.7911883!16s%2Fg%2F11w4mygdr1",
+      "posterBoothName": "熊甜宅X木子口",
+      "oshenStoreId": "yilan-20261107-57-a"
+    },
+    {
+      "id": "yilan-20261107-57-b",
+      "name": "木子口",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "./assets/yilan-20261107-57-b/1.webp?v=74cc8310ef70ee58",
+          "alt": "木子口作品：麵包捲",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，歸屬木子口。"
+        },
+        {
+          "url": "./assets/yilan-20261107-57-b/2.webp?v=6f1327734b59cecd",
+          "alt": "木子口作品：烘焙點心禮盒",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，歸屬木子口。"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/share/1MZVHdu84v/",
+        "ig": "https://www.instagram.com/mu_zu_ko/",
+        "threads": "https://www.threads.com/@mu_zu_ko",
+        "web": "https://linkgoods.com/muzuko"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-57/logo-b.webp",
+        "source": "https://www.instagram.com/mu_zu_ko/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/84332827_2541799812702690_4513438830509948928_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=UwizvStMXLAQ7kNvwGVJfXa&_nc_oc=AdqnyQl7xVbtGMb8sIkKsJuQY7siabVa3qPzXN8b5Pngw0VlzNuoAvxDlUsHbL4xZG4&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQQ12AfWn1a9U5t5cgJ_6OD4Zb-Kcu1wxyX2boZXnPbAgw&oe=6AEAABB6"
+      },
+      "socialNote": "網站欄為品牌 Instagram 直接連結的 LINKGOODS 官方連結頁。",
+      "address": "269宜蘭縣冬山鄉香和村冬山路66巷1號",
+      "latlng": {
+        "lat": 24.6325347,
+        "lng": 121.7953909
+      },
+      "locationSource": "https://www.google.com/maps/place/%E6%9C%A8%E5%AD%90%E5%8F%A3MUZUKO%E7%83%98%E7%84%99%E5%B7%A5%E4%BD%9C%E5%AE%A4/@24.6325347,121.7953909,17z/data=!3m1!4b1!4m6!3m5!1s0x3467e7be186a401f:0xbe43b40644392cc2!8m2!3d24.6325347!4d121.7953909!16s%2Fg%2F11vq96kz27",
+      "locationNote": "Google 地圖與品牌 IG 均顯示工作室目前不對外營業，以預訂方式為主。",
+      "posterBoothName": "熊甜宅X木子口",
+      "oshenStoreId": "yilan-20261107-57-b"
+    },
+    {
+      "id": "yilan-20261107-58",
+      "name": "乙夷甜點",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-58/1.webp?v=e666cf75eae9a51b",
+          "alt": "乙夷甜點－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-58/1.webp?v=e666cf75eae9a51b",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供的作品圖片；附件：876519536_18079332476739894_5425287073161429539_n.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566044814439350382/876519536_18079332476739894_5425287073161429539_n.png?ex=6ae71c63&is=6ae5cae3&hm=c2cde07f2fe6cc13af8c9805a9bb3865bb4a5e680129f51ba198126b0d1df4ea&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-58/2.webp?v=66478e1897cacd86",
+          "alt": "乙夷甜點－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-58/2.webp?v=66478e1897cacd86",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供的作品圖片；附件：872509300_18079160150739894_3507128483655617942_n.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566044815198523402/872509300_18079160150739894_3507128483655617942_n.png?ex=6ae71c63&is=6ae5cae3&hm=fefb716cbd90cf3b7a2c899db60ecae56a0230446ba0d2c97c39df1be2637ae2&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-58/3.webp?v=6138dd9544350ef2",
+          "alt": "乙夷甜點－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-58/3.webp?v=6138dd9544350ef2",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供的作品圖片；附件：869454091_18078618803739894_9162719623749508557_n.png；依附件順序追加，未提供作品名稱。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566044815853101066/869454091_18078618803739894_9162719623749508557_n.png?ex=6ae71c63&is=6ae5cae3&hm=2e8a95fbed1417e0f96e603f8c32a8f8ce3a0602125f12431bfe9a64eb58ed2d&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/YiYiDessert/",
+        "ig": "https://www.instagram.com/yiyi_dessert/",
+        "threads": "https://www.threads.com/@yiyi_dessert",
+        "web": ""
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-58/logo.webp",
+        "source": "https://www.instagram.com/yiyi_dessert/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/421010800_779129890813316_7239723467202019513_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43ODAuQzMifQ%3D%3D&_nc_ohc=kkQLXyZWidMQ7kNvwFINpEX&_nc_oc=AdpKXjRBzRajMj-xeLmG8PCfhmxsv4hKvs7b8-CGjCB7D5N5nsPAo2nUM1XS3PLW7qs&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQT38Ihhlt6Xw12lNzCSosfXWyRpnDopALpJMGirRKmVcg&oe=6AEAC6C5"
+      },
+      "address": "970花蓮縣花蓮市國風里仁愛街104巷2號",
+      "latlng": {
+        "lat": 23.9781874,
+        "lng": 121.6024109
+      },
+      "locationSource": "https://www.google.com/maps/place/%E4%B9%99%E5%A4%B7%E7%94%9C%E9%BB%9E/@23.9781874,121.6024109,17z/data=!3m1!4b1!4m6!3m5!1s0x34689f0078ecaab1:0x6ce97a0826ec34ce!8m2!3d23.9781874!4d121.6024109!16s%2Fg%2F11vrvy_pnl",
+      "oshenStoreId": "yilan-20261107-58"
+    },
+    {
+      "id": "yilan-20261107-59",
+      "name": "遊牧仕事麵包工作室",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/1.webp?v=15decd86fcc0e86b",
+          "alt": "遊牧仕事麵包工作室作品照片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/1.webp?v=15decd86fcc0e86b",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566044540350238740/689969838_17934854085250739_310847763532253147_n.png?ex=6ae71c22&is=6ae5caa2&hm=980ddaa4ffa0772c951994d1f5872806d7817d8dc32a5ccc4ecaefecaea5dfee&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/2.webp?v=4e9ad53a7bd4f430",
+          "alt": "遊牧仕事麵包工作室作品照片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/2.webp?v=4e9ad53a7bd4f430",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566044542002532432/806466455_17955804810250739_8034387160325257035_n.png?ex=6ae71c22&is=6ae5caa2&hm=5d66fbf4d5cf9d2d7189379d3414bfe27f10eec38cd3e973fd455610eed2fd62&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/3.webp?v=51186d46e8a53c1d",
+          "alt": "遊牧仕事麵包工作室作品照片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-59/3.webp?v=51186d46e8a53c1d",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566044544150020147/789523323_17953616961250739_8911990144326571376_n.png?ex=6ae71c23&is=6ae5caa3&hm=84cef19346e40170f1c23accc29fbe8e8c75d1d0e1d87fbb5877029089790b1b&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/61577712805626/",
+        "ig": "https://www.instagram.com/yuuboku_shigoto/",
+        "threads": "https://www.threads.com/@yuuboku_shigoto",
+        "web": "https://dandy.tw/yuuboku-shigoto"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-59/logo.webp",
+        "source": "https://www.instagram.com/yuuboku_shigoto/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.2885-19/439143082_1096888198087995_5099073877886111619_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Ewx4Zc-rIBEQ7kNvwGSHBeT&_nc_oc=Ado-TfG3qdHquOXNnTkKifM7DFiCMR3PPLmM7Um0tOeVv9LwX5wqPuxvG4P992d1_Ws&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=7b689&oh=00_AQR5CNLrdhZSc6dlF21Z5RAn1VAEShjzD8PPbHMY5O786w&oe=6AEAD1C6"
+      },
+      "address": "261宜蘭縣頭城鎮城南里東興街116號",
+      "latlng": {
+        "lat": 24.8557882,
+        "lng": 121.8249884
+      },
+      "locationSource": "https://www.google.com/maps/place/遊牧仕事麵包工作室/@24.8557882,121.8249884,17z/data=!3m1!4b1!4m6!3m5!1s0x3467f70074586fe3:0xc0f5e63db2e478d4!8m2!3d24.8557882!4d121.8249884!16s%2Fg%2F11ym1f_mr3",
+      "socialNote": "網站欄為 Google 地圖所列品牌訂購頁，頁面連結至相同 Instagram。",
+      "oshenStoreId": "yilan-20261107-59"
+    },
+    {
+      "id": "yilan-20261107-60",
+      "name": "初白時光",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-60/1.webp?v=aab4be507d95facf",
+          "alt": "初白時光作品照片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-60/1.webp?v=aab4be507d95facf",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566043177532530868/793580749_17898919590596129_1213142256810631095_n.png?ex=6ae71add&is=6ae5c95d&hm=e560fc34f1b60f9a4118baff823fcb190dcec3bf646007cd0e8d660e7ea8ecf6&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-60/2.webp?v=07b15677bde33a35",
+          "alt": "初白時光作品照片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-60/2.webp?v=07b15677bde33a35",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566043179575279616/knw2mjqnobh18gkp66i7.png?ex=6ae71add&is=6ae5c95d&hm=0f2d68041c0cb40375fc1916d0c413c633775f44728b306a460f310ed19cb5b6&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-60/3.webp?v=0c31595264fadd4b",
+          "alt": "初白時光作品照片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-60/3.webp?v=0c31595264fadd4b",
+          "checkedAt": "2026-10-31",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566043180888105081/765553851_17893772049596129_596691837905491557_n.png?ex=6ae71add&is=6ae5c95d&hm=f38d71533acd88fd62435bf016f914c246e8e8c7d05d4eaa53cb9a6ed97c2e05&"
+        }
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/61590502141774/",
+        "ig": "https://www.instagram.com/moment.of.white/",
+        "threads": "https://www.threads.com/@moment.of.white",
+        "web": "https://pudding.urland.com.tw/"
+      },
+      "logo": {
+        "url": "./assets/yilan-20261107-60/logo.webp",
+        "source": "https://www.instagram.com/moment.of.white/",
+        "platform": "instagram",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "Instagram 個人頁頭像，原圖 150 × 150，不放大。",
+        "originalUrl": "https://scontent.cdninstagram.com/v/t51.82787-19/681329376_17875643073596129_2835495803046133620_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=CKdmrggFaS8Q7kNvwFxvvPo&_nc_oc=AdpwukmwHcv2I-Znj84CBDhOcWQ6r11YvhurwXNswM6wDXFHlTyQVlIHC9m56IWgsoc&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=KQZUF30yiy920XQspMfy4w&_nc_ss=7b689&oh=00_AQSLSp0rdNFcorGHIJF5JAeOHl7mecAPuErwATz1n-wVtQ&oe=6AEABF41"
+      }
+    },
+    {
+      "id": "yilan-20261107-47",
+      "name": "1989 可麗餅",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-47/1.webp?v=7241076745326e72",
+          "alt": "1989 可麗餅－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-47/1.webp?v=7241076745326e72",
+          "checkedAt": "2026-11-03",
+          "note": "使用者提供附件 image.png，未提供作品名稱；未作官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567013697467973662/image.png?ex=6aeaa2bb&is=6ae9513b&hm=b17d1ad470fe92cfc956760b383c0bd09005c57e66342657a7e44abf2070bc7d&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-47/2.webp?v=52fff0e2a381a415",
+          "alt": "1989 可麗餅－作品圖片 2",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-47/2.webp?v=52fff0e2a381a415",
+          "checkedAt": "2026-11-03",
+          "note": "使用者提供附件 image.png，未提供作品名稱；未作官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567013697879277578/image.png?ex=6aeaa2bb&is=6ae9513b&hm=32efccb056ad9434786b52b34aec778053a87082a8a9d4d62e726e48abc50cf3&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-47/3.webp?v=7e946e8b591656ac",
+          "alt": "1989 可麗餅－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-47/3.webp?v=7e946e8b591656ac",
+          "checkedAt": "2026-11-03",
+          "note": "使用者提供附件 image.png，未提供作品名稱；未作官方查證。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1567013698462027897/image.png?ex=6aeaa2bb&is=6ae9513b&hm=078e29733e45ac062e02d7b7e452dad4c34c5bc98dc871e9958cc7b0562c72b0&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "",
+        "threads": "https://www.threads.com/@1989crepes",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-47/logo.webp?v=85634a7132ab1d18",
+        "source": "https://cdn.discordapp.com/attachments/1553247600935833680/1566092557677625415/image.png?ex=6ae748da&is=6ae5f75a&hm=e156df3355edcc84818845ace5251bda102db8fc9010bbac16b19e0df6b6f7e1&",
+        "platform": "user-provided",
+        "status": "verified",
+        "checkedAt": "2026-10-31",
+        "note": "使用者提供的 Logo 附件（image.png），指定用於 1989 可麗餅（yilan-20261107-47）；HTTPS 圖片可讀，原圖為 560 × 600 PNG。",
+        "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566092557677625415/image.png?ex=6ae748da&is=6ae5f75a&hm=e156df3355edcc84818845ace5251bda102db8fc9010bbac16b19e0df6b6f7e1&"
+      },
+      "socialNote": "2026-10-31 使用者提供 Instagram 與 Threads 連結，依指定攤位網址 ID yilan-20261107-47 對應至 1989 可麗餅；未作官方查證。 2026-11-03 依使用者要求移除 Instagram，Threads 連結由使用者提供；未作官方查證。"
+    },
+    {
+      "id": "yilan-20261107-52",
+      "name": "日日青",
+      "category": "暖心甜點",
+      "disabled": false,
+      "verification": false,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/8.webp?v=313cfef8a8f0e14b",
+          "alt": "日日青－作品圖片 8",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/8.webp?v=313cfef8a8f0e14b",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_1822.jpeg；依使用者指定新增並放在第一張，保留全部既有作品圖片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566321435780055061/IMG_1822.jpeg?ex=6ae81e03&is=6ae6cc83&hm=0521f83359db9e6eb51319d60b8e97a4507032cc22989820ba44496007193f3c&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/1.webp?v=28fa8f5b7d96b6e4",
+          "alt": "日日青－作品圖片 1",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/1.webp?v=28fa8f5b7d96b6e4",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：C0F2ACC1-F7E6-4EE1-8E31-40897DB50B8A.png；依附件順序追加為作品圖片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319924320673792/C0F2ACC1-F7E6-4EE1-8E31-40897DB50B8A.png?ex=6ae81c9a&is=6ae6cb1a&hm=eaa344901dfec4b28fdffcca791440d77fd2341e7dcd1518847c4bb82473eee9&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/3.webp?v=fbffd2557af2b6a2",
+          "alt": "日日青－作品圖片 3",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/3.webp?v=fbffd2557af2b6a2",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_1785.jpeg；依附件順序追加為作品圖片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319924979171362/IMG_1785.jpeg?ex=6ae81c9a&is=6ae6cb1a&hm=d17fa1d6596a16b76861b25508cf131ddbe1bb3128fdfe0c3557b4814409e1b2&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/4.webp?v=4f27dcb0b897d93d",
+          "alt": "日日青－作品圖片 4",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/4.webp?v=4f27dcb0b897d93d",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_1786.jpeg；依附件順序追加為作品圖片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319925310783568/IMG_1786.jpeg?ex=6ae81c9b&is=6ae6cb1b&hm=d70460324eb485f878b0719ba4bc89b11762b53277951ab41b9b65e24e429861&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/5.webp?v=b1d1dd8c86902857",
+          "alt": "日日青－作品圖片 5",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/5.webp?v=b1d1dd8c86902857",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_1787.jpeg；依附件順序追加為作品圖片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319925859983370/IMG_1787.jpeg?ex=6ae81c9b&is=6ae6cb1b&hm=96d388b3f9c9ab11f42209d907fda534f67a7eb32e509c121abee3ff3a0cb48b&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/6.webp?v=8fac887cb43cf97a",
+          "alt": "日日青－作品圖片 6",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/6.webp?v=8fac887cb43cf97a",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_1788.jpeg；依附件順序追加為作品圖片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319926245851156/IMG_1788.jpeg?ex=6ae81c9b&is=6ae6cb1b&hm=7e0b5b1827023ec9040380e42fc1b0e132c43f485ebd5ffbefbdf745e4f26fab&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/7.webp?v=89edc1f77478530c",
+          "alt": "日日青－作品圖片 7",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/7.webp?v=89edc1f77478530c",
+          "checkedAt": "2026-11-01",
+          "note": "使用者提供附件：IMG_9757.jpeg；依附件順序追加為作品圖片。",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566319926707359824/IMG_9757.jpeg?ex=6ae81c9b&is=6ae6cb1b&hm=d451053f32c04e00b514b82d7125fefaa675c99637aa3a3c3459ff117aee1a3c&"
+        }
+      ],
+      "social": {
+        "fb": "",
+        "ig": "https://www.instagram.com/mi.s_churros?mdxt=NXkzdDM1djFyczl6&utm_source=qr",
+        "threads": "https://www.threads.com/@mi.s_churros?igshid=NTc4MTIwNjQ2YQ==",
+        "web": ""
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/yilan-20261107-52/logo.webp?v=1abeb4f5a02b0edc",
+        "source": "https://cdn.discordapp.com/attachments/1553247600935833680/1566671836165439509/IMG_9828.jpeg?ex=6ae96459&is=6ae812d9&hm=6df272bdbe7c3ca6085c791b72c630b6744e6a0f75488460e804e26c87c2dd8c&",
+        "platform": "user-provided",
+        "status": "verified",
+        "checkedAt": "2026-11-02",
+        "note": "使用者提供附件 IMG_9828.jpeg，指定作為 Logo；本地預覽可讀，未作官方查證。",
+        "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1566671836165439509/IMG_9828.jpeg?ex=6ae96459&is=6ae812d9&hm=6df272bdbe7c3ca6085c791b72c630b6744e6a0f75488460e804e26c87c2dd8c&"
+      },
+      "socialNote": "Instagram 與 Threads 連結由使用者提供，依指定攤位網址對應；未作官方查證。"
+    }
+  ]
+}
