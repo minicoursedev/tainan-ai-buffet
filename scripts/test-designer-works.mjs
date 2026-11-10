@@ -33,6 +33,9 @@ test('each active work has a static landing page, the matching share image and a
       const canonical = `https://minicourse.dev${path}`;
       assert(html.includes(`<link rel="canonical" href="${canonical}">`));
       assert(html.includes(`<meta property="og:url" content="${canonical}">`));
+      assert(html.includes(`<meta property="og:title" content="${escape(designer.name)} 設計師">`), 'Share titles use only the author name and designer label');
+      assert(html.includes(`<meta name="twitter:title" content="${escape(designer.name)} 設計師">`));
+      assert(html.includes(`<title>${escape(designer.name)}的作品｜洋流設計師</title>`), 'The SEO title keeps the site name');
       assert.equal((html.match(/property="og:image"/g) || []).length, 1);
       assert(html.includes(`<meta property="og:image" content="${escape(work.cover)}">`));
       assert(html.includes(`<meta name="twitter:image" content="${escape(work.cover)}">`));

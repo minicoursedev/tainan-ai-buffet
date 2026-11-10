@@ -34,6 +34,8 @@
 #work-share-qr { display: block; width: 192px; max-width: 100%; height: auto; margin: 20px auto 12px; }
 #work-share-url { display: block; overflow-wrap: anywhere; margin: 0; color: var(--green-deep); font-size: 13px; line-height: 1.7; }
 .work-share-actions { display: grid; gap: 10px; }
+.work-share-platforms { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px; margin-bottom: 10px; }
+.work-share-platforms .btn { min-height: 48px; padding-inline: 8px; font-size: 14px; white-space: normal; text-align: center; }
 .work-share-actions .btn { width: 100%; min-height: 48px; white-space: normal; text-align: center; }
 #work-share-status, #work-share-qr-status { margin: 12px 0 0; font-size: 13px; }
 #work-share-status:empty, #work-share-qr-status:empty { display: none; }

@@ -10,8 +10,14 @@ if (dialog) {
     const url = new URL(button.dataset.shareWork, location.href);
     if (url.origin !== location.origin || !/^\/puma_oshen_wave\/designer\/profiles\/[^/]+\/works\/[^/]+\/$/.test(url.pathname)) return;
     const token = ++generation;
-    shareData = { title: `${button.dataset.workDesigner}的作品｜洋流設計師`, url: url.href };
-    byId('work-share-designer').textContent = button.dataset.workDesigner;
+    shareData = { title: `${button.dataset.workDesigner} 設計師`, url: url.href };
+    const facebook = new URL('https://www.facebook.com/sharer/sharer.php');
+    facebook.searchParams.set('u', url.href);
+    byId('work-share-facebook').href = facebook.href;
+    const threads = new URL('https://www.threads.com/intent/post');
+    threads.searchParams.set('text', `${shareData.title}\n${url.href}`);
+    byId('work-share-threads').href = threads.href;
+    byId('work-share-designer').textContent = shareData.title;
     const image = byId('work-share-image');
     image.src = button.dataset.workImage;
     image.alt = button.dataset.workLabel || '';

@@ -7,6 +7,7 @@ import { serializeStructuredData } from '../../public/puma_oshen_wave/designer/j
 interface Props { designerId: string; workId: string }
 const entry = designerWorks.find(({ designer, work }) => designer.id === Astro.props.designerId && work.id === Astro.props.workId)!;
 const { designer, work } = entry;
+const shareTitle = `${designer.name} 設計師`;
 const title = `${designer.name}的作品｜洋流設計師`;
 const description = work.caption?.trim() || designer.store.description;
 const label = work.name || `${designer.name}的作品`;
@@ -32,12 +33,12 @@ const structuredData = {
   <meta property="og:url" content={canonical} />
   <meta property="og:site_name" content="洋流設計師" />
   <meta property="og:locale" content="zh_TW" />
-  <meta property="og:title" content={title} />
+  <meta property="og:title" content={shareTitle} />
   {description && <meta property="og:description" content={description} />}
   <meta property="og:image" content={work.cover} />
   <meta property="og:image:alt" content={label} />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content={title} />
+  <meta name="twitter:title" content={shareTitle} />
   {description && <meta name="twitter:description" content={description} />}
   <meta name="twitter:image" content={work.cover} />
   <meta name="twitter:image:alt" content={label} />
@@ -48,7 +49,7 @@ const structuredData = {
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" />
   <link rel="stylesheet" href="/puma_oshen_wave/designer/css/market.css" />
   <link rel="stylesheet" href="/puma_oshen_wave/designer/css/booth.css?v=20261110-work-mobile" />
-  <link rel="stylesheet" href="/puma_oshen_wave/designer/css/work.css?v=20261110-work-author-header" />
+  <link rel="stylesheet" href="/puma_oshen_wave/designer/css/work.css?v=20261110-social-share" />
 </head>
 <body class="work-page">
   <header class="work-header">
