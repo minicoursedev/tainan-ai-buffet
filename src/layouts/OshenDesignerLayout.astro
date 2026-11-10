@@ -3,6 +3,7 @@ import { designers, designerRoot, designerPath } from '../lib/oshen-designers';
 import { boothHtml } from '../../public/puma_oshen_wave/designer/js/ui/booth-markup.js';
 import { designerMetadata, designerStructuredData, serializeStructuredData } from '../../public/puma_oshen_wave/designer/js/profile-seo.js';
 import { hallPageForCode } from '../../public/puma_oshen_wave/designer/js/hall-pages.js';
+import WorkShareDialog from '../components/WorkShareDialog.astro';
 interface Props { designerId?: string; hallCode?: string }
 const designer = designers.find(profile => profile.id === Astro.props.designerId);
 const hall = designer ? null : hallPageForCode(Astro.props.hallCode);
@@ -63,7 +64,8 @@ const shareImageAlt = designer?.og?.alt || hall?.alt || '洋流設計師展逛�
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/market.css">
-<link rel="stylesheet" href="/puma_oshen_wave/designer/css/booth.css?v=20261107-profile-left">
+<link rel="stylesheet" href="/puma_oshen_wave/designer/css/booth.css?v=20261110-work-mobile">
+<link rel="stylesheet" href="/puma_oshen_wave/designer/css/work.css?v=20261110-work-mobile">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/map.css">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/list.css?v=20261101-profile-links">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/closed.css">
@@ -127,6 +129,7 @@ const shareImageAlt = designer?.og?.alt || hall?.alt || '洋流設計師展逛�
   </div>
 </dialog>
 
-<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261108-amateur-og"></script>
+<WorkShareDialog />
+<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261110-work-share"></script>
 </body>
 </html>

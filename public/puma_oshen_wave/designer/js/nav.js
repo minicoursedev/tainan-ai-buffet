@@ -1,7 +1,7 @@
 // Move between designer aisles and resolve share links.
 import { designerWalkPath, updateDesignerMetadata } from './routes.js?v=20261108-amateur-og';
 import { state, emit, toast } from './state.js';
-import { loadAisle, aisleOfBooth, hallOf } from './data.js?v=20261108-amateur-hall';
+import { loadAisle, aisleOfBooth, hallOf } from './data.js?v=20261110-work-share';
 
 const hallOfIndex = code => state.index.halls.find(h => h.code === hallOf(code));
 

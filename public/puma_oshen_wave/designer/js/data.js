@@ -1,5 +1,6 @@
 // Build the walk, map and search views from one shared designer.json response.
 import { CONFIG } from './config.js?v=20261030-site-data';
+import { inlineWorkId } from './work-links.js';
 
 const HALLS = [
   { code: 'O', name: '設計師館', zone: { code: 'DESIGNERS', name: '設計師' } },
@@ -70,13 +71,13 @@ export function createCatalogue(data, { ogImages = {} } = {}) {
           .map(([key, value]) => [key, externalUrl(value)]));
         const works = (Array.isArray(designer.productImages) ? designer.productImages : [])
           .map((product, i) => ({
-            id: `${designer.id}-${i + 1}`,
+            id: inlineWorkId(designer.id, product),
             name: typeof product?.alt === 'string' && product.alt.trim() ? product.alt : `${designer.name} 作品參考 ${i + 1}`,
             caption: typeof product?.caption === 'string' ? product.caption : '',
             cover: imageUrl(product?.url),
             video: imageUrl(product?.videoUrl),
             url: productLink(product),
-          })).filter(work => work.cover);
+          })).filter((work, i) => work.cover && designer.productImages[i]?.disabled !== true);
         stores[designer.id] = {
           id: designer.id, name: designer.name, owner: designer.name, category,
           description: typeof designer.description === 'string' ? designer.description.trim() : '',

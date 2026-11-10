@@ -1,0 +1,9 @@
+---
+import Layout from '../../../../../../../layouts/OshenWorkLayout.astro';
+import { designerWorks } from '../../../../../../../lib/oshen-designers';
+export function getStaticPaths() {
+  return designerWorks.map(({ designer, work }) => ({ params: { id: designer.id, workId: work.id }, props: { designerId: designer.id, workId: work.id } }));
+}
+const { designerId, workId } = Astro.props;
+---
+<Layout designerId={designerId} workId={workId} />

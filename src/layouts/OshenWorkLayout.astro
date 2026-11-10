@@ -1,0 +1,87 @@
+---
+import WorkShareDialog from '../components/WorkShareDialog.astro';
+import { designerWorks, designerPath } from '../lib/oshen-designers';
+import { designerWorkPath } from '../../public/puma_oshen_wave/designer/js/work-links.js';
+import { designerHallRoot } from '../../public/puma_oshen_wave/designer/js/routes.js';
+import { serializeStructuredData } from '../../public/puma_oshen_wave/designer/js/profile-seo.js';
+interface Props { designerId: string; workId: string }
+const entry = designerWorks.find(({ designer, work }) => designer.id === Astro.props.designerId && work.id === Astro.props.workId)!;
+const { designer, work } = entry;
+const title = `${designer.name}的作品｜洋流設計師`;
+const description = work.caption?.trim() || designer.store.description;
+const label = work.name || `${designer.name}的作品`;
+const canonical = new URL(designerWorkPath(designer.id, work.id), Astro.site).href;
+const structuredData = {
+  '@context': 'https://schema.org', '@type': 'WebPage', url: canonical, name: title, inLanguage: 'zh-Hant-TW',
+  ...(description ? { description } : {}),
+  primaryImageOfPage: { '@type': 'ImageObject', contentUrl: work.cover, name: label, ...(work.caption ? { caption: work.caption } : {}) },
+  isPartOf: { '@type': 'WebPage', url: new URL(designerPath(designer.id), Astro.site).href, name: designer.name },
+};
+---
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>{title}</title>
+  <link rel="canonical" href={canonical} />
+  <meta name="theme-color" content="#f82970" />
+  <link rel="icon" href="data:," />
+  {description && <meta name="description" content={description} />}
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:site_name" content="洋流設計師" />
+  <meta property="og:locale" content="zh_TW" />
+  <meta property="og:title" content={title} />
+  {description && <meta property="og:description" content={description} />}
+  <meta property="og:image" content={work.cover} />
+  <meta property="og:image:alt" content={label} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  {description && <meta name="twitter:description" content={description} />}
+  <meta name="twitter:image" content={work.cover} />
+  <meta name="twitter:image:alt" content={label} />
+  <script is:inline type="application/ld+json" set:html={serializeStructuredData(structuredData)} />
+  <script is:inline defer src="/assets/analytics.js?v=20261019-content-group"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" />
+  <link rel="stylesheet" href="/puma_oshen_wave/designer/css/market.css" />
+  <link rel="stylesheet" href="/puma_oshen_wave/designer/css/booth.css?v=20261110-work-mobile" />
+  <link rel="stylesheet" href="/puma_oshen_wave/designer/css/work.css?v=20261110-work-author-header" />
+</head>
+<body class="work-page">
+  <header class="work-header">
+    <h1 class="work-title" id="work-title">{designer.name}</h1>
+    <a class="work-close" href={designerPath(designer.id)} aria-label={`關閉作品，回到${designer.name}`} title="回到設計師攤位"><span aria-hidden="true">×</span></a>
+  </header>
+  <main class="work-main">
+    <nav class="work-breadcrumbs" aria-label="麵包屑導覽"><a href={designerHallRoot(designer.hallCode)}>{designer.hallName}</a><span aria-hidden="true">›</span><a href={designerPath(designer.id)}>{designer.name}</a><span aria-hidden="true">›</span><span aria-current="page">作品</span></nav>
+    <article class="work-grid" aria-labelledby="work-title">
+      <figure class="work-figure">
+        <div class="work-media">
+          {work.video ? <video controls playsinline preload="metadata" poster={work.cover} src={work.video} aria-label={label}></video> : <img src={work.cover} alt={label} loading="eager" fetchpriority="high" decoding="async" />}
+        </div>
+        {work.caption && <figcaption class="work-caption">{work.caption}</figcaption>}
+      </figure>
+      <div class="work-info">
+        <section class="work-author" aria-labelledby="work-author-name">
+          <a class="work-author-link" href={designerPath(designer.id)}>
+            {designer.store.avatar && <span class:list={['bo-avatar', { 'bo-avatar-contain': designer.store.avatarFit === 'contain' }]}><img src={designer.store.avatar} alt="" decoding="async" /></span>}
+            <div><span class="work-author-category">{designer.store.category}</span><h2 class="work-author-name" id="work-author-name">{designer.name}</h2></div>
+          </a>
+          {designer.store.description && <p class="work-author-bio">{designer.store.description}</p>}
+        </section>
+        <div class="work-actions">
+          <a class="btn btn-primary" href={designerPath(designer.id)}>逛他的攤位 →</a>
+          <button class="btn" type="button" data-share-work={designerWorkPath(designer.id, work.id)} data-work-designer={designer.name} data-work-image={work.cover} data-work-label={label} aria-haspopup="dialog" aria-controls="work-share-dialog">分享這件作品</button>
+        </div>
+        {work.url && <a class="work-source" href={work.url} target="_blank" rel="noopener noreferrer">查看原始連結 ↗</a>}
+        <div class="work-more"><a class="work-market-link" href={designerHallRoot(designer.hallCode)}>繼續逛市集 →</a></div>
+      </div>
+    </article>
+  </main>
+  <footer class="work-footer"><small>© 2026 MiniCourse｜收錄之作品與商標，其權利歸各設計師或原權利人所有。</small></footer>
+  <WorkShareDialog />
+</body>
+</html>

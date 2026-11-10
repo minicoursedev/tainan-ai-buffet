@@ -1,8 +1,8 @@
 // Designer dialog: profile, catalogue images, social links and share link.
 import { state, markVisited, findBoothIn, toast } from '../state.js';
-import { loadAisle, aisleOfBooth } from '../data.js?v=20261108-amateur-hall';
-import { goToBooth, designerBoothUrl } from '../nav.js?v=20261108-amateur-og';
-import { boothHtml, loadingHtml, failHtml } from './booth-markup.js?v=20261108-amateur-og';
+import { loadAisle, aisleOfBooth } from '../data.js?v=20261110-work-share';
+import { goToBooth, designerBoothUrl } from '../nav.js?v=20261110-work-share';
+import { boothHtml, loadingHtml, failHtml } from './booth-markup.js?v=20261110-work-share';
 import { designerRoot, designerWalkPath, updateDesignerMetadata } from '../routes.js?v=20261108-amateur-og';
 import { retryOriginal } from '../images.js';
 import { loadProducts, sampleProducts } from '../products.js?v=20261030-pinned-work';

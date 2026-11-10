@@ -4,11 +4,14 @@ import { stores, shopPath, categories, categoryPath } from '../lib/oshen-stores'
 
 import { catalogue, stageBase, stagePath, hallPath } from '../lib/oshen-stage';
 
-import { designers, designerRoot, designerPath } from '../lib/oshen-designers';
+import { designers, designerWorks, designerRoot, designerPath } from '../lib/oshen-designers';
+import { designerWorkPath } from '../../public/puma_oshen_wave/designer/js/work-links.js';
 import { hallPages } from '../../public/puma_oshen_wave/designer/js/hall-pages.js';
 
 const base = 'https://minicourse.dev/';
+const workUrls = designerWorks.map(({ designer, work }) => new URL(designerWorkPath(designer.id, work.id), base).href);
 const urls = [new URL(designerRoot, base).href, ...hallPages.map(hall => new URL(hall.path, base).href), ...designers.map(designer => new URL(designerPath(designer.id), base).href), ...categories.map(category => new URL(categoryPath(category), base).href), new URL(stageBase, base).href, ...catalogue.halls.map(hall => new URL(hallPath(hall.id), base).href), ...catalogue.stages.map(stage => new URL(stagePath(stage.id), base).href), `${base}puma_oshen_wave/`, ...stores.map(store => new URL(shopPath(store.id), base).href), `${base}puma_oshen_wave/support/`, `${base}puma_oshen_wave/privacy/`, `${base}youtube-uploader/`, `${base}youtube-uploader/privacy/`, `${base}youtube-uploader/terms/`, base, `${base}friends.html`, ...new Set(events.filter(event => event.slides).map(event => `${base}${event.slides}`))];
+urls.push(...workUrls);
 const escape = (value: string) => value.replace(/[&<>'"]/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character]!);
 
 export const GET = (() => new Response(

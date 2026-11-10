@@ -1,6 +1,7 @@
 import { thumbnailUrl } from '../images.js';
 import { designerBoothUrl } from '../routes.js?v=20261108-amateur-og';
 import { designerMetadata } from '../profile-seo.js';
+import { designerWorkPath } from '../work-links.js';
 
 const ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ESC[c]);
@@ -34,17 +35,19 @@ function coverHtml(src, label, width, height, eager = false) {
   return `<span class="bo-cover"><img src="${esc(thumbnailUrl(url))}" data-original="${esc(url)}" alt="${esc(label)}"${dimensions} loading="${eager ? 'eager' : 'lazy'}"${eager ? ' fetchpriority="high"' : ''} decoding="async" data-label="${esc(label)}"></span>`;
 }
 
-function workHtml(w, index, name, profile) {
+function workHtml(w, index, name, profile, designerId) {
   const label = w.name?.trim() || w.caption?.trim() || `${name}作品圖片 ${index + 1}`;
   const video = safeUrl(w.video);
   const description = w.caption ? `<span class="bo-caption">${esc(w.caption)}</span>` : '';
-  if (video) return `<li><div class="bo-work"><video controls playsinline preload="metadata" poster="${esc(safeUrl(w.cover))}" aria-label="${esc(label)}" style="display:block;width:100%;max-height:400px" src="${esc(video)}"></video>${description}</div></li>`;
+  const path = designerWorkPath(designerId, w.id);
+  const actions = `<div class="bo-work-actions"><a class="bo-work-detail" href="${esc(path)}">查看作品</a><button type="button" class="btn" data-share-work="${esc(path)}" data-work-designer="${esc(name)}" data-work-image="${esc(safeUrl(w.cover))}" data-work-label="${esc(label)}" aria-label="分享${esc(label)}" aria-haspopup="dialog" aria-controls="work-share-dialog">分享作品</button></div>`;
+  if (video) return `<li><div class="bo-work"><video controls playsinline preload="metadata" poster="${esc(safeUrl(w.cover))}" aria-label="${esc(label)}" style="display:block;width:100%;max-height:400px" src="${esc(video)}"></video>${description}</div>${actions}</li>`;
   const url = safeUrl(w.url);
   // Image alternative text is not a display title; only explicit captions appear below works.
   const inner = `${coverHtml(w.cover, label, w.width, w.height, profile && index === 0)}${description}`;
   return url
-    ? `<li><a class="bo-work" href="${esc(url)}" target="_blank" rel="noopener">${inner}</a></li>`
-    : `<li><span class="bo-work">${inner}</span></li>`;
+    ? `<li><a class="bo-work" href="${esc(url)}" target="_blank" rel="noopener">${inner}</a>${actions}</li>`
+    : `<li><span class="bo-work">${inner}</span>${actions}</li>`;
 }
 
 export function boothHtml(booth, store, { profile = false, staticProfile = false } = {}) {
@@ -102,7 +105,7 @@ export function boothHtml(booth, store, { profile = false, staticProfile = false
       <${subheading} class="bo-section-title">作品選集</${subheading}>
       ${booth.productsError ? '<p class="bo-note" role="status">產品清單暫時無法載入，目前顯示預覽圖片，請稍後重新開啟。</p>' : ''}
       ${works.length ? `<ul class="bo-works">
-        ${works.map((work, index) => workHtml(work, index, name, profile)).join('')}
+        ${works.map((work, index) => workHtml(work, index, name, profile, booth.store)).join('')}
         ${more > 0 ? `<li>${storeUrl
           ? `<a class="bo-work bo-more" href="${esc(storeUrl)}" target="_blank" rel="noopener"><span class="bo-more-n">還有 ${more} 部</span><span>看設計師</span></a>`
           : `<span class="bo-work bo-more"><span class="bo-more-n">還有 ${more} 部</span></span>`}</li>` : ''}

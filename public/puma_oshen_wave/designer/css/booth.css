@@ -33,6 +33,10 @@
   display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px;
 }
 .bo-works > li { min-width: 0; }
+.bo-work-actions { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 0 4px; }
+.bo-work-actions .btn { min-height: 44px; padding: 4px 12px; font-size: 13px; }
+.bo-work-detail { display: inline-flex; align-items: center; min-height: 44px; color: var(--green-deep); font-size: 13px; text-underline-offset: 4px; }
+.bo-work-detail:focus-visible { outline: 3px solid var(--pink); outline-offset: 4px; }
 .bo-caption { font-size: 15px; line-height: 1.65; overflow-wrap: anywhere; white-space: pre-line; }
 .bo-work {
   position: relative; display: flex; flex-direction: column; gap: 6px; width: 100%; padding: 0;
