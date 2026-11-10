@@ -1,6 +1,6 @@
 import { thumbnailUrl } from '../images.js';
-import { designerBoothUrl } from '../routes.js?v=20261108-amateur-og';
-import { designerMetadata } from '../profile-seo.js';
+import { designerBoothUrl } from '../routes.js?v=20261110-profile-share-title';
+import { designerMetadata } from '../profile-seo.js?v=20261110-profile-share-title';
 import { designerWorkPath } from '../work-links.js';
 
 const ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };

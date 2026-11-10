@@ -10,6 +10,7 @@ const hall = designer ? null : hallPageForCode(Astro.props.hallCode);
 const listedDesigners = hall ? designers.filter(profile => profile.hallCode === hall.code) : designers;
 const metadata = designer && designerMetadata(designer.store);
 const title = metadata ? metadata.title : hall?.title || '洋流設計師｜探索設計師、創作作品與線上市集';
+const shareTitle = metadata ? metadata.shareTitle : title;
 const description = metadata ? metadata.description : hall?.description || '走進洋流設計師線上市集，瀏覽設計師介紹、創作作品與官方社群。透過設計師列表、地圖與互動攤位，找到喜歡的創作者。';
 const canonical = new URL(designer ? designerPath(designer.id) : hall?.path || designerRoot, Astro.site).href;
 const structuredData = designer && designerStructuredData(designer.store, designer.booth, canonical, new URL(designerRoot, Astro.site).href);
@@ -47,7 +48,7 @@ const shareImageAlt = designer?.og?.alt || hall?.alt || '洋流設計師展逛�
 <meta property="og:url" content={canonical}>
 <meta property="og:site_name" content="MiniCourse">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:title" content={title}>
+<meta property="og:title" content={shareTitle}>
 {description && <meta property="og:description" content={description}>}
 <meta property="og:image" content={shareImage}>
 <meta property="og:image:alt" content={shareImageAlt}>
@@ -55,7 +56,7 @@ const shareImageAlt = designer?.og?.alt || hall?.alt || '洋流設計師展逛�
 <meta property="og:image:width" content={designer?.og?.width || hall?.width || 2622}>
 <meta property="og:image:height" content={designer?.og?.height || hall?.height || 1206}>
 <meta name="twitter:card" content={hall ? 'summary_large_image' : 'summary'}>
-<meta name="twitter:title" content={title}>
+<meta name="twitter:title" content={shareTitle}>
 {description && <meta name="twitter:description" content={description}>}
 <meta name="twitter:image" content={shareImage}>
 <meta name="twitter:image:alt" content={shareImageAlt}>
@@ -130,6 +131,6 @@ const shareImageAlt = designer?.og?.alt || hall?.alt || '洋流設計師展逛�
 </dialog>
 
 <WorkShareDialog />
-<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261110-work-share"></script>
+<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261110-profile-share-title"></script>
 </body>
 </html>

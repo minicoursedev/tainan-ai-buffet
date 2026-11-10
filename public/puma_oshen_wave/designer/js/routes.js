@@ -1,4 +1,4 @@
-import { designerMetadata, designerStructuredData, serializeStructuredData, publicUrl } from './profile-seo.js';
+import { designerMetadata, designerStructuredData, serializeStructuredData, publicUrl } from './profile-seo.js?v=20261110-profile-share-title';
 import { hallPageForCode, hallPageForPath } from './hall-pages.js?v=20261108-amateur-og';
 
 export const designerRoot = '/puma_oshen_wave/designer/';
@@ -37,11 +37,12 @@ export function updateDesignerMetadata(designer = null, booth = {}) {
   const metadata = designer && designerMetadata(designer);
   const hall = designer ? null : hallPageForPath(location.pathname);
   const title = metadata ? metadata.title : hall?.title || '洋流設計師｜探索設計師、創作作品與線上市集';
+  const shareTitle = metadata ? metadata.shareTitle : title;
   const description = metadata ? metadata.description : hall?.description || '走進洋流設計師線上市集，瀏覽設計師介紹、創作作品與官方社群。透過設計師列表、地圖與互動攤位，找到喜歡的創作者。';
   const canonical = new URL(designer ? designerPath(designer.id) : hall?.path || designerRoot, 'https://minicourse.dev').href;
   document.title = title;
   document.querySelector('link[rel="canonical"]').href = canonical;
-  for (const [attribute, key, value] of [['name', 'description', description], ['property', 'og:title', title], ['property', 'og:description', description], ['property', 'og:url', canonical], ['name', 'twitter:title', title], ['name', 'twitter:description', description]]) {
+  for (const [attribute, key, value] of [['name', 'description', description], ['property', 'og:title', shareTitle], ['property', 'og:description', description], ['property', 'og:url', canonical], ['name', 'twitter:title', shareTitle], ['name', 'twitter:description', description]]) {
     let tag = document.querySelector(`meta[${attribute}="${key}"]`);
     if (!value) { tag?.remove(); continue; }
     if (!tag) { tag = document.createElement('meta'); tag.setAttribute(attribute, key); document.head.append(tag); }

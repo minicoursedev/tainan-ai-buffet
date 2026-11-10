@@ -1,11 +1,11 @@
 // Move between designer aisles and resolve share links.
-import { designerWalkPath, updateDesignerMetadata } from './routes.js?v=20261108-amateur-og';
+import { designerWalkPath, updateDesignerMetadata } from './routes.js?v=20261110-profile-share-title';
 import { state, emit, toast } from './state.js';
 import { loadAisle, aisleOfBooth, hallOf } from './data.js?v=20261110-work-share';
 
 const hallOfIndex = code => state.index.halls.find(h => h.code === hallOf(code));
 
-export { designerBoothUrl } from './routes.js?v=20261108-amateur-og';
+export { designerBoothUrl } from './routes.js?v=20261110-profile-share-title';
 
 export function aisleNeighbors(code) {
   const list = state.index.halls.flatMap(hall => hall.aisles);

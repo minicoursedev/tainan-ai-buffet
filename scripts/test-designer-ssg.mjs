@@ -100,6 +100,10 @@ for (const designer of raw.designers) {
   assert.equal(page.url, `https://minicourse.dev${path}`);
   assert.equal(page.inLanguage, 'zh-Hant-TW');
   assert(html.includes(`<title>${escape(page.name)}</title>`), 'Structured title must match the visible page metadata');
+  const shareTitle = `${designer.name} 設計師`;
+  assert(html.includes(`<meta property="og:title" content="${escape(shareTitle)}">`), `Wrong profile share title: ${designer.id}`);
+  assert(html.includes(`<meta name="twitter:title" content="${escape(shareTitle)}">`));
+  assert.equal(page.name, `${designer.name}｜${category}介紹與作品｜洋流設計師`, 'SEO title keeps the site name separately from sharing');
   if (designer.description?.trim()) {
     const attribute = html.match(/<meta name="description" content="([^"]*)">/);
     assert(attribute, `Missing meta description: ${designer.id}`);

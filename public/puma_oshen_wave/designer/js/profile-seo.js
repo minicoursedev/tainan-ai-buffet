@@ -26,7 +26,8 @@ export function designerMetadata(store) {
   // A missing biography stays empty in visible content and metadata.
   const introduction = text(store.description);
   const description = shorten(introduction);
-  return { title: `${name}｜${category}介紹與作品｜洋流設計師`, description, introduction };
+  const shareTitle = `${name} 設計師`;
+  return { title: `${name}｜${category}介紹與作品｜洋流設計師`, shareTitle, description, introduction };
 }
 
 export function designerStructuredData(store, booth, canonical, directoryUrl) {
