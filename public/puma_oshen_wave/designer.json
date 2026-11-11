@@ -6213,7 +6213,7 @@
     {
       "id": "wenchanee",
       "name": "@wenchanee",
-      "disabled": true,
+      "disabled": false,
       "social": {
         "threads": "https://www.threads.com/@wenchanee",
         "fb": "",
@@ -6221,15 +6221,108 @@
         "web": ""
       },
       "verification": true,
-      "productImages": [],
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/1.webp?v=32a2a31f1899075e",
+          "alt": "抱著愛心的插畫與文字",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/1.webp?v=32a2a31f1899075e",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-da405e8489364b8292d0a92f108f5323",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570010468909711360/image.png?ex=6af589b1&is=6af43831&hm=6ac472f74417455f8b1556a2ff422ad75638a315d07dada1a11fdefe8c3c76e6&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/2.webp?v=8d6726866dbfb2ad",
+          "alt": "張開雙臂的動物插畫與文字",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/2.webp?v=8d6726866dbfb2ad",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-b51f9a9f2a53461d8bcb4db3401430c9",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570010469937193060/1.png?ex=6af589b1&is=6af43831&hm=705b0af8e5d587cf2b8b5234c6e01ec32dd823d88fd0874be8e6f4c30fc431bc&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/3.webp?v=8542e2081ad5305d",
+          "alt": "花叢中的貓插畫與文字",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/3.webp?v=8542e2081ad5305d",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-6a9b2894c29641008022e82e4b6f2497",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570010470545494107/2.png?ex=6af589b1&is=6af43831&hm=e0fdc714d96b37c4120c0d4b80d85e8cbb2ce43a099853f8d71393a42c4ff85c&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/4.webp?v=68e45d4d78fca1a2",
+          "alt": "騎著白色動物的角色插畫與文字",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/4.webp?v=68e45d4d78fca1a2",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-1f0a9678da0649a7a2320b39090d94dc",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570010470986031124/3.png?ex=6af589b1&is=6af43831&hm=212bf2f9a2458478fcd492db7c2fcc9c85fa406e4b5652739de21bb29d0b049a&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/5.webp?v=799f5dd5fdb52e04",
+          "alt": "抱著粉紅玩偶的角色插畫與文字",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/5.webp?v=799f5dd5fdb52e04",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-eff2720f546344bdbc64130a8c5b8acc",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570010471702990888/4.png?ex=6af589b1&is=6af43831&hm=c3568e81997cff88912b5682604363589f20a786e194ea43ee804d0767e446a4&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/6.webp?v=6ed619ed7b38e032",
+          "alt": "水手鳥造型圓形徽章插畫",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/6.webp?v=6ed619ed7b38e032",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-da246d43addc427fa541f6e502641777",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570010472256774184/5.jpg?ex=6af589b1&is=6af43831&hm=cd2240a8ef54562d57028b7973b0b8b625926851734a48ba55782ab588076217&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/7.webp?v=428c4327be69e1df",
+          "alt": "水手動物造型圓形徽章插畫",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/7.webp?v=428c4327be69e1df",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-7efc3f2f04b7448598f94b04c52a76d8",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570010472907022336/6.jpg?ex=6af589b2&is=6af43832&hm=be64d3fa160b0a286dd24f936ec66b12ba207a3e01373adfdc58bbf1314c5f7e&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/8.webp?v=2467c223b908b687",
+          "alt": "水手海豹造型圓形徽章插畫",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/8.webp?v=2467c223b908b687",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-d9d4fd640f474adbbd8c8ba27c29510e",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570010473691091105/7.png?ex=6af589b2&is=6af43832&hm=0387df30afaeab82b432175d297cf5325f1a4515717eca0563b018c8dee89cc0&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/9.webp?v=3361ba262588ee8f",
+          "alt": "敬禮的水手動物造型圓形徽章插畫",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/9.webp?v=3361ba262588ee8f",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-c2d6c8b5eeda4d1ca3c57b1277e4f8bd",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570010474538475591/8.png?ex=6af589b2&is=6af43832&hm=e1ba3efc28ca980e9229b47833436e43fbadd4d0c2ea3ff709128a47160804b1&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/10.webp?v=65fcbe49e1c65e50",
+          "alt": "水手海豚造型圓形徽章插畫",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/10.webp?v=65fcbe49e1c65e50",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-c9a5de50cf66458ab58b7e0f28b00fa2",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570010475368808448/9.png?ex=6af589b2&is=6af43832&hm=5eedea673d13c4b0b98810239aeaf7c240402c0b98c2a1f95a781f80f92c95bd&"
+        }
+      ],
       "logo": {
-        "url": "",
-        "source": "",
-        "platform": "",
-        "status": "unverified",
-        "checkedAt": "",
-        "note": "待確認官方頭像"
-      }
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/logo.webp?v=68f1e0e944705a63",
+        "source": "https://cdn.discordapp.com/attachments/1553247600935833680/1570010468909711360/image.png?ex=6af589b1&is=6af43831&hm=6ac472f74417455f8b1556a2ff422ad75638a315d07dada1a11fdefe8c3c76e6&",
+        "platform": "discord",
+        "status": "verified",
+        "checkedAt": "2026-11-11",
+        "note": "使用者指定為此設計師 Logo",
+        "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570010468909711360/image.png?ex=6af589b1&is=6af43831&hm=6ac472f74417455f8b1556a2ff422ad75638a315d07dada1a11fdefe8c3c76e6&"
+      },
+      "description": ""
     },
     {
       "id": "yuantea2200",
