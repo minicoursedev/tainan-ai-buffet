@@ -6223,60 +6223,6 @@
       "verification": true,
       "productImages": [
         {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/1.webp?v=c6e1a8250db3b51d",
-          "alt": "貓咪和多隻豎起大拇指的手插畫",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/1.webp?v=c6e1a8250db3b51d",
-          "checkedAt": "2026-11-11",
-          "note": "使用者提供，指定為此設計師作品照片",
-          "id": "work-8581b64f66044213a85da90d046b512e",
-          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570011338703372359/11.png?ex=6af58a80&is=6af43900&hm=91630d93760ae88411e330053b208e52df9aa24e1e3f2dad3c9b553638696463&"
-        },
-        {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/2.webp?v=27bfbf76ac02a6fc",
-          "alt": "多隻手托起山多小地瓜的插畫",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/2.webp?v=27bfbf76ac02a6fc",
-          "checkedAt": "2026-11-11",
-          "note": "使用者提供，指定為此設計師作品照片",
-          "id": "work-8f9149c249514ae4aa0a1bfd1c7f7900",
-          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570011339139846226/12.png?ex=6af58a80&is=6af43900&hm=fc44b1da91a6da9db173260619752d49130ef3e571c51d87df55478261ab473f&"
-        },
-        {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/3.webp?v=417096b21ef93bfb",
-          "alt": "向日葵花叢中的貓咪插畫",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/3.webp?v=417096b21ef93bfb",
-          "checkedAt": "2026-11-11",
-          "note": "使用者提供，指定為此設計師作品照片",
-          "id": "work-91beb3e33676472b8b52549730dedcf5",
-          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570011339479580834/13.png?ex=6af58a80&is=6af43900&hm=2a573be6770bd24be505869cf9660c29a48bc202f7de7d8424271805b7022388&"
-        },
-        {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/4.webp?v=be698d7623988a71",
-          "alt": "手掌上抱著綠色物件的山多小地瓜插畫",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/4.webp?v=be698d7623988a71",
-          "checkedAt": "2026-11-11",
-          "note": "使用者提供，指定為此設計師作品照片",
-          "id": "work-f4c82153c1e848829b000492f627372f",
-          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570011339978444820/14.png?ex=6af58a80&is=6af43900&hm=84eb876cd197fc09b2b9aae76b70674176c2d925168347dc3d1b0302212341c2&"
-        },
-        {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/5.webp?v=62c2ae37b3c45c00",
-          "alt": "山多小地瓜自我介紹插畫",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/5.webp?v=62c2ae37b3c45c00",
-          "checkedAt": "2026-11-11",
-          "note": "使用者提供，指定為此設計師作品照片",
-          "id": "work-550910e511564136aaca53aea536b753",
-          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570011340326703104/15.jpg?ex=6af58a80&is=6af43900&hm=7bdbe25a3558fd0bc789669777c3a413390f8f16b71c9820e3dc40f0c30556b3&"
-        },
-        {
-          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/6.webp?v=32a2a31f1899075e",
-          "alt": "抱著愛心的插畫與文字",
-          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/6.webp?v=32a2a31f1899075e",
-          "checkedAt": "2026-11-11",
-          "note": "使用者提供，指定為此設計師作品照片",
-          "id": "work-da405e8489364b8292d0a92f108f5323",
-          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570010468909711360/image.png?ex=6af589b1&is=6af43831&hm=6ac472f74417455f8b1556a2ff422ad75638a315d07dada1a11fdefe8c3c76e6&"
-        },
-        {
           "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/7.webp?v=8d6726866dbfb2ad",
           "alt": "張開雙臂的動物插畫與文字",
           "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/7.webp?v=8d6726866dbfb2ad",
@@ -6356,26 +6302,73 @@
           "note": "使用者提供，指定為此設計師作品照片",
           "id": "work-c9a5de50cf66458ab58b7e0f28b00fa2",
           "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570010475368808448/9.png?ex=6af589b2&is=6af43832&hm=5eedea673d13c4b0b98810239aeaf7c240402c0b98c2a1f95a781f80f92c95bd&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/17.webp?v=b76ad610ba507d55",
+          "alt": "筆獺君作品10",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/17.webp?v=b76ad610ba507d55",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供附件 筆獺君作品10.png",
+          "id": "work-d323f5725a3b46f3af13de08d70f85fa"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/1.webp?v=c6e1a8250db3b51d",
+          "alt": "貓咪和多隻豎起大拇指的手插畫",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/1.webp?v=c6e1a8250db3b51d",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-8581b64f66044213a85da90d046b512e",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570011338703372359/11.png?ex=6af58a80&is=6af43900&hm=91630d93760ae88411e330053b208e52df9aa24e1e3f2dad3c9b553638696463&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/2.webp?v=27bfbf76ac02a6fc",
+          "alt": "多隻手托起山多小地瓜的插畫",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/2.webp?v=27bfbf76ac02a6fc",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-8f9149c249514ae4aa0a1bfd1c7f7900",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570011339139846226/12.png?ex=6af58a80&is=6af43900&hm=fc44b1da91a6da9db173260619752d49130ef3e571c51d87df55478261ab473f&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/3.webp?v=417096b21ef93bfb",
+          "alt": "向日葵花叢中的貓咪插畫",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/3.webp?v=417096b21ef93bfb",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-91beb3e33676472b8b52549730dedcf5",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570011339479580834/13.png?ex=6af58a80&is=6af43900&hm=2a573be6770bd24be505869cf9660c29a48bc202f7de7d8424271805b7022388&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/4.webp?v=be698d7623988a71",
+          "alt": "手掌上抱著綠色物件的山多小地瓜插畫",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/4.webp?v=be698d7623988a71",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-f4c82153c1e848829b000492f627372f",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570011339978444820/14.png?ex=6af58a80&is=6af43900&hm=84eb876cd197fc09b2b9aae76b70674176c2d925168347dc3d1b0302212341c2&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/5.webp?v=62c2ae37b3c45c00",
+          "alt": "山多小地瓜自我介紹插畫",
+          "source": "https://www.threads.com/@wenchanee/post/DMnUCAyv6Kv",
+          "checkedAt": "2026-11-11",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-550910e511564136aaca53aea536b753",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570011340326703104/15.jpg?ex=6af58a80&is=6af43900&hm=7bdbe25a3558fd0bc789669777c3a413390f8f16b71c9820e3dc40f0c30556b3&"
         }
       ],
       "logo": {
-        "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/logo.webp?v=5d1596fdf6514ac9",
-        "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/1.webp?v=324222830fe2d555",
-        "platform": "discord",
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/logo.webp?v=d99aa48ffeafc7fd",
+        "source": "https://minicourse.dev/puma_oshen_wave/assets/wenchanee/logo.webp?v=d99aa48ffeafc7fd",
+        "platform": "user",
         "status": "verified",
         "checkedAt": "2026-11-11",
-        "note": "使用者指定為此設計師 Logo",
-        "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570011338221166632/10.png?ex=6af58a80&is=6af43900&hm=4033761370bab4fa10437e7194fc1042020a8501d0a6960b147c0096d83db55e&"
+        "note": "使用者指定附件 謝謝你一起挺台灣.png 為 Logo"
       },
       "description": "👉筆獺君│畫誇誇圖+聲援大罷免圖卡的I人│圖片主要是為愛著台灣的人畫的，但只要愛台、挺台，帶著善意、非營利都可以使用，謝謝！│想跟這片土地上愛台灣的人們一起努力生活",
-      "links": [
-        {
-          "label": "作品15",
-          "url": "https://www.threads.com/@wenchanee/post/DMnUCAyv6Kv"
-        }
-      ],
       "retiredWorkIds": [
-        "work-f873ff04ebb64de38fd4824ab48aecda"
+        "work-f873ff04ebb64de38fd4824ab48aecda",
+        "work-da405e8489364b8292d0a92f108f5323"
       ]
     },
     {
