@@ -4,9 +4,9 @@ import { loadIndex, aisleOfBooth, loadBoothForDesigner } from './data.js?v=20261
 import { goToAisle } from './nav.js?v=20261110-profile-share-title';
 import { createWalkView } from './walk.js?v=20261108-hall-signs';
 import { wireFloatingNav } from './floating-nav.js';
-import { openBooth } from './ui/booth.js?v=20261110-profile-share-title';
+import { openBooth } from './ui/booth.js?v=20261112-designer-browsing';
 import { mountMap } from './ui/map.js?v=20261110-profile-share-title';
-import { mountList } from './ui/list.js?v=20261110-profile-share-title';
+import { mountList } from './ui/list.js?v=20261112-designer-browsing';
 import { loadSchedule, isClosed, closeTagText, msLeft, lastOpenLabel } from './schedule.js?v=20261030-site-data';
 import { loadCats, loadChatter } from './cats.js?v=20261030-site-data';
 import { showClosed } from './ui/closed.js';
@@ -144,6 +144,10 @@ async function boot() {
 
   $('btn-browse').addEventListener('click', () => state.nearBooth && openBooth(state.nearBooth));
   $('btn-next').addEventListener('click', () => walk.nextBooth());
+  $('btn-find-designer').addEventListener('click', () => {
+    setMode('list');
+    $('stage-list').focus({ preventScroll: true });
+  });
   $('btn-where').addEventListener('click', () => setMode('map', { overview: true }));
   for (const b of document.querySelectorAll('.modes button')) b.addEventListener('click', () => setMode(b.dataset.mode));
   document.querySelector('.plaque').addEventListener('click', e => { e.preventDefault(); setMode('walk'); });

@@ -68,7 +68,7 @@ const shareImageAlt = designer?.og?.alt || hall?.alt || '洋流設計師展逛�
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/booth.css?v=20261110-work-mobile">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/work.css?v=20261110-social-share">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/map.css">
-<link rel="stylesheet" href="/puma_oshen_wave/designer/css/list.css?v=20261101-profile-links">
+<link rel="stylesheet" href="/puma_oshen_wave/designer/css/list.css?v=20261112-designer-browsing">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/closed.css">
 <link rel="stylesheet" href="/puma_oshen_wave/designer/css/floating-nav.css?v=20261101">
 </head>
@@ -104,11 +104,12 @@ const shareImageAlt = designer?.og?.alt || hall?.alt || '洋流設計師展逛�
     <div class="dock">
       <button type="button" class="btn btn-primary" id="btn-browse" disabled>靠近即可認識設計師</button>
       <button type="button" class="btn" id="btn-next">下一攤</button>
+      <button type="button" class="btn" id="btn-find-designer" aria-controls="stage-list">找設計師</button>
     </div>
   </main>
 
-  <main class="list-mode" id="stage-list"><div class="ls-wrap">
-  {designer ? <article id="static-designer-profile" aria-label={designer.name} set:html={boothHtml(designer.booth, designer.store, { profile: true, staticProfile: true })} /> : <><h1 class="ls-title">{hall?.name || '設計師列表'}</h1><div class="ls-grid">{listedDesigners.map(profile => <article class="lc"><div class="lc-heading"><h3 class="lc-name"><a class="lc-open" href={designerPath(profile.id)}>{profile.name}</a></h3></div><p class="lc-owner">{profile.store.category} {profile.name}</p><p class="lc-zone">{profile.hallName}・{profile.store.category}</p><a class="btn lc-go" href={designerPath(profile.id)}>看{profile.store.category}</a></article>)}</div></>}
+  <main class="list-mode" id="stage-list" tabindex="-1"><div class="ls-wrap">
+  {designer ? <article id="static-designer-profile" aria-label={designer.name} set:html={boothHtml(designer.booth, designer.store, { profile: true, staticProfile: true })} /> : <><h1 class="ls-title">{hall?.name || '設計師列表'}</h1><div class="ls-grid">{listedDesigners.map(profile => <article class="lc"><div class="lc-heading"><h3 class="lc-name"><a class="lc-open" href={designerPath(profile.id)}>{profile.name}</a></h3></div><p class="lc-owner">{profile.store.category} {profile.name}</p><p class="lc-zone">{profile.hallName}・{profile.store.category}</p><a class="btn btn-primary lc-go" href={designerPath(profile.id)}>{profile.works.length ? '看作品' : '看介紹'}</a></article>)}</div></>}
   </div></main>
   <main class="map-mode" id="stage-map" hidden></main>
   <footer class="app-footer">
@@ -131,6 +132,6 @@ const shareImageAlt = designer?.og?.alt || hall?.alt || '洋流設計師展逛�
 </dialog>
 
 <WorkShareDialog />
-<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261110-profile-share-title"></script>
+<script is:inline type="module" src="/puma_oshen_wave/designer/js/app.js?v=20261112-designer-browsing"></script>
 </body>
 </html>

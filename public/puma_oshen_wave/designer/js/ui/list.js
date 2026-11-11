@@ -1,10 +1,11 @@
 // 設計師列表模式 <main id="stage-list">: filter the search rows in memory, render 60 cards at a time,
-// Fill each card’s logo and product images as it scrolls into view.
+// Fill each card’s logo and representative work as it scrolls into view.
 import { state, toast, findBoothIn } from '../state.js';
 import { loadSearch, loadAisle, aisleOfBooth } from '../data.js?v=20261110-work-share';
 import { goToBooth } from '../nav.js?v=20261110-profile-share-title';
-import { openBooth } from './booth.js?v=20261110-profile-share-title';
+import { openBooth } from './booth.js?v=20261112-designer-browsing';
 import { thumbnailUrl, retryOriginal } from '../images.js';
+import { loadProducts } from '../products.js?v=20261030-pinned-work';
 import { designerPath } from '../routes.js?v=20261110-profile-share-title';
 
 const PAGE = 60;
@@ -20,6 +21,7 @@ export function mountList(container) {
   let results = [];
   let shown = 0;
   let loading = null;
+  const cardRows = new WeakMap();
 
   const halls = () => state.index?.halls || [];
   const hallName = code => halls().find(h => h.code === code)?.name || code;
@@ -69,7 +71,8 @@ export function mountList(container) {
     if (!rows) rows = await Promise.all((await loadSearch()).map(async r => {
       const aisle = await loadAisle(aisleOfBooth(r[0]));
       const booth = findBoothIn(aisle, r[0]);
-      return { ...toRow(r), designerId: booth.store };
+      const store = aisle.stores[booth.store];
+      return { ...toRow(r), designerId: booth.store, booth, designer: store };
     }));
   }
 
@@ -114,7 +117,7 @@ export function mountList(container) {
     for (const e of entries) {
       if (!e.isIntersecting) continue;
       coverIO.unobserve(e.target);
-      fillCovers(e.target);
+      fillCover(e.target);
     }
   }, { root: container, rootMargin: '400px 0px' });
 
@@ -124,33 +127,44 @@ export function mountList(container) {
   moreIO.observe(sentinel);
 
   function cardHtml(r) {
-    const where = r.zone;
-    return `<article class="lc" data-id="${esc(r.id)}">
-      <div class="lc-heading"><span class="lc-logo lc-cv" aria-hidden="true"></span><h3 class="lc-name"><a class="lc-open" href="${esc(designerPath(r.designerId))}">${esc(r.store)}</a></h3></div>
-      <div class="lc-covers" aria-hidden="true"></div>
-      <div class="lc-meta"><span class="lc-id mono">${esc(r.id)}</span>${r.type ? `<span class="lc-type">${esc(r.type)}</span>` : ''}</div>
-      <p class="lc-owner">${esc(r.zone)} ${esc(r.owner)}</p>
-      <p class="lc-zone">${esc(hallName(r.hall))}・${esc(where)}</p>
-      <button type="button" class="btn lc-go">看${esc(r.zone)}</button>
+    const path = esc(designerPath(r.designerId));
+    const name = esc(r.store);
+    const workCount = r.designer?.productsUrl ? 0 : r.booth.works.length;
+    const hasWorks = Boolean(r.booth.works.length || r.designer?.productsUrl);
+    const profileLabel = hasWorks ? '看作品' : '看介紹';
+    return `<article class="lc lc-designer" data-id="${esc(r.id)}">
+      <div class="lc-heading"><span class="lc-logo lc-cv" aria-hidden="true"${r.designer?.avatar ? '' : ' hidden'}></span><h3 class="lc-name"><a class="lc-open" href="${path}">${name}</a></h3></div>
+      <span class="lc-cover lc-cv" aria-hidden="true"${hasWorks ? '' : ' hidden'}></span>
+      <div class="lc-meta">
+        <span class="lc-id mono">${esc(r.id)}</span>
+        <span class="lc-work-count"${workCount ? '' : ' hidden'}>${fmt(workCount)} 件作品</span>
+        ${r.type ? `<span class="lc-type">${esc(r.type)}</span>` : ''}
+      </div>
+      <p class="lc-zone">${esc(hallName(r.hall))}・${esc(r.zone)}</p>
+      ${r.designer?.description ? `<p class="lc-intro">${esc(r.designer.description)}</p>` : ''}
+      <div class="lc-actions">
+        <a class="btn btn-primary lc-profile" href="${path}" aria-label="${profileLabel} ${name}">${profileLabel}</a>
+        <button type="button" class="btn lc-walk" aria-label="去攤位 ${name}">去攤位</button>
+      </div>
     </article>`;
   }
 
   function renderMore() {
     if (shown >= results.length) return;
-    const next = results.slice(shown, shown + PAGE);
+    const first = shown;
+    const next = results.slice(first, first + PAGE);
     shown += next.length;
     grid.insertAdjacentHTML('beforeend', next.map(cardHtml).join(''));
-    const cards = grid.children;
-    for (let i = cards.length - next.length; i < cards.length; i++) coverIO.observe(cards[i]);
+    for (const [index, row] of next.entries()) {
+      const card = grid.children[first + index];
+      cardRows.set(card, row);
+      coverIO.observe(card);
+    }
     moreBtn.hidden = shown >= results.length;
     moreBtn.textContent = `再多 ${Math.min(PAGE, results.length - shown)} 攤`;
   }
 
-  function slotFill(slot, w) {
-    slot.classList.remove('is-none', 'is-blank', 'is-loaded');
-    slot.textContent = '';
-    if (!w) { slot.classList.add('is-none'); return; }
-    if (!w.cover) { slot.classList.add('is-blank'); return; }
+  function slotFill(slot, cover) {
     const img = new Image();
     img.alt = '';
     img.loading = 'lazy';
@@ -158,35 +172,43 @@ export function mountList(container) {
     img.referrerPolicy = 'no-referrer-when-downgrade';
     img.onload = () => slot.classList.add('is-loaded');
     img.onerror = () => { if (retryOriginal(img)) return; img.remove(); slot.classList.add('is-blank'); };
-    img.dataset.original = w.cover;
-    img.src = thumbnailUrl(w.cover);
+    img.dataset.original = cover;
+    img.src = thumbnailUrl(cover);
     slot.append(img);
   }
 
-  async function fillCovers(card) {
-    const id = card.dataset.id;
-    const code = aisleOfBooth(id);
-    let booth = null;
-    let aisle;
-    try {
-      aisle = await loadAisle(code);
-      booth = findBoothIn(aisle, id);
-    } catch { return; }
-    if (!booth || !card.isConnected) return;
-    const avatar = aisle.stores[booth.store]?.avatar;
-    const logo = card.querySelector('.lc-logo');
-    logo.hidden = !avatar;
-    if (avatar) slotFill(logo, { cover: avatar });
-    const covers = card.querySelector('.lc-covers');
-    const works = booth.works || [];
-    covers.hidden = !works.length;
-    for (const work of works) {
-      const slot = document.createElement('span');
-      slot.className = 'lc-cv';
-      covers.append(slot);
-      slotFill(slot, work);
+  async function fillCover(card) {
+    if (!card.isConnected) return;
+    const { booth, designer, store: name } = cardRows.get(card);
+    const avatar = designer?.avatar;
+    if (avatar) slotFill(card.querySelector('.lc-logo'), avatar);
+
+    let works = booth.works;
+    let productCount;
+    if (designer?.productsUrl) {
+      try {
+        const products = await loadProducts(designer.productsUrl, booth.store);
+        works = products.filter(work => !work.pinned || work.cover !== avatar);
+        productCount = works.length;
+      } catch {
+        // The catalogue’s inline previews remain usable when the full gallery cannot load.
+      }
     }
-    card.dataset.filled = '1';
+    if (!card.isConnected) return;
+    if (productCount !== undefined) {
+      const count = card.querySelector('.lc-work-count');
+      count.textContent = `${fmt(productCount)} 件作品`;
+      count.hidden = !productCount;
+    }
+    const cover = works.find(work => work.cover !== avatar)?.cover || works[0]?.cover;
+    const slot = card.querySelector('.lc-cover');
+    slot.hidden = !cover;
+    if (cover) slotFill(slot, cover);
+    if (designer?.productsUrl && !works.length) {
+      const link = card.querySelector('.lc-profile');
+      link.textContent = '看介紹';
+      link.setAttribute('aria-label', `看介紹 ${name}`);
+    }
   }
 
   // ---------- refresh
@@ -242,12 +264,12 @@ export function mountList(container) {
     const card = t.closest('.lc');
     if (!card) return;
     const id = card.dataset.id;
-    if (t.closest('.lc-go')) {
+    if (t.closest('.lc-walk')) {
       document.querySelector('.modes button[data-mode="walk"]')?.click();
       goToBooth(id);
       return;
     }
-    if (t.closest('.lc-open')) {
+    if (t.closest('.lc-open, .lc-profile')) {
       if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
       e.preventDefault();
       openBooth(id);

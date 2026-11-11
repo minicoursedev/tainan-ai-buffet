@@ -60,9 +60,16 @@
 .lc-open::after { content: ""; position: absolute; inset: 0; border-radius: 6px; }
 .lc-open:focus-visible { outline: none; }
 .lc:has(.lc-open:focus-visible) { outline: 3px solid var(--pink); outline-offset: 2px; }
-.lc-owner, .lc-zone { margin: 0; font-size: 13px; line-height: 1.45; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lc-owner, .lc-zone, .lc-intro { margin: 0; font-size: 13px; line-height: 1.45; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .lc-zone { color: var(--muted); }
 .lc-go { position: relative; z-index: 1; align-self: flex-start; margin-top: 6px; min-height: 34px; padding: 3px 14px; font-size: 14px; }
+
+.lc-designer { gap: 7px; }
+.lc-designer .lc-heading { margin-bottom: 0; }
+.lc-cover { aspect-ratio: 16 / 10; border-radius: 4px; }
+.lc-work-count { color: var(--muted); font-size: 13px; }
+.lc-actions { position: relative; z-index: 1; display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 3px; }
+.lc-actions .btn { padding: 3px 9px; font-size: 14px; }
 
 @media (max-width: 560px) {
   .ls-wrap { padding-top: 12px; }
@@ -74,6 +81,8 @@
   .lc-name { font-size: 14px; }
   .lc-type { margin-left: 0; }
   .lc-go { min-height: 32px; padding: 2px 10px; font-size: 13px; }
+  .ls-grid > .lc-designer:only-child { grid-column: 1 / -1; }
+  .lc-actions .btn { padding-inline: 6px; font-size: 13px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .lc, .lc-cv img { transition: none; }
