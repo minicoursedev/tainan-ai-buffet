@@ -15,6 +15,11 @@
 5. `npm run check` 會驗證所有啟用頁的主標題、摘要、canonical、結構化資料、圖片與圖說、目錄／sitemap 連結，也驗證未填簡介及未來新增記錄的相容性。
 6. OG 圖由 `scripts/designer-og.mjs` 在建置時統一產生為 1200×630：左側 Logo，右側名字與既有 `description`，沒有簡介留空，沒有網站名稱或網址頁尾。圖片來源與 Logo 原檔不變，版本依完整圖片內容計算。`designer/og-images.json` 保存同批圖片網址與尺寸，互動切換設計師時同步使用。繁中與 Emoji 字型、授權與來源版本保存於 `scripts/fonts/`，建置時無須下載。
 
+### 設計師作品連結
+
+1. 分享連結使用作品資料的 `id`。調整順序時移動整筆作品，換圖或改檔名時更新 `url`，沿用原作品的 `id`。
+2. 新作品分配新的 ID，避免使用圖片序號。移除 `productImages` 的作品時，將該 ID 加入同一設計師的 `retiredWorkIds`。獨立作品清單以 `disabled: true` 下架並保留原記錄及 ID。
+
 ### 店家資料
 
 編輯 stores.json 的 stores 陣列。店家欄位：id（唯一）、category、giftStatus、name、address、social（facebook、instagram、threads）。小物資訊為靜態資料，giftStatus 固定為「可能有小物」，不提供狀態篩選或回報功能。社群沒有資料則留空字串。文字以 textContent 呈現，社群外連只接受 HTTPS。

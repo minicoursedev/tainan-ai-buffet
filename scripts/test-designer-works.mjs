@@ -3,7 +3,7 @@ import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { test } from 'node:test';
 import { createCatalogue } from '../public/puma_oshen_wave/designer/js/data.js';
 import { readProducts } from '../public/puma_oshen_wave/designer/js/products.js';
-import { designerWorkPath, designerWorkUrl } from '../public/puma_oshen_wave/designer/js/work-links.js';
+import { designerWorkPath, designerWorkUrl, validateWorkIds } from '../public/puma_oshen_wave/designer/js/work-links.js';
 import { boothHtml } from '../public/puma_oshen_wave/designer/js/ui/booth-markup.js';
 
 const read = path => readFileSync(path, 'utf8');
@@ -75,6 +75,24 @@ test('inline work identities survive reordering and image cache-version changes,
   assert.equal(worksOf([{ url: 'https://' }]).length, 0);
   assert.equal(designerWorkUrl('test-artist', before[0].id), `https://minicourse.dev${designerWorkPath('test-artist', before[0].id)}`);
   assert.equal(new URL(designerWorkUrl('test-artist', before[0].id, 'http://127.0.0.1:4325/')).origin, 'http://127.0.0.1:4325');
+});
+
+test('persisted work IDs survive renaming, replacement, and changes to nearby works', () => {
+  const artist = { id: 'test-artist', name: '作者' };
+  const work = { id: 'test-artist-4', url: 'https://minicourse.dev/puma_oshen_wave/assets/test-artist/4.webp' };
+  const other = { id: 'other-work', url: 'https://example.test/old-work.webp' };
+  const fresh = { id: 'new-work', url: 'https://example.test/new-work.webp' };
+  const worksOf = productImages => createCatalogue({ designers: [{ ...artist, productImages }] }).aisles.get('O01').islands[0].booths[0].works;
+  const path = designerWorkPath(artist.id, worksOf([work, other])[0].id);
+  for (const url of [work.url, work.url.replace('/4.webp', '/renamed.webp'), 'https://example.test/replacement.png']) {
+    const [added, edited] = worksOf([fresh, { ...work, url }]);
+    assert.equal(added.id, fresh.id);
+    assert.equal(edited.cover, url);
+    assert.equal(designerWorkPath(artist.id, edited.id), path);
+  }
+  assert.throws(() => validateWorkIds(artist.id, [{ url: work.url }]), /Missing or invalid work ID/);
+  assert.throws(() => validateWorkIds(artist.id, [work, { ...work, disabled: true }]), /Duplicate or retired work ID/);
+  assert.throws(() => validateWorkIds(artist.id, [work], [work.id]), /Duplicate or retired work ID/);
 });
 
 test('disabled catalogue works have no landing page or sitemap entry', () => {
