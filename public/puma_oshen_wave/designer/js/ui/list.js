@@ -1,5 +1,5 @@
 // 設計師列表模式 <main id="stage-list">: filter the search rows in memory, render 60 cards at a time,
-// Fill each card’s logo and representative work as it scrolls into view.
+// Fill each card’s logo and works gallery as it scrolls into view.
 import { state, toast, findBoothIn } from '../state.js';
 import { loadSearch, loadAisle, aisleOfBooth } from '../data.js?v=20261110-work-share';
 import { goToBooth } from '../nav.js?v=20261110-profile-share-title';
@@ -45,11 +45,14 @@ export function mountList(container) {
           </div>
         </div>
       </form>
-      <div class="ls-summary" aria-live="polite">
-        <b class="ls-count">讀取中</b><span class="ls-cond"></span>
-        <button type="button" class="link-btn ls-clear" hidden>清除篩選</button>
+      <div class="ls-toolbar">
+        <div class="ls-summary" aria-live="polite">
+          <b class="ls-count">讀取中</b><span class="ls-cond"></span>
+          <button type="button" class="link-btn ls-clear" hidden>清除篩選</button>
+        </div>
+        <button type="button" class="btn ls-view" aria-controls="designer-list-grid">只看代表作</button>
       </div>
-      <div class="ls-grid"></div>
+      <div class="ls-grid ls-grid-designer" id="designer-list-grid"></div>
       <p class="ls-empty" hidden>沒有符合的設計師。換個關鍵字，或少選一點條件。</p>
       <div class="ls-more"><button type="button" class="btn" hidden>再多 60 攤</button></div>
     </div>`;
@@ -117,7 +120,7 @@ export function mountList(container) {
     for (const e of entries) {
       if (!e.isIntersecting) continue;
       coverIO.unobserve(e.target);
-      fillCover(e.target);
+      fillCardImages(e.target);
     }
   }, { root: container, rootMargin: '400px 0px' });
 
@@ -134,7 +137,6 @@ export function mountList(container) {
     const profileLabel = hasWorks ? '看作品' : '看介紹';
     return `<article class="lc lc-designer" data-id="${esc(r.id)}">
       <div class="lc-heading"><span class="lc-logo lc-cv" aria-hidden="true"${r.designer?.avatar ? '' : ' hidden'}></span><h3 class="lc-name"><a class="lc-open" href="${path}">${name}</a></h3></div>
-      <span class="lc-cover lc-cv" aria-hidden="true"${hasWorks ? '' : ' hidden'}></span>
       <div class="lc-meta">
         <span class="lc-id mono">${esc(r.id)}</span>
         <span class="lc-work-count"${workCount ? '' : ' hidden'}>${fmt(workCount)} 件作品</span>
@@ -146,6 +148,7 @@ export function mountList(container) {
         <a class="btn btn-primary lc-profile" href="${path}" aria-label="${profileLabel} ${name}">${profileLabel}</a>
         <button type="button" class="btn lc-walk" aria-label="去攤位 ${name}">去攤位</button>
       </div>
+      <div class="lc-covers" hidden></div>
     </article>`;
   }
 
@@ -164,9 +167,9 @@ export function mountList(container) {
     moreBtn.textContent = `再多 ${Math.min(PAGE, results.length - shown)} 攤`;
   }
 
-  function slotFill(slot, cover) {
+  function slotFill(slot, cover, alt = '') {
     const img = new Image();
-    img.alt = '';
+    img.alt = alt;
     img.loading = 'lazy';
     img.decoding = 'async';
     img.referrerPolicy = 'no-referrer-when-downgrade';
@@ -177,7 +180,7 @@ export function mountList(container) {
     slot.append(img);
   }
 
-  async function fillCover(card) {
+  async function fillCardImages(card) {
     if (!card.isConnected) return;
     const { booth, designer, store: name } = cardRows.get(card);
     const avatar = designer?.avatar;
@@ -200,10 +203,16 @@ export function mountList(container) {
       count.textContent = `${fmt(productCount)} 件作品`;
       count.hidden = !productCount;
     }
-    const cover = works.find(work => work.cover !== avatar)?.cover || works[0]?.cover;
-    const slot = card.querySelector('.lc-cover');
-    slot.hidden = !cover;
-    if (cover) slotFill(slot, cover);
+    const gallery = card.querySelector('.lc-covers');
+    const representative = works.find(work => work.cover && work.cover !== avatar) || works[0];
+    for (const work of works) {
+      const slot = document.createElement('span');
+      slot.className = 'lc-cv';
+      if (work === representative) slot.classList.add('lc-representative');
+      slotFill(slot, work.cover, work.name);
+      gallery.append(slot);
+    }
+    gallery.hidden = !works.length;
     if (designer?.productsUrl && !works.length) {
       const link = card.querySelector('.lc-profile');
       link.textContent = '看介紹';
@@ -234,6 +243,11 @@ export function mountList(container) {
 
   // ---------- events
   $('.ls-filters').addEventListener('submit', e => e.preventDefault());
+  const viewButton = $('.ls-view');
+  viewButton.addEventListener('click', () => {
+    const compact = grid.classList.toggle('ls-grid-compact');
+    viewButton.textContent = compact ? '展開全部作品' : '只看代表作';
+  });
   let timer = 0;
   input.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(() => refresh(), 140); });
   input.addEventListener('keydown', e => { if (e.key === 'Enter') { clearTimeout(timer); refresh(); input.blur(); } });
