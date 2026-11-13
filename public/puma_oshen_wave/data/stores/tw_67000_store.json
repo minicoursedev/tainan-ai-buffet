@@ -7628,6 +7628,53 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11061012683",
       "coordinateNote": "OpenStreetMap 門牌節點列臺南市南區南寧街200號，與官方帳號地址相符。"
+    },
+    {
+      "id": "mayu-cocoon",
+      "verification": false,
+      "category": "正餐",
+      "giftStatus": "可能有小物",
+      "name": "繭 小料理",
+      "address": "台南市中西區府前路二段206巷6號",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/mayu__cocoon_/",
+        "threads": ""
+      },
+      "sources": [
+        "https://www.instagram.com/mayu__cocoon_/",
+        "https://pboss.tw/mayu/",
+        "https://www.twtainan.net/file/32111/",
+        "https://www.google.com/maps/place/%E7%B9%AD+%E5%B0%8F%E6%96%99%E7%90%86/data=!4m7!3m6!1s0x346e77005a46ac3b:0x41ff7870a9f43fee!8m2!3d22.9920453!4d120.1925977!16s%2Fg%2F11zxj5jn_t"
+      ],
+      "verifiedAt": "2026-11-13",
+      "verificationNote": "使用者指定 Instagram 收錄；官方個人頁列店名及日式小料理，食記列同一 Instagram 帳號，臺南觀光網米其林名單列同名店家及地址。Facebook 與 Threads 未查證。",
+      "openingHours": {
+        "status": "unverified",
+        "text": "晚餐採預約制，營業時間及公休日請依官方最新公告。",
+        "sources": [
+          "https://www.instagram.com/mayu__cocoon_/",
+          "https://line.today/tw/v3/article/kEpoeeJ",
+          "https://insidetainan.com/food/michelin-guide/"
+        ],
+        "checkedAt": "2026-11-13",
+        "auditNote": "官方 Instagram 簡介列晚餐預約制及每月公休，第三方資料時段與公休日互有差異，固定營業時間待確認。"
+      },
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.instagram.com/mayu__cocoon_/",
+        "platform": "instagram",
+        "status": "unavailable",
+        "checkedAt": "2026-11-13",
+        "note": "官方 Instagram 個人檔案頭像可見版本為 150 × 150；官方外連 LINE 加好友頁未見原生頭像欄位，尚未取得可確認且原生長邊達 256px 的頭像。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9920453,
+        "lng": 120.1925977
+      },
+      "coordinateSource": "https://www.google.com/maps/place/%E7%B9%AD+%E5%B0%8F%E6%96%99%E7%90%86/data=!4m7!3m6!1s0x346e77005a46ac3b:0x41ff7870a9f43fee!8m2!3d22.9920453!4d120.1925977!16s%2Fg%2F11zxj5jn_t",
+      "coordinateNote": "Google Maps 地點顯示繭 小料理及府前路二段206巷6號，座標取自地點網址的 !3d、!4d。"
     }
   ],
   "pendingStores": []
