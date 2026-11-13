@@ -2,7 +2,7 @@
 import { state, markVisited, findBoothIn, toast } from '../state.js?v=20261031-yilan-zones';
 import { loadAisle, aisleOfBooth } from '../data.js?v=20261031-oshen-shop';
 import { goToBooth, designerBoothUrl } from '../nav.js?v=20261031-oshen-shop';
-import { boothHtml, loadingHtml, failHtml } from './booth-markup.js?v=20261106-booth-share';
+import { boothHtml, loadingHtml, failHtml } from './booth-markup.js?v=20261113-hide-oshen-stores';
 import { designerRoot, updateDesignerMetadata } from '../routes.js';
 import { retryOriginal } from '../images.js';
 import { loadProducts, sampleProducts } from '../products.js?v=20261031-yilan-zones';
@@ -20,7 +20,8 @@ function paint() {
   const { booth, aisle } = current;
   const store = aisle.stores?.[booth.store] || null;
   const scroll = d.querySelector('.dlg-body')?.scrollTop || 0;
-  d.innerHTML = boothHtml(booth, store);
+  const hideOshenStores = document.documentElement.hasAttribute('data-oshen-stores-hidden');
+  d.innerHTML = boothHtml(booth, store, { hideOshenStores });
   const body = d.querySelector('.dlg-body');
   if (body) body.scrollTop = scroll;
 }

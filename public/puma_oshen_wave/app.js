@@ -1,13 +1,14 @@
-import {findStar} from './lucky-star.js?v=20261030-site-data';
+import {findStar} from './lucky-star.js?v=20261113-store-visibility';
 import {createShopMap} from './shop-map.js?v=20261031-yilan-place-2';
 import {createShopSearch, findShopsByName} from './shop-search.js?v=20261031-shop-search';
 const byId = id => document.getElementById(id);
+const hideOshenStores = document.documentElement.hasAttribute('data-oshen-stores-hidden');
 const initialPlace = new URL(location.href).searchParams.get('place');
 let shops = [], category = '', selectedId = null, searchQuery = '';
 let starVersion = 0, displayedStar = null;
 let designers = [], designersLoaded = false, designersLoading = false, shopsLoaded = false;
 const shopMap = createShopMap({container:byId('all-shops-map'),status:byId('map-status'),onSelect:selectShopFromMap,onPositionsReady:sortByStationDistance});
-const shopSearch = createShopSearch({
+const shopSearch = hideOshenStores ? null : createShopSearch({
   form:byId('shop-search'), getShops:() => shops,
   onSearch(query) {
     searchQuery = query;
@@ -284,7 +285,7 @@ function updateShopMetadata(shop) {
   for (const [selector, value] of [['meta[name="description"]', description], ['meta[property="og:title"]', title], ['meta[property="og:description"]', description], ['meta[property="og:url"]', canonical]]) document.querySelector(selector).content = value;
 }
 function restoreLinkedShop() {
-  searchQuery = ''; shopSearch.clear();
+  searchQuery = ''; shopSearch?.clear();
   const params = new URL(location.href).searchParams;
   const pathId = location.pathname.match(/^\/puma_oshen_wave\/shops\/([^/]+)\/?$/)?.[1];
   const shop = shops.find(shop => shop.id === (params.get('shop') || (pathId && decodeURIComponent(pathId))));
@@ -487,6 +488,7 @@ function setView(map) {
   if(map) { void shopMap.load(shops); shopMap.focus(selectedId, {recenter:false}); }
 }
 function renderCategories() {
+  if (hideOshenStores) return;
   byId('category-toggle').textContent = `店別：${category || '全部店家'} ▾`;
   const labels = ['',...new Set(['咖啡廳','正餐','小吃','甜點飲料','烘焙','花店','日常生活','3C 通訊',...shops.map(s=>s.category).filter(c=>c!=='其它'),'其它'])];
   byId('category-filters').replaceChildren(...labels.map(value=>{
@@ -496,6 +498,7 @@ function renderCategories() {
   }));
 }
 function renderShops(page = 0) {
+  if (hideOshenStores) return;
   const results=findShopsByName(shops, searchQuery).filter(s=>!category||s.category===category);
   shopMap.filter(results.map(shop=>shop.id), category);
   if(selectedId&&!results.some(s=>s.id===selectedId)) resetMap();
@@ -547,16 +550,28 @@ function renderShops(page = 0) {
     list.append(pagination);
   }
 }
+async function loadShops() {
+  const response = await fetch('/puma_oshen_wave/stores.json', {cache:'no-store'});
+  if (!response.ok) throw new Error('Could not load shops');
+  const data = await response.json();
+  const ids = new Set();
+  if (!Array.isArray(data.stores)) throw new Error('Invalid shop list');
+  for (const shop of data.stores) {
+    if (!['id','name','address','category'].every(key => typeof shop[key] === 'string' && shop[key].trim()) || ids.has(shop.id)) throw new Error('Invalid shop record');
+    ids.add(shop.id);
+  }
+  return data.stores.filter(shop => shop.disabled !== true);
+}
 async function init(){
   try{
-    const response=await fetch('/puma_oshen_wave/stores.json', {cache:'no-store'});if(!response.ok)throw new Error('Could not load shops');
-    const data=await response.json();const ids=new Set();
-    if(!Array.isArray(data.stores))throw new Error('Invalid shop list');
-    for(const shop of data.stores){
-      if(!['id','name','address','category'].every(key=>typeof shop[key]==='string'&&shop[key].trim())||ids.has(shop.id))throw new Error('Invalid shop record');
-      ids.add(shop.id);
+    if (!hideOshenStores) {
+      shops = await loadShops();
+      shopSearch.enable();
+      renderCategories();
+      renderShops();
+      byId('category-toggle').onclick=()=>{const b=byId('category-toggle');b.setAttribute('aria-expanded',String(b.getAttribute('aria-expanded')!=='true'));};
     }
-    shops=data.stores.filter(shop=>shop.disabled!==true);shopsLoaded=true;shopSearch.enable();renderCategories();renderShops();
+    shopsLoaded = true;
     if (!isDesignerRoute()) restoreLinkedShop();
     void shopMap.load(shops).then(ready => {
       byId('lucky-star').disabled = !ready;
@@ -572,7 +587,6 @@ async function init(){
         byId('map-area').scrollIntoView({block:'start'});
       }
     });
-    byId('category-toggle').onclick=()=>{const b=byId('category-toggle');b.setAttribute('aria-expanded',String(b.getAttribute('aria-expanded')!=='true'));};
     byId('list-view').onclick=()=>setView(false);
     byId('map-view').onclick=()=>setView(true);
   }catch{
@@ -600,7 +614,7 @@ byId('lucky-star').addEventListener('click', async () => {
   status.textContent = '尋找幸運星…';
   try {
     if (!await shopMap.load(shops)) throw new Error('Map unavailable');
-    const star = await findStar(previous);
+    const star = await findStar(previous, {includeShopStars: !hideOshenStores});
     if (version !== starVersion) return;
     if (!star) {status.textContent = '幸運星還在路上...'; return;}
     resetMap();

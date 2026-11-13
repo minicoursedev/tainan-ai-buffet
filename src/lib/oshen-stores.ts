@@ -1,4 +1,5 @@
 import data from '../../public/puma_oshen_wave/stores.json';
+import { hideOshenStores } from './oshen-store-visibility.mjs';
 
 export interface Store {
   id: string;
@@ -14,7 +15,7 @@ export interface Store {
   shopPhoto?: { status?: string; url?: string };
 }
 
-export const stores = (data.stores as Store[]).filter(store => store.disabled !== true);
+export const stores: Store[] = hideOshenStores ? [] : (data.stores as Store[]).filter(store => store.disabled !== true);
 export const categories = [...new Set(stores.map(store => store.category))];
 export const categoryPath = (category: string) => `/puma_oshen_wave/categories/${encodeURIComponent(category)}/`;
 export const shopPath = (id: string) => `/puma_oshen_wave/shops/${encodeURIComponent(id)}/`;

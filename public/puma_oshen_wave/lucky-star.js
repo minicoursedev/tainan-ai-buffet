@@ -44,11 +44,11 @@ export function nextStar(stars, previous, now = Date.now()) {
   }
   return null;
 }
-export async function findStar(previous = null) {
+export async function findStar(previous = null, {includeShopStars = true} = {}) {
   const response = await fetch(['localhost', '127.0.0.1', '[::1]'].includes(location.hostname) ? './star.json' : starSource, {cache:'no-store', signal:AbortSignal.timeout(15000)});
   if (response.status === 404) return null;
   if (!response.ok) throw new Error('Star request failed');
-  const stars = parseStars(await response.json());
+  const stars = parseStars(await response.json()).filter(star => includeShopStars || !star.shopId);
   if (previous) return nextStar(stars, previous);
   if (!selectStar(stars)) return null;
   const position = await locateForStar();

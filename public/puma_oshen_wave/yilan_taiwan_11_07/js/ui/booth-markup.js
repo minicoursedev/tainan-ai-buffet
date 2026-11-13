@@ -45,9 +45,9 @@ function workHtml(w) {
     : `<li><span class="bo-work">${inner}</span></li>`;
 }
 
-export function boothHtml(booth, store) {
+export function boothHtml(booth, store, { hideOshenStores = false } = {}) {
   const storeUrl = safeUrl(store?.url);
-  const shopUrl = /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(store?.oshenStoreId || '')
+  const shopUrl = !hideOshenStores && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(store?.oshenStoreId || '')
     ? `/puma_oshen_wave/shops/${encodeURIComponent(store.oshenStoreId)}/` : '';
   const linksFor = social => [['fb', 'Facebook', 'facebook.png'], ['threads', 'Threads', 'threads.svg'], ['ig', 'Instagram', 'instagram.svg'], ['line', '官方 LINE', 'line.svg'], ['web', '官網', 'website.svg']]
     .map(([key, label, icon]) => {

@@ -1,5 +1,6 @@
 ---
 import { designers, designerRoot, designerPath } from '../lib/yilan-market';
+import { hideOshenStores } from '../lib/oshen-store-visibility.mjs';
 import { boothHtml } from '../../public/puma_oshen_wave/yilan_taiwan_11_07/js/ui/booth-markup.js';
 import market from '../../public/puma_oshen_wave/yilan_taiwan_11_07.json';
 interface Props { designerId?: string }
@@ -9,7 +10,7 @@ const description = designer ? `認識${designer.name}，查看作品與官方�
 const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, Astro.site).href;
 ---
 <!doctype html>
-<html lang="zh-Hant-TW">
+<html lang="zh-Hant-TW" data-oshen-stores-hidden={hideOshenStores ? '' : undefined}>
 <head>
 <meta charset="utf-8">
 <script is:inline defer src="/assets/analytics.js?v=20261019-content-group"></script>
@@ -80,7 +81,7 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
   </main>
 
   <main class="list-mode" id="stage-list"><div class="ls-wrap">
-  {designer ? <section aria-label={designer.name} set:html={boothHtml(designer.booth, designer.store).replaceAll('id="booth-title"', 'id="static-designer-title"')} /> : <><h1 class="ls-title">攤位列表</h1><div class="ls-grid">{designers.map(profile => <article class="lc"><div class="lc-heading"><h3 class="lc-name"><a class="lc-open" href={designerPath(profile.id)}>{profile.name}</a></h3></div><p class="lc-owner">攤商 {profile.name}</p><p class="lc-zone">宜蘭暖流市集・攤位</p><a class="btn lc-go" href={designerPath(profile.id)}>看攤位</a></article>)}</div></>}
+  {designer ? <section aria-label={designer.name} set:html={boothHtml(designer.booth, designer.store, { hideOshenStores }).replaceAll('id="booth-title"', 'id="static-designer-title"')} /> : <><h1 class="ls-title">攤位列表</h1><div class="ls-grid">{designers.map(profile => <article class="lc"><div class="lc-heading"><h3 class="lc-name"><a class="lc-open" href={designerPath(profile.id)}>{profile.name}</a></h3></div><p class="lc-owner">攤商 {profile.name}</p><p class="lc-zone">宜蘭暖流市集・攤位</p><a class="btn lc-go" href={designerPath(profile.id)}>看攤位</a></article>)}</div></>}
   </div></main>
   <main class="map-mode" id="stage-map" hidden></main>
   <footer class="app-footer">
@@ -114,6 +115,6 @@ const canonical = new URL(designer ? designerPath(designer.id) : designerRoot, A
   </div>
 </dialog>
 
-<script is:inline type="module" src="/puma_oshen_wave/yilan_taiwan_11_07/js/app.js?v=20261106-booth-share"></script>
+<script is:inline type="module" src="/puma_oshen_wave/yilan_taiwan_11_07/js/app.js?v=20261113-hide-oshen-stores"></script>
 </body>
 </html>

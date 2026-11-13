@@ -1,5 +1,6 @@
 ---
 import { categories, categoryPath, type Store } from '../lib/oshen-stores';
+import { hideOshenStores } from '../lib/oshen-store-visibility.mjs';
 interface Props { store?: Store; category?: string }
 const { store, category } = Astro.props;
 const title = store ? `${store.name}｜${store.category}｜我們的洋流地圖` : category ? `${category}店家｜我們的洋流地圖` : '我們的洋流地圖｜探索在地小店，尋找各種服務';
@@ -7,7 +8,7 @@ const description = store ? `${store.name}，${store.category}，位於${store.a
 const canonical = new URL(store ? `/puma_oshen_wave/shops/${encodeURIComponent(store.id)}/` : category ? categoryPath(category) : '/puma_oshen_wave/', Astro.site).href;
 ---
 <!doctype html>
-<html lang="zh-Hant">
+<html lang="zh-Hant" data-oshen-stores-hidden={hideOshenStores ? '' : undefined}>
 <head>
 <script is:inline defer src="/assets/analytics.js?v=20261019-content-group"></script>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +28,7 @@ const canonical = new URL(store ? `/puma_oshen_wave/shops/${encodeURIComponent(s
 <meta property="og:image:alt" content="我們的洋流地圖 — 洋流帶路，讓支持成為日常">
 <link rel="stylesheet" href="/puma_oshen_wave/vendor/leaflet/leaflet.css"><script is:inline defer src="/puma_oshen_wave/vendor/leaflet/leaflet.js"></script>
 <link rel="stylesheet" href="/puma_oshen_wave/vendor/leaflet-markercluster/MarkerCluster.css"><script is:inline defer src="/puma_oshen_wave/vendor/leaflet-markercluster/leaflet.markercluster.js"></script>
-<link rel="stylesheet" href="/puma_oshen_wave/style.css?v=20261031-shop-search"><script is:inline type="module" src="/puma_oshen_wave/app.js?v=20261106-shop-share"></script>
+<link rel="stylesheet" href="/puma_oshen_wave/style.css?v=20261031-shop-search"><script is:inline type="module" src="/puma_oshen_wave/app.js?v=20261113-store-visibility"></script>
 </head>
 <body>
 
@@ -54,19 +55,24 @@ const canonical = new URL(store ? `/puma_oshen_wave/shops/${encodeURIComponent(s
   <a class="finder-marquee" href="https://forms.gle/1M9SYBFmCK5YQ57w7">
     <div class="marquee-window"><h2 id="finder-title" class="marquee-track"><span>來吧!來吧！讓我們知道要收錄你！</span><span aria-hidden="true">來吧!來吧！讓我們知道要收錄你！</span></h2></div>
   </a>
-  <button id="category-toggle" class="mobile-control" type="button" aria-expanded="false" aria-controls="category-filters">店別：{category || store?.category || '全部店家'} ▾</button>
-  <div class="controls"><div id="category-filters" class="category-filters" role="group" aria-label="店別篩選">{['', ...categories].map(label => <a class="category-button" role="button" aria-pressed={(category || store?.category || '') === label} href={label ? categoryPath(label) : '/puma_oshen_wave/'} aria-current={(category || store?.category || '') === label ? 'page' : undefined}>{label || '全部店家'}</a>)}</div></div>
+  {!hideOshenStores && <>
+    <button id="category-toggle" class="mobile-control" type="button" aria-expanded="false" aria-controls="category-filters">店別：{category || store?.category || '全部店家'} ▾</button>
+    <div class="controls"><div id="category-filters" class="category-filters" role="group" aria-label="店別篩選">{['', ...categories].map(label => <a class="category-button" role="button" aria-pressed={(category || store?.category || '') === label} href={label ? categoryPath(label) : '/puma_oshen_wave/'} aria-current={(category || store?.category || '') === label ? 'page' : undefined}>{label || '全部店家'}</a>)}</div></div>
+  </>}
 </section>
 <section class="map-workspace" id="map-area" aria-label="店家清單與地圖">
   <div class="mobile-views" role="group" aria-label="瀏覽方式"><button type="button" id="list-view" aria-pressed="true">店家清單</button><button type="button" id="map-view" aria-pressed="false">查看地圖</button></div>
   <aside class="shop-panel">
-    <form id="shop-search" role="search" aria-label="搜尋商店名稱">
+    {!hideOshenStores && <form id="shop-search" role="search" aria-label="搜尋商店名稱">
       <input id="shop-search-input" type="search" placeholder="輸入店名關鍵字" aria-label="商店名稱" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="shop-search-suggestions" autocomplete="off" enterkeyhint="search" disabled>
       <button type="submit" disabled>搜尋</button>
       <ul id="shop-search-suggestions" role="listbox" aria-label="店名建議" hidden></ul>
       <span class="shop-search-status" role="status"></span>
-    </form>
-    <section id="shop-detail" class="shop-detail" hidden={!store} aria-label="選定店家資訊"><slot name="detail" /></section><div id="shop-list" aria-live="polite" hidden={!!store}><slot /></div>
+    </form>}
+    <section id="shop-detail" class="shop-detail" hidden={!store} aria-label="選定店家資訊"><slot name="detail" /></section>
+    <div id="shop-list" aria-live="polite" hidden={!!store}>
+      {hideOshenStores ? <div class="empty-state"><strong>洋流店家暫時隱藏</strong></div> : <slot />}
+    </div>
   </aside>
   <div class="map-column"><div class="map-frame"><div class="map-bar"><div><span class="location-dot" aria-hidden="true"></span><strong id="location-name">台南火車站</strong><span class="map-label">OPENSTREETMAP</span></div><button id="home-map" type="button">我的位置</button></div><div id="lucky-star-message" class="lucky-star-message" hidden><img src="/puma_oshen_wave/assets/lucky-star.png" width="28" height="28" alt=""><p id="lucky-star-text" role="status"></p><button id="close-star" type="button" aria-label="關閉幸運星訊息">×</button></div><div class="map-canvas"><div id="all-shops-map" hidden aria-label="所有店家位置"></div><button id="lucky-star" type="button" disabled title="幸運星" aria-label="幸運星"><img src="/puma_oshen_wave/assets/lucky-star.png" width="34" height="34" alt=""></button></div><p id="map-status" role="status" hidden></p></div></div>
 </section>

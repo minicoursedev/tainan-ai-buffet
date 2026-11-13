@@ -71,11 +71,13 @@ test('profile links and routes stay within the Yilan market', () => {
   assert.deepEqual(resolveDesignerRoute(new URL(path, 'https://minicourse.dev'), {boot:true}), {mode:'designer', target:id});
   assert.deepEqual(resolveDesignerRoute(new URL(`/puma_oshen_wave/yilan_taiwan_11_07/#/map/${id}`, 'https://minicourse.dev'), {boot:true}), {mode:'map', target:id, then:undefined});
 });
-test('map buttons open the mapped Oshen shop page only when a shop exists', () => {
+test('map buttons link to active Oshen shops while the directory is visible', () => {
   const shops = JSON.parse(readFileSync(new URL('../public/puma_oshen_wave/stores.json', import.meta.url))).stores;
   for (const designer of data.designers) {
     const {booth, store} = record(designer.id);
     const html = boothHtml(booth, store);
+    const hiddenHtml = boothHtml(booth, store, { hideOshenStores: true });
+    assert.doesNotMatch(hiddenHtml, /看看地圖|href="\/puma_oshen_wave\/shops\//);
     if (designer.oshenStoreId) {
       assert.ok(shops.some(shop => shop.id === designer.oshenStoreId && shop.disabled !== true), `${designer.name} must have an active Oshen shop`);
       assert.ok(html.includes(`href="/puma_oshen_wave/shops/${designer.oshenStoreId}/">看看地圖</a>`));
