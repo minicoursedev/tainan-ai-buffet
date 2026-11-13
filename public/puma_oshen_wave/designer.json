@@ -7117,6 +7117,85 @@
         "note": "使用者指定為此設計師 Logo",
         "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1569854408479473755/902437467_2921305711564034_1697842072965733958_n.png?ex=6af4f859&is=6af3a6d9&hm=4779378dc3bbfcb2d6b9f7b83df011ad1f23d0a419440c22712f33d902e0a54c&"
       }
+    },
+    {
+      "id": "boyealai",
+      "name": "賴 柏燁",
+      "description": "",
+      "category": "設計師",
+      "disabled": false,
+      "verification": true,
+      "productImages": [
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/boyealai/1.webp?v=8de9d5693f31e18d",
+          "alt": "台北靠 3 活動直式旗幟設計",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/boyealai/1.webp?v=8de9d5693f31e18d",
+          "checkedAt": "2026-11-13",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-57535bc6516a42979e9a29cc80570d75",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570736540890693712/877622098_18637124020048716_911464213939304188_n.png?ex=6af82de6&is=6af6dc66&hm=be872e88fd546938fa8f607af653bf0e6a34070286c8169a3503708e9054ac35&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/boyealai/2.webp?v=8d8f32cc1dc472b3",
+          "alt": "HEART 與台北靠 3 活動直式旗幟設計",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/boyealai/2.webp?v=8d8f32cc1dc472b3",
+          "checkedAt": "2026-11-13",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-ff56efe4deab4bd59ab85d1a9552ca70",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570736541347749928/870397914_18637124002048716_7102601013839009609_n.png?ex=6af82de6&is=6af6dc66&hm=f8a045328f64dcde9734abfaf393aa5b92231fda665ca2d0033196d18d2d1029&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/boyealai/3.webp?v=b78294dd75818742",
+          "alt": "台北靠 3 活動海報設計",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/boyealai/3.webp?v=b78294dd75818742",
+          "checkedAt": "2026-11-13",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-f673c2a07ba5495fba674c053ccee353",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570736541871898694/872488053_18637124005048716_3879133751954501333_n.png?ex=6af82de6&is=6af6dc66&hm=c1b6c2b765e80d657c65d07829fe12747fae7103002dddfdfeb91693542ed137&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/boyealai/4.webp?v=9f4f1350c0f1d322",
+          "alt": "活動視覺貼紙設計組合",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/boyealai/4.webp?v=9f4f1350c0f1d322",
+          "checkedAt": "2026-11-13",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-c3ac639ae7634aa1a977fa17da6eed1c",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570736542308372510/874408721_18637124023048716_7992383744677691546_n.png?ex=6af82de6&is=6af6dc66&hm=3a9a11efb84adabcc97ee59de31d2c55d11c653759d69532dcf41eefe1fc7593&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/boyealai/5.webp?v=7d9fff518a6fff8a",
+          "alt": "台北與新北活動直式旗幟設計",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/boyealai/5.webp?v=7d9fff518a6fff8a",
+          "checkedAt": "2026-11-13",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-24857c26ca734cf7a31d591f3e832314",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570736542790590535/881509943_18637884751048716_1843395733519237470_n.png?ex=6af82de6&is=6af6dc66&hm=011daa4c4860fa4e3cb20f50d74b44e8e68e045c21f6bc17dc83eee45a0fd9c8&"
+        },
+        {
+          "url": "https://minicourse.dev/puma_oshen_wave/assets/boyealai/6.webp?v=ec4818eded38738f",
+          "alt": "新北活動視覺社群頭像設計",
+          "source": "https://minicourse.dev/puma_oshen_wave/assets/boyealai/6.webp?v=ec4818eded38738f",
+          "checkedAt": "2026-11-13",
+          "note": "使用者提供，指定為此設計師作品照片",
+          "id": "work-f875f993ca7c4cc38b4fd9ff8da275e0",
+          "originalUrl": "https://cdn.discordapp.com/attachments/1553247600935833680/1570736543092572261/884247961_29689472643970855_8192739097609952822_n.png?ex=6af82de6&is=6af6dc66&hm=5a91081adf8dc5f6e033986a9530ad09914b76b21ec2c030940fa8df21f6a948&"
+        }
+      ],
+      "social": {
+        "fb": "https://facebook.com/boyealai",
+        "threads": "https://www.threads.com/@boyealai",
+        "ig": "https://instagram.com/boyealai",
+        "web": "https://www.behance.net/boyealai?locale=zh_TW"
+      },
+      "logo": {
+        "url": "https://minicourse.dev/puma_oshen_wave/assets/boyealai/logo.webp?v=4091205775472b21",
+        "source": "https://www.threads.com/@boyealai",
+        "platform": "threads",
+        "status": "verified",
+        "checkedAt": "2026-11-13",
+        "note": "官方帳號 og:url 相符；個人頭像 CDN 路徑；賴柏燁 (@boyealai) • Threads, Say more；相同帳號公開資料 hd_profile_pic_versions",
+        "originalUrl": "https://instagram.fkhh1-1.fna.fbcdn.net/v/t51.2885-19/410197064_1077534463394574_4189088733881861456_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fkhh1-1.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2gG6YApXgVqeAcY0eSaSXNoEq4JwN0NNEX0SgOfp0LDV2z_kQGF5pG--QjRa0Ec8U3c&_nc_ohc=jIu4f8xv76sQ7kNvwGiVLFh&_nc_gid=DX-hZFABL2eVxiF-s-r5Bw&edm=APs17CUBAAAA&ccb=7-5&_nc_ct=RQAsPBUCFQIAAAA&oh=00_AQQAyO4qa8-Wi7OBEdPdc46V03RZNgyY8MXD2u66HZ9Piw&oe=6AFCBCA3&_nc_sid=10d13b"
+      }
     }
   ]
 }
