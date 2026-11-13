@@ -7585,6 +7585,49 @@
       },
       "coordinateSource": "https://www.openstreetmap.org/node/11060242484",
       "coordinateNote": "OpenStreetMap 門牌節點列臺南市安平區慶平路567號，與店家公開地址相符。"
+    },
+    {
+      "id": "little-but-who-tainan",
+      "verification": false,
+      "category": "甜點飲料",
+      "giftStatus": "可能有小物",
+      "name": "台南小伯虎｜可麗露專賣",
+      "address": "台南市南區南寧街200號",
+      "social": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/but_who2f.tnn/",
+        "threads": "https://www.threads.com/@but_who2f.tnn"
+      },
+      "sources": [
+        "https://www.threads.com/@but_who2f.tnn",
+        "https://www.openstreetmap.org/node/11061012683"
+      ],
+      "verifiedAt": "2026-11-13",
+      "verificationNote": "使用者指定 Threads 帳號收錄；帳號公開簡介列店名、地址與營業時間，頁面連結指向同一 Instagram 帳號。",
+      "openingHours": {
+        "status": "verified",
+        "text": "週四至週一 12:30–17:30；期間限定營業至 11 月 22 日，請以店家最新公告為準。",
+        "sources": [
+          "https://www.threads.com/@but_who2f.tnn"
+        ],
+        "checkedAt": "2026-11-13",
+        "auditNote": "官方帳號簡介列週四至週一及期間限定至 11/22，未標示年份。"
+      },
+      "shopPhoto": {
+        "url": "",
+        "source": "https://www.threads.com/@but_who2f.tnn",
+        "platform": "threads",
+        "status": "unavailable",
+        "checkedAt": "2026-11-13",
+        "note": "Threads 公開分享圖片為 640 × 640，但尚無法確認是個人檔案頭像；官方 Instagram 可確認的個人頭像為 150 × 150，尚未取得可確認且原生長邊達 256px 的頭像。"
+      },
+      "disabled": false,
+      "latlng": {
+        "lat": 22.9852081,
+        "lng": 120.196527
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/11061012683",
+      "coordinateNote": "OpenStreetMap 門牌節點列臺南市南區南寧街200號，與官方帳號地址相符。"
     }
   ],
   "pendingStores": []
